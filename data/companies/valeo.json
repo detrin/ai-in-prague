@@ -1,0 +1,127 @@
+{
+  "id": "valeo",
+  "name": "Valeo",
+  "category": "company",
+  "scraped_at": "2026-03-28T22:35:00Z",
+
+  "overview": {
+    "description": "French automotive supplier with a major Prague R&D centre focused on ADAS, autonomous driving, and AI",
+    "description_long": "Valeo is a global French automotive technology company and Tier-1 supplier to automakers. Its Prague R&D centre (~700 employees) is one of the group's most important sites, specialising in the development and validation of Advanced Driver Assistance Systems (ADAS), autonomous driving (up to Level 4), and e-thermal systems for electric vehicles. The site works across all driving assistance sensor types — ultrasonic, camera, radar, and LiDAR — and develops functions such as automatic emergency braking, lane keeping, adaptive cruise control, and automatic parking. In 2017 Valeo launched valeo.ai, a dedicated AI research centre (primarily Paris-based) focused on scene understanding, efficient learning, and dependable models for autonomous vehicles, with academic links to CTU Prague and INRIA.",
+    "tagline": "Driving change Together",
+    "website": "https://www.valeo.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["cv", "ml_ops", "robotics", "automation"],
+    "industries_served": ["automotive", "transportation"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1923,
+    "founders": [],
+    "origin_story": "Valeo was founded in France in 1923 as a brake-lining manufacturer. It has grown into a global automotive Tier-1 supplier. The Czech Republic presence began in 1995; the Prague R&D centre grew from a small office to a 700-person, 4-building campus over 20+ years, expanding from thermal systems into ADAS and AI.",
+    "key_milestones": [
+      {"year": 1923, "event": "Founded in France as a brake components manufacturer"},
+      {"year": 1995, "event": "Established first operations in the Czech Republic"},
+      {"year": 2002, "event": "Prague R&D centre formally launched (celebrated 20th anniversary in 2022/2023)"},
+      {"year": 2017, "event": "Launched valeo.ai, an AI research centre for automotive applications"},
+      {"year": 2020, "event": "Valeo SCALA LiDAR equips world's first Level 3 autonomous production car (Honda Legend)"},
+      {"year": 2022, "event": "Czech Minister of Transport opens new building at Prague campus on 20th anniversary"},
+      {"year": 2023, "event": "Prague site employs ~700 people across 4 buildings; 70+ patents filed"},
+      {"year": 2024, "event": "Named LexisNexis Top 100 Global Innovators (2025/2026 listing)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": 700,
+    "employee_source": "company_website",
+    "office_count": 5
+  },
+
+  "offices": [
+    {"city": "Paris", "country": "FR", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Rakovník", "country": "CZ", "is_hq": false},
+    {"city": "Milovice", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "FR0013176526",
+    "stock_exchange": "Euronext Paris",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 23800000000,
+    "revenue_source": "wikipedia_annual_report_2023",
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Christophe Périllat", "role": "CEO", "source": "company_website"},
+      {"name": "Leoš Dvořák", "role": "Valeo Prague Site Director", "source": "company_website"},
+      {"name": "Edgar Martinez-Granada", "role": "R&D Manager – ADAS, Valeo Prague", "source": "company_website"},
+      {"name": "Joachim Mathes", "role": "R&D Director, Comfort & Driving Assistance Business Unit", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Lenka Topinková", "role": "R&D Process Engineer, Valeo Prague", "source": "company_website"},
+      {"name": "Jiří Vyroubal", "role": "Head of E-Thermal Systems Testing, Valeo Prague", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://valeo.wd3.myworkdayjobs.com/en-EN/valeo_jobs",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Software Engineer – ADAS", "department": "engineering", "location": "Prague"},
+      {"title": "Systems Engineer – Autonomous Driving", "department": "engineering", "location": "Prague"},
+      {"title": "Validation Engineer – LiDAR/Radar", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["c++", "python", "matlab", "simulink", "ros", "deep learning", "tensorflow"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Valeo-Reviews-E9924.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "LexisNexis Top 100 Global Innovators 2026",
+      "Leading French patent applicant at European Patent Office (2026)",
+      "Renault Group Special Innovation Award (2026)"
+    ],
+    "notable_clients": ["Honda", "BMW", "Mercedes-Benz", "Volkswagen", "Renault"],
+    "customer_count": null,
+    "partnerships": ["CTU Prague (academic)", "INRIA (AI research)", "AD Tech Services initiative"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Valeo Prague develops hardware-integrated ADAS systems (LiDAR, radar, cameras) and physical automotive components. Its core value is in sensor hardware design, embedded software validation, and real-world testing infrastructure — capabilities that require physical engineering and certification processes that foundation models cannot replicate. The 70+ patents and proprietary test track in Milovice reinforce the hardware and IP moat.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The ADAS and autonomous driving market is real and growing, but highly competitive, with NVIDIA (Orin SoC), Mobileye, Bosch, and Continental all pursuing similar positions. EV market slowdown in 2024-2025 has pressured automotive suppliers' R&D budgets. Valeo's diversified product portfolio and OEM customer base mitigate single-point exposure.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Valeo is a publicly traded global enterprise on Euronext Paris (CAC Next 20) with €22 billion annual revenue. No funding risk applies.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Valeo is a large, profitable, publicly traded automotive supplier with deep hardware IP, 700+ engineers in Prague, and a 30-year Czech presence. Its physical sensor and ADAS system work is resilient to AGI commoditization, and its enterprise scale provides stability despite cyclical automotive market pressures."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "wikipedia"],
+    "fields_missing": ["glassdoor_rating", "open_roles_count", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "Valeo Prague is the Czech R&D arm of the French automotive giant Valeo S.A. The Prague site (~700 people) focuses on ADAS, autonomous driving, and e-thermal systems. Employee count of 700 is Prague-site-specific (from 2023 article); total Czech Republic headcount is 4,800+ across 5 locations. Revenue converted from €22.04B at ~1.08 EUR/USD. The valeo.ai AI research centre (est. 2017) is primarily Paris-based but academically linked to CTU Prague. Glassdoor was blocked (anti-bot). Workday careers portal was down at time of scraping. Stock ticker shown as ISIN as Euronext ticker symbol is 'FR' prefix."
+  }
+}
