@@ -1,0 +1,137 @@
+{
+  "id": "emplifi",
+  "name": "Emplifi",
+  "category": "company",
+  "scraped_at": "2026-03-28T16:07:00Z",
+
+  "overview": {
+    "description": "AI-powered social media marketing, commerce, and customer care platform for enterprises",
+    "description_long": "Emplifi is a unified social customer experience (CX) platform that combines social media marketing, social commerce, and customer care. Born from the merger of Prague-based Socialbakers (social analytics pioneer founded 2008) and Astute (customer engagement software), Emplifi serves 20,000+ global brands with 50+ AI products and features built in-house. The platform manages 4 billion CX interactions per month across social marketing, commerce, and care channels.",
+    "tagline": "Bridge social marketing and customer experience with AI",
+    "website": "https://emplifi.io",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "recommendation", "generative_ai"],
+    "industries_served": ["retail", "cpg", "restaurants", "travel", "media", "agencies", "education"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2021,
+    "founders": ["Jan Rezab"],
+    "origin_story": "Emplifi was created in June 2021 when customer engagement software company Astute acquired Prague-based social analytics pioneer Socialbakers (founded 2008 by Jan Rezab) and merged both entities under a new brand. The name combines 'empathy' and 'amplification.' Socialbakers was one of the first major social media analytics companies, founded in Prague, Czech Republic, and raised $34M before the acquisition. In 2022, Emplifi achieved unicorn status at a valuation exceeding $1 billion.",
+    "key_milestones": [
+      {"year": 2008, "event": "Socialbakers founded in Prague, Czech Republic by Jan Rezab"},
+      {"year": 2014, "event": "Socialbakers acquires EdgeRank Checker for Facebook analytics"},
+      {"year": 2016, "event": "Socialbakers reaches 350 employees and ~$30-50M ARR; $34M total raised"},
+      {"year": 2020, "event": "Astute acquires Socialbakers"},
+      {"year": 2021, "event": "Combined entity rebrands as Emplifi; acquires video-streaming service Go Instore"},
+      {"year": 2022, "event": "Emplifi achieves unicorn status with valuation exceeding $1 billion"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 15
+  },
+
+  "offices": [
+    {"city": "Columbus", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "Pilsen", "country": "CZ", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Sydney", "country": "AU", "is_hq": false},
+    {"city": "Toronto", "country": "CA", "is_hq": false},
+    {"city": "Dubai", "country": "AE", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2020-09", "type": "Acquisition", "amount_usd": null, "lead_investor": "Astute Solutions"},
+      {"date": "2022-01", "type": "Growth", "amount_usd": null, "lead_investor": null}
+    ],
+    "investors": ["Astute Solutions"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ohad Hecht", "role": "CEO", "source": "company_website"},
+      {"name": "Peter Bennfors", "role": "CFO", "source": "company_website"},
+      {"name": "Jennifer Brooks", "role": "CRO", "source": "company_website"},
+      {"name": "Susan Ganeshan", "role": "CMO", "source": "company_website"},
+      {"name": "Todd McCaslin", "role": "CTO", "source": "company_website"},
+      {"name": "Dagmar Sevcikova", "role": "Chief People & Diversity Officer", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Jan Rezab", "role": "Co-founder of predecessor Socialbakers (Prague)", "source": "wikipedia"},
+      {"name": "Yuval Ben-Itzhak", "role": "Former President (ex-Socialbakers CEO)", "source": "wikipedia"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://emplifi.io/careers/",
+    "open_roles_count": 21,
+    "open_roles": [
+      {"title": "Backend Engineer / Parsers Team", "department": "engineering", "location": "Prague / Pilsen / Brno"},
+      {"title": "Data Analyst", "department": "data", "location": "Prague / Pilsen / Brno"},
+      {"title": "Data Engineer", "department": "engineering", "location": "Prague / Pilsen / Brno"},
+      {"title": "Director Engineering", "department": "engineering", "location": "Prague / Brno / Pilsen"},
+      {"title": "Engineering Manager", "department": "engineering", "location": "Prague / Brno / Pilsen"},
+      {"title": "Research Engineer", "department": "research", "location": "Prague / Pilsen / Brno"},
+      {"title": "Senior Software Engineer R&R", "department": "engineering", "location": "Prague / Brno / Pilsen"},
+      {"title": "Account Executive - APAC", "department": "sales", "location": "Sydney"},
+      {"title": "Account Executive - North America", "department": "sales", "location": "Toronto"},
+      {"title": "IT Operations Specialist", "department": "it", "location": "Prague"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Emplifi-Reviews-E9177765.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Toyota", "Benefit Cosmetics", "Kimpton Hotels", "Stanley", "Freshpet", "Hardee's", "Bath & Body Works", "Aeromexico"],
+    "customer_count": 20000,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Emplifi has 50+ in-house AI features and 30+ years of proprietary social media benchmark data across 20,000+ brands — a meaningful data moat. However, Meta, TikTok, and Google continuously improve their native analytics dashboards, and generative AI is commoditizing social content creation. The multi-platform unified view and customer care workflows provide some lock-in, but the core analytics layer faces commoditization pressure.",
+    "market_risk": "low",
+    "market_risk_rationale": "Social media marketing and customer experience is a large, proven market. Serving 20,000+ global brands with 4 billion CX interactions per month demonstrates clear PMF. Market is growing as brands increase social commerce and AI-powered customer care investments.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Emplifi achieved unicorn status in 2022 at >$1B valuation. Large enterprise customer base (20,000+ brands) with subscription revenue provides stable cash flows. Company is well-capitalized for continued product development.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong enterprise customer base and market position, but faces meaningful competition from native analytics tools of major social platforms (Meta, TikTok, Google). The pivot to unified social CX and in-house AI development (50+ features) is a sound defensive strategy, but platform dependency remains a structural risk."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "wikipedia", "greenhouse_api"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "tech_stack"],
+    "needs_review": false,
+    "notes": "Emplifi's Prague connection is via predecessor Socialbakers (founded 2008 in Prague). Prague remains a major engineering hub with multiple open engineering/AI roles. HQ is Columbus, Ohio. Unicorn status achieved 2022. Glassdoor blocked automated access. Tech stack not easily discoverable from public job listings."
+  }
+}
