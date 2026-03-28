@@ -1,0 +1,111 @@
+{
+  "id": "roboagelab",
+  "name": "Laboratoř robotických agentů (RoboAgeLab)",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Multi-agent robotics research lab at FIT CTU Prague specialising in multi-agent pathfinding and collective robot motion planning",
+    "description_long": "Robotic Agents Laboratory (RoboAgeLab) is a research group at the Faculty of Information Technology, Czech Technical University in Prague. The lab focuses on intelligent decision-making of robotic agents in multi-agent scenarios, covering the full planning-to-execution pipeline: from abstract classical planning through motion planning to physical execution with real multi-robot systems. Research is grounded in symbolic AI — constraint satisfaction, heuristic search, SAT/SMT-based compilation, and classical/motion planning — with emphasis on explainable and safe AI. Application domains include swarm quadcopter pathfinding (Crazyflie drones), collective construction in Minecraft, and OZOBOT Evo robot swarms.",
+    "tagline": "Intelligent multi-agent robotics through symbolic AI",
+    "website": "https://fit.cvut.cz/en/science-and-research/facilities/laboratories/17236-robotic-agents-laboratory-roboagelab",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["robotics", "ml_ops", "automation"],
+    "industries_served": ["research", "education"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2019,
+    "founders": ["Pavel Surynek"],
+    "origin_story": "Established within the Department of Applied Mathematics at FIT CTU Prague, growing from Pavel Surynek's multi-agent pathfinding research funded by the Czech Science Foundation.",
+    "key_milestones": [
+      {"year": 2019, "event": "First Czech Science Foundation project launched: Intelligent Algorithms for Generalized Variants of Multi-Agent Path Finding (2019–2021)"},
+      {"year": 2020, "event": "Paper on Multi-Agent Path Finding with Mutex Propagation published at ICAPS 2020"},
+      {"year": 2021, "event": "ESO-MAPF platform paper published at AAAI 2021"},
+      {"year": 2022, "event": "Second Czech Science Foundation project launched: logicMOVE (2022–2024)"},
+      {"year": 2024, "event": "FIT CTU student awarded Josef Hlávka Prize 2024 for outstanding results in collective robotics AI"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 4,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (FIT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Pavel Surynek", "role": "Head of Laboratory / Principal Investigator", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Vojtěch Rybář", "role": "PhD Student", "source": "company_website"},
+      {"name": "Kristýna Janovská", "role": "Student Researcher", "source": "company_website"},
+      {"name": "Martin Rameš", "role": "Student Researcher", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://fit.cvut.cz/en/science-and-research/facilities/laboratories/17236-robotic-agents-laboratory-roboagelab",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "sat_solvers", "ros"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Josef Hlávka Prize 2024 (student researcher)"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Czech Science Foundation (GAČR)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at a public university; not a commercial entity competing in a product market.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research lab funded by institutional grants (Czech Science Foundation); not subject to commercial market risk.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Consistently funded through Czech Science Foundation (GAČR) grants, with two consecutive multi-year projects (2019–2021, 2022–2024). Institutional backing from CTU/FIT provides stable operating base.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "As a university research group within FIT CTU, commercial risk metrics are not applicable. The lab has stable academic funding and produces peer-reviewed publications at top AI venues (AAAI, ICAPS, IJCAI)."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "duckduckgo_search"],
+    "fields_missing": ["founded_year_exact", "funding_total_usd", "open_roles_count"],
+    "needs_review": false,
+    "notes": "Research group within the Department of Applied Mathematics, Faculty of Information Technology, Czech Technical University in Prague. PI is prof. RNDr. Pavel Surynek, Ph.D., a leading expert in multi-agent pathfinding (MAPF) with publications at AAAI, ICAPS, and IJCAI. Lab room: TH:A-1346, Thákurova 7, Prague 6. Founded year estimated as 2019 based on first GAČR project start date."
+  }
+}
