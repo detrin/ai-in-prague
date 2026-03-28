@@ -1,0 +1,125 @@
+{
+  "id": "mild-blue",
+  "name": "Mild Blue",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Medical AI startup building algorithms and digital tools for Czech healthcare",
+    "description_long": "Mild Blue builds AI-powered software for hospitals and clinical laboratories. Their flagship product slp.blue® modernises lab documentation and quality management for 45+ hospitals; other tools include HealthWarden (remote patient monitoring), TX Matching (kidney transplant optimisation), Breviary (drug dosage calculator), and Medical OCR. The team is highly technical — all four co-founders have mathematics backgrounds from Czech Technical University (ČVUT).",
+    "tagline": "We create algorithms that save lives",
+    "website": "https://mild.blue",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["ml_ops", "cv", "automation", "other"],
+    "industries_served": ["healthcare", "laboratories", "medical_devices"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2015,
+    "founders": ["Tomáš Kouřim", "Jan Kubant", "Marek Polák", "Lukáš Forst"],
+    "origin_story": "Founded in March 2015 by four mathematicians from ČVUT (Czech Technical University). Focused exclusively on healthcare AI — building tools that help doctors and lab staff work smarter rather than optimising ads or insurance.",
+    "key_milestones": [
+      {"year": 2015, "event": "Founded in Plzeň (legally registered 2015-03-09)"},
+      {"year": 2020, "event": "GitHub organisation created; team begins scaling open-source medical tooling"},
+      {"year": 2021, "event": "TX Matching tool deployed at IKEM (leading Czech transplant hospital) and expanded to Israel and Austria"},
+      {"year": 2024, "event": "slp.blue® trusted by ~100 laboratories in CZ and abroad; exhibiting at major clinical biochemistry conferences"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 21,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true, "notes": "Operational HQ near Anděl metro (TJ Sokol building, Smíchov)"},
+    {"city": "Plzeň", "country": "CZ", "is_hq": false, "notes": "Registered legal address (Jablonského 600/3)"}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš Kouřim", "role": "CEO & co-founder", "source": "company_website"},
+      {"name": "Jan Kubant", "role": "CTO & co-founder", "source": "company_website"},
+      {"name": "Marek Polák", "role": "Software Architect & co-founder", "source": "company_website"},
+      {"name": "Lukáš Forst", "role": "Head of Security & co-founder", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Jan Skála", "role": "Backend Lead", "source": "company_website"},
+      {"name": "Iva Vlčková", "role": "Head of Operations", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://jobs.mild.blue",
+    "open_roles_count": 2,
+    "open_roles": [
+      {"title": "Business Developer", "department": "business", "location": "Prague"},
+      {"title": "Frontend Developer", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["react", "typescript", "react-native", "python"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Mild-Blue-EI_IE7208709.11,20.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [
+      "Všeobecná fakultní nemocnice v Praze",
+      "Fakultní nemocnice Ostrava",
+      "FN Královské Vinohrady",
+      "Fakultní Thomayerova nemocnice",
+      "IKEM (Institut klinické a experimentální medicíny)",
+      "Agel",
+      "Nemocnice Pardubického kraje",
+      "Fakultná nemocnica Trnava (Slovakia)"
+    ],
+    "customer_count": 51,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Deep domain specialisation in Czech/Slovak clinical laboratory workflows with ISO-compliant documentation, EHR integrations, and multi-country regulatory compliance. Foundation models cannot easily replicate these domain-specific integrations and the trust built with 45+ hospital partners over a decade.",
+    "market_risk": "low",
+    "market_risk_rationale": "Real, paying customers in a regulated market with strong structural demand (Czech eHealth mandates, EU healthcare digitisation). 45 hospitals and ~100 labs represent proven PMF and recurring subscription revenue.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No known external funding — appears bootstrapped. With 21 staff and revenue from 45+ hospitals, the company likely covers costs, but limited war chest constrains international expansion speed. Jobs page indicates planned westward European expansion.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong domain moat (regulatory, integration, trust with Czech healthcare), proven paying customer base, and a decade of institutional knowledge. Bootstrapped nature is a mild constraint but the niche is defensible. Low AGI displacement risk due to regulatory and integration complexity."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "czech_ares_registry", "github_api", "linkedin", "jobs_page"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "glassdoor_review_count"],
+    "needs_review": false,
+    "notes": "Company legally registered in Plzeň but operationally based in Prague (Smíchov/Anděl). 21 people on team page; jobs page states ~12 full-time core staff. GitHub org created 2020; Czech ARES confirms founding date 2015-03-09."
+  }
+}
