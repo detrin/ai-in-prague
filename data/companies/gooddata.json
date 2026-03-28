@@ -1,0 +1,130 @@
+{
+  "id": "gooddata",
+  "name": "GoodData",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-native decision intelligence platform for embedded and agentic analytics",
+    "description_long": "GoodData is a composable data and analytics platform designed to power AI-enabled, agentic, and embedded decision-making with a governed semantic layer. The platform enables organizations to build, embed, and scale AI-infused analytics apps, dashboards, and agentic workflows. Serves over 123,000 enterprises and 3.9 million users across 23 countries.",
+    "tagline": "Accelerate your journey to AI",
+    "website": "https://www.gooddata.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["data_engineering", "generative_ai", "ml_ops"],
+    "industries_served": ["software", "finance", "healthcare", "e-commerce", "insurance", "hospitality"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2007,
+    "founders": ["Roman Stanek"],
+    "origin_story": "Founded in Prague in 2007 by Roman Stanek as a cloud-native business intelligence and analytics platform. Pioneered Data as a Service (DaaS) and headless BI before evolving into an AI-native decision intelligence platform.",
+    "key_milestones": [
+      {"year": 2007, "event": "Founded in Prague by Roman Stanek"},
+      {"year": 2021, "event": "Launched GoodData.CN (cloud-native platform) and announced $45M credit facility from J.P. Morgan"},
+      {"year": 2021, "event": "Strategic investment and partnership with Visa (Fintech Partner Connect program)"},
+      {"year": 2025, "event": "Named in 2025 Gartner Magic Quadrant for Analytics and BI Platforms"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": 275,
+    "employee_source": "rocketreach",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "San Francisco", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Brno", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 125000000,
+    "funding_rounds": [
+      {"date": "2021-07", "type": "Credit Facility", "amount_usd": 45000000, "lead_investor": "J.P. Morgan"}
+    ],
+    "investors": ["Andreessen Horowitz", "General Catalyst", "Intel Capital", "Tenaya Capital", "TOTVS", "Zendesk"],
+    "revenue_estimate_usd": 63000000,
+    "revenue_source": "rocketreach_estimate",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Roman Stanek", "role": "Founder & CEO", "source": "company_website"},
+      {"name": "Jakub Franc", "role": "VP of Product Engineering", "source": "company_website"},
+      {"name": "Kristyna Vlckova", "role": "VP of Growth Marketing", "source": "company_website"},
+      {"name": "Karel Novak", "role": "VP of Professional Services", "source": "company_website"},
+      {"name": "James Gellert", "role": "Chief Financial Officer", "source": "company_website"},
+      {"name": "Peter Fedorocko", "role": "Field CTO", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "John O'Farrell", "role": "Board Member (Andreessen Horowitz)", "source": "company_website"},
+      {"name": "Trina Van Pelt", "role": "Board Member (Intel Capital)", "source": "company_website"},
+      {"name": "Larry Bohn", "role": "Board Member (General Catalyst Partners)", "source": "company_website"},
+      {"name": "Brian Paul", "role": "Board Member (Tenaya Capital)", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.gooddata.com/company/careers/",
+    "open_roles_count": 4,
+    "open_roles": [
+      {"title": "AI Architect", "department": "engineering", "location": "Prague"},
+      {"title": "Sr. Backend Engineer (Kotlin, Calcite)", "department": "engineering", "location": "Brno/Prague"},
+      {"title": "Product Manager - Customer Solutions", "department": "product", "location": "Prague/Brno"},
+      {"title": "Paralegal", "department": "legal", "location": "Prague/Brno"}
+    ],
+    "tech_stack": ["python", "kotlin", "react", "typescript", "aws", "kubernetes"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": 3.9,
+    "review_count": 188,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-GoodData-EI_IE457640.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "2025 Gartner Magic Quadrant for Analytics and BI Platforms",
+      "G2 Leader (4.2 stars, 539 reviews)",
+      "Gartner Peer Insights 4.3 stars (187 reviews)",
+      "Trust Radius #1 (222 reviews)"
+    ],
+    "notable_clients": ["Visa", "Siemens"],
+    "customer_count": 123000,
+    "partnerships": ["Visa Fintech Partner Connect"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "GoodData's governed semantic layer and deeply embedded analytics platform provide meaningful differentiation, as enterprise customers depend on complex data models and multi-tenant governance that pure LLM APIs cannot replace. However, the core BI/analytics query capability is increasingly commoditized by foundation models, putting pressure on standalone dashboarding features.",
+    "market_risk": "low",
+    "market_risk_rationale": "Business intelligence and embedded analytics is a large, established market with sustained enterprise demand. GoodData's 123,000+ customer base and recognition in the Gartner Magic Quadrant confirm proven PMF. The data monetization and embedded analytics trend favors their platform approach.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "GoodData has raised $125M in total funding from tier-1 investors (Andreessen Horowitz, General Catalyst, Intel Capital) and secured a $45M credit facility from J.P. Morgan in 2021. With an estimated $63M revenue and 123K+ customers, the company has a stable financial foundation.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Well-funded scaleup with established enterprise customer base and recognized platform, but faces ongoing commoditization pressure in the BI/analytics space from both large cloud vendors (AWS, Google, Microsoft) and foundation model capabilities. The governed semantic layer is the key differentiator but must continue to evolve."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "ashby_jobs", "duckduckgo_search", "rocketreach", "tracxn"],
+    "fields_missing": ["recommend_pct", "specific_funding_round_dates"],
+    "needs_review": false,
+    "notes": "San Francisco listed as official corporate HQ address; main engineering and product teams are in Prague and Brno. Total funding of $125M from Tracxn (11 rounds, 20 investors); $45M JP Morgan credit facility confirmed via press release. Revenue estimate from RocketReach (~$63M) is approximate."
+  }
+}
