@@ -1,0 +1,103 @@
+{
+  "id": "raventic-ai",
+  "name": "Raventic AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:35:00Z",
+
+  "overview": {
+    "description": "Semantic AI for e-commerce product discovery, search, and recommendations",
+    "description_long": "Raventic AI is a Prague-based B2B SaaS startup offering an AI-powered product discovery engine for e-commerce. Their platform combines semantic NLP and visual AI to deliver semantic search, similar product recommendations, complementary (cross-sell) suggestions, and curated merchandising. Integration is no-code (JavaScript plugin) or via API, with automatic retraining and GDPR/EAA compliance built in.",
+    "tagline": "Semantic AI Discovery — Next-gen solution that transforms how your customers explore, find and buy",
+    "website": "https://www.raventic.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "recommendation", "cv"],
+    "industries_served": ["retail", "e-commerce", "marketplaces"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2023,
+    "founders": [],
+    "origin_story": "Incorporated in Prague in August 2023 as Raventic AI s.r.o. (ICO: 19662157), targeting the e-commerce product discovery gap with multi-modal semantic AI.",
+    "key_milestones": [
+      {"year": 2023, "event": "Founded in Prague (August 28, 2023)"},
+      {"year": 2024, "event": "Launched full product suite: Semantic Search, Similar Products, Curated Products, Complementary Products, Raventic Analytics"},
+      {"year": 2025, "event": "Published case studies with Hanibal (+11% revenue), Bikero (+8.2% revenue), Houseland (+7% revenue)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.raventic.com/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["javascript", "nlp", "computer_vision"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Hanibal", "Bikero", "Houseland"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core offering (semantic search + AI recommendations for e-commerce) is in a competitive space where foundation models and large incumbents (Algolia, Recombee, Luigi's Box — all mentioned as direct competitors on their own site) are advancing quickly. However, Raventic's multi-modal visual+semantic combination, no-code integration layer, and GDPR-compliant privacy-first architecture provide short-term differentiation.",
+    "market_risk": "low",
+    "market_risk_rationale": "E-commerce product discovery is a well-established, large market with proven ROI — Raventic's own case studies show 8–11% revenue increases for Czech retailers. Pricing tiers (€149–€249+/month) suggest real paying customers and clear PMF.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No public funding rounds found. Company was incorporated August 2023 with a nominal capital of CZK 1,000, suggesting bootstrapped operation. Very early stage with limited runway signals — sustainability depends on organic growth of the SaaS customer base.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Real product with paying customers and measurable results reduces market risk. However, the combination of no known external funding, a crowded AI search/recommendation market, and a small team makes this a medium-risk employer for job seekers concerned about stability."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ares_cz"],
+    "fields_missing": ["founders", "leadership", "employees_exact", "funding_total_usd", "glassdoor_rating", "open_roles"],
+    "needs_review": false,
+    "notes": "Company registered as Raventic AI s.r.o., ICO 19662157, court ref C 389855/MSPH (Municipal Court Prague). Domain raventic.ai does not resolve; website is raventic.com. No CNAIP entry found. LinkedIn page exists at /company/raventic-ai but requires authentication. No Glassdoor listing found."
+  }
+}
