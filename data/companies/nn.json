@@ -1,0 +1,106 @@
+{
+  "id": "nn",
+  "name": "NN",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:10:00Z",
+
+  "overview": {
+    "description": "Czech subsidiary of NN Group (Nationale Nederlanden) offering life insurance and pension savings, with a Prague-based tech hub focused on data science and digital transformation",
+    "description_long": "NN pojišťovna a NN Penzijní společnost is the Czech subsidiary of NN Group, a Dutch multinational financial services company with a 170-year history operating in 11 countries with 16,000 employees globally. In the Czech Republic, NN provides life insurance, pension savings, and investment products. The NN Digital Hub (formerly NN IT HUB), located in Prague's Anděl district, serves as an international technology center for NN Group, covering cybersecurity, in-house software development, application management, and data science. The hub employs professionals from more than 20 nationalities.",
+    "tagline": "Part of an international team with unlimited opportunities",
+    "website": "https://www.nn.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["data_engineering", "ml_ops", "other"],
+    "industries_served": ["insurance", "financial_services", "pension"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2014,
+    "founders": [],
+    "origin_story": "NN Group spun off from ING Group in 2014 and listed on Euronext Amsterdam. The Czech entity was formally registered as NN on January 1, 2014, though its predecessor (ING Insurance) operated in the Czech Republic for many years prior. NN Digital Hub (formerly NN IT HUB) was established in Prague as the regional technology center for NN Group.",
+    "key_milestones": [
+      {"year": 2014, "event": "NN Group spun off from ING and listed on Euronext Amsterdam; Czech entity established as NN"},
+      {"year": 2019, "event": "NN Digital Hub Prague office awarded 'IT Office 2019'"},
+      {"year": 2023, "event": "NN Digital Hub rebranded from NN IT HUB to NN Digital Hub"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "The Hague", "country": "NL", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "NN",
+    "stock_exchange": "Euronext Amsterdam",
+    "parent_company": "NN Group N.V.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Veronika Cihan", "role": "Talent Acquisition Specialist (NN Digital Hub)", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.nn.cz/kariera/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Top Employer Czech Republic (4+ consecutive years)", "IT Office 2019 (NN Digital Hub)"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "NN's core business is insurance and pension savings — a heavily regulated financial services domain where AI/data science supports actuarial modelling, risk assessment, and fraud detection rather than being the product itself. The NN Digital Hub's data science work is embedded in proprietary insurance workflows with deep regulatory and compliance requirements that foundation models cannot easily substitute.",
+    "market_risk": "low",
+    "market_risk_rationale": "NN Group is a 170-year-old established multinational operating in 11 countries with 16,000 employees, a publicly traded company on Euronext Amsterdam. The Czech insurance and pension market is mature and regulated, providing stable demand.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "NN Group is publicly traded (Euronext Amsterdam: NN) with stable revenue from insurance premiums and pension management fees. Funding risk is not applicable for an established public company.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "NN is a large, publicly traded, 170-year-old financial services enterprise with a stable Czech subsidiary. The Prague-based NN Digital Hub provides data science and IT services within a heavily regulated industry context, providing strong institutional resilience against AI commoditization or market disruption."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["employees_exact", "open_roles_count", "glassdoor_rating", "revenue_estimate_usd", "leadership_names"],
+    "needs_review": false,
+    "notes": "NN refers to NN pojišťovna a NN Penzijní společnost, the Czech subsidiary of NN Group (Nationale Nederlanden). The Prague NN Digital Hub (formerly NN IT HUB) is the main tech/AI-relevant entity, focused on data science, cybersecurity, and application management for NN Group globally. NN Group stock trades as NN on Euronext Amsterdam."
+  }
+}

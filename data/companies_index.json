@@ -1950,7 +1950,8 @@
     "category": "company",
     "source": "other",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "done",
+    "website_url": "https://www.nn.cz"
   },
   {
     "id": "no-big-deals",
