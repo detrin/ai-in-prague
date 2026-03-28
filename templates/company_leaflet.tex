@@ -1,0 +1,165 @@
+\documentclass[a4paper,9pt]{article}
+\usepackage{fontspec}
+\usepackage[margin=1.2cm,top=1.2cm,bottom=1cm]{geometry}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{multicol}
+
+\definecolor{accent}{HTML}{2563EB}
+\definecolor{muted}{HTML}{6B7280}
+\definecolor{riskhigh}{HTML}{DC2626}
+\definecolor{riskmedium}{HTML}{D97706}
+\definecolor{risklow}{HTML}{059669}
+\definecolor{riskna}{HTML}{9CA3AF}
+\definecolor{border}{HTML}{E2E8F0}
+
+\setmainfont{Helvetica Neue}[
+  BoldFont=Helvetica Neue Bold,
+  ItalicFont=Helvetica Neue Italic,
+]
+
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\newcommand{\riskbadge}[1]{%
+  \ifx#1h\colorbox{riskhigh}{\color{white}\fontsize{6}{7}\selectfont\bfseries\,HIGH\,}%
+  \else\ifx#1m\colorbox{riskmedium}{\color{white}\fontsize{6}{7}\selectfont\bfseries\,MED\,}%
+  \else\ifx#1l\colorbox{risklow}{\color{white}\fontsize{6}{7}\selectfont\bfseries\,LOW\,}%
+  \else\colorbox{riskna}{\color{white}\fontsize{6}{7}\selectfont\bfseries\,N/A\,}%
+  \fi\fi\fi%
+}
+
+\newcommand{\sectionhead}[1]{%
+  \vspace{3pt}%
+  {\color{accent}\bfseries\small #1}%
+  \vspace{1pt}%
+  \par\nobreak%
+}
+
+\begin{document}
+
+% --- Header ---
+\begin{tikzpicture}[remember picture, overlay]
+  \fill[accent] ([yshift=0cm]current page.north west) rectangle ([yshift=-1.8cm]current page.north east);
+\end{tikzpicture}
+
+\vspace{-0.6cm}
+{\color{white}\Large\bfseries VAR_NAME}\hfill{\color{white}\small VAR_CATEGORY}
+
+\vspace{1pt}
+{\color{white!85}\footnotesize VAR_TAGLINE}
+
+\vspace{0.5cm}
+
+% --- Top row: Overview + Quick Facts ---
+\begin{minipage}[t]{0.62\textwidth}
+\sectionhead{Overview}
+{\footnotesize VAR_DESCRIPTION_LONG}
+
+\sectionhead{Classification}
+{\footnotesize
+\begin{tabularx}{\textwidth}{@{}lX@{}}
+\textcolor{muted}{Type} & VAR_BUSINESS_TYPE \\
+\textcolor{muted}{AI Focus} & VAR_AI_FOCUS \\
+\textcolor{muted}{Industries} & VAR_INDUSTRIES \\
+\textcolor{muted}{AI Native} & VAR_AI_NATIVE \\
+\end{tabularx}}
+\end{minipage}%
+\hfill%
+\begin{minipage}[t]{0.34\textwidth}
+\sectionhead{Quick Facts}
+{\footnotesize
+\begin{tabularx}{\textwidth}{@{}lX@{}}
+\textcolor{muted}{Founded} & VAR_FOUNDED \\
+\textcolor{muted}{Employees} & VAR_EMPLOYEES \\
+\textcolor{muted}{Company} & VAR_COMPANY_TYPE \\
+\textcolor{muted}{HQ} & VAR_HQ \\
+\textcolor{muted}{Offices} & VAR_OFFICES_LIST \\
+\textcolor{muted}{Model} & VAR_BUSINESS_MODEL \\
+\textcolor{muted}{Public} & VAR_PUBLICLY_TRADED \\
+\textcolor{muted}{Ticker} & VAR_STOCK_TICKER \\
+\textcolor{muted}{Parent} & VAR_PARENT_COMPANY \\
+\end{tabularx}}
+
+\sectionhead{Links}
+{\footnotesize VAR_LINKS}
+\end{minipage}
+
+\vspace{1pt}
+\textcolor{border}{\rule{\textwidth}{0.3pt}}
+
+% --- Middle row: History + Team/Careers ---
+\begin{minipage}[t]{0.48\textwidth}
+\sectionhead{History \& Founders}
+{\footnotesize VAR_FOUNDERS
+
+VAR_ORIGIN_STORY
+
+VAR_MILESTONES}
+
+\sectionhead{Financials}
+{\footnotesize
+\begin{tabularx}{\textwidth}{@{}lX@{}}
+VAR_FUNDING_TABLE
+\end{tabularx}}
+
+\sectionhead{Glassdoor}
+{\footnotesize
+\begin{tabularx}{\textwidth}{@{}lX@{}}
+VAR_GLASSDOOR_TABLE
+\end{tabularx}}
+\end{minipage}%
+\hfill%
+\begin{minipage}[t]{0.48\textwidth}
+\sectionhead{Leadership}
+{\footnotesize VAR_LEADERSHIP}
+
+VAR_NOTABLE_PEOPLE
+
+\sectionhead{Careers}
+{\footnotesize
+\begin{tabularx}{\textwidth}{@{}lX@{}}
+\textcolor{muted}{Hiring} & VAR_HIRING_SIGNALS \\
+\textcolor{muted}{Roles} & VAR_OPEN_ROLES_COUNT \\
+\textcolor{muted}{Tech Stack} & VAR_TECH_STACK \\
+\textcolor{muted}{Careers URL} & VAR_CAREERS_URL \\
+\end{tabularx}}
+
+VAR_OPEN_ROLES
+
+\sectionhead{Recognition}
+{\footnotesize VAR_RECOGNITION}
+\end{minipage}
+
+\vspace{1pt}
+\textcolor{border}{\rule{\textwidth}{0.3pt}}
+
+% --- Risk Assessment ---
+\sectionhead{Risk Assessment}
+{\footnotesize
+\begin{tabularx}{\textwidth}{@{}l c X@{}}
+\textcolor{muted}{AGI Displacement} & \riskbadge{VAR_RISK_AGI_BADGE} & {\scriptsize VAR_RISK_AGI_RATIONALE} \\[2pt]
+\textcolor{muted}{Market Risk} & \riskbadge{VAR_RISK_MARKET_BADGE} & {\scriptsize VAR_RISK_MARKET_RATIONALE} \\[2pt]
+\textcolor{muted}{Funding Risk} & \riskbadge{VAR_RISK_FUNDING_BADGE} & {\scriptsize VAR_RISK_FUNDING_RATIONALE} \\[2pt]
+\midrule
+\textcolor{muted}{\bfseries Overall} & \riskbadge{VAR_RISK_OVERALL_BADGE} & {\scriptsize\bfseries VAR_RISK_OVERALL_RATIONALE} \\
+\end{tabularx}}
+
+\vfill
+
+% --- Footer ---
+\textcolor{border}{\rule{\textwidth}{0.3pt}}
+{\color{muted}\fontsize{6}{7}\selectfont AI in Prague Catalog\hfill Data quality: VAR_DATA_QUALITY\hfill Scraped: VAR_SCRAPED_AT\hfill ID: VAR_ID}
+
+{\color{muted}\fontsize{5.5}{6.5}\selectfont Sources: VAR_SOURCES}
+
+VAR_METADATA_NOTES
+
+\end{document}
