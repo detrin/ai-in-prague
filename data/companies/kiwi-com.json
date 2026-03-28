@@ -1,0 +1,121 @@
+{
+  "id": "kiwi-com",
+  "name": "Kiwi.com",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered online travel agency with proprietary virtual interlining technology for multi-airline itineraries",
+    "description_long": "Kiwi.com (formerly SkyPicker.com) is a Czech international online travel agency that processes over 100 million flight searches daily. Its core innovation is 'virtual interlining', a proprietary algorithm that combines routes from multiple airlines—including those that don't normally partner—into a single bookable itinerary. The company also offers NOMAD (multi-city travel search), Tequila (a B2B booking API platform), the Kiwi.com Guarantee (instant refund product), and since 2025, an MCP server for AI agent travel search integration.",
+    "tagline": "Making Travel Better",
+    "website": "https://www.kiwi.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2c_saas",
+    "ai_focus": ["recommendation", "data_engineering", "automation"],
+    "industries_served": ["travel", "aviation", "tourism"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2012,
+    "founders": ["Oliver Dlouhý", "Jozef Képesi"],
+    "origin_story": "Founded in 2012 in Brno as SkyPicker.com, pioneering virtual interlining—connecting flights from airlines that do not formally codeshare. Rebranded to Kiwi.com in 2016 as the service expanded internationally.",
+    "key_milestones": [
+      {"year": 2012, "event": "Founded as SkyPicker.com in Brno, Czech Republic"},
+      {"year": 2016, "event": "Rebranded from SkyPicker.com to Kiwi.com"},
+      {"year": 2018, "event": "Launched NOMAD multi-city tool and Tequila B2B API platform; ranked 7th fastest-growing company in EMEA by Deloitte"},
+      {"year": 2019, "event": "General Atlantic acquired majority stake (53.5%), becoming main shareholder"},
+      {"year": 2022, "event": "Sold CZK 50 billion worth of tickets; AirAsia partnership signed"},
+      {"year": 2024, "event": "Launched Kiwi.com Guarantee (instant credit for delayed/cancelled flights); Ryanair partnership"},
+      {"year": 2025, "event": "Launched MCP Server for AI agent integration in travel search"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 1700,
+    "employee_source": "wikipedia",
+    "office_count": 7
+  },
+
+  "offices": [
+    {"city": "Brno", "country": "CZ", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Barcelona", "country": "ES", "is_hq": false},
+    {"city": "Bratislava", "country": "SK", "is_hq": false},
+    {"city": "Košice", "country": "SK", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Miami", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["General Atlantic", "Oliver Dlouhý", "Jiří Hlavenka"],
+    "revenue_estimate_usd": null,
+    "revenue_source": "Annual revenue CZK 17.2 billion in 2021 (source: Wikipedia/annual report); ~€1.1 billion in 2018",
+    "business_model": "marketplace"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Oliver Dlouhý", "role": "Founder & CEO", "source": "wikipedia"}
+    ],
+    "notable_people": [
+      {"name": "Jozef Képesi", "role": "Co-founder", "source": "wikipedia"},
+      {"name": "Jiří Hlavenka", "role": "Early investor", "source": "wikipedia"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://jobs.kiwi.com/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["javascript"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": 3.6,
+    "review_count": 402,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Kiwi-com-EI_IE1162174.11,19.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "7th fastest-growing company in EMEA - Deloitte (2018)",
+      "FT list of European firms with top CAGR 2015-2018"
+    ],
+    "notable_clients": ["AirAsia", "Ryanair", "Bratislava Airport"],
+    "customer_count": null,
+    "partnerships": ["AirAsia", "Ryanair", "Bratislava Airport"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Kiwi.com's core value is its proprietary virtual interlining algorithm and real-time pricing infrastructure processing 100M searches/day—this requires deep technical integration with airline inventory systems that foundation models cannot replicate. Their MCP server launch in 2025 shows they are proactively positioning as AI-agent-compatible infrastructure rather than being threatened by it.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Online travel is a large, proven market, but intensely competitive with Booking.com, Expedia, Kayak, and Google Flights all offering flight search. Kiwi.com differentiates via virtual interlining and niche budget travel routes, but faces ongoing pressure from disintermediation by airlines and large OTAs.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Majority-owned by General Atlantic (53.5%) since 2019, with CZK 17.2 billion (~$770M) in revenue in 2021 and 1,700+ employees. The company is a mature scaleup with substantial revenue and institutional backing.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Kiwi.com is a well-funded, revenue-generating scaleup with a defensible proprietary technology moat (virtual interlining), institutional PE backing, and diverse international offices. Their 2025 MCP server launch indicates active adaptation to the AI agent ecosystem."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["wikipedia", "company_website", "glassdoor_snippet", "jobs_website"],
+    "fields_missing": ["funding_total_usd", "open_roles_count", "revenue_estimate_usd", "recommend_pct", "tech_stack_full"],
+    "needs_review": false,
+    "notes": "Kiwi.com is primarily headquartered in Brno (not Prague), but has a Prague office and is listed in the CNAIP Czech AI catalog. The company uses AI/ML for its search and recommendation engine but is not purely AI-native—it is a travel tech company that leverages AI. Founding year confirmed 2012 from Wikipedia. General Atlantic investment amount not publicly disclosed."
+  }
+}
