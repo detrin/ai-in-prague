@@ -1,0 +1,117 @@
+{
+  "id": "inteligentni-mobilni",
+  "name": "Inteligentní a mobilní robotika",
+  "category": "company",
+  "scraped_at": "2026-03-28T17:45:00Z",
+
+  "overview": {
+    "description": "University research group focused on intelligent mobile robots and self-guided vehicles at CIIRC CTU Prague",
+    "description_long": "The Intelligent and Mobile Robotics Group (IMR) at CIIRC (Czech Institute of Informatics, Robotics and Cybernetics), Czech Technical University in Prague. With a history of more than 25 years, IMR focuses on creating highly robust cognitive control systems for intelligent mobile robots and self-guided vehicles. Core research areas include planning, navigation, smart manipulation, sensor data processing, world model building, and autonomous vehicle safety.",
+    "tagline": "Cutting-edge research on intelligent mobile robots and autonomous systems",
+    "website": "https://imr.ciirc.cvut.cz/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["robotics", "ml_ops", "automation"],
+    "industries_served": ["manufacturing", "automotive", "transportation", "energy"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Libor Přeučil"],
+    "origin_story": "Originally part of the Department of Cybernetics at CTU Faculty of Electrical Engineering, the IMR group moved to CIIRC in May 2015. The group has over 25 years of research history in intelligent mobile robotics.",
+    "key_milestones": [
+      {"year": 2015, "event": "Moved from FEL Department of Cybernetics to CIIRC CTU"},
+      {"year": 2018, "event": "Joined National Competence Center – Cybernetics and Artificial Intelligence (NCK KUI) project"},
+      {"year": 2024, "event": "Won 2nd place in euRobotics Technology Transfer Award for RUR robotic masonry project"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 10,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (ČVUT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Libor Přeučil", "role": "Head of Group", "source": "company_website"},
+      {"name": "Miroslav Kulich", "role": "Deputy Head", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Karel Košnar", "role": "Assistant Professor", "source": "company_website"},
+      {"name": "Jan Chudoba", "role": "Researcher", "source": "company_website"},
+      {"name": "Tomáš Pivoňka", "role": "Researcher", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://imr.ciirc.cvut.cz/Education/StudentTopics",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD Student", "department": "research", "location": "Prague"},
+      {"title": "Research Intern / Student", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["ros", "python", "c++"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "2nd place – euRobotics Technology Transfer Award 2024 (RUR project)",
+      "1st place – Competition on Electric Vehicle Routing Problem, IEEE WCCI 2020",
+      "2nd place – ROADEF Challenge 2020 (Junior category)"
+    ],
+    "notable_clients": ["Škoda Auto", "VOP Nový Jičín", "Czech Railways", "AŽD Praha", "KM Robotics", "Wienerberger"],
+    "customer_count": null,
+    "partnerships": ["Charles University", "Bremer Institut für Produktion und Logistik (BIBA)", "University of Tartu", "ITT (EE)", "TalTech (EE)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "This is a university research lab at CIIRC CTU; it produces foundational robotics research rather than commercial AI products. AGI displacement is not applicable.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research group funded by Czech Technology Agency grants and EU programs; not subject to commercial market risk in the traditional sense.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Funded through Czech Science Foundation (GACR), Technology Agency of the Czech Republic (TA CR), EU Erasmus+ and Horizon programs, and ČVUT institutional support. Grant-based funding model.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "University research group under CIIRC CTU with 25+ year history; risk assessment does not apply to academic research labs in the commercial sense."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ciirc_website", "cvut_cybernetics_department"],
+    "fields_missing": ["founded_year", "funding_total_usd", "employees_exact_count", "cnaip_url", "glassdoor"],
+    "needs_review": false,
+    "notes": "This is a research group at CIIRC (Czech Institute of Informatics, Robotics and Cybernetics) at Czech Technical University in Prague, not a commercial company. The CNAIP entry had category 'company' but the entity is clearly a university research lab. Website found at imr.ciirc.cvut.cz (moved from imr.felk.cvut.cz in May 2015)."
+  }
+}
