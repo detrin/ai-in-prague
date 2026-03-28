@@ -1,0 +1,112 @@
+{
+  "id": "big-terra",
+  "name": "Big Terra",
+  "category": "company",
+  "scraped_at": "2026-03-28T22:55:00Z",
+
+  "overview": {
+    "description": "Satellite-powered agricultural analytics and ecosystem monitoring for sustainable farming and climate resilience",
+    "description_long": "Big Terra combines satellite observation data, climate, weather, and predictive crop modelling to monitor agriculture and ecosystems at scale — from a single field to entire countries. Their three SaaS products cover land/crop monitoring (Big Terra Insight), regenerative agriculture and carbon farming (Carbognostic), and environmental/atmospheric risk assessment (Climate Reports). Founded in 2017 as an ESA BIC incubated startup, Big Terra serves enterprises and public sector clients across 20+ countries and 5 continents, covering 900,000+ hectares and 50,000+ fields.",
+    "tagline": "Turning Data into Decisions for Land and Life",
+    "website": "https://bigterra.com",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/big-terra"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["cv", "data_engineering", "ml_ops"],
+    "industries_served": ["agriculture", "environment", "finance", "defense", "aerospace"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2017,
+    "founders": ["Pavel Juruš"],
+    "origin_story": "Founded in 2017 as an ESA BIC (European Space Agency Business Incubation Centre) incubated startup. Pavel Juruš founded Big Terra to apply his expertise in mathematical modelling and environmental data science to enable more sustainable and efficient farming.",
+    "key_milestones": [
+      {"year": 2017, "event": "Founded in Prague as ESA BIC incubated startup"},
+      {"year": 2025, "event": "Serving clients across 20+ countries and 5 continents with 900,000+ hectares monitored"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Soběslav", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["ESA BIC (incubation)"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Pavel Juruš", "role": "Founder & CEO", "source": "company_website"},
+      {"name": "Paul Kucera", "role": "Business Development", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Lukáš Tůma", "role": "Agricultural Analyst", "source": "company_website"},
+      {"name": "Jan Faktor", "role": "Project Manager", "source": "company_website"},
+      {"name": "Aleksandr Kazantsev", "role": "Software Engineer", "source": "company_website"},
+      {"name": "Daniel Franče", "role": "Frontend Developer", "source": "company_website"},
+      {"name": "Tatiana Ivanova", "role": "Ecosystem Expert", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "satellite_data", "cloud"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["ESA BIC incubated startup (2017)"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["ESA (European Space Agency)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Big Terra's core value is rooted in proprietary satellite data integration, specialized crop growth models, and real-world field-level calibration datasets — assets that foundation models cannot replicate without extensive domain-specific training and satellite data access. Their ESA-incubated origins and niche in earth observation analytics create a technical moat in regulated agricultural and ESG markets.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The precision agriculture, carbon farming, and climate risk analytics markets are growing but remain niche. Demand is real — driven by ESG regulations, carbon credit markets, and agricultural efficiency pressures — but the addressable market for a small Czech startup is limited and competition from larger agri-tech and satellite analytics players (Planet, Satellogic, Indigo Ag) is intensifying.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No disclosed external investment beyond the ESA BIC incubation programme. The team of 7 listed on the website suggests a very small operation with limited runway visibility. No revenue signals or funding rounds found in public sources.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Big Terra has a genuine technical moat in satellite-based agricultural analytics and operates in a real, growing market with 20+ country coverage. However, the very small team, lack of disclosed funding, and niche market position create meaningful execution and survival risk — hence medium overall despite a strong technical foundation."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "cnaip"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count", "careers_url", "notable_clients"],
+    "needs_review": false,
+    "notes": "Website is a React SPA (bigterra.com); content extracted from JS bundle. HQ at Hybernská 7a, 110 00 Praha; second office at Nedvědice 47, Soběslav. Company registered as 'Big Terra Alpha'. 7 team members listed on website. ESA BIC incubated in 2017. Products: Big Terra Insight (land monitoring), Carbognostic (regenerative agriculture/carbon farming), Climate Reports (environmental assessment). Stats from website: 900,000+ hectares, 10M+ km², 900+ farms, 50,000+ fields, 20+ countries, 5 continents. LinkedIn: https://www.linkedin.com/company/big-terra/"
+  }
+}
