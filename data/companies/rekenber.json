@@ -1,0 +1,116 @@
+{
+  "id": "rekenber",
+  "name": "Rekenber",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered receivables management and insolvency automation platform for the Czech/CEE financial sector",
+    "description_long": "Rekenber provides financial lenders, insurers, debt collectors, consultancies and law firms with a suite of solutions to automate the way they work with debtor data, manage portfolios of receivables, handle complex insolvency cases, segment and investigate debtors. The company applies machine learning, NLP, and document processing to Czech insolvency registry (ISIR) data to enable predictive portfolio management, automated document workflows, and digital debt recovery. Rekenber calls its approach 'Debtech' — combining technology with receivables management to help creditors recover debts faster while improving outcomes for debtors.",
+    "tagline": "Zvyšujeme výkonnost vašich pohledávek (We increase the performance of your receivables)",
+    "website": "https://www.rekenber.cz",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/rekenber"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["automation", "document_processing", "nlp", "ml_ops"],
+    "industries_served": ["financial_services", "insurance", "legal", "debt_collection"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2019,
+    "founders": ["Peter Zvirinský", "Bohdan Hemžal"],
+    "origin_story": "Rooted in academic research on Czech insolvency data starting in 2013, with scientific publications on NLP text extraction from ISIR (insolvency registry) documents from 2015–2018. First commercial client projects launched in 2019. CNAIP lists formal founding year as 2020.",
+    "key_milestones": [
+      {"year": 2013, "event": "First research on insolvency data"},
+      {"year": 2015, "event": "First scientific publication on insolvencies"},
+      {"year": 2016, "event": "Data collaboration with Hospodářské noviny"},
+      {"year": 2017, "event": "Scientific publication on text extraction from ISIR documents"},
+      {"year": 2018, "event": "Scientific publication on numerical data extraction from ISIR documents"},
+      {"year": 2019, "event": "First client projects launched"},
+      {"year": 2021, "event": "Capital investment from Česká spořitelna (Czech Savings Bank)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "cnaip",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2021", "type": "Strategic", "amount_usd": null, "lead_investor": "Česká spořitelna (Czech Savings Bank)"}
+    ],
+    "investors": ["Česká spořitelna"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Peter Zvirinský", "role": "Co-founder (Technical / Product)", "source": "company_website"},
+      {"name": "Bohdan Hemžal", "role": "Co-founder (Marketing, Sales & Strategy)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Peter Zvirinský", "note": "Graduate of Charles University MFF (AI & data processing specialization); prior ML experience at Seznam.cz and Tower Street startup"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.rekenber.cz/kariera",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "Software Engineer - Core", "department": "engineering", "location": "Prague/Remote"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Ministry of Industry and Trade — The Country for the Future programme"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Česká spořitelna (strategic investor)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Rekenber has deep domain expertise in Czech insolvency law and ISIR registry data, with years of proprietary research and ML models trained on local legal documents. However, the underlying NLP, document processing, and predictive analytics capabilities are becoming commoditized by foundation models, which reduces some of this moat over time.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Debt recovery and receivables management is a real, established market in CEE — Czech Republic alone has 800k+ debtors in legal proceedings. However, the market is relatively niche, geographically concentrated, and dependent on Czech/Slovak regulatory frameworks, limiting global scale potential.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Backed by Česká spořitelna (Czech Savings Bank), one of CZ's largest financial institutions, providing strategic stability and credibility. However, the company remains a small startup (10–20 employees) with no disclosed revenue figures and reliance on a single strategic investor.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Rekenber occupies a defensible niche with genuine domain moat (Czech insolvency data, ISIR integrations, regulatory expertise), institutional backing from Česká spořitelna, and a research-rooted founding team. The main risks are market size constraints and gradual commoditization of AI document processing."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["cnaip", "company_website", "linkedin"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor", "tech_stack", "employees_exact"],
+    "needs_review": false,
+    "notes": "CNAIP lists founding year as 2020; company website milestones show research from 2013 and first client projects in 2019 — used 2019 as founded_year. Team page states 20+ employees; CNAIP says 10–20; LinkedIn shows 4 (likely outdated). Used 11-50 range. Contact email on LinkedIn: bohdan@rekenber.cz; technical contact on CNAIP: peter@rekenber.cz."
+  }
+}
