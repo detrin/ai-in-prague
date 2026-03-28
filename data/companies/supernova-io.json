@@ -1,0 +1,113 @@
+{
+  "id": "supernova-io",
+  "name": "Supernova.io",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered design system platform and collaborative prototyping tool for enterprise product teams",
+    "description_long": "Supernova helps enterprise product teams prototype and deliver high-fidelity features using their existing components, design tokens, and layouts. The platform has two core products: Portal (collaborative AI prototyping — 'vibe coding' for teams) and a Design System Platform (managing tokens, documentation, Figma/Storybook imports, and code automation pipelines). The company is Prague-based and serves hundreds of large enterprises including Firefox/Mozilla, Skyscanner, TUI, SoFi, Mews, and OneSignal.",
+    "tagline": "Vibe coding for enterprise product teams",
+    "website": "https://www.supernova.io",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["generative_ai", "automation"],
+    "industries_served": ["technology", "design", "product_management", "enterprise_software"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Jiri Trecak"],
+    "origin_story": "Founded in Prague, Czech Republic by Jiri Trecak (CEO). Started as a design-to-code platform and evolved into a full design system management and AI prototyping suite for enterprise teams.",
+    "key_milestones": [
+      {"year": 2025, "event": "Launched Supernova Portal — AI prototyping product for enterprise teams"},
+      {"year": 2025, "event": "Launched Supernova Relay — LLM-ready design system data feed"},
+      {"year": 2025, "event": "Shipped 21+ major features; 109 QoL improvements; 437 bugs squashed"},
+      {"year": 2026, "event": "Rebranded homepage around 'Vibe coding for enterprise product teams'"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "inferred_from_careers_and_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "freemium"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jiri Trecak", "role": "Founder & CEO", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.supernova.io/careers",
+    "open_roles_count": 6,
+    "open_roles": [
+      {"title": "Senior / Staff Frontend Engineer", "department": "engineering", "location": "Prague / Remote"},
+      {"title": "Senior / Staff QA Automation", "department": "engineering", "location": "Prague / Remote"},
+      {"title": "Senior / Staff Backend Engineer", "department": "engineering", "location": "Prague / Remote"},
+      {"title": "Product Support Engineer", "department": "customer_support", "location": "Manila / Remote"},
+      {"title": "Developer Advocate", "department": "product", "location": "Prague / Remote"},
+      {"title": "Demand Generation Manager", "department": "marketing", "location": "San Francisco / Remote"}
+    ],
+    "tech_stack": ["typescript", "javascript", "dart"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["GDPR compliant", "ISO certified", "CCPA compliant", "USDP compliant"],
+    "notable_clients": ["Firefox / Mozilla", "Skyscanner", "TUI", "SoFi", "Mews", "OneSignal", "Visma", "Productboard", "Iterable", "Hearst", "Maze", "Huspy"],
+    "customer_count": null,
+    "partnerships": ["Figma", "Storybook"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Supernova wraps LLMs for code generation and prototyping, which is inherently at risk of commoditization as foundation models improve. However, the platform's deep integration with proprietary design system data (Figma tokens, Storybook components, custom code containers) and enterprise workflow tooling creates meaningful lock-in beyond a simple prompt wrapper.",
+    "market_risk": "low",
+    "market_risk_rationale": "Design systems management is a well-established and growing market with proven enterprise demand. Supernova has a large, diverse roster of paying enterprise customers (Mozilla, Skyscanner, TUI, SoFi) and is expanding into the adjacent AI prototyping market. Real PMF exists.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Funding details are not publicly available, and the company appears to be a small Prague-based startup. The freemium model with enterprise tier provides revenue signals, but without confirmed funding or ARR data, runway is uncertain.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong enterprise traction and real PMF in design systems offset the AI displacement risk. The main concern is competitive pressure from Figma (which offers its own AI prototyping), Zeroheight, and other incumbents expanding into this space, combined with unknown funding runway."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year", "funding_total_usd", "funding_rounds", "investors", "employees_exact", "glassdoor_rating", "revenue_estimate_usd"],
+    "needs_review": false,
+    "notes": "No CNAIP URL available. CNAIP source skipped. Search engines (Google, Bing, DuckDuckGo, Yahoo) all blocked automated access during scraping; LinkedIn also blocked. All data sourced directly from company website (supernova.io). Founding year not found on website; investors section visible on careers page but only as images with no text names. Employee count estimated from team/careers signals."
+  }
+}
