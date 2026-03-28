@@ -1,0 +1,129 @@
+{
+  "id": "sap",
+  "name": "SAP",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:45:00Z",
+
+  "overview": {
+    "description": "World's largest enterprise software vendor with AI embedded across ERP, HCM, and supply chain products",
+    "description_long": "SAP SE is a German multinational enterprise software company and the world's largest vendor of enterprise application software. SAP's AI strategy, branded as SAP Business AI, embeds AI natively across its suite — including Joule (generative AI copilot), AI capabilities in S/4HANA, SuccessFactors, Ariba, and SAP Business Technology Platform. The company's stated goal is to become the #1 Enterprise Application and Business AI company globally. 98 of the 100 largest companies in the world are SAP customers. SAP's Prague office (Praha 5) serves as a major European development and shared services hub, with active hiring across software development, AI engineering, consulting, and finance roles.",
+    "tagline": "Run Simple",
+    "website": "https://www.sap.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["generative_ai", "automation", "ml_ops", "nlp", "data_engineering"],
+    "industries_served": ["manufacturing", "finance", "retail", "healthcare", "energy", "public_sector", "logistics", "utilities"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1972,
+    "founders": ["Dietmar Hopp", "Hans-Werner Hector", "Hasso Plattner", "Klaus Tschira", "Claus Wellenreuther"],
+    "origin_story": "Founded in 1972 in Weinheim, West Germany by five former IBM employees who wanted to build real-time data processing software for enterprises. Grew from a small German software firm into the world's largest enterprise application software company over five decades.",
+    "key_milestones": [
+      {"year": 1972, "event": "Founded in Weinheim, Germany by five ex-IBM employees"},
+      {"year": 1998, "event": "Listed on New York Stock Exchange"},
+      {"year": 2014, "event": "Converted to Societas Europaea (SAP SE)"},
+      {"year": 2015, "event": "S/4HANA launched — next-gen ERP on in-memory HANA database"},
+      {"year": 2023, "event": "Joule generative AI copilot launched across SAP suite"},
+      {"year": 2025, "event": "Became Europe's most valuable company by market cap; revenue reached €36.8 billion"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 110650,
+    "employee_source": "wikipedia_2025",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Walldorf", "country": "DE", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "New York", "country": "US", "is_hq": false},
+    {"city": "Bangalore", "country": "IN", "is_hq": false},
+    {"city": "Palo Alto", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "SAP",
+    "stock_exchange": "Frankfurt Stock Exchange / NYSE",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 42400000000,
+    "revenue_source": "wikipedia_2025_annual",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Christian Klein", "role": "CEO", "source": "wikipedia"},
+      {"name": "Pekka Ala-Pietilä", "role": "Chairman of the Supervisory Board", "source": "wikipedia"}
+    ],
+    "notable_people": [
+      {"name": "Hasso Plattner", "role": "Co-founder", "source": "wikipedia"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://jobs.sap.com/search/?q=prague&optionsFacetsDD_country=CZ",
+    "open_roles_count": 63,
+    "open_roles": [
+      {"title": "Senior AI Developer (Agentic AI and Generative AI)", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Data Scientist (Generative AI & LLM Systems)", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Agentic AI Product Owner - Employee Digital Experience", "department": "product", "location": "Prague"},
+      {"title": "Software Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Medior ABAP Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Business Processes Senior Consultant", "department": "consulting", "location": "Prague"},
+      {"title": "Business Manager - Consulting", "department": "consulting", "location": "Prague"},
+      {"title": "SAP iXp Intern - IT Data & Analytics", "department": "data", "location": "Prague"}
+    ],
+    "tech_stack": ["abap", "java", "python", "cloud", "sap-hana", "sap-btp", "azure", "generative-ai"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/SAP-Reviews-E5481.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "DAX component (Frankfurt Stock Exchange)",
+      "EURO STOXX 50 component",
+      "Dow Jones Sustainability Index World",
+      "Europe's most valuable company by market cap (2025)"
+    ],
+    "notable_clients": ["Siemens", "BMW", "Nestlé", "Coca-Cola", "IBM"],
+    "customer_count": null,
+    "partnerships": ["Microsoft", "Google Cloud", "AWS", "IBM", "Sapphire Ventures"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "SAP's core value lies in deep enterprise integrations, multi-decade customer lock-in, and proprietary business process data — not AI capabilities themselves. However, Microsoft (Copilot for M365/Dynamics) and Oracle directly compete in the ERP+AI space, and generic LLMs are increasingly capable of reasoning over structured business data. SAP's Joule and Business AI are derivative rather than pioneering, which creates real risk if hyperscalers commoditize AI-in-ERP.",
+    "market_risk": "low",
+    "market_risk_rationale": "SAP serves the world's largest enterprises in the largest software market. 98 of the 100 largest global companies are customers, and the company reached €36.8B revenue in 2025. Enterprise ERP is a deeply entrenched, recurring-revenue market with high switching costs and multi-year deployment cycles.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "SAP is a publicly traded company (NYSE/Frankfurt, DAX component) with €36.8 billion revenue, €10.3 billion operating income, and Europe's largest market cap. No funding risk whatsoever.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Despite medium AGI displacement risk on AI products specifically, SAP's overall risk is low due to unmatched enterprise scale, customer lock-in across critical business processes, strong financials, and a clear AI roadmap with Joule and SAP Business AI embedded across the suite."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["wikipedia", "jobs.sap.com", "news.sap.com"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "office_count", "customer_count", "employees_prague_exact"],
+    "needs_review": false,
+    "notes": "SAP's Prague office is located at Praha 5, postcode 158 00. 63 open roles confirmed in Prague as of March 2026, including senior AI/ML engineering roles. Global employee count 110,650 and revenue €36.8B/$42.4B from 2025 Wikipedia (citing SAP 2024 Annual Report). sap.com itself blocks automated access (403 errors), so website data sourced via Wikipedia and jobs portal."
+  }
+}
