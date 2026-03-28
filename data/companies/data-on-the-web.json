@@ -1,0 +1,99 @@
+{
+  "id": "data-on-the-web",
+  "name": "Data on the Web",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T13:30:00Z",
+
+  "overview": {
+    "description": "Research group at Charles University focused on FAIR data principles, knowledge graphs, and semantic web technologies",
+    "description_long": "The Data on the Web research group at Charles University (Faculty of Mathematics and Physics) develops novel techniques and tools to improve data quality on the Web. The group focuses on data findability, availability, interoperability and reusability (FAIR principles), with knowledge graphs, ontologies and semantic web at its core. Key outputs include LinkedPipes ETL (open-source data transformation), Dataspecer (semantic data modeling tool), and participation in EU projects such as STIRdata. The group also collaborates with Czech government agencies on data exchange standards.",
+    "tagline": "Improving data quality and interoperability on the Web through FAIR principles and semantic technologies",
+    "website": "https://www.ksi.mff.cuni.cz/area.html?id=data-on-the-web",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/data-on-the-web"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["data_engineering", "other"],
+    "industries_served": ["government", "academia", "enterprise"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Martin Nečaský"],
+    "origin_story": "Research group within the Department of Software Engineering (KSI) at the Faculty of Mathematics and Physics, Charles University, Prague. Focused on semantic web and linked data research, evolving to encompass modern knowledge graph and FAIR data approaches.",
+    "key_milestones": [
+      {"year": 2022, "event": "Published DataSpecer at European Semantic Web Conference"},
+      {"year": 2022, "event": "STIRdata EU project — improving interoperability of European business registry data"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 3,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Charles University, Faculty of Mathematics and Physics",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Martin Nečaský", "role": "Professor / Group Lead", "source": "cnaip"},
+      {"name": "Jakub Klímek", "role": "Associate Professor / Contact Person", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Petr Škoda", "role": "Assistant Professor", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.ksi.mff.cuni.cz",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "MSc Thesis — Re-decentralization of Web applications using Solid", "department": "research", "location": "Prague"},
+      {"title": "MSc Thesis — Automated transformation of RDF data to CSV", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["rdf", "linked-data", "sparql", "ontologies", "knowledge-graphs", "typescript", "java"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Czech Government", "Charles University IT Department"],
+    "customer_count": null,
+    "partnerships": ["STIRdata EU Consortium"]
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "funding_total_usd", "revenue_estimate_usd", "glassdoor", "open_roles_count"],
+    "needs_review": false,
+    "notes": "This is a university research group at Charles University (KSI department), not a commercial company. Category updated to research_group. Core team: Martin Nečaský (PI), Jakub Klímek (contact), Petr Škoda. Active projects: STIRdata (EU), Dataspecer, LinkedPipes ETL. Research tags: knowledge graphs, ontologies, semantic web, FAIR data."
+  }
+}
