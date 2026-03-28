@@ -1,0 +1,119 @@
+{
+  "id": "stratosphere-lab",
+  "name": "Stratosphere Laboratory",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Cybersecurity research group at CTU Prague specialising in machine learning for network intrusion detection, malware analysis, and civil society protection",
+    "description_long": "The Stratosphere Research Laboratory is the cybersecurity group at the Artificial Intelligence Centre, Faculty of Electrical Engineering, Czech Technical University in Prague. Founded in 2013 by Sebastian García as a continuation of his PhD work, the lab focuses on applying machine learning to network security problems. Key contributions include Slips — a free-software ML-based behavioural intrusion detection/prevention system — as well as widely-used public datasets (CTU-13, IoT-23, Hornet), the NetSecGame framework for training AI security agents, and the Civilsphere project protecting NGOs and at-risk individuals from targeted cyber attacks. The lab is funded by the NLnet Foundation and operates the joint AIC/Avast AI and Cybersecurity Laboratory.",
+    "tagline": "Machine Learning, Cybersecurity and Helping Others",
+    "website": "https://www.stratosphereips.org",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["ml_ops", "other"],
+    "industries_served": ["cybersecurity", "civil society", "academia"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2013,
+    "founders": ["Sebastian Garcia"],
+    "origin_story": "Founded at CTU Prague as a continuation of Sebastian García's PhD research in machine-learning-based network intrusion detection; grew into a multi-national team of ~20 researchers combining open-source tool development with academic publication.",
+    "key_milestones": [
+      {"year": 2013, "event": "Founded at Czech Technical University in Prague by Sebastian García"},
+      {"year": 2015, "event": "Released CTU-13 dataset — widely cited labeled botnet/malware network traffic dataset"},
+      {"year": 2019, "event": "Launched joint AIC/Avast AI and Cybersecurity Laboratory; Sebastian García appointed to Avast Chair"},
+      {"year": 2023, "event": "Selected as first Czech organisation accepted as Google Summer of Code mentor organisation"},
+      {"year": 2024, "event": "Accepted for Google Summer of Code 2024 for second consecutive year; released NetSecGame framework for AI security agents"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["NLnet Foundation"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Sebastian Garcia", "role": "Founder & Head of Cybersecurity Group / PI", "source": "company_website"},
+      {"name": "Veronica Valeros", "role": "Co-leader", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Maria Rigaki", "role": "Researcher (PhD, LLM-based cyber agents)", "source": "company_website"},
+      {"name": "Carlos Catania", "role": "Researcher", "source": "company_website"},
+      {"name": "Masarah Paquet-Clouston", "role": "Researcher", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.stratosphereips.org/job-openings",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Thesis: AI-based Attacking Agent", "department": "research", "location": "Prague"},
+      {"title": "Thesis: LLM-based Honeypots", "department": "research", "location": "Prague"},
+      {"title": "Thesis: Network Security Dataset Creation", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "machine_learning", "linux"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Google Summer of Code mentor organisation 2023 (first Czech org selected)",
+      "Google Summer of Code mentor organisation 2024"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["NLnet Foundation", "Avast (joint AIC/Avast Lab)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group; not a commercial product. Their work on ML for cybersecurity and defensive LLMs is complementary to, rather than displaced by, foundation models.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research lab embedded in CTU Prague with grant funding from NLnet Foundation and an industry partnership with Avast; market risk does not apply in the commercial sense.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Sustained by university institutional support, NLnet Foundation grants, and the Avast Chair endowment; typical academic funding model with no commercial runway dependency.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Research group within a public university; commercial risk categories are not applicable. The lab has stable multi-source funding and a strong international publication record."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "aic_ctu_website", "web_search"],
+    "fields_missing": ["employees_exact", "glassdoor_rating", "funding_total_usd", "h_index"],
+    "needs_review": false,
+    "notes": "Sebastian García has 3,747+ Google Scholar citations as of early 2026. Lab is ~20 researchers. First Czech org accepted as Google Summer of Code mentor (2023). NLnet Foundation is primary external funder."
+  }
+}
