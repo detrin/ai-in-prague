@@ -1,0 +1,90 @@
+{
+  "id": "cue-ai",
+  "name": "Cue AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Real-time AI sales copilot that prepares reps before calls, guides them live, and automates follow-up",
+    "description_long": "Cue AI (Cue AI Technologies) builds a real-time AI copilot for sales conversations. Founded with the goal of leading the next wave of AI, Cue reduces the gap between LLMs' ability to reason in milliseconds and manual human interactions. The product supports account executives with pre-call intelligence (account context, call strategy, stakeholder research), live in-call guidance (objection detection, playbook cues, real-time prompts), and post-call automation (CRM sync, structured summaries, next-step tracking). Targeting knowledge workers who think faster than they can type, Cue works silently without joining calls as a bot. It integrates with Salesforce and calendar tools, and is pursuing SOC 2 compliance.",
+    "tagline": "Sell with clarity. Close with confidence.",
+    "website": "https://www.rightoncue.ai",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/cue-ai"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "speech", "automation", "generative_ai"],
+    "industries_served": ["sales_technology", "enterprise_software"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": "Founded to lead the next wave of AI by closing the gap between LLM reasoning speed and manual human interactions with the model. Initially focused on frontline account executives, expanding to all knowledge workers.",
+    "key_milestones": []
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "freemium"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Joe (last name unknown)", "role": "Founder/CEO (inferred from joe@rightoncue.ai)", "source": "cnaip"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["real-time audio processing", "vector search", "embeddings", "multi-agent", "multimodal", "nlp", "llm"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "founders", "employees_exact", "funding_total_usd", "glassdoor", "open_roles"],
+    "needs_review": false,
+    "notes": "Very early-stage startup. Website copyright shows 2026 suggesting recent founding. Legal entity name is 'Cue AI Technologies, Inc.' (US Inc.). Prague address: Na Ovčinách 970/4, 170 00 Praha. Contact: joe@rightoncue.ai. Product is a real-time sales copilot with Individual/Pro/Enterprise tiers — freemium model (free trial available). No careers page found, no team page. Founder first name appears to be 'Joe' based on email address. CNAIP tags: real-time processing, copilot, knowledge memory, audio processing, multi-agent, multimodal, multilingual, vector search, embedding."
+  }
+}
