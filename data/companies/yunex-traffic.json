@@ -1,0 +1,119 @@
+{
+  "id": "yunex-traffic",
+  "name": "Yunex Traffic",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "Global intelligent traffic management solutions company with a major R&D and operations hub in Czech Republic",
+    "description_long": "Yunex Traffic (formerly Siemens ITS) is a global leader in intelligent traffic systems, developing AI-enabled traffic management platforms, smart intersections, connected mobility solutions, and V2X infrastructure. The company operates in 22+ countries serving 600+ cities worldwide. Their Yutraffic FUSION AI platform uses machine learning to adaptively optimize traffic signals, and their Brno R&D center (~70 engineers) develops predictive traffic systems, AI detection, and autonomous vehicle support. In 2024, Prague deployed the Yutraffic FUSION system as one of the first European cities to use AI-enabled adaptive traffic control.",
+    "tagline": "Mobility Management for the intelligent age",
+    "website": "https://www.yunextraffic.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["automation", "cv"],
+    "industries_served": ["smart_city", "government", "transportation", "infrastructure"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2021,
+    "founders": [],
+    "origin_story": "Spun off from Siemens in 2021 as an independent company under the Mundys group. Formerly operated as Siemens ITS (Intelligent Traffic Systems), with deep roots in European urban traffic management going back decades.",
+    "key_milestones": [
+      {"year": 2021, "event": "Launched as independent company from Siemens ITS, under ownership of Mundys (formerly Atlantia)"},
+      {"year": 2022, "event": "Awarded maintenance contract for Prague central traffic systems and 160+ traffic controllers"},
+      {"year": 2023, "event": "Martin Němec appointed Managing Director for Czech Republic"},
+      {"year": 2024, "event": "Jon Newhard appointed CEO; Prague deploys first phase of Yutraffic FUSION AI traffic control system"},
+      {"year": 2026, "event": "5G mobility innovation lab with digital twin of Pilsen's traffic system completed"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 3500,
+    "employee_source": "company_website",
+    "office_count": 22
+  },
+
+  "offices": [
+    {"city": "Munich", "country": "DE", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "Pilsen", "country": "CZ", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Berlin", "country": "DE", "is_hq": false},
+    {"city": "Dubai", "country": "AE", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Mundys",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Mundys"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jon Newhard", "role": "CEO", "source": "company_website"},
+      {"name": "Jan Villwock", "role": "CFO", "source": "company_website"},
+      {"name": "Elisabetta De Bernardi Di Valserra", "role": "Management Board", "source": "company_website"},
+      {"name": "Martin Němec", "role": "Managing Director, Czech Republic", "source": "company_website"},
+      {"name": "Matěj Dusík", "role": "Director of R&D, Brno (Czech Republic)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Petr Klauda", "role": "Former Managing Director Czech Republic (12 years)", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://jobs.yunextraffic.com/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["machine_learning", "cloud_services", "generative_ai", "open_source", "c_its", "v2x"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["City of Prague", "City of Brno", "City of Warsaw", "City of London", "Dubai", "Bogotá", "City of Pilsen"],
+    "customer_count": 600,
+    "partnerships": ["INTENS Corporation s.r.o.", "Správa informačních technologií (SIT) Plzeň", "TSK Prague", "VMZ Berlin", "Aimsun", "ATC (Aldridge Traffic Controllers)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Yunex Traffic's core value lies in certified hardware (traffic controllers, RSUs), deep city infrastructure integrations (Prague SCALA traffic centers, 600+ controller network), and long-term government contracts requiring regulatory compliance. Their Brno R&D team (~70 engineers) builds proprietary ML-based predictive traffic systems that are tightly coupled with physical road infrastructure — not easily replaceable by foundation models.",
+    "market_risk": "low",
+    "market_risk_rationale": "The intelligent traffic management (ITS) market is growing steadily driven by smart city investments globally. Yunex Traffic has 600+ city customers, long-term maintenance and operations contracts (e.g., Warsaw 6-year contract, Prague maintenance), and operates in 22+ countries. This established government customer base provides strong recurring revenue and market resilience.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Yunex Traffic is a subsidiary of Mundys, a global infrastructure group. As part of a large and well-capitalized parent company, it is not dependent on venture or external funding for operations.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Yunex Traffic combines hardware moats (certified traffic controllers, RSUs), deep city infrastructure lock-in, and strong parent company backing through Mundys. Long-term government contracts and the regulatory complexity of urban traffic management make them highly resilient to both AGI commoditization and market disruption."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "company_newsroom", "company_imprint"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "revenue_estimate_usd", "open_roles_count", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "Global HQ is Munich, Germany. Czech Republic entity operates as 'Yunex Traffic Czech Republic' with offices in Prague, Brno, and Pilsen. The Brno R&D center (~70 engineers) develops AI traffic management systems including Yutraffic FUSION deployed in Prague in 2024. Company was formerly Siemens ITS before becoming independent in 2021 under Mundys group ownership. Employees figure (3,500+) is from company website and includes global headcount. Czech R&D team alone is ~70 people."
+  }
+}
