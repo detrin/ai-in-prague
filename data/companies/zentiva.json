@@ -1,0 +1,121 @@
+{
+  "id": "zentiva",
+  "name": "Zentiva",
+  "category": "company",
+  "scraped_at": "2026-03-29T00:00:00Z",
+
+  "overview": {
+    "description": "Leading European generic pharmaceutical company headquartered in Prague",
+    "description_long": "Zentiva develops, manufactures, and delivers high-quality, affordable generic and biosimilar medicines to over 100 million people across Europe. With 5,400+ employees and operations in 30+ countries, Zentiva serves major therapeutic areas including cardiology, diabetes, oncology, respiratory, CNS, and consumer health. The company also operates Zent2U, a B2B platform for APIs, contract manufacturing, and licensing; and Prague Scientific, offering end-to-end pharma R&D, regulatory affairs, and pharmacovigilance services. Founded on 530-year heritage from a Prague pharmacy, the modern standalone company was established in 2018 after PE carve-out from Sanofi by Advent International.",
+    "tagline": "Health and wellbeing for all generations",
+    "website": "https://www.zentiva.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["automation", "data_engineering", "ml_ops"],
+    "industries_served": ["healthcare", "pharmaceuticals"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2018,
+    "founders": null,
+    "origin_story": "Zentiva's heritage traces back 530+ years to a small pharmacy in the heart of Prague — one of Europe's oldest continuously operating pharma entities. Sanofi acquired Zentiva in 2008. In 2018, Advent International carved it out to create a standalone European generic medicines leader. From 2020 the company doubled in size over four years through organic growth and acquisitions, expanding across all of Europe.",
+    "key_milestones": [
+      {"year": 2008, "event": "Acquired by Sanofi"},
+      {"year": 2018, "event": "Carved out by Advent International as standalone European generics company"},
+      {"year": 2020, "event": "Major European expansion phase begins; company doubles in size within 4 years"},
+      {"year": 2021, "event": "Establishes operations in Spain"},
+      {"year": 2022, "event": "Expands to Netherlands and Austria"},
+      {"year": 2023, "event": "Strategic licensing partnership with Adalvo for Respiratory, CNS, Dermatology"},
+      {"year": 2025, "event": "Acquires heritage brands from Aboca; signs Lupin biosimilar license; launches first EU biosimilar; announces sale from Advent International to GTCR"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 5400,
+    "employee_source": "company_website",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Advent International (pending acquisition by GTCR)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Advent International", "GTCR"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Steffen Saltofte", "role": "CEO", "source": "company_website"},
+      {"name": "Joaquim Mascaro", "role": "Chief Financial Officer", "source": "company_website"},
+      {"name": "Chris Howarth", "role": "Chief Human Resources Officer", "source": "company_website"},
+      {"name": "Anant Atal", "role": "Chief of Staff, Head of M&A", "source": "company_website"},
+      {"name": "Martin Albert", "role": "Chief Scientific Officer", "source": "company_website"},
+      {"name": "Jeff Rope", "role": "Head of Product Supply", "source": "company_website"},
+      {"name": "Julie Ross", "role": "Head of Commercial Western Europe", "source": "company_website"},
+      {"name": "Hacho Hatchikian", "role": "Commercial Head CEE", "source": "company_website"},
+      {"name": "Tereza Ber", "role": "Head of Legal, General Counsel", "source": "company_website"},
+      {"name": "Josef Matousek", "role": "Head of IT", "source": "company_website"},
+      {"name": "Marie-Claire Rees", "role": "Head of Communications", "source": "company_website"},
+      {"name": "Ines Windisch", "role": "Head of Corporate Affairs & Sustainability", "source": "company_website"},
+      {"name": "Khatira Mansouri", "role": "Chief Quality Officer", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.zentiva.com/careers",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Adalvo", "Lupin", "Aboca"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Zentiva's core business — manufacturing and distributing regulated generic pharmaceutical products — is fundamentally not displaceable by AI/LLMs. Physical manufacturing, EU regulatory compliance (EMA/GMP), quality control, and pan-European supply chain operations require certified physical infrastructure and domain expertise that foundation models cannot substitute.",
+    "market_risk": "low",
+    "market_risk_rationale": "European generic pharmaceuticals is a large, stable, and policy-supported market driven by healthcare cost containment. Zentiva reaches 100M+ patients across 40+ countries with established distribution infrastructure, indicating strong product-market fit in a structurally growing segment.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Zentiva is a large PE-backed enterprise (5,400+ employees) in the process of being acquired by GTCR from Advent International, signaling continued strong institutional backing. At this scale and with this ownership profile, traditional startup funding risk does not apply.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Zentiva operates in a stable, regulated pharmaceutical industry with strong demand for affordable generics, physical manufacturing moats, pan-European distribution infrastructure, and major PE ownership. Exposure to AI disruption of its core business is minimal."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles", "office_count", "cnaip_url"],
+    "needs_review": true,
+    "notes": "No CNAIP URL available; source listed as 'other' in index. Zentiva is a traditional generic pharma company (not AI-native) headquartered in Prague; likely included in Prague AI catalog due to adoption of AI/data science tools in pharmaceutical R&D, manufacturing, and commercial operations — specific AI initiatives not found on website. Employee count (5,400+) from company homepage, which supersedes the 500+ figure on some subpages. Modern standalone entity formed in 2018 PE carve-out from Sanofi; company claims 530+ year heritage from original Prague pharmacy. Being sold from Advent International to GTCR (announced 2025)."
+  }
+}
