@@ -1,0 +1,111 @@
+{
+  "id": "kontext",
+  "name": "Kontext",
+  "category": "company",
+  "scraped_at": "2026-03-28T17:50:00Z",
+
+  "overview": {
+    "description": "Largest GenAI ad platform inserting contextual ads into AI chatbot conversations",
+    "description_long": "Kontext is an AI-powered contextual advertising platform that generates ads in real time and inserts them natively into AI chatbot conversations. By leveraging LLMs, Kontext delivers unique ad formats (text, box, query suggestions, banners) tailored to GenAI applications, achieving 3–5% CTR. The platform connects advertisers with a publisher network of AI apps across entertainment, eCommerce, health & wellness, productivity, and travel verticals.",
+    "tagline": "The largest ad platform for AI chatbots",
+    "website": "https://kontext.so",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/kontext"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["generative_ai", "nlp"],
+    "industries_served": ["marketing", "media", "digital entertainment", "ecommerce", "health", "productivity", "travel"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2023,
+    "founders": ["Andrej Kiska"],
+    "origin_story": "Founded in 2023 by Andrej Kiska, former partner at Czech VC fund Credo Ventures, to build a native advertising platform for the emerging GenAI chatbot ecosystem.",
+    "key_milestones": [
+      {"year": 2023, "event": "Founded in Prague"},
+      {"year": 2025, "event": "Came out of stealth with €8M+ ($10M) seed round led by M13; partnerships with Amazon, Uber, Canva"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 13,
+    "employee_source": "therecursive.com (August 2025)",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 10000000,
+    "funding_rounds": [
+      {
+        "date": "2025-08",
+        "type": "Seed",
+        "amount_usd": 10000000,
+        "lead_investor": "M13"
+      }
+    ],
+    "investors": ["M13", "Torch Capital", "Credo Ventures", "Parable VC"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "marketplace"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Andrej Kiska", "role": "Founder / CEO", "source": "therecursive.com"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["llm", "python"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Amazon", "Uber", "Canva"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Kontext's value proposition depends on GenAI adoption growing, which works in its favor. However, large AI platforms (OpenAI, Google, Anthropic) could build native monetization into their own chatbot products, cutting out third-party ad networks. Kontext's publisher integrations and advertiser relationships provide some moat, but not deep proprietary AI tech.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The GenAI chatbot advertising market is nascent and growing rapidly, but unproven at scale. There is real demand from publishers needing monetization, and they already have notable clients (Amazon, Uber, Canva) and tens of millions of daily impressions. The market could be captured by platform-level solutions, but first-mover advantage and network effects are real.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Just raised a ~$10M seed round in August 2025 led by M13, with participation from Torch Capital, Credo Ventures, and Parable VC. Strong investor backing gives sufficient runway for a 13-person team to reach the next funding milestone.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Kontext is an innovative early-stage startup in a genuinely novel market (GenAI chatbot ads) with solid seed funding and notable enterprise clients. Main risks are platform-level competition from OpenAI/Google and the early-stage nature of the market. Good execution so far and strong investors provide meaningful resilience."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["cnaip", "company_website", "therecursive.com"],
+    "fields_missing": ["careers_url", "open_roles", "glassdoor", "revenue_estimate_usd", "customer_count"],
+    "needs_review": false,
+    "notes": "Legal entity on CNAIP listed as 'Halusky'. Kontext is the brand/product name. Founded 2023, came out of stealth August 2025. Website uses kontext.so domain."
+  }
+}
