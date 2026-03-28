@@ -1,0 +1,108 @@
+{
+  "id": "cez-trading",
+  "name": "ČEZ Trading",
+  "category": "company",
+  "scraped_at": "2026-03-28T19:35:00Z",
+
+  "overview": {
+    "description": "AI-driven energy commodity trading house and algorithmic trading unit of ČEZ Group",
+    "description_long": "ČEZ Trading is the wholesale energy trading arm of ČEZ Group, one of Central Europe's largest power producers. The company employs over 150 traders, analysts, and AI researchers who trade all major European energy commodities – electricity, natural gas, CO2 emission allowances, coal, and oil – on wholesale markets. It develops proprietary algorithmic trading tools, machine learning-based market and weather forecasting models, and software that optimizes the dispatch of 46+ turbine generators totalling over 9,000 MW. The company operates primarily in Europe, with reach extending to the USA and Japan.",
+    "tagline": "We bring together top traders, analysts and AI researchers.",
+    "website": "https://www.ceztrading.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["ml_ops", "automation", "data_engineering"],
+    "industries_served": ["energy", "finance", "commodities"],
+    "company_type": "enterprise",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": "Established as the energy trading subsidiary of ČEZ Group (the dominant Czech electricity producer) to manage wholesale commodity trading and generation dispatch across Europe. Grew to incorporate a dedicated analytical and algorithmic trading team.",
+    "key_milestones": [
+      {"year": null, "event": "Established as ČEZ Group's wholesale energy trading arm"},
+      {"year": null, "event": "Launched proprietary algorithmic trading platform with automated execution"},
+      {"year": null, "event": "Scaled to >150 employees including dedicated AI researchers and quant analysts"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": 150,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "ČEZ, a. s.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["ČEZ, a. s."],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://ceztrading.jobs.cz/",
+    "open_roles_count": 4,
+    "open_roles": [
+      {"title": "Senior Data Engineer – Trading", "department": "operations", "location": "Prague"},
+      {"title": "Senior Trader – Environmental Commodities", "department": "trading", "location": "Prague"},
+      {"title": "Quantitative ML/Analyst, Asset-Based Trading", "department": "generation_dispatching", "location": "Prague"},
+      {"title": "Team Lead Algorithmic Trading", "department": "analytical_team", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "java", "c++", "machine_learning", "big_data"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["ČEZ Group generation assets"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "ČEZ Trading's core value combines proprietary trading algorithms, physical asset optimization expertise (46+ turbine generators, >9,000 MW), deep energy market knowledge, and regulatory positioning. Their AI is embedded in trading workflows tied to physical assets that foundation models cannot replace. The combination of quant finance, energy physics, and market microstructure creates a high barrier to commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Wholesale energy trading is a large, established, and growing market — especially with the energy transition creating new complexity around renewables dispatch, CO2 pricing, and grid flexibility. ČEZ Trading has a natural captive flow from ČEZ Group's generation portfolio, providing a durable competitive advantage.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "ČEZ Trading is a fully-owned subsidiary of ČEZ, a. s. — one of Central Europe's largest energy companies, publicly listed on the Prague Stock Exchange with revenues in the tens of billions of CZK annually. No funding risk applies.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Backed by ČEZ Group's substantial resources and captive asset base, operating in a growing and complex energy market, with deep proprietary AI/algorithmic trading technology. Low risk of AGI commoditization due to the physical asset and domain expertise moat."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "careers_page"],
+    "fields_missing": ["founded_year", "leadership", "glassdoor_rating", "revenue_estimate_usd", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "ČEZ Trading is a subsidiary of ČEZ, a. s. (IČO 45274649). Website explicitly positions the company around AI researchers and algorithmic trading. Employees figure of '150+' is from the website. No CNAIP entry found. Founding year not available on website or public sources."
+  }
+}
