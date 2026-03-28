@@ -1,0 +1,116 @@
+{
+  "id": "skupina-vyp-neuro",
+  "name": "Skupina výpočetních neurověd",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Computational neuroscience research group at CTU Prague studying deep brain stimulation and Parkinson's disease",
+    "description_long": "The Computational Neuroscience research group (compNeuroGroup, Czech: Skupina výpočetních neurověd) was part of the Department of Cybernetics at the Faculty of Electrical Engineering, Czech Technical University in Prague. The group focused on studying the physiology and pathophysiology of the human brain — primarily patients with Parkinson's disease (PD) or dystonia treated with deep brain stimulation (DBS). By analysing and modelling single neuron recordings and fMRI data, the group aimed to better understand how the brain and DBS work, and developed methods for data processing, transformation, and analysis. Key research streams included emotion-related neurons of the human subthalamus, nuclei identification from microelectrode EEG, artifact detection in microEEG, spike sorting algorithms, UPDRS score objectivisation, and objective DBS parameter setting. The group also released open-source tools: sigInspect (Matlab GUI for microelectrode recording annotation) and idendro (interactive dendrograms for R). It strongly collaborated with the Department of Neurology at the 1st Faculty of Medicine and General Teaching Hospital (Prof. Jech). Website now offline (~2024).",
+    "tagline": "Understanding the brain and deep brain stimulation through computational models",
+    "website": "https://neuro.felk.cvut.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["ml_ops", "other"],
+    "industries_served": ["healthcare", "academia"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Daniel Novák"],
+    "origin_story": "Academic research group at the Department of Cybernetics, FEL CTU Prague, focused on computational neuroscience and DBS treatment optimisation; active from at least 2009, website offline by 2024.",
+    "key_milestones": [
+      {"year": 2009, "event": "Early publications on spike sorting and neuron identification in STN"},
+      {"year": 2015, "event": "High-profile PNAS paper: 'Distinct populations of neurons respond to emotional valence and arousal in the human subthalamic nucleus'"},
+      {"year": 2017, "event": "Open-sourced sigInspect toolbox for microelectrode recording annotation on GitHub"},
+      {"year": 2023, "event": "Last major publications in IEEE TNSRE and other journals"},
+      {"year": 2024, "event": "Website last archived; group appears inactive or merged"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (ČVUT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Daniel Novák", "role": "Group Leader / Principal Investigator", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Tomáš Sieger", "role": "Researcher (PhD)", "note": "First author on PNAS 2015 paper; developed idendro R package"},
+      {"name": "Eduard Bakštein", "role": "Researcher (PhD)", "note": "Developed sigInspect toolbox; extensive publications on artifact detection and DBS"},
+      {"name": "Jiří Wild", "role": "Researcher (PhD)", "note": "Spike sorting and neuron recording analysis"},
+      {"name": "Jakub Schneider", "role": "PhD Student", "note": "Research on actigraphy and bipolar disorder"},
+      {"name": "Pavel Vostatek", "role": "Researcher", "note": "Signal processing and DBS analysis"},
+      {"name": "Jiří Anýž", "role": "Researcher", "note": "Digital health and bipolar disorder monitoring"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["matlab", "r", "python"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Department of Neurology, 1st Faculty of Medicine and General Teaching Hospital, Prague (Prof. Robert Jech)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at a public university; not a commercial entity. AGI displacement risk is not applicable.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Grant-funded academic research group embedded within CTU Prague's Department of Cybernetics; not subject to commercial market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "University research group operating under CTU Prague institutional funding and research grants; conventional commercial funding risk does not apply.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "This is a small academic research group (now apparently inactive as of 2024) at Czech Technical University. As a publicly funded, non-commercial entity focused on basic and translational neuroscience research, standard commercial risk ratings are not applicable."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["wayback_machine", "company_website"],
+    "fields_missing": ["founded_year", "employees_exact", "glassdoor", "revenue_estimate_usd", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "Website https://neuro.felk.cvut.cz/ is offline as of 2026; data sourced from Wayback Machine snapshots (most recent: April 2024). This entry is listed as 'company' category in the index but is clearly an academic research group (research_lab). The group appears to have been active 2009–2024 within CTU Prague's Dept. of Cybernetics, FEL. Address: Karlovo namesti 13, 121 35 Prague 2. Contact (historical): xnovakd1@labe.felk.cvut.cz, tel +420 224 357 314."
+  }
+}
