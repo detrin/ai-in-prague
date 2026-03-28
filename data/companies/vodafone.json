@@ -1,0 +1,128 @@
+{
+  "id": "vodafone",
+  "name": "Vodafone Czech Republic",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Major Czech telecommunications operator providing mobile, fixed internet, and TV services, with enterprise AI and IoT solutions",
+    "description_long": "Vodafone Czech Republic a.s. is a subsidiary of the global Vodafone Group, operating as the third-largest mobile network in the Czech Republic. The company provides mobile telephony, fixed broadband internet, and digital TV to more than 5 million customers. Through its Vodafone Business division, it offers enterprise digitalization solutions including 5G private networks, IoT, cybersecurity, cloud, managed services, and artificial intelligence. CIO Hilda László leads the expansion of AI to enhance customer experience, while the enterprise division under VP Veronika Brázdilová positions AI as a key driver for corporate clients. Vodafone CZ also runs an R&D center in partnership with Czech Technical University and recently launched a joint 5G-SHARE project with Brno Technical University (VUT).",
+    "tagline": "Europe's largest network powered by 100% renewables",
+    "website": "https://www.vodafone.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["automation", "ml_ops", "other"],
+    "industries_served": ["telecommunications", "finance", "manufacturing", "retail", "public_sector"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1999,
+    "founders": ["TIW (Telesystems International Wireless)", "IPB", "Priority Telecom"],
+    "origin_story": "Founded in August 1999 as Český Mobil a.s. after winning the tender for the Czech Republic's third mobile network license. Commercially launched in March 2000 under the Oskar brand. Rebranded as Oskar Mobil in 2004 and became Vodafone Czech Republic in 2006 after Vodafone became the sole owner.",
+    "key_milestones": [
+      {"year": 1999, "event": "Founded as Český Mobil a.s., won third mobile license tender"},
+      {"year": 2000, "event": "Commercial network launch under Oskar brand"},
+      {"year": 2001, "event": "Opened R&D Center in cooperation with Czech Technical University"},
+      {"year": 2004, "event": "Rebranded as Oskar Mobil a.s."},
+      {"year": 2006, "event": "Became Vodafone Czech Republic a.s. under full Vodafone ownership"},
+      {"year": 2007, "event": "Launched Vodafone OneNet converged services for businesses"},
+      {"year": 2019, "event": "First 5G holographic call in Karlovy Vary"},
+      {"year": 2021, "event": "Acquired UPC fixed network assets, integrating cable internet and TV"},
+      {"year": 2024, "event": "Violeta Luca (former Microsoft CZ CEO) appointed as CEO; 5G-SHARE project launched with VUT Brno"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 2411,
+    "employee_source": "wikipedia",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Vodafone Group Plc",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Vodafone Europe (100% owner)"],
+    "revenue_estimate_usd": 900000000,
+    "revenue_source": "wikipedia_2022_annual_report",
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Violeta Luca", "role": "CEO", "source": "company_website"},
+      {"name": "Hilda László", "role": "Vice President of Information Technology (CIO)", "source": "company_website"},
+      {"name": "Veronika Brázdilová", "role": "Vice President of Corporate Clients", "source": "company_website"},
+      {"name": "Pavel Škarda", "role": "Vice President of Care and Sales", "source": "company_website"},
+      {"name": "Doğu Kir", "role": "Vice President of the Consumer Segment", "source": "company_website"},
+      {"name": "Miroslav Bula", "role": "Vice President of Network Operations and Development", "source": "company_website"},
+      {"name": "Dana Fajmonová", "role": "Director People & Property", "source": "company_website"},
+      {"name": "Catalina Chiribau", "role": "Vice President of Finance", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.vodafone.cz/kariera/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Head of Brand & Communications", "department": "marketing", "location": "Prague"},
+      {"title": "Head of regulatory and public affairs", "department": "legal", "location": "Prague"},
+      {"title": "Head of financial planning and analysis", "department": "finance", "location": "Prague"},
+      {"title": "Senior ATL Specialist", "department": "marketing", "location": "Prague"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Vodafone-Czech-Republic-EI_IE237838.11,34.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Top Responsible Company 2023",
+      "3rd place Edenred Wellbeing Award",
+      "2nd place Autentic Career Communication 2023",
+      "First Green Network (100% renewable-powered network)"
+    ],
+    "notable_clients": [],
+    "customer_count": 5000000,
+    "partnerships": ["Czech Technical University (R&D Centre)", "VUT Brno (5G-SHARE project)", "Ericsson"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Vodafone's core value lies in physical telecom infrastructure, spectrum licenses, and regulatory relationships that AI cannot replicate. Their enterprise AI offerings (5G private networks, IoT, cybersecurity) are served by AI rather than displaced by it. High switching costs and long enterprise contracts protect their B2B revenue.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established Czech telco market with 5M+ customers, stable annual revenue of ~$900M, and a regulated duopoly with high barriers to entry. Enterprise tech services represent a growing market as Czech firms digitalize.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Vodafone Czech Republic is a 100%-owned subsidiary of Vodafone Group Plc, one of the world's largest telecommunications companies. Funding risk is not applicable.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Large established telco with regulated infrastructure business, strong parent company backing, and high customer switching costs. AI is being adopted as a tool to enhance their operations rather than posing a displacement threat."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "wikipedia"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "open_roles_count", "tech_stack", "office_count", "employees_exact_2025"],
+    "needs_review": false,
+    "notes": "Revenue figure (~$900M USD) is estimated from 19.8B CZK (2022) at ~22 CZK/USD. Employee count of 2,411 is from 2022 Wikipedia infobox. Glassdoor blocked automated access. AI-specific job listings were not visible on the careers page (which primarily showed business/admin roles). Vodafone CZ HQ is in Stodůlky district, Prague."
+  }
+}
