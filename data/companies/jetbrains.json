@@ -1,0 +1,139 @@
+{
+  "id": "jetbrains",
+  "name": "JetBrains",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "Developer tools company (IDEs, programming languages, team tools) with integrated AI coding assistance",
+    "description_long": "JetBrains (formerly IntelliJ Software) is a global software company that builds tools for software developers and project managers. Its portfolio includes widely-used IDEs such as IntelliJ IDEA, PyCharm, WebStorm, and CLion, as well as the Kotlin programming language, TeamCity CI/CD server, and YouTrack issue tracker. Since 2023 the company has been adding AI capabilities through JetBrains AI Assistant — integrated in most IDEs — and Mellum, its own open-source 4-billion-parameter code-completion LLM. Business model is primarily subscription-based. Founded in Prague, now headquartered in Amsterdam with offices across Europe, the US, and Asia.",
+    "tagline": "Essential tools for software developers",
+    "website": "https://www.jetbrains.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["generative_ai", "automation", "ml_ops"],
+    "industries_served": ["software_development", "education", "gaming", "enterprise_it"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2000,
+    "founders": ["Sergey Dmitriev", "Valentin Kipyatkov", "Eugene Belyaev"],
+    "origin_story": "Founded in February 2000 in Prague as IntelliJ Software s.r.o. by three Russian software developers. First product was IntelliJ Renamer, a Java code-refactoring tool. Later renamed JetBrains.",
+    "key_milestones": [
+      {"year": 2000, "event": "Founded in Prague as IntelliJ Software s.r.o."},
+      {"year": 2001, "event": "Released IntelliJ IDEA, the flagship Java IDE"},
+      {"year": 2009, "event": "Open-sourced IntelliJ IDEA Community Edition"},
+      {"year": 2011, "event": "Created the Kotlin programming language; InfoWorld Technology of the Year Award"},
+      {"year": 2012, "event": "Sergey Dmitriev replaced as CEO by Oleg Stepanov and Maxim Shafirov"},
+      {"year": 2017, "event": "Google declares Kotlin first-class language for Android"},
+      {"year": 2022, "event": "Suspended Russia and Belarus operations in response to Ukraine invasion"},
+      {"year": 2023, "event": "Acquired Code Buddy (JPA Buddy, React Buddy); launched Qodana"},
+      {"year": 2023, "event": "JetBrains AI Assistant integrated into IDEs; 11.4M recurring active users"},
+      {"year": 2024, "event": "Kirill Skrygan became CEO (Feb 2024); Gemini models integrated into AI Assistant"},
+      {"year": 2025, "event": "Released Mellum — open-source 4B-parameter code-completion LLM under Apache 2.0"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 2800,
+    "employee_source": "company_website",
+    "office_count": 12
+  },
+
+  "offices": [
+    {"city": "Amsterdam", "country": "NL", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Berlin", "country": "DE", "is_hq": false},
+    {"city": "Munich", "country": "DE", "is_hq": false},
+    {"city": "Warsaw", "country": "PL", "is_hq": false},
+    {"city": "Belgrade", "country": "RS", "is_hq": false},
+    {"city": "Limassol", "country": "CY", "is_hq": false},
+    {"city": "Paphos", "country": "CY", "is_hq": false},
+    {"city": "Yerevan", "country": "AM", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Foster City", "country": "US", "is_hq": false},
+    {"city": "Madrid", "country": "ES", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 0,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 655000000,
+    "revenue_source": "Wikipedia (15,065,029,000 CZK reported for 2024, converted at ~23 CZK/USD)",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Kirill Skrygan", "role": "CEO", "source": "wikipedia"},
+      {"name": "Sergey Dmitriev", "role": "Co-founder", "source": "wikipedia"},
+      {"name": "Maxim Shafirov", "role": "Co-CEO (former, until 2024)", "source": "wikipedia"},
+      {"name": "Valentin Kipyatkov", "role": "Co-founder", "source": "wikipedia"},
+      {"name": "Eugene Belyaev", "role": "Co-founder", "source": "wikipedia"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.jetbrains.com/careers/jobs/",
+    "open_roles_count": 124,
+    "open_roles": [
+      {"title": "AI Engineer (Core Engine)", "department": "engineering", "location": "Prague / Amsterdam / Berlin / multiple"},
+      {"title": "Head of ML", "department": "engineering", "location": "Prague / Amsterdam / multiple"},
+      {"title": "ML Researcher (JetBrains Research)", "department": "research", "location": "Prague / Amsterdam / multiple"},
+      {"title": "Founding ML Engineer (Spectrum)", "department": "engineering", "location": "Amsterdam / multiple"},
+      {"title": "FullStack ML Developer", "department": "engineering", "location": "Prague / Amsterdam / multiple"},
+      {"title": "Data Analyst (JetBrains AI)", "department": "data", "location": "Prague / Amsterdam / multiple"},
+      {"title": "Account Manager (B2B Segment)", "department": "sales", "location": "Prague / Amsterdam / Berlin / Munich"}
+    ],
+    "tech_stack": ["kotlin", "java", "python", "typescript", "javascript", "llm", "openai", "google-gemini"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "InfoWorld Technology of the Year Award 2011",
+      "InfoWorld Technology of the Year Award 2015"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Google Cloud", "Salesforce", "140+ resellers worldwide"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "AI-native code editors (Cursor, GitHub Copilot, Windsurf) pose a real competitive threat to JetBrains' IDE ecosystem. However, JetBrains is actively investing in AI with its own Mellum LLM, deeply integrated AI Assistant, and 11.4M entrenched recurring users — moat comes from IDE depth and workflow lock-in, not just AI features.",
+    "market_risk": "low",
+    "market_risk_rationale": "Developer tools is a large, well-established market with consistent demand. JetBrains has 11.4M recurring users, ~$655M revenue, and strong profitability — clear evidence of deep product-market fit sustained over 25 years.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "JetBrains has never raised external capital and is highly profitable (net income ~2.5B CZK in 2024). The company is entirely self-funded and has no dependency on investor capital or runway.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Bootstrapped profitability, massive entrenched user base, own proprietary LLM (Mellum), and active AI integration efforts provide resilience. The medium AGI displacement risk is mitigated by JetBrains' own AI investments and IDE ecosystem depth."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "wikipedia", "careers_page"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "customer_count"],
+    "needs_review": false,
+    "notes": "JetBrains was founded in Prague but headquarters relocated to Amsterdam. Prague remains a major office with many open roles. Revenue converted from 15,065,029,000 CZK (2024 reported) at ~23 CZK/USD. Company has never raised external funding."
+  }
+}
