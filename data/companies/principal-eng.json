@@ -1,0 +1,113 @@
+{
+  "id": "principal-eng",
+  "name": "Principal engineering",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:20:00Z",
+
+  "overview": {
+    "description": "Prague-based IT services and consulting company offering AI, data engineering, and custom software solutions",
+    "description_long": "PRINCIPAL (Principal Group SE) is a Czech IT services and consulting company founded in 2003. From Prague, it has expanded across Central Europe, offering systems integration, custom AI development, data management, outsourcing, and HR services. With 575 experts on active projects and a network of ~8,000 IT professionals, it serves 150+ clients including major Czech enterprises. AI services include AI strategy consulting, custom AI development, MLOps, data analytics, AI governance, and enterprise AI implementation. Key AI use cases include patient monitoring, cognitive training, and telemedicine analytics.",
+    "tagline": "Your reliable partner in the world of ones and zeros",
+    "website": "https://www.principal.tech",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/principal-engineering"
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["ml_ops", "data_engineering", "automation"],
+    "industries_served": ["finance", "government", "healthcare", "telecom", "automotive", "energy"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2003,
+    "founders": null,
+    "origin_story": "Founded in Prague in 2003 as an IT services company; expanded operations across Central Europe over two decades.",
+    "key_milestones": [
+      {"year": 2003, "event": "Founded in Prague"},
+      {"year": 2026, "event": "Revenue reaches €41 million with 575 experts on projects and 150+ clients"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": 575,
+    "employee_source": "company_website",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Principal Group SE",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 45000000,
+    "revenue_source": "company_website (41 mil. € stated on About page)",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Miloš Tkáčik", "role": "General Manager / Sales Director", "source": "company_website"},
+      {"name": "Petr Kania", "role": "HR Director", "source": "company_website"},
+      {"name": "Zdeněk Culek", "role": "Marketing Director", "source": "company_website"},
+      {"name": "Bronislav Neubauer", "role": "Operations Director", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.contractors.cz/",
+    "open_roles_count": 39,
+    "open_roles": [
+      {"title": "Software Developer", "department": "engineering", "location": "Czech Republic"},
+      {"title": "Software Tester", "department": "engineering", "location": "Czech Republic"},
+      {"title": "Project Manager", "department": "management", "location": "Czech Republic"},
+      {"title": "Business Analyst / Architect", "department": "engineering", "location": "Czech Republic"},
+      {"title": "IT Consultant", "department": "consulting", "location": "Czech Republic"}
+    ],
+    "tech_stack": ["microsoft", "oracle", "databricks", "cloudera", "kafka", "flink", "redhat"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["MS Awards Vítěz CZ", "TOP100", "Podnikatelský projekt roku"],
+    "notable_clients": ["Česká Spořitelna", "Škoda", "O2", "Raiffeisenbank", "Asahi", "2N", "GasNet", "Allwyn", "Eurowag", "LiveSport", "Volkswagen Financial Services", "Kooperativa"],
+    "customer_count": 150,
+    "partnerships": ["Microsoft", "Oracle", "RedHat", "BlackBerry", "Databricks", "Cloudera", "Fabasoft"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "PRINCIPAL's core value lies in IT consulting, systems integration, and professional services — domains where human expertise and relationships provide significant moat. However, the AI/data services practice (MLOps, custom AI dev) faces increasing commoditization as foundation models and low-code platforms lower the barrier to entry for custom AI implementations.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established 20+ year company with €41M revenue, 150+ enterprise clients including Czech national champions (Česká Spořitelna, Škoda, O2), and 575 experts on active projects. Real demonstrated demand in Czech and Central European IT services market.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Self-sustaining profitable enterprise with €41M annual turnover; no reliance on external venture funding. Bootstrapped and revenue-generating for over two decades.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Mature, revenue-positive IT services enterprise with deep client relationships and diversified service portfolio. AGI commoditization risk is partially offset by the sticky nature of IT consulting engagements and the company's established reputation in Czech enterprise market."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founders", "glassdoor_rating", "office_count", "funding_rounds"],
+    "needs_review": false,
+    "notes": "CNAIP URL discovered during scraping (not in index). Company operates as Principal Group SE; careers portal is contractors.cz. Revenue of €41M and 575 experts on projects confirmed on company About page. Network of ~8,000 IT experts mentioned (external freelancer network, not employees)."
+  }
+}
