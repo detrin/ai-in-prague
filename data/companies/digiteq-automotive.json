@@ -1,0 +1,100 @@
+{
+  "id": "digiteq-automotive",
+  "name": "Digiteq Automotive",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Automotive software & electronics development and testing for Volkswagen Group brands",
+    "description_long": "Digiteq Automotive is a Czech subsidiary of CARIAD SE (51%) and Škoda Auto a.s. (49%), making it a 100% member of the Volkswagen Group. The company specializes in development and testing of software and electronics in the areas of automated driving (AD/AP), in-car functions (infotainment, comfort, HMI), and on-demand engineering (microelectronics, HiL systems, high-voltage battery management). Headquartered in Prague with branches in Mladá Boleslav, Pilsen, Brno, and Ostrava, it employs 800+ experts grouped into 100 competencies covering the full V-Model. The company also develops and sells test equipment products including simulators, test benches, and data acquisition toolchains with AI processing capabilities.",
+    "tagline": "We Make Car Revolution Happen",
+    "website": "https://www.digiteqautomotive.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["cv", "automation", "ml_ops"],
+    "industries_served": ["automotive"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2001,
+    "founders": [],
+    "origin_story": "Founded in 2001 as a Czech automotive software and electronics engineering company. Became a joint venture subsidiary of CARIAD SE (Volkswagen Group's software arm, 51%) and Škoda Auto a.s. (49%), uniquely positioned to work on projects across all Volkswagen Group brands.",
+    "key_milestones": [
+      {"year": 2001, "event": "Founded in Prague, Czech Republic"},
+      {"year": 2023, "event": "Pavel Štěpánek appointed Managing Director and CFO"},
+      {"year": 2024, "event": "Recorded €100M annual turnover (CZK 2.5 billion); 800+ employees across 7 locations"},
+      {"year": 2025, "event": "Marco Jähnisch appointed Managing Director and CEO (August 2025)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": 850,
+    "employee_source": "company_website",
+    "office_count": 7
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Mladá Boleslav", "country": "CZ", "is_hq": false},
+    {"city": "Pilsen", "country": "CZ", "is_hq": false},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "Ostrava", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Volkswagen Group (via CARIAD SE 51% and Škoda Auto a.s. 49%)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["CARIAD SE", "Škoda Auto a.s."],
+    "revenue_estimate_usd": 108000000,
+    "revenue_source": "company_website (€100M annual turnover 2024)",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Marco Jähnisch", "role": "Managing Director & CEO", "source": "company_website"},
+      {"name": "Pavel Štěpánek", "role": "Managing Director & CFO", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://digiteqautomotive.jobs.cz/",
+    "open_roles_count": 0,
+    "open_roles": [],
+    "tech_stack": ["c++", "python", "autosar", "hil", "adas", "ros"],
+    "hiring_signals": "not_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Volkswagen", "Škoda Auto", "Audi", "SEAT", "Porsche"],
+    "customer_count": null,
+    "partnerships": ["CARIAD SE", "Škoda Auto a.s."]
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["glassdoor", "funding_total_usd", "open_roles_count_exact", "founded_exact_story"],
+    "needs_review": false,
+    "notes": "Digiteq Automotive is not a startup but an established enterprise subsidiary of the Volkswagen Group. Revenue of ~€100M (CZK 2.5B) stated on company website for 2024. LinkedIn reports 638 employees while company website states 800+ and descriptions mention 850+ experts; used 850 as most recent figure. 7 locations per website, but only 5 Czech cities named (Prague HQ, Mladá Boleslav, Pilsen, Brno, Ostrava). No open roles currently listed on jobs portal. Glassdoor data not accessible."
+  }
+}
