@@ -1,0 +1,136 @@
+{
+  "id": "skupina-vrg",
+  "name": "Skupina vizuálního rozpoznávání (VRG)",
+  "category": "company",
+  "scraped_at": "2026-03-28T21:00:00Z",
+
+  "overview": {
+    "description": "Research group at CTU Prague advancing computer vision and visual recognition",
+    "description_long": "The Visual Recognition Group (VRG) at Czech Technical University in Prague is a research team dedicated to pushing the boundaries of computer vision. Part of the Center for Machine Perception (CMP) and the Department of Cybernetics at the Faculty of Electrical Engineering, VRG works on object recognition, scene analysis, vision-language applications, 3D reconstruction, image retrieval and matching, video tracking, visual localization, human pose estimation, and species identification. Led by Prof. Jiří Matas (Editor-in-Chief of IJCV), the group publishes extensively at top venues including CVPR, ICCV, and ECCV.",
+    "tagline": "Pushing the boundaries of computer vision",
+    "website": "https://vrg.fel.cvut.cz/",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/visual-recognition-group-vrg"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["cv", "nlp", "ml_ops"],
+    "industries_served": ["construction", "creative_gaming", "ict", "retail", "science_research", "sports"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Jiří Matas"],
+    "origin_story": "Research group at CTU Prague Faculty of Electrical Engineering, affiliated with the Center for Machine Perception. Led by Prof. Jiří Matas, a world-renowned computer vision researcher and Editor-in-Chief of the International Journal of Computer Vision (IJCV).",
+    "key_milestones": [
+      {"year": 2024, "event": "8 papers accepted at ECCV 2024"},
+      {"year": 2024, "event": "Best poster award at IEEE FG 2024 (Matas & Purkrábek)"},
+      {"year": 2025, "event": "8 papers at CVPR 2025 and 5 papers at ICCV 2025"},
+      {"year": 2025, "event": "Minister of the Interior Award 2025 for FACIS project"},
+      {"year": 2025, "event": "MSCA Postdoctoral Fellowship awarded for RAVIOLI project (Bill Psomas)"},
+      {"year": 2025, "event": "Google Research Grant awarded to Giorgos Tolias"},
+      {"year": 2025, "event": "GA ČR grant awarded to Giorgos Tolias for Instance-level Visual Recognition and Generation"},
+      {"year": 2025, "event": "GA ČR Standard grant awarded to Tomáš Vojíř"},
+      {"year": 2026, "event": "Co-organizing Vision and Sports Summer School 2026 in Prague"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (ČVUT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jiří Matas", "role": "Professor, Head of Group", "source": "company_website"},
+      {"name": "Ondřej Chum", "role": "Professor", "source": "company_website"},
+      {"name": "Giorgos Tolias", "role": "Associate Professor", "source": "company_website"},
+      {"name": "Jan Čech", "role": "Assistant Professor", "source": "company_website"},
+      {"name": "Zuzana Kúkelová", "role": "Assistant Professor", "source": "company_website"},
+      {"name": "Oleksandr Shekhovtsov", "role": "Assistant Professor", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Dmytro Mishkin", "role": "Research Fellow", "note": "Active in computer vision and image matching research"},
+      {"name": "Tomáš Vojíř", "role": "Research Fellow", "note": "GA ČR Standard grant recipient 2025"},
+      {"name": "Lukáš Neumann", "role": "Research Fellow", "note": "Scene text detection and recognition expert"},
+      {"name": "Giorgos Kordopatis-Zilos", "role": "Research Fellow", "note": "Video understanding and retrieval"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://vrg.fel.cvut.cz/vacancies/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD Student", "department": "research", "location": "Prague"},
+      {"title": "Postdoctoral Researcher", "department": "research", "location": "Prague"},
+      {"title": "Research Intern (MSc)", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "pytorch", "computer_vision", "deep_learning"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Best poster award at IEEE FG 2024 (Matas & Purkrábek)",
+      "Minister of the Interior Award 2025 for FACIS project",
+      "9 Outstanding Reviewer Awards at CVPR 2025",
+      "Best student paper award at ICCV 2025 P13N workshop (Tilemachos Aravanis)",
+      "MSCA Postdoctoral Fellowship 2024 (Bill Psomas)",
+      "Google Research Gift (Giorgos Tolias, 2025)",
+      "Jiří Matas: Editor-in-Chief of International Journal of Computer Vision (IJCV)"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Center for Machine Perception (CMP), CTU Prague",
+      "AImageLab, University of Modena and Reggio Emilia (MSCA collaboration)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Research group at a public university. Produces foundational computer vision research published at top venues (CVPR, ICCV, ECCV). Academic mission is not subject to commercial AGI displacement.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Grant-funded academic research group within Czech Technical University. Not competing in a commercial market; sustained by university funding, national grants (GA ČR), and EU funding (MSCA fellowships).",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Part of CTU Prague, funded through university budget, Czech Science Foundation (GA ČR) grants, EU MSCA fellowships, and Google Research Gifts. Multiple active grants secured as of 2025.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research group with stable institutional backing at CTU Prague, a leading European technical university. Prof. Matas is a world-class researcher (Editor-in-Chief of IJCV) and the group consistently publishes at top-tier venues, ensuring continued funding opportunities."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "employees_exact", "glassdoor", "revenue_estimate_usd"],
+    "needs_review": false,
+    "notes": "VRG is listed as 'company' category in the index but is clearly a research group (category: research-groups on CNAIP). Adapted JSON schema for research group per skill guidelines. Address: Karlovo namesti 13, 121 35 Prague 2, Czech Republic. Contact: matas@fel.cvut.cz"
+  }
+}
