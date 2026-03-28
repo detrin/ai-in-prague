@@ -1,0 +1,118 @@
+{
+  "id": "ufal-multilinguality",
+  "name": "UFAL Multilinguality Group",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Multilingual NLP research group at UFAL, Charles University Prague, focused on cross-lingual representation learning and machine translation",
+    "description_long": "The Multilinguality Group is a research team within ÚFAL (Institute of Formal and Applied Linguistics) at Charles University, led by Jindřich Libovický. The group studies how multilingual neural language models represent and transfer knowledge across languages, with a focus on cross-lingual alignment, multilingual tokenization, and cross-lingual fairness. Research themes include language-neutral sentence representations, subword segmentation for multilingual models, multimodal multilingual systems, and understanding where pre-trained multilingual models succeed or fail across language families. The group was formally established via a 2023 PRIMUS grant from Charles University and is also supported by a 2025–2027 Czech Science Foundation grant.",
+    "tagline": "Multilingual language modeling, cross-lingual fairness, and machine translation research",
+    "website": "https://ufal.mff.cuni.cz/jindrich-libovicky",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["nlp", "generative_ai"],
+    "industries_served": ["academia"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2023,
+    "founders": ["Jindřich Libovický"],
+    "origin_story": "Formally established as a distinct research group in 2023 via a PRIMUS grant from Charles University, which supports young PIs starting their own groups. Libovický returned to UFAL in 2022 after a postdoctoral stint at Ludwig-Maximilians-Universität München (2019–2021) and years as a research assistant at Charles University (2013–2019).",
+    "key_milestones": [
+      {"year": 2013, "event": "Jindřich Libovický begins Ph.D. in Computational Linguistics at Charles University"},
+      {"year": 2019, "event": "Ph.D. completed; Libovický joins LMU München as postdoctoral researcher"},
+      {"year": 2020, "event": "Key publication 'On the Language Neutrality of Pre-trained Multilingual Representations' at EMNLP 2020"},
+      {"year": 2022, "event": "Libovický returns to UFAL as Researcher Associate, begins building a multilingual NLP group"},
+      {"year": 2023, "event": "PRIMUS grant awarded (Language Neutral and Culturally Aware Multilingual Neural Sentence Representations, 2023–2026), formalising the group; PhD student Andrei Manea joins"},
+      {"year": 2024, "event": "PhD student Gianluca Vico joins the group"},
+      {"year": 2025, "event": "Czech Science Foundation grant awarded for Better Tokenization for Multilingual Language Models and Machine Translation (2025–2027)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 4,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Charles University – Institute of Formal and Applied Linguistics (ÚFAL)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jindřich Libovický", "role": "Principal Investigator / Researcher Associate", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Andrei Manea", "role": "PhD Student (since 2023)", "source": "company_website"},
+      {"name": "Gianluca Vico", "role": "PhD Student (since 2024)", "source": "company_website"},
+      {"name": "Katharina Hämmerl", "role": "PhD Student (joint with TUM, since 2021)", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://ufal.mff.cuni.cz/jindrich-libovicky",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "pytorch", "huggingface"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "PRIMUS programme, Charles University (2023–2026)",
+      "Czech Science Foundation / GAČR (2025–2027)",
+      "Ludwig-Maximilians-Universität München – joint PhD supervision",
+      "Collaborative project: Linguistics, AI, and Language & Speech Technologies (2025–2028)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group studying multilingual NLP; not a commercial product. The group's work on cross-lingual fairness and language model alignment is foundational AI research, not a product susceptible to commoditisation by foundation models.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Grant-funded academic research group within a public university; not subject to commercial market dynamics.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Research group funded by competitive university (PRIMUS 2023–2026) and national science foundation (GAČR 2025–2027) grants, consistent with standard academic lab model at a public Czech university.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Pure academic research group within ÚFAL, Charles University. Risk categories do not apply; the group's continuity depends on standard academic grant renewal and institutional support."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["funding_total_usd", "open_roles_count", "glassdoor"],
+    "needs_review": false,
+    "notes": "The URL https://ufal.mff.cuni.cz/multilinguality returns a 404; the group does not have a dedicated page. All data sourced from Jindřich Libovický's profile page at UFAL and associated grants/projects pages. The Wayback Machine confirmed the /multilinguality path was never archived. The group was identified as Libovický's group from his explicit self-description: 'with my group, I focus on multilinguality and cross-lingual fairness'."
+  }
+}
