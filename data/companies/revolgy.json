@@ -1,0 +1,109 @@
+{
+  "id": "revolgy",
+  "name": "Revolgy",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Cloud services and consulting company specialising in Google Cloud and AWS, with growing AI/ML and AI agent-building services.",
+    "description_long": "Revolgy (formerly Revolgy Business Solutions) was founded in 1996 and rebranded to its current name in 2018 as a combination of 'revolution' and 'technology'. The company helps businesses simplify and maximise their use of cloud technology, primarily through Google Cloud Platform and Amazon Web Services. Revolgy offers cloud consulting, cloud migration, cloud security, FinOps & cost optimisation, managed cloud services, and AI-related services including building AI agents, AI adoption programmes, data analytics, and Gemini for Google Workspace. The company serves 2,500+ customers in 47 countries and is a certified Google Cloud and AWS partner. It is remote-first, with team members across 20+ countries and a Prague headquarters. Sandberg Capital, a Central and Eastern European investment group, acquired a 35% equity stake in June 2020.",
+    "tagline": "Revolgy makes the cloud work for you",
+    "website": "https://revolgy.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["other", "generative_ai", "ml_ops"],
+    "industries_served": ["e-commerce", "finance", "fintech", "gaming", "public_sector", "startups", "gambling"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1996,
+    "founders": ["Bohuslav Dohnal"],
+    "origin_story": "Founded in 1996 providing professional IT services and hardware/software. Pivoted to cloud services and rebranded as Revolgy in 2018, combining 'revolution' and 'technology'.",
+    "key_milestones": [
+      {"year": 1996, "event": "Founded as IT services and hardware/software provider"},
+      {"year": 2018, "event": "Rebranded to Revolgy, pivoted fully to cloud services"},
+      {"year": 2020, "event": "Sandberg Capital acquires 35% equity stake (June 2020)"},
+      {"year": 2021, "event": "Celebrated 25th anniversary; joined Financial Times list of 1000 fastest growing companies"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2020-06", "type": "Private Equity", "amount_usd": null, "lead_investor": "Sandberg Capital"}
+    ],
+    "investors": ["Sandberg Capital"],
+    "revenue_estimate_usd": 9400000,
+    "revenue_source": "unquote.com (CZK 250m / ~€9.4m reported at time of 2020 investment)",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Miroslav Vlasák", "role": "CEO", "source": "company_website"},
+      {"name": "Tereza Grill", "role": "CMO", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://revolgy.com/career",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["google_cloud", "aws", "gemini", "python"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": 3.9,
+    "review_count": 16,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Revolgy-EI_IE2518585.11,18.htm"
+  },
+
+  "recognition": {
+    "awards": ["Financial Times 1000 Fastest Growing Companies in Europe"],
+    "notable_clients": ["Rouvy", "EDUA Group", "Aleph Holding", "NRB", "3Bohemians", "Purple Next"],
+    "customer_count": 2500,
+    "partnerships": ["Google Cloud Partner", "AWS Partner"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Revolgy's core value is cloud consulting and managed services expertise (Google Cloud, AWS), which requires human judgment and customer relationships. However, their AI agent-building and AI adoption services are more commoditisable as foundation models improve. Strong partnership certifications and 2,500+ customer relationships provide some defensible moat.",
+    "market_risk": "low",
+    "market_risk_rationale": "Cloud services and managed cloud is a large, growing, and well-established market. Revolgy's 25+ years of experience, 2,500+ customers across 47 countries, and certified partner status with Google and AWS demonstrate proven demand and sustainable business.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Sandberg Capital (a well-known CEE private equity firm) holds a 35% equity stake since 2020. At the time of investment the company reported CZK 250m (~€9.4m) revenue with 100% YoY growth, indicating financial health and institutional backing.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Revolgy is a mature 25+ year-old cloud services company with a large customer base, institutional PE backing, and strong partner certifications. While the AI consulting layer carries medium displacement risk, the core managed cloud business is resilient and well-established."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "tracxn", "mergr.com", "glassdoor_snippet", "unquote.com"],
+    "fields_missing": ["funding_total_usd", "open_roles_count", "recommend_pct", "employees_exact"],
+    "needs_review": false,
+    "notes": "Founded 1996, rebranded 2018. Revenue figure (~€9.4m) is from 2020 at time of Sandberg Capital investment; current revenue likely higher. Company is IT/cloud consulting first, with AI as a growing service line — not AI-native."
+  }
+}
