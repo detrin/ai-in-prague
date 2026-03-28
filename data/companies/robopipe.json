@@ -1,0 +1,110 @@
+{
+  "id": "robopipe",
+  "name": "Robopipe",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Industrial machine vision platform — AI camera + software for automated visual inspection",
+    "description_long": "Robopipe is a brand of KOALA42 s.r.o. that offers an end-to-end industrial machine vision solution combining ruggedized AI cameras with a no-code platform to Capture, Label, Train and Deploy computer vision models at the edge. The Robopipe Kit includes an IP65-rated 12 MPx industrial camera with depth sensing and IR illumination, paired with a Linux-based controller that runs inference fully offline. Target use cases include defect detection, object detection and counting, OCR/barcode reading, and robot guidance across manufacturing, pharma, agriculture, and logistics.",
+    "tagline": "Make Machines See",
+    "website": "https://robopipe.io",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["cv", "automation"],
+    "industries_served": ["manufacturing", "pharma", "agriculture", "logistics"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2018,
+    "founders": [],
+    "origin_story": "KOALA42 s.r.o. was incorporated on 2018-02-07 in Prague. Robopipe is their industrial machine vision brand, developed to replace repetitive manual inspection labour in industrial settings.",
+    "key_milestones": [
+      {"year": 2018, "event": "KOALA42 s.r.o. incorporated in Praha 8 - Karlín"},
+      {"year": 2024, "event": "Robopipe Kit (IP65 AI camera + controller) launched publicly"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Zlín", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "KOALA42 s.r.o.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Lukáš Kuhn", "role": "Business Developer, KOALA42", "source": "company_website"},
+      {"name": "Marek Mikulec", "role": "Engineering", "source": "company_website"},
+      {"name": "Filip Molčík", "role": "Software", "source": "company_website"},
+      {"name": "Jan Jelinek", "role": "Customers", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "doc. Ing. Ivo Bukovský, Ph.D.", "role": "Advisor", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://koala42.com/kariera",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "linux", "rest_api", "websockets", "label-studio"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Luxonis"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Robopipe's value proposition is hardware-software integration — a ruggedized IP65 industrial AI camera with offline edge inference. Foundation models cannot replace the physical device or the certified industrial-grade hardware stack; their software moat is reinforced by proprietary edge deployment and tight PLC/controller integration.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Industrial machine vision is a large and growing market, but it is served by well-funded incumbents such as Cognex, Keyence, and SICK. Robopipe differentiates via open developer tooling and a full kit approach, but it is a small player competing against global leaders with established sales channels.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No external funding has been identified; Robopipe appears to be a product line of a bootstrapped Czech software studio (KOALA42, 11-50 employees). Without disclosed revenue or investment, the runway for scaling hardware R&D and manufacturing is uncertain.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "The hardware+software integration provides a real moat against AGI commoditization, but high funding risk and intense competition from global machine vision incumbents temper the outlook. Success depends on securing industrial design wins and building a recurring software subscription stream."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_registry"],
+    "fields_missing": ["founded_year_exact_robopipe_brand", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "Robopipe is a product brand of KOALA42 s.r.o. (IČO 06841945), incorporated 2018-02-07, Praha 8 - Karlín. KOALA42 also has an office in Zlín. No CNAIP entry found for Robopipe."
+  }
+}
