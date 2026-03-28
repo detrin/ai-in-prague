@@ -2,199 +2,116 @@
   "id": "keboola",
   "name": "Keboola",
   "category": "company",
-  "scraped_at": "2026-03-28T12:00:00Z",
+  "scraped_at": "2026-03-28T17:45:00Z",
+
   "overview": {
-    "description": "Cloud-based unified data and AI orchestration platform for data integration, transformation, automation, and governance",
-    "description_long": "Keboola is a B2B SaaS platform that unifies the entire data stack on one interface -- covering data integration, storage, transformation, automation, and governance. It helps businesses build end-to-end data workflows, automate repetitive tasks, and build data applications with a no-code front end. The platform serves enterprises in financial services, retail, marketing, and logistics with capabilities in churn prediction, logistics flow optimization, revenue prediction, and financial intelligence. Keboola was bootstrapped from 2008 to 2022 before raising external funding.",
+    "description": "Unified AI and data orchestration platform for building and automating governed data pipelines",
+    "description_long": "Keboola is a unified AI and data orchestration platform that lets organizations ingest, transform, and orchestrate governed data pipelines and LLM-powered search and analytics. The platform emphasizes production-ready reliability, error handling, and governance from day one. It has a strong focus on finance teams (CFOs, FP&A, controllers) who need accurate, auditable data for reporting and planning, as well as broader data engineering use cases.",
     "tagline": "Unified data & AI orchestration platform",
     "website": "https://www.keboola.com",
     "cnaip_url": null
   },
+
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": [
-      "data_engineering",
-      "automation",
-      "ml_ops"
-    ],
-    "industries_served": [
-      "financial_services",
-      "retail",
-      "marketing",
-      "logistics",
-      "telecom"
-    ],
+    "ai_focus": ["data_engineering", "ml_ops", "automation"],
+    "industries_served": ["finance", "retail", "e-commerce", "real_estate", "banking"],
     "company_type": "scaleup",
     "is_ai_native": false
   },
+
   "history": {
     "founded_year": 2008,
-    "founders": [
-      "Mirek Burkon",
-      "Milan Veverka",
-      "Petr Simecek"
-    ],
-    "origin_story": "Founded in Prague in 2008 (incorporated July 2007) by Mirek Burkon, Milan Veverka, and Petr Simecek. The company was entirely self-funded and bootstrapped for over 14 years before raising its first external round in 2022. Their first employee was Jiri Sobotik.",
+    "founders": ["Pavel Doležal", "Petr Šimeček", "Milan Veverka"],
+    "origin_story": "Founded in Prague in 2008, Keboola has helped organizations turn data into reliable decisions for over 15 years, growing from a data integration tool into a unified AI and data orchestration platform.",
     "key_milestones": [
-      {
-        "year": 2008,
-        "event": "Company founded in Prague"
-      },
-      {
-        "year": 2021,
-        "event": "Reached $4.9M ARR bootstrapped with 56 employees"
-      },
-      {
-        "year": 2022,
-        "event": "Raised $4.5M seed round led by Presto Ventures, first external funding after 14 years of bootstrapping"
-      },
-      {
-        "year": 2023,
-        "event": "Raised $32M Series A led by Viking Global Investors, largest Series A in Central Europe in 2023"
-      },
-      {
-        "year": 2024,
-        "event": "Revenue reached $11.7M with 175 customers"
-      }
+      {"year": 2008, "event": "Founded in Prague by Pavel Doležal, Petr Šimeček, and Milan Veverka"},
+      {"year": 2021, "event": "Raised $32M Series A funding"},
+      {"year": 2024, "event": "Named G2 Leader in multiple data platform categories"}
     ]
   },
+
   "size": {
     "employees_range": "51-200",
-    "employees_exact": 84,
-    "employee_source": "getlatka",
+    "employees_exact": null,
+    "employee_source": "company_website",
     "office_count": 2
   },
+
   "offices": [
-    {
-      "city": "Prague",
-      "country": "CZ",
-      "is_hq": true,
-      "address": "Delnicka 191/27, Prague 7, 17000"
-    },
-    {
-      "city": "Vancouver",
-      "country": "CA",
-      "is_hq": false
-    }
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Chicago", "country": "US", "is_hq": false}
   ],
+
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
     "stock_exchange": null,
     "parent_company": null,
-    "funding_total_usd": 36500000,
+    "funding_total_usd": 32000000,
     "funding_rounds": [
-      {
-        "round": "Seed",
-        "amount_usd": 4500000,
-        "date": "2022-11",
-        "lead_investor": "Presto Ventures"
-      },
-      {
-        "round": "Series A",
-        "amount_usd": 32000000,
-        "date": "2023-12",
-        "lead_investor": "Viking Global Investors"
-      }
+      {"date": "2021", "type": "Series A", "amount_usd": 32000000, "lead_investor": null}
     ],
-    "investors": [
-      "Viking Global Investors",
-      "Presto Ventures",
-      "Reflex Capital",
-      "Eduard Kucera (Avast co-founder)"
-    ],
-    "revenue_estimate_usd": 11700000,
-    "revenue_source": "getlatka (2024)",
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
     "business_model": "subscription_saas"
   },
+
   "team": {
     "leadership": [
-      {
-        "name": "Pavel Dolezal",
-        "role": "CEO & Founder",
-        "source": "crunchbase"
-      },
-      {
-        "name": "Mirek Burkon",
-        "role": "Co-founder",
-        "source": "crunchbase"
-      },
-      {
-        "name": "Milan Veverka",
-        "role": "Co-founder",
-        "source": "crunchbase"
-      },
-      {
-        "name": "Petr Simecek",
-        "role": "Co-founder",
-        "source": "crunchbase"
-      }
+      {"name": "Pavel Doležal", "role": "CEO & Co-founder", "source": "company_website"},
+      {"name": "Petr Šimeček", "role": "Co-Founder", "source": "company_website"},
+      {"name": "Jiri Manas", "role": "CTO", "source": "company_website"},
+      {"name": "Giorgo Pontillo", "role": "CRO", "source": "company_website"},
+      {"name": "Michal Jerabek", "role": "VP of Product", "source": "company_website"}
     ],
     "notable_people": []
   },
+
   "careers": {
     "careers_url": "https://www.keboola.com/about/jobs",
-    "open_roles_count": 8,
-    "open_roles": [],
-    "tech_stack": [
-      "python",
-      "javascript",
-      "cloud",
-      "docker"
+    "open_roles_count": 7,
+    "open_roles": [
+      {"title": "Senior DevSecOps Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Software Architect / Principal Engineer - Platform", "department": "engineering", "location": "Prague"},
+      {"title": "Head of Product Design", "department": "product", "location": "Prague"},
+      {"title": "Product Manager – Data Management & Storage", "department": "product", "location": "Prague"}
     ],
-    "hiring_signals": "actively_hiring"
+    "tech_stack": ["python", "aws"],
+    "hiring_signals": "few_roles"
   },
+
   "glassdoor": {
-    "rating": 3.2,
-    "review_count": 42,
+    "rating": null,
+    "review_count": null,
     "recommend_pct": null,
-    "glassdoor_url": "https://www.glassdoor.com/Reviews/Keboola-Reviews-E1616091.htm"
+    "glassdoor_url": null
   },
+
   "recognition": {
-    "awards": [
-      "Largest Series A in Central Europe 2023"
-    ],
-    "notable_clients": [
-      "Publicis Groupe",
-      "Deloitte",
-      "Erste Group",
-      "BNP Paribas",
-      "Allegro",
-      "Home Credit"
-    ],
-    "customer_count": 175,
+    "awards": ["G2 Leader Spring 2024", "G2 Leader Summer 2024 (3 categories)", "G2 4.6/5 rating (100+ reviews)"],
+    "notable_clients": ["Home Credit", "Rohlik", "Česká spořitelna", "Slovenská sporiteľňa", "Seznam", "Ivanhoé Cambridge", "Firehouse Subs"],
+    "customer_count": null,
     "partnerships": []
   },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Keboola's core value is data pipeline orchestration, governance, and reliability — not just AI inference. However, hyperscalers (AWS, Azure, GCP) and modern lakehouse tools are encroaching on the same space. The platform's governance, auditability, and finance-team focus provide some differentiation, but the core ETL/ELT tooling is increasingly commoditized.",
+    "market_risk": "low",
+    "market_risk_rationale": "The data orchestration and DataOps market is large, growing, and has strong enterprise demand. Keboola has 15+ years of traction, 34K+ users, and major enterprise customers across banking, retail, and real estate. Revenue signals are solid.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Raised $32M in Series A funding and has been operating profitably or near-profitably for 15+ years. The company has a substantial customer base (34K+ users) and multiple enterprise contracts, reducing runway risk.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Keboola is a well-established scaleup with solid enterprise traction and funding, but faces increasing competition from cloud-native data platforms. The medium overall risk reflects competitive pressure from well-funded incumbents despite Keboola's strong customer relationships and governance focus."
+  },
+
   "metadata": {
     "data_quality": "high",
-    "sources_used": [
-      "brave_search",
-      "crunchbase",
-      "getlatka",
-      "glassdoor",
-      "linkedin",
-      "tracxn",
-      "rocketreach",
-      "venturebeat",
-      "tech.eu",
-      "g2"
-    ],
-    "fields_missing": [
-      "recommend_pct",
-      "detailed_open_roles",
-      "exact_tech_stack"
-    ],
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["funding_total_usd_investors", "glassdoor_rating", "revenue_estimate_usd", "employees_exact"],
     "needs_review": false,
-    "notes": "Bootstrapped for 14 years (2008-2022) before raising external capital. Revenue trajectory: $400K (2015) -> $4.9M (2021) -> $8M+ (2022) -> $7.5M (2023 per getlatka) -> $11.7M (2024). Employee count varies by source: LinkedIn says 51-200, getlatka reports 84, ContactOut reports 128. Glassdoor shows 3.2/5 from 42 reviews with 8 open positions. 70% positive interview experience. G2 has 138 product reviews. Keboola.com homepage could not be directly scraped due to browser navigation issues; data gathered from search engine snippets and third-party sources."
-  },
-  "risk_assessment": {
-    "agi_displacement": "low",
-    "agi_displacement_rationale": "Domain-specific focus (data_engineering) with proprietary tech or established customer base provides moat against foundation model commoditization.",
-    "market_risk": "low",
-    "market_risk_rationale": "Established customer base with proven market demand.",
-    "funding_risk": "low",
-    "funding_risk_rationale": "Well-funded with 2 known funding round(s). Has runway for continued operations.",
-    "overall_risk": "low",
-    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
+    "notes": "Series A amount of $32M sourced directly from company about page. Founded 2008-12-17 per JSON-LD schema. 90+ team members per about page; LinkedIn shows 100-200 range. 7 open roles on Lever at time of scraping."
   }
 }
