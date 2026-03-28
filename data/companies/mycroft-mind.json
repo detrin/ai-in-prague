@@ -1,0 +1,109 @@
+{
+  "id": "mycroft-mind",
+  "name": "Mycroft Mind",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Energy intelligence software and data science for the energy transformation",
+    "description_long": "Mycroft Mind is a Czech software and data science company specializing in energy intelligence — helping DSOs and energy sector participants achieve energy excellence through smart metering, smart grid analytics, and AI-driven energy management. The company has processed 9.5+ billion data measurements and successfully deployed technology across 20,000 substations. Key clients include ČEZ, EON, PRE, and Iberdrola.",
+    "tagline": "We Create Energy Intelligence",
+    "website": "https://www.mycroftmind.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["data_engineering", "ml_ops", "other"],
+    "industries_served": ["energy", "utilities", "smart_grid"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2007,
+    "founders": ["Filip Procházka", "Zdenko Staníček"],
+    "origin_story": "Founded in 2007 as a spin-off of Masaryk University by Filip Procházka and Zdenko Staníček, with Ladislav Chodák as the first investor. Initially focused on sensor network data collection and processing (DG1.0 technology), then pivoted to smart metering and smart grids.",
+    "key_milestones": [
+      {"year": 2007, "event": "Founded as Masaryk University spin-off in Brno"},
+      {"year": 2011, "event": "Development of DG1.0 technology for sensor network data collection and processing"},
+      {"year": 2012, "event": "Shift to Smart Metering and Smart Grids; key projects for ČEZ Distribuce and Iberdrola"},
+      {"year": 2019, "event": "Start of DC AMM and MDTS projects for ČEZ Distribuce"},
+      {"year": 2023, "event": "Secured IPCEI grant; became part of TTC Group"},
+      {"year": 2024, "event": "Grew to 70 employees — nearly 4x growth; 9 MIO EUR invested in development; 20,000 substations installed in MDTS project"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": 70,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Brno", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "TTC Group",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Ladislav Chodák (first investor)", "TTC Group"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Filip Procházka", "role": "CPO (Chief Product Officer) & Co-founder", "source": "company_website"},
+      {"name": "Zdenko Staníček", "role": "Co-founder", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.mycroftmind.com/career",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["IPCEI grant recipient (2023)"],
+    "notable_clients": ["ČEZ Distribuce", "EON", "PRE", "Iberdrola"],
+    "customer_count": null,
+    "partnerships": ["ČEZ", "EON", "PRE", "Iberdrola"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Mycroft Mind operates in a highly specialized domain (energy grid intelligence, smart metering, MDTS substations) with 9.5+ billion proprietary data measurements and deep integration with regulated utility infrastructure. Foundation models cannot replicate this vertical moat without the underlying data, compliance know-how, and utility-specific integrations.",
+    "market_risk": "low",
+    "market_risk_rationale": "Energy transition and smart grid digitization are structural, multi-decade trends with strong EU regulatory tailwinds (IPCEI support). The company has proven demand with major European DSOs (ČEZ, Iberdrola) and a 100 MIO EUR MDTS project underway.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Backed by the established TTC Group (acquired 2023), holds an IPCEI grant, and has reported 9 MIO EUR invested in development. Parent company backing provides financial stability without dependence on venture capital.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Deep domain moat in regulated energy infrastructure, long-term enterprise contracts with major European utilities, IPCEI grant, and TTC Group backing collectively make this a low-risk profile with strong structural tailwinds from energy transition."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles", "tech_stack", "employees_exact_ceo"],
+    "needs_review": false,
+    "notes": "Company HQ is Brno, not Prague — included in catalog likely via CNAIP. Part of TTC Group since 2023. Career listings referenced on Startupjobs.com but specific roles not found during scrape. CPO Filip Procházka presenting at Digitální energetika 2026 in Prague (April 8, 2026)."
+  }
+}
