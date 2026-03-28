@@ -1,0 +1,99 @@
+{
+  "id": "moje-srdce",
+  "name": "Moje srdce",
+  "category": "company",
+  "scraped_at": "2026-03-28T19:58:00Z",
+
+  "overview": {
+    "description": "AI-powered cardiovascular health management platform for patients",
+    "description_long": "Moje srdce ('My Heart') is a Czech B2C digital health platform aimed at transforming cardiovascular care. It offers a freemium web and mobile app where cardiac patients can store health data (diseases, medications, blood pressure, weight), receive AI-generated personalised recommendations approved by cardiologists, perform symptom analysis via probabilistic and Bayesian models, and consult specialist cardiologists via chat or call within 24 hours. Doctors earn revenue-share commissions for patient referrals and consultations. The platform uses classical ML, computer vision for automated medical report parsing, and Bayesian inference for symptom triage.",
+    "tagline": "Budoucnost péče o srdce brzy začíná (The future of heart care is starting soon)",
+    "website": "https://www.mojesrdce.cz",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/moje-srdce"
+  },
+
+  "classification": {
+    "business_type": "b2c_saas",
+    "ai_focus": ["ml_ops", "cv", "automation"],
+    "industries_served": ["healthcare"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": "Founded in Prague to automate cardiovascular health monitoring and connect cardiac patients with specialist cardiologists remotely.",
+    "key_milestones": []
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "freemium"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Core product is a symptom-checker and recommendation engine built on Bayesian models and classical ML — capabilities that large health-focused foundation models (e.g. Med-PaLM, GPT-4 with medical prompting) can replicate. The doctor-in-the-loop network and GDPR-compliant data handling provide some differentiation, but the AI moat is thin for a B2C app in a crowded digital health market.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Cardiology-focused digital health is a real and growing market, but B2C health apps face poor retention and willingness-to-pay challenges. At 299 CZK/month (~€12) the TAM in Czechia is small, and the platform is competing with larger international health apps and direct GP/hospital digital services.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No public funding rounds detected. Website is early-stage (Squarespace, 'coming soon' language on homepage), legal entity is Moje srdce s.r.o. with no known investors. Monthly subscription price of ~€12 implies very limited early revenue and constrained runway.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Very early-stage bootstrapped startup with no known funding, thin AI moat, and a challenging B2C freemium model in regulated healthcare. While the cardiology specialisation and doctor network add credibility, the combination of high AGI displacement risk, limited market size in Czechia, and absence of institutional backing creates significant execution risk."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "cnaip"],
+    "fields_missing": ["founded_year", "founders", "employees_exact", "funding_total_usd", "leadership", "glassdoor_url"],
+    "needs_review": false,
+    "notes": "Website uses 'coming soon' language suggesting the product is still in beta/early access. Legal name is Moje srdce s.r.o., registered at Oblouková 848/25, Praha 10, 10100. CNAIP page exists but cnaip_url was missing from the index — it is https://www.cnaip.cz/cs/entity/moje-srdce."
+  }
+}
