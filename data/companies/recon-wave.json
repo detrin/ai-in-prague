@@ -1,0 +1,106 @@
+{
+  "id": "recon-wave",
+  "name": "Recon Wave",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:35:00Z",
+
+  "overview": {
+    "description": "External attack surface management (EASM) — automated internet-wide scanning for exposed infrastructure",
+    "description_long": "Recon Wave monitors your entire public infrastructure without requiring any installation or internal access. The platform continuously scans the internet, discovers all root domains, subdomains and IP addresses, tracks dynamic changes in real time, and scans all 65535 TCP ports daily to detect risks before hackers do. It also offers a public DNS dataset search tool (Recon Wave Search) backed by 320M+ root domain records.",
+    "tagline": "Monitor Your Attack Surface",
+    "website": "https://reconwave.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["automation", "data_engineering"],
+    "industries_served": ["cybersecurity", "technology", "finance", "crypto"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2024,
+    "founders": ["Martin Repa", "Lukas Forst"],
+    "origin_story": "Founded in Prague by ethical hacker Martin Repa and solutions engineer Lukas Forst to provide agentless, zero-setup external attack surface monitoring.",
+    "key_milestones": [
+      {"year": 2024, "event": "Defense Ventures s.r.o. incorporated (May 20, 2024)"},
+      {"year": 2024, "event": "Launched Recon Wave Search — DNS dataset interface with 320M+ root domains (September 2024)"},
+      {"year": 2025, "event": "Published Global DNS State research series on DNS centralisation and zone transfer risks"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Martin Repa", "role": "Co-Founder", "source": "company_website"},
+      {"name": "Lukas Forst", "role": "Co-Founder", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Seznam.cz", "SatoshiLabs", "Mild Blue", "Stratosphere Lab"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core value is in the proprietary DNS/IP dataset and continuous internet-wide scanning infrastructure, which AGI alone cannot replicate. However, the attack surface analysis and risk prioritisation layer could face competition from AI-native security platforms.",
+    "market_risk": "medium",
+    "market_risk_rationale": "EASM is a growing and real market (used by Seznam.cz, SatoshiLabs), but the space is competitive with well-funded incumbents like Censys, Shodan, and SpiderFoot. Small Prague startup competing globally.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external funding; founded May 2024 with just 2 co-founders. Bootstrapped early-stage startup with no runway signals, relying on custom-priced contracts with a handful of Czech companies.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Very early-stage bootstrapped startup (founded 2024, 2 people) in a competitive global cybersecurity market. Limited customer base and no known funding create significant survival risk despite a credible and differentiated product."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_ares_registry"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "open_roles_count", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "Legal entity is Defense Ventures s.r.o. (IČ: 21622752), incorporated 2024-05-20. Not a traditional AI company — OSINT/cybersecurity SaaS. No CNAIP page found. No careers page on website."
+  }
+}
