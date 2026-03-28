@@ -1,0 +1,113 @@
+{
+  "id": "vocalls",
+  "name": "VOCALLS",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "Enterprise conversational AI platform automating voice, chat, and email customer interactions for contact centers",
+    "description_long": "VOCALLS is a Voice-First Conversational Automation Platform for enterprise contact centers. Founded in Prague in 2016, the company built a proprietary NLP engine powering Voicebot (inbound/outbound calling), Chatbot, Emailbot, and LiveTranslate products. The platform automates repetitive customer interactions so agents can focus on complex tasks, achieving 55% AHT reduction and 92% success rates at scale (20M+ conversations automated annually). Customers span e-commerce, logistics, telecom, healthcare, and hospitality industries. In June 2025, VOCALLS was acquired by CallMiner, a global leader in conversation analytics.",
+    "tagline": "Automate Any Customer Interaction",
+    "website": "https://vocalls.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["speech", "nlp", "automation"],
+    "industries_served": ["retail", "logistics", "telecommunications", "healthcare", "hospitality", "education", "it_services"],
+    "company_type": "acquired",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2016,
+    "founders": ["Artem Markevich", "Martin Čermák"],
+    "origin_story": "Founded in Prague in 2016 by Artem Markevich and Martin Čermák. Launched their first voicebot the same year, then built a full conversational AI platform on a proprietary NLP engine. After 8 years of independent growth, acquired by US-based CallMiner in June 2025.",
+    "key_milestones": [
+      {"year": 2016, "event": "VOCALLS founded in Prague; first voicebot launched"},
+      {"year": 2018, "event": "VOCALLS Designer (conversation builder tool) launched"},
+      {"year": 2022, "event": "Emailbot and LiveTranslate added to platform; 10M+ conversations automated milestone reached"},
+      {"year": 2022, "event": "Raised 20 million CZK (~$870k) from V-Sharp Venture Studio (investors Michal Menšík and Zdeněk Šoutal)"},
+      {"year": 2025, "event": "Acquired by CallMiner, global leader in conversation analytics"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 14,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "CallMiner",
+    "funding_total_usd": 1300000,
+    "funding_rounds": [
+      {"date": "2022-11", "type": "Seed", "amount_usd": 870000, "lead_investor": "V-Sharp Venture Studio"},
+      {"date": "2020-01", "type": "Pre-Seed", "amount_usd": 440000, "lead_investor": null}
+    ],
+    "investors": ["V-Sharp Venture Studio", "Michal Menšík", "Zdeněk Šoutal"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Artem Markevich", "role": "CEO & Co-Founder", "source": "company_website"},
+      {"name": "Martin Čermák", "role": "CTO & Co-Founder", "source": "company_website"},
+      {"name": "Artem Frolov", "role": "COO", "source": "company_website"},
+      {"name": "Petr Vejrážka", "role": "Head of Marketing", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://vocalls.ai/careers",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["proprietary_nlp"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Vocalls-Reviews-E10153789.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "VOCALLS built a proprietary NLP engine and deep integrations with telephony, IVR, CRMs, and CCaaS platforms, providing genuine technical moat beyond a simple LLM wrapper. However, the core capability (voice/chat automation for contact centers) is increasingly commoditized by hyperscalers (Google CCAI, AWS Connect, Microsoft Copilot). The acquisition by CallMiner confirms real value, but suggests they could not scale independently in the face of larger AI players.",
+    "market_risk": "low",
+    "market_risk_rationale": "Contact center automation is a large, growing, and proven market with strong enterprise demand and clear ROI metrics (AHT reduction, call capacity). The company's 20M+ conversations processed annually demonstrates real product-market fit across multiple verticals.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Company was acquired by CallMiner in June 2025 and is now a subsidiary. Pre-acquisition funding risk was high — total raised was only ~$1.3M (very lean for a contact center AI platform competing globally), which likely accelerated the decision to find an acquirer.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Post-acquisition by CallMiner, VOCALLS operates under a well-funded parent with strong market position in conversation analytics. The Prague team's expertise in voice automation complements CallMiner's analytics capabilities, making the combined entity well-positioned."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website_archived", "linkedin", "forbes.cz"],
+    "fields_missing": ["glassdoor_rating", "open_roles", "tech_stack_details", "customer_count", "pre_seed_round_date"],
+    "needs_review": false,
+    "notes": "vocalls.ai now redirects to callminer.com — acquisition confirmed by LinkedIn post (June 2025). 14 employees figure is from LinkedIn at time of acquisition. Funding figures are approximate CZK conversions: 20M CZK (~$870k) confirmed by Forbes CZ (Nov 2022); earlier ~10M CZK round (~$440k) from lupa.cz/digibiz articles. The archived About page (2023) confirmed founders, milestones, and office address. Founded year is 2016 per the company's own history timeline."
+  }
+}
