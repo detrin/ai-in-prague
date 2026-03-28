@@ -1043,7 +1043,8 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "done",
+    "website_url": "https://www.gopas.cz"
   },
   {
     "id": "g2oat",
