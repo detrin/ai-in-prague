@@ -1,0 +1,128 @@
+{
+  "id": "ravenpack",
+  "name": "RavenPack",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered financial data analytics — NLP platform converting unstructured financial content into machine-readable intelligence for hedge funds, banks, and asset managers",
+    "description_long": "RavenPack is the leading provider of big data analytics for financial services, founded in 2003 in Marbella, Spain. The company converts vast amounts of unstructured information — news articles, regulatory filings, transcripts, earnings calls — into decision-ready insights. It serves approximately 70% of the world's top-performing hedge funds and major institutional investors globally. RavenPack offers two main products: RavenPack Edge (curated datasets and pre-built factors for quantitative and systematic investment workflows) and Bigdata.com (an AI-native research assistant platform for financial analysis using RAG and vector search). In 2024, RavenPack raised a $20M Series B led by GP Bullhound to accelerate its AI platform expansion and secured a strategic investment from FT Ventures (Financial Times).",
+    "tagline": "Let Data Drive Your Decisions",
+    "website": "https://www.ravenpack.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["nlp", "data_engineering", "generative_ai"],
+    "industries_served": ["finance", "asset_management", "banking", "hedge_funds", "compliance"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2003,
+    "founders": ["Armando Gonzalez"],
+    "origin_story": "Founded in 2003 in Marbella, Spain by Armando Gonzalez, a technology entrepreneur and expert in applied AI for financial services. Named after Norse mythology — Odin's ravens that gather information from across the world.",
+    "key_milestones": [
+      {"year": 2003, "event": "Founded in Marbella, Spain by Armando Gonzalez"},
+      {"year": 2003, "event": "Core team including CTO Jason Cornez, COO Tania Calvo, and CDO Kevin Crosbie joined at founding"},
+      {"year": 2008, "event": "Peter Hafez joined as Chief Data Scientist; pioneered applied news analytics for institutional finance"},
+      {"year": 2024, "event": "Raised $20M Series B led by GP Bullhound and EIB Group to launch Bigdata.com"},
+      {"year": 2024, "event": "Secured strategic investment from FT Ventures (Financial Times) and integrated FT premium content into Bigdata.com"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Marbella", "country": "ES", "is_hq": true},
+    {"city": "New York", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 35000000,
+    "funding_rounds": [
+      {"date": "2024-07", "type": "Series B", "amount_usd": 20000000, "lead_investor": "GP Bullhound"},
+      {"date": null, "type": "Series A", "amount_usd": null, "lead_investor": null},
+      {"date": null, "type": "Seed", "amount_usd": null, "lead_investor": null}
+    ],
+    "investors": ["GP Bullhound", "FT Ventures", "European Investment Bank (EIB)", "Molten Ventures", "Plug and Play Tech Center", "Linq Capital Sweden"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Armando Gonzalez", "role": "CEO and Co-Founder", "source": "company_website"},
+      {"name": "Jason S. Cornez", "role": "CTO", "source": "company_website"},
+      {"name": "Tania Calvo", "role": "COO", "source": "company_website"},
+      {"name": "Kevin Crosbie", "role": "Chief Data Officer", "source": "company_website"},
+      {"name": "Peter Hafez", "role": "Chief Data Scientist", "source": "company_website"},
+      {"name": "Mark Trowbridge", "role": "Chief Revenue Officer", "source": "company_website"},
+      {"name": "Lina Baamer", "role": "CFO", "source": "company_website"},
+      {"name": "Aakarsh Ramchandani", "role": "Chief Product Officer", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Peter Hafez", "role": "Chief Data Scientist", "note": "Pioneer in applied news analytics for finance; previously at S&P, Credit Suisse, Saxo Bank; guest lecturer at London Business School and NYU Courant"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://ravenpack.teamtailor.com/jobs",
+    "open_roles_count": 6,
+    "open_roles": [
+      {"title": "Accounting Manager", "department": "finance", "location": "Marbella"},
+      {"title": "Business Development Representative", "department": "sales", "location": "New York"},
+      {"title": "Enterprise Account Executive", "department": "sales", "location": "New York"},
+      {"title": "Senior ML Engineer - Search & LLM Ops", "department": "engineering", "location": "Marbella"},
+      {"title": "Growth Operations Specialist", "department": "marketing", "location": "Marbella / Madrid"},
+      {"title": "Senior Quantitative Researcher - QIS", "department": "data_science", "location": "Marbella"}
+    ],
+    "tech_stack": ["python", "llm", "vector_search", "rag", "snowflake"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": 3.7,
+    "review_count": 93,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-RavenPack-EI_IE1148931.11,20.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Financial Times (FT Ventures investment + content integration)", "Wharton WRDS (data distribution)", "Snowflake (cloud data platform)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "RavenPack has 20+ years of proprietary curated financial data and domain expertise, serving 70% of top hedge funds. However, LLMs (Bloomberg Terminal AI, Perplexity Finance, GPT-4 with browsing) are increasingly capable of real-time financial text analysis. Their moat is data provenance, reliability standards, and institutional integration — not the NLP itself.",
+    "market_risk": "low",
+    "market_risk_rationale": "Financial data analytics is a well-established, multi-billion dollar market with proven institutional demand. RavenPack has a 20-year track record and blue-chip client base including ~70% of the world's top-performing hedge funds, providing strong PMF and pricing power.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-funded with $35M total including 2024 Series B led by GP Bullhound and strategic investment from Financial Times (FT Ventures). Strong institutional investor base and established revenue-generating client roster spanning global hedge funds and banks.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Established market position and 20-year institutional relationships buffer against AGI commoditization, but competition from Bloomberg, Refinitiv, and AI-native challengers is intensifying. The proprietary financial data corpus and workflow integrations provide a medium-term moat."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "glassdoor_snippets", "tracxn_snippet", "pitchbook_snippet", "tech_press"],
+    "fields_missing": ["revenue_estimate_usd", "customer_count", "recommend_pct", "funding_series_a_amount"],
+    "needs_review": true,
+    "notes": "RavenPack's primary offices are Marbella (Spain, HQ) and New York (US). No confirmed Prague or Czech office was found during research. The company describes itself as having '200+ employees across the U.S. and Europe' — some may be Czech-based remote employees. Prague connection is unconfirmed; included in this catalog with source=other. Legal name: RavenPack, S.L. (Spanish entity). Total funding of $35M per Tracxn; $33.8M per PitchBook — slight discrepancy, used $35M as most cited figure."
+  }
+}
