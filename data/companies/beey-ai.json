@@ -1,0 +1,119 @@
+{
+  "id": "beey-ai",
+  "name": "Beey AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered automatic transcription and subtitling platform for audio and video content",
+    "description_long": "Beey AI is an online application by NEWTON Technologies, a.s. that automatically converts audio and video content to text, generates captions and subtitles, translates in 30+ languages, and provides live transcription for streamed content. Built on proprietary speech recognition (ASR) technology developed over 15+ years, Beey serves journalists, media agencies, podcasters, video producers, courts, government bodies, and researchers. The platform includes a smart editor, AI tools (summarization, speaker recognition, sentiment analysis), team collaboration, and API integration. Enterprise customers can access on-premise deployments and complete broadcast workflow integrations.",
+    "tagline": "Automatic transcription and subtitles for your audio or video content with AI",
+    "website": "https://www.beey.io",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["speech", "nlp", "automation"],
+    "industries_served": ["media", "journalism", "education", "government", "legal", "content_creation"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2008,
+    "founders": [],
+    "origin_story": "NEWTON Technologies, a.s. was founded in 2008 and has specialized in speech technologies for 15+ years. The Beey AI product was launched in 2018 as an online transcription and subtitling platform, leveraging speech recognition systems developed internally and trained on an extensive multimedia archive from sister company Newton Media (30+ years of media monitoring data).",
+    "key_milestones": [
+      {"year": 2008, "event": "NEWTON Technologies, a.s. founded in Prague"},
+      {"year": 2018, "event": "Beey online transcription platform launched"},
+      {"year": 2022, "event": "NORDTRANS project: €1,244,000 grant from Norway Grants and Technology Agency of Czech Republic for Nordic language ASR (Swedish, Norwegian, Danish)"},
+      {"year": 2024, "event": "Czech Parliament begins using Beey AI to transcribe sessions"},
+      {"year": 2025, "event": "Beey AI provided real-time simultaneous translation at PR Brunch #26 at CTK press center"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "NEWTON Technologies, a.s.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Petr Herian", "role": "CEO, NEWTON Technologies", "source": "company_website"},
+      {"name": "Ewa Balejová", "role": "COO", "source": "company_website"},
+      {"name": "Petr Smorada", "role": "CSO", "source": "company_website"},
+      {"name": "František Štěpánek", "role": "Product Manager", "source": "company_website"},
+      {"name": "Martin Podloucký", "role": "Team Lead / Senior Developer (front-end)", "source": "company_website"},
+      {"name": "Ladislav Šeps", "role": "Tech Lead / Senior Developer (back-end)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Karel Beneš", "role": "ML Engineer", "source": "company_website"},
+      {"name": "Marek Boháč", "role": "Research Developer", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "javascript"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "G2 High Performer (market presence top 1/3, high customer satisfaction)",
+      "Norway Grants – NORDTRANS project recipient (€1,244,000)",
+      "Technology Agency of Czech Republic – Beey Multimedia Platform grant recipient"
+    ],
+    "notable_clients": ["Czech Parliament", "Newton Media"],
+    "customer_count": 50000,
+    "partnerships": ["Newton Media, a.s. (sister company – media monitoring data and archive)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Core ASR/transcription technology is rapidly commoditized by OpenAI Whisper, Google Speech-to-Text, Azure, and AWS Transcribe, which also cover 30+ languages. Beey's editor workflow and EU-language specialization provide some stickiness, but the fundamental value proposition is easily replicated by foundation model speech tools. The integrated editor is a modest differentiator.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Transcription and subtitling is a real, growing market (accessibility mandates, content explosion), but competition is intense from Otter.ai, Rev, Descript, Sonix, Verbit, and large cloud providers. Beey differentiates on European language support and professional subtitle workflow, but pricing pressure from well-funded global competitors is significant.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Backed by NEWTON Technologies, a.s. (established since 2008), which provides stable parent company support. Has received government grants (Norway Grants €1,244,000, Technology Agency of CZ) and has 50,000+ paying users generating subscription and usage-based revenue.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Funding stability from parent company and grant backing reduces financial risk, and a loyal user base of 50,000+ with strong satisfaction ratings (G2 4.9/5) provides runway. However, the core transcription technology is increasingly commoditized by foundation models, limiting long-term defensibility without deeper workflow or vertical integration."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_registry"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count", "founders", "careers_url"],
+    "needs_review": false,
+    "notes": "Beey AI is a product/brand of NEWTON Technologies, a.s. (IČO: 28479777, Prague Nusle). It is not a standalone legal entity. NEWTON Technologies also operates Newton Media, a.s. as a sister company in media monitoring. The 'founded_year' reflects NEWTON Technologies' founding date; Beey as a product launched in 2018. Customer count of 50,000 is based on 'over 50,000 satisfied users' claim on homepage."
+  }
+}
