@@ -1,0 +1,104 @@
+{
+  "id": "meta-exponential",
+  "name": "Meta Exponential",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Prague-based AI consultancy offering custom AI chatbots, social media automation, and bespoke AI solutions for small businesses",
+    "description_long": "Meta Exponential s.r.o. positions itself as a guide to the AI world (průvodci AI světem), helping businesses leverage AI through custom chatbot implementations, automated social media content generation, and tailored AI solutions. Their AI chatbot product learns from business context — product catalogue, services, and domain-specific information — to answer customer questions and provide 24/7 support. They also offer an AI social media script service that automatically creates and publishes posts. Additional offerings include custom AI analytics and NFT studio services for digital art sales.",
+    "tagline": "průvodci AI světem (Guides to the AI World)",
+    "website": "https://www.metaexponential.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["nlp", "generative_ai", "automation"],
+    "industries_served": ["retail", "ecommerce", "marketing"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2022,
+    "founders": ["Jan Horčička", "Martin Aichler"],
+    "origin_story": "Founded in June 2022 in Prague by Jan Horčička and Martin Aichler as a small AI consultancy targeting Czech SMEs with custom AI chatbots and automation tools. Martin Aichler exited the company in April 2025.",
+    "key_milestones": [
+      {"year": 2022, "event": "Founded in Prague (Stodůlky, Praha 13)"},
+      {"year": 2025, "event": "Martin Aichler removed as partner and director; Jan Horčička continues as sole jednatel"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jan Horčička", "role": "Founder & CEO (Jednatel)", "source": "czech_business_registry"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Meta Exponential's core products — AI chatbots and social media content automation — are thin wrappers over foundation models (LLMs). These offerings are trivially replicable by any developer using OpenAI, Anthropic, or open-source models, with no proprietary data moat, no domain-specific fine-tuning, and no enterprise integrations that create switching costs.",
+    "market_risk": "high",
+    "market_risk_rationale": "The company has only 7 LinkedIn followers and minimal online presence, suggesting very limited market traction. The AI chatbot and social media automation space is saturated with well-funded competitors. No evidence of paying customers, PMF, or differentiated positioning.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Registered capital of only 20,000 CZK (~$900), no known external funding, no investors listed anywhere. With 2-10 employees and no revenue signals, the company faces acute runway risk.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "A micro-startup with no funding, minimal market presence (7 LinkedIn followers), and a product built on commoditized AI capabilities with no proprietary moat. High risk of displacement by foundation models and well-funded competitors."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin", "czech_business_registry", "search_snippets"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor"],
+    "needs_review": false,
+    "notes": "Very small early-stage startup. Czech business registry (IČO: 17187494) confirms founding date June 2, 2022. Martin Aichler exited April 2025, leaving Jan Horčička as sole director. LinkedIn shows 2-10 employees and 7 followers. No Glassdoor presence found."
+  }
+}
