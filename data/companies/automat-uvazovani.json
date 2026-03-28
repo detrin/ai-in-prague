@@ -1,0 +1,116 @@
+{
+  "id": "automat-uvazovani",
+  "name": "Automatické uvažování",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T22:00:00Z",
+
+  "overview": {
+    "description": "AR: Automated Reasoning research group at CIIRC CTU Prague, combining machine learning with formal theorem proving",
+    "description_long": "The Automated Reasoning (AR) group — 'Automatické uvažování' in Czech — is a research team within the Department of Artificial Intelligence at CIIRC (Czech Institute of Informatics, Robotics and Cybernetics), Czech Technical University in Prague. The group's goal is to develop strong AI and automated reasoning systems capable of assisting mathematics, science, and the development of formally verified software and designs. Its distinctive focus is on combining automated reasoning (AR) with machine learning (ML), cross-fertilising inductive and deductive AI methods over large formal mathematical and verification corpora (such as the Mizar mathematical library). Core research topics include: learning-guided automated theorem proving; SAT, QBF, and SMT solving with ML; AI metasystems interleaving learning and reasoning; and formalization and interactive theorem proving with autoformalization. The group is led by Josef Urban (ERC Advanced Grant holder for AI4Reason) and Martin Suda, and is one of four subgroups within CIIRC's AI Department.",
+    "tagline": "Combining machine learning with automated theorem proving and formal verification",
+    "website": "http://arg.ciirc.cvut.cz/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["ml_ops", "automation", "other"],
+    "industries_served": ["academia", "software_verification", "mathematics"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Josef Urban", "Jiří Vyskočil"],
+    "origin_story": "The Automated Reasoning Group at CIIRC dates back at least to 2010 (group website copyright). Petr Štěpánek (†2012), a foundational logician, is honoured as an early member. The group consolidated within CIIRC CTU Prague after the institute's establishment in 2012–2013. Josef Urban, internationally known for AI-guided theorem proving and the Mizar/MML large-scale formal library work, became a senior PI and secured an ERC Advanced Grant (AI4Reason) for the group.",
+    "key_milestones": [
+      {"year": 2013, "event": "CIIRC CTU Prague established; AR group integrates as part of AI Department"},
+      {"year": 2019, "event": "AITP 2019 (Artificial Intelligence and Theorem Proving) conference co-organised at CIIRC"},
+      {"year": 2019, "event": "CICM 2019 (Conferences on Intelligent Computer Mathematics) co-organised at CIIRC"},
+      {"year": 2020, "event": "AI4Reason ERC Advanced Grant project active (Artificial Intelligence for Large-Scale Computer-Assisted Reasoning)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "CIIRC CTU Prague / Czech Technical University in Prague",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Josef Urban", "role": "Principal Investigator (PI) / ERC Advanced Grant holder", "source": "company_website"},
+      {"name": "Martin Suda", "role": "Principal Investigator / Head of AR Group", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Chad Brown", "role": "Senior Researcher", "source": "company_website"},
+      {"name": "Jan Jakubův", "role": "Senior Researcher", "source": "company_website"},
+      {"name": "Thibault Gauthier", "role": "Researcher", "source": "company_website"},
+      {"name": "Karel Chvalovský", "role": "Researcher", "source": "company_website"},
+      {"name": "Jan Hůla", "role": "Researcher", "source": "company_website"},
+      {"name": "Robert Veroff", "role": "Affiliated Research Professor", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.ciirc.cvut.cz/en/about/open-positions/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD Student (Automated Theorem Proving / ML)", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "c++", "prolog", "lean", "coq", "isabelle", "mizar"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["ERC Advanced Grant – AI4Reason (Josef Urban)"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["CIIRC CTU Prague", "Czech Technical University in Prague", "Mizar project"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group conducting foundational AI research on automated theorem proving and formal verification. Not a commercial product; AGI displacement risk is not applicable.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research group funded by grants, not operating in a commercial market. Risk framework does not apply.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Group holds at least one ERC Advanced Grant (AI4Reason for Josef Urban), which is a multi-year prestigious EU research grant providing substantial and stable funding. Embedded within a well-funded national research institute (CIIRC CTU).",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research group at a publicly funded national institute (CIIRC CTU Prague). Not exposed to commercial market or AGI displacement risks. Funding secured through competitive EU grants including ERC Advanced Grant."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ciirc_website"],
+    "fields_missing": ["founded_year", "cnaip_url", "glassdoor", "employees_exact", "open_roles_count"],
+    "needs_review": false,
+    "notes": "No CNAIP entity page exists for this group (cnaip_url is null). The group is the 'AR: Automatické uvažování' subgroup within CIIRC's Department of Artificial Intelligence (Oddělení umělé inteligence). Group website: http://arg.ciirc.cvut.cz/. Parent department: https://www.ciirc.cvut.cz/en/teams-labs/ai/ar/. PhD students as of scraped date: Filip Bártek, Lasse Blaauwbroek, Zarathustra Goertzel, Yutaka Nagashima, Jelle Piepenbrock, Bartosz Piotrowski."
+  }
+}
