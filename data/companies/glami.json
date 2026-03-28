@@ -1,0 +1,120 @@
+{
+  "id": "glami",
+  "name": "Glami",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered fashion discovery and price comparison platform across Central & Eastern Europe",
+    "description_long": "GLAMI (operated by Inspigroup s.r.o.) is a leading European fashion discovery platform founded in 2013. It aggregates products from 4,600+ fashion e-shops across 13 countries, using proprietary AI models for product categorization, personalized recommendations, and visual similarity search. GLAMI mediates 450,000+ monthly orders and attracts 47M+ monthly visits. The platform launched an AI Shopping Assistant powered by ChatGPT in 2023 and runs GLAMI Ventures, a €5M e-commerce investment fund.",
+    "tagline": "Where fashion meets technology",
+    "website": "https://www.glami.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["recommendation", "cv", "ml_ops"],
+    "industries_served": ["fashion", "retail", "e-commerce"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2013,
+    "founders": null,
+    "origin_story": "Founded in 2013 as Domodi in Liberec, Czech Republic. Rebranded to GLAMI and relocated to Prague in 2015. Gradually expanded to 13 markets across Central and Eastern Europe through organic growth and acquisitions.",
+    "key_milestones": [
+      {"year": 2013, "event": "Founded as Domodi in Liberec, Czech Republic"},
+      {"year": 2015, "event": "Rebranded to GLAMI, opened Prague office, launched mobile app, expanded to France"},
+      {"year": 2016, "event": "Launched in Slovakia"},
+      {"year": 2017, "event": "Expanded to Hungary and Romania"},
+      {"year": 2018, "event": "Acquired Greek fashion platform Ntynomai; launched in Turkey and Russia"},
+      {"year": 2019, "event": "Expanded to Bulgaria, Croatia, Slovenia, Spain, Brazil; launched GLAMI Eco (sustainable fashion); introduced image search"},
+      {"year": 2020, "event": "Opened Baltic markets: Latvia, Lithuania, Estonia"},
+      {"year": 2021, "event": "Introduced in-house AI models: recommender system and deep item categorization; reached 350K monthly orders"},
+      {"year": 2022, "event": "Acquired Italian fashion aggregator Stileo; appointed Ján Kešelák as new CEO; established GLAMI Ventures (€5M e-commerce fund)"},
+      {"year": 2023, "event": "Launched in Poland; introduced first AI Shopping Assistant (ChatGPT-powered) in Czech Republic"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "marketplace"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ján Kešelák", "role": "CEO", "source": "company_website"},
+      {"name": "Ondřej Čech", "role": "CTO", "source": "company_website"},
+      {"name": "Michal Augustin", "role": "CFO", "source": "company_website"},
+      {"name": "Jan Matějček", "role": "CMO", "source": "company_website"},
+      {"name": "Antonín Hoskovec", "role": "Head of AI", "source": "company_website"},
+      {"name": "Pavel Hůza", "role": "Head of Product", "source": "company_website"},
+      {"name": "Igor Smolny", "role": "Head of Market Development", "source": "company_website"},
+      {"name": "Martina Konečná", "role": "Head of People & Org", "source": "company_website"},
+      {"name": "Hana Zachová", "role": "Head of Brand", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.glami.group/careers",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "neural_networks", "recommendation_systems", "computer_vision"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["ChatGPT / OpenAI (AI Shopping Assistant)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "GLAMI's core value lies in its proprietary recommendation, deep item categorization (neural network trained on 15M+ multilingual fashion items), and similarity engine handling 3M requests/day. This domain-specific training data and fashion vertical expertise create a moderate moat, but the AI components are becoming increasingly commoditizable as foundation models improve at visual search and recommendation.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established and growing fashion discovery market with 47M+ monthly visits, 4,600+ partner e-shops, and 450K+ monthly orders mediated across 13 countries. Real revenue from CPC model with proven demand and paying retail partners.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No publicly disclosed external VC funding found; appears to be bootstrapped or self-funded. The company established its own GLAMI Ventures fund (€5M) suggesting it generates sufficient cash flow, but without confirmed external backing or disclosed financials, runway is uncertain.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "GLAMI has strong market position with real scale and network effects (4,600+ shops, 13 countries), but faces medium AGI displacement risk as visual search and fashion recommendation AI commoditizes. Bootstrapped/self-funded model adds financial uncertainty despite clear market traction."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "glami.group"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "glassdoor_rating", "founders", "open_roles_count"],
+    "needs_review": false,
+    "notes": "Legal entity is Inspigroup s.r.o. Originally founded as Domodi. No publicly known external VC funding found. Employee count estimated at 51-200 based on company scale. GLAMI Ventures (€5M fund) is GLAMI's own investment vehicle, not funding received."
+  }
+}
