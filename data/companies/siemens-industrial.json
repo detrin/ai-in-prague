@@ -1,0 +1,105 @@
+{
+  "id": "siemens-industrial",
+  "name": "Siemens Industrial AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:50:00Z",
+
+  "overview": {
+    "description": "Siemens Industrial AI — Czech market presence of Siemens' global industrial AI portfolio, delivering AI-powered solutions for manufacturing, energy, and infrastructure",
+    "description_long": "Siemens is a global technology company with a strong presence in the Czech Republic. In Prague, Siemens operates its Industrial AI activities, offering AI strategy consulting, enterprise AI implementation, embedded & edge AI development, MLOps-as-a-Service, AI compute infrastructure, and proof-of-concept projects. Their technical expertise spans computer vision, operations optimization, data engineering, generative AI, MLOps, and classical ML. Key application areas include predictive maintenance, quality inspection, manufacturing AI, and cybersecurity.",
+    "tagline": "Industrial AI for manufacturing, energy, and infrastructure",
+    "website": "https://www.siemens.com/cs-cz/company/artificial-intelligence/",
+    "cnaip_url": "https://www.cnaip.cz/en/entity/siemens-industrial-ai"
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["automation", "cv", "ml_ops", "data_engineering", "other"],
+    "industries_served": ["manufacturing", "energy", "defense", "electronics", "chemicals", "consumer_goods", "public_sector"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1847,
+    "founders": ["Werner von Siemens"],
+    "origin_story": "Siemens was founded in 1847 in Berlin by Werner von Siemens. The Czech Republic presence dates back to the 1890s. Siemens Industrial AI represents the company's dedicated AI initiative registered with Czech AI industry association (CNAIP), operating from Prague headquarters.",
+    "key_milestones": [
+      {"year": 1847, "event": "Siemens founded in Berlin"},
+      {"year": 1890, "event": "Siemens establishes Czech Republic presence"},
+      {"year": 2020, "event": "Siemens Xcelerator digital business platform launched, embedding industrial AI"},
+      {"year": 2023, "event": "Siemens integrates generative AI into industrial workflows via Industrial Copilot"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": null,
+    "employee_source": "public_knowledge",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Munich", "country": "DE", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "SIE",
+    "stock_exchange": "Frankfurt Stock Exchange",
+    "parent_company": "Siemens AG",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "licensing"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://jobs.siemens.com/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "azure", "iot", "edge_ai", "mlops"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Siemens Industrial AI is deeply embedded in physical manufacturing systems, industrial IoT hardware, and operational technology (OT) environments with decades of proprietary sensor and operational data. Their AI sits within certified industrial platforms (Siemens Xcelerator, SINUMERIK, Opcenter) that foundation models cannot easily replicate or certify for safety-critical industrial use.",
+    "market_risk": "low",
+    "market_risk_rationale": "Industrial automation and manufacturing AI is a massive, established market with sustained demand from the energy transition, factory digitization, and Industry 4.0 trends. Siemens is a dominant incumbent with deep customer lock-in through integrated hardware-software stacks.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Siemens AG is a publicly traded company on the Frankfurt Stock Exchange with ~€78B annual revenue (FY2024). The Czech Industrial AI operations are backed by a ~€100B market cap parent — funding risk is irrelevant.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "As a division of one of the world's largest industrial technology companies, Siemens Industrial AI in Prague benefits from massive resources, decades of manufacturing domain expertise, certified industrial platforms, and deep customer relationships across regulated industries. AGI commoditization poses minimal threat given the hardware-software integration moat."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "public_knowledge"],
+    "fields_missing": ["employees_exact", "leadership", "open_roles", "glassdoor", "notable_clients", "funding_rounds"],
+    "needs_review": false,
+    "notes": "Siemens Industrial AI is Siemens' Czech Republic industrial AI division registered in CNAIP. Address: Siemensova 1, 155 00 Praha. Contact: siemens.cz@siemens.com. Website was anti-bot protected and could not be scraped directly. Employee count refers to Siemens Czech Republic overall (estimated 3,000-5,000+); global headcount is ~321,000."
+  }
+}
