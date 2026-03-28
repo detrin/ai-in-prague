@@ -2,39 +2,38 @@
   "id": "grove-tech-ai",
   "name": "GROVE TECH AI",
   "category": "company",
-  "scraped_at": "2026-03-28T17:25:00Z",
+  "scraped_at": "2026-03-28T12:00:00Z",
 
   "overview": {
-    "description": "AI consulting and custom development studio building chatbots, knowledge bases, automations, and AI avatars for B2B clients",
-    "description_long": "Grove Tech AI is a Prague-based AI-first team that designs and delivers custom AI solutions including AI chatbots, knowledge bases with RAG, process automations, and AI avatars. They bridge generative AI with business systems (CRM/ERP integrations), offering fixed-price projects and monthly retainers. They also operate a sister platform called 'Oživlý obal' — an interactive QR-code product experience platform for FMCG manufacturers.",
-    "tagline": "Otvíráme vám svět umělé inteligence (We open the world of artificial intelligence for you)",
+    "description": "Czech AI services company building chatbots, AI avatars, and process automation for businesses",
+    "description_long": "GROVE TECH AI s.r.o. helps Czech companies save time and money through custom AI solutions — conversational chatbots, photorealistic AI avatars (via HeyGen/D-ID), business process automation (RPA/workflow), AI integrations, predictive analytics, and AI consulting. They also develop software using 'vibe coding', an AI-assisted development approach. Case studies include HR onboarding avatars, medical AI doctor avatars, energy-market B2B consultants, internal knowledge bases, and sales automation bots.",
+    "tagline": "Small team, real results",
     "website": "https://grovetechai.com",
-    "cnaip_url": "https://www.cnaip.cz/cs/entity/grove-tech-ai"
+    "cnaip_url": null
   },
 
   "classification": {
     "business_type": "consulting",
-    "ai_focus": ["generative_ai", "nlp", "automation", "document_processing"],
-    "industries_served": ["finance", "logistics", "healthcare", "energy", "retail", "hospitality"],
+    "ai_focus": ["automation", "generative_ai", "nlp"],
+    "industries_served": ["healthcare", "energy", "hr", "software", "sales"],
     "company_type": "startup",
     "is_ai_native": true
   },
 
   "history": {
     "founded_year": 2024,
-    "founders": ["Ondřej Veselý"],
-    "origin_story": "Founded in Prague in 2024 as an AI-first studio to help companies implement AI solutions that deliver measurable results — from rapid prototypes to production deployments.",
+    "founders": ["Ondřej Veselý", "Oldřich Grulich"],
+    "origin_story": "Founded in June 2024 in Prague (Vinohrady) by Ondřej Veselý and Oldřich Grulich. Third co-owner Jiří Bruijn joined in July 2025. Registered as GROVE TECH AI s.r.o. (IČO 21707146). Veselý and Grulich are also co-directors of a related entity, Grove Minds AI s.r.o.",
     "key_milestones": [
-      {"year": 2024, "event": "Founded in Prague"},
-      {"year": 2025, "event": "Listed on CNAIP (Czech National AI Platform)"},
-      {"year": 2025, "event": "Launched 'Oživlý obal' sister platform for interactive QR-based product experiences"}
+      {"year": 2024, "event": "Founded in Prague (June 2024), registered with Municipal Court Prague"},
+      {"year": 2025, "event": "Third shareholder Jiří Bruijn joined; first annual accounts filed (2024 fiscal year)"}
     ]
   },
 
   "size": {
     "employees_range": "1-10",
-    "employees_exact": 2,
-    "employee_source": "linkedin",
+    "employees_exact": null,
+    "employee_source": "inferred_from_registry",
     "office_count": 1
   },
 
@@ -57,19 +56,18 @@
 
   "team": {
     "leadership": [
-      {"name": "Ondřej Veselý", "role": "Co-founder & CEO", "source": "linkedin"},
-      {"name": "Jiří Bruijn", "role": "CTO", "source": "company_website"}
+      {"name": "Ondřej Veselý", "role": "Jednatel (Managing Director)", "source": "czech_business_registry"},
+      {"name": "Oldřich Grulich", "role": "Jednatel (Managing Director)", "source": "czech_business_registry"},
+      {"name": "Jiří Bruijn", "role": "Shareholder (25%)", "source": "czech_business_registry"}
     ],
-    "notable_people": [
-      {"name": "Šimon", "role": "Business Development", "source": "linkedin"}
-    ]
+    "notable_people": []
   },
 
   "careers": {
     "careers_url": null,
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["python", "langchain", "openai", "azure-openai", "fastapi", "postgresql", "redis", "docker", "pinecone", "weaviate", "n8n", "make", "zapier"],
+    "tech_stack": ["react", "heygen", "d-id", "webrtc", "openai"],
     "hiring_signals": "unknown"
   },
 
@@ -82,27 +80,27 @@
 
   "recognition": {
     "awards": [],
-    "notable_clients": ["Energetik Martin"],
+    "notable_clients": [],
     "customer_count": null,
-    "partnerships": []
+    "partnerships": ["HeyGen", "D-ID"]
   },
 
   "risk_assessment": {
     "agi_displacement": "high",
-    "agi_displacement_rationale": "Grove Tech AI is primarily an AI implementation and consulting shop building on top of OpenAI GPT-4, Azure OpenAI, LangChain, and other commodity AI APIs. Their core value proposition — helping companies integrate AI chatbots, RAG knowledge bases, and automations — is highly replicable as AI tooling becomes more no-code and accessible. No proprietary models or datasets.",
+    "agi_displacement_rationale": "GROVE TECH AI is an AI systems integrator building solutions on top of commercial models (OpenAI, HeyGen, D-ID). There is no proprietary model, dataset, or deep technical moat — their value is in implementation expertise and client relationships, which can be replicated as foundation models become easier to deploy directly.",
     "market_risk": "medium",
-    "market_risk_rationale": "AI consulting for SMEs is a real and growing market in Central Europe, but it is highly fragmented with many competing boutique studios. The 'Oživlý obal' QR product platform is a differentiated niche, but it is unproven at scale and serves a narrow FMCG vertical.",
+    "market_risk_rationale": "Demand for AI implementation and automation services in Czech SMEs is real and growing. However, the market is crowded with many similar boutique AI agencies, and larger consultancies (Deloitte, Accenture) are also expanding AI implementation services.",
     "funding_risk": "high",
-    "funding_risk_rationale": "Bootstrapped micro-startup founded in 2024 with 2 employees and no known external funding. Very early stage with limited runway signals and no disclosed revenue.",
+    "funding_risk_rationale": "No external funding found. Registered capital is only 8,000 CZK — the statutory minimum. Founded in mid-2024 with 3 co-owners and a very small team, the company has no visible runway beyond early project revenue.",
     "overall_risk": "high",
-    "overall_risk_rationale": "Very small, early-stage, bootstrapped AI consulting studio with high AGI displacement risk (commodity tooling stack), a competitive and fragmented market, and no known funding or significant customer base. While the team appears technically competent, the company has not yet demonstrated scale or defensibility."
+    "overall_risk_rationale": "A very early-stage (founded June 2024), bootstrapped AI consulting/services firm with minimal capital, no proprietary technology moat, and high dependency on third-party AI platforms. While the Czech SME market presents genuine demand, the combination of no funding, thin technical differentiation, and a crowded competitive landscape makes this a high-risk entry."
   },
 
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "cnaip", "linkedin"],
-    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor_url", "customer_count"],
+    "sources_used": ["company_website", "czech_business_registry_kurzy", "podnikatel_cz", "aicrunch_cz"],
+    "fields_missing": ["employees_exact", "open_roles_count", "revenue_estimate_usd", "glassdoor_rating", "notable_clients", "customer_count"],
     "needs_review": false,
-    "notes": "Very small startup (2 employees) founded in 2024. Primary services: custom AI chatbots, RAG knowledge bases, process automation, AI avatars. Sister product platform 'Oživlý obal' for QR-based interactive product experiences. Pricing: project-based from 80,000 CZK (~3,200 EUR) + monthly retainers from 15,000 CZK/month. LinkedIn shows 534 followers and 2 employees as of March 2026."
+    "notes": "Company also operates a related entity 'Grove Minds AI s.r.o.' at the same address (Varšavská 715/36, Prague), with the same two managing directors. IČO 21707146. Very new company — first annual accounts filed for 2024 fiscal year in July 2025."
   }
 }

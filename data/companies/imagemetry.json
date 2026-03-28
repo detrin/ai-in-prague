@@ -5,17 +5,17 @@
   "scraped_at": "2026-03-28T12:00:00Z",
 
   "overview": {
-    "description": "Custom AI, computer vision, and NLP development company with 15+ years of experience",
-    "description_long": "ImageMetry is an advanced AI development consultancy founded in 2008 by PhD researchers in Prague. For over 15 years they have helped businesses automate workflows and build AI-powered products using computer vision, NLP, and machine learning. Services include OCR, document processing, face recognition, object detection, video understanding, image tampering detection, and augmented reality. They serve diverse industries including healthcare, finance, supply chain, ecommerce, legal, and government.",
-    "tagline": "Advanced AI. Real-World Impact.",
+    "description": "Custom AI development company specializing in computer vision, NLP, and image authenticity solutions",
+    "description_long": "ImageMetry is a Prague-based AI development company founded in 2008 by a group of PhD researchers. For over 15 years they have helped businesses disrupt, accelerate and scale using advanced AI, computer vision, and NLP technologies. Their PhD-led R&D team has published extensively in peer-reviewed journals and won awards including the Czech Head award and a City of New York recognition. Key solutions include OCR, document understanding, image/video tampering detection, object detection, face recognition, and number plate recognition.",
+    "tagline": "AI, computer vision, NLP solutions that work and save you time & money.",
     "website": "https://imagemetry.com",
     "cnaip_url": null
   },
 
   "classification": {
     "business_type": "consulting",
-    "ai_focus": ["cv", "nlp", "document_processing", "automation"],
-    "industries_served": ["healthcare", "finance", "supply_chain", "ecommerce", "legal", "government", "education", "real_estate", "energy"],
+    "ai_focus": ["cv", "nlp", "document_processing"],
+    "industries_served": ["healthcare", "finance", "logistics", "government", "retail", "education", "legal"],
     "company_type": "startup",
     "is_ai_native": true
   },
@@ -23,12 +23,11 @@
   "history": {
     "founded_year": 2008,
     "founders": ["Babak Mahdian", "Radim Nedbal"],
-    "origin_story": "Founded in 2008 by a group of PhD researchers in Prague; built on academic research in image analysis and computer vision",
+    "origin_story": "Founded in 2008 by a group of PhD researchers in Prague, building AI and computer vision solutions. Awarded by the City of New York and Czech Head award.",
     "key_milestones": [
       {"year": 2008, "event": "Founded in Prague by PhD researchers"},
-      {"year": null, "event": "Awarded by City of New York (presented by Mayor Michael Bloomberg)"},
-      {"year": null, "event": "Received prestigious Czech Head award from Czech Republic government"},
-      {"year": null, "event": "Selected by World Economic Forum to contribute to critical ICT projects of UN"}
+      {"year": 2012, "event": "Awarded by City of New York (Mayor Michael Bloomberg)"},
+      {"year": 2023, "event": "Awarded Czech Head award by Czech Republic Senate"}
     ]
   },
 
@@ -36,12 +35,11 @@
     "employees_range": "1-10",
     "employees_exact": null,
     "employee_source": "linkedin",
-    "office_count": 2
+    "office_count": 1
   },
 
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true},
-    {"city": "Sunnyvale", "country": "US", "is_hq": false}
+    {"city": "Prague", "country": "CZ", "is_hq": true}
   ],
 
   "financials": {
@@ -62,7 +60,9 @@
       {"name": "Babak Mahdian", "role": "CEO", "source": "company_website"},
       {"name": "Radim Nedbal", "role": "CTO", "source": "company_website"}
     ],
-    "notable_people": []
+    "notable_people": [
+      {"name": "Jakub Linhart", "role": "AI & SaaS Transformation Leader", "source": "linkedin"}
+    ]
   },
 
   "careers": {
@@ -84,9 +84,9 @@
 
   "recognition": {
     "awards": [
-      "City of New York Award (presented by Mayor Michael Bloomberg)",
-      "Czech Head Award (Czech Republic government)",
-      "World Economic Forum — selected for UN critical ICT projects"
+      "City of New York Award",
+      "Czech Head Award (Czech Republic)",
+      "World Economic Forum – selected to contribute to UN ICT projects"
     ],
     "notable_clients": [],
     "customer_count": null,
@@ -95,20 +95,20 @@
 
   "risk_assessment": {
     "agi_displacement": "medium",
-    "agi_displacement_rationale": "ImageMetry builds custom AI solutions (OCR, document processing, face recognition, tampering detection) that are increasingly replicable by foundation models. However, their 15+ years of domain expertise, client relationships, and academic pedigree (PhD founders, peer-reviewed publications) provide some differentiation in high-stakes verticals like government and legal.",
+    "agi_displacement_rationale": "ImageMetry provides custom AI consulting and development services. While foundation models are commoditizing some capabilities (OCR, NLP), the company's deep specialization in computer vision, image tampering detection, and niche research expertise (PhD-level team, peer-reviewed publications) provides differentiation. However, as AI tooling matures, clients may need less bespoke development.",
     "market_risk": "medium",
-    "market_risk_rationale": "Custom AI consulting serves a real market across many industries, but the company is very small (2-10 employees) which limits scale, and competition from larger AI consultancies is intense. Their dual Prague/US presence suggests market validation but unclear revenue scale.",
-    "funding_risk": "medium",
-    "funding_risk_rationale": "No known external funding; appears bootstrapped. However, the company has operated for 15+ years suggesting sustainability, and has prestigious award recognition. Small team keeps burn rate low, but growth capacity is constrained.",
-    "overall_risk": "medium",
-    "overall_risk_rationale": "A long-established boutique AI consultancy with strong academic credentials and notable recognition, but very small size and consulting model make it vulnerable to commoditization by foundation models and competition from larger AI services firms."
+    "market_risk_rationale": "Custom AI consulting is a real and growing market, but it is highly competitive. The company serves many verticals without clear product specialization, which can make sales cycles long and margins thin. No public evidence of a flagship product or recurring revenue base.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Very small team (2-10 employees per LinkedIn), no known external funding, and no evidence of recurring revenue or major contracts. The company appears bootstrapped and relies on project-based consulting income, which creates significant runway risk.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "A very small, bootstrapped consulting firm with no known external funding and a small team. While their 15+ year track record and PhD-level expertise provide some defensibility, the lack of a scalable product, small employee count, and reliance on bespoke client engagements represent material risk."
   },
 
   "metadata": {
     "data_quality": "medium",
     "sources_used": ["company_website", "linkedin"],
-    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor", "employees_exact", "customer_count", "founded_year_milestones"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "glassdoor_rating", "customer_count"],
     "needs_review": false,
-    "notes": "LinkedIn shows 2-10 employees. Company has two offices: Prague (HQ) and Sunnyvale, CA. Founded in 2008 by PhD researchers Babak Mahdian (CEO) and Radim Nedbal (CTO). No CNAIP URL available. Glassdoor data not found."
+    "notes": "Company website describes 'over 15 years' of experience (founded 2008). LinkedIn shows 2-10 employee range with 2 visible employees. CEO Babak Mahdian and CTO Radim Nedbal identified from awards page. No CNAIP entry found."
   }
 }

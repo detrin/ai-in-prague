@@ -2,14 +2,14 @@
   "id": "hlacik",
   "name": "HLÁČIK",
   "category": "company",
-  "scraped_at": "2026-03-28T17:30:00Z",
+  "scraped_at": "2026-03-28T21:00:00Z",
 
   "overview": {
     "description": "AI Research & Development Studio building edge AI products for public safety and offering AI consulting services",
     "description_long": "HLACIK s.r.o. is a Prague-based AI R&D studio founded by experienced ML practitioners. The company builds edge AI hardware-software products — SOWA (Smart Onboard Witness Analytics, a vehicle-mounted dual-camera object detection and ALPR system) and a VIN/license plate recognition system for law enforcement — alongside consulting services in enterprise architecture, AI R&D, education, digital influencers, and AI agents. Deep technical expertise in custom neural networks, transformer architectures, and CNNs predating mainstream ML adoption.",
     "tagline": "AI Research & Development Studio",
     "website": "https://hlacik.ai",
-    "cnaip_url": null
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/hlacik"
   },
 
   "classification": {
@@ -31,8 +31,8 @@
 
   "size": {
     "employees_range": "1-10",
-    "employees_exact": 2,
-    "employee_source": "company_website",
+    "employees_exact": 7,
+    "employee_source": "cnaip",
     "office_count": 1
   },
 
@@ -55,10 +55,15 @@
 
   "team": {
     "leadership": [
-      {"name": "David Hláčik", "role": "CEO, AI/ML Architect", "source": "company_website"},
-      {"name": "Kristýna Smetanová", "role": "Director, Legal Intern", "source": "company_website"}
+      {"name": "David Hláčik", "role": "CEO, AI/ML Enterprise Architect", "source": "company_website"},
+      {"name": "Kristýna Smetanová", "role": "Director", "source": "company_website"}
     ],
-    "notable_people": []
+    "notable_people": [
+      {"name": "Ľuboslav Odstrčil", "role": "Business Analyst, Senior Project Manager", "source": "company_website"},
+      {"name": "Lukáš Tarbaj", "role": "Application Development Lead", "source": "company_website"},
+      {"name": "Zdeněk Svatý", "role": "Prince2 Practitioner, ITIL IV, Scrum Master", "source": "company_website"},
+      {"name": "Tomáš Sabo", "role": "Frontend Developer", "source": "company_website"}
+    ]
   },
 
   "careers": {
@@ -78,9 +83,9 @@
 
   "recognition": {
     "awards": [],
-    "notable_clients": [],
+    "notable_clients": ["Czech Ministry of Interior", "Czech Police", "General University Hospital Prague (VFN)"],
     "customer_count": null,
-    "partnerships": []
+    "partnerships": ["Microsoft for Startups"]
   },
 
   "risk_assessment": {
@@ -89,16 +94,16 @@
     "market_risk": "medium",
     "market_risk_rationale": "Law enforcement and fleet management AI is a real and growing market, but it is niche and procurement cycles are long. The company serves multiple verticals (public safety, marketing, HR) which signals uncertainty about core focus and PMF.",
     "funding_risk": "high",
-    "funding_risk_rationale": "No known external funding; appears bootstrapped with only 2 team members. Very small Czech s.r.o. with no disclosed revenue or investors, and hardware product development requires significant capital.",
+    "funding_risk_rationale": "No known external equity funding; supported by Microsoft for Startups (Azure credits, not investment). A 7-person Czech s.r.o. with no disclosed revenue or investors. Hardware and edge AI product development requires significant capital to scale.",
     "overall_risk": "high",
-    "overall_risk_rationale": "Despite technically sophisticated products (edge AI for law enforcement), HLACIK is a 2-person bootstrapped studio with no public funding, unclear revenue, and a very broad service portfolio that may indicate early-stage product-market fit search."
+    "overall_risk_rationale": "Despite technically sophisticated edge AI products deployed with Czech Police and Ministry of Interior, HLACIK is a bootstrapped 7-person studio with no external funding, unclear revenue trajectory, and a diverse service portfolio suggesting early-stage PMF search."
   },
 
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website"],
+    "sources_used": ["company_website", "cnaip"],
     "fields_missing": ["founded_year", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count"],
     "needs_review": false,
-    "notes": "CNAIP URL not available. Company registered as HLACIK s.r.o. in Prague. Products: SOWA (vehicle edge AI) and VIN (license plate/VIN recognition for law enforcement). Website launched ~May 2025. LinkedIn: https://www.linkedin.com/company/hlacik/"
+    "notes": "Company registered as HLACIK s.r.o. in Prague. Office: WeWork, Národní 135/14, Prague 110 00. Products: SOWA (vehicle-mounted edge AI for mobile law enforcement) and VIN (license plate/VIN recognition for stolen car detection). Also builds AI for pharma GS1 codes, ECG analysis, vehicle damage detection, and digital AI influencers. CNAIP description: 'team of seven enthusiasts for artificial intelligence'. LinkedIn: https://www.linkedin.com/company/hlacik/"
   }
 }

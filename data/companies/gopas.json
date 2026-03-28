@@ -5,17 +5,17 @@
   "scraped_at": "2026-03-28T12:00:00Z",
 
   "overview": {
-    "description": "Largest IT training school in the Czech and Slovak market, offering 2,000+ courses including 34 AI-focused courses",
-    "description_long": "GOPAS (Počítačová škola GOPAS) is the largest IT training provider in the Czech and Slovak market, training nearly 30,000 students annually. Founded in 1992, the company offers 2,000+ courses covering IT infrastructure, cybersecurity, AI/ML, data engineering, cloud, programming, and business applications. As a Microsoft Gold Certified Partner (first educational center in CZ/SR), EC-Council ATC, CompTIA, Red Hat, VMware, and AWS authorized training partner, GOPAS holds a broad portfolio of vendor authorizations. It offers 34+ AI courses under categories including AI for users, AI for managers, AI for administrators and programmers, and AI security. The company also organizes major IT conferences including TechEd, HackerFest, JavaDays, and the newly launched AI Day.",
-    "tagline": "Největší poskytovatel IT školení v České a Slovenské republice",
+    "description": "Počítačová škola GOPAS is the largest IT training and certification school in the Czech and Slovak market, offering over 2,000 courses including AI, cybersecurity, cloud, and Microsoft technologies.",
+    "description_long": "GOPAS (Počítačová škola GOPAS, a.s.) is the largest provider of IT education and training in the Czech Republic and Slovakia. Founded in 1992, it serves nearly 30,000 students annually across its locations in Prague, Brno, and Bratislava. GOPAS offers more than 2,000 courses covering a wide range of IT domains: artificial intelligence (AI for users, managers, programmers, AI security), cybersecurity, cloud computing, networking, data, Microsoft 365/Azure, programming, and professional certifications (Microsoft, Cisco, EC-Council, CompTIA, VMware, AWS and others). The school holds ISO 9001 and ISO 27001 certifications and was the first Czech training center to achieve Microsoft Gold Certified Partner status for learning solutions. GOPAS also organises major IT conferences (TechEd, HackerFest, JavaDays, JS Days) and participates in government-funded digital upskilling programmes (MPSV DIGI pro firmu, Jsem v kurzu).",
+    "tagline": "Největší poskytovatel IT školení na českém a slovenském trhu",
     "website": "https://www.gopas.cz",
     "cnaip_url": null
   },
 
   "classification": {
     "business_type": "other",
-    "ai_focus": ["automation", "other"],
-    "industries_served": ["education", "enterprise_it", "finance", "public_sector", "technology"],
+    "ai_focus": ["other"],
+    "industries_served": ["education", "information_technology", "corporate_training"],
     "company_type": "enterprise",
     "is_ai_native": false
   },
@@ -23,18 +23,20 @@
   "history": {
     "founded_year": 1992,
     "founders": [],
-    "origin_story": "Founded in 1992 as a computer training school in Prague. Legally incorporated as GOPAS, a.s. in April 1996. Grew over three decades to become the dominant IT training provider in the Czech and Slovak markets.",
+    "origin_story": "GOPAS was founded in 1992 and legally incorporated as GOPAS, a.s. on April 1, 1996. It grew from a small Prague-based computer training centre to the market-leading IT education provider in Czech Republic and Slovakia.",
     "key_milestones": [
-      {"year": 1992, "event": "GOPAS founded as a computer training school in Prague"},
-      {"year": 1996, "event": "Legally registered as GOPAS, a.s.; ISO 9001 certification obtained; MŠMT accreditation for IT requalification"},
-      {"year": 1998, "event": "Brno branch opened; Prometric Testing Centre accreditation obtained"},
-      {"year": 2002, "event": "First Microsoft Certified Gold Partner for Learning Solutions in CZ and SR; TechEd conference (DevCon) launched"},
-      {"year": 2004, "event": "Slovak subsidiary GOPAS SR, a.s. founded in Bratislava"},
-      {"year": 2013, "event": "HackerFest security conference launched"},
-      {"year": 2020, "event": "Microsoft Partner of the Year for Learning (LLPA); pivot to online course delivery during COVID-19"},
+      {"year": 1992, "event": "GOPAS founded in Prague"},
+      {"year": 1993, "event": "SCO Gold Award of the Year – second best authorised training centre in Europe, Asia and Africa"},
+      {"year": 1994, "event": "Gained Microsoft ATEC (Authorised Training Education Center) authorisation"},
+      {"year": 1996, "event": "GOPAS, a.s. legally incorporated; ISO 9001 certification obtained; MŠMT accreditation for IT requalification"},
+      {"year": 2002, "event": "First training centre in CZ/SK to achieve Microsoft Certified Gold Partner for Learning Solutions"},
+      {"year": 2004, "event": "Founded subsidiary GOPAS SR, a.s. in Bratislava"},
+      {"year": 2009, "event": "Launched annual TechEd DevCon conference"},
+      {"year": 2011, "event": "First in CZ: Microsoft Partner Gold Learning"},
+      {"year": 2020, "event": "Microsoft Partner of the Year 2020 for Learning; pivoted to online courses during COVID-19"},
       {"year": 2022, "event": "30th anniversary; 20th TechEd conference"},
-      {"year": 2024, "event": "ISO 27001 certification for information security management obtained"},
-      {"year": 2026, "event": "Relocation to new Prague HQ at Na Strži 63, Praha-Krč with 24 computer classrooms; AI Day conference launched"}
+      {"year": 2024, "event": "ISO 27001 certification; launched MPSV DIGI pro firmu programme"},
+      {"year": 2026, "event": "Relocated Prague HQ to Na Strži 63, Praha-Krč (24 computer classrooms)"}
     ]
   },
 
@@ -66,15 +68,15 @@
 
   "team": {
     "leadership": [
-      {"name": "Ing. Petr Daniel", "role": "Chairman of the Board (Správní rada)", "source": "czech_business_registry"},
-      {"name": "Ing. Ladislav Bartoníček", "role": "Vice-Chairman of the Board (Správní rada)", "source": "czech_business_registry"},
-      {"name": "Ing. Milena Dubská", "role": "Board Member (Správní rada)", "source": "czech_business_registry"}
+      {"name": "Ing. Petr Daniel", "role": "Předseda správní rady (Chairman of the Board)", "source": "czech_business_register"},
+      {"name": "Ing. Ladislav Bartoníček", "role": "Místopředseda správní rady (Vice Chairman of the Board)", "source": "czech_business_register"},
+      {"name": "Ing. Milena Dubská", "role": "Člen správní rady (Board Member)", "source": "czech_business_register"}
     ],
     "notable_people": []
   },
 
   "careers": {
-    "careers_url": null,
+    "careers_url": "https://www.gopas.cz/gopas-profil-firmy",
     "open_roles_count": null,
     "open_roles": [],
     "tech_stack": [],
@@ -90,40 +92,48 @@
 
   "recognition": {
     "awards": [
-      "ISO 9001 certified (since 1996)",
-      "ISO 27001 certified (2024)",
-      "Microsoft Gold Certified Partner for Learning Solutions — first in CZ and SR (2002)",
-      "EC-Council Circle of Excellence ATC (multiple years: 2012, 2013, 2014, 2015, 2016, 2017, 2019)",
-      "EC-Council William Ischanoe Circle of Excellence Instructor (2013, 2014, 2015, 2016, 2017, 2019)",
-      "Microsoft Partner of the Year for Learning 2020 (LLPA)",
-      "EC-Council Best Newcomer of the Year 2012"
+      "Microsoft Partner of the Year 2020 for Learning",
+      "EC-Council ATC Circle of Excellence (multiple years: 2012–2019)",
+      "EC-Council William Ischanoe Circle of Excellence Instructor (2014–2019)",
+      "Circle of Excellence ATC 2021",
+      "SCO Gold Award of the Year 1993 (2nd best authorised centre in Europe/Asia/Africa)"
     ],
     "notable_clients": [],
     "customer_count": 30000,
     "partnerships": [
-      "Microsoft", "EC-Council", "CompTIA", "Red Hat", "VMware by Broadcom",
-      "Cisco Systems", "IBM", "Amazon Web Services", "Check Point", "Oracle",
-      "SAP", "Pearson VUE", "Prometric", "Citrix", "ISTQB", "Hewlett Packard Enterprise",
-      "Veeam", "CertNexus", "IREB", "SUSE", "EDB (PostgreSQL)", "QA"
+      "Microsoft Gold Learning Partner",
+      "EC-Council Accredited Training Center",
+      "CompTIA Authorized Partner",
+      "Cisco Systems",
+      "VMware",
+      "AWS",
+      "IBM",
+      "Red Hat",
+      "Check Point",
+      "ORACLE University Partner",
+      "SAP Partner",
+      "CertNexus",
+      "Pearson VUE",
+      "Prometric"
     ]
   },
 
   "risk_assessment": {
     "agi_displacement": "medium",
-    "agi_displacement_rationale": "AI-powered self-paced learning and AI tutors could reduce demand for instructor-led training over time. However, GOPAS's core value lies in accredited, vendor-authorized certification training (Microsoft, EC-Council, CompTIA) that requires authorized training centers — a structural moat that AI cannot easily replicate.",
+    "agi_displacement_rationale": "GOPAS's core business of IT training faces real disruption from AI-powered learning platforms and AI coding/productivity tools that reduce training needs. However, the company's moat lies in its authorised certification training (Microsoft, Cisco, EC-Council, CompTIA) where official vendor certification requires formally approved training centres, providing an institutional buffer that generic AI tutoring cannot easily replace.",
     "market_risk": "low",
-    "market_risk_rationale": "IT training is a large, stable market with consistent enterprise demand for certified professionals. GOPAS holds a dominant position in CZ/SK with 30,000+ annual students, 30+ years of operation, and exclusive/authorized partnerships with all major IT vendors.",
+    "market_risk_rationale": "IT education and corporate upskilling is an established, persistent market with consistent demand, especially as digital transformation accelerates. GOPAS is the clear market leader in Czech Republic and Slovakia with 30+ years of operations, 30,000 students/year, and government-backed requalification programmes providing a stable revenue base.",
     "funding_risk": "low",
-    "funding_risk_rationale": "Self-sustaining for 30+ years since 1992 with no external funding needed. Revenue is diversified across 2,000+ courses and a broad student base. The company is fully bootstrapped and cash-flow positive.",
-    "overall_risk": "low",
-    "overall_risk_rationale": "GOPAS is a mature enterprise with a dominant market position, deep vendor authorization moats, and 30+ years of profitable operation. Growing AI adoption is actually increasing demand for its AI training courses rather than displacing its core business."
+    "funding_risk_rationale": "GOPAS is a self-sustaining 30+ year old enterprise with diversified revenue (courses, certifications, conferences, government MPSV programmes) and zero known external funding dependency. The ISO-certified operations and sustained market leadership signal a profitable, stable business.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "While GOPAS has a strong market position, brand, and certification moat, the medium-term threat from AI-powered self-service learning and declining demand for certain IT courses (as AI automates tasks) is real. The offset is strong institutional relationships with certification vendors and government upskilling contracts."
   },
 
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "czech_business_registry_kurzy_cz", "ares_gov_cz"],
-    "fields_missing": ["employees_exact", "revenue_estimate_usd", "founders", "glassdoor_rating", "open_roles", "careers_url"],
+    "sources_used": ["company_website", "czech_business_register"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles", "careers_url"],
     "needs_review": false,
-    "notes": "GOPAS is primarily an IT training company, not an AI builder. It appears in the CNAIP catalog due to its AI training offerings (34 AI courses, newly launched AI Day conference). Founded 1992 (30th anniversary in 2022), legally registered as a.s. in April 1996. Employee count is estimated; actual figure not publicly available. Note: a small 'GOPAS a.s.' entity (gopas.eu, 5 LinkedIn employees) appears to be a distinct company from the main training school (gopas.cz). Customer count of 30,000 refers to annual students, not unique enterprise customers."
+    "notes": "GOPAS is an IT training/education company, not an AI builder. It is included in the CNAIP ecosystem as a key provider of AI skills training in Czech Republic. The company offers dedicated AI course tracks (AI for users, managers, programmers, AI security). Founded 1992; legal entity GOPAS a.s. registered April 1, 1996. Subsidiary GOPAS SR a.s. operates in Slovakia."
   }
 }

@@ -2,42 +2,41 @@
   "id": "h2o-ai",
   "name": "H2O.ai",
   "category": "company",
-  "scraped_at": "2026-03-28T10:00:00Z",
+  "scraped_at": "2026-03-28T12:00:00Z",
 
   "overview": {
-    "description": "AI Cloud platform for enterprise AutoML, generative AI, and agentic AI applications",
-    "description_long": "H2O.ai is a global AI company on a mission to democratize AI for everyone. Founded in 2012, H2O.ai converges Generative and Predictive AI to help enterprises and public sector agencies develop purpose-built GenAI applications on their private data. Key products include H2O Driverless AI (automated machine learning), h2oGPTe (enterprise GenAI platform), H2O LLM Studio (no-code LLM fine-tuning), H2O Wave (low-code AI app framework), and H2O-3 (open-source distributed ML). Trusted by 20,000+ organizations worldwide including more than half of the Fortune 500. Prague office (Karlín) hosts core engineering including the H2O Wave team.",
-    "tagline": "Democratize AI for everyone",
+    "description": "Enterprise AI cloud platform for automated machine learning and generative AI",
+    "description_long": "H2O.ai provides an end-to-end enterprise AI cloud platform including H2O Driverless AI (AutoML with explainability), h2oGPTe (enterprise GenAI with multi-model support), H2O LLM Studio (no-code LLM fine-tuning), H2O-3 (open-source distributed ML), and H2O Wave (low-code AI app framework). Trusted by 20,000+ organizations including over half the Fortune 500. Prague office in Karlín serves as a European R&D hub.",
+    "tagline": "Convergence of the World's Best Predictive and Generative AI for Private, Protected Data",
     "website": "https://h2o.ai",
     "cnaip_url": null
   },
 
   "classification": {
     "business_type": "enterprise_vendor",
-    "ai_focus": ["ml_ops", "generative_ai", "automation", "document_processing"],
-    "industries_served": ["finance", "insurance", "telecommunications", "healthcare", "retail", "public_sector"],
+    "ai_focus": ["ml_ops", "generative_ai", "automation", "data_engineering"],
+    "industries_served": ["finance", "banking", "insurance", "telecommunications", "healthcare", "public_sector"],
     "company_type": "scaleup",
     "is_ai_native": true
   },
 
   "history": {
     "founded_year": 2012,
-    "founders": ["Sri Ambati"],
-    "origin_story": "Founded in 2012 by Sri Ambati with a mission to democratize AI. Started as a grassroots open-source community effort (H2O-3) before expanding into enterprise products. Co-founded alongside Platfora alumni.",
+    "founders": ["Sri Satish Ambati", "Cliff Click"],
+    "origin_story": "Founded in 2012 by Sri Ambati (prev. co-founder of Platfora, acquired by Workday) and Cliff Click with a mission to democratize AI for anyone, anywhere. Emerged from the open-source ML community.",
     "key_milestones": [
-      {"year": 2012, "event": "Founded in Mountain View, CA by Sri Ambati"},
-      {"year": 2014, "event": "H2O-3 open-source ML platform released"},
-      {"year": 2017, "event": "H2O Driverless AI (AutoML) launched"},
-      {"year": 2021, "event": "Raised Series D at $1.6B valuation; total funding reaches $256M"},
-      {"year": 2023, "event": "Launched h2oGPTe enterprise GenAI platform and H2O LLM Studio"},
-      {"year": 2025, "event": "Named Visionary in 2025 Gartner Magic Quadrant for Cloud AI Developer Services"}
+      {"year": 2012, "event": "Founded in Mountain View, CA"},
+      {"year": 2017, "event": "Launched H2O Driverless AI (AutoML)"},
+      {"year": 2021, "event": "Closed $100M Series E led by Commonwealth Bank of Australia; valued at $1.7B"},
+      {"year": 2023, "event": "Launched h2oGPTe enterprise GenAI platform"},
+      {"year": 2025, "event": "Named a Visionary in Gartner Magic Quadrant for Cloud AI Developer Services"}
     ]
   },
 
   "size": {
     "employees_range": "201-500",
     "employees_exact": null,
-    "employee_source": "linkedin",
+    "employee_source": "estimated",
     "office_count": 7
   },
 
@@ -56,11 +55,21 @@
     "stock_ticker": null,
     "stock_exchange": null,
     "parent_company": null,
-    "funding_total_usd": 256000000,
+    "funding_total_usd": 246500000,
     "funding_rounds": [
-      {"date": "2021-10", "type": "Series D", "amount_usd": 100000000, "lead_investor": "Commonwealth Bank of Australia"}
+      {"date": "2021-11", "type": "Series E", "amount_usd": 100000000, "lead_investor": "Commonwealth Bank of Australia"}
     ],
-    "investors": ["Commonwealth Bank of Australia", "NVIDIA", "Goldman Sachs", "Wells Fargo", "Capital One", "Nexus Ventures", "New York Life"],
+    "investors": [
+      "Commonwealth Bank of Australia",
+      "Goldman Sachs",
+      "Nexus Venture Partners",
+      "Crane Venture Partners",
+      "Pivot Investment Partners",
+      "Celesta Capital",
+      "New York Life",
+      "Transamerica Ventures",
+      "Wells Fargo"
+    ],
     "revenue_estimate_usd": null,
     "revenue_source": null,
     "business_model": "subscription_saas"
@@ -68,13 +77,15 @@
 
   "team": {
     "leadership": [
-      {"name": "Sri Ambati", "role": "Founder & CEO", "source": "company_website"},
+      {"name": "Sri Satish Ambati", "role": "Founder & CEO", "source": "company_website"},
       {"name": "Jason Finney", "role": "President & Chief Revenue Officer", "source": "company_website"},
       {"name": "Prithvi Prabhu", "role": "Chief Technologist, Applications", "source": "company_website"},
-      {"name": "Roya Shakoori", "role": "General Counsel", "source": "company_website"}
+      {"name": "Roya Shakoori", "role": "General Counsel", "source": "company_website"},
+      {"name": "Agus Sudjianto", "role": "SVP, Risk and Technology for Enterprise Services", "source": "company_website"},
+      {"name": "Shivam Bansal", "role": "VP, Global Field Technology", "source": "company_website"}
     ],
     "notable_people": [
-      {"name": "Sri Ambati", "role": "Founder & CEO", "note": "Former co-founder of Platfora (acquired by Workday); sabbaticals at Stanford and UC Berkeley on Theoretical Neuroscience"}
+      {"name": "Cliff Click", "role": "Co-founder", "source": "news_articles"}
     ]
   },
 
@@ -82,43 +93,43 @@
     "careers_url": "https://h2o.ai/company/careers/",
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["python", "java", "r", "spark", "aws", "gcp", "azure", "cuda", "pytorch"],
+    "tech_stack": ["python", "r", "java", "spark", "kubernetes", "aws", "azure", "gcp"],
     "hiring_signals": "unknown"
   },
 
   "glassdoor": {
-    "rating": null,
-    "review_count": null,
+    "rating": 3.4,
+    "review_count": 147,
     "recommend_pct": null,
-    "glassdoor_url": null
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-H2O-ai-EI_IE1380085.11,17.htm"
   },
 
   "recognition": {
     "awards": [
-      "2025 Gartner Magic Quadrant Visionary — Cloud AI Developer Services",
-      "AI 100 recognition (multiple years)"
+      "2025 Gartner Magic Quadrant Visionary – Cloud AI Developer Services",
+      "Datanami Person to Watch (Sri Ambati)"
     ],
-    "notable_clients": ["AT&T", "Commonwealth Bank of Australia", "Singtel", "Chipotle", "Workday", "Progressive Insurance", "NIH"],
+    "notable_clients": ["AT&T", "Commonwealth Bank of Australia", "PayPal", "Capital One", "Wells Fargo"],
     "customer_count": 20000,
-    "partnerships": ["Dell Technologies", "Deloitte", "Ernst & Young (EY)", "NVIDIA", "Snowflake", "AWS", "Google Cloud Platform", "VAST"]
+    "partnerships": ["Goldman Sachs", "Wells Fargo"]
   },
 
   "risk_assessment": {
     "agi_displacement": "medium",
-    "agi_displacement_rationale": "H2O.ai's AutoML platform (Driverless AI) faces commoditization pressure as foundation models reduce the need for traditional ML pipelines. However, the company is actively pivoting to GenAI (h2oGPTe, LLM Studio) and has strong enterprise lock-in through integrations, compliance frameworks, and 20,000+ customer deployments. Proprietary Sovereign AI positioning differentiates for regulated industries.",
+    "agi_displacement_rationale": "H2O.ai's AutoML platform (Driverless AI) with explainability for regulated industries has a domain moat, but their enterprise GenAI products (h2oGPTe, LLM Studio) compete directly with commoditized offerings from OpenAI, Anthropic, and hyperscalers. The regulated-industry compliance angle (banking, insurance) provides partial protection.",
     "market_risk": "low",
-    "market_risk_rationale": "Well-established market with 20,000+ paying organizations including Fortune 500 companies. Enterprise AI Cloud market is growing with proven demand across financial services, telco, and healthcare. Multiple product lines reduce single-product dependency.",
+    "market_risk_rationale": "Enterprise ML/AI market is well-established with proven demand. H2O.ai has 20,000+ paying organizations including Fortune 500 names like AT&T and Commonwealth Bank of Australia, confirming strong product-market fit across financial services, telecom, and public sector.",
     "funding_risk": "low",
-    "funding_risk_rationale": "Well-funded scaleup with $256M raised from tier-1 investors including NVIDIA, Goldman Sachs, and Commonwealth Bank. Enterprise customer base provides recurring revenue. Series D in 2021 at $1.6B valuation confirms institutional confidence.",
+    "funding_risk_rationale": "Well-funded at $246.5M total raised with a $1.7B valuation from the 2021 Series E. Strategic backing from major enterprise customers (CBA, Goldman Sachs, Wells Fargo) provides both capital and distribution advantages.",
     "overall_risk": "low",
-    "overall_risk_rationale": "H2O.ai is a mature, well-capitalized enterprise AI company with a large customer base and strong investor backing. While AutoML commoditization is a medium-term concern, the company's active pivot to agentic and generative AI and its Sovereign AI positioning in regulated industries provides resilience."
+    "overall_risk_rationale": "Strong enterprise customer base with deep integrations in regulated industries, significant funding runway, and a broad product portfolio spanning AutoML, GenAI, and MLOps. Medium-term commoditization pressure in GenAI layer is offset by compliance requirements and established customer lock-in."
   },
 
   "metadata": {
     "data_quality": "high",
-    "sources_used": ["company_website", "linkedin"],
-    "fields_missing": ["glassdoor_rating", "open_roles_count", "revenue_estimate_usd", "employees_exact"],
+    "sources_used": ["company_website", "search_snippets", "thesaasnews.com", "entrepreneur.com", "glassdoor"],
+    "fields_missing": ["employees_exact", "open_roles_count", "revenue_estimate_usd", "recommend_pct"],
     "needs_review": false,
-    "notes": "US-headquartered company (Mountain View, CA) with a significant Prague engineering office at Thámova 16, Karlín. Prague team is core to H2O Wave product development. Total funding of $256M confirmed via LinkedIn company page. Series D details ($100M, Oct 2021) from known press coverage."
+    "notes": "Global company (HQ: Mountain View, CA) with a Prague office at Thámova 16, 186 00 Karlín. Also has office in Kraków, Poland. Prague office appears to serve as a Central European R&D hub. Employee count is estimated based on funding stage, Glassdoor review count (~147), and office footprint."
   }
 }
