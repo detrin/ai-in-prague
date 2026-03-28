@@ -1,0 +1,117 @@
+{
+  "id": "mama-ai",
+  "name": "MAMA AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T19:50:00Z",
+
+  "overview": {
+    "description": "Enterprise AI holding company providing custom AI solutions in speech, NLP, and agentic systems for Czech and European enterprises",
+    "description_long": "MAMA AI (The MAMA AI, SE) is a privately held, award-winning European AI holding company headquartered in Prague's Old Town. Founded by IBM Watson and IBM Research alumni, the team brings 25+ years of experience in conversational AI, speech recognition and synthesis, dialog systems, machine translation, and deep learning. The company operates as a holding structure with subsidiaries covering voice AI (Telma.ai), cybersecurity AI (Cipherella), and medical AI (Deep MedChem). Key products include on-prem/cloud semantic search (mSearch), high-fidelity text-to-speech synthesis, agentic systems, and LLM-based workflow automation. Notable deployments include end-to-end insurance claims automation for Kooperativa (97.8% diagnosis accuracy, 60% automation rate) and a virtual military recruiter for the Czech Armed Forces (70,000 conversations/month).",
+    "tagline": "WITH MAMA, AI IS NO DRAMA — Enterprise AI Solutions for Smart Business Automation",
+    "website": "https://themama.ai",
+    "cnaip_url": "https://www.cnaip.cz/en/entity/mama-ai/"
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["nlp", "speech", "generative_ai", "automation", "document_processing"],
+    "industries_served": ["insurance", "banking", "media", "manufacturing", "healthcare", "defense", "energy", "construction"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2020,
+    "founders": [],
+    "origin_story": "Founded in December 2020 by alumni of IBM T.J. Watson Research Center (NY/Prague) who co-founded the IBM Watson Group in 2014. The team's roots in statistical speech recognition date back to the early 1990s.",
+    "key_milestones": [
+      {"year": 2014, "event": "Founding team co-founded IBM Watson Group at IBM Research"},
+      {"year": 2020, "event": "The MAMA AI, SE incorporated in Prague (December 21, 2020)"},
+      {"year": 2021, "event": "MAMA AI Coolma and Eva subsidiaries established"},
+      {"year": 2022, "event": "MAMA TELMA AI s.r.o. founded — Telma.ai voice assistant product line"},
+      {"year": 2023, "event": "MAMA AI Cipherella (cybersecurity AI) and Deep MedChem subsidiaries established"},
+      {"year": 2024, "event": "Czech Armed Forces virtual recruiter: doubled recruit registrations to 3,500 with 70K conversations/month"},
+      {"year": 2025, "event": "Launched first fully agentic AI system for life insurance claims with Kooperativa (97.8% accuracy, 60% automation)"},
+      {"year": 2025, "event": "Deployed agentic AI assistant for Metrostav (major Czech construction firm)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jiří Vrobel", "role": "Contact / Sales", "source": "cnaip"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://themama.ai/careers/",
+    "open_roles_count": 6,
+    "open_roles": [
+      {"title": "AI Agent Developer for Telma AI", "department": "engineering", "location": "Prague"},
+      {"title": "Technical Lead for Blockchain and AI Projects", "department": "engineering", "location": "Prague"},
+      {"title": "Python Developer", "department": "engineering", "location": "Prague (or remote)"},
+      {"title": "Full Stack Developer with ML/Data Analytics Experience", "department": "engineering", "location": "Prague (or remote)"},
+      {"title": "Sales Consultant for Telma AI", "department": "sales", "location": "Prague (or remote)"},
+      {"title": "Senior Sales Partner for Telma AI", "department": "sales", "location": "Prague (or remote)"}
+    ],
+    "tech_stack": ["python", "nlp", "speech-processing", "deep-learning", "llm", "rag", "agentic-ai", "edge-ai", "iot"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Award-winning European AI holding company (per CNAIP)"],
+    "notable_clients": ["Kooperativa", "Česká spořitelna", "Czech Armed Forces", "Seznam Media", "FTV Prima", "Metrostav", "Aperio"],
+    "customer_count": null,
+    "partnerships": ["IBM Watson Research (alumni/legacy relationship)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "MAMA AI has deep proprietary expertise in speech AI, on-prem/edge NLP (mSearch), and specialized verticals (insurance claims, military recruitment, media). Their IBM Research alumni pedigree and 25+ years of domain expertise provide a moat. However, as foundation models commoditize generic conversational AI and NLP, their consulting/custom-development revenue stream faces increasing pressure.",
+    "market_risk": "low",
+    "market_risk_rationale": "Multiple live enterprise deployments with measurable results (97.8% accuracy for Kooperativa, doubled Czech Armed Forces recruitment) across regulated industries — insurance, defense, banking, media — demonstrate real PMF and recurring demand. Diversification across 6 subsidiaries covering voice AI, cybersecurity AI, and medical AI reduces single-market dependency.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No publicly known funding rounds; bootstrapped or privately funded since 2020. Enterprise client base (Kooperativa, Česká spořitelna, Czech Armed Forces) suggests revenue, but without disclosed financials or investor backing, long-term runway is unclear. Holding structure with 6 subsidiaries suggests organized growth.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "MAMA AI is a well-positioned enterprise AI vendor with proven deployments in regulated Czech industries and strong technical DNA from IBM Watson alumni. Medium risk reflects the dual challenge of commoditizing NLP/conversational AI markets and absence of disclosed funding, partially offset by demonstrated enterprise revenue and deep vertical expertise."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["cnaip", "company_website", "czech_business_registry_ares"],
+    "fields_missing": ["founders", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "leadership_names"],
+    "needs_review": false,
+    "notes": "Legal name is 'The MAMA AI, SE' (Societas Europaea — European holding company). Group includes 5 subsidiaries: MAMA AI Coolma (IČ 10707522), MAMA AI Eva (IČ 09738207), MAMA TELMA AI (IČ 14022087, Telma.ai product), MAMA AI Cipherella (IČ 21182931, cybersecurity), Deep MedChem (IČ 21029962, medical AI). CNAIP URL confirmed at https://www.cnaip.cz/en/entity/mama-ai/. Website is themama.ai (mama.ai domain unrelated — for sale)."
+  }
+}
