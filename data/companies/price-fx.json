@@ -1,0 +1,138 @@
+{
+  "id": "price-fx",
+  "name": "Price f(x)",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered pricing optimization and management (PO&M) and CPQ software for B2B enterprises",
+    "description_long": "Pricefx is a global leader in cloud-native SaaS pricing software, providing a complete AI price optimization and management platform for large B2B enterprises in manufacturing, distribution, and process engineering. The platform includes price optimization, configure-price-quote (CPQ), rebate management, and generative AI-powered pricing assistants. Prague serves as the company's European Competence HQ with the Czech entity Price f(x) s.r.o. registered in Karlín.",
+    "tagline": "AI Pricing Software Made Simple",
+    "website": "https://www.pricefx.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["ml_ops", "recommendation", "generative_ai", "automation"],
+    "industries_served": ["manufacturing", "distribution", "process_engineering", "chemicals", "aerospace"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2012,
+    "founders": ["Marcin Cichon"],
+    "origin_story": "Founded by Marcin Cichon in Germany (Munich area) with a vision to democratize pricing software with a cloud-native, affordable SaaS solution. Prague became a major development and operations hub early on.",
+    "key_milestones": [
+      {"year": 2012, "event": "Founded in Germany by Marcin Cichon"},
+      {"year": 2016, "event": "First funding round led by Talis Capital and Credo Ventures"},
+      {"year": 2018, "event": "Series B funding led by Digital+ Partners and Bain & Company; awarded Gartner Cool Vendor of Digital Commerce"},
+      {"year": 2020, "event": "Acquired Brennus Analytics (France) to strengthen AI/ML price optimization capabilities"},
+      {"year": 2021, "event": "Raised $65M Series C led by Apax Digital; total funding reached $130M"},
+      {"year": 2021, "event": "New Prague office opened in Karlín district"},
+      {"year": 2022, "event": "Ronak Sheth promoted to CEO; Marcin Cichon remains as Founder and co-CEO"},
+      {"year": 2022, "event": "66% ARR growth in H1 2022; over 150 customers and 500+ employees"},
+      {"year": 2024, "event": "Launched additional Generative AI capabilities including conversational pricing assistant"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 7
+  },
+
+  "offices": [
+    {"city": "Pfaffenhofen", "country": "DE", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Chicago", "country": "US", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Brisbane", "country": "AU", "is_hq": false},
+    {"city": "Wollerau", "country": "CH", "is_hq": false},
+    {"city": "Paris", "country": "FR", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 130000000,
+    "funding_rounds": [
+      {"date": "2016", "type": "Seed/Series A", "amount_usd": null, "lead_investor": "Talis Capital"},
+      {"date": "2018", "type": "Series B", "amount_usd": null, "lead_investor": "Digital+ Partners"},
+      {"date": "2021", "type": "Series C", "amount_usd": 65000000, "lead_investor": "Apax Digital"}
+    ],
+    "investors": ["Apax Digital", "Digital+ Partners", "Bain & Company", "Credo Ventures", "Talis Capital"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ronak Sheth", "role": "CEO", "source": "company_website"},
+      {"name": "Marcin Cichon", "role": "Founder & Co-CEO", "source": "company_website"},
+      {"name": "Gillian Sheeran", "role": "CFO", "source": "company_website"},
+      {"name": "Billy Graham", "role": "Chief Product Officer", "source": "company_website"},
+      {"name": "Patrick Adams", "role": "Chief Revenue Officer", "source": "company_website"},
+      {"name": "Mark Beith", "role": "Chairman (Apax Digital Partner)", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.pricefx.com/careers",
+    "open_roles_count": 2,
+    "open_roles": [
+      {"title": "Senior Project Manager", "department": "operations", "location": "Prague"},
+      {"title": "QA Engineer", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["cloud-native", "saas", "machine_learning", "generative_ai", "aws", "sap"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": 96,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Gartner Cool Vendor of Digital Commerce 2018",
+      "SAP Pinnacle Award 2022 (SAP Store category)",
+      "Gold Stevie Award – Best Financial Management Solution 2022",
+      "Gold Stevie Award – Best Manufacturing Solution 2022",
+      "Gold Globee – Best SaaS Solution for Sales 2022",
+      "2022 Artificial Intelligence Excellence Award",
+      "CRN 2022 Partner Program Guide",
+      "AWS ISV Accelerate Program member"
+    ],
+    "notable_clients": ["Robert Bosch", "MediaMarktSaturn", "Schneider Electric", "Iron Mountain", "Owens-Illinois", "Aeromexico", "Southwire", "Oerlikon", "Calumet"],
+    "customer_count": 150,
+    "partnerships": ["SAP (Gold Partner, Endorsed App)", "Amazon Web Services (ISV Accelerate)", "Bain & Company (Pricing Navigator)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Pricefx offers deep vertical SaaS with domain-specific pricing workflows, CPQ, and rebate management — capabilities beyond simple LLM prompting. However, their AI-powered price optimization is increasingly replicable by foundation models, and enterprise pricing analytics is a space that large platform vendors (SAP, Oracle, Salesforce) may encroach on with native AI capabilities.",
+    "market_risk": "low",
+    "market_risk_rationale": "The B2B pricing optimization market is well-established with clear ROI (15x claimed in year 1), 150+ enterprise customers including global brands, and strong partner ecosystem. Pricefx achieved 66% ARR growth in H1 2022, confirming real demand.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-funded with $130M total raised through Series C led by Apax Digital (a major PE/growth investor). The company has enterprise contracts with multi-million dollar annual subscriptions and strong growth trajectory.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong enterprise customer base with proven ROI, $130M in funding, and vertical specialization in manufacturing/distribution pricing provide significant resilience. The medium AGI displacement risk is offset by deep customer integration, proprietary algorithms, and workflow lock-in."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin", "pricefx_press_releases", "businesswire"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "glassdoor_url", "series_a_amount", "series_b_amount", "employees_exact", "founded_year_exact"],
+    "needs_review": false,
+    "notes": "Prague is the European Competence HQ; legal entity Price f(x) s.r.o. registered at Thámova 32, Prague. Company HQ is legally registered in Germany (Price f(x) AG, Pfaffenhofen near Munich). Founding year estimated at 2012 based on '10 years ago' reference in 2021 Series C letter and '5 years before' reference from 2016 CRO hire. 96% Glassdoor recommendation rate cited on careers page but no specific rating/review count available without direct Glassdoor access."
+  }
+}
