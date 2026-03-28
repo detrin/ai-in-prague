@@ -1,0 +1,113 @@
+{
+  "id": "nonverbia",
+  "name": "Nonverbia",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:10:00Z",
+
+  "overview": {
+    "description": "AI sales assistant that decodes body language and nonverbal cues in sales calls",
+    "description_long": "Nonverbia builds Stella, an AI-powered sales assistant that analyzes sales calls using a proprietary multimodal model combining transcript, facial expressions, head and eye movement, tone of voice, and on-screen activity. The tool provides post-call coaching insights, automatic CRM updates, and personalized recommendations to help sales reps close more deals and reduce admin work. Founded in 2024 in Prague by three co-founders with backgrounds in global enterprise sales, Big Tech engineering (Cisco, Splunk, Smartlook), and neural network research.",
+    "tagline": "See Your Buyers. Decode Body Language.",
+    "website": "https://nonverbia.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["cv", "speech", "nlp"],
+    "industries_served": ["sales_tech", "saas", "finance", "consulting"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2024,
+    "founders": ["David Šimák", "Michal Mokroš", "Jan Žaloudek"],
+    "origin_story": "Three friends reunited in Prague in 2024 after working abroad. CEO David Šimák experienced the pain of virtual sales at Mettler Toledo in Switzerland during COVID—when shift to remote work made it nearly impossible to read customer signals. The trio built Stella to act as a 'silent observer' giving sales reps a second pair of eyes during calls.",
+    "key_milestones": [
+      {"year": 2024, "event": "Founded in Prague; began building Stella AI sales assistant"},
+      {"year": 2025, "event": "Launched Stella to market with freemium tier (5 free meetings/month)"},
+      {"year": 2025, "event": "Recognized as AI Rising Star of the Year - Enterprise finalist at European AI Awards & Wolves Summit (82 shortlisted companies)"},
+      {"year": 2025, "event": "Featured in Hospodářské noviny and Ekonom.cz as Czech startup decoding body language with AI"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "freemium"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "David Šimák", "role": "CEO & Co-founder", "source": "company_website"},
+      {"name": "Michal Mokroš", "role": "CTO & Co-founder", "source": "company_website"},
+      {"name": "Jan Žaloudek", "role": "CAIO & Co-founder", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Sami Al-Dury", "role": "Engineer (early team member)", "source": "asociace.ai"},
+      {"name": "Jan Žaloudek", "role": "CAIO — 15+ years in AI, 10+ years in neural networks, studied in USA; cited as among top 50 AI developers in Czech Republic", "source": "asociace.ai"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://nonverbia.com/company",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["multimodal_ai", "neural_networks", "computer_vision", "nlp", "speech_processing"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "AI Rising Star of the Year - Enterprise finalist, European AI Awards & Wolves Summit (2025, 82 shortlisted)"
+    ],
+    "notable_clients": ["StartupJobs", "Dishboard", "Salutem Group", "Forscope"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Nonverbia explicitly states their product is NOT a wrapper over OpenAI—they built a proprietary multimodal model fusing facial expressions, gestures, and voice acoustics. This is a genuine technical differentiator. However, the conversational intelligence space (Gong, Chorus AI, Fireflies) is increasingly incorporating similar capabilities, and foundation models are rapidly improving at multimodal analysis.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The conversation intelligence and sales enablement market is large and real, with proven demand. However, it is dominated by well-funded incumbents (Gong, Chorus AI) with significant sales and marketing budgets. Nonverbia's focus on body language/nonverbal analysis is a differentiated niche, but customer acquisition will be challenging against established players.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external funding. Very early stage startup (founded 2024) with a small team (~4 people). Revenue-generating freemium model has launched, but survival depends on achieving product-market fit and securing investment before runway runs out.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Despite a genuinely differentiated proprietary multimodal technology and early market traction, Nonverbia faces high overall risk due to lack of disclosed funding, very early stage, a highly competitive market with large incumbents, and the need to prove the value of nonverbal AI analysis in sales workflows at scale."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "asociace.ai"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor_rating", "employees_exact"],
+    "needs_review": false,
+    "notes": "Very early-stage startup (founded 2024). Product 'Stella' launched ~2025. No CNAIP page found. Key interview source: Česká asociace umělé inteligence article from July 2025 with CEO David Šimák."
+  }
+}
