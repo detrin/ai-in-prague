@@ -1,0 +1,105 @@
+{
+  "id": "aihub",
+  "name": "Aihub",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI consulting, custom development, and training for businesses preparing for the agentic era",
+    "description_long": "AIHUB s.r.o. (AIHub.Business) is a forward-thinking Prague-based company dedicated to empowering businesses with AI. They deliver fast AI project prototypes (weeks, not months), provide organizational readiness programs for the agentic future, offer individual and institutional AI education, and build custom AI products including a Shopping Agent, WebMind AI analytics platform, MedBrain healthcare AI, and Softgenie no-code app builder.",
+    "tagline": "Unlock the full potential of AI",
+    "website": "https://aihub.business",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/aihub"
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "automation", "ml_ops"],
+    "industries_served": ["cybersecurity", "hospitality", "marketing", "real_estate", "retail", "healthcare"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2024,
+    "founders": ["Mirek (surname unknown)"],
+    "origin_story": "Founded in April 2024 in Prague's Old Town (Staré Město) to democratize access to AI capabilities and help organizations prepare for the agentic AI future.",
+    "key_milestones": [
+      {"year": 2024, "event": "AIHUB s.r.o. incorporated in Prague (IČO: 21450188), April 11"},
+      {"year": 2024, "event": "Launched Shopping Agent, WebMind AI, MedBrain, and Softgenie products"},
+      {"year": 2025, "event": "Listed on CNAIP Czech AI platform"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Mirek (surname unknown)", "role": "Founder / Contact", "source": "cnaip (email: mirek@aihub.business)"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "llm_apis", "genai"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "AIHUB primarily provides AI consulting, custom development, and training services — a business model directly threatened by increasingly capable AI coding and advisory tools. Their product portfolio (Shopping Agent, Softgenie no-code builder) lacks clear proprietary moats that would resist foundation model commoditization.",
+    "market_risk": "medium",
+    "market_risk_rationale": "AI consulting and training is a real and growing market, but highly fragmented and competitive. AIHUB is a very small new entrant with no visible traction data, competing against larger established consultancies and the growing self-serve AI tool market.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external funding. Incorporated April 2024, very early stage with no public revenue signals or customer references. Highly dependent on founder's ability to generate consulting revenue to sustain operations.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Very early-stage startup (incorporated 2024) with no known funding, no publicly visible customer base, and a business model (AI consulting + custom development) highly susceptible to AGI commoditization. The combination of high funding risk and high AGI displacement risk makes this a high overall risk profile."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website", "ares_gov_cz"],
+    "fields_missing": ["founders_full_names", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count"],
+    "needs_review": false,
+    "notes": "Small recently-founded Prague startup (April 2024). Contact person Mirek (full surname not found). IČO: 21450188. No careers page found. No Glassdoor presence. Company has a web app at app.aihub.business. CNAIP URL was discovered during scraping (not in original index record)."
+  }
+}
