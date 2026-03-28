@@ -1,0 +1,107 @@
+{
+  "id": "num-solution",
+  "name": "NUM solution",
+  "category": "company",
+  "scraped_at": "2026-03-28T21:07:00Z",
+
+  "overview": {
+    "description": "Engineering consulting and software company specializing in numerical simulation, CFD analysis, and ML-enhanced tools for industrial sectors",
+    "description_long": "NUM solution s.r.o. is a Czech engineering company providing complex research and development services across four domains: Automotive/Aero/Defense, Power & Turbo, Chemicals & Pharma, and SW Development. Services include numerical simulation (CFD, FEM), design, testing/measurement, and prototyping. The company has developed proprietary engineering software products including FLTR (blade flutter prediction), DesignCC (compressor design), RGPgen (real gas property tables), ThermoDynamic Simulator (CFD + machine learning), and DoEpar (parametric analysis). Their SW Development practice covers AI, machine learning, deep learning, neural networks, IoT, and workflow automation.",
+    "tagline": "Engineering with value",
+    "website": "https://www.numsolution.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["ml_ops", "other"],
+    "industries_served": ["automotive", "aerospace", "defense", "energy", "chemicals", "pharmaceuticals"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2015,
+    "founders": [],
+    "origin_story": "Founded in June 2015 in Prague, NUM solution provides engineering consulting and numerical simulation services with a growing software products portfolio that includes ML-based tools.",
+    "key_milestones": [
+      {"year": 2015, "event": "Founded in Prague as NUM solution s.r.o. (IČ: 04199766)"},
+      {"year": 2015, "event": "Opened corporate headquarters in Praha 7 - Holešovice"},
+      {"year": null, "event": "Opened Brno office at Srbská 2741/53, Královo Pole"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Petr Martinů", "role": "Managing Director", "source": "company_website"},
+      {"name": "Aleš Macálka", "role": "Technical Director", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "labview", "ansys", "cfd", "fem"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Highly specialized in turbomachinery CFD, structural simulation, and domain-specific engineering software (flutter prediction, compressor design, real gas property tables). Deep domain expertise in regulated engineering fields (aerospace, nuclear, automotive) that foundation models cannot easily replicate; the TDS product integrates ML with physics-based CFD simulation.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Niche engineering consulting for turbomachinery, CFD, and industrial simulation is a real and stable market, but small and dependent on capital expenditure cycles in automotive, energy, and aerospace sectors. Diversified across multiple industrial verticals mitigates concentration risk.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external funding; appears to be a bootstrapped small company (~11-50 employees) reliant on project-based consulting revenue. No public information on financial stability or runway.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong technical moat in specialized engineering simulation and domain knowledge provides low AGI displacement risk, but the combination of no known external funding and small size creates meaningful business continuity risk. Market is real and stable but niche."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_registry_ares"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "founders", "open_roles_count", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "Company was founded June 25, 2015 per ARES registry (IČ: 04199766). Status: AKTIVNI (active). Earlier Czech OR lookup with subjektId=744506 showed a deleted entity dated Jan 2014 – that may have been a predecessor entity or incorrect match. ARES confirms current entity is active. No CNAIP page available. Website lists AI/ML/deep learning/neural networks under SW Development applications. ThermoDynamic Simulator product uses CFD + machine learning."
+  }
+}
