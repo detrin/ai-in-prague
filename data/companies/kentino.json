@@ -1,0 +1,104 @@
+{
+  "id": "kentino",
+  "name": "KENTINO s.r.o.",
+  "category": "company",
+  "scraped_at": "2026-03-28T19:45:00Z",
+
+  "overview": {
+    "description": "Czech hardware vendor selling AI GPU servers, ASIC crypto miners, and miner colocation hosting across 9+ countries",
+    "description_long": "KENTINO s.r.o. (founded 2016, operating since 2014) is a Prague-based hardware vendor and hosting provider. Core products include GPU AI servers, barebone AI servers, and accelerated AI servers for machine learning workloads, as well as ASIC miners for Bitcoin, Ethereum, Kaspa, and other cryptocurrencies. They also operate a global colocation hosting service (branded CIRCLEHASH) with 74+ MW of capacity across 9+ countries (Nigeria, Ethiopia, USA, Norway, Finland, UAE, Paraguay, Czech Republic) and 12,400+ hosted devices. Additional services include consultation on AI infrastructure, crypto mining, and blockchain.",
+    "tagline": "Unlock The Power of Tomorrow",
+    "website": "https://kentino.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["other"],
+    "industries_served": ["ai_infrastructure", "cryptocurrency", "data_center"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2016,
+    "founders": [],
+    "origin_story": "Started in crypto mining in 2014, formally incorporated as Kentino s.r.o. in May 2016 (IČO: 05066743). Expanded into AI server hardware and global miner hosting over time.",
+    "key_milestones": [
+      {"year": 2014, "event": "Began crypto mining operations"},
+      {"year": 2016, "event": "Incorporated as Kentino s.r.o. in Prague (IČO 05066743)"},
+      {"year": 2024, "event": "Expanded AI server product line (GPU, barebone, accelerated servers)"},
+      {"year": 2026, "event": "74+ MW hosted capacity across 9+ countries, 12,400+ hosted devices"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred_from_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true, "note": "HQ: Čestmírova 25, Prague 4; Showroom: Rostovská 260/2b, Prague 10-Vršovice"}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["BITMAIN", "ICERIVER", "IBELINK", "JASMINER", "CANAAN", "GOLDSHELL", "INNOSILICON"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "KENTINO sells physical AI server hardware and operates miner colocation infrastructure. Hardware vendors are not displaceable by foundation models — AGI acceleration actually increases demand for GPU compute infrastructure.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Crypto mining market is highly cyclical and volatile. AI server market is real and growing but highly competitive, with established vendors (Dell, HPE, NVIDIA) dominating. KENTINO differentiates on Czech/EU presence and bundled hosting, but faces pricing pressure.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external funding or investors. Appears bootstrapped as a small e-commerce and hosting operation. No revenue data available, and the business depends on volatile crypto markets for a significant share of sales.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Hardware and infrastructure positioning insulates KENTINO from AGI displacement, but crypto market volatility and lack of known funding create financial uncertainty. Growing AI server demand provides a partial hedge against crypto downturns."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ares_gov_cz"],
+    "fields_missing": ["founders", "leadership", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "careers_url"],
+    "needs_review": false,
+    "notes": "Company is a hardware vendor/reseller, not a pure AI software company. Source 'startupjobs' in index may indicate they occasionally post job listings there. Czech business registry (ARES IČO 05066743) confirms founded May 10, 2016. Operating since 2014 per their own marketing. Primary NACE code registered is 41000 (construction) which does not reflect actual business activity. Global hosting operations branded CIRCLEHASH."
+  }
+}
