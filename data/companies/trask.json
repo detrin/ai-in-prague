@@ -1,0 +1,117 @@
+{
+  "id": "trask",
+  "name": "Trask",
+  "category": "company",
+  "scraped_at": "2026-03-28T22:30:00Z",
+
+  "overview": {
+    "description": "Enterprise IT services company delivering digital transformation, AI, and data solutions",
+    "description_long": "Trask (Trask solutions, a.s.) is a Prague-based global IT services company with 1100+ experts, serving 300+ enterprise clients across Financial Services, Insurance, Automotive, Manufacturing, Energy, and Telco. Founded in 1994 and still founder-owned, Trask delivers end-to-end IT projects including AI agents, intelligent automation, data platforms, cybersecurity, application integration, and cloud services. Gartner has listed Trask as a good example of enterprise AI deployment. Trask was the first company in the Czech Republic to deploy an AI content agent.",
+    "tagline": "We deliver progressive technology and business solutions",
+    "website": "https://www.thetrask.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "automation", "recommendation", "data_engineering", "nlp"],
+    "industries_served": ["financial services", "insurance", "automotive", "manufacturing", "energy", "telco"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1994,
+    "founders": null,
+    "origin_story": "Founded in Prague in 1994 as an IT services company; founders still own and help manage the company with a long-term outlook. Grew from early banking IT work (Česká spořitelna, ČSOB) to a pan-European digital transformation firm.",
+    "key_milestones": [
+      {"year": 1994, "event": "Founded in Prague"},
+      {"year": 1996, "event": "Early systems integration work for Česká spořitelna branches"},
+      {"year": 1997, "event": "Expanded into application integration services"},
+      {"year": 2003, "event": "First Identity Management implementation in the Czech Republic (for ČSOB)"},
+      {"year": 2009, "event": "Delivered world's first online car configurator for ŠKODA Auto, winning multiple best-in-class awards"},
+      {"year": 2024, "event": "First company in Czech Republic to deploy AI content agent; Gartner recognition for enterprise AI deployment"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 11
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Pavel Riegger", "role": "CEO", "source": "company_website"},
+      {"name": "Filip Tománek", "role": "COO", "source": "company_website"},
+      {"name": "Daniel Pecina", "role": "Chief International Business Officer", "source": "company_website"},
+      {"name": "Jana Schiffnerová", "role": "Chief People Officer", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.wearetrask.com/en/en/jobs",
+    "open_roles_count": 83,
+    "open_roles": [
+      {"title": "Java Developer", "department": "engineering", "location": "Prague"},
+      {"title": "IT Analyst", "department": "consulting", "location": "Prague"},
+      {"title": "QA Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "React Developer", "department": "engineering", "location": "Liberec"},
+      {"title": "Data Scientist", "department": "data", "location": "Prague"}
+    ],
+    "tech_stack": ["java", "react", "google_cloud", "databricks", "nlp", "python"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Trask-Reviews-E3268049.htm"
+  },
+
+  "recognition": {
+    "awards": ["Gartner recognition as good example of enterprise AI deployment"],
+    "notable_clients": ["ŠKODA AUTO", "Česká spořitelna", "LINET Group", "ČEZ Prodej", "KBC", "ČSOB"],
+    "customer_count": 300,
+    "partnerships": ["Google Cloud", "Databricks"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Trask is an IT services integrator with 30 years of deep enterprise relationships and sector-specific expertise (banking, insurance, automotive). Their value is in delivery, integration, and trust with regulated-industry clients — not in a proprietary AI model that could be commoditized.",
+    "market_risk": "low",
+    "market_risk_rationale": "Enterprise digital transformation and IT services is a large, proven market with steady demand. Trask has 300 long-term clients, 30% YoY revenue growth, and a 30-year track record spanning multiple technology cycles.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Founder-owned private company with 1100+ employees, 30 years of operations, and 300 enterprise clients. No VC dependency; sustained by consulting revenues with no signs of financial distress.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Trask's deep enterprise relationships, long client tenures, domain expertise across regulated industries, and founder-led stability make it resilient. AI enhances rather than threatens their core delivery model."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founders", "glassdoor_rating", "funding_total_usd", "revenue_estimate_usd", "employees_exact", "office_locations_detail"],
+    "needs_review": false,
+    "notes": "Full legal name: Trask solutions, a.s. Website is thetrask.com (trask.cz redirects there). Careers site: wearetrask.com. 30% YoY revenue growth stated on About page. 11 offices in Europe and North America but only Prague HQ confirmed by address."
+  }
+}
