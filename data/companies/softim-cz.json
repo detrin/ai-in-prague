@@ -1,0 +1,107 @@
+{
+  "id": "softim-cz",
+  "name": "SOFTIM.CZ",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "Business Intelligence, data integration and automation consulting for Czech enterprises",
+    "description_long": "SOFTIM.CZ is a Prague-based IT consultancy that helps companies transform their data operations. Core offerings: Business Intelligence (analytical databases, Power BI dashboards, custom reports), Unitegra (proprietary data integration platform for connecting ERP, CRM, e-shop and WMS systems), Qeedio (24/7 AI-assisted process monitoring and predictive alerting), and Industry 4.0 technological process management. Microsoft partner certified in Azure development and data analytics.",
+    "tagline": "Transformujeme firmy na vyšší úroveň (We transform companies to a higher level)",
+    "website": "https://www.softim.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["data_engineering", "automation", "ml_ops"],
+    "industries_served": ["manufacturing", "logistics", "retail", "publishing", "energy"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2013,
+    "founders": ["Karel Hnízdil", "Jan Hnízdil"],
+    "origin_story": "Founded in Prague in March 2013 as a small IT services firm specialising in Business Intelligence and data automation.",
+    "key_milestones": [
+      {"year": 2013, "event": "Founded as SOFTIM.CZ spol. s r. o. in Prague"},
+      {"year": 2019, "event": "Jan Hnízdil joins as co-director and shareholder"},
+      {"year": 2022, "event": "Launched Unitegra data integration platform"},
+      {"year": 2025, "event": "Active across BI, Unitegra, Qeedio, and Industry 4.0 service lines"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred_from_company_registry",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Karel Hnízdil", "role": "CEO", "source": "company_website"},
+      {"name": "Jan Hnízdil", "role": "Co-director", "source": "company_registry"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["microsoft_azure", "dotnet", "sql_server", "power_bi", "react"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Microsoft Partner (Azure developer, Data analyst certifications)"],
+    "notable_clients": ["Foxconn", "Siemens", "DPD", "2N (Axis Company)", "Albatros Media", "Penny", "Zeppelin CAT", "Bohemia Energy", "VOZP", "Woodler"],
+    "customer_count": null,
+    "partnerships": ["Microsoft"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "SOFTIM.CZ primarily delivers BI consulting, custom reporting, and data integration services — tasks increasingly automatable by AI copilots embedded in Power BI, Azure, and no-code ETL tools. Their Qeedio monitoring product has some IP value but is thin against larger monitoring SaaS players.",
+    "market_risk": "medium",
+    "market_risk_rationale": "BI and data integration consulting is a stable and real market in the Czech Republic with steady SME demand. However, the space is competitive from larger system integrators and self-service cloud BI tools that reduce consulting hours.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "SOFTIM.CZ is fully bootstrapped with minimal registered capital (200,000 CZK), no known external funding, and a very small team. Survival depends entirely on client project revenue with no visible financial runway buffer.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "The combination of high AGI displacement risk (commodity BI/integration consulting), bootstrapped with no funding cushion, and a micro-team size makes this company highly vulnerable to market shifts or loss of key clients."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "company_registry_ares", "rejstrik_firem_kurzy"],
+    "fields_missing": ["employees_exact", "open_roles_count", "glassdoor_rating", "revenue_estimate_usd", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "Small Czech-market BI consulting firm with two proprietary products: Unitegra (data integration platform) and Qeedio (process monitoring). Founded and majority-owned by Karel Hnízdil. CNAIP listing suggests some AI relevance but core offering is primarily data engineering and BI consulting rather than AI-native."
+  }
+}
