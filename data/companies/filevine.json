@@ -1,0 +1,142 @@
+{
+  "id": "filevine",
+  "name": "Filevine",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered legal practice management and operating intelligence platform for law firms and legal teams",
+    "description_long": "Filevine is the pioneer of the Legal Operating Intelligence System (LOIS), offering an all-in-one platform that combines case management, document management, AI drafting, depositions, contract management, billing, and analytics. Its AI assistant LOIS is grounded in a firm's own data, enabling legal professionals to chat directly with their cases. Filevine serves nearly 6,000 customers — from solo attorneys to Fortune 500 enterprises and government agencies — processing over 20 million document pages daily.",
+    "tagline": "Legal AI & Operating Intelligence",
+    "website": "https://www.filevine.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "document_processing", "generative_ai", "automation"],
+    "industries_served": ["legal"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2014,
+    "founders": ["Ryan Anderson", "Nate Morris", "Jim Blake"],
+    "origin_story": "Co-founders were starting their own law firm and couldn't find software that suited professional legal workflows — so they built it themselves.",
+    "key_milestones": [
+      {"year": 2014, "event": "Founded in Salt Lake City, Utah"},
+      {"year": 2022, "event": "Raised $108M Series D"},
+      {"year": 2024, "event": "Raised $150M round led by Insight Partners"},
+      {"year": 2025, "event": "Raised $400M all-equity financing (two rounds totaling $626M+ cumulative) with Insight Partners, Accel, and Halo Fund"},
+      {"year": 2025, "event": "Reached nearly 6,000 customers and 100,000 users; 130% YoY AI revenue growth"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": 521,
+    "employee_source": "pitchbook_snippet",
+    "office_count": 6
+  },
+
+  "offices": [
+    {"city": "Salt Lake City", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Bratislava", "country": "SK", "is_hq": false},
+    {"city": "Chicago", "country": "US", "is_hq": false},
+    {"city": "New York", "country": "US", "is_hq": false},
+    {"city": "San Francisco", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 626000000,
+    "funding_rounds": [
+      {"date": "2022", "type": "Series D", "amount_usd": 108000000, "lead_investor": null},
+      {"date": "2024", "type": "Series E (round 1)", "amount_usd": 150000000, "lead_investor": "Insight Partners"},
+      {"date": "2025-09", "type": "Series E (round 2)", "amount_usd": 260000000, "lead_investor": "Accel, Halo Fund, Insight Partners"}
+    ],
+    "investors": ["Insight Partners", "Accel", "Halo Fund", "Meritech Capital Partners", "Stepstone", "Run Ventures", "Album Ventures"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ryan Anderson", "role": "CEO & Co-founder", "source": "company_website"},
+      {"name": "Nate Morris", "role": "Co-founder", "source": "company_website"},
+      {"name": "Jim Blake", "role": "Co-founder", "source": "company_website"},
+      {"name": "Erin Grosso", "role": "VP, People & Talent", "source": "company_website"},
+      {"name": "Jonas Kratochvil", "role": "VP, Machine Learning & AI", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.filevine.com/jobs/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Staff / Senior Product Engineer (Full Stack - Python/React Native)", "department": "engineering", "location": "Prague"},
+      {"title": "Staff / Senior Product Engineer (React Native/Swift/Kotlin)", "department": "engineering", "location": "Prague"},
+      {"title": "Architect I", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Software Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Software Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Staff Software Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Platform Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Machine Learning Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Data Scientist - ML Operations & Analytics", "department": "engineering", "location": "Prague"},
+      {"title": "Machine Learning Data Annotator", "department": "engineering", "location": "Prague"},
+      {"title": "Engineering Manager, AI Platform", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Technical Recruiter", "department": "human_resources", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "react", "react-native", "swift", "kotlin", "aws", "gcp"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": 2.8,
+    "review_count": 304,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Filevine-EI_IE1633935.11,19.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Leader Legal Case Management - G2 Fall 2025",
+      "Leader Legal Document Management - G2 Fall 2025",
+      "Leader AI Legal Assistant - G2 Fall 2025",
+      "Leader Legal Practice Management - G2 Fall 2025",
+      "Momentum Leader Legal Document Management - G2 Fall 2025",
+      "LegalWeek Leaders in Tech 2025",
+      "New York Law Journal Best Of 2025",
+      "50 American Innovators (CBS/FOXNews docuseries)"
+    ],
+    "notable_clients": [],
+    "customer_count": 6000,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Filevine has a strong proprietary data moat — processing 1.8B documents and 20M pages daily from 6,000 law firm clients — and its AI is embedded deeply into legal workflows. However, core AI capabilities (document summarization, drafting, legal research) are increasingly offered by foundation models and dedicated legal AI competitors. The moat lies in workflow integration and data context rather than the AI itself.",
+    "market_risk": "low",
+    "market_risk_rationale": "Legal tech is a large, established market with proven demand. Filevine has 6,000 paying customers, 96%+ gross retention, 120%+ Net Dollar Retention, and 130% YoY AI revenue growth — all strong indicators of durable PMF in a non-hype-driven segment.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-funded scaleup with $626M+ in total funding including a $400M all-equity raise in 2025 backed by Insight Partners, Accel, and Halo Fund. Strong retention metrics and growing revenue provide excellent runway.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Filevine combines a well-capitalized balance sheet, strong customer retention, and proprietary legal data at scale. While general-purpose AI commoditization poses a medium-term challenge to AI feature differentiation, the company's deep workflow integration and dominant position in legal case management make it resilient."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "filevine_news", "lever_job_board", "yahoo_search", "glassdoor_snippet"],
+    "fields_missing": ["revenue_estimate_usd", "recommend_pct", "open_roles_count"],
+    "needs_review": false,
+    "notes": "Prague office is an engineering hub with 10+ active hybrid/contractor engineering and ML roles. Bratislava office serves a similar function. Glassdoor rating of 2.8 is notably low vs. G2 product rating of 4.7."
+  }
+}
