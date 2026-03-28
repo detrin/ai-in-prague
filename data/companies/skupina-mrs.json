@@ -1,0 +1,138 @@
+{
+  "id": "skupina-mrs",
+  "name": "Skupina Multirobotických systémů (MRS)",
+  "category": "company",
+  "scraped_at": "2026-03-28T18:00:00Z",
+
+  "overview": {
+    "description": "Academic research group at CTU Prague specialising in autonomous UAVs, swarm robotics, and multi-robot systems",
+    "description_long": "The Multi-Robot Systems (MRS) group at the Department of Cybernetics, Faculty of Electrical Engineering, Czech Technical University in Prague integrates research disciplines required for design, implementation, experimental evaluation, and application of complex robotic systems. Research streams include motion and trajectory planning, locomotion generation, control, communication, coordination, and stabilisation of groups of ground, aerial, and modular robots. Applied focus areas include safety-critical systems, environment monitoring by swarms of micro aerial vehicles, self-stabilised convoys, and search & rescue with modular robotics. The group develops and openly releases the MRS UAV System — a widely used open-source platform for UAV research.",
+    "tagline": "Achieving robust, dynamic and agile operation of aerial robots",
+    "website": "https://mrs.felk.cvut.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["robotics", "ml_ops", "other"],
+    "industries_served": ["academia", "defence", "agriculture", "search_and_rescue"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2016,
+    "founders": ["Martin Saska"],
+    "origin_story": "Founded by Martin Saska at the Department of Cybernetics, Faculty of Electrical Engineering, CTU Prague. The group reached its ten-year milestone in 2026, reflecting a decade of cutting-edge autonomous drone research.",
+    "key_milestones": [
+      {"year": 2016, "event": "MRS group established at CTU FEE Department of Cybernetics"},
+      {"year": 2017, "event": "First participation in Mohamed Bin Zayed International Robotics Challenge (MBZIRC 2017)"},
+      {"year": 2018, "event": "GitHub organisation ctu-mrs created; MRS UAV System open-source framework initiated"},
+      {"year": 2019, "event": "First MRS Summer School on Multi-Robot Systems"},
+      {"year": 2020, "event": "MBZIRC 2020 participation; Dronument project (cultural heritage monitoring)"},
+      {"year": 2021, "event": "DARPA Subterranean Challenge participation as CTU-CRAS-NORLAB team"},
+      {"year": 2024, "event": "MRS Summer School 2024; active EU and GAČR research projects"},
+      {"year": 2025, "event": "A2RL and SPRIND challenge participation"},
+      {"year": 2026, "event": "Ten-year anniversary; IEEE RAS Summer School on Multi-Robot Systems (July 2026)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (ČVUT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Martin Saska", "role": "Head / Principal Investigator", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Petr Štěpán", "role": "Associate/Assistant Professor", "note": ""},
+      {"name": "Vojtěch Vonásek", "role": "Associate/Assistant Professor", "note": ""},
+      {"name": "Robert Pěnička", "role": "Associate/Assistant Professor", "note": ""},
+      {"name": "Tomáš Báča", "role": "Associate/Assistant Professor", "note": ""},
+      {"name": "Vojtěch Spurný", "role": "Postdoc", "note": ""},
+      {"name": "Viktor Walter", "role": "Postdoc", "note": ""},
+      {"name": "Matouš Vrba", "role": "Postdoc", "note": ""}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://mrs.felk.cvut.cz/careers",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD Student", "department": "research", "location": "Prague"},
+      {"title": "Post-Doctoral Researcher", "department": "research", "location": "Prague"},
+      {"title": "Hardware Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Software Engineer", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "c++", "ros", "matlab"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "MBZIRC 2017 — Mohamed Bin Zayed International Robotics Challenge participant",
+      "MBZIRC 2020 — Mohamed Bin Zayed International Robotics Challenge participant",
+      "DARPA Subterranean Challenge — CTU-CRAS-NORLAB team",
+      "SPRIND Challenge participant",
+      "A2RL (April 2025) autonomous racing participant"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "University of Pennsylvania",
+      "Technical University of Berlin",
+      "CNRS Toulouse",
+      "University of Würzburg",
+      "University of Illinois Urbana-Champaign",
+      "Karlsruhe Institute of Technology",
+      "University of Seville — GRVC"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "MRS focuses on physical autonomous systems (UAVs, swarms, marine robots) that require real-world hardware, safety certification, and domain-specific engineering. Foundation models cannot replicate aerial vehicle control, physical deployment, or robotics competitions.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Academic research group funded by Czech state grants (GAČR, TAČR) and EU projects; not subject to commercial market pressures.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Institutional unit of Czech Technical University in Prague with steady grant funding from GAČR, TAČR, and EU. As a university department, it does not face commercial funding risk.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Well-established CTU research group with 10+ years of operation, 255+ open-source repositories, 70+ active team members, multiple international competition successes, and diverse grant portfolio. Strong academic reputation with no identifiable existential risk."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "github"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "glassdoor_rating", "open_roles_count"],
+    "needs_review": false,
+    "notes": "This entry is listed as category 'company' in the index but is a university research group (research_lab). Website: https://mrs.felk.cvut.cz. GitHub org ctu-mrs has 255 repos and 527 followers (created Nov 2018). Twitter: @mrs_ctu. Open-source MRS UAV System published on GitHub. Founded year estimated from '10 years anniversary' mention on 2026 site = ~2016. Active grants include multiple GAČR projects (Planning 3, TOMSNAV, TOPFLIGHT, ROBOPROX) and TAČR projects (ROJ II, HOLO-SWARM). Industrial cooperations include Eagle.One, DOFEC, ROBOSURV. Google Analytics ID UA-60139502-1 suggests web presence since ~2014."
+  }
+}
