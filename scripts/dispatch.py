@@ -1,5 +1,6 @@
 import asyncio
 import json
+import shutil
 import subprocess
 import sys
 import time
@@ -11,6 +12,7 @@ INDEX = DATA / "companies_index.json"
 COMPANIES = DATA / "companies"
 SKILL = ROOT / "skills" / "scrape-company" / "SKILL.md"
 VALIDATOR = ROOT / "scripts" / "validate_company.py"
+RENDERER = ROOT / "scripts" / "render_leaflets.py"
 
 DEFAULT_CONCURRENCY = 5
 DEFAULT_MODEL = "sonnet"
@@ -153,7 +155,34 @@ async def git_commit(company_id, company_name):
             print(f"[GIT]   {company_name} — commit failed: {stderr.decode()[:200]}")
 
 
-async def scrape_one(sem, company, model, dry_run, commit):
+async def render_pdf(company_id):
+    xelatex = (
+        shutil.which("xelatex")
+        or "/usr/local/texlive/2026/bin/universal-darwin/xelatex"
+    )
+    proc = await asyncio.create_subprocess_exec(
+        sys.executable,
+        str(RENDERER),
+        "--ids",
+        company_id,
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.PIPE,
+        cwd=str(ROOT),
+        env={
+            **__import__("os").environ,
+            "PATH": str(Path(xelatex).parent)
+            + ":"
+            + __import__("os").environ.get("PATH", ""),
+        },
+    )
+    stdout, stderr = await proc.communicate()
+    if proc.returncode == 0:
+        print(f"[PDF]   {company_id} — rendered")
+    else:
+        print(f"[PDF]   {company_id} — render failed: {stdout.decode()[:100]}")
+
+
+async def scrape_one(sem, company, model, dry_run, commit, render):
     async with sem:
         cid = company["id"]
         name = company["name"]
@@ -195,12 +224,15 @@ async def scrape_one(sem, company, model, dry_run, commit):
         if commit and ok:
             await git_commit(cid, name)
 
+        if render and ok:
+            await render_pdf(cid)
+
         return cid, status, elapsed
 
 
-async def run(companies, concurrency, model, dry_run, commit):
+async def run(companies, concurrency, model, dry_run, commit, render):
     sem = asyncio.Semaphore(concurrency)
-    tasks = [scrape_one(sem, c, model, dry_run, commit) for c in companies]
+    tasks = [scrape_one(sem, c, model, dry_run, commit, render) for c in companies]
     results = await asyncio.gather(*tasks)
 
     index = load_index()
@@ -263,6 +295,11 @@ def main():
         action="store_true",
         help="git commit after each successful scrape",
     )
+    parser.add_argument(
+        "--render",
+        action="store_true",
+        help="render PDF leaflet after each successful scrape",
+    )
     args = parser.parse_args()
 
     index = load_index()
@@ -289,7 +326,16 @@ def main():
         f"Scraping {len(companies)} companies, concurrency={args.concurrency}, model={args.model}"
     )
     print("-" * 60)
-    asyncio.run(run(companies, args.concurrency, args.model, args.dry_run, args.commit))
+    asyncio.run(
+        run(
+            companies,
+            args.concurrency,
+            args.model,
+            args.dry_run,
+            args.commit,
+            args.render,
+        )
+    )
 
 
 if __name__ == "__main__":

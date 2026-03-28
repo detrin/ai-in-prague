@@ -66,8 +66,10 @@ def tex_escape_url(url):
 def fmt_url(url, label=None):
     if not url:
         return ""
-    label = label or url.replace("https://", "").replace("http://", "").rstrip("/")
-    return f"\\href{{{tex_escape_url(url)}}}{{{tex_escape(label)}}}"
+    short = url.replace("https://", "").replace("http://", "").rstrip("/")
+    if label:
+        return f"\\href{{{tex_escape_url(url)}}}{{{tex_escape(label)}}} {{\\scriptsize\\textcolor{{muted}}{{{tex_escape(short)}}}}}"
+    return f"\\href{{{tex_escape_url(url)}}}{{{tex_escape(short)}}}"
 
 
 def build_links(d):
@@ -295,7 +297,7 @@ def fill_template(template_text, d):
             str(ca.get("open_roles_count") or len(ca.get("open_roles") or []) or "---")
         ),
         "VAR_TECH_STACK": fmt_list(ca.get("tech_stack")),
-        "VAR_CAREERS_URL": fmt_url(ca.get("careers_url"), "Link")
+        "VAR_CAREERS_URL": fmt_url(ca.get("careers_url"))
         if ca.get("careers_url")
         else "---",
         "VAR_OPEN_ROLES": build_open_roles(ca),
@@ -344,8 +346,12 @@ def render_one(json_path, template_text):
         tex_path = Path(tmpdir) / f"{company_id}.tex"
         tex_path.write_text(tex_content, encoding="utf-8")
 
+        xelatex = (
+            shutil.which("xelatex")
+            or "/usr/local/texlive/2026/bin/universal-darwin/xelatex"
+        )
         subprocess.run(
-            ["xelatex", "-interaction=nonstopmode", "-halt-on-error", str(tex_path)],
+            [xelatex, "-interaction=nonstopmode", "-halt-on-error", str(tex_path)],
             cwd=tmpdir,
             capture_output=True,
             text=True,
