@@ -1,0 +1,136 @@
+{
+  "id": "rossum",
+  "name": "Rossum",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI document processing platform for transactional workflows",
+    "description_long": "Rossum builds an AI-first, cloud-native Intelligent Document Processing (IDP) platform that automates end-to-end transactional document workflows. Their proprietary transactional LLM supports 276 languages and handwriting, enabling companies to ingest documents (email, scanners, PEPPOL, shared drives), extract and validate data, trigger automated communications and approvals, and write to downstream ERPs. Core use cases include Accounts Payable, Customs Clearance, Order Management, and Quality Assurance. The platform integrates natively with SAP, Coupa, NetSuite, Workday, and Microsoft Dynamics.",
+    "tagline": "Offload paperwork to AI agents",
+    "website": "https://rossum.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["document_processing", "nlp", "automation"],
+    "industries_served": ["finance", "logistics", "manufacturing", "retail", "construction", "wholesale_distribution"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2017,
+    "founders": ["Tomáš Gogar", "Petr Baudiš", "Tomáš Tunys"],
+    "origin_story": "Founded in 2017 in Prague by three PhD students in AI — Tomáš Gogar (CEO), Petr Baudiš (CTO/Chief AI Architect), and Tomáš Tunys — who identified document processing inefficiencies as an unsolved problem despite advances in technology. The technical founders include an original Git contributor and an architect of a precursor to Google DeepMind.",
+    "key_milestones": [
+      {"year": 2017, "event": "Founded in Prague by three PhD AI researchers"},
+      {"year": 2021, "event": "Raised $100M Series A from General Catalyst (total funding $109.5M)"},
+      {"year": 2023, "event": "Named in IDC MarketScape Worldwide IDP Software 2023–2024"},
+      {"year": 2024, "event": "Named in Sifted B2B SaaS Rising 100 and G2 Leader Fall 2024"},
+      {"year": 2024, "event": "Named Strong Performer in Forrester Wave: Document Mining & Analytics Platforms Q2 2024"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 5
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Charlotte", "country": "US", "is_hq": false},
+    {"city": "Chicago", "country": "US", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Luxembourg", "country": "LU", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 109500000,
+    "funding_rounds": [
+      {"date": "2021", "type": "Series A", "amount_usd": 100000000, "lead_investor": "General Catalyst"}
+    ],
+    "investors": ["General Catalyst"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš Gogar", "role": "CEO & Co-Founder", "source": "company_website"},
+      {"name": "Petr Baudiš", "role": "CTO & Chief AI Architect & Co-Founder", "source": "therecursive.com"},
+      {"name": "Tomáš Tunys", "role": "Co-Founder", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Petr Baudiš", "role": "Co-founder; original Git contributor; computer science researcher with background in Theoretical CS and AI; previously co-founded Ailao (deep-learning research commercialization)", "source": "therecursive.com"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://rossum.ai/careers/",
+    "open_roles_count": 13,
+    "open_roles": [
+      {"title": "Senior AI Research Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Backend Engineer (Main Application Team)", "department": "engineering", "location": "Prague"},
+      {"title": "ML Research Internship", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Solution Architect", "department": "engineering", "location": "Prague"},
+      {"title": "Partnership Manager", "department": "sales", "location": "Prague"},
+      {"title": "Partnership Manager", "department": "sales", "location": "Charlotte"},
+      {"title": "Partnership Manager", "department": "sales", "location": "Chicago"},
+      {"title": "Senior Content Marketing Manager", "department": "marketing", "location": "Prague"},
+      {"title": "Senior Content Marketing Manager", "department": "marketing", "location": "London"},
+      {"title": "Head of Brand and Content", "department": "marketing", "location": "Prague"},
+      {"title": "Head of Brand and Content", "department": "marketing", "location": "London"},
+      {"title": "IT Manager", "department": "engineering", "location": "Prague"},
+      {"title": "Office Assistant", "department": "other", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "deep-learning", "llm", "cloud-native"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Sifted B2B SaaS Rising 100 (2024)",
+      "G2 Leader Fall 2024",
+      "Forrester Wave Strong Performer — Document Mining & Analytics Platforms Q2 2024",
+      "IDC MarketScape Worldwide IDP Software 2023–2024 Vendor Assessment"
+    ],
+    "notable_clients": ["Wolt", "Morton Salt", "Port of Rotterdam Authority", "Fugro", "Imperial Dade"],
+    "customer_count": 450,
+    "partnerships": ["SAP", "Coupa", "NetSuite", "Workday", "Microsoft Dynamics"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Rossum has a proprietary transactional LLM trained on millions of transactional documents across 276 languages, providing meaningful moat over generic foundation models. However, as GPT-4o and Claude improve at document extraction, the core IDP value proposition faces gradual commoditization pressure. The workflow automation layer (email handling, ERP integrations, approval workflows) and 450+ enterprise customer lock-in provide medium-term protection that foundation models cannot easily replicate.",
+    "market_risk": "low",
+    "market_risk_rationale": "IDP is a large, established market growing at 50%+ annually per the company's own claims, with proven demand across finance, logistics, and manufacturing. Rossum has 450+ paying enterprise customers and recognition from Forrester, IDC, and G2, confirming strong product-market fit in a real and sustainable category.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "$109.5M in total funding including a $100M Series A from General Catalyst, with 450+ paying enterprise customers providing recurring revenue. The company is a recognized market leader with multiple analyst recognitions and strong growth signals (Sifted Rising 100).",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Rossum is a well-funded scaleup with deep proprietary AI technology, strong enterprise customer base, and established analyst recognition. The combination of domain-specific LLM training, ERP workflow integrations, and 450+ customers creates meaningful lock-in that provides resilience against AGI commoditization in the near to medium term."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "therecursive.com"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "revenue_estimate_usd", "funding_rounds_full", "employees_exact"],
+    "needs_review": false,
+    "notes": "Founded 2017 Prague. Series A $100M from General Catalyst in 2021; total funding $109.5M per The Recursive (Nov 2023). Website states 200+ employees in 5 global offices (Prague CZ, Charlotte US, Chicago US, London UK, Luxembourg LU) and 450+ customers. Founders: Tomáš Gogar (CEO), Petr Baudiš (CTO/Chief AI Architect, original Git contributor), Tomáš Tunys. Glassdoor blocked. No CNAIP profile found."
+  }
+}
