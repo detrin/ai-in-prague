@@ -1,0 +1,124 @@
+{
+  "id": "kosik-cz",
+  "name": "Košík.cz",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:52:00Z",
+
+  "overview": {
+    "description": "Czech online grocery and household goods delivery platform operating across major Czech cities",
+    "description_long": "Košík.cz is one of the largest Czech B2C e-commerce companies, providing same-day and next-day delivery of groceries, beverages, household products, and fresh goods directly to customers' homes. The platform uses machine learning for product recommendations, demand forecasting, and logistics route optimization. Originally founded as Kolonial.cz (ICO 03023877), it merged with Košík Retail in 2017 and now operates nationwide from distribution centers in Prague, Liberec, Ústí nad Labem, and Karlovy Vary. METRO AG holds a strategic stake (≥25%) via Košík Holding a.s.",
+    "tagline": "Velkonákupy. Velkovýhodně.",
+    "website": "https://www.kosik.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["recommendation", "data_engineering", "ml_ops"],
+    "industries_served": ["retail", "logistics", "e-commerce"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2014,
+    "founders": null,
+    "origin_story": "Founded in May 2014 as Kolonial.cz s.r.o. In 2016 it joined Mall Group, and in 2017 the Mall Group merged Kolonial.cz with the acquired Košík Retail brand under the Košík.cz name. In 2021, the company was spun out of Mall Group; Daniel Křetínský (EPH) and Patrik Tkáč (J&T) acquired an ~80% stake with Jakub Havrlan's Rockaway retaining a minority share. In 2023, METRO AG acquired at least 25% of Košík Holding a.s., the parent company.",
+    "key_milestones": [
+      {"year": 2014, "event": "Founded as Kolonial.cz s.r.o. (May 23, 2014)"},
+      {"year": 2016, "event": "Joined Mall Group"},
+      {"year": 2017, "event": "Merged with Košík Retail; rebranded as Košík.cz"},
+      {"year": 2021, "event": "Spun out of Mall Group; Křetínský & Tkáč acquired ~80% stake"},
+      {"year": 2023, "event": "METRO AG acquired ≥25% stake in parent Košík Holding a.s."}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": null,
+    "employee_source": "estimated_from_scale",
+    "office_count": 4
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Liberec", "country": "CZ", "is_hq": false},
+    {"city": "Ústí nad Labem", "country": "CZ", "is_hq": false},
+    {"city": "Karlovy Vary", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Košík Holding a.s.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Daniel Křetínský (EPH)", "Patrik Tkáč (J&T)", "Rockaway (Jakub Havrlan)", "METRO AG"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ivan Utěšil", "role": "Director A (Co-CEO)", "source": "justice.cz registry, since May 2022"},
+      {"name": "Jakub Chalupecký", "role": "Director A (Co-CEO)", "source": "justice.cz registry, since November 2022"},
+      {"name": "Jens Schumacher", "role": "Director B", "source": "justice.cz registry, since January 2023"},
+      {"name": "Tomáš Mareček", "role": "Supervisory Board Chairman / Košík Holding Board Chair", "source": "justice.cz registry"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.kosik.cz/kariera",
+    "open_roles_count": 20,
+    "open_roles": [
+      {"title": "Senior Machine Learning Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "SAP Solution Specialist", "department": "engineering", "location": "Prague"},
+      {"title": "CRM Communications Specialist", "department": "marketing", "location": "Prague"},
+      {"title": "HR Business Partner – Tech & Product & FIN & HR", "department": "hr", "location": "Prague"},
+      {"title": "General Ledger Accountant", "department": "finance", "location": "Prague"},
+      {"title": "Accounting Team Leader", "department": "finance", "location": "Prague"},
+      {"title": "PPC Specialist", "department": "marketing", "location": "Prague"},
+      {"title": "Coordinator for Foreign Employees", "department": "hr", "location": "Prague"},
+      {"title": "Zástupce Provozního Manažera", "department": "operations", "location": "Karlovy Vary"},
+      {"title": "Specialista provozu", "department": "operations", "location": "Ústí nad Labem"}
+    ],
+    "tech_stack": ["python", "sap", "sql"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["METRO AG (strategic shareholder)", "Cyrkl (waste management)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core value is physical grocery logistics (warehousing, last-mile delivery, cold chain). This infrastructure is hard to displace with AI. However, the ML components (product recommendations, demand forecasting, route optimization) are becoming increasingly commoditized. Košík's moat lies in physical operations, not proprietary AI.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Czech online grocery market is real and growing, but highly competitive. Rohlík.cz is the dominant competitor with stronger VC backing. Grocery margins are thin and profitability remains a challenge for the sector. METRO AG's strategic investment signals confidence but also competitive entanglement with wholesale supply.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-established company backed by strong strategic investors including Daniel Křetínský (EPH energy billionaire), J&T Group (Patrik Tkáč), and METRO AG. Operating since 2014 with no signs of financial distress. Strategic support from METRO AG provides both capital and supply chain advantages.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Physical logistics moat and strong investor backing offset AGI displacement risk, but grocery e-commerce is a capital-intensive, low-margin sector with intense competition. The company's AI usage is operational rather than IP-generating, making it a user of AI rather than a defensible AI business."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["wikipedia_cs", "justice.cz_business_registry", "ares.gov.cz", "linkedin.com", "jobs.cz", "or.justice.cz"],
+    "fields_missing": ["employees_exact", "revenue_estimate_usd", "glassdoor_rating", "funding_total_usd", "tech_stack_details"],
+    "needs_review": false,
+    "notes": "Košík.cz is primarily an online grocery retailer using AI/ML operationally (recommendations, logistics). Not an AI-native company. Legal entity ICO: 03023877, registered at Evropská 2758/11, Dejvice, Praha 6. The company was originally named Kolonial.cz s.r.o. and adopted the Košík brand in 2017 after acquiring Košík Retail. Employee count estimated based on multiple distribution centers and nationwide delivery operations; actual figure not publicly disclosed. METRO AG acquired ≥25% of Košík Holding a.s. in 2023 per conditional capital increase note in business registry."
+  }
+}
