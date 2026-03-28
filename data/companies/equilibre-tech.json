@@ -1,0 +1,112 @@
+{
+  "id": "equilibre-tech",
+  "name": "EquiLibre Technologies",
+  "category": "company",
+  "scraped_at": "2026-03-28T14:00:00Z",
+
+  "overview": {
+    "description": "AI-powered algorithmic trading using game theory and reinforcement learning",
+    "description_long": "EquiLibre Technologies uses game theory and reinforcement learning to build the next generation of algorithmic trading. Founded by the authors of DeepStack (published in Science) and Player of Games — world-class researchers and engineers from Google DeepMind and IBM — the company is building the first AI system for algorithmic trading, based in Prague.",
+    "tagline": "The Next Generation of Algorithmic Trading",
+    "website": "https://www.equilibretechnologies.com",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/equilibre-technologies"
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["automation", "other"],
+    "industries_served": ["finance"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Martin Schmid", "Matej Moravcik", "Rudolf Kadlec"],
+    "origin_story": "Founded by three ex-DeepMind/IBM researchers and PhDs in algorithmic game theory — the team behind DeepStack (the first AI to beat professional poker players, published in Science) and Player of Games. They applied their game theory and RL expertise to the multi-trillion dollar algorithmic trading market.",
+    "key_milestones": [
+      {"year": 2017, "event": "Team published DeepStack in Science — first AI to beat professional poker players"},
+      {"year": 2021, "event": "Team published Player of Games at DeepMind"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred_from_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Martin Schmid", "role": "CEO & Co-Founder", "source": "company_website"},
+      {"name": "Matej Moravcik", "role": "CSO & Co-Founder", "source": "company_website"},
+      {"name": "Rudolf Kadlec", "role": "CTO & Co-Founder", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Rich Sutton", "role": "Advisory Board", "note": "Distinguished research scientist at DeepMind; considered a co-founder of modern reinforcement learning"},
+      {"name": "Michael Bowling", "role": "Advisory Board", "note": "Site Lead at DeepMind Edmonton; professor at University of Alberta"},
+      {"name": "Csaba Szepesvari", "role": "Advisory Board", "note": "Lead of RL theory team at DeepMind; professor at University of Alberta"},
+      {"name": "Michal Pechoucek", "role": "Advisory Board", "note": "Former CTO at Avast; professor at Czech Technical University in Prague"},
+      {"name": "Murray Campbell", "role": "Advisory Board", "note": "Distinguished Research Scientist at IBM; co-author of Deep Blue"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.equilibretechnologies.com/open-positions",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "EquiLibre's core value proposition is deeply proprietary: specialized game theory and reinforcement learning algorithms for financial markets, built by the authors of DeepStack and Player of Games. This research pedigree (Science-published, ex-DeepMind) and domain-specific RL for trading represents a deep technical moat that foundation models cannot trivially replicate.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Algorithmic trading is a large and real market but dominated by well-capitalized incumbents (Jane Street, Renaissance Technologies, Two Sigma). An AI-native startup can differentiate, but competition is extreme and customer acquisition in finance is slow and trust-dependent.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No publicly known funding rounds or investors found. The company appears to be founder-bootstrapped or pre-seed, with a team of 3 founders and an open call for researchers. Equity-based compensation suggests limited runway.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "World-class research credentials (DeepStack, Player of Games, DeepMind alumni) and a prestigious advisory board (Sutton, Bowling, Szepesvari) provide strong technical credibility and low AGI displacement risk, but the absence of visible funding and very small team size represent significant execution and funding risk."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "funding_total_usd", "revenue_estimate_usd", "employees_exact", "glassdoor"],
+    "needs_review": false,
+    "notes": "equilibre.ai redirects to www.equilibretechnologies.com. All three founders are ex-DeepMind PhDs in algorithmic game theory — the DeepStack (Science 2017) and Player of Games (2021) team. Advisory board includes Rich Sutton, considered a co-founder of modern RL."
+  }
+}
