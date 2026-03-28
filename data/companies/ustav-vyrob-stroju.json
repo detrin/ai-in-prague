@@ -1,0 +1,111 @@
+{
+  "id": "ustav-vyrob-stroju",
+  "name": "Ústav výrobních strojů a zařízení",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Research and education in machine tools, manufacturing technology, and industrial automation at ČVUT",
+    "description_long": "Ústav výrobních strojů a zařízení (Ú12135), also known as RCMT (Research Centre for Mechanical Engineering Technology), is a department of the Faculty of Mechanical Engineering at Czech Technical University in Prague. It focuses on research and education in the field of machine tools — specifically CNC machining machines, forming machines, automation, and manufacturing systems. The department serves as the primary research base for the Czech manufacturing technology industry. Research areas include machine R&D, automation and robotic applications, production technologies, machine and process diagnostics, and additive manufacturing.",
+    "tagline": "Výzkumná základna strojírenské výrobní techniky v ČR",
+    "website": "https://rcmt.cvut.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["automation", "robotics", "ml_ops"],
+    "industries_served": ["manufacturing", "automotive", "industrial_machinery"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1960,
+    "founders": [],
+    "origin_story": "The department traces its roots to 1926 as part of the machining technology department at ČVUT. In 1960, under prof. Josef Píč, it became an independent department focused on machine tools and manufacturing technology.",
+    "key_milestones": [
+      {"year": 1926, "event": "Origins as part of the Department of Machining Technology at ČVUT"},
+      {"year": 1960, "event": "Became independent department under prof. Josef Píč"},
+      {"year": 2000, "event": "RCMT (Research Centre for Mechanical Engineering Technology) established as part of the department"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "České vysoké učení technické v Praze (ČVUT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "doc. Ing. Petr Kolář, Ph.D.", "role": "Head of Department", "source": "company_website"},
+      {"name": "prof. Ing. Jaromír Houša, DrSc.", "role": "Professor", "source": "company_website"},
+      {"name": "doc. Ing. Pavel Souček, DrSc.", "role": "Associate Professor", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "doc. Ing. Otakar Horejš, Ph.D.", "role": "Researcher", "source": "company_website"},
+      {"name": "doc. Ing. Martin Mareš, Ph.D.", "role": "Researcher", "source": "company_website"},
+      {"name": "doc. Ing. Lukáš Novotný, Ph.D.", "role": "Researcher", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.fs.cvut.cz/ustavy/sekce-ustav-vyrobnich-stroju-a-zarizeni/ustav-vyrobnich-stroju-a-zarizeni-12135/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Czech machine tool industry", "EIT Manufacturing Hub"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at ČVUT. The department conducts fundamental and applied research in manufacturing technology; not a commercial AI product company subject to AGI displacement risk.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "University research department funded by grants and institutional support; not operating in a commercial market.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Institutional department of ČVUT with stable university and grant funding; not subject to startup-style funding risk.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "As an established academic research department within one of Central Europe's leading technical universities since 1926, the group faces no significant existential risks."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor"],
+    "needs_review": false,
+    "notes": "Department code Ú12135 / RCMT. Located at Horská 3, Praha 2 Albertov. Website also accessible at rcmt.cvut.cz. Czech Republic ranks 7th globally in per-capita production of manufacturing machines; this department serves as the primary academic/research base for that industry."
+  }
+}
