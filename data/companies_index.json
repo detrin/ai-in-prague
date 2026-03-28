@@ -1092,7 +1092,8 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "done",
+    "website_url": "https://hlacik.ai"
   },
   {
     "id": "huld",
