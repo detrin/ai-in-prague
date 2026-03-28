@@ -1,0 +1,113 @@
+{
+  "id": "kroupalide",
+  "name": "KROUPALIDÉ",
+  "category": "company",
+  "scraped_at": "2026-03-28T17:50:00Z",
+
+  "overview": {
+    "description": "Czech law firm specialising in AI legal compliance, IT law, and technology regulation",
+    "description_long": "KROUPALIDÉ advokátní kancelář s.r.o. is a law firm founded with the aim of providing comprehensible, modern legal services to businesses and individuals. The firm focuses on AI governance and compliance, IT & e-commerce law, GDPR, intellectual property, and corporate law. They advise startups, SMEs, and large enterprises on AI regulation, AI liability, AI strategy, and legal risks related to emerging technology. Offices in Brno (HQ) and Prague.",
+    "tagline": "Právo je pro nás o příbězích a lidech",
+    "website": "https://www.kroupalide.cz",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/kroupalide"
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["other"],
+    "industries_served": ["legal", "technology", "finance", "startups"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2012,
+    "founders": ["Mgr. Pavel Kroupa", "Mgr. Oldřich Kozumplík"],
+    "origin_story": "Founded as a law firm with a focus on business and technology law; expanded into AI legal compliance as the AI regulatory landscape grew.",
+    "key_milestones": [
+      {"year": 2012, "event": "Founded in Brno as KROUPALIDÉ advokátní kancelář s.r.o."},
+      {"year": 2024, "event": "Listed in CNAIP Czech AI catalogue as AI advisory provider"},
+      {"year": 2025, "event": "Published AI practical guides for entrepreneurs and generative AI vs. law content"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 16,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Brno", "country": "CZ", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Mgr. Pavel Kroupa", "role": "Partner, Advokát", "source": "company_website"},
+      {"name": "Mgr. Oldřich Kozumplík", "role": "Partner, Advokát", "source": "company_website"},
+      {"name": "Mgr. Tomáš Páleníček", "role": "Partner, Advokát", "source": "company_website"},
+      {"name": "Mgr. Marek Šafra", "role": "Chief Development Officer", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "JUDr. Svatava Veverková, Ph.D.", "role": "Advokátka", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.kroupalide.cz",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "Právní praktikant/ka (Legal Intern)", "department": "legal", "location": "Brno"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Velmi doporučovaná advokátní kancelář 2020 (Highly recommended law firm 2020)"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "As a law firm providing AI legal compliance services, KROUPALIDÉ actually benefits from AI proliferation — the more AI is adopted, the more businesses need legal advice on AI regulation, contracts, and liability. Regulated legal work requires licensed attorneys and cannot be replaced by AI models.",
+    "market_risk": "low",
+    "market_risk_rationale": "EU AI Act and growing Czech/EU AI regulatory environment is creating strong demand for AI legal compliance advisory. The firm is well-positioned as an early mover in AI law in the Czech market, serving both startups and large enterprises.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Law firms typically operate on client fee revenue with no external funding needed, but the firm is small (16 staff) and its AI compliance niche, while growing, is still maturing. No public funding or backing information found.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "KROUPALIDÉ's focus on AI compliance and legal advisory is counter-cyclical to AGI risk — their services become more valuable as AI regulation tightens. Small size and stable professional services model with multi-year track record suggest sustainable operations."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "customer_count"],
+    "needs_review": false,
+    "notes": "KROUPALIDÉ is a law firm (advokátní kancelář), not a technology company. It is in the CNAIP Czech AI catalogue as an AI advisory and consulting provider. HQ is in Brno; Prague office at Nádražní 762/32, Praha 5. IČO: 29310571. Founded year inferred from '© 2012' footer. Employee count of 16 based on staff listed on website."
+  }
+}
