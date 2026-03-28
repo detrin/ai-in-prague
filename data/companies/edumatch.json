@@ -1,0 +1,104 @@
+{
+  "id": "edumatch",
+  "name": "EduMatch",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered digital platform connecting universities and companies for talent partnerships",
+    "description_long": "EduMatch is a digital partnership platform that connects universities and companies through AI-powered matching and recommendation. Companies gain access to student talent via internships, projects, and lectures; universities get exclusive access to industry partners. Features include an AI recommendation system (recsys), digital career fairs, analytics tools, personalised newsletters, and automated administration. EduMatch is a subsidiary/product of EXPERTS.AI s.r.o., a Prague-based company building AI-powered search for university expertise since 2017.",
+    "tagline": "Connecting universities and companies through modern digital partnerships",
+    "website": "https://www.edumatch.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["recommendation", "automation"],
+    "industries_served": ["education", "technology", "finance", "consulting"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2024,
+    "founders": ["Ing. Stanislav Kuznetsov"],
+    "origin_story": "Founded in February 2024 as a subsidiary of EXPERTS.AI s.r.o. (est. 2017), a Prague-based company focused on AI-powered university expertise search. EduMatch extends that mission by providing a matching platform for industry-academia talent partnerships.",
+    "key_milestones": [
+      {"year": 2024, "event": "Company founded (EduMatch s.r.o., ICO 21238448); partnerships established with FIT ČVUT, AAUNI, FAV ZČU"},
+      {"year": 2024, "event": "Recombee (Prague AI company) became a client, using platform to find AI/ML students"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Karlovy Vary", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "EXPERTS.AI s.r.o.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["EXPERTS.AI s.r.o."],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ing. Stanislav Kuznetsov", "role": "Director (jednatel)", "source": "czech_business_register"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.edumatch.ai",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Recombee"],
+    "customer_count": null,
+    "partnerships": ["FIT ČVUT (Faculty of Information Technology, Czech Technical University in Prague)", "Anglo-American University in Prague (AAUNI)", "FAV ZČU (Faculty of Applied Sciences, University of West Bohemia)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "EduMatch's core value is an AI recommendation system matching students with companies. This functionality is increasingly commoditised by LinkedIn, Handshake, and general AI tools. The platform lacks a clear proprietary data moat — university partnership data could be replicated by incumbents.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The edu-tech talent marketplace is a real and growing segment, especially as companies seek early talent pipelines. However, competition from established platforms (LinkedIn, Handshake, local Czech job boards) and the niche focus on Czech/Slovak universities limits addressable market size.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Founded February 2024 with no known external funding. Backed only by the parent company EXPERTS.AI s.r.o. (itself a small company). Very early stage with minimal public revenue signals and a tiny team.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Very early-stage startup (founded early 2024) with no external funding, a small team, and a product in a competitive market. The AI recommendation layer is not strongly differentiated from incumbents, and the limited geographic focus on Czech universities constrains scaling potential."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_register_ares", "czech_business_register_or_justice"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "open_roles_count", "glassdoor_rating", "tech_stack"],
+    "needs_review": false,
+    "notes": "EduMatch s.r.o. (ICO 21238448) is a subsidiary of EXPERTS.AI s.r.o. (ICO 06118313, founded 2017, Prague 1). Registered address is Karlovy Vary but director (Ing. Stanislav Kuznetsov) resides in Praha 5. Connected to Prague AI ecosystem via prg.ai partnership page and Recombee client. No CNAIP listing found. Very early-stage company."
+  }
+}
