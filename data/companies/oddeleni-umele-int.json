@@ -1,0 +1,123 @@
+{
+  "id": "oddeleni-umele-int",
+  "name": "Oddělení umělé inteligence",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Department of Artificial Intelligence at CIIRC CTU Prague, pursuing advances in artificial general intelligence",
+    "description_long": "The Department of Artificial Intelligence (Oddělení umělé inteligence, abbreviated AI) is Department I at CIIRC CTU Prague (Czech Institute of Informatics, Robotics and Cybernetics, Czech Technical University). Its stated aim is 'to make an advancement in the field of artificial general intelligence.' The department comprises four research groups: FM (Formal Methods) — applying machine learning to SMT/SAT solving; FAI (Foundational AI) — unsupervised and evolutionary learning toward minimal-supervision intelligence; ML (Machine Learning) — reinforcement learning, symbolic regression, robotics navigation, and big data; and AR (Automatic Reasoning) — automated theorem proving and verification. Located in Prague 6 Dejvice, the department is led by Mikoláš Janota and collaborates with CTU's Faculty of Electrical Engineering and international academic partners.",
+    "tagline": "Advancing artificial general intelligence through formal methods, machine learning, and automated reasoning",
+    "website": "https://www.ciirc.cvut.cz/en/teams-labs/ai/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["ml_ops", "automation", "other"],
+    "industries_served": ["academia", "robotics", "software_verification"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": "One of the founding departments of CIIRC CTU Prague, which was established in 2013 as CTU's interdisciplinary research institute. The AI department is described as 'newly established' and focuses on artificial general intelligence.",
+    "key_milestones": [
+      {"year": 2013, "event": "CIIRC CTU Prague established; AI department is one of its core research units"},
+      {"year": 2019, "event": "AITP 2019 (Artificial Intelligence and Theorem Proving) conference co-organized at CIIRC"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "CIIRC CTU Prague / Czech Technical University in Prague",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Mikoláš Janota", "role": "Head of Department / Head of FM group", "source": "company_website"},
+      {"name": "Robert Babuška", "role": "PI / Head of ML group", "source": "company_website"},
+      {"name": "Martin Suda", "role": "Head of AR group", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Chad E. Brown", "role": "Researcher, FM group", "source": "company_website"},
+      {"name": "Jan Jakubův", "role": "Researcher, FM group", "source": "company_website"},
+      {"name": "Karel Chvalovský", "role": "Researcher, FM/AR group", "source": "company_website"},
+      {"name": "Jan Hůla", "role": "Researcher, FM/AR group", "source": "company_website"},
+      {"name": "Hugo Cisneros", "role": "Researcher, FAI group", "source": "company_website"},
+      {"name": "Barbora Hudcová", "role": "Researcher, FAI group", "source": "company_website"},
+      {"name": "Jiří Kubalík", "role": "Researcher, ML group", "source": "company_website"},
+      {"name": "Erik Derner", "role": "Researcher, ML group", "source": "company_website"},
+      {"name": "Jonáš Kulhánek", "role": "Researcher, ML group", "source": "company_website"},
+      {"name": "Jan Zahálka", "role": "Researcher, ML group", "source": "company_website"},
+      {"name": "Robert Veroff", "role": "Affiliated Research Professor, AR group", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.ciirc.cvut.cz/en/career-opportunity/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "formal_methods", "sat_smt_solvers", "pytorch"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Czech Technical University in Prague (parent institution)",
+      "CIIRC CTU Prague",
+      "Czech Science Foundation (GAČR)",
+      "EU Horizon research programs"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research department at CIIRC CTU Prague; its mission is to advance AGI research itself, not a commercial product subject to commoditization.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "University research group funded through institutional CTU budgets and Czech/EU grant programs; not exposed to commercial market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Funded through CTU institutional budget and Czech/EU grants (GAČR, EU Horizon); academic funding model insulated from commercial runway concerns.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research department within CIIRC CTU Prague; commercial risk framework does not apply to a public university AI research group."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year", "employees_exact", "open_roles_count", "glassdoor", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "AI = Oddělení umělé inteligence (Department of Artificial Intelligence). Department I at CIIRC CTU Prague. Address: Jugoslávských partyzánů 1580/3, 160 00 Praha 6, Dejvice. Tel: +420 224 354 100. Contains 4 research groups: FM (Formal Methods), FAI (Foundational AI), ML (Machine Learning), AR (Automatic Reasoning). Head: Mikoláš Janota. No CNAIP page found."
+  }
+}
