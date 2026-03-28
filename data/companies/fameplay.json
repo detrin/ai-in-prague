@@ -1,0 +1,118 @@
+{
+  "id": "fameplay",
+  "name": "Fameplay",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "EMMY award-winning AI production studio specialising in digital avatars, voice cloning, and AI-powered video localisation",
+    "description_long": "Fameplay empowers audiovisual and sound production via generative AI with storytelling. Operating under Czech Video Center, a.s., they specialise in digital twin (avatar) development, AI video localisation with lip-sync, high-quality voice cloning, AI imaging (animatics, short films, book trailers), and audiobooks. They won the first ever EMMY award for Czech Republic in 2022 for the series #martyisdead and have since pivoted to AI-native production services. Notable work includes creating the first posthumous single for a Czech/Slovak singer (Meky Žbirka), localising the first Czech TV commercial into Romanian, and localising a French podcast into 9 languages.",
+    "tagline": "AI-powered audiovisual & sound production with storytelling",
+    "website": "https://fameplay.ai",
+    "cnaip_url": "https://cnaip.cz/cs/entity/fameplay"
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "speech", "cv", "nlp"],
+    "industries_served": ["media", "entertainment", "publishing", "education", "sports", "advertising"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2023,
+    "founders": ["Juraj Felix", "Lukas Zahor"],
+    "origin_story": "Founded as an AI production company in 2023 by the team behind Czech Video Center, which has roots in VOD platform development since 2018 and won the first EMMY award for Czech Republic in 2022 with the series #martyisdead.",
+    "key_milestones": [
+      {"year": 2018, "event": "First VOD platform (mall.tv) launched by founding team"},
+      {"year": 2020, "event": "Built Olympic TV for Czech Team in Tokyo"},
+      {"year": 2022, "event": "#martyisdead won the first EMMY award for Czech Republic"},
+      {"year": 2022, "event": "Built Olympic TV for Czech Team in Beijing"},
+      {"year": 2023, "event": "Fameplay.ai born as AI production company"},
+      {"year": 2024, "event": "Created first posthumous single for Slovak singer Meky Žbirka using AI"},
+      {"year": 2024, "event": "Localised first Czech TV commercial into Romanian using AI dubbing"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Video Center, a.s.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Juraj Felix", "role": "CEO & Co-founder", "source": "company_website"},
+      {"name": "Lukas Zahor", "role": "Chief Producer & Co-founder", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Anna Bohonek", "role": "Business Lead", "source": "company_website"},
+      {"name": "Ivana Zalesak Hronova", "role": "Localisation Lead", "source": "company_website"},
+      {"name": "Veronika Dominikova", "role": "Imaging Lead", "source": "company_website"},
+      {"name": "David Pojar", "role": "Creative Producer", "source": "company_website"},
+      {"name": "Simona Turkova", "role": "Distribution & Marketing Lead", "source": "company_website"},
+      {"name": "Martin Krusina", "role": "Chief Dramaturg & Scriptwriter", "source": "company_website"},
+      {"name": "Jakub Klinghor", "role": "Dramaturg & Scriptwriter", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://fameplay.ai/about-us",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["generative_ai", "ai_avatars", "voice_cloning", "ai_video", "webflow"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["First EMMY Award for Czech Republic (2022) for #martyisdead"],
+    "notable_clients": ["Czech Olympic Team", "Meky Žbirka", "Carvago", "EON", "EDITIS", "International Volleyball Academy", "Marc Levy"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Fameplay's core services (AI avatar creation, voice cloning, AI dubbing) are built on top of rapidly commoditising generative AI tools. Their moat is hybrid production expertise (film + AI), EMMY-award credibility, and established enterprise client relationships — but the technical barriers are low and competition from global AI video platforms (HeyGen, ElevenLabs, etc.) is intensifying.",
+    "market_risk": "low",
+    "market_risk_rationale": "AI content production, localisation, and avatar creation represent a real and growing market with demonstrated enterprise demand. Fameplay has proven case studies across publishing, sports, automotive, and entertainment, indicating genuine PMF.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external funding. Operates as a small boutique studio (~10 named staff) under Czech Video Center; project-based revenue model with no disclosed ARR or runway. High dependency on winning new custom projects.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong creative credentials (EMMY award) and real enterprise clients offset the commoditisation risk in the short term, but lack of funding, small team size, and reliance on project-based consulting revenue make long-term sustainability uncertain as AI video tools become consumer-accessible."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "cnaip", "linkedin"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor_rating", "employees_exact"],
+    "needs_review": false,
+    "notes": "fameplay.cz redirects to avatars.cz (a separate AI avatar SaaS product). Fameplay.ai is the main production studio site. Legal entity is Czech Video Center, a.s. (IČ: 09839194). Founded year 2023 refers to the AI-focused rebranding; underlying company has roots to at least 2018."
+  }
+}
