@@ -1,0 +1,105 @@
+{
+  "id": "precismo",
+  "name": "Precismo",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:20:00Z",
+
+  "overview": {
+    "description": "3D digital twin platform for e-commerce product visualization",
+    "description_long": "Precismo is a technology startup specializing in the creation of high-fidelity digital twins for products, with a strong focus on enhancing e-commerce experiences. The company's mission is to revolutionize online shopping by providing immersive, interactive, and photorealistic 3D representations of products, bridging the gap between physical and digital retail. Leveraging proprietary Texture Transfer Technology®, Precismo ensures its 3D models achieve unparalleled realism, closely mirroring physical counterparts in both appearance and dimensions. Products include 3D Model creation, 3D Viewer, 3D Configurator, Photo and Video generation, 3D Scanning, and online hosting with analytics.",
+    "tagline": "We will make the digital world more tangible.",
+    "website": "https://www.precismo.com",
+    "cnaip_url": "https://www.cnaip.cz/en/entity/precismo"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["cv", "ml_ops", "other"],
+    "industries_served": ["retail", "luxury", "manufacturing", "marketing", "e-commerce"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2017,
+    "founders": ["Mikoláš Herskovič"],
+    "origin_story": "Founded on September 1, 2017 in Brno, Czech Republic. Built around proprietary Texture Transfer Technology® for photorealistic 3D product digitization targeting e-commerce.",
+    "key_milestones": [
+      {"year": 2017, "event": "Founded in Brno (September 1, 2017); IČO 06399967"},
+      {"year": 2026, "event": "Soulmates Ventures joined as investor (February 2026)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true, "address": "Ringhofferova 115/1, 155 21 Praha 5"},
+    {"city": "Brno", "country": "CZ", "is_hq": false, "address": "Solniční 243/17, 602 00 Brno (legal address)"}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["KOOPEO Ventures SE", "Nation 1", "Soulmates Ventures"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "BcA. Mikoláš Herskovič", "role": "CEO / Jednatel", "source": "czech_business_registry"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Precismo's core value is their proprietary Texture Transfer Technology® and 3D scanning workflow for photorealistic product digitization. While generative AI (NeRF, Gaussian Splatting, text-to-3D) is rapidly advancing and could commoditize basic 3D model generation, Precismo's hardware scanning workflow, enterprise integrations, and accuracy standards for luxury/retail provide a near-term moat.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The e-commerce 3D visualization market is real and growing, particularly for luxury goods. However, it is competitive (Sketchfab, Threekit, Matterport, and platform-native solutions from Shopify and others). The luxury brand niche is a defensible vertical with high quality requirements.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Precismo has backing from KOOPEO Ventures SE, Nation 1 (Luxembourg), and recently added Soulmates Ventures (February 2026), suggesting ongoing VC support. However, the registered capital is small (21,270 CZK) and no public funding amounts are available, indicating an early-stage startup with uncertain runway.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Precismo occupies a genuine niche in 3D product digitization with proprietary technology, but faces medium risk from both generative AI advances threatening its core scanning-based approach and competitive market dynamics. VC backing from multiple investors provides some runway stability, but the small team and early stage limit resilience."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website", "czech_business_registry"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles", "tech_stack"],
+    "needs_review": false,
+    "notes": "Company founded September 1, 2017. CEO/founder: BcA. Mikoláš Herskovič. Shareholders include KOOPEO Ventures SE (28.21%), Ing. Zdeněk Glazer (28.21%), BcA. Mikoláš Herskovič (28.21%), Nation 1 (10%), Soulmates Ventures (5.37%). Social: facebook.com/Precismo3D, instagram.com/precismo3d, x.com/precismo3d. Employee count estimated (no public data found)."
+  }
+}
