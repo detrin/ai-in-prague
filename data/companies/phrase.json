@@ -1,0 +1,136 @@
+{
+  "id": "phrase",
+  "name": "Phrase",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered localization and translation management platform",
+    "description_long": "Phrase (formerly Memsource) is a world-leading translation technology company offering an AI-powered localization platform with machine translation, workflow automation, quality management, and agentic AI capabilities. The platform enables enterprises to automate, manage, and translate content at scale across 100+ languages and integrations. Formerly known as Memsource, the company rebranded in July 2022 after acquiring the original Phrase TMS in 2021. Backed by The Carlyle Group.",
+    "tagline": "AI-Powered Localization & Translation Platform",
+    "website": "https://phrase.com",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/phrase"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "automation", "generative_ai"],
+    "industries_served": ["technology", "e-commerce", "gaming", "media", "finance", "retail"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2012,
+    "founders": ["David Čaněk"],
+    "origin_story": "Founded in Prague as Memsource, a translation management system (TMS) for enterprises and language service providers. Secured PE backing from Kennet Partners in 2017, then Carlyle Group acquired a majority stake in 2020. In 2021, Memsource acquired the original Phrase TMS competitor, and the combined company rebranded as Phrase in July 2022.",
+    "key_milestones": [
+      {"year": 2012, "event": "Founded in Prague as Memsource"},
+      {"year": 2017, "event": "Secured PE funding from Kennet Partners"},
+      {"year": 2020, "event": "The Carlyle Group acquires majority stake in Memsource"},
+      {"year": 2021, "event": "Memsource acquires Phrase (competitor TMS)"},
+      {"year": 2022, "event": "Georg Ell appointed CEO; secured additional €15M led by Carlyle; rebranded to Phrase"},
+      {"year": 2023, "event": "Simone Bohnenberger-Rich appointed CPO; Dr. Alon Lavie joins as VP AI Research"},
+      {"year": 2024, "event": "Marion Kaehlke joins as Chief People Officer; named 2024 EMEA AWS Partner Awards winner"},
+      {"year": 2025, "event": "Named Leader in Forrester Wave; launched Phrase Studio multimedia localization and agentic AI"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": null,
+    "employee_source": "company_website_schema",
+    "office_count": 5
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Frankfurt", "country": "DE", "is_hq": false},
+    {"city": "Dublin", "country": "IE", "is_hq": false},
+    {"city": "Madrid", "country": "ES", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2017", "type": "PE", "amount_usd": null, "lead_investor": "Kennet Partners"},
+      {"date": "2020-07", "type": "PE majority acquisition", "amount_usd": null, "lead_investor": "The Carlyle Group"},
+      {"date": "2022-06", "type": "Growth", "amount_usd": 16200000, "lead_investor": "The Carlyle Group"}
+    ],
+    "investors": ["The Carlyle Group", "Kennet Partners"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Georg Ell", "role": "CEO", "source": "company_website"},
+      {"name": "Simone Bohnenberger-Rich", "role": "CPO", "source": "company_website"},
+      {"name": "Alon Lavie", "role": "VP AI Research", "source": "company_website"},
+      {"name": "Marion Kaehlke", "role": "Chief People Officer", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "David Čaněk", "role": "Founder (Memsource)", "source": "public_records"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://phrase.com/careers/jobs/",
+    "open_roles_count": 6,
+    "open_roles": [
+      {"title": "Customer Enablement Specialist", "department": "customer_success", "location": "Europe (CZ/DE/IE/ES/GB)"},
+      {"title": "DevOps Engineer", "department": "engineering", "location": "Europe (CZ/DE/IE/ES/GB)"},
+      {"title": "Head of Product Design", "department": "product", "location": "Europe (CZ/DE/IE/ES/GB)"},
+      {"title": "Senior AI Engineer", "department": "engineering", "location": "Europe (CZ/DE/IE/ES/GB)"},
+      {"title": "Senior Product Manager", "department": "product", "location": "Europe (CZ/DE/ES/IE/GB)"},
+      {"title": "Virtual Events and Podcast Manager", "department": "marketing", "location": "Europe (CZ/DE/IE/ES/GB)"}
+    ],
+    "tech_stack": ["python", "aws"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Forrester Wave Leader 2025",
+      "2024 EMEA AWS Partner Awards Winner",
+      "AWS Retail Competency",
+      "AWS Travel and Hospitality Competency",
+      "Nimdzi Tech of the Week"
+    ],
+    "notable_clients": null,
+    "customer_count": null,
+    "partnerships": ["Unity", "Contentful", "Lionbridge", "Welocalize", "Acclaro", "Publicis Production", "ClearlyLocal"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core machine translation is increasingly commoditized by foundation models (GPT-4, DeepL, Google Translate). However, Phrase's value proposition extends beyond translation to workflow orchestration, quality management, integrations with 100+ tools, and enterprise-grade compliance — layers that foundation models cannot easily replicate.",
+    "market_risk": "low",
+    "market_risk_rationale": "Enterprise localization is a large, established market with proven demand. Phrase holds Forrester Wave Leader status, has a strong partner ecosystem (Unity, Contentful, Lionbridge), and serves multinational enterprises with complex localization needs. PE backing from Carlyle Group signals healthy commercial traction.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Backed by a majority stake from The Carlyle Group (global PE firm) and secured additional €15M growth funding in June 2022. Strong institutional backing provides runway and financial stability.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Solid PE backing and enterprise customer base reduce existential risk, but commoditization of core MT capabilities by AI foundation models poses a medium-term threat to the translation quality differentiation. Success depends on deepening workflow automation and agentic AI moats, which the company is actively investing in."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "cnaip", "greenhouse_api", "company_newsroom"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "customer_count"],
+    "needs_review": false,
+    "notes": "Formerly Memsource (founded 2012). Acquired original 'Phrase' TMS in January 2021, rebranded to Phrase in July 2022. Carlyle Group holds majority stake. €15M funding in June 2022 was approximately $16.2M USD at time of announcement. Founder David Čaněk confirmed via public records."
+  }
+}
