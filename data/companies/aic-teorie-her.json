@@ -1,0 +1,126 @@
+{
+  "id": "aic-teorie-her",
+  "name": "AIC Teorie her",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Computational game theory research group within the Artificial Intelligence Center at CTU Prague",
+    "description_long": "AIC Teorie her (Game Theory) is a research group within the Artificial Intelligence Center (AIC) at the Faculty of Electrical Engineering, Czech Technical University in Prague. The group develops AI systems and novel algorithms for competitive and adversarial settings using game-theoretic frameworks. Research spans basic algorithmic game theory (faster algorithms, new representations) and applied domains including network security, transportation networks, and military operations. The group is internationally funded by EU (COST, Horizon Europe) and US agencies (Army Research Office).",
+    "tagline": "Developing AI systems to compete with human players",
+    "website": "https://www.aic.fel.cvut.cz/research-areas/game-theory",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["ml_ops", "other"],
+    "industries_served": ["defense", "transportation", "cybersecurity"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2001,
+    "founders": ["Michal Pěchouček"],
+    "origin_story": "The Game Theory group is one of seven research areas within AIC, which was founded in 2001 by Michal Pěchouček at the Faculty of Electrical Engineering, CTU Prague. AIC has grown to become one of Europe's top AI research centers (ranked #6 in Europe by CSRankings in AI and Computer Vision).",
+    "key_milestones": [
+      {"year": 2001, "event": "AIC founded at FEL CTU Prague by Michal Pěchouček"},
+      {"year": 2020, "event": "Publication on Automated Construction of Abstractions in Games accepted to AI Journal and IJCAI 2020"},
+      {"year": 2023, "event": "Army Research Office project on Game Theory for Adversarial Machine Learning launched"},
+      {"year": 2025, "event": "COST GameTable project launched — international network for game AI and cultural heritage"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 14,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Artificial Intelligence Center, FEL CTU Prague",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš Kroupa", "role": "Associate Professor / Group Head", "source": "company_website"},
+      {"name": "Branislav Bošanský", "role": "Associate Professor / Group Head", "source": "company_website"},
+      {"name": "Viliam Lisý", "role": "Associate Professor / Group Head", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Sara Vannucci", "role": "Postdoc", "source": "company_website"},
+      {"name": "Aditya Aradhye", "role": "Postdoc", "source": "company_website"},
+      {"name": "Vojtěch Kovařík", "role": "Postdoc", "source": "company_website"},
+      {"name": "Karel Horák", "role": "Postdoc", "source": "company_website"},
+      {"name": "Michal Pěchouček", "role": "Director and Co-founder of AIC", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.aic.fel.cvut.cz/careers",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD Student", "department": "research", "location": "Prague"},
+      {"title": "Postdoc Researcher", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "java"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "CSRankings.org #6 in Europe for AI and Computer Vision (as part of AIC)",
+      "AIC Student Paper Award (annual, €1,000)",
+      "Barrande Fellowship awarded to PhD student Tomáš Votroubek (2023)"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Army Research Office (US)",
+      "COST Action (EU)",
+      "Horizon Europe (AutoFair)",
+      "US Department of Defense (15+ years)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group advancing foundational game-theoretic AI. The group's work on novel algorithms and adversarial ML robustness is complementary to, rather than threatened by, foundation model progress.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research group operating on grant funding from national, EU, and US agencies; not subject to commercial market dynamics.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Part of AIC (FEL CTU Prague), which has 30+ active projects funded by national agencies, Horizon Europe, COST, and the US Army Research Office. Funding base is diversified and multi-decade.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research group with institutional backing from a top-ranked European AI center; risk assessment categories are not applicable in a commercial sense."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "aic_about_page", "aic_careers_page"],
+    "fields_missing": ["founded_year_of_group_specifically", "glassdoor_rating", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "AIC Teorie her is the Game Theory research group within the Artificial Intelligence Center (AIC) at the Faculty of Electrical Engineering, Czech Technical University in Prague. The AIC was founded in 2001; the game theory group's specific founding date is unknown but is among the original research areas. The group consists of 3 associate professors (group heads), 4 postdocs, and 7 PhD students."
+  }
+}
