@@ -1,0 +1,118 @@
+{
+  "id": "newton-media",
+  "name": "Newton Media",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "Media intelligence platform providing AI-powered media monitoring, analysis, and PR tools across Central and Eastern Europe",
+    "description_long": "NEWTON Media is a leading media intelligence company founded in Prague in 1995. The company offers comprehensive media monitoring (print, online, TV, radio, podcasts, social media), AI-driven media analysis, and PR tools through its NewtonOne SaaS platform. Key AI products include Isaac® (NLP-based AI assistant for media data analysis), image/video recognition, speech-to-text transcription, and the AI Visibility service measuring how generative AI platforms perceive client brands. The company operates the largest media archive in Central Europe (180,000+ sources worldwide) and serves 3,000+ corporate clients across 12 offices in 9 European countries.",
+    "tagline": "Media Insight that makes sense",
+    "website": "https://www.newtonmedia.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "cv", "speech", "automation", "data_engineering"],
+    "industries_served": ["media", "pr", "finance", "government", "corporate_communications"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1995,
+    "founders": ["Petr Herian"],
+    "origin_story": "Established in Prague in 1995, NEWTON Media grew from a Czech media monitoring firm into a multi-country media intelligence group spanning Central and Eastern Europe. The legal entity NEWTON Media, a.s. was incorporated in 2007 (IČO: 28168356).",
+    "key_milestones": [
+      {"year": 1995, "event": "Founded in Prague as media monitoring company"},
+      {"year": 2007, "event": "NEWTON Media, a.s. formally incorporated"},
+      {"year": 2024, "event": "Launched Isaac® AI assistant in NewtonOne platform"},
+      {"year": 2024, "event": "Launched AI Visibility product measuring brand perception in generative AI"},
+      {"year": 2024, "event": "Relocated HQ from Na Pankráci to Lomnického 1705/9, Praha 4"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": null,
+    "employee_source": "linkedin_snippet",
+    "office_count": 12
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Bratislava", "country": "SK", "is_hq": false},
+    {"city": "Zagreb", "country": "HR", "is_hq": false},
+    {"city": "Ljubljana", "country": "SI", "is_hq": false},
+    {"city": "Belgrade", "country": "RS", "is_hq": false},
+    {"city": "Sarajevo", "country": "BA", "is_hq": false},
+    {"city": "Skopje", "country": "MK", "is_hq": false},
+    {"city": "Kyiv", "country": "UA", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Petr Herian", "role": "Founder & Chairman of the Board", "source": "company_website"},
+      {"name": "Magdalena Horánska", "role": "CEO", "source": "company_website"},
+      {"name": "Jana Frýbertová", "role": "Head of Marketing", "source": "company_website"},
+      {"name": "Lucie Geislerová", "role": "Head of International Sales", "source": "company_website"},
+      {"name": "Kristina Seifertová", "role": "Head of Finance", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["nlp", "speech_recognition", "computer_vision", "python"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["AMEC Awards – Best Media Analysis (multiple years)"],
+    "notable_clients": ["ČSOB", "VZP", "Plzeňský Prazdroj"],
+    "customer_count": 3000,
+    "partnerships": ["FIBEP (International Federation of Press Clipping Bureaus)", "AMEC (Association for Measurement and Evaluation of Communication)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Isaac® and the AI Visibility product show proactive AI adoption, but the core media monitoring proposition (aggregating and analyzing 180,000+ sources in real time, especially broadcast and regional CEE media) remains technically hard to replicate cheaply with generic LLMs. However, AI-native competitors could increasingly commoditize the analysis layer over time.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established market with 30+ years of proven demand and 3,000+ paying enterprise clients. Media intelligence is a mandatory function for PR, corporate comms, and crisis management teams. CEE market dominance with 12 offices provides strong regional moat.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Bootstrapped/organically grown for 30+ years with 500+ employees and 3,000+ clients, indicating strong sustained profitability. No external VC dependency. Czech private company with stable ownership under founder Petr Herian.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Long-established profitable business with dominant CEE market position, proprietary media archive (largest in Central Europe), sticky enterprise contracts, and proactive AI capability development. AGI displacement risk is moderate but offset by deep vertical data and regional market lock-in."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_registry", "linkedin_snippet", "search_snippets"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles", "careers_url"],
+    "needs_review": false,
+    "notes": "Founded 1995 per LinkedIn/RocketReach/BounceWatch snippets; legal entity NEWTON Media, a.s. incorporated 2007 (IČO 28168356). 500+ employees across 12 European offices. 3,000+ clients. No public funding history found – appears bootstrapped. Glassdoor data not confirmed for Prague entity (may be confused with UK-based 'Newton Media Group')."
+  }
+}
