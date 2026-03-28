@@ -1,0 +1,120 @@
+{
+  "id": "actum",
+  "name": "Actum Digital",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Digital transformation consulting and implementation partner leveraging AI, data, and enterprise technology",
+    "description_long": "ACTUM Digital is one of Europe's largest independent digital agencies, delivering end-to-end services for managing experiences, commerce, business processes, content and data at scale. Founded in 1996, the company combines AI implementation, digital commerce, experience design, and data transformation across energy, e-commerce, manufacturing, and finance sectors. Partners with Sitecore, Kentico, Microsoft, Salesforce, SAP, Adobe, BigCommerce, AWS, and more. Their 'AI Monstera' initiative delivers AI insights and use cases to business audiences.",
+    "tagline": "Your digital future. Powered by AI",
+    "website": "https://www.actumdigital.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "data_engineering", "generative_ai"],
+    "industries_served": ["finance", "retail", "manufacturing", "energy", "ecommerce"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1996,
+    "founders": [],
+    "origin_story": "Founded in Prague in 1996 as a digital agency; grown over 29 years into one of Europe's largest independent digital agencies with offices across Europe and India",
+    "key_milestones": [
+      {"year": 1996, "event": "Founded in Prague"},
+      {"year": 2024, "event": "Launched AI Monstera, an AI insights initiative for business"},
+      {"year": 2025, "event": "Reported €31M revenue and 500+ professionals across 7 offices"},
+      {"year": 2026, "event": "Certified GitHub Services & Channel Partner"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 7
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Mannheim", "country": "DE", "is_hq": false},
+    {"city": "Düsseldorf", "country": "DE", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 33500000,
+    "revenue_source": "company_website (stated as €31M EUR)",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš (first name only visible)", "role": "Executive Board", "source": "company_website"},
+      {"name": "Jan (first name only visible)", "role": "Executive Board", "source": "company_website"},
+      {"name": "Adam (first name only visible)", "role": "Executive Board (Finance & Strategy)", "source": "company_website"},
+      {"name": "Alžběta (first name only visible)", "role": "Extended Board (HR & Operations)", "source": "company_website"},
+      {"name": "Kateřina (first name only visible)", "role": "Extended Board (Legal & Compliance)", "source": "company_website"},
+      {"name": "Vadim (first name only visible)", "role": "Extended Board (System Integration)", "source": "company_website"},
+      {"name": "Gianluca (first name only visible)", "role": "Extended Board (International & Cross-border Growth)", "source": "company_website"},
+      {"name": "Iva Jelínková", "role": "Senior Talent Acquisition Partner", "source": "company_website"},
+      {"name": "Paulo Henrique Bortoluci", "role": "Head of Delivery", "source": "linkedin"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.actumdigital.com/careers",
+    "open_roles_count": 3,
+    "open_roles": [
+      {"title": "Marketing Automation Sales Specialist", "department": "sales", "location": "Prague"},
+      {"title": "Salesforce Account Manager", "department": "sales", "location": "Prague"},
+      {"title": "Delivery Lead", "department": "delivery", "location": "Prague"}
+    ],
+    "tech_stack": ["salesforce", "microsoft", "sap", "sitecore", "kentico", "aws", "adobe", "github-copilot", "keboola", "tableau"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Christie's", "METRO AG", "GROHE", "Komerční banka", "innogy", "UniCredit", "Uponor", "La Lorraine", "Conrad Electronic", "Adecco", "Yachting.com"],
+    "customer_count": null,
+    "partnerships": ["Microsoft", "Salesforce", "SAP", "Sitecore", "Kentico", "Kontent.ai", "Adobe", "BigCommerce", "Bloomreach", "AWS", "Optimizely", "GitHub"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "As a consulting and implementation partner, Actum's core value is delivery expertise, change management, and multi-vendor integration — not proprietary AI IP. AI-assisted development tools (GitHub Copilot, etc.) could reduce headcount in delivery roles over time, but deep client relationships and complex multi-system integrations provide a meaningful moat.",
+    "market_risk": "low",
+    "market_risk_rationale": "Digital transformation consulting is a large, established and growing market with strong enterprise demand. Actum has 100+ enterprise clients including Christie's, METRO AG, and UniCredit, and €31M annual revenue, demonstrating clear product-market fit.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Bootstrapped and profitable since 1996 with €31M in revenue and 7 offices; no dependency on VC funding or external capital for operations.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "A 29-year-old independent digital agency with €31M revenue, 500+ professionals, established enterprise client base, and deep multi-vendor technology partnerships has a strong, resilient business model. Near-term AI disruption risk is mitigated by client lock-in and service breadth."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["glassdoor_rating", "founders", "leadership_full_names", "exact_employee_count", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "Leadership first names visible on website but surnames not scraped. Revenue of €31M stated on homepage. LinkedIn shows ~259 employees but company states '500+ professionals' which may include contractors across 7 offices."
+  }
+}
