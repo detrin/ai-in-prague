@@ -2656,8 +2656,8 @@
     "name": "Sustainly",
     "category": "company",
     "source": "cnaip",
-    "cnaip_url": null,
-    "status": "error"
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/sustainly",
+    "status": "done"
   },
   {
     "id": "swehq",

@@ -1,0 +1,103 @@
+{
+  "id": "sustainly",
+  "name": "Sustainly",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "B2B SaaS platform for ESG reporting and sustainability management targeting European SMEs",
+    "description_long": "Sustainly is a web-based sustainability management tool (B2B SaaS) for European small and medium-sized enterprises. It addresses growing ESG reporting requirements driven by EU regulations (CSRD, VSME, GRI), stakeholder expectations, and climate obligations. Core features include OCR, AI, and NLG to centralise sustainability reporting, automated GHG Protocol Scope 1 & 2 carbon accounting, TCFD-aligned physical risk assessment, and strategic ESG analysis. Available in English, German, Spanish, Czech, and Slovak.",
+    "tagline": "Your partner for transparent ESG and carbon reporting",
+    "website": "https://sustainly.tech",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/sustainly"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "document_processing", "automation"],
+    "industries_served": ["finance", "construction", "agriculture", "manufacturing", "real_estate"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Peter Špirec", "Kasra Parhun"],
+    "origin_story": "Founded by Peter Špirec (ESG/sustainable finance background, Czech Banking Association) and Kasra Parhun (full-stack engineer) to pragmatically simplify ESG compliance for SMEs facing EU regulatory pressure.",
+    "key_milestones": []
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Ostrava", "country": "CZ", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "usage_based"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Peter Špirec", "role": "CEO", "source": "company_website"},
+      {"name": "Kasra Parhun", "role": "CTO", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["next.js", "typescript", "postgresql", "drizzle", "n8n"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core value lies in automating compliance with specific EU regulatory frameworks (VSME, GRI, CSRD, GHG Protocol). LLMs could generate ESG reports, but Sustainly's differentiation is in structured data collection, regulatory template mapping, and audit-ready output—providing some moat beyond pure text generation.",
+    "market_risk": "low",
+    "market_risk_rationale": "EU regulations (CSRD, VSME) create mandatory, non-discretionary demand for SME ESG reporting. Market is growing and real, with regulatory deadlines creating urgency for tens of thousands of SMEs across Europe.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Very early-stage startup with only 2 founders, no publicly known external funding, and a usage-based per-report revenue model that may limit near-term runway. Competing in a space attracting well-funded SaaS players.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Despite a real and growing regulatory-driven market, Sustainly is a micro-team with no known funding in a competitive ESG SaaS landscape. High execution and funding risk outweigh favorable market tailwinds at this stage."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor"],
+    "needs_review": false,
+    "notes": "HQ is in Ostrava, not Prague, but Prague office is listed. Website at sustainly.tech (not sustainly.com which is an unrelated Australian sustainability blog). Very early-stage startup, blog posts from late 2025/early 2026. Pricing: free tier + €200/report (carbon) + €300/report (ESG) + custom enterprise."
+  }
+}
