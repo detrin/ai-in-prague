@@ -1,0 +1,117 @@
+{
+  "id": "rapidsos",
+  "name": "RapidSOS",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Leading public safety AI company providing mission-critical intelligence for first responders",
+    "description_long": "RapidSOS is the leading public safety AI company that unlocks mission-critical intelligence for first responders and security teams, enabling faster, smarter and more accurate emergency response. Real-time data from the world's largest safety network of 700M+ devices, 200+ global enterprises, and 23,000+ federal, state and local agencies fuels the RapidSOS HARMONY AI engine. The platform has supported over one billion emergencies globally. Products include RapidSOS HARMONY AI (purpose-built AI for public safety), UNITE, IamResponding, eDispatches, Northern911 (acquired), and Total Response.",
+    "tagline": "Mission-Critical Intelligence for Public Safety",
+    "website": "https://rapidsos.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["automation", "nlp", "ml_ops"],
+    "industries_served": ["public safety", "healthcare", "logistics", "security", "transportation"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2012,
+    "founders": ["Michael Martin", "Nicholas Horelik"],
+    "origin_story": "Co-founded in 2012 in New York by Michael Martin (CEO) and Nicholas Horelik after Martin recognized critical data gaps in 911 emergency response infrastructure. Built the intelligent safety platform to connect device data to first responders.",
+    "key_milestones": [
+      {"year": 2012, "event": "Founded in New York City"},
+      {"year": 2014, "event": "First funding round"},
+      {"year": 2021, "event": "Raised $85M Series C led by Insight Partners; platform in use at 4,800+ emergency communications centers"},
+      {"year": 2024, "event": "Closed $150M financing round with BlackRock as lead; presence expanded to 15,000+ first responder agencies on four continents"},
+      {"year": 2025, "event": "Acquired Northern911; raised $100M Series E led by Apax Digital Funds; crossed 1 billion emergencies supported; achieved unicorn status"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": 293,
+    "employee_source": "tracxn",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "New York", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 508000000,
+    "funding_rounds": [
+      {"date": "2021-01", "type": "Series C", "amount_usd": 85000000, "lead_investor": "Insight Partners"},
+      {"date": "2024-03", "type": "Series D", "amount_usd": 150000000, "lead_investor": "BlackRock"},
+      {"date": "2025-11", "type": "Series E", "amount_usd": 100000000, "lead_investor": "Apax Digital Funds"}
+    ],
+    "investors": ["Highland Capital Partners", "Insight Partners", "BlackRock", "Apax Digital Funds", "NightDragon", "BAM Elevate", "Acrew Capital", "Balyasny Asset Management"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Michael Martin", "role": "CEO & Co-founder", "source": "company_website"},
+      {"name": "Nicholas Horelik", "role": "Co-founder", "source": "tracxn"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://rapidsos.com/careers/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Software Engineer II, AI", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Software Engineer, AI", "department": "engineering", "location": "Czech Republic (Remote)"},
+      {"title": "Regional Account Executive, Northeast", "department": "sales", "location": "United States"}
+    ],
+    "tech_stack": ["python", "llm", "aws"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": 3.8,
+    "review_count": 68,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-RapidSOS-EI_IE948983.11,19.htm"
+  },
+
+  "recognition": {
+    "awards": ["Unicorn status (Nov 2025)", "Inc. Emergency Software Company of the Year (2025)"],
+    "notable_clients": null,
+    "customer_count": null,
+    "partnerships": ["Google (Android Emergency Video)", "200+ global enterprises", "23,000+ first responder agencies"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "RapidSOS's core HARMONY AI engine is built on proprietary real-time data from 700M+ connected devices and 23,000+ agencies—a significant data moat. However, the AI assistant and NLP transcription layers could face commoditization pressure from foundation models. The critical infrastructure integrations and regulatory environment provide meaningful lock-in.",
+    "market_risk": "low",
+    "market_risk_rationale": "Public safety AI addresses a critical, well-funded government and enterprise market with proven demand. The platform has supported 1B+ emergencies and is embedded in 23,000+ agencies globally, demonstrating strong product-market fit in a resilient sector.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-funded with $508M raised across 20 rounds including a Series E in Nov 2025, backed by tier-1 investors (BlackRock, Insight Partners, Apax Digital Funds). Achieved unicorn status in 2025 indicating strong investor confidence.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong proprietary data moat from the world's largest connected safety network, deep government/enterprise integrations, unicorn valuation, and a critical infrastructure role in public safety make RapidSOS resilient to both AGI commoditization and market shifts."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "tracxn", "prnewswire", "glassdoor", "duckduckgo_snippets", "greenhouse_jobs"],
+    "fields_missing": ["revenue_estimate_usd", "open_roles_count", "recommend_pct", "notable_clients", "customer_count"],
+    "needs_review": false,
+    "notes": "RapidSOS is a US-based company (New York HQ) with an engineering presence in Prague, Czech Republic. Appears in Prague AI catalog due to Czech Republic AI engineering team. Company became a unicorn in Nov 2025. Total funding of $508M per Tracxn; RapidSOS blog states $450M+ (may exclude earlier seed rounds or debt). Prague office confirmed via LinkedIn and Glassdoor job postings for AI engineers."
+  }
+}
