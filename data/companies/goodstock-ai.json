@@ -1,0 +1,102 @@
+{
+  "id": "goodstock-ai",
+  "name": "Goodstock.ai",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered inventory management and demand forecasting for e-commerce and retail",
+    "description_long": "GoodstockAI (Goodstock Solutions s.r.o.) provides AI-driven inventory planning software for retailers, e-commerce companies, wholesalers, and manufacturers. The platform uses machine learning, mathematical models, and neural networks to predict demand, automate purchase order proposals, optimize stock levels, and plan promotions. Key capabilities include sales forecasting, automated replenishment, promotion planning, stock optimization, and reporting/BI. Claims 30% inventory reduction, 99%+ product availability, and 20 hours/week time savings.",
+    "tagline": "Stop guessing. Get AI-powered demand predictions, automate purchase orders, and reduce inventory by 30%.",
+    "website": "https://www.goodstock.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["ml_ops", "recommendation", "data_engineering"],
+    "industries_served": ["retail", "e-commerce", "wholesale", "manufacturing"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2024,
+    "founders": [],
+    "origin_story": "Founded in Prague, Czech Republic in 2024 by a team claiming 10+ years of inventory management expertise. Targets SME retailers and e-commerce companies with AI-powered demand forecasting as an affordable alternative to enterprise ERP planning modules.",
+    "key_milestones": [
+      {"year": 2024, "event": "Founded as Goodstock Solutions s.r.o. in Prague 7, Czech Republic"},
+      {"year": 2024, "event": "Launched SaaS platform with multilingual support (English and Czech)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Demand forecasting and inventory optimization is a well-established ML problem that major cloud providers (AWS Forecast, Azure Machine Learning), ERP vendors (SAP IBP, Oracle), and specialized platforms (Blue Yonder, Relex) already solve at scale. GoodstockAI shows no proprietary data moat or differentiated AI architecture; the core value proposition is easily replicable by larger platforms as AI capabilities commoditize.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Inventory planning for SME retailers is a real and sizable market, but Goodstock.ai faces intense competition from established ERP modules, Excel-based workflows, and better-funded vertical SaaS players. Pricing ($199/month starting) targets the SME segment which has higher churn and lower willingness to pay than enterprise.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No external funding identified. Founded in 2024 with no visible investor backing, no public fundraising announcement, and no known revenue. Very early-stage startup with uncertain runway.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Combination of high AGI displacement risk (commoditizing ML use case), competitive market with well-funded incumbents, and no known external funding makes this a high-risk profile. The team's claimed 10+ years of domain expertise provides some moat, but insufficient to offset technology and capital risks."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founders", "employees_exact", "funding_total_usd", "leadership", "glassdoor_rating", "open_roles"],
+    "needs_review": false,
+    "notes": "Founded 2024. Legal entity: Goodstock Solutions s.r.o., registered at Plynarni 1032/29, 170 00 Prague 7, Czech Republic. No CNAIP entry found. No external funding, Glassdoor, or LinkedIn data available. Onboarding page references '10+ years of inventory management expertise' suggesting experienced founders, but no names publicly listed on the website."
+  }
+}
