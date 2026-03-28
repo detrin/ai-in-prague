@@ -1,0 +1,129 @@
+{
+  "id": "flowpay",
+  "name": "Flowpay",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered working capital financing platform for SMEs, offering up to €100K in minutes with zero paperwork",
+    "description_long": "Flowpay is a Czech fintech startup founded in 2021 that provides flexible working capital loans of up to €100,000 to small and medium-sized businesses. The platform uses AI to analyze real-time business data — including POS, e-commerce, accounting, and banking data — to instantly generate personalised financing offers. The entire process is 100% online and paperwork-free. Flowpay operates in Czech Republic, Slovakia, and the Netherlands, and has built the myFlowpay app for loan management, cash flow forecasting, and repayment tracking. In 2025, the company raised a €30M debt facility from Fasanara Capital to scale its SME lending operations.",
+    "tagline": "Flexible Financing up to €100K for SMEs, Apply in Minutes Online",
+    "website": "https://www.flowpay.io",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["ml_ops", "data_engineering", "automation"],
+    "industries_served": ["fintech", "sme_lending", "embedded_finance"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2021,
+    "founders": ["William Jalloul"],
+    "origin_story": "Founded in 2021 by William Jalloul with a team of experienced professionals from Deloitte, Zeta Global, and eBay, Flowpay was built to solve the financing gap faced by SMEs who are underserved by traditional banks. The platform uses real-time AI-driven analysis of business data to approve loans faster and more accurately than conventional credit scoring.",
+    "key_milestones": [
+      {"year": 2021, "event": "Founded in Prague, Czech Republic"},
+      {"year": 2024, "event": "Raised €2.1M seed round for expansion"},
+      {"year": 2025, "event": "Raised €30M debt facility from Fasanara Capital to fund SME lending and embedded finance"},
+      {"year": 2025, "event": "EU-funded myFlowpay 2.0 platform development (project CZ.31.4.0/0.0/0.0/23_069/0007934)"},
+      {"year": 2025, "event": "Expanded operations to Netherlands (CZ, SK, NL markets)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "inferred from company website team page",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 2310000,
+    "funding_rounds": [
+      {
+        "date": "2024-03",
+        "round": "Seed",
+        "amount_usd": 2310000,
+        "investors": []
+      },
+      {
+        "date": "2025-03",
+        "round": "Debt Facility",
+        "amount_usd": 32700000,
+        "investors": ["Fasanara Capital"],
+        "notes": "€30M debt/lending facility from Fasanara Capital to fund SME loan book, not equity"
+      }
+    ],
+    "investors": ["Fasanara Capital"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "William Jalloul", "role": "Founder & CEO", "source": "flowpay.io/about-us"},
+      {"name": "Jiří Ruml", "role": "Head of Operations", "source": "flowpay.io/about-us"},
+      {"name": "Filip Čermák", "role": "Head of Product", "source": "flowpay.io/about-us"},
+      {"name": "Ján Borovský", "role": "Head of IT", "source": "flowpay.io/about-us"},
+      {"name": "David Hanzelka", "role": "Head of Data Science", "source": "flowpay.io/about-us"},
+      {"name": "Jan Dufek", "role": "Head of Risk", "source": "flowpay.io/about-us"},
+      {"name": "Dalibor Šlauf", "role": "Head of Legal", "source": "flowpay.io/about-us"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.flowpay.io/careers",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["ai", "embedded_finance", "open_banking"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "EU-funded myFlowpay 2.0 platform (European Union, project CZ.31.4.0/0.0/0.0/23_069/0007934)"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Fasanara Capital (debt facility partner)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Flowpay's core value is AI-driven credit decisioning using real-time SME business data (POS, accounting, banking). While foundation models are improving at financial analysis, the real moat lies in proprietary data pipelines, regulatory licensing (lending in CZ/SK/NL), and the loan book itself — which are hard to replicate with generic AI. However, the credit scoring AI component could face commoditization pressure as fintech AI tools mature.",
+    "market_risk": "medium",
+    "market_risk_rationale": "SME lending is a large and underserved market across Europe, with real demand validated by customer testimonials and media coverage. However, the space is competitive (traditional banks, neobanks, other fintech lenders like Capchase and YouLend), and Flowpay's geographic footprint (CZ/SK/NL) is currently limited. The embedded finance pivot adds optionality but also execution risk.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "The €30M debt facility from Fasanara Capital (March 2025) gives Flowpay significant runway to grow its loan book and revenue. The €2.1M seed equity provides operational runway. Backed by an institutional fintech investor (Fasanara) signals credibility, though the company remains early-stage with no disclosed revenue figures.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Flowpay has strong backing and is in a real market, but faces competitive pressure in SME fintech lending and operates in a limited number of markets. AI credit decisioning is a genuine differentiator but not an unassailable moat. Medium overall risk reflecting the startup stage and competitive dynamics."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["flowpay.io/homepage", "flowpay.io/about-us", "flowpay.io/careers", "eu-startups.com (headline)", "ain.capital (headline)", "therecursive.com (headline)", "fintechfinance.net (headline)", "businesswire.com (headline)"],
+    "fields_missing": ["glassdoor.rating", "glassdoor.review_count", "glassdoor.glassdoor_url", "size.employees_exact", "financials.revenue_estimate_usd", "careers.open_roles_count", "financials.funding_rounds[0].investors"],
+    "needs_review": false,
+    "notes": "The €30M from Fasanara Capital (March 2025) is a debt/lending facility to fund Flowpay's loan book, not equity. Seed round investors for the €2.1M (March 2024) are not publicly disclosed. Employee count is estimated at 11-50 based on 7 named team members on the website. Company legal name is FLOWPAY s.r.o. (Czech entity). business_model set to 'other' as revenue comes from interest/fees on loans, not SaaS subscription."
+  }
+}
