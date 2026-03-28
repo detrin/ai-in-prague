@@ -1,0 +1,121 @@
+{
+  "id": "huld",
+  "name": "Huld",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Technology and design consultancy with AI & Data, embedded solutions, safety and security, and product design services",
+    "description_long": "Huld (now part of Gofore Group) is a Finnish technology and design company with a Prague office, offering Digital Services & Software, Product Design, Embedded Solutions, and Safety & Security. Their AI & Data practice covers computer vision, data science, OCR, semantic search, safety-critical AI, and autonomous navigation across industrial sectors. Key customers include ABB, Airbus, ESA, KONE, Metso, Valmet, and Wärtsilä.",
+    "tagline": "Bold Ideas with a Human Touch",
+    "website": "https://huld.io",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["cv", "data_engineering", "automation"],
+    "industries_served": ["manufacturing", "defence", "space", "railway", "medical", "marine", "energy"],
+    "company_type": "acquired",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2010,
+    "founders": [],
+    "origin_story": "Founded in 2010 in Finland as a technology and design company focused on intelligent industry sectors. Acquired by Gofore Plc in September 2025 for ~€41M; brand merger into Gofore effective April 2026.",
+    "key_milestones": [
+      {"year": 2010, "event": "Founded in Finland"},
+      {"year": 2025, "event": "Gofore acquires Huld for ~€41M (enterprise value €54.5M), expanding into Intelligent Industry and Security sectors"},
+      {"year": 2026, "event": "Huld brand merges into Gofore (April 2026)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": 404,
+    "employee_source": "gofore_acquisition_announcement",
+    "office_count": 11
+  },
+
+  "offices": [
+    {"city": "Espoo", "country": "FI", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Tampere", "country": "FI", "is_hq": false},
+    {"city": "Oulu", "country": "FI", "is_hq": false},
+    {"city": "Turku", "country": "FI", "is_hq": false},
+    {"city": "Vaasa", "country": "FI", "is_hq": false},
+    {"city": "Jyväskylä", "country": "FI", "is_hq": false},
+    {"city": "Hyvinkää", "country": "FI", "is_hq": false},
+    {"city": "Seinäjoki", "country": "FI", "is_hq": false},
+    {"city": "Ylivieska", "country": "FI", "is_hq": false},
+    {"city": "Kokkola", "country": "FI", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Gofore Plc",
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2025-09", "type": "Acquisition", "amount_usd": 45000000, "lead_investor": "Gofore Plc"}
+    ],
+    "investors": ["Gofore Plc"],
+    "revenue_estimate_usd": 42000000,
+    "revenue_source": "gofore_acquisition_announcement (€38.2M in 2024, converted at ~1.1 USD/EUR)",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Juha Virtanen", "role": "CEO", "source": "company_website"},
+      {"name": "Susanna Pirinen", "role": "CPO", "source": "company_website"},
+      {"name": "Lassi Sutela", "role": "CTO", "source": "company_website"},
+      {"name": "Timo Korhonen", "role": "CFO", "source": "company_website"},
+      {"name": "Mika Kiljala", "role": "CEO (at time of acquisition, 2025)", "source": "gofore_acquisition_announcement"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://huld.io/careers/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "java", "dotnet", "javascript", "typescript", "react", "azure", "aws", "sql", "c", "cpp", "node.js"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": 3.8,
+    "review_count": 29,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Huld-Reviews-E4155987.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["ABB", "AGCO-Valtra", "Airbus", "ESA", "KONE", "Metso", "Valmet", "Wärtsilä"],
+    "customer_count": null,
+    "partnerships": ["Gofore Plc (parent company)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Huld's core value lies in deep domain expertise for safety-critical industries (space, defence, medical devices, functional safety certification). These require certified engineers, regulatory compliance, and hands-on hardware integration — areas where AI cannot substitute for certified human experts in the near term.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established 15-year company with blue-chip industrial clients (KONE, Airbus, ESA, ABB, Wärtsilä) and €38.2M revenue in 2024. Serves multiple growing sectors including space technology and defence, both of which are expanding in Europe.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Acquired by Gofore Plc (publicly traded on Nasdaq Helsinki) in September 2025. Backed by a large parent company with stable financial footing; funding risk does not apply.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Deep engineering moat in regulated, safety-critical industries combined with acquisition by a publicly traded parent eliminates funding risk. AGI is unlikely to displace certified safety engineers and embedded systems specialists in the near term."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "gofore_acquisition_announcement", "glassdoor_snippets", "leadiq_snippets"],
+    "fields_missing": ["founders", "open_roles_count", "recommend_pct"],
+    "needs_review": false,
+    "notes": "Huld is a Finnish company (HQ Espoo) with a Prague office. It was acquired by Gofore Plc in September 2025 and the brand merges into Gofore in April 2026. Founded year: Gofore press release says 2010; PitchBook says 2001 — used 2010 from official acquisition announcement. Revenue converted from EUR at approximate rate."
+  }
+}
