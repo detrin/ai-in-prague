@@ -1,0 +1,146 @@
+{
+  "id": "y-soft",
+  "name": "Y Soft",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "Enterprise print management, test automation, and employee experience platform",
+    "description_long": "Y Soft Corporation is a global technology company founded in Brno, Czech Republic in 2000. Its core product SAFEQ is a next-generation printing and scanning platform used by 31,000+ organizations across 190+ countries, including 38% of the Global Fortune 500. Beyond print management, Y Soft builds AIVA (AI-assisted automated software and device testing), Clerbo (digital employee experience platform), in-house manufactured hardware (card readers, edge devices), and BE3D (3D printing solution). The company operates a venture arm (Y Soft Ventures) that invests in innovative technology startups.",
+    "tagline": "Building Better Ways of Working",
+    "website": "https://www.ysoft.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["automation", "document_processing", "ml_ops"],
+    "industries_served": ["enterprise_it", "education", "healthcare", "finance", "manufacturing", "government"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2000,
+    "founders": ["Václav Muchna", "Martin de Martini"],
+    "origin_story": "Founded in 2000 as part of a student project at Masaryk University in Brno, Czech Republic. After developing the first card-based print authentication system, Y Soft found its market niche in secure print management.",
+    "key_milestones": [
+      {"year": 2000, "event": "Founded at Masaryk University, Brno; developed first card-authenticated print access system"},
+      {"year": 2004, "event": "Launched SmartQ (predecessor to YSoft SAFEQ)"},
+      {"year": 2008, "event": "Established offices in Japan and Israel; acquired XpertImage, opening key US office in Dallas"},
+      {"year": 2013, "event": "Set up Y Soft Ventures venture capital arm; won CzechInvest Investor of the Year"},
+      {"year": 2016, "event": "Launched YSoft SAFEQ 6 as a full platform with document capture and 3D print management"},
+      {"year": 2019, "event": "Outlined Cloud First strategy; launched AIVA robotic testing from YSoft Labs"},
+      {"year": 2022, "event": "Acquired EveryonePrint (Denmark), a cloud print software provider; launched SAFEQ Cloud and AIVA"},
+      {"year": 2023, "event": "Rebranded YSoft SAFEQ Cloud; received ISO 27001:2013 re-certification; won 2023 HPWS Agility Award"},
+      {"year": 2024, "event": "Secured €30 million venture debt from European Investment Bank (EIB) for R&D; ISO 9001:2015 certification for manufacturing"},
+      {"year": 2025, "event": "Celebrated 25th anniversary; launched SAFEQ Cloud Pro and SAFEQ Cloud Breeze portfolio"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": 383,
+    "employee_source": "linkedin",
+    "office_count": 14
+  },
+
+  "offices": [
+    {"city": "Brno", "country": "CZ", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Ostrava", "country": "CZ", "is_hq": false},
+    {"city": "Paris", "country": "FR", "is_hq": false},
+    {"city": "Budapest", "country": "HU", "is_hq": false},
+    {"city": "Staines", "country": "GB", "is_hq": false},
+    {"city": "Copenhagen", "country": "DK", "is_hq": false},
+    {"city": "Tel Aviv", "country": "IL", "is_hq": false},
+    {"city": "Dubai", "country": "AE", "is_hq": false},
+    {"city": "Hurst, TX", "country": "US", "is_hq": false},
+    {"city": "Sydney", "country": "AU", "is_hq": false},
+    {"city": "Shanghai", "country": "CN", "is_hq": false},
+    {"city": "Kobe", "country": "JP", "is_hq": false},
+    {"city": "Singapore", "country": "SG", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2024-11", "type": "Venture Debt", "amount_usd": 32700000, "lead_investor": "European Investment Bank (EIB)"}
+    ],
+    "investors": ["European Investment Bank (EIB)"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Václav Muchna", "role": "Global CEO & Chairman of the Board", "source": "company_website"},
+      {"name": "Martin de Martini", "role": "Chief Information Officer (CIO)", "source": "company_website"},
+      {"name": "Tavs Dalaa", "role": "Chief Technology Officer (CTO)", "source": "company_website"},
+      {"name": "John Collins", "role": "Chief Financial Officer (CFO)", "source": "company_website"},
+      {"name": "Marcel Fejtek", "role": "Chief Operating Officer (COO)", "source": "company_website"},
+      {"name": "Wouter Koelewijn", "role": "Chief Product Officer (CPO)", "source": "company_website"},
+      {"name": "Adam Bishop", "role": "Chief Marketing Officer (CMO)", "source": "company_website"},
+      {"name": "Jaroslav Bělehrad", "role": "Head of HR", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Václav Muchna", "role": "Co-founder", "source": "company_website"},
+      {"name": "Martin de Martini", "role": "Co-founder", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.ysoft.com/careers",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Legal Counsel", "department": "legal", "location": "Brno / Prague"}
+    ],
+    "tech_stack": ["saas", "cloud", "azure", "ci_cd"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Y-Soft-Reviews-E428936.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "2023 HPWS Agility Award",
+      "2023 HP Developer Partner Conference Best MPS Innovation Award",
+      "2022 MPSA Leadership Award",
+      "2022 HP Developer Partner Conference Cloud Print Management Solution of the Year",
+      "2021 HP Developer Partner Conference PrintIT Award for Mobility",
+      "CzechInvest Investor of the Year 2013 (IT and Shared Services category)"
+    ],
+    "notable_clients": ["Global Fortune 500 companies (38%)"],
+    "customer_count": 31000,
+    "partnerships": ["Microsoft", "HP", "Epson", "Brother", "Mopria Alliance"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Y Soft's SAFEQ print management has deep hardware integrations and enterprise deployment lock-in that is hard to replicate with generic AI. However, AIVA's test automation capability faces commoditization risk from AI-native testing tools (e.g., GitHub Copilot, AI-powered QA platforms). The hardware manufacturing business provides a moat, but cloud print management increasingly faces competition from Microsoft/Google native solutions.",
+    "market_risk": "low",
+    "market_risk_rationale": "Print management is a mature but stable enterprise market with 31,000+ paying customers in 190+ countries and 38% of Global Fortune 500. The diversification into AIVA (test automation), Clerbo (HR tech), and cloud-first strategy reduces single-market dependency. Long-established customer relationships (25 years) provide resilience.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Y Soft is 25 years old, bootstrapped/founder-owned, with €30 million EIB venture debt secured in 2024 for R&D, suggesting creditworthiness. As a profitable (presumed) enterprise software company with 31,000+ customers, revenue risk is low.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Despite some commoditization risk in test automation, Y Soft's 25-year history, hardware manufacturing moat, deep enterprise integrations, large global customer base, and EIB-backed R&D investment make it a low-risk employer for technologists in the Czech market."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["glassdoor_rating", "revenue_estimate_usd", "funding_total_usd", "open_roles_count"],
+    "needs_review": false,
+    "notes": "HQ is in Brno, Czech Republic (not Prague), but Y Soft maintains a Prague office. Founded 2000 as student project at Masaryk University. €30M EIB venture debt converted from EUR at ~1.09 USD/EUR exchange rate. Employee count of 383 from LinkedIn. Company has a ventures arm (Y Soft Ventures) that has made notable investments/exits (e.g., Sewio, NenoVision, VRgineers)."
+  }
+}
