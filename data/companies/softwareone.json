@@ -1,0 +1,125 @@
+{
+  "id": "softwareone",
+  "name": "SoftwareOne",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Global enterprise software and cloud solutions provider helping organizations build, buy, and manage software in the cloud",
+    "description_long": "SoftwareOne is a leading global provider of end-to-end software and cloud technology solutions. The company helps clients migrate and modernize workloads and applications while navigating and optimizing software and cloud changes. Operating in more than 70 countries with approximately 13,000 employees (following the 2025 acquisition of Crayon), SoftwareOne serves over 65,000 customers ranging from large enterprises to SMEs and public sector organizations. The company is a top Microsoft and AWS partner and has been expanding its generative AI and agentic AI service offerings including the Intelligence Fabric methodology and multi-agent systems.",
+    "tagline": "Expert enterprise software and cloud advice",
+    "website": "https://www.softwareone.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["generative_ai", "automation", "ml_ops"],
+    "industries_served": ["finance", "manufacturing", "retail", "public_sector", "technology"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1984,
+    "founders": ["Patrick Winter", "Daniel von Stockar", "René Gilli"],
+    "origin_story": "Founded in 1984 by Patrick Winter as Winter Software and Information Company in Switzerland. Merged with Microware (founded 1992 by René Gilli in Stans) and later acquired US-based SoftwareONE in 2006, adopting that name. SoftwareONE Holding AG formed in 2000 and listed on SIX Swiss Exchange in 2019.",
+    "key_milestones": [
+      {"year": 1984, "event": "Founded by Patrick Winter as Winter Software and Information Company"},
+      {"year": 1992, "event": "René Gilli founds Microware in Stans, Switzerland"},
+      {"year": 2000, "event": "SoftwareONE Holding AG established in Stans, Switzerland"},
+      {"year": 2006, "event": "Acquired US-based SoftwareONE and adopted the name"},
+      {"year": 2019, "event": "IPO on SIX Swiss Exchange (ticker: SWON)"},
+      {"year": 2025, "event": "Completed acquisition of Crayon Group, creating ~13,000-employee entity with CHF 1.6B revenue"},
+      {"year": 2025, "event": "Achieved AWS Generative AI Services Competency; Melissa Mulholland and Raphael Erb appointed Co-CEOs"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 13000,
+    "employee_source": "company_website",
+    "office_count": 70
+  },
+
+  "offices": [
+    {"city": "Stans", "country": "CH", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "SWON",
+    "stock_exchange": "SIX Swiss Exchange",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 1100000000,
+    "revenue_source": "annual_report_2024",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Melissa Mulholland", "role": "Co-CEO", "source": "company_website"},
+      {"name": "Raphael Erb", "role": "Co-CEO", "source": "company_website"},
+      {"name": "Hanspeter Schraner", "role": "CFO", "source": "company_website"},
+      {"name": "Oliver Berchtold", "role": "COO", "source": "company_website"},
+      {"name": "Jan Knyttl", "role": "Country Leader Czech Republic", "source": "search_snippet"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://careers.softwareone.com",
+    "open_roles_count": 11,
+    "open_roles": [
+      {"title": "Junior Sales Operations", "department": "sales", "location": "Prague"},
+      {"title": "Sales Operations", "department": "sales", "location": "Prague"},
+      {"title": "Senior Project Manager", "department": "consulting", "location": "Prague"},
+      {"title": "Cloud Pre-Sales Consultant (Azure)", "department": "pre-sales", "location": "Prague"}
+    ],
+    "tech_stack": ["azure", "aws", "gcp", "microsoft365", "python"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": 3.8,
+    "review_count": 1322,
+    "recommend_pct": 67,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-SoftwareOne-EI_IE304435.11,22.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Microsoft Frontier Partner Badge (AI-first partner designation)",
+      "AWS Generative AI Services Competency 2025",
+      "Microsoft Partner of the Year – Secure Productivity Category 2025",
+      "AWS Partner Awards – multiple wins 2025",
+      "Flexera Partner of the Year 2022"
+    ],
+    "notable_clients": null,
+    "customer_count": 65000,
+    "partnerships": ["Microsoft", "AWS", "Google Cloud", "Adobe", "Oracle", "Citrix", "VMware", "Red Hat"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "SoftwareOne operates as an enterprise software and cloud advisor rather than building AI products itself. Its value lies in managed services, software licensing, cloud migration, and vendor-neutral advisory — capabilities that require human expertise, relationship management, and regulatory knowledge that foundation models cannot easily displace.",
+    "market_risk": "low",
+    "market_risk_rationale": "SoftwareOne serves 65,000+ clients across 70+ countries in the well-established enterprise software and cloud management market. Its strategic positioning as an AI enabler (AWS GenAI Competency, Microsoft Frontier Partner) and the 2025 Crayon acquisition broaden its total addressable market and revenue base to CHF ~1.6B.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Publicly traded on SIX Swiss Exchange (SWON) since 2019 with CHF 1.017B in revenue in 2024 and 22% EBITDA margin. Financial stability is well established; funding risk is not applicable for a profitable public company.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Large, publicly traded, globally diversified enterprise technology company with deep partnerships across the major hyperscalers, significant revenue, and a growing AI advisory practice. Very low overall risk for job seekers in the Prague office."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "search_snippets", "annual_report_2024", "glassdoor", "linkedin"],
+    "fields_missing": ["funding_total_usd", "notable_clients"],
+    "needs_review": false,
+    "notes": "Prague office at Vyskočilova 1410/1, Praha 4 with ~53 local employees. Global HQ in Stans, Switzerland. Employee count ~13,000 after July 2025 acquisition of Crayon Group. Revenue ~CHF 1.017B in 2024, CHF ~1.6B post-merger. Listed on SIX Swiss Exchange under SWON."
+  }
+}
