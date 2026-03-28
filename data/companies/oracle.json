@@ -1,0 +1,124 @@
+{
+  "id": "oracle",
+  "name": "Oracle",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:20:00Z",
+
+  "overview": {
+    "description": "Global enterprise technology company offering cloud infrastructure, databases, and AI-powered applications",
+    "description_long": "Oracle Corporation is one of the world's largest enterprise software companies, delivering cloud infrastructure (OCI), autonomous databases, and a full suite of AI-powered enterprise applications. Oracle's AI strategy includes native AI embedded across Fusion Cloud applications, the Oracle AI Data Platform, AI Vector Search in Oracle Database 23ai, and access to third-party AI models (Google Gemini, Meta Llama, OpenAI, xAI Grok) through its cloud marketplace. The company operates a Czech Republic office (Prague) serving Central European enterprise customers across sales, consulting, and support.",
+    "tagline": "Help people see data in new ways, discover insights, unlock endless possibilities",
+    "website": "https://www.oracle.com/cz/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["ml_ops", "data_engineering", "automation", "nlp", "generative_ai"],
+    "industries_served": ["finance", "healthcare", "retail", "manufacturing", "public_sector", "telecommunications", "hospitality"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1977,
+    "founders": ["Larry Ellison", "Bob Miner", "Ed Oates"],
+    "origin_story": "Founded as Software Development Laboratories in Santa Clara, California, originally to build the Oracle relational database. The company pioneered enterprise database technology and has grown through major acquisitions into a full-stack cloud and enterprise software provider.",
+    "key_milestones": [
+      {"year": 1977, "event": "Founded as Software Development Laboratories in Santa Clara, CA"},
+      {"year": 1982, "event": "Renamed to Oracle Corporation"},
+      {"year": 1986, "event": "IPO on NASDAQ"},
+      {"year": 2005, "event": "Acquired PeopleSoft"},
+      {"year": 2010, "event": "Acquired Sun Microsystems"},
+      {"year": 2016, "event": "Acquired NetSuite for US$9.3 billion"},
+      {"year": 2018, "event": "Launched Oracle Autonomous Database and Gen 2 Cloud"},
+      {"year": 2022, "event": "Acquired Cerner (healthcare EHR) for US$28.3 billion"},
+      {"year": 2024, "event": "Released Oracle Database 23ai with AI Vector Search"},
+      {"year": 2025, "event": "Unveiled Oracle AI Data Platform; announced 1.2B-watt AI data center in Texas with 500,000 NVIDIA GPUs"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 162000,
+    "employee_source": "company_website",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Austin", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Dublin", "country": "IE", "is_hq": false},
+    {"city": "Bangalore", "country": "IN", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "ORCL",
+    "stock_exchange": "NYSE",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 57400000000,
+    "revenue_source": "company_website (FY2025)",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Larry Ellison", "role": "Executive Chairman & CTO", "source": "wikipedia"},
+      {"name": "Safra Catz", "role": "Executive Vice Chair", "source": "wikipedia"},
+      {"name": "Clay Magouyrk", "role": "Co-CEO", "source": "wikipedia"},
+      {"name": "Mike Sicilia", "role": "Co-CEO", "source": "wikipedia"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://careers.oracle.com/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["java", "python", "sql", "kubernetes", "terraform", "oracle_cloud"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Oracle-Reviews-E1737.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "S&P 100 component",
+      "S&P 500 component",
+      "Forbes Global 2000 #66 (2025)",
+      "Top 20 companies by market cap globally"
+    ],
+    "notable_clients": ["AMD", "ByteDance", "Meta", "NVIDIA", "OpenAI", "Temu", "TikTok", "Uber", "xAI", "DHL", "NetSuite customers (43,000+)"],
+    "customer_count": null,
+    "partnerships": ["NVIDIA", "Google Cloud", "Microsoft Azure", "AWS", "Red Bull Racing (F1)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Oracle operates at the infrastructure layer (cloud, databases, enterprise ERP) that foundation models depend on rather than compete with. Proprietary Autonomous Database technology, Exadata hardware, and deep enterprise integrations create durable moats. Oracle is actively embedding AI into its own products rather than being threatened by it.",
+    "market_risk": "low",
+    "market_risk_rationale": "Oracle serves a vast, well-established enterprise market with $57B in annual revenue. Multi-decade customer lock-in through Oracle Database, ERP, and cloud contracts. Cloud infrastructure market is large and growing, and Oracle's hyperscaler positioning (OCI) is strengthened by AI workload demand.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Oracle is a publicly traded company on the NYSE with $57.4B in revenue and $12.44B net income in FY2025. No funding risk applies.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Oracle is a 45+ year old global enterprise with deep database and cloud infrastructure moats, $57B in annual revenue, 162,000 employees, and a clear AI strategy embedding AI across its entire product portfolio. The Prague office represents a regional sales and consulting presence for a highly stable enterprise."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "wikipedia"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "open_roles_count", "office_count", "employees_cz"],
+    "needs_review": false,
+    "notes": "Oracle is a global US-listed enterprise (NYSE: ORCL). The Prague/Czech Republic office is a regional sales, consulting, and support office. Global financial data used; Czech-specific headcount not publicly available. Glassdoor blocked automated access."
+  }
+}
