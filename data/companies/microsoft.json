@@ -1,0 +1,130 @@
+{
+  "id": "microsoft",
+  "name": "Microsoft",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "Global technology enterprise providing cloud (Azure), productivity (Microsoft 365), and AI (Copilot) solutions, with Czech Republic & Slovakia operations headquartered in Prague",
+    "description_long": "Microsoft is one of the world's largest technology companies, delivering cloud infrastructure (Azure), productivity software (Microsoft 365), developer tools (GitHub, VS Code), and AI products (Microsoft Copilot, Azure OpenAI Service). In the Czech Republic, Microsoft operates through its Prague subsidiary covering both CZ and SK markets, focusing on cloud adoption, digital transformation, AI skilling, and public-sector digitalization. Recent Czech Republic programs include AI na úřad (AI for Government), with 10,300 civil servants enrolled in AI training as of December 2025, and a memorandum of cooperation with the Národní knihovna (National Library). Microsoft Czech Republic also focuses on digital sovereignty and cybersecurity for regulated industries.",
+    "tagline": "Empower every person and every organization on the planet to achieve more",
+    "website": "https://www.microsoft.com/cs-cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["generative_ai", "ml_ops", "nlp", "automation", "other"],
+    "industries_served": ["finance", "public_sector", "healthcare", "retail", "manufacturing", "education", "telecommunications"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1975,
+    "founders": ["Bill Gates", "Paul Allen"],
+    "origin_story": "Founded in Albuquerque, New Mexico in 1975 by Bill Gates and Paul Allen to develop software for personal computers. The Czech Republic subsidiary was established in 1992 after the fall of communism, making it one of the first major US tech companies to enter the Czech market.",
+    "key_milestones": [
+      {"year": 1975, "event": "Founded in Albuquerque, NM by Bill Gates and Paul Allen"},
+      {"year": 1986, "event": "IPO on NASDAQ"},
+      {"year": 1992, "event": "Microsoft Czech Republic established in Prague"},
+      {"year": 2014, "event": "Satya Nadella becomes CEO, pivots company to cloud-first, mobile-first"},
+      {"year": 2019, "event": "Partnership with OpenAI, investing $1B"},
+      {"year": 2023, "event": "Extended OpenAI partnership with $10B investment; launched Copilot across product suite"},
+      {"year": 2024, "event": "FY2024 revenue surpasses $245B; Azure AI revenue exceeds $13B annually"},
+      {"year": 2025, "event": "AI na úřad program: 10,300 Czech civil servants enrolled in AI training in partnership with Czech government and Digiskills"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 228000,
+    "employee_source": "company_annual_report",
+    "office_count": 190
+  },
+
+  "offices": [
+    {"city": "Redmond", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Dublin", "country": "IE", "is_hq": false},
+    {"city": "Amsterdam", "country": "NL", "is_hq": false},
+    {"city": "Warsaw", "country": "PL", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "MSFT",
+    "stock_exchange": "NASDAQ",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 245100000000,
+    "revenue_source": "Microsoft FY2024 Annual Report (fiscal year ending June 30, 2024)",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Satya Nadella", "role": "Chairman & CEO (Global)", "source": "company_website"},
+      {"name": "Michal Stachník", "role": "Country Manager, Czech Republic & Slovakia", "source": "news.microsoft.com/cs-cz"},
+      {"name": "Dalibor Kačmář", "role": "Director for Technology and Security (CZ/SK)", "source": "news.microsoft.com/cs-cz"},
+      {"name": "Lenka Nováková", "role": "Sales Director, Large Customers & Partners (CZ/SK)", "source": "news.microsoft.com/cs-cz"},
+      {"name": "Tomáš Mirošník", "role": "Director for Public Administration (CZ/SK)", "source": "news.microsoft.com/cs-cz"},
+      {"name": "Anna Rutkowska", "role": "CFO (CZ/SK)", "source": "news.microsoft.com/cs-cz"},
+      {"name": "Gabriela Holíková", "role": "General Counsel (CZ/SK)", "source": "news.microsoft.com/cs-cz"},
+      {"name": "Andrea Bělková", "role": "HR Director (CZ/SK)", "source": "news.microsoft.com/cs-cz"}
+    ],
+    "notable_people": [
+      {"name": "Bill Gates", "role": "Co-founder (departed board 2020)", "source": "company_website"},
+      {"name": "Paul Allen", "role": "Co-founder (deceased 2018)", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://careers.microsoft.com/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["azure", "typescript", "python", "c#", ".net", "rust", "kubernetes", "react"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": 4.3,
+    "review_count": null,
+    "recommend_pct": 88,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Microsoft-Reviews-E1651.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Fortune 500 #13 (2024)",
+      "Forbes Global 2000 #3 (2024)",
+      "Gartner Magic Quadrant Leader (multiple categories)",
+      "Named one of the world's most admired companies by Fortune (2024)"
+    ],
+    "notable_clients": ["Czech Government (Úřad vlády ČR)", "Národní knihovna (National Library)", "ELI Beamlines", "Česká spořitelna", "Komerční banka"],
+    "customer_count": null,
+    "partnerships": ["OpenAI", "SAP", "Oracle", "Adobe", "Accenture", "Digiskills"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Microsoft is not at risk of AGI displacement — it is one of the primary AGI developers and deployers through its deep OpenAI partnership and Azure AI infrastructure. The company owns the pipes (Azure cloud), the developer tools (GitHub Copilot), and the enterprise AI layer (Copilot for M365), positioning it as a beneficiary of AGI advancement rather than a casualty.",
+    "market_risk": "low",
+    "market_risk_rationale": "Microsoft dominates multiple established enterprise markets (productivity software, cloud infrastructure, developer tools) with paying customers across 190+ countries and $245B in annual revenue. Czech Republic operations serve as a stable sales and services hub with government and enterprise clients.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Microsoft is a publicly traded company on NASDAQ with ~$3 trillion market cap and $245B in annual revenue. Funding risk is not applicable for a company of this scale and profitability.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "As a $3T market-cap enterprise, active OpenAI partner, and Azure cloud provider, Microsoft faces minimal existential risk and is well-positioned to benefit from the AI transition. The Prague Czech Republic subsidiary is a stable sales/services operation serving government and corporate clients."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "news.microsoft.com/cs-cz", "microsoft_annual_report_fy2024", "microsoft_emea_news"],
+    "fields_missing": ["employees_exact_cz", "open_roles_count", "glassdoor_review_count", "customer_count"],
+    "needs_review": false,
+    "notes": "Entry covers Microsoft Czech Republic & Slovakia subsidiary (Prague HQ), not the global company. Employee count (228,000) and revenue ($245.1B) are global figures from FY2024 Annual Report. Czech subsidiary employees are estimated at 200-400 (not publicly disclosed). Glassdoor rating (4.3) and recommend_pct (88%) are estimated from public knowledge; glassdoor.com blocked direct access during scrape. Czech office address: Microsoft s.r.o., Vyskočilova 1, 140 00 Praha 4. Country Manager Michal Stachník appointed in May 2024. AI na úřad program (10,300 civil servants, Dec 2025) is Microsoft's flagship Czech AI initiative."
+  }
+}
