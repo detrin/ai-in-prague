@@ -1,0 +1,109 @@
+{
+  "id": "addai-life",
+  "name": "AddAI.Life",
+  "category": "company",
+  "scraped_at": "2026-03-28T22:40:00Z",
+
+  "overview": {
+    "description": "Enterprise AI platform for building and managing conversational AI assistants",
+    "description_long": "AddAI.Life builds the AddAI Platform — an AI orchestration layer that enables enterprises in banking, insurance, and e-commerce to design, deploy, and manage conversational AI assistants across text, voice, and mobile channels. The platform supports 27+ LLM models (OpenAI, Meta, Google, IBM and others), four levels of AI from NLP to autonomous agentic systems, RAG 2.0 with unique 7-step document processing, and a fully LLM-powered phone line. Key tools include Magic UI (assistant creation and management), Training Tool (learning from real conversations with AI Autopilot), Testing Tool (quality verification with Testing Agents), and Reporting Tool (performance analytics).",
+    "tagline": "Your AI Kitchen, Where Next-Generation Assistants Are Created",
+    "website": "https://addai.life",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "automation", "generative_ai", "speech"],
+    "industries_served": ["banking", "insurance", "e-commerce", "enterprise"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2019,
+    "founders": ["Jindřich Chromý", "Petr Matějíček"],
+    "origin_story": "Founded in December 2019 in Prague by Jindřich Chromý and Ing. Petr Matějíček as a Czech s.r.o. focused on conversational AI for enterprise clients. ZENTITY Group became a strategic shareholder and technology partner.",
+    "key_milestones": [
+      {"year": 2019, "event": "Founded in Prague (Staré Město) as AddAI.Life s.r.o."},
+      {"year": 2020, "event": "Company restructuring and introduction of ZENTITY Group as shareholder"},
+      {"year": 2024, "event": "Ing. Tomáš Jindra appointed as new director; company secured EU co-financing for AI orchestrator project"},
+      {"year": 2024, "event": "Became IBM Silver Partner"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred_from_registry",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["ZENTITY Group a.s."],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jindřich Chromý", "role": "Co-founder & Director (Jednatel)", "source": "czech_business_register"},
+      {"name": "Ing. Tomáš Jindra", "role": "Director (Jednatel)", "source": "czech_business_register"}
+    ],
+    "notable_people": [
+      {"name": "Ing. Petr Matějíček", "role": "Co-founder (former Director, resigned March 2024)", "source": "czech_business_register"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["llm", "rag", "nlp", "python"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["IBM Silver Partner"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["IBM", "ZENTITY Group", "Středočeské inovační centrum (SIC)", "Ministry of Industry and Commerce of the Czech Republic"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "AddAI Platform wraps 27+ third-party LLMs with an orchestration layer (Magic UI, Testing Tool, Training Tool, Reporting Tool) and enterprise-grade tooling. The multi-model orchestration, Czech/Slovak enterprise focus, and deep tooling for conversation quality provide a partial moat, but the core AI engine is external and foundation model providers are building similar orchestration capabilities.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Enterprise conversational AI is a real and growing market with demonstrated demand in banking and insurance. However, the primary geographic focus appears to be Czech/Slovak enterprise, a small market, and competition from Microsoft Copilot, Salesforce, and global integrators is intensifying.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Registered with only 10,000 CZK statutory capital; no known venture funding rounds. Revenue signals are unclear for a 2019-founded startup. EU co-financing provides some support, but the company appears primarily bootstrapped with limited public runway evidence.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "A small bootstrapped Czech startup in a competitive conversational AI platform market with no known venture backing. While the IBM Silver Partner status and EU project grant suggest operational viability, the combination of funding risk and AGI commoditization threat yields an overall high risk profile."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_register_ares", "rejstrik_penize_cz"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count", "careers_url"],
+    "needs_review": false,
+    "notes": "Company founded Dec 3, 2019 (ICO: 08740666). Primary founder Jindřich Chromý holds 55% ownership; ZENTITY Group a.s. is a strategic partner and minority shareholder. No dedicated careers page found on website. EU-funded project: 'AI orchestrator for development, operation and maintenance of AI assistants', co-financed by EU. LinkedIn: https://cz.linkedin.com/company/addai-life"
+  }
+}
