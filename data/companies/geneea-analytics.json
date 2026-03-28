@@ -1,0 +1,114 @@
+{
+  "id": "geneea-analytics",
+  "name": "Geneea Analytics",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI/NLP solutions for news media — semantic tagging, analytics, article generation, and RAG-based research",
+    "description_long": "Geneea brings AI to the newsroom. Since 2014, they've helped publishers automate routine work and gain deeper insights through advanced NLP and generative AI. They deliver industry-leading metadata enrichment with entities and IPTC Media Topics, smart workflow automation, deep content analytics, and GenAI solutions such as archive-aware agentic RAG and custom AI development. Products include Newsroom Assistant, Semantic Tagger, Article Generator, Analytics, and a Research Assistant (RAG over news archives). Trusted by Mediahuis, The Atlantic, RTS, The Hindu, Czech News Agency, Radio France, iDNES, and Seznam. Processes 1M+ articles and assigns 10M+ tags daily.",
+    "tagline": "AI Built for News Media",
+    "website": "https://geneea.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "generative_ai", "automation", "recommendation"],
+    "industries_served": ["media", "publishing", "broadcast", "e-commerce"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2014,
+    "founders": ["Jiří Hana"],
+    "origin_story": "Founded in Prague in 2014 by Jiří (Jirka) Hana, an NLP expert with 20+ years of software development experience, starting with a team of four to build the Interpretor general NLP platform.",
+    "key_milestones": [
+      {"year": 2014, "event": "Founded in Prague, team of four; first version of Interpretor NLP platform"},
+      {"year": 2015, "event": "First customer; integrated with Keboola as first third-party app in their marketplace"},
+      {"year": 2016, "event": "Cash-flow positive; first customer outside Czech Republic; first US customer"},
+      {"year": 2017, "event": "First article-generating project with Economia"},
+      {"year": 2018, "event": "Began cooperation with Heureka; pivoted focus to media solutions"},
+      {"year": 2019, "event": "Google sponsored photo recommendation project for Czech News Agency and Economia"},
+      {"year": 2020, "event": "Full support for 8 languages; first automated election coverage for Czech News Agency"},
+      {"year": 2021, "event": "Text categorization for 90+ languages; began cooperation with Swiss RTS and Radio France"},
+      {"year": 2022, "event": "Team of 21 (13 core, 8 support)"},
+      {"year": 2023, "event": "Began cooperation with Mediahuis"},
+      {"year": 2024, "event": "Began cooperation with The Atlantic; AI-based enrichment of WAN-IFRA Knowledge Hub"},
+      {"year": 2025, "event": "Became first official technology partner of Stibo DX; began cooperation with The Hindu and Centre France; launched JEDI interview-to-article tool; launched RAG-based Research Assistant"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 15,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 4000000,
+    "revenue_source": "rocketreach_snippet_2025",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jiří Hana", "role": "Co-founder", "source": "company_website_linkedin"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://geneea.com/hiring/",
+    "open_roles_count": 0,
+    "open_roles": [],
+    "tech_stack": ["python", "nlp", "llm", "rag", "rest_api"],
+    "hiring_signals": "not_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["The Atlantic", "Radio France", "The Hindu", "Mediahuis", "RTS (Radio Télévision Suisse)", "Centre France", "Czech News Agency", "iDNES", "Seznam", "Škoda", "Newton Media", "Economia", "Heureka", "Keboola"],
+    "customer_count": null,
+    "partnerships": ["Stibo DX (official technology partner)", "Keboola", "Apify", "Recombee", "MFF Charles University"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Geneea's core value is deep vertical expertise in news media NLP — a 12M+ entity knowledge base, IPTC/IAB media taxonomy support, and integration with Stibo DX's CUE platform. However, foundation models can increasingly handle tagging, summarization, and article generation. Their moat is domain-specific knowledge and established integrations, not proprietary AI models.",
+    "market_risk": "low",
+    "market_risk_rationale": "News media AI is a real and growing market with paying international clients including The Atlantic, Radio France, and The Hindu. Geneea has demonstrated sustained demand across two decades of operation and multiple market cycles.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Cash-flow positive since 2016 with no VC funding required. The bootstrapped model and 12-year track record indicate strong financial sustainability without reliance on external investment.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "A bootstrapped, profitable company with 12+ years of operation, diversified international client base, and first-party integrations into enterprise media platforms. The medium AGI displacement risk is offset by strong client retention, domain expertise, and the company's own proactive adoption of LLMs and RAG."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin", "brave_search_snippets", "rocketreach_snippet"],
+    "fields_missing": ["funding_total_usd", "glassdoor_rating", "founders_complete_list"],
+    "needs_review": false,
+    "notes": "IČ (Czech business ID): 03241394. Company website states team of ~20-21; LinkedIn shows 15 employees. Revenue estimate of $4M USD from RocketReach snippet (2025). Jiří Hana confirmed as co-founder on LinkedIn and company website; other co-founders not publicly named. No CNAIP page found."
+  }
+}
