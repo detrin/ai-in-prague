@@ -1,0 +1,119 @@
+{
+  "id": "logics",
+  "name": "LogICS (Logicians in ICS CAS)",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Logic research group at the Institute of Computer Science of the Czech Academy of Sciences",
+    "description_long": "LogICS is the mathematical logic research group within the Department of Theoretical Computer Science at ICS CAS. The group focuses on non-classical logics, modal logic, substructural logics, dynamic logic, abstract algebraic logic, universal algebra, epistemic logic, probabilistic logics, and algebras for program verification. Researchers supervise PhD and Master students, teach at Charles University and Czech Technical University, and run competitive grant-funded projects (Czech Science Foundation, EU MSCA-RISE).",
+    "tagline": "Logicians at the ICS CAS",
+    "website": "https://www.cs.cas.cz/logics/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["other"],
+    "industries_served": ["academia"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": "Logic group embedded in the Department of Theoretical Computer Science at the Institute of Computer Science of the Czech Academy of Sciences (ICS CAS), which itself was founded in 1975. The group grew from the tradition of Czech mathematical logic pioneered by Petr Hájek (now deceased), one of the world's leading experts in fuzzy logic.",
+    "key_milestones": [
+      {"year": 2018, "event": "Adam Přenosil defends PhD thesis 'Reasoning With Inconsistent Information'"},
+      {"year": 2020, "event": "MOSAIC EU MSCA-RISE project begins (2020–2026)"},
+      {"year": 2022, "event": "CELIA (Coalition and Epistemic Logic) project starts, co-funded by Czech and German Science Foundations"},
+      {"year": 2025, "event": "INTERACT Junior Star grant awarded to Wesley Fussner (2025–2029)"},
+      {"year": 2026, "event": "ALF Junior Star grant awarded to Adam Přenosil (2026–2030); Czech Gathering of Logicians organized"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 21,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Institute of Computer Science, Czech Academy of Sciences",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Marta Bílková", "role": "Senior Researcher / PI (TRUST project)", "source": "company_website"},
+      {"name": "Petr Cintula", "role": "Senior Researcher / PI (MetaSuMo project)", "source": "company_website"},
+      {"name": "Wesley Fussner", "role": "Tenure-track Researcher / PI (INTERACT, SIMILE)", "source": "company_website"},
+      {"name": "Zuzana Haniková", "role": "Senior Researcher / PI (Modern Czech Logic project)", "source": "company_website"},
+      {"name": "Igor Sedlár", "role": "Senior Researcher / PI (KATRA, GRADLACT projects)", "source": "company_website"},
+      {"name": "Roman Kuznets", "role": "Tenure-track Researcher", "source": "company_website"},
+      {"name": "Adam Přenosil", "role": "Tenure-track Researcher / PI (ALF project)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Petr Hájek", "note": "Founding figure of Czech mathematical logic and fuzzy logic (deceased), past member"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.cs.cas.cz/logics/#work",
+    "open_roles_count": 3,
+    "open_roles": [
+      {"title": "Postdoctoral Fellow in Mathematical Logic and Algebra", "department": "research", "location": "Prague"},
+      {"title": "Postdoctoral Fellow in First-Order Algebraic Logic", "department": "research", "location": "Prague"},
+      {"title": "PhD Candidate in First-Order Algebraic Logic", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["MOSAIC EU MSCA-RISE consortium", "TU Wien (co-supervised PhD students)", "Scuola Normale Superiore di Pisa", "Charles University Prague", "Czech Technical University Prague"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group producing foundational mathematical logic research; not a commercial product and not subject to AGI commoditization.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Grant-funded academic group with no commercial market exposure; funding comes from Czech Science Foundation and EU sources.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Part of the Czech Academy of Sciences (state-funded institution); individual projects are competitively grant-funded from Czech Science Foundation and EU MSCA. Multiple active grants running through 2030 provide near-term stability.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Research group within a stable state academic institution. Risk assessment framework does not apply to nonprofit academic labs."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "LogICS is a mathematical logic research group, not an AI/commercial company. Listed as 'company' in index but is clearly a research_lab. Focus is on formal/non-classical logic (fuzzy logic, modal logic, substructural logics) with relevance to AI foundations (knowledge representation, probabilistic reasoning, program verification). No CNAIP URL available. Founding year of the group unknown; ICS CAS itself was founded in 1975."
+  }
+}
