@@ -1,0 +1,105 @@
+{
+  "id": "lab-limess",
+  "name": "Laboratoř LIMESS",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI and ML research lab at FEL ČVUT focused on sustainable mobility and energy systems",
+    "description_long": "Laboratoř LIMESS (Laboratory of Intelligent Mobility and Energy Systems for Sustainability) is a research group at the Faculty of Electrical Engineering, Czech Technical University in Prague. Founded in September 2024, it focuses on developing digital tools and AI/ML methods for modern sustainable mobility and energy. Key areas include Vehicle-to-Grid (V2G) technology integration, EV charging demand prediction, energy flexibility planning, power purchase agreements (PPAs), and smart grid optimization. The lab collaborates with industrial partners, research institutions, and public bodies, and had a paper accepted at NeurIPS 2024.",
+    "tagline": "AI for sustainable mobility and energy systems",
+    "website": "https://fel.cvut.cz/cs/vyzkumne-skupiny/limess",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["ml_ops", "other"],
+    "industries_served": ["energy", "mobility", "utilities"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2024,
+    "founders": ["Patrik Mottl"],
+    "origin_story": "Founded in September 2024 at FEL ČVUT as the first laboratory in Central Europe focused on advanced sustainability technologies using AI.",
+    "key_milestones": [
+      {"year": 2024, "event": "Founded at FEL ČVUT in September 2024"},
+      {"year": 2024, "event": "Paper accepted at NeurIPS 2024 on AI model for EV charging at public stations"},
+      {"year": 2026, "event": "Group leader Patrik Mottl appointed Vice-Dean for Development at FEL ČVUT"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "České vysoké učení technické v Praze (ČVUT FEL)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Patrik Mottl", "role": "Head of Laboratory / Vice-Dean for Development (FEL ČVUT)", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://fel.cvut.cz/cs/vyzkumne-skupiny/limess",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "machine_learning"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["NeurIPS 2024 paper acceptance"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Technology Agency of the Czech Republic (TAČR)", "EDIH (European Digital Innovation Hub)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at a public university; the mission is fundamental research in sustainable energy and mobility AI, not commercialisation. AGI displacement risk is not applicable.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research group operating within FEL ČVUT, funded by Czech national grants (TAČR, SGS) and EU programmes (EDIH). Market risk is not applicable as revenue is not the goal.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Multiple active grants from TAČR and SGS (Czech university-specific research grants) as well as EU EDIH funding provide a stable funding base. Institutional backing from ČVUT further reduces risk.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research group within a public university with stable grant funding and institutional support. Commercial risk assessment is not applicable."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "search_snippets", "ekolist.cz", "businessinfo.cz"],
+    "fields_missing": ["employees_exact", "open_roles_count", "glassdoor"],
+    "needs_review": false,
+    "notes": "LIMESS = Laboratoř inteligentních mobilitních a energetických systémů pro stálou udržitelnost. Founded September 2024 at FEL ČVUT. First lab in Central Europe focused on advanced sustainability technologies. Had a paper at NeurIPS 2024 on AI model for EV public charging. Group leader Patrik Mottl became Vice-Dean for Development at FEL ČVUT from January 2026."
+  }
+}
