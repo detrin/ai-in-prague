@@ -1,0 +1,119 @@
+{
+  "id": "gen-digital",
+  "name": "Gen Digital",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Global consumer cybersecurity and digital safety company with dual headquarters in Prague and Tempe, Arizona",
+    "description_long": "Gen Digital Inc. (formerly Symantec / NortonLifeLock) is a Fortune 500 multinational software company co-headquartered in Prague, Czech Republic and Tempe, Arizona. It powers Digital Freedom for nearly 500 million users in 150+ countries through a portfolio of trusted consumer brands: Norton, Avast, LifeLock, Avira, AVG, CCleaner, ReputationDefender, and MoneyLion. The company uses AI extensively in threat detection, identity protection, and financial wellness. Prague became a co-headquarters after Gen Digital's $8.1B merger with Czech cybersecurity leader Avast in September 2022.",
+    "tagline": "Powering Digital Freedom",
+    "website": "https://www.gendigital.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2c_saas",
+    "ai_focus": ["fraud_detection", "automation", "other"],
+    "industries_served": ["consumer", "finance", "identity_protection", "cybersecurity"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1982,
+    "founders": ["Gary Hendrix"],
+    "origin_story": "Founded in 1982 in Sunnyvale, California as Symantec Corporation, originally focused on AI/NLP research. Pivoted to security software and grew via acquisitions (Norton, LifeLock, Avira). Sold its enterprise division to Broadcom for $10.7B in 2019 and became NortonLifeLock. Merged with Czech cybersecurity leader Avast in September 2022 (valued at $8.1B) to form Gen Digital, establishing Prague as co-headquarters.",
+    "key_milestones": [
+      {"year": 1982, "event": "Founded as Symantec Corporation in Sunnyvale, CA"},
+      {"year": 1989, "event": "IPO on NASDAQ as SYMC"},
+      {"year": 2016, "event": "Acquired LifeLock for ~$2.3B, adding identity theft protection"},
+      {"year": 2019, "event": "Sold enterprise division to Broadcom for $10.7B; renamed NortonLifeLock"},
+      {"year": 2021, "event": "Announced $8.1B merger with Czech cybersecurity company Avast"},
+      {"year": 2022, "event": "Merger with Avast completed; rebranded as Gen Digital with Prague as co-HQ"},
+      {"year": 2025, "event": "Acquired MoneyLion for ~$1B, expanding into financial wellness"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 3500,
+    "employee_source": "wikipedia_2025",
+    "office_count": 7
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Tempe", "country": "US", "is_hq": true},
+    {"city": "Pune", "country": "IN", "is_hq": false},
+    {"city": "Chennai", "country": "IN", "is_hq": false},
+    {"city": "Bangalore", "country": "IN", "is_hq": false},
+    {"city": "Dublin", "country": "IE", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "GEN",
+    "stock_exchange": "NASDAQ",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 3930000000,
+    "revenue_source": "wikipedia_annual_report_fy2025",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Vincent Pilette", "role": "CEO", "source": "wikipedia"},
+      {"name": "Frank E. Dangeard", "role": "Chairman", "source": "wikipedia"}
+    ],
+    "notable_people": [
+      {"name": "Pavel Baudiš", "role": "Major shareholder (8.1%), co-founder of Avast", "source": "wikipedia"},
+      {"name": "Eduard Kučera", "role": "Co-founder of Avast (Czech origins)", "source": "wikipedia"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.gendigital.com/us/en/life-at-gen/join-us/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "c++", "machine_learning", "cloud"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Fortune 500", "S&P 500 component", "Listed on Prague Stock Exchange"],
+    "notable_clients": [],
+    "customer_count": 500000000,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Gen Digital's core antivirus/cybersecurity product faces commoditization pressure from OS-native security tools and AI-powered alternatives. However, its $8.1B Avast threat intelligence dataset, 500M+ user telemetry moat, and identity protection (LifeLock) and financial wellness (MoneyLion) diversification provide significant resilience.",
+    "market_risk": "low",
+    "market_risk_rationale": "Consumer cybersecurity and identity protection are large, proven markets with strong and growing demand. Gen Digital is the dominant player with near-500M users and a diversified multi-brand portfolio across cybersecurity, identity theft, and financial wellness.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Publicly traded Fortune 500 company (NASDAQ: GEN) with $3.93B annual revenue and $643M net income (FY2025). Fully self-sustaining with no funding risk.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Established, profitable Fortune 500 enterprise with dominant consumer cybersecurity brands, 500M users, and diversifying revenue streams into identity protection and financial wellness. The Prague co-headquarters provides EU market access and Czech R&D talent from the Avast heritage."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "wikipedia", "investor_relations"],
+    "fields_missing": ["glassdoor_rating", "open_roles_count", "careers_url_verified"],
+    "needs_review": false,
+    "notes": "Gen Digital's Prague presence stems from its 2022 merger with Czech company Avast (founded 1988 by Pavel Baudiš and Eduard Kučera). Prague is a genuine co-headquarters, not just a branch office. The company is listed on the Prague Stock Exchange in addition to NASDAQ. Revenue and employee figures are from FY2025 (fiscal year ending ~March 2025). Employees approximate (~3,500) from Wikipedia citing company reports."
+  }
+}
