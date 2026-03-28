@@ -1,0 +1,137 @@
+{
+  "id": "tekies",
+  "name": "Tekies",
+  "category": "company",
+  "scraped_at": "2026-03-28T22:30:00Z",
+
+  "overview": {
+    "description": "IT consulting and AI solutions company delivering custom software, data platforms, and AI products for Czech enterprises and public sector",
+    "description_long": "Tekies is a Prague-based IT company that combines AI consulting, custom software development, and proprietary SaaS products. Their work spans public administration (digitalization of government services, chatbot/voicebot for Ministry of Labour), energy sector (selfcare portals, customer acquisition), and pharma (genomics platform Floxgen). Flagship products include MyIO (AI-powered supply chain optimization), Floxgen (bioinformatics and genomic analysis), and Lístečkomat (public service queue management). ISO/IEC 27001:2022 certified. Sister company DNAi focuses on applied AI research. Active in Czech public sector digital transformation and expanding internationally to Canada and Singapore/APAC.",
+    "tagline": "Empowering businesses with cutting-edge technologies, data platforms, and artificial intelligence solutions",
+    "website": "https://www.tekies.eu",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/tekies"
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "nlp", "generative_ai", "data_engineering", "ml_ops"],
+    "industries_served": ["public_sector", "energy", "finance", "logistics", "healthcare", "pharma", "telecommunications"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2018,
+    "founders": [],
+    "origin_story": "Founded in Prague in 2018 as an IT consulting and digital transformation firm. Grew to serve major Czech institutions and enterprises, later building proprietary AI products. Sister company DNAi was established for applied AI research and products.",
+    "key_milestones": [
+      {"year": 2018, "event": "Founded in Prague (U Nikolajky, Smíchov)"},
+      {"year": 2024, "event": "Company of the Year 2024 – Finalist, 3rd place in Prague; expanded team by 100+ professionals"},
+      {"year": 2024, "event": "Selected by CzechInvest to represent Czech tech at Global Energy Show in Calgary"},
+      {"year": 2024, "event": "ISO/IEC 27001:2022 certification obtained"},
+      {"year": 2024, "event": "Expansion partnerships with BellaDati and Hagiwara Solutions for Singapore/APAC entry"},
+      {"year": 2025, "event": "Digital Future Awards 2025 – 1st place (Excellent Experience category) for EVA virtual assistant at Ministry of Labour"},
+      {"year": 2025, "event": "Floxgen bioinformatics platform showcased at Swiss Biotech Day"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": 52,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Pavel Wimmer", "role": "CEO, Founder at DNAi (sister company)", "source": "tekies.eu blog post"},
+      {"name": "David Nekvasil", "role": "Senior leader (prominent LinkedIn presence)", "source": "linkedin"}
+    ],
+    "notable_people": [
+      {"name": "Tomas Hrdy", "role": "Java Competency Lead, Enterprise Architect, Dev/DevOps", "source": "linkedin"},
+      {"name": "Jitka Radova", "role": "Talent/HR (recruiting Java, Kotlin, React, Data Engineering)", "source": "linkedin"},
+      {"name": "Tomáš Paleček", "role": "Project/tech lead (EVA and COGS App)", "source": "tekies.eu blog"},
+      {"name": "Tomas Kasl", "role": "Team member (EVA and COGS App)", "source": "tekies.eu blog"},
+      {"name": "Petr Janoš", "role": "Team member (EVA and COGS App)", "source": "tekies.eu blog"},
+      {"name": "Andrew Nehalchuk", "role": "Team member (AI project delivery)", "source": "tekies.eu blog"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.tekies.eu/careers",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["java", "kotlin", "react", "python", "azure_databricks", "kafka", "azure"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Digital Future Awards 2025 – 1st place (Excellent Experience) for EVA virtual assistant",
+      "Company of the Year 2024 – 3rd place in Prague",
+      "Leader in AI for Private and Public Sectors (HOWNOW conference 2024)"
+    ],
+    "notable_clients": [
+      "Ministry of Labour and Social Affairs (MPSV)",
+      "Zentiva",
+      "Microsoft",
+      "PwC"
+    ],
+    "customer_count": 36,
+    "partnerships": [
+      "DNAi (sister company, applied AI research)",
+      "BellaDati",
+      "Hagiwara Solutions (APAC distribution)",
+      "CzechInvest (expansion support)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Tekies is primarily an IT consulting firm delivering custom AI integrations and software. The consulting and custom development work is somewhat exposed to AI-assisted automation of development itself, but deep public sector relationships, ISO certification, and proprietary products (MyIO, Floxgen) in regulated domains (supply chain, genomics) provide meaningful moats. Not a thin LLM wrapper.",
+    "market_risk": "low",
+    "market_risk_rationale": "Czech IT services market is stable and growing. Tekies has 36 paying enterprise and public sector clients, multi-year government contracts, and is expanding internationally. The public sector AI space in CZ is underpenetrated and growing rapidly.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No known external funding — appears bootstrapped with client revenue. 36 satisfied clients and 72 delivered projects since 2018 suggest stable cash flow, but the absence of disclosed funding limits growth capital visibility. Expansion to Canada and Singapore adds burn pressure.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Solid Czech IT consulting business with growing AI focus and proprietary products in regulated sectors, but consulting model is exposed to AI automation pressure long-term and international expansion adds execution risk. Government contract dependency creates both stability and political/reputational exposure (DSŘ controversy in 2025)."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website", "linkedin"],
+    "fields_missing": [
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "founders",
+      "glassdoor.rating",
+      "careers.open_roles_count"
+    ],
+    "needs_review": false,
+    "notes": "No CNAIP URL was in the index but the page exists at https://www.cnaip.cz/cs/entity/tekies. Website was published March 20, 2026 (Webflow). Careers page has Webflow template placeholder content (fake US jobs from 'Varox' template) — not real openings; career contact is career@tekies.eu. Company was involved in Czech government DSŘ (building permits digitalization bypass) controversy in 2025 — they were a contracted supplier for MPSV, not the primary accused party. Sister company DNAi handles AI research. LinkedIn shows 52 employees. VAT: CZ07241127."
+  }
+}
