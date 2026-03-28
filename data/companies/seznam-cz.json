@@ -1,0 +1,146 @@
+{
+  "id": "seznam-cz",
+  "name": "Seznam.cz",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:48:00Z",
+
+  "overview": {
+    "description": "Czech internet portal, search engine, and AI assistant platform — the most visited web destination in the Czech Republic",
+    "description_long": "Founded in 1996 by Ivo Lukačovič, Seznam.cz is the Czech Republic's original and most visited internet portal. It operates 30+ services including a search engine, email (Email.cz), maps (Mapy.com), news (Novinky.cz, Seznam Zprávy), video (Stream.cz), e-commerce (Sbazar.cz, Kupi.cz), classifieds (Sreality.cz), and its own TV channel (Televize Seznam). The company invests heavily in AI research: it has built 'Seznam AI', an AI-powered assistant surfacing search summaries and contextual information, and employs researchers in NLP, speech synthesis, generative language models, and ML recommendations. Its Sklik platform is the leading Czech programmatic ad network.",
+    "tagline": "Jsme česká internetová jednička — Czech internet's number one",
+    "website": "https://www.seznam.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["nlp", "speech", "recommendation", "generative_ai"],
+    "industries_served": ["media", "advertising", "e-commerce", "maps", "news"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1996,
+    "founders": ["Ivo Lukačovič"],
+    "origin_story": "Founded by Ivo Lukačovič in Prague in 1996 with 50,000 CZK of personal savings as the first Czech web directory and search engine. Grew into the dominant Czech internet portal before Google eroded its search share. In 2000, Swedish Spray International acquired ~30% stake. Lukačovič regained majority control in 2003 and has retained it since via Masaryk Holding.",
+    "key_milestones": [
+      {"year": 1996, "event": "Founded by Ivo Lukačovič as first Czech web directory and search engine"},
+      {"year": 1998, "event": "Launched email service at @seznam.cz domain"},
+      {"year": 2000, "event": "Spray International (Sweden) invested, Seznam becomes joint-stock company"},
+      {"year": 2003, "event": "Lukačovič regains majority control, replaces third-party search with own engine"},
+      {"year": 2005, "event": "Deployed own fulltext search engine; acquired Email.cz"},
+      {"year": 2006, "event": "Moved HQ to Anděl (Radlická), Prague; Pavel Zima becomes CEO"},
+      {"year": 2016, "event": "Launched Seznam Zprávy (own news channel)"},
+      {"year": 2018, "event": "Launched Televize Seznam (own TV channel)"},
+      {"year": 2022, "event": "Mapy.com adopted IndexNow protocol for search indexing"},
+      {"year": 2024, "event": "Launched Seznam AI assistant with generative search summaries"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 1900,
+    "employee_source": "company_website",
+    "office_count": 12
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "Ostrava", "country": "CZ", "is_hq": false},
+    {"city": "České Budějovice", "country": "CZ", "is_hq": false},
+    {"city": "Plzeň", "country": "CZ", "is_hq": false},
+    {"city": "Hradec Králové", "country": "CZ", "is_hq": false},
+    {"city": "Liberec", "country": "CZ", "is_hq": false},
+    {"city": "Olomouc", "country": "CZ", "is_hq": false},
+    {"city": "Zlín", "country": "CZ", "is_hq": false},
+    {"city": "Bratislava", "country": "SK", "is_hq": false},
+    {"city": "Žilina", "country": "SK", "is_hq": false},
+    {"city": "Benátky nad Jizerou", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Masaryk Holding (Ivo Lukačovič)",
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2000", "type": "Strategic Investment", "amount_usd": null, "lead_investor": "Spray International (Sweden)"}
+    ],
+    "investors": ["Spray International (later Lycos Europe) — exited 2007", "Tiger Holding", "Miura International"],
+    "revenue_estimate_usd": null,
+    "revenue_source": "Wikipedia (2014 data): 3.129 billion CZK operating revenue",
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Pavel Zima", "role": "Board of Directors (Chairman rotation)", "source": "company_website"},
+      {"name": "Matěj Hušek", "role": "Board of Directors", "source": "company_website"},
+      {"name": "Pavel Kolář", "role": "Board of Directors", "source": "company_website"},
+      {"name": "Ondřej Krišica", "role": "Board of Directors", "source": "company_website"},
+      {"name": "Vlastimil Pečínka", "role": "Chief Technology Officer", "source": "company_website"},
+      {"name": "Michal Buzek", "role": "Chief Data & Analytics Officer", "source": "company_website"},
+      {"name": "Miroslava Chadimová", "role": "CFO", "source": "company_website"},
+      {"name": "Helena Kuklíková", "role": "Chief People Officer", "source": "company_website"},
+      {"name": "Tomáš Pergler", "role": "Director of Search Division", "source": "company_website"},
+      {"name": "Tomáš Búřil", "role": "Director of International Expansion", "source": "linkedin"}
+    ],
+    "notable_people": [
+      {"name": "Ivo Lukačovič", "role": "Founder & controlling shareholder (via Masaryk Holding)", "source": "wikipedia"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://o-seznam.cz/kariera/volne-pozice/",
+    "open_roles_count": 37,
+    "open_roles": [
+      {"title": "Product Manager AI Asistenta", "department": "product", "location": "Prague"},
+      {"title": "Programátor AI Asistenta (Python, Go)", "department": "engineering", "location": "Prague"},
+      {"title": "Výzkumník strojového učení pro zpracování řeči", "department": "research", "location": "Brno / Plzeň / Prague"},
+      {"title": "AI výzkumník generativních jazykových modelů", "department": "research", "location": "Brno / Prague / Zlín"},
+      {"title": "Výzkumník strojového učení", "department": "research", "location": "Brno"},
+      {"title": "Python programátor Lide.cz – vývojář doporučování a ML klasifikátorů", "department": "engineering", "location": "Prague"},
+      {"title": "Ranking Product Manager pro AI Asistenta a vyhledávání", "department": "product", "location": "Prague"},
+      {"title": "C++ Engineer Mapy.com & FindHub", "department": "engineering", "location": "Brno"},
+      {"title": "Infrastructure Engineer", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "go", "c++", "typescript", "pytorch", "docker", "kubernetes", "kafka", "postgresql", "redis", "elasticsearch", "spark", "terraform", "grafana", "prometheus"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Seznam-cz-Reviews-E155048.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Seznam's core search and news aggregation face ongoing commoditization pressure from global AI (Google AI Overviews, ChatGPT) but its moat is Czech-language expertise, local brand trust, proprietary datasets (maps, classifieds, email), and a vertically integrated ad network (Sklik). Its own generative AI research and 'Seznam AI' assistant show active investment to compete.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Czech search market has been eroded by Google (74% share by 2018 vs. Seznam's ~26%). However, Seznam still dominates Czech-language content, e-commerce, classifieds, and local media. Revenue remains substantial (3B+ CZK). The market is real and established; the risk is competitive pressure from global tech platforms rather than market size.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Privately held company with ~3B CZK revenue (2014), owned by controlling shareholder Ivo Lukačovič via Masaryk Holding. No external funding dependence, no runway risk, self-sustaining through advertising and e-commerce revenue for nearly 30 years.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Established enterprise with strong Czech market position, proprietary tech, and active AI investment — but faces structural headwinds as Google consolidates Czech search and global AI platforms erode the value of content aggregation. Long-term relevance requires successful AI differentiation in Czech language and local services."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin", "wikipedia", "job_listings"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "glassdoor_review_count"],
+    "needs_review": false,
+    "notes": "Revenue data only available for 2014 (3.129B CZK from Wikipedia; LinkedIn confirms similar figure). Employees_exact of 1,900 is from the 2026 about page ('více než 1 900 Seznamáků'). LinkedIn shows 1,001-5,000 range. Glassdoor blocked anti-bot protection; rating not retrieved. Business model is advertising-based (Sklik PPC platform) + e-commerce — classified as 'other' since it does not fit any single SaaS/consulting enum. Parent is Masaryk Holding controlled by founder Ivo Lukačovič."
+  }
+}
