@@ -1,0 +1,110 @@
+{
+  "id": "samba-ai",
+  "name": "Samba.ai",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:50:00Z",
+
+  "overview": {
+    "description": "AI-powered retail retention and marketing automation platform (CDP)",
+    "description_long": "Samba.ai is an AI-powered Customer Data Platform (CDP) built for retail and e-commerce brands. It unifies online and offline customer data to enable omnichannel marketing automation at scale — covering email, web, push notifications, and SMS. The platform provides predictive analytics (CLV, churn risk, product affinity), smart segmentation, and personalized customer journeys. Also offers expert-led consulting and analytics services alongside the SaaS product.",
+    "tagline": "Makes Your Digital Marketing Superior",
+    "website": "https://www.samba.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["recommendation", "ml_ops", "automation"],
+    "industries_served": ["retail", "e-commerce", "marketing"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2012,
+    "founders": null,
+    "origin_story": null,
+    "key_milestones": [
+      {"year": 2012, "event": "Founded in Prague"},
+      {"year": 2025, "event": "Reached 300+ customers from startups to enterprises"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "David Vyskočil", "role": "CEO", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Michal Štěpánek", "role": "Product Owner", "source": "linkedin"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.samba.ai/career/",
+    "open_roles_count": 3,
+    "open_roles": [
+      {"title": "Marketing Specialist", "department": "marketing", "location": "Prague"},
+      {"title": "Lead Front-End Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Functional Developer (Scala)", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["javascript", "typescript", "react", "vue", "scala", "html", "css", "rest-api"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Dentsu", "Kosik.cz", "Heureka.cz"],
+    "customer_count": 300,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Samba.ai operates in the CDP/marketing automation space where core AI capabilities (churn prediction, recommendation engines, segmentation) are increasingly commoditized. However, the platform's value lies in unifying online and offline retail data and deep integrations with Czech/EU e-commerce stacks, providing moderate customer lock-in that slows displacement.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Real and growing market with 300+ paying customers across retail and e-commerce. However, the CDP and marketing automation space is highly competitive with well-funded global incumbents (Klaviyo, Braze, Salesforce Marketing Cloud, Adobe). Samba.ai's Czech/CEE regional focus and retail verticalization provide differentiation but limit total addressable market.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No known external funding rounds, suggesting a bootstrapped model. The company has survived 13+ years since founding with a small team of ~10-50 employees and 300+ customers, indicating organic revenue sustainability. However, without disclosed financials or investment backing, long-term growth capital remains uncertain.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Samba.ai has demonstrated longevity and real customer traction in the Czech/CEE market but operates in a commoditizing space without disclosed funding. Medium risk overall: competitive market dynamics and commoditization of core AI capabilities are offset by organic sustainability signals and regional market knowledge."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["founders", "funding_total_usd", "revenue_estimate_usd", "glassdoor"],
+    "needs_review": false,
+    "notes": "Founded 2012; LinkedIn shows ~10 employees but lists 11-50 range. No CNAIP entry found. No press coverage or funding announcements found. LinkedIn classifies as 'Public Company' which appears to be a data error — company exhibits all characteristics of a private bootstrapped startup."
+  }
+}
