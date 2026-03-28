@@ -1,0 +1,107 @@
+{
+  "id": "strojove-uceni",
+  "name": "Strojové učení",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Machine learning university course at FIT ČVUT (Czech Technical University in Prague)",
+    "description_long": "Strojové učení (Machine Learning) is the official ML course series at the Faculty of Information Technology, Czech Technical University in Prague (FIT ČVUT). The course covers supervised learning (classification, regression, decision trees, linear/logistic regression, ensemble methods) and unsupervised learning (clustering, association rules). It is part of the prg.ai Minor — an inter-university AI/ML programme connecting CTU and CUNI students with the Prague AI ecosystem. Student final projects are managed via GitHub Classroom under the Strojove-uceni GitHub organisation.",
+    "tagline": "Official Machine Learning 1 & 2 course at FIT ČVUT Prague",
+    "website": "https://courses.fit.cvut.cz/BI-ML1/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["ml_ops", "other"],
+    "industries_served": ["education"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2021,
+    "founders": [],
+    "origin_story": "Academic ML course at FIT ČVUT Prague; GitHub Classroom organisation created in February 2021. Part of the prg.ai Minor inter-university AI programme launched ~2021.",
+    "key_milestones": [
+      {"year": 2021, "event": "GitHub organisation Strojove-uceni created for GitHub Classroom (course BI-ML1 / BI-ML2)"},
+      {"year": 2021, "event": "Course incorporated into prg.ai Minor inter-university AI programme"},
+      {"year": 2025, "event": "Course pages updated for academic year 2025/2026 (B251 semester)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (ČVUT) — Faculty of Information Technology",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Daniel Vašata", "role": "Course lead / Lecturer", "source": "courses.fit.cvut.cz"},
+      {"name": "Ivo Petr", "role": "Lecturer / Lab instructor", "source": "courses.fit.cvut.cz"},
+      {"name": "Ondřej Tichý", "role": "Lecturer / Lab instructor", "source": "courses.fit.cvut.cz"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "pandas", "scikit-learn"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["prg.ai Minor inter-university AI programme", "Czech Technical University FIT"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic university course, not a commercial product. No revenue or product to be displaced.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "University course backed by ČVUT; not subject to commercial market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Operated as part of FIT ČVUT, funded by public university budget and part of prg.ai Minor initiative.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Strojové učení is an academic course at FIT ČVUT, not a company. It is misclassified as 'company' in the CNAIP source; the entry should be treated as an educational/research entity."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["courses.fit.cvut.cz", "github.com/Strojove-uceni", "prg.ai/minor"],
+    "fields_missing": ["founded_year_exact", "cnaip_url", "employees_exact", "funding"],
+    "needs_review": true,
+    "notes": "IMPORTANT: 'Strojové učení' (Machine Learning) is the BI-ML1 / BI-ML2 course at FIT ČVUT Prague, NOT a standalone company. It is listed in the CNAIP source as category 'company', which appears to be a data entry error. The GitHub organisation Strojove-uceni (https://github.com/Strojove-uceni, created 2021-02-19) hosts GitHub Classroom repos for student final projects. Teachers: Daniel Vašata, Ivo Petr, Ondřej Tichý. The course is part of the prg.ai Minor inter-university AI programme. Consider re-categorising or removing this entry from the catalog."
+  }
+}
