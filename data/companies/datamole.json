@@ -1,0 +1,106 @@
+{
+  "id": "datamole",
+  "name": "Datamole",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Data & AI consulting company helping agricultural and industrial companies innovate with custom data, IoT, and AI solutions.",
+    "description_long": "Founded in 2015 by Tomáš Borovička and Ondřej Stuchlík, Datamole is a Prague-based Data & AI consulting firm serving industrial and agricultural clients across Europe. The team of 80+ specialists delivers end-to-end data and AI projects — from strategy and data engineering to IoT integration, machine learning models, and custom enterprise applications. With 100+ successful projects delivered, Datamole's clients include precision farming machine manufacturers, robotic milking companies, and coffee machine operators. The company maintains offices in Prague, Brno, and Český Krumlov.",
+    "tagline": "We bring industrial companies to the forefront of data innovation",
+    "website": "https://www.datamole.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["data_engineering", "ml_ops", "automation"],
+    "industries_served": ["agriculture", "manufacturing", "biotech", "hi-tech", "public_transport"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2015,
+    "founders": ["Tomáš Borovička", "Ondřej Stuchlík"],
+    "origin_story": "Founded in 2015 by Tomáš Borovička (CEO) and Ondřej Stuchlík (CTO) with a vision to build a company where people work on rewarding projects and maintain strong team relationships. Grew organically into an 80+ person firm serving agricultural and industrial customers across Europe.",
+    "key_milestones": [
+      {"year": 2015, "event": "Founded in Prague by Tomáš Borovička and Ondřej Stuchlík"},
+      {"year": 2021, "event": "Opened office in Brno"},
+      {"year": 2024, "event": "Surpassed 100+ successful data & AI projects delivered"},
+      {"year": 2025, "event": "Grew to 80+ team members across 3 Czech offices"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "Český Krumlov", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš Borovička", "role": "CEO & Co-founder", "source": "datamole.ai/about"},
+      {"name": "Ondřej Stuchlík", "role": "CTO & Co-founder", "source": "datamole.ai/about"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.datamole.ai/careers",
+    "open_roles_count": 7,
+    "open_roles": [
+      {"title": "Head of Back Office", "department": "operations", "location": "Prague"},
+      {"title": "Senior Data Analyst (Python)", "department": "data", "location": "Prague"},
+      {"title": "Data Engineer", "department": "engineering", "location": "Brno"},
+      {"title": "Senior Data Analyst (Python)", "department": "data", "location": "Brno"},
+      {"title": "Big Data Engineer – Databricks Specialist", "department": "engineering", "location": "Brno"},
+      {"title": "Medior Data Analyst / Python", "department": "data", "location": "Brno"},
+      {"title": "Python Data Engineer", "department": "engineering", "location": "Český Krumlov"}
+    ],
+    "tech_stack": ["python", "aws", "azure", "databricks", "sql", "spark", "delta-lake", "terraform", "aws-cdk"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Lely", "Agrifac", "Cup&Cino"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["datamole.ai (homepage)", "datamole.ai/about", "datamole.ai/careers", "datamole.ai/case-studies"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor.rating", "glassdoor.review_count", "employees_exact"],
+    "needs_review": false,
+    "notes": "No CNAIP URL available. Company appears to be bootstrapped — no funding rounds found via search. ~80 employees across 3 Czech offices. 100+ successful projects. Focus on industrial/agricultural IoT and AI. Founders confirmed from quotes on About page. Glassdoor search blocked by bot detection."
+  }
+}
