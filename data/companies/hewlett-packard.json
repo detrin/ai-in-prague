@@ -1,0 +1,123 @@
+{
+  "id": "hewlett-packard",
+  "name": "Hewlett Packard Enterprise",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Global enterprise IT infrastructure company delivering AI, cloud, edge, and HPC solutions",
+    "description_long": "Hewlett Packard Enterprise (HPE) is an American multinational IT company providing enterprise-grade servers, storage, networking, and AI computing infrastructure. Key AI offerings include HPE GreenLake (hybrid cloud with AI capabilities), HPE Cray supercomputers (AI/HPC), Aruba Networks (AI-driven network management), HPE OpsRamp (AIOps), and HPE Ezmeral (MLOps/data analytics). HPE has a long-standing presence in Prague, Czech Republic, operating a local office for R&D, engineering, and Central European sales and support. The company was spun off from Hewlett-Packard in 2015 and is now a Fortune 100 enterprise technology vendor.",
+    "tagline": "Accelerate. Innovate. Lead.",
+    "website": "https://www.hpe.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["ml_ops", "data_engineering", "automation", "other"],
+    "industries_served": ["finance", "healthcare", "government", "manufacturing", "telecommunications", "retail", "research"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2015,
+    "founders": ["Meg Whitman (first CEO, spin-off architect)"],
+    "origin_story": "HPE was created on November 1, 2015 when the former Hewlett-Packard Company split into two publicly traded companies: HP Inc. (consumer PCs and printers) and Hewlett Packard Enterprise (enterprise IT hardware, software, and services). The Czech Republic office, including Prague, was established as part of HP's European operations before the split and continued under HPE.",
+    "key_milestones": [
+      {"year": 2015, "event": "Spun off from Hewlett-Packard; NYSE: HPE"},
+      {"year": 2016, "event": "Acquired SGI (Silicon Graphics International) for HPC capabilities"},
+      {"year": 2017, "event": "Spun off Enterprise Services division, merged with CSC to form DXC Technology"},
+      {"year": 2017, "event": "Spun off software business, merged with Micro Focus"},
+      {"year": 2019, "event": "Acquired Cray Inc. (supercomputers/HPC) for ~$1.3 billion"},
+      {"year": 2020, "event": "Relocated headquarters from Silicon Valley to Spring, Houston, Texas"},
+      {"year": 2021, "event": "Acquired Zerto (disaster recovery)"},
+      {"year": 2023, "event": "Acquired OpsRamp (AIOps platform)"},
+      {"year": 2023, "event": "Launched HPE Private Cloud AI with NVIDIA partnership"},
+      {"year": 2024, "event": "Announced $14 billion acquisition of Juniper Networks (pending regulatory approval)"},
+      {"year": 2024, "event": "Sold Communications Technology Group to HCLTech for $225 million"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 67000,
+    "employee_source": "wikipedia",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Spring, Houston", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Singapore", "country": "SG", "is_hq": false},
+    {"city": "Tokyo", "country": "JP", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "HPE",
+    "stock_exchange": "NYSE",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 34300000000,
+    "revenue_source": "wikipedia_fy2025_annual",
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Antonio Neri", "role": "President & CEO", "source": "wikipedia"},
+      {"name": "Patricia Russo", "role": "Chairwoman", "source": "wikipedia"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://careers.hpe.com",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "java", "kubernetes", "openshift", "aws", "azure", "gcp", "spark", "tensorflow", "pytorch"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Hewlett-Packard-Enterprise-EI_IE1093900.11,37.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Fortune 500 No. 107 (2018)",
+      "S&P 500 component",
+      "Gartner Magic Quadrant Leader – Distributed Hybrid Infrastructure",
+      "IDC Leader – HPC"
+    ],
+    "notable_clients": ["NASA", "US Department of Defense", "CERN", "Saudi Aramco", "major global banks and telecoms"],
+    "customer_count": null,
+    "partnerships": ["NVIDIA", "AMD", "Intel", "Microsoft", "VMware", "Red Hat"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "HPE operates at the infrastructure layer — selling servers, HPC systems, networking gear, and hybrid cloud platforms that AGI models run on, not compete with. Their Cray supercomputers and HPE GreenLake platform are beneficiaries of the AI compute boom, not victims of it.",
+    "market_risk": "low",
+    "market_risk_rationale": "HPE serves the enterprise IT infrastructure market with $34.3B in annual revenue and operates across every major industry vertically. Demand for AI compute infrastructure (HPE Cray, NVIDIA-powered HPE systems) is accelerating, not declining.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Publicly traded Fortune 500 company (NYSE: HPE) with $34.3B in revenue and $75.9B in assets. No funding risk applicable.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "As a publicly traded global enterprise IT company delivering the infrastructure layer for AI workloads, HPE is well-positioned to benefit from the AI era. Prague office provides European engineering capacity. Primary risks are competitive pressure from Dell, Lenovo, and hyperscalers — not AGI displacement."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["wikipedia", "careers.hpe.com", "cnaip_index"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "open_roles_count", "office_count", "employees_prague"],
+    "needs_review": false,
+    "notes": "HPE website (hpe.com) timed out during scraping; core data sourced from Wikipedia (FY2025 financials) and HPE careers portal. HPE Czech Republic s.r.o. operates the Prague office as a Central European R&D and services hub, inherited from the legacy HP presence pre-2015 split. Revenue $34.3B and 67,000 employees from Wikipedia FY2025 (fiscal year ending October 31, 2025)."
+  }
+}
