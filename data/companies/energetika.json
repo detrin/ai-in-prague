@@ -1,0 +1,99 @@
+{
+  "id": "energetika",
+  "name": "Energetika",
+  "category": "company",
+  "scraped_at": "2026-03-28T16:15:00Z",
+
+  "overview": {
+    "description": "Czech company in the AI/energy sector listed in the CNAIP ecosystem",
+    "description_long": "Energetika is a Czech entity listed in the CNAIP AI ecosystem catalog. No public website or detailed information is available; the company may operate in AI applications for the energy sector.",
+    "tagline": null,
+    "website": null,
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["other"],
+    "industries_served": ["energy"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": null,
+    "key_milestones": []
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": null,
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "No verifiable product or proprietary technology found. Cannot assess tech moat; defaulting to high risk due to near-total absence of public information.",
+    "market_risk": "high",
+    "market_risk_rationale": "No confirmed product-market fit or customer base identified. Energy sector AI is real but competitive; without evidence of differentiation, market risk is high.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No funding information found. No website, no CNAIP profile, and no press coverage suggest a very early-stage or dormant entity with unknown runway.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Extensive research across CNAIP GraphQL API, Czech business registry, DuckDuckGo, LinkedIn, and Czech tech news returned no verifiable information about this company. Cannot confirm existence as an active AI company."
+  },
+
+  "metadata": {
+    "data_quality": "low",
+    "sources_used": ["cnaip_search"],
+    "fields_missing": ["description_long", "tagline", "website", "cnaip_url", "founded_year", "founders", "employees_range", "funding_total_usd", "revenue_estimate_usd", "glassdoor"],
+    "needs_review": true,
+    "notes": "Company listed in companies_index.json with source=cnaip but no CNAIP URL. CNAIP GraphQL API search for 'energetika' returns empty results. Czech business registry (ARES) lists 104 companies with 'energetika' in name, none identifiable as AI companies. No company website found. energetika.io is a domain for sale. energetika.cz is a general energy portal. LinkedIn shows Italian company EnergetiKa (unrelated). Possibly a very small/dormant Czech company in energy-sector AI, or a data entry error in the original catalog. Needs manual review."
+  }
+}
