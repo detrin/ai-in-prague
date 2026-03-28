@@ -1,0 +1,112 @@
+{
+  "id": "viable-one",
+  "name": "Viable One",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Custom AI and software development for banks, public institutions, and startups",
+    "description_long": "Viable One s.r.o. is a Prague-based technology company specializing in advanced AI solutions and custom software development. Since 2015 they have delivered 80+ projects for ~30 clients across banking, healthcare, e-commerce, energy, and public sector. They develop proprietary generative AI tools including AI Desk (support automation) and Data Assist (unstructured data processing), and offer end-to-end services from AI strategy consulting to development, testing, and managed operations.",
+    "tagline": "Our technological solutions are changing the world. Change yours with us.",
+    "website": "https://www.viableone.com",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/viable-one"
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "nlp", "document_processing", "automation"],
+    "industries_served": ["finance", "banking", "healthcare", "retail", "manufacturing", "public_sector", "education", "energy"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2015,
+    "founders": [],
+    "origin_story": "Founded in 2015 in Prague by Jan Kozerovský, who leveraged experience from Equa Bank and Medtech projects. Grew from a small IT shop to a mid-sized AI-focused software consultancy.",
+    "key_milestones": [
+      {"year": 2015, "event": "Founded in Prague"},
+      {"year": 2024, "event": "Launched AI Desk (support automation) and Data Assist (unstructured data) proprietary GenAI products"},
+      {"year": 2025, "event": "40+ team members, 80+ completed projects"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 40,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jan Kozerovský", "role": "Managing Director (CEO)", "source": "company_website"},
+      {"name": "Jiří Koten", "role": "Solution Architect / Head of Analysis", "source": "linkedin"}
+    ],
+    "notable_people": [
+      {"name": "Tomáš Böhm", "role": "Transformation & Digital AI", "source": "linkedin"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.viableone.com/kariera",
+    "open_roles_count": 3,
+    "open_roles": [
+      {"title": "Python Developer", "department": "engineering", "location": "Prague"},
+      {"title": "QA Manager / Test Automation Architect", "department": "engineering", "location": "Prague"},
+      {"title": "IT/Business Analyst", "department": "analysis", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "fastapi", "aws", "aws-lambda", "aws-ecs", "dynamodb", "sqs", "aws-cdk", "github-actions", "playwright"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": 30,
+    "partnerships": ["Direct People (UX research)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Viable One's core revenue is consulting and custom software development with domain expertise in regulated industries (banking, healthcare). Their proprietary AI products (AI Desk, Data Assist) are niche but not deeply differentiated from commoditizing LLM tools. The services business provides client-relationship moat, but generic AI automation tools threaten parts of their value proposition.",
+    "market_risk": "low",
+    "market_risk_rationale": "Enterprise IT consulting and custom software development in regulated sectors (banking, healthcare, public sector) is a well-established market with stable demand. Viable One has 30+ clients and 80+ completed projects since 2015, demonstrating proven PMF.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No known external funding found — likely bootstrapped or self-funded from consulting revenue. With 40+ employees in Prague, the company appears operationally self-sustaining, but limited public financial information makes runway assessment uncertain.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Stable consulting business with domain expertise in regulated sectors provides resilience, but the lack of deep technology moat on their AI product side and unknown funding/revenue situation introduce moderate risk. Growth depends on continued enterprise deal flow."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "cnaip", "linkedin"],
+    "fields_missing": ["founders", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "notable_clients"],
+    "needs_review": false,
+    "notes": "Company registered as Viable One s.r.o., IČ: 04509030. Website is Czech-first with English version at /en. LinkedIn shows 35 visible employees, company website says 40+; LinkedIn range is 51-200 but the website '40+ team members' is more precise — classified as 11-50 bucket."
+  }
+}
