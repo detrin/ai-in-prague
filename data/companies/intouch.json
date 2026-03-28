@@ -1,0 +1,116 @@
+{
+  "id": "intouch",
+  "name": "inTouch",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "AI companion phone calls for seniors to combat loneliness and cognitive decline",
+    "description_long": "inTouch provides daily, engaging AI-powered telephone calls for seniors in retirement homes, Alzheimer centers, and private residences. The AI companion (named Mary) keeps seniors' minds active through meaningful conversation, gentle reminders, morning check-ins, and Alzheimer support. The system also delivers real-time actionable insights to care teams and families, enabling proactive and personalized support.",
+    "tagline": "Daily AI conversations for Seniors. Available 24/7.",
+    "website": "https://www.intouch.family",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/intouch"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["speech", "nlp", "generative_ai"],
+    "industries_served": ["healthcare", "senior care", "elder care"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2023,
+    "founders": ["Vassili le Moigne", "Jan", "Julius"],
+    "origin_story": "Founder Vassili le Moigne was living abroad while his mother was aging at home. Unable to call as often as he wanted due to time zones and busy days, he built inTouch to ensure someone kind and thoughtful would be calling during times he couldn't.",
+    "key_milestones": [
+      {"year": 2023, "event": "Founded in Prague"},
+      {"year": 2025, "event": "Top 3 at Vivatech VC pitch competition in Paris"},
+      {"year": 2025, "event": "Won Best AI Innovation of 2025 Award at SilverEco International Awards in Cannes"},
+      {"year": 2025, "event": "3,000+ calls completed in first 6 months of service"},
+      {"year": 2026, "event": "Partnership with HMD and Nokia to bring AI companion to Nokia phones"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 10,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Vassili le Moigne", "role": "Founder & CEO", "source": "company_website"},
+      {"name": "Jan", "role": "Co-Founder & CTO", "source": "company_website"},
+      {"name": "Julius", "role": "Co-Founder & Advisor", "source": "company_website"},
+      {"name": "Charlie", "role": "COO", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Soheyla", "role": "AI Product Lead", "source": "company_website"},
+      {"name": "Peter", "role": "Lead Engineer", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Best AI Innovation of 2025 — SilverEco International Awards (Cannes)",
+      "Top 3 at Vivatech VC Pitch Competition (Paris, 2025)"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["HMD / Nokia (2026)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "inTouch's core voice AI capability (conversational companion calls) could be replicated by foundation models, but their moat lies in senior-specific UX design, HIPAA compliance, longitudinal relationship-building, and integrations with care facility workflows. The emotional and domain-specific tuning provides some defensibility.",
+    "market_risk": "low",
+    "market_risk_rationale": "Senior loneliness and cognitive decline is a massive, growing, and underserved global market — 1B+ seniors with 75% of those 80+ reporting loneliness. Aging demographics guarantee secular tailwinds and the company has won international recognition validating product-market fit.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No disclosed funding, very small team of ~10, and early-stage traction (3K calls in 6 months). As a pre-seed/seed startup in Prague without confirmed runway, there is meaningful execution and survival risk.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong market tailwinds and international award recognition offset the execution risk of a small, unfunded startup. The core AI technology is replicable, but the senior-care domain focus, HIPAA compliance, and partnership with Nokia provide a path to differentiation."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "careers_url", "open_roles_count", "founded_year_exact"],
+    "needs_review": false,
+    "notes": "Founded year estimated as 2023 based on CEO reference to 'two years of work' in October 2025 blog post. Full last names of co-founders Jan and Julius not publicly listed on website. Company address: Podolská 401/50, 147 00 Praha."
+  }
+}
