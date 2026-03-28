@@ -1,0 +1,126 @@
+{
+  "id": "apple",
+  "name": "Apple",
+  "category": "company",
+  "scraped_at": "2026-03-28T19:25:00Z",
+
+  "overview": {
+    "description": "Global technology company with a Prague development center focused on Core OS biometrics (Face ID / Touch ID) and ML-based biometric algorithms.",
+    "description_long": "Apple Inc. is the world's most valuable technology company, designing and manufacturing consumer electronics (iPhone, Mac, iPad, Apple Watch), software (iOS, macOS, watchOS, visionOS), and services (App Store, Apple Intelligence, iCloud). In Prague, Apple operates a Core OS development center that has been active for several years and expanded in 2022. The Prague team focuses specifically on biometric security: Core OS kernel-level biometric subsystems and machine learning models for biometric algorithms (Face ID, Touch ID). The team works closely with Apple's hardware chip teams (Apple Silicon) and Intel/ARM. Globally, Apple has invested heavily in on-device AI through Apple Intelligence, Siri, Core ML, and its Neural Engine integrated into Apple Silicon chips. Apple had 166,000 employees worldwide and generated US$416 billion in revenue in fiscal year 2025.",
+    "tagline": "Think Different.",
+    "website": "https://www.apple.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["cv", "ml_ops", "nlp", "speech", "generative_ai"],
+    "industries_served": ["consumer_electronics", "software", "services", "healthcare", "enterprise"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1976,
+    "founders": ["Steve Jobs", "Steve Wozniak", "Ronald Wayne"],
+    "origin_story": "Founded on April 1, 1976 in Cupertino, California by Steve Jobs, Steve Wozniak, and Ronald Wayne to design, manufacture, and sell personal computers.",
+    "key_milestones": [
+      {"year": 1976, "event": "Founded in Cupertino, California"},
+      {"year": 1984, "event": "Launch of Macintosh computer"},
+      {"year": 2007, "event": "Launch of iPhone, transforming mobile computing"},
+      {"year": 2010, "event": "Launch of iPad"},
+      {"year": 2011, "event": "Siri introduced as AI assistant on iPhone 4S"},
+      {"year": 2020, "event": "Apple Silicon (M1) launched with dedicated Neural Engine for on-device AI"},
+      {"year": 2022, "event": "Prague Core OS development center expanded with kernel engineering and biometrics team"},
+      {"year": 2024, "event": "Apple Intelligence platform launched — on-device generative AI across all Apple devices"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 166000,
+    "employee_source": "wikipedia_2025",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Cupertino", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Austin", "country": "US", "is_hq": false},
+    {"city": "Cork", "country": "IE", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Munich", "country": "DE", "is_hq": false},
+    {"city": "Los Angeles", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "AAPL",
+    "stock_exchange": "NASDAQ",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 416000000000,
+    "revenue_source": "wikipedia_fy2025",
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tim Cook", "role": "CEO", "source": "company_website"},
+      {"name": "Jeff Williams", "role": "COO", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Steve Jobs", "role": "Co-founder (deceased 2011)", "source": "wikipedia"},
+      {"name": "Steve Wozniak", "role": "Co-founder", "source": "wikipedia"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://jobs.apple.com/en-us/search?location=prague-PRG",
+    "open_roles_count": 2,
+    "open_roles": [
+      {"title": "Software Development Engineer - Core OS Biometrics", "department": "engineering", "location": "Prague"},
+      {"title": "ML Engineer / Architect / Data Scientist — Biometric Algorithms", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["swift", "c", "c++", "python", "core_ml", "metal"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Apple-EI_IE1138.11,16.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Fortune Most Admired Companies (perennial leader)",
+      "Best CEOs 2021 Large Companies (Comparably)"
+    ],
+    "notable_clients": null,
+    "customer_count": null,
+    "partnerships": ["Intel", "ARM"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Apple is a primary builder of AI infrastructure: Apple Silicon Neural Engine, Core ML, and Apple Intelligence run AI on-device at the OS/hardware level. The Prague team works on biometric algorithms deeply integrated into secure hardware (Secure Enclave), which foundation models cannot replicate or commoditize.",
+    "market_risk": "low",
+    "market_risk_rationale": "Apple has ~2 billion active devices, $416B annual revenue, and an entrenched ecosystem moat across hardware, software, and services. The biometrics market for mobile security is essential and growing with no signs of commoditization.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Apple is the world's most valuable publicly-traded company (AAPL on NASDAQ) with massive cash reserves and no funding risk.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Apple combines an impenetrable hardware-software ecosystem with a deepening AI strategy (Apple Intelligence, Neural Engine) and a Prague team working on proprietary biometric security — areas where AGI commoditization risk is minimal and market position is extremely strong."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "jobs_apple_com", "expats_cz", "wikipedia", "comparably"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "prague_team_size", "office_count"],
+    "needs_review": false,
+    "notes": "Apple's Prague presence is a Core OS development center focused on biometric security (Face ID/Touch ID). As of Dec 2025, Prague has 2 open roles: Core OS Biometrics SWE and ML Engineer for Biometric Algorithms. No official Apple Store exists in Prague. Glassdoor was login-walled; Comparably shows 80% positive reviews from 1902 reviewers."
+  }
+}
