@@ -1,0 +1,110 @@
+{
+  "id": "no-big-deals",
+  "name": "no big deals",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-native software agency specialising in digital transformation, AI implementation, and on-premise AI infrastructure for Czech and Central European businesses",
+    "description_long": "no big deals s.r.o. is a Prague-based AI-native agency that helps organisations digitise processes, build custom AI solutions, and deploy on-premise AI infrastructure. Core offerings include a 4-step digital-transformation methodology (AI audit → problem map → development → continuous support), two proprietary products (Forge.AI: on-premise AI infrastructure with 150+ open-source models and enterprise hardware; Auditbot: AI-driven organisational audit chatbot), and bespoke AI integration across sectors including manufacturing, healthcare, education, finance, and customer service.",
+    "tagline": "Audit, vývoj, implementace AI – méně nákladů, více zisku",
+    "website": "https://nobig.deals",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "generative_ai", "ml_ops"],
+    "industries_served": ["manufacturing", "healthcare", "education", "finance", "customer_service", "government"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2025,
+    "founders": ["Michal (CTO)", "Jan (CSO)"],
+    "origin_story": "Founded in 2025 by two co-founders with backgrounds in software engineering and strategic consulting, drawing on 15+ years of combined experience in digital transformation. Incorporated as no big deals s.r.o. in June 2025 in Prague.",
+    "key_milestones": [
+      {"year": 2025, "event": "Incorporated (IČ 23362642), launched nobig.deals and products Forge.AI and Auditbot"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 8,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Michal", "role": "Founder / CTO", "source": "company_website"},
+      {"name": "Jan", "role": "Co-Founder / CSO", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Tereza", "role": "Project Manager", "source": "company_website"},
+      {"name": "Roman", "role": "Data Scientist", "source": "company_website"},
+      {"name": "Filip", "role": "Fullstack Developer", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.startupjobs.cz/startup/no-big-deals-s-r-o",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "Full-Stack Developer", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "n8n", "kubernetes", "rest_api", "graphql", "mlops", "open-source-llms"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core value is AI consulting and integration, which is commoditisable, but proprietary products (Forge.AI on-premise AI infrastructure and Auditbot) plus local Czech market expertise provide some differentiation. Customer lock-in through end-to-end implementation and support relationships mitigates near-term risk.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Czech SMB digital-transformation consulting market is real and growing, but highly fragmented with many boutique agencies and larger SIs competing for the same customers. Demand for on-premise AI (Forge.AI) may provide a stickier niche.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Incorporated in June 2025 with no known external funding. Very small team of 8 with unclear revenue traction. Bootstrapped micro-startup at highest-risk stage of existence.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Very early-stage startup (incorporated 2025) with no disclosed funding, small team, and a services-heavy model in a competitive market. While proprietary products add potential upside, the company has yet to demonstrate scale or financial resilience."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ares_czech_registry", "startupjobs", "duckduckgo_snippets"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "notable_clients", "founders_full_names"],
+    "needs_review": false,
+    "notes": "Company incorporated 2025-06-05 per ARES Czech business registry (IČ 23362642). Founder first names only published on website (Michal/Jan). Website also accessible at nobigdeals.cz. Previous registered address was Vršovická 817/5; current HQ is Uralská 688/5, Bubeneč, Praha 6."
+  }
+}
