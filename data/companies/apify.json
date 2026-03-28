@@ -2,249 +2,137 @@
   "id": "apify",
   "name": "Apify",
   "category": "company",
-  "scraped_at": "2026-03-28T00:00:00Z",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
   "overview": {
-    "description": "Apify is a full-stack web scraping and data extraction platform that enables developers and businesses to extract structured data from any website and automate web workflows.",
-    "description_long": "Founded in 2015 from Y Combinator Fellowship, Apify provides a cloud platform for web scraping, browser automation, and data extraction at scale. The platform features a marketplace of over 21,000 ready-made scraping tools (called Actors), open-source Crawlee library, proxy infrastructure, and integrations with AI/LLM ecosystems. Apify serves 25,000+ customers worldwide including enterprise clients like Siemens, Microsoft, T-Mobile, and Accenture, processing over 1 PB of data monthly.",
-    "tagline": "Get real-time web data for your AI",
+    "description": "Web scraping and browser automation platform powering AI data pipelines for developers and enterprises",
+    "description_long": "Apify is the world's largest platform for web scraping and browser automation, providing 22,000+ ready-made 'Actors' (cloud-based scraping tools) for extracting web data at scale. With 25,000+ customers worldwide and 1 PB+ of data processed monthly, Apify is repositioning as core AI data infrastructure — offering an MCP server so AI agents can access web data, and providing high-quality training data for LLMs and AI applications. Crawlee, their open-source web scraping library, is a key developer-community asset.",
+    "tagline": "Get more value from the web",
     "website": "https://apify.com",
     "cnaip_url": null
   },
+
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": [
-      "data_engineering",
-      "automation"
-    ],
-    "industries_served": [
-      "technology",
-      "e-commerce",
-      "marketing",
-      "consulting",
-      "telecommunications",
-      "ai_and_machine_learning"
-    ],
+    "ai_focus": ["automation", "data_engineering"],
+    "industries_served": ["developer_tools", "ecommerce", "finance", "marketing", "research", "media"],
     "company_type": "scaleup",
     "is_ai_native": false
   },
+
   "history": {
     "founded_year": 2015,
-    "founders": [
-      "Jan Curn",
-      "Jakub Balada"
-    ],
-    "origin_story": "Apify was launched by Jan Curn and Jakub Balada in 2015 from the Y Combinator Fellowship in Mountain View, California. The original idea was to make it easy for developers to build flexible and scalable web crawlers using front-end JavaScript with headless browser technology. In 2016, the team moved back to the Czech Republic, raised a seed investment, and started building a full-stack platform for web scraping and browser automation.",
+    "founders": ["Jan Čurn", "Jakub Balada"],
+    "origin_story": "Launched in 2015 from the Y Combinator Fellowship in Mountain View, California by Jan Čurn and Jakub Balada. Originally built to make flexible, scalable web crawlers using headless browser technology. In 2016, the team moved back to the Czech Republic, raised seed investment, and built a full-stack web scraping and browser automation platform.",
     "key_milestones": [
-      "2015: Founded from Y Combinator Fellowship in Mountain View",
-      "2016: Moved back to Czech Republic, raised seed investment",
-      "2019: Secured additional funding from Reflex Capital",
-      "2024: Raised EUR 2.8M (~$3M) led by J&T Ventures with participation from Reflex Capital",
-      "2024: Reached $13.3M in revenue with 116 employees",
-      "2024: Launched MCP server integration for AI agent connectivity"
+      {"year": 2015, "event": "Founded via Y Combinator Fellowship, Mountain View, CA"},
+      {"year": 2016, "event": "Returned to Czech Republic and raised seed investment"},
+      {"year": 2021, "event": "Reported $11M funding round for web scraping platform growth"},
+      {"year": 2024, "event": "Raised €2.8M for AI data mining (tech.eu)"},
+      {"year": 2024, "event": "Ranked in Sifted 30 fastest-growing startups in Central Europe"},
+      {"year": 2025, "event": "Launched Apify MCP server enabling AI agents to access 22,000+ web data Actors"}
     ]
   },
+
   "size": {
     "employees_range": "51-200",
-    "employees_exact": 116,
-    "employee_source": "LATKA (2024)",
-    "office_count": 3
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 2
   },
+
   "offices": [
-    {
-      "city": "Prague",
-      "country": "CZ",
-      "is_hq": true
-    },
-    {
-      "city": "Brno",
-      "country": "CZ",
-      "is_hq": false
-    },
-    {
-      "city": "Ostrava",
-      "country": "CZ",
-      "is_hq": false
-    }
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false}
   ],
+
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
     "stock_exchange": null,
     "parent_company": null,
-    "funding_total_usd": 3290000,
+    "funding_total_usd": null,
     "funding_rounds": [
-      {
-        "date": "2016",
-        "round": "Seed",
-        "amount_usd": null,
-        "investors": [
-          "Reflex Capital"
-        ]
-      },
-      {
-        "date": "2024-04",
-        "round": "Funding Round",
-        "amount_usd": 2980000,
-        "investors": [
-          "J&T Ventures",
-          "Reflex Capital"
-        ]
-      }
+      {"date": "2016", "type": "Seed", "amount_usd": null, "lead_investor": "Reflex Capital"},
+      {"date": "2021-11", "type": "Series A", "amount_usd": 11000000, "lead_investor": null},
+      {"date": "2024-04", "type": "unknown", "amount_usd": 3000000, "lead_investor": null}
     ],
-    "investors": [
-      "Y Combinator",
-      "J&T Ventures",
-      "Reflex Capital"
-    ],
-    "revenue_estimate_usd": 13300000,
-    "revenue_source": "LATKA (2024)",
+    "investors": ["Reflex Capital", "JT Ventures"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
     "business_model": "usage_based"
   },
+
   "team": {
     "leadership": [
-      {
-        "name": "Jan Curn",
-        "role": "Founder & CEO",
-        "source": "apify.com/about"
-      },
-      {
-        "name": "Jakub Balada",
-        "role": "Co-founder",
-        "source": "apify.com/about"
-      },
-      {
-        "name": "Marek Trunkat",
-        "role": "CTO",
-        "source": "apify.com/about"
-      },
-      {
-        "name": "Ondra Urban",
-        "role": "COO",
-        "source": "apify.com/about"
-      },
-      {
-        "name": "Dusan Antos",
-        "role": "CFO",
-        "source": "apify.com/about"
-      },
-      {
-        "name": "Simona Baxa",
-        "role": "VP of People",
-        "source": "apify.com/about"
-      },
-      {
-        "name": "Jan Zenisek",
-        "role": "VP of Product",
-        "source": "apify.com/about"
-      },
-      {
-        "name": "Petra Chocholova",
-        "role": "Chief of Staff",
-        "source": "apify.com/about"
-      },
-      {
-        "name": "Oliver Lompart",
-        "role": "Head of Marketing",
-        "source": "apify.com/about"
-      }
+      {"name": "Jan Čurn", "role": "Founder & CEO", "source": "company_website"},
+      {"name": "Jakub Balada", "role": "Co-founder", "source": "company_website"},
+      {"name": "Marek Trunkat", "role": "CTO", "source": "company_website"},
+      {"name": "Ondra Urban", "role": "COO", "source": "company_website"},
+      {"name": "Dušan Antoš", "role": "CFO", "source": "company_website"},
+      {"name": "Simona Baxa", "role": "VP of People", "source": "company_website"},
+      {"name": "Jan Zeniček", "role": "VP of Product", "source": "company_website"},
+      {"name": "Petra Chocholová", "role": "Chief of Staff", "source": "company_website"},
+      {"name": "Oliver Lompart", "role": "Head of Marketing", "source": "company_website"}
     ],
     "notable_people": []
   },
+
   "careers": {
-    "careers_url": "https://apify.com/careers",
+    "careers_url": "https://apify.com/jobs",
     "open_roles_count": 16,
     "open_roles": [
-      "Backend Engineer for Web Automation team (Node.js)",
-      "Software Engineer for Fraud Prevention (TypeScript)",
-      "Fullstack Engineer (React/Node.js)",
-      "Senior Backend Engineer for proxy and unblocking",
-      "Senior Backend Engineer for developer platform (Node.js/TypeScript)",
-      "Backend Engineer for open source frameworks (TypeScript)",
-      "Get paid on Apify (Remote, Part time)",
-      "Lifecycle Content Marketer",
-      "Junior Sales Engineer",
-      "Head of Brand",
-      "Video Content Producer",
-      "Support Operations Engineer",
-      "SEO specialist (Technical SEO focus)",
-      "Junior Legal Counsel",
-      "Senior Visual Designer",
-      "Senior Data Scientist",
-      "Senior Product Manager for Core Product"
+      {"title": "Backend Engineer for Web Automation team (Node.js)", "department": "engineering", "location": "Prague/Brno/Ostrava"},
+      {"title": "Software Engineer for Fraud Prevention (TypeScript)", "department": "engineering", "location": "Prague/Brno/Ostrava"},
+      {"title": "Fullstack Engineer (React/Node.js)", "department": "engineering", "location": "Prague/Brno/Ostrava"},
+      {"title": "Senior Backend Engineer for proxy and unblocking", "department": "engineering", "location": "Prague/Brno/Ostrava"},
+      {"title": "Senior Backend Engineer for developer platform (Node.js/TypeScript)", "department": "engineering", "location": "Prague/Brno/Ostrava"},
+      {"title": "Backend Engineer for open source frameworks (TypeScript)", "department": "engineering", "location": "Prague/Brno/Ostrava"},
+      {"title": "GTM Lifecycle Content Marketer", "department": "marketing", "location": "Prague"},
+      {"title": "Junior Sales Engineer", "department": "sales", "location": "Prague"},
+      {"title": "Head of Brand", "department": "marketing", "location": "Prague"},
+      {"title": "Video Content Producer", "department": "marketing", "location": "Prague"},
+      {"title": "Support Operations Engineer", "department": "operations", "location": "Prague/Brno"},
+      {"title": "SEO Specialist (Technical SEO focus)", "department": "marketing", "location": "Prague"},
+      {"title": "Junior Legal Counsel", "department": "operations", "location": "Prague/Brno"},
+      {"title": "Senior Visual Designer", "department": "product", "location": "Prague"},
+      {"title": "Senior Data Scientist", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Product Manager for Core Product", "department": "product", "location": "Prague"}
     ],
-    "tech_stack": [
-      "Node.js",
-      "TypeScript",
-      "React",
-      "Python",
-      "JavaScript",
-      "Playwright",
-      "Puppeteer",
-      "Selenium",
-      "Scrapy",
-      "Crawlee",
-      "headless browsers"
-    ],
+    "tech_stack": ["node.js", "typescript", "react", "python", "aws"],
     "hiring_signals": "actively_hiring"
   },
+
   "glassdoor": {
-    "rating": 4.9,
-    "review_count": 37,
+    "rating": null,
+    "review_count": null,
     "recommend_pct": null,
-    "glassdoor_url": "https://www.glassdoor.com/Reviews/Apify-Reviews-E3100324.htm"
+    "glassdoor_url": null
   },
+
   "recognition": {
-    "awards": [
-      "Sifted 30 - fastest-growing startups across Central Europe"
-    ],
-    "notable_clients": [
-      "Siemens",
-      "Intercom",
-      "Microsoft",
-      "T-Mobile",
-      "Accenture"
-    ],
+    "awards": ["Sifted 30 fastest-growing startups in Central Europe (2024)"],
+    "notable_clients": ["Microsoft", "Accenture"],
     "customer_count": 25000,
-    "partnerships": [
-      "European Startup Embassy (SF hacker house)",
-      "AAIF (Linux Foundation agentic AI standards)",
-      "Hlidac Shopu (founder)",
-      "Realitni pes (technology partner)",
-      "prg.ai (industry member since 2018)",
-      "Czechitas (supporter)",
-      "Czech Startup Association (supporter)"
-    ]
+    "partnerships": ["AWS", "Y Combinator Alumni", "Linux Foundation (AAIF - agentic AI standards)"]
   },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Apify's core moat is its 22,000+ community-built Actors and anti-bot/proxy infrastructure at scale. While foundation models improve at web navigation, Apify's network effects (marketplace, developer ecosystem, $596k+ monthly developer payouts), anti-blocking infrastructure, and pivot to AI data/MCP integration create meaningful defensibility. However, computer-use AI agents could commoditize some scraping use cases over time.",
+    "market_risk": "low",
+    "market_risk_rationale": "Demand for web data is accelerating sharply with LLM training needs, AI agent pipelines, and enterprise data automation. Apify is well-positioned as core AI data infrastructure with 25,000+ paying customers. The Sifted 30 ranking and AWS partnership confirm strong market traction.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-funded with Reflex Capital and JT Ventures backing, a reported $11M Series A in 2021, and additional €2.8M in April 2024. With 25,000+ customers and usage-based revenue, the company likely has strong recurring revenue and is close to or at profitability.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Apify combines strong market tailwinds (AI data demand), a large customer base (25,000+), a developer ecosystem moat (22,000+ Actors), and a smart pivot toward AI infrastructure (MCP server, LLM training data). Founded in 2015 and backed by Czech VCs, it is one of the most established Czech AI/tech scaleups with durable defensibility."
+  },
+
   "metadata": {
     "data_quality": "high",
-    "sources_used": [
-      "apify.com (homepage)",
-      "apify.com/about",
-      "apify.com/careers",
-      "Google Search (funding)",
-      "DuckDuckGo (Glassdoor snippets)",
-      "DuckDuckGo (revenue/ARR)",
-      "tech.eu",
-      "vestbee.com",
-      "getlatka.com",
-      "pitchbook.com (snippet)",
-      "tracxn.com (snippet)",
-      "therecursive.com (snippet)"
-    ],
-    "fields_missing": [
-      "glassdoor.recommend_pct"
-    ],
+    "sources_used": ["company_website", "tech.eu"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "glassdoor_review_count"],
     "needs_review": false,
-    "notes": "Revenue figure of $13.3M comes from LATKA for 2024. PitchBook lists total funding as $3.29M. Company has been profitable and growing from its own revenue since 2019 seed round until the 2024 round. Apify was originally a web scraping tool but has pivoted significantly toward AI data infrastructure. HQ is in Lucerna Palace, Prague; Brno office in Titanium business center."
-  },
-  "risk_assessment": {
-    "agi_displacement": "low",
-    "agi_displacement_rationale": "Domain-specific focus (data_engineering) with proprietary tech or established customer base provides moat against foundation model commoditization.",
-    "market_risk": "low",
-    "market_risk_rationale": "Established customer base with proven market demand.",
-    "funding_risk": "low",
-    "funding_risk_rationale": "Revenue-generating — has path to sustainability regardless of external funding.",
-    "overall_risk": "low",
-    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
+    "notes": "Founded 2015 via YC Fellowship. HQ in Lucerna Palace, Prague; second office in Brno Titanium business center. Apify calls employees 'Apifiers'. Marketplace pays out $596k+ to developers monthly. The 2021 $11M figure is from tech.eu URL slug (article body blocked by Cloudflare); the 2024 €2.8M raise confirmed via tech.eu article linked directly from apify.com/about. Investors confirmed via apify.com/about: Reflex Capital and JT Ventures. Glassdoor blocked; LinkedIn not directly scraped."
   }
 }
