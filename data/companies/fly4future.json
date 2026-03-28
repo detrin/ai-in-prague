@@ -1,0 +1,119 @@
+{
+  "id": "fly4future",
+  "name": "Fly4Future",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Autonomous drones, AI, and robotics for industrial and research applications",
+    "description_long": "Fly4Future is a Prague-based spinout of the Multi-Robot Systems group at Czech Technical University (MRS CTU). The company integrates drones, artificial intelligence, and robotics into fully autonomous UAV systems for a wide range of applications including inspection, surveillance, agriculture, security, and research. Products include custom-built autonomous drones, RoboFly (a research robot drone platform), Digital Hub (mission planning and monitoring software), and DroneBuilder (an online custom drone configuration tool). All UAV platforms support NDAA compliance for US government and defense markets.",
+    "tagline": "Flying robots designed to solve challenges beyond the limits of conventional drone technology",
+    "website": "https://fly4future.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["robotics", "cv", "automation"],
+    "industries_served": ["defense", "agriculture", "manufacturing", "energy", "research"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2017,
+    "founders": ["Věra Sasková", "Martin Saska", "Tomáš Báča"],
+    "origin_story": "Spinout of the Multi-Robot Systems group at Czech Technical University in Prague (MRS CTU), one of the world's leading robotics research centers. Founded to bridge the gap between academic robotics research and real-world commercial applications.",
+    "key_milestones": [
+      {"year": 2017, "event": "Founded as a spinout of MRS CTU in Prague"},
+      {"year": 2024, "event": "Milestone of 100 aerial robots sold"},
+      {"year": 2024, "event": "Won AI Awards 2024 for AI transfer into business solutions"},
+      {"year": 2024, "event": "Won SPRIND Funke Fully Autonomous Flight competition in Germany"},
+      {"year": 2024, "event": "Selected to accompany Czech President on US business mission"},
+      {"year": 2025, "event": "Bronze medal at Autonomous Racing League (A2RL) finals in Abu Dhabi; AI-powered drones outraced human pilots"},
+      {"year": 2025, "event": "Eagle.one drone hunter system recognized in European Commission State of the Union report"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Věra Sasková", "role": "CEO", "source": "company_website"},
+      {"name": "Martin Saska", "role": "CTO", "source": "company_website"},
+      {"name": "Tomáš Báča", "role": "Co-owner", "source": "linkedin"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://fly4future.com/career/",
+    "open_roles_count": 3,
+    "open_roles": [
+      {"title": "HW PCB Designer", "department": "hardware", "location": "Prague"},
+      {"title": "HW Engineer", "department": "hardware", "location": "Prague"},
+      {"title": "Robotics SW Engineer", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["ros", "python", "raspberry-pi"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Winner – AI Awards 2024 (AI in Business category)",
+      "Winner – SPRIND Funke Fully Autonomous Flight Competition 2024",
+      "Bronze Medal – Autonomous Racing League (A2RL) Abu Dhabi 2025"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Axis Communications", "Workswell", "Advacam", "Czech Technical University (MRS CTU)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Physical autonomous drone hardware company — foundation models cannot replace physical UAVs or the firmware stack required for autonomous flight in GNSS-denied environments, swarm coordination, and real-time obstacle avoidance. Deep expertise in robotics hardware, embedded AI, and ROS-based autonomy creates a strong technical moat.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Autonomous drone market is growing rapidly (defence, inspection, agriculture) but is competitive with established players like DJI and Skydio. NDAA compliance opens the US government and defence market, and EU-funded research projects provide stable revenue streams. Still a small player and dependent on niche custom projects.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No disclosed VC funding rounds; revenue relies on custom drone sales (100+ units milestone in Jan 2024), EU/Czech government research grants, and competition prizes (SPRIND Funke). Small team (11-50 employees) limits operational runway but grant income and product sales provide partial stability.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong technical moat in autonomous robotics hardware with CTU research backing and award-winning AI systems. Low AGI displacement risk but medium funding risk due to small size, no disclosed external investment, and reliance on grants and bespoke contracts in a competitive hardware market."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin", "yahoo_search"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor", "employees_exact", "cnaip_url"],
+    "needs_review": false,
+    "notes": "Co-owners confirmed via LinkedIn 2026 post: Věra Sasková, Martin Saska, Tomáš Báča. Business model is a mix of custom hardware product sales, EU/Czech-funded research projects, and prototyping services — closest enum match is 'other'. No Glassdoor presence found in search snippets."
+  }
+}
