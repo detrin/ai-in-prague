@@ -1,0 +1,103 @@
+{
+  "id": "offiseek",
+  "name": "Offiseek",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Production planning SaaS for small and medium manufacturers and breweries, with AI features",
+    "description_long": "Offiseek is an online platform for production planning targeting small and medium-sized businesses in manufacturing and brewery sectors. The platform offers dashboards for production planning, transport planning, stock management, quality assurance, maintenance, price monitoring, and energy monitoring. AI features include an AI copilot and AI Reporter — a tool that tracks forex rates, energy prices, and answers custom business data questions daily. Founded by Filip Masri, who previously worked on ML systems for document processing at Xerox PARC and held a product management role at Rossum.",
+    "tagline": "Production planning simply, clearly and traceably.",
+    "website": "https://www.offiseek.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["automation", "ml_ops", "other"],
+    "industries_served": ["manufacturing", "food_and_beverage"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Filip Masri"],
+    "origin_story": "Founded as a factory spin-off by Filip Masri, who previously developed ML systems for document processing at Xerox PARC and was at Rossum during its $100M investment round.",
+    "key_milestones": [
+      {"year": 2024, "event": "Website domain registered (offiseek.com), platform publicly launched"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred_from_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Filip Masri", "role": "Founder & CEO", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.offiseek.com/contact",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["KSK Belt", "Motoveterandily"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Offiseek's AI features (AI Reporter, AI copilot) are thin layers over data monitoring and question-answering that are easily replicable with off-the-shelf LLM APIs. The core production planning product is vertical SaaS but the AI differentiation is minimal and highly commoditizable.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Production planning for SMBs is a real and underserved market, but it is competitive with established players (Monday.com, Odoo, various ERP systems). Offiseek's brewery and small manufacturer niche provides some focus but limits total addressable market.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known funding rounds, very small team (likely solo or 2-3 people), only 2 named customers. The company appears pre-revenue at scale and lacks runway signals needed to sustain growth.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Early-stage micro-startup with no known funding, minimal customer base, and thin AI differentiation. High risk across AGI displacement, funding sustainability, and market traction."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor"],
+    "needs_review": false,
+    "notes": "No CNAIP URL provided. Czech version at offiseek.cz. Founder Filip Masri has strong ML background (Xerox PARC, Rossum). Company is very early stage. Last website publish date: March 26, 2026."
+  }
+}
