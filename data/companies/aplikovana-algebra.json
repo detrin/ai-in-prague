@@ -1,0 +1,116 @@
+{
+  "id": "aplikovana-algebra",
+  "name": "Aplikovaná algebra a geometrie",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T22:50:00Z",
+
+  "overview": {
+    "description": "Applied Algebra and Geometry research group at CIIRC CTU Prague, focusing on computer vision, robotics, and machine learning",
+    "description_long": "The Applied Algebra and Geometry group (AAG) is part of CIIRC CTU's Department of Robotics and Machine Perception (RMP). The group uses algebra, geometry, and optimization to address research questions in computer vision, robotics, and machine learning. Key research themes include Geometry and Algebra of Computer Vision, Robotics, and Machine Learning, and Neural Rendering and Privacy-Preserving 3D Representations. The group is led by principal researchers Tomas Pajdla and Torsten Sattler and participates in major EU projects including ELIAS, ELISE, ROBOPROX, RICAIP, and SPRING.",
+    "tagline": "Algebra, geometry, and optimization for computer vision, robotics, and machine learning",
+    "website": "https://www.ciirc.cvut.cz/en/teams-labs/rmp/aag/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["cv", "robotics", "other"],
+    "industries_served": ["robotics", "computer_vision", "healthcare"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2013,
+    "founders": ["Tomas Pajdla"],
+    "origin_story": "The AAG group was established as part of CIIRC CTU, which was founded on July 1, 2013 by the former rector of CTU prof. Václav Havlíček. The group focuses on applying algebraic and geometric methods to computer vision and robotics problems.",
+    "key_milestones": [
+      {"year": 2013, "event": "CIIRC CTU founded, AAG group established under IV. RMP department"},
+      {"year": 2017, "event": "CIIRC moves to new building at Jugoslávských partyzánů 1580/3, Prague 6, Dejvice"},
+      {"year": 2020, "event": "SPRING EU H2020 project launched – Socially Pertinent Robots in Gerontological Healthcare"},
+      {"year": 2021, "event": "ELISE EU H2020-ICT-48 project – European Learning and Intelligent Systems Excellence"},
+      {"year": 2022, "event": "ELIAS EU Horizon project launched – European Lighthouse of AI for Sustainability"},
+      {"year": 2023, "event": "GACS EXPRO 23-07973X grant awarded – A Unified 3D Map Representation; ROBOPROX project ongoing"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "ciirc_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (ČVUT) / CIIRC",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomas Pajdla", "role": "Principal Researcher", "source": "ciirc_website"},
+      {"name": "Torsten Sattler", "role": "Principal Researcher", "source": "ciirc_website"}
+    ],
+    "notable_people": [
+      {"name": "Michal Polic", "role": "Researcher", "source": "ciirc_website"},
+      {"name": "Pavel Trutman", "role": "PhD Student", "source": "ciirc_website"},
+      {"name": "Viktor Korotynskiy", "role": "PhD Student", "source": "ciirc_website"},
+      {"name": "Jonas Kulhánek", "role": "PhD Student", "source": "ciirc_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.ciirc.cvut.cz/cs/about/open-positions/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD Student (Computer Vision / Geometry)", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "pytorch", "c++", "geometry", "optimization"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["ELIAS – European Lighthouse of AI for Sustainability", "ELISE – European Learning and Intelligent Systems Excellence (H2020)", "RICAIP – Research and Innovation Centre on Advanced Industrial Production", "SPRING – Socially Pertinent Robots in Gerontological Healthcare (H2020)", "ROBOPROX – Robotics and Advanced Industrial Production"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at CIIRC CTU; develops fundamental methods in geometry and algebra for computer vision and robotics, not a commercial product that can be displaced.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "University research group funded through EU Horizon grants and Czech Science Foundation grants, not subject to commercial market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Institutionally supported by CIIRC CTU and funded through competitive grants including EU H2020/Horizon (ELIAS, ELISE, SPRING), RICAIP, and Czech Science Foundation (GACS EXPRO 23-07973X). Grant-based funding is typical for university research groups.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research group at CTU's CIIRC; standard risk assessment does not apply. Sustainability depends on continued grant success and institutional support from Czech Technical University."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["ciirc_website", "seznam_search"],
+    "fields_missing": ["founded_year_exact", "glassdoor", "open_roles_count", "funding_amounts"],
+    "needs_review": true,
+    "notes": "Source data in companies_index.json classifies this as 'company' but entity is a university research group (AAG) at CIIRC CTU. Category corrected to 'research_group' in this output. CIIRC founded 2013; AAG group establishment date within CIIRC not independently confirmed. Team members listed as of website scrape date (2026-03-28)."
+  }
+}
