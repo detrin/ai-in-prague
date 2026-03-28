@@ -1,0 +1,99 @@
+{
+  "id": "waypoint-ai",
+  "name": "Waypoint AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T23:05:00Z",
+
+  "overview": {
+    "description": "Digital and cloud transformation consultancy using AI-assisted services",
+    "description_long": "Waypoint AI is an IT consultancy that helps enterprise businesses navigate cloud transformation, managed services, security and compliance, and strategic tooling. Their philosophy centres on client-first partnerships, with services spanning cloud migration, managed IT infrastructure, business application strategy, cybersecurity, and staffing/contracting for technical roles.",
+    "tagline": "Confidently Navigate IT with a trusted technology partner",
+    "website": "https://www.waypointai.io",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "ml_ops"],
+    "industries_served": ["enterprise_it", "cloud", "security"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": null,
+    "key_milestones": []
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "General IT consulting and cloud transformation services with no proprietary AI technology or data moat. Core services (cloud migration, managed services, staffing) are highly commoditised and increasingly automated by AI tools from AWS, Azure, and Google.",
+    "market_risk": "medium",
+    "market_risk_rationale": "IT consulting is a real and established market, but is highly competitive and dominated by large incumbents (Accenture, Deloitte, KPMG). A small firm with no visible differentiator faces significant market pressure.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known funding, no investors identified, and no revenue signals. The company appears to be a very small bootstrapped consultancy with a basic Wix website and minimal online presence, suggesting limited runway.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Combination of high AGI displacement risk (generic IT consulting), high funding risk (no external capital, tiny team), and strong competitive market makes this a high-risk entry in the Prague AI catalog."
+  },
+
+  "metadata": {
+    "data_quality": "low",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year", "founders", "leadership", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor"],
+    "needs_review": true,
+    "notes": "Manually added entry with no CNAIP URL. Website waypointai.io is a Wix site for 'Waypoint AI LLC' (US entity). No Czech business registry entry found in ARES/OR. Prague connection not independently confirmed — scraped based on manual index entry. Company appears to be a small general IT/cloud consulting firm with minimal AI-native features."
+  }
+}
