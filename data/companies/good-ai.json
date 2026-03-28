@@ -2,154 +2,118 @@
   "id": "good-ai",
   "name": "GoodAI",
   "category": "company",
-  "scraped_at": "2026-03-28",
+  "scraped_at": "2026-03-28T17:20:00Z",
+
   "overview": {
-    "description": "GoodAI is a Prague-based artificial intelligence research company focused on developing safe general artificial intelligence (AGI). The company's current work centers on LLM-based autonomous agents and AI brain software. GoodAI also runs a grants program supporting external AI researchers worldwide.",
+    "description": "Prague-based AGI research lab building general artificial intelligence through LLM agents, swarm robotics, and AI in games",
+    "description_long": "GoodAI was founded in 2014 with a $10M personal investment by Marek Rosa with the mission to develop safe general artificial intelligence as fast as possible to help humanity and understand the universe. The company conducts fundamental AI research, advocates for AI research at the EU governmental level, and runs the GoodAI Grants program. Current focus areas include LLM agents equipped with Long-Term Memory (LTM), the Prometheus autonomous drone swarm project (LLM-driven, GPS-denied indoor flight), and the AI People game featuring AI-simulated characters. GoodAI also operates a commercial arm (GoodAI Applied, now spun out as GoodAI Solutions) focused on industrial AI solutions.",
+    "tagline": "Develop safe general artificial intelligence – as fast as possible – to help humanity and understand the universe.",
     "website": "https://www.goodai.com",
-    "linkedin": "https://www.linkedin.com/company/goodai",
-    "crunchbase": "https://www.crunchbase.com/organization/goodai",
-    "twitter": null,
-    "github": null,
-    "tagline": "Develop safe general artificial intelligence - as fast as possible"
+    "cnaip_url": null
   },
+
   "classification": {
     "business_type": "research",
+    "ai_focus": ["generative_ai", "robotics", "nlp"],
+    "industries_served": ["research", "defense", "gaming", "manufacturing", "energy"],
     "company_type": "research_lab",
-    "ai_focus": [
-      "generative_ai",
-      "automation"
-    ],
-    "business_model": "other",
-    "tags": [
-      "agi",
-      "artificial-general-intelligence",
-      "llm-agents",
-      "ai-brain",
-      "ai-research",
-      "ai-grants"
-    ]
+    "is_ai_native": true
   },
+
   "history": {
     "founded_year": 2014,
-    "founders": [
-      {
-        "name": "Marek Rosa",
-        "role": "CEO & CTO",
-        "linkedin": "https://cz.linkedin.com/in/marekrosa1",
-        "background": "Slovak entrepreneur, programmer, and game developer. Also CEO and founder of Keen Software House (Space Engineers). Founded GoodAI with a personal investment of $10M to pursue AGI research."
-      }
-    ],
-    "milestones": [
-      {
-        "year": 2014,
-        "event": "GoodAI founded by Marek Rosa with $10M personal investment"
-      },
-      {
-        "year": 2017,
-        "event": "Launched GoodAI General AI Challenge to advance AGI research"
-      },
-      {
-        "year": 2020,
-        "event": "Launched GoodAI Grants initiative with $300,000 grant fund for AI research"
-      },
-      {
-        "year": 2023,
-        "event": "Shifted focus to LLM-based autonomous agents and practical AI applications"
-      }
+    "founders": ["Marek Rosa"],
+    "origin_story": "Founded in January 2014 by Marek Rosa, building on the success of his first company Keen Software House. Rosa personally invested $10M to pursue his lifelong dream of building general artificial intelligence.",
+    "key_milestones": [
+      {"year": 2014, "event": "GoodAI founded with $10M personal investment from Marek Rosa"},
+      {"year": 2016, "event": "R&D team grows to 20 researchers, scientists, and programmers; AI Roadmap Institute launched"},
+      {"year": 2017, "event": "General AI Challenge launched with $5M pledged in prize money to tackle AGI research problems"},
+      {"year": 2018, "event": "Human-Level AI 2018 multi-conference hosted by GoodAI"},
+      {"year": 2019, "event": "Badger Architecture published as unifying framework for modular lifelong learning"},
+      {"year": 2020, "event": "GoodAI Grants program launched with $300,000 pledged for external AI research projects"},
+      {"year": 2022, "event": "Co-hosted collective intelligence workshop at ICLR with Google Research and UCT Prague"},
+      {"year": 2024, "event": "Open-sourced GoodAI LTM Benchmark and Charlie Mnemonic (first LLM agent with Long-Term Memory)"},
+      {"year": 2025, "event": "Prometheus autonomous drone swarm project launched; AI People game developed"}
     ]
   },
+
   "size": {
     "employees_range": "11-50",
     "employees_exact": null,
-    "employees_source": "glassdoor_estimate",
-    "engineering_percentage": null
+    "employee_source": "inferred",
+    "office_count": 1
   },
+
   "offices": [
-    {
-      "city": "Prague",
-      "country": "Czech Republic",
-      "is_hq": true,
-      "address": null
-    }
+    {"city": "Prague", "country": "CZ", "is_hq": true}
   ],
+
   "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
     "funding_total_usd": 10000000,
     "funding_rounds": [
-      {
-        "date": "2014",
-        "round": "Self-funded",
-        "amount_usd": 10000000,
-        "investors": [
-          "Marek Rosa (personal investment)"
-        ],
-        "source": "goodai.com/about"
-      }
+      {"date": "2014-01", "type": "Founder Investment", "amount_usd": 10000000, "lead_investor": "Marek Rosa (personal)"}
     ],
-    "revenue_estimated_usd": 7700000,
-    "revenue_source": "zoominfo",
-    "is_profitable": null,
-    "last_valuation_usd": null
+    "investors": ["Marek Rosa"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
   },
+
   "team": {
-    "key_people": [
-      {
-        "name": "Marek Rosa",
-        "title": "CEO & CTO",
-        "linkedin": "https://cz.linkedin.com/in/marekrosa1"
-      }
+    "leadership": [
+      {"name": "Marek Rosa", "role": "Founder, CEO & CTO", "source": "company_website"},
+      {"name": "Olga Afanasjeva", "role": "COO", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Jaroslav Vitku", "role": "Senior Research Scientist", "source": "company_website"},
+      {"name": "Petr Hlubuček", "role": "Senior Research Scientist", "source": "company_website"}
     ]
   },
+
   "careers": {
-    "careers_page": "https://www.goodai.com/careers",
-    "hiring_signals": "unknown",
-    "open_roles_count": null,
-    "open_roles": [],
-    "notes": "Careers page could not be accessed due to SSL certificate issues on goodai.com"
+    "careers_url": "https://www.goodai.com/careers/",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "Senior Robotics Hardware Engineer (UAVs & Docking)", "department": "autonomous drone ai team", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "llm", "slam", "ros"],
+    "hiring_signals": "few_roles"
   },
+
   "glassdoor": {
-    "rating": 4.6,
-    "review_count": 20,
-    "recommend_percentage": 88,
-    "work_life_balance": 4.4,
-    "url": "https://www.glassdoor.com/Reviews/GoodAI-Reviews-E1038071.htm",
-    "sample_reviews": [
-      "Best Job experience ever",
-      "Good company to work at",
-      "The dream of artificial intelligence",
-      "A Fulfilling Experience",
-      "Learned a lot, high energy team"
-    ]
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
   },
+
   "recognition": {
     "awards": [],
-    "notable_mentions": [
-      "Featured in Forbes interview with Marek Rosa (2023)",
-      "Radio Prague International feature on AGI research (2016)",
-      "prg.ai interview: 'In search of general artificial intelligence' (2022)",
-      "Ran GoodAI General AI Challenge and GoodAI Grants ($300K fund)"
-    ]
+    "notable_clients": ["ŠKODA AUTO DigiLab", "The Diamond Pro"],
+    "customer_count": null,
+    "partnerships": ["University of Chemistry & Technology in Prague", "Google Research"]
   },
-  "metadata": {
-    "data_quality": "medium",
-    "sources": [
-      "google_search",
-      "glassdoor_snippets",
-      "zoominfo_snippet",
-      "tracxn_snippet",
-      "crunchbase_snippet",
-      "wikipedia_snippet"
-    ],
-    "notes": "GoodAI website (goodai.com) had SSL certificate issues preventing direct scraping. Company data primarily self-funded by founder Marek Rosa's $10M personal investment. Not to be confused with 'Goodai Global', a Korean cosmetics company. The About page states founding in 2014 while Tracxn lists 2015. Revenue figure from ZoomInfo is unverified and may be an estimate. Marek Rosa also runs Keen Software House, the game studio behind Space Engineers.",
-    "last_updated": "2026-03-28"
-  },
+
   "risk_assessment": {
     "agi_displacement": "not_applicable",
-    "agi_displacement_rationale": "Research/nonprofit entity — not subject to commercial displacement.",
-    "market_risk": "not_applicable",
-    "market_risk_rationale": "Research/nonprofit — not subject to commercial market risk.",
-    "funding_risk": "not_applicable",
-    "funding_risk_rationale": "Research/nonprofit — funded by grants, not venture capital.",
-    "overall_risk": "not_applicable",
-    "overall_risk_rationale": "All risk categories not applicable (research/nonprofit entity)."
+    "agi_displacement_rationale": "GoodAI is an AGI research lab — they are building toward AGI rather than being displaced by it. Their research on Long-Term Memory for LLMs and autonomous drone swarms positions them as contributors to the foundation model ecosystem, not potential victims.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The commercial opportunity for swarm robotics (Prometheus) is real and growing, particularly for defense/industrial GPS-denied environments. However, GoodAI's primary identity as a research lab means revenue generation is uncertain, and the company has pivoted focus multiple times (from pure AGI research to commercial AI solutions to drone swarms and games).",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "GoodAI is funded entirely by founder Marek Rosa's personal investment of $10M with no external VC funding. While Rosa is a successful entrepreneur (Keen Software House), reliance on a single founder's personal capital creates concentration risk. The GoodAI Grants program is currently closed to new applications, suggesting some financial conservatism.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "As a research-first organization with a single wealthy founder and no institutional funding, GoodAI faces sustainability questions. However, the Prometheus drone swarm project represents a tangible commercial opportunity with real defensibility (full-stack hardware + LLM software), and the team's deep AGI/LLM expertise is genuinely differentiated."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["employees_exact", "revenue_estimate_usd", "glassdoor_rating", "glassdoor_review_count", "cnaip_url"],
+    "needs_review": false,
+    "notes": "GoodAI is sister company to Keen Software House (Space Engineers game developer), both founded by Marek Rosa. GoodAI Solutions is a commercial spin-off handling industrial AI (predictive maintenance, visual inspection). Glassdoor and LinkedIn were inaccessible due to login walls/anti-bot protection."
   }
 }
