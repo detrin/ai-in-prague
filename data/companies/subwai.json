@@ -1,0 +1,104 @@
+{
+  "id": "subwai",
+  "name": "SubwAI",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-native grant infrastructure for technology companies",
+    "description_long": "SubwAI is an AI-native grant consultancy providing end-to-end grant infrastructure for European technology companies. They automate the full grant lifecycle — discovery, application writing, submission, and post-award compliance management — tracking 15,000+ active funding opportunities across EU programs (Horizon Europe, EIC), national agencies, and regional programs. They charge a success fee of 3-10% of the grant amount only when funding is won.",
+    "tagline": "The new standard for public funding. We automate the red tape so you can build the future.",
+    "website": "https://subw.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["automation", "nlp", "other"],
+    "industries_served": ["technology", "startups", "enterprise"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2025,
+    "founders": [],
+    "origin_story": "Founded in May 2025 in Prague to solve the fragmented and burdensome EU public grant landscape for technology companies.",
+    "key_milestones": [
+      {"year": 2025, "event": "Founded as SubwAI, s.r.o. (ICO: 23291851) in Prague, Czech Republic"},
+      {"year": 2026, "event": "Expanding to Poland with Country Manager hire"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://subw.ai",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Country Manager Poland", "department": "business", "location": "Warsaw"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "SubwAI's core value proposition — using AI to discover, write, and submit grant applications — is highly susceptible to commoditization. Foundation models are already capable of grant writing and research tasks, and the workflow automation layer is relatively thin. No evidence of proprietary data moat or defensible technical differentiation.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The EU grant market is real and large (Horizon Europe alone is €95.5B), and demand from tech companies for grant help is genuine. However, competition from established grant consultancies, freelancers, and other AI-powered tools is growing. The success-fee model requires sustained deal flow and winning rates to be viable.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Founded in May 2025 with no known external funding. Very early-stage company with fewer than 10 employees. Success-fee model means no upfront revenue, creating significant cash flow challenges in early stages.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Combination of high AGI displacement risk (thin moat in an easily replicable AI writing workflow) and high funding risk (no known investment, success-fee model with delayed revenue) makes this a high-risk investment for employees. The market opportunity is real but the competitive moat is weak."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_registry", "linkedin"],
+    "fields_missing": ["founders", "leadership", "funding_total_usd", "employees_exact", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "Very new company, founded May 2025. Legal name: SubwAI, s.r.o., ICO: 23291851. Address: Jankovcova 1569/2c, Holešovice, Prague 7. Website is subw.ai (not subwai.com which is parked). No CNAIP page available. Business model is success-fee (3-10% of grant amount), classified as 'other' since it's not standard SaaS subscription."
+  }
+}
