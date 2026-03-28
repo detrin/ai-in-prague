@@ -1,0 +1,120 @@
+{
+  "id": "behavio-labs",
+  "name": "Behavio Labs",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "AI-powered behavioral brand measurement platform for ad testing and brand tracking",
+    "description_long": "Behavio Labs (brand: Behavio) is a Prague-based SaaS company that applies behavioral science and AI to brand measurement. Its platform offers brand tracking, ad testing, and market tracking tools, allowing marketers to understand subconscious audience responses to advertising. The platform is used by 500+ consumer brands across 14 countries, delivering actionable insights via intuitive dashboards. Founded by five childhood friends with expertise in behavioral economics, marketing, and software engineering.",
+    "tagline": "The most actionable marketing research",
+    "website": "https://www.behaviolabs.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["ml_ops", "recommendation", "other"],
+    "industries_served": ["marketing", "advertising", "e-commerce", "fintech", "food_and_beverage"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2014,
+    "founders": ["Jiří Boudal", "Marek Nebesář", "Lukas Toth", "Libor Mořkovský"],
+    "origin_story": "Five childhood friends who first met at a gymnasium in České Budějovice in 1998 reunited in 2014 as marketing, behavioral economics, and software experts to reimagine how brands measure advertising effectiveness. Incorporated as Behavio Labs s.r.o. in August 2015.",
+    "key_milestones": [
+      {"year": 2014, "event": "Founded in Prague by five marketing and behavioral science experts"},
+      {"year": 2015, "event": "Launched pioneering subconscious online research methodology"},
+      {"year": 2022, "event": "Launched SaaS ad testing platform"},
+      {"year": 2023, "event": "Launched brand tracking SaaS tool; 100+ subscribers within months"},
+      {"year": 2024, "event": "Secured €2.25M late-seed funding from Airbridge Equity Partners (second round); now operates in 13+ countries"},
+      {"year": 2025, "event": "Expanded into Netherlands with office at Mondriaan Toren, Amsterdam"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Amsterdam", "country": "NL", "is_hq": false},
+    {"city": "San Francisco", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 3800000,
+    "funding_rounds": [
+      {"date": "2022-2023", "type": "Seed", "amount_usd": null, "lead_investor": "Presto Ventures"},
+      {"date": "2024-05", "type": "Late Seed", "amount_usd": 2430000, "lead_investor": "Airbridge Equity Partners"}
+    ],
+    "investors": ["Airbridge Equity Partners", "Presto Ventures", "J&T Ventures", "Nik Pantovic (angel, ex-Emplifi)"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jiří Boudal", "role": "CEO & Co-founder", "source": "company_website"},
+      {"name": "Marek Nebesář", "role": "COO & Co-founder", "source": "company_website"},
+      {"name": "Lukas Toth", "role": "CFO & Co-founder", "source": "linkedin"},
+      {"name": "Libor Mořkovský", "role": "CTO & Co-founder", "source": "linkedin"}
+    ],
+    "notable_people": [
+      {"name": "Radim Svoboda", "role": "Executive Advisor (former President, McCann Worldgroup NY)", "source": "press"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.behaviolabs.com/careers",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Client Consultant (NL)", "department": "sales", "location": "Amsterdam"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Behavio-EI_IE8339031.11,18.htm"
+  },
+
+  "recognition": {
+    "awards": ["Vestbee CEE Startup of the Year (nominee)"],
+    "notable_clients": ["T-Mobile", "LEGO", "Publicis", "Footshop", "Flashscore", "Bonami", "Notino", "Kiwi.com"],
+    "customer_count": 500,
+    "partnerships": ["Airbridge Equity Partners"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Behavio's core value is grounded in behavioral science methodology and an implicit association test for subconscious measurement, backed by a dataset of 20M+ consumer responses. However, the underlying brand tracking and ad testing market is increasingly targeted by AI-native competitors (Tracksuit, Latana, Neurons), and foundation models can generate marketing insights at low cost. The proprietary dataset and validated methodology create a partial moat, but it is not deep enough to be fully AGI-proof.",
+    "market_risk": "low",
+    "market_risk_rationale": "Brand measurement and ad testing is a real, well-established market with proven willingness-to-pay. Behavio has 500+ paying clients across 14 countries and is actively expanding into Western Europe (Netherlands) and North America. Revenue traction and repeat clients signal strong product-market fit.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Total funding is approximately €3.5M (roughly $3.8M USD), which is modest for a 40+ person company operating in 14 countries. While 500+ paying subscribers suggest positive revenue, margins and runway are unknown. The second investment round from a credible European VC (Airbridge Equity Partners) reduces near-term risk, but further capital will be needed to fund global expansion.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Behavio has genuine traction (500+ brands, 14 countries, second VC round) and a differentiated behavioral science methodology, but faces intensifying AI-native competition in brand intelligence and operates with relatively modest capital for its ambitions. The medium funding and AGI displacement risks combine to a medium overall risk profile."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "therecursive.com", "itkey.media", "startup-weekly.com", "founderstoday.news", "linkedin", "f6s", "emis"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "employees_exact", "revenue_estimate_usd", "tech_stack", "funding_round_1_amount"],
+    "needs_review": true,
+    "notes": "Index classifies this as 'research_group' but Behavio Labs is a commercial SaaS startup—'Labs' refers to their research-driven methodology, not an academic lab. Classified here as startup/b2b_saas accordingly. Total funding: FoundersToday states €3.5M total after the May 2024 €2.25M round; TheRecursive suggests prior funding alone was €3.5M (making total ~€5.75M). Used FoundersToday's explicit total figure. Czech About page says '40+' employees but EMIS lists 10–19 for Czech legal entity only; used 11–50 range. Fifth co-founder name not found in public sources."
+  }
+}
