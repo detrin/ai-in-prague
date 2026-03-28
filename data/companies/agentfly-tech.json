@@ -1,0 +1,113 @@
+{
+  "id": "agentfly-tech",
+  "name": "AgentFly Technologies",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered simulation and autonomous systems for air traffic management and drone operations",
+    "description_long": "AgentFly Technologies is a Prague-based R&D company specialising in AI-driven air traffic management (ATM) simulation, unmanned traffic management (UTM/U-space), autonomous drone systems, and aerial work automation. Founded in 2010 as a spin-off from Czech Technical University, the company develops the AgentFly simulation platform for large-scale ATM/UTM modelling, autonomous UAS software for integration into shared airspace, tactical drone systems for military and security applications, and end-to-end aerial work automation pipelines. Key customers include air navigation service providers (ANSPs), military/security organisations, and commercial UAS operators. Research is funded through EU (SESAR3, Horizon Europe), US (FAA, DoD), and Czech national programmes.",
+    "tagline": "Innovative Solutions for Future Sky",
+    "website": "https://www.agentfly.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["automation", "robotics", "ml_ops"],
+    "industries_served": ["aerospace", "defense", "agriculture", "critical infrastructure"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2010,
+    "founders": [],
+    "origin_story": "Established in 2010 to commercialise research from Czech Technical University in Prague, where the underlying technology had been developed since 2005 with initial sponsorship from the U.S. Air Force, Army, and Navy for UAS team simulation. The air traffic simulation branch began under FAA sponsorship in 2008.",
+    "key_milestones": [
+      {"year": 2005, "event": "Research begins at Czech Technical University in Prague (sponsored by U.S. DoD)"},
+      {"year": 2008, "event": "Air traffic simulation branch initiated under FAA sponsorship"},
+      {"year": 2009, "event": "Hardware platform acquisition (fixed-wing and rotary UAS) and deployment started"},
+      {"year": 2010, "event": "AgentFly Technologies s.r.o. founded to commercialise CTU research"},
+      {"year": 2016, "event": "Member of NATO NIAG SG-205 (Sense and Avoid Certification for UAS)"},
+      {"year": 2017, "event": "Joined EUROCAE WG-105 (Unmanned Aircraft Systems)"},
+      {"year": 2020, "event": "Participated in SESAR 2020 Joint Undertaking (PJ10 PROSA)"},
+      {"year": 2023, "event": "Joined SESAR3 Joint Undertaking projects (SAFIR-Ready, ImAFUSA, RefMap)"},
+      {"year": 2025, "event": "Digital Airport project started (TA ČR DOPRAVA 2030)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Milan Rollo", "role": "CTO", "source": "linkedin"}
+    ],
+    "notable_people": [
+      {"name": "Jan Straka", "role": "ATM Simulation Expert", "source": "linkedin"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "simulation", "ai_algorithms", "embedded_systems"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["FAA", "SESAR Joint Undertaking", "Czech ANSP (ANS CR)", "NATO NIAG SG-205", "EUROCAE WG-105", "Czech Technical University in Prague"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Deep domain expertise in aerospace simulation, regulatory certification (FAA, EASA, SESAR), and 20+ years of accumulated ATM/UTM simulation data create a strong moat. The work requires integration with certified hardware, air navigation service providers, and compliance with aviation safety standards that foundation models cannot replicate.",
+    "market_risk": "medium",
+    "market_risk_rationale": "UTM/U-space is a genuinely growing regulated market with EU and national mandates driving adoption, but it is highly niche and project-driven. Revenue depends heavily on winning research grants and government contracts, creating lumpy, unpredictable income streams.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No visible VC funding; the company appears to be sustained by EU/US research grants and commercial contracts. Having operated since 2010 demonstrates long-term sustainability, but continued existence depends on renewing project grants (SESAR3, Horizon Europe) and winning commercial contracts.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong technical moat in certified aerospace simulation insulates against AGI commoditisation, but heavy reliance on grant funding and a niche addressable market limit scalability. The 15-year track record reduces existential risk, but growth potential remains constrained."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["founders", "funding_total_usd", "revenue_estimate_usd", "employees_exact", "glassdoor_rating", "open_roles", "notable_clients"],
+    "needs_review": false,
+    "notes": "AgentFly Technologies is a CTU Prague spin-off focused on aerospace AI/simulation, not a typical consumer/enterprise AI startup. Address: Karlovo namesti 17, Prague. Contact: +420 605 286 241, info@agentfly.com. LinkedIn shows ~16 employees. Company name on LinkedIn categorised under 'Research Services'. Products include: AgentFly ATM simulation platform, UTM/U-space tools, Gorgon X8 (military UAS), Drone Dock (automated docking station). Business model is a mix of software product licensing, research contracts, and consulting — classified as 'other'."
+  }
+}
