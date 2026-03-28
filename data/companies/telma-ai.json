@@ -1,0 +1,119 @@
+{
+  "id": "telma-ai",
+  "name": "Telma AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T22:25:00Z",
+
+  "overview": {
+    "description": "LLM-powered voicebots and chatbots for enterprise customer communication",
+    "description_long": "Telma AI (legal name: MAMA TELMA AI s.r.o.) builds AI voicebots and chatbots for automating customer communication across industries including finance, insurance, healthcare, and e-commerce. The platform handles inbound/outbound calls, payment reminders, and omnichannel messaging. The team are IBM Watson and IBM Research alumni with deep NLP and speech expertise. Part of the MAMA AI Group.",
+    "tagline": "Enhance your business growth with intelligent, industry-tailored LLM agent voicebots & chatbots",
+    "website": "https://telma.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "speech", "automation"],
+    "industries_served": ["finance", "insurance", "healthcare", "e-commerce", "retail", "telecom"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2021,
+    "founders": ["Kuba Krchak", "Gustav Koutnik", "Jan Kleindienst", "Jan Curin"],
+    "origin_story": "Founded by alumni of IBM Watson AI R&D Lab in Prague; team spun out of IBM to commercialise conversational AI expertise independently",
+    "key_milestones": [
+      {"year": 2021, "event": "Company registered as MAMA TELMA AI s.r.o. in Prague (November)"},
+      {"year": 2021, "event": "CzechCrunch coverage of Mama AI chatbot platform (August)"},
+      {"year": 2021, "event": "Partnership with Czech Army for Virtual Recruitment Centre voicebot"},
+      {"year": 2023, "event": "Named newcomer of the year at Global Startup Awards"},
+      {"year": 2024, "event": "AI Awards 2024 winner (Adéla digital military recruiter voicebot)"},
+      {"year": 2025, "event": "ISO 27001 certification achieved"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website_inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "MAMA AI Group",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Kuba Krchak", "role": "Executive Director & Co-founder", "source": "company_website"},
+      {"name": "Gustav Koutnik", "role": "Executive Director & Co-founder", "source": "company_website"},
+      {"name": "Jan Kleindienst", "role": "Chief Strategist & Co-founder", "source": "company_website"},
+      {"name": "Jan Curin", "role": "CTO & Co-founder", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Ondrej Psota", "role": "Chief Designer", "source": "company_website"},
+      {"name": "Tereza Kasparova", "role": "Chief Conversational Designer", "source": "company_website"},
+      {"name": "Jan Vystrcil", "role": "Head of APIs", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["kubernetes", "nlp", "llm", "rest_apis", "speech_recognition"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Global Startup Awards – Newcomer of the Year 2023",
+      "AI Awards 2024 winner (Adéla voicebot)",
+      "ISO 27001 certified (2025)"
+    ],
+    "notable_clients": ["Kooperativa", "Skoda", "Erste", "OTP Bank", "Czech Army"],
+    "customer_count": null,
+    "partnerships": ["IBM Watson"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Core product is LLM-powered chatbots and voicebots – a space increasingly commoditised by OpenAI, Google, and Amazon (Connect). While Telma has domain expertise and a Czech-language focus, foundation models are rapidly closing the gap, and the product layer is relatively thin.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Conversational AI for enterprise is a real and growing market with clear ROI (call automation, payment reminders), but competition is fierce from hyperscalers (Google CCAI, Amazon Connect) and specialised vendors. The Czech/Central European focus provides a regional niche.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No public VC funding identified; the website references government Technology Incubation support. Small team (~11-50), founded in 2021, with no disclosed revenue or funding rounds – typical high-risk startup profile.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Combining high AGI displacement risk with high funding risk and medium market risk yields an overall high risk profile. Survival depends on deep enterprise integrations, language specialisation, and sector-specific compliance (e.g., ISO 27001, healthcare) that generic foundation models cannot immediately replicate."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ares_czech_registry", "czechcrunch_snippet"],
+    "fields_missing": ["funding_total_usd", "employees_exact", "revenue_estimate_usd", "glassdoor_rating", "careers_url"],
+    "needs_review": false,
+    "notes": "Legal entity is MAMA TELMA AI s.r.o., IČO 14022087, registered 2021-11-30 in Prague. Part of MAMA AI Group. Careers page returns 404; jobs contact is jobs@telma.ai. Technology Incubation support acknowledged on homepage footer."
+  }
+}
