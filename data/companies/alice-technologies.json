@@ -1,0 +1,124 @@
+{
+  "id": "alice-technologies",
+  "name": "ALICE Technologies",
+  "category": "company",
+  "scraped_at": "2026-03-28T22:45:00Z",
+
+  "overview": {
+    "description": "AI-powered construction optioneering and scheduling platform for general contractors",
+    "description_long": "ALICE Technologies builds the world's first construction optioneering platform, enabling general contractors to plan, simulate, and optimize construction projects using AI. Products include ALICE Plan (2D schedule visualization), ALICE Optimize (schedule optimization integrating with Primavera P6 and MS Project), and ALICE Model (BIM-based optimization). The platform helps GCs reduce project duration, improve resource efficiency, and manage risk by running thousands of AI-driven simulations to find optimal construction sequences and timelines.",
+    "tagline": "Optimize every construction phase with ALICE",
+    "website": "https://www.alicetechnologies.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["automation", "other"],
+    "industries_served": ["construction"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2015,
+    "founders": ["René Morkos"],
+    "origin_story": "Founded based on AI research conducted by René Morkos during his PhD at Stanford University. The platform addresses chronic construction industry inefficiencies — projects typically run 20% over schedule and 80% over budget.",
+    "key_milestones": [
+      {"year": 2015, "event": "Founded in Menlo Park, CA, based on Stanford University research"},
+      {"year": 2022, "event": "Raised fresh capital; total funding reached $76.2M; expanded to 50+ employees"},
+      {"year": 2022, "event": "Opened engineering hub in Prague, Czech Republic (Karlín)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "techcrunch_article_2022",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Menlo Park", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Pune", "country": "IN", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 76200000,
+    "funding_rounds": [
+      {"date": "2022-06", "type": "unknown", "amount_usd": null, "lead_investor": "Vanedge Capital"}
+    ],
+    "investors": ["Merus Capital", "Foundamental", "Future Ventures", "Lightspeed", "Blackhorn Ventures", "Brick & Mortar Ventures", "JLL Spark", "Vanedge Capital", "Gaingels", "Bouygues"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "René Morkos", "role": "Founder & CEO", "source": "company_website"},
+      {"name": "Jan Dudek", "role": "Vice President of Engineering", "source": "company_website"},
+      {"name": "Katie Bond", "role": "Senior Vice President of Customer Success", "source": "company_website"},
+      {"name": "Craig Nunley", "role": "Vice President of Sales", "source": "company_website"},
+      {"name": "Stan Singh", "role": "Vice President of Product", "source": "company_website"},
+      {"name": "Dan Evets", "role": "Vice President of Strategic Accounts", "source": "company_website"},
+      {"name": "Snezha Oaklander", "role": "Vice President of Operations", "source": "company_website"},
+      {"name": "Priyanka Parkar", "role": "Senior Director of Marketing", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Salman Ullah", "role": "Board Member; General Partner, Merus Capital", "source": "company_website"},
+      {"name": "John Kunz", "role": "Board Advisor; Emeritus, Construction Engineering, Stanford University", "source": "company_website"},
+      {"name": "Martin Fisher", "role": "Board Advisor; Professor of Civil and Environmental Engineering, Stanford University", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.alicetechnologies.com/careers-2",
+    "open_roles_count": 3,
+    "open_roles": [
+      {"title": "Customer Success Manager", "department": "customer_success", "location": "Americas"},
+      {"title": "Account Executive", "department": "sales", "location": "North America"},
+      {"title": "Customer Success Manager", "department": "customer_success", "location": "Australia"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Suffolk Construction"],
+    "customer_count": null,
+    "partnerships": ["Primavera P6", "Microsoft Project"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "ALICE's core value is domain-specific construction optimization algorithms that integrate deeply with GC workflows (P6, MSP, BIM). While AI-native scheduling tools are emerging, the domain expertise, workflow integration, and enterprise sales cycles create meaningful moat — but generative AI planning tools could eventually commoditize the optimization layer.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Construction tech is a large and real market ($1.3T industry) with genuine demand for efficiency, but adoption rates are slow — surveys show ~1/3 of construction employees resist new tech — and the sector has seen high-profile failures (Katerra). ALICE targets enterprise GCs, which limits volume but improves deal size.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-funded at $76.2M total raised (as of June 2022) from top-tier VCs including Lightspeed, Foundamental, and JLL Spark, with offices in three countries and 50+ employees. Runway appears solid for continued growth.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "ALICE has real technology, meaningful VC backing, and established enterprise customers, but operates in a conservative industry with slow adoption curves. The risk of AI commoditization over a 3-5 year horizon is real, though its deep workflow integrations and domain specialization provide buffer time."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "techcrunch"],
+    "fields_missing": ["glassdoor_rating", "funding_rounds_detail", "revenue_estimate_usd", "employees_exact", "tech_stack"],
+    "needs_review": false,
+    "notes": "Founded year discrepancy: company website states 2015, but a TechCrunch June 2022 article states Morkos 'co-founded Alice in 2013'; using 2015 from official source. Total funding of $76.2M confirmed by TechCrunch (as of June 2022) but may be higher as of 2026. Prague office in Karlín (Rohanské nábř. 678/29) serves as the engineering hub with VP Engineering Jan Dudek based there."
+  }
+}
