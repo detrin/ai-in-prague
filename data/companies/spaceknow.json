@@ -1,0 +1,116 @@
+{
+  "id": "spaceknow",
+  "name": "SpaceKnow",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered satellite imagery analysis platform for defense, intelligence, and construction monitoring",
+    "description_long": "SpaceKnow empowers decision-makers with ultra large-scale planetary analysis through its proprietary AI-powered analytics engine, combined with the world's most comprehensive collection of earth observation imagery. Their SpaceKnow Guardian platform integrates multi-source satellite data with proprietary AI algorithms to deliver automated monitoring, early warning systems, and actionable intelligence. Key use cases include defense & intelligence surveillance, construction progress monitoring, maritime tracking, and economic indicator indices (e.g., Satellite Manufacturing Index cited by Bloomberg, Barron's, and WSJ). SpaceKnow is incorporated in New York with an R&D branch office in Prague.",
+    "tagline": "Go above. See beyond.",
+    "website": "https://spaceknow.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["cv", "ml_ops", "data_engineering"],
+    "industries_served": ["defense", "finance", "construction", "government", "energy"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2015,
+    "founders": ["Jerry Javornicky", "Pavel Machalek"],
+    "origin_story": "Founded in 2015 to index the physical world through satellite imagery and AI-powered geospatial analytics. Incorporated in New York with core R&D team based in Prague, Czech Republic.",
+    "key_milestones": [
+      {"year": 2015, "event": "Founded in New York with R&D branch in Prague"},
+      {"year": 2017, "event": "Featured in TechCrunch for self-serve geospatial analytics platform; CEO Pavel Machalek introduces multi-provider satellite imagery approach"},
+      {"year": 2020, "event": "Satellite data on China factory activity cited by Bloomberg during COVID-19 pandemic"},
+      {"year": 2022, "event": "ESA GEMSTONE project partnership to expand commercial nowcasting capabilities"},
+      {"year": 2022, "event": "RACE dashboard published in partnership with ESA for EU recovery monitoring"},
+      {"year": 2022, "event": "Russia-Ukraine border monitoring published attracting global media attention"},
+      {"year": 2024, "event": "Dubai flooding analysis via satellite imagery published"},
+      {"year": 2025, "event": "SpaceKnow Guardian platform launched for construction monitoring and defense intelligence"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 34,
+    "employee_source": "linkedin",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "New York", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Pavel Machalek", "role": "CEO", "source": "techcrunch_2017"},
+      {"name": "Jerry Javornicky", "role": "Co-founder", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://spaceknow.com/careers/",
+    "open_roles_count": 3,
+    "open_roles": [
+      {"title": "SpaceKnow Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Backend Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Frontend Engineer", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/SpaceKnow-Reviews-E2134905.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["ESA (European Space Agency)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "SpaceKnow's core value is in proprietary multi-source satellite data aggregation, specialized CV algorithms, and a decade of annotated imagery for specific object detection (planes, ships, vehicles, construction). Foundation models can increasingly analyze images, but SpaceKnow's moat lies in real-time satellite tasking pipelines, specialized training data, and domain expertise in defense/intelligence workflows — areas foundation models alone cannot easily replicate.",
+    "market_risk": "low",
+    "market_risk_rationale": "Geospatial intelligence is a proven, growing market with strong demand from government/defense, financial analytics, and infrastructure monitoring. SpaceKnow has established media credibility (Bloomberg, Barron's, WSJ, Wired) and ESA partnerships that validate real-world demand and product-market fit.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No disclosed external funding rounds found — the company appears to be bootstrapped or has undisclosed angel/seed investment. The company has been operating since 2015 and continues to hire, suggesting sustainable revenue, but lack of disclosed funding creates uncertainty about runway and scaling capacity.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "SpaceKnow has a defensible position in a real and growing market with strong media validation and ESA partnerships, but the small team size (~34 employees), undisclosed funding, and increasing commoditization of satellite image analysis by large cloud providers (AWS, Google, Microsoft) creates meaningful medium-term risk."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin", "techcrunch"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "notable_clients", "tech_stack"],
+    "needs_review": false,
+    "notes": "Company is incorporated in New York (SpaceKnow Inc., 450 Lexington Ave, 4th floor, NY 10017) with an R&D branch in Prague (Thamova 289/13, Prague 18600). LinkedIn reports 51-200 employee range but shows 34 linked employees; using 34/11-50 range as more accurate. Founded year 2015 per LinkedIn (company website says '13 years of expertise' which would suggest ~2013 from 2026). No funding rounds found in public sources."
+  }
+}
