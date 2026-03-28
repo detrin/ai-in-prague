@@ -1,0 +1,103 @@
+{
+  "id": "deepnote",
+  "name": "Deepnote",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Collaborative data science notebook and analytics workspace where AI agents and humans work together",
+    "description_long": "Deepnote is a collaborative data science and analytics platform built around Jupyter-compatible notebooks. It enables data teams to explore, analyze, and interpret data together in a shared workspace. The platform features AI-powered automation that can query, analyze, and interpret data without coding skills. Deepnote understands business context and data to deliver high-quality analyses, positioning itself as a data workspace where agents and humans collaborate.",
+    "tagline": "Collaborative analytics & data science notebook",
+    "website": "https://deepnote.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["data_engineering", "generative_ai", "ml_ops"],
+    "industries_served": ["technology", "data_science", "analytics", "enterprise"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2019,
+    "founders": ["Jakub Jurovych", "Filip Stollar", "Jan Matas", "Jirka Lhotka"],
+    "origin_story": "Founded in 2019 in Prague by Jakub Jurovych and co-founders, Deepnote set out to build a better data science notebook. The team went through Y Combinator and raised seed funding from Index Ventures in early 2020, followed by a $20M Series A in 2022 led by Accel and Index Ventures.",
+    "key_milestones": [
+      {"year": 2019, "event": "Founded in Prague"},
+      {"year": 2019, "event": "Accepted into Y Combinator"},
+      {"year": 2020, "event": "Raised $3.8M seed round from Index Ventures (Feb 2020)"},
+      {"year": 2022, "event": "Raised $20M Series A led by Index Ventures and Accel (Jan 2022)"},
+      {"year": 2022, "event": "Named in Top 10 Largest Funding Rounds in Czech Republic 2022"},
+      {"year": 2025, "event": "Launched new notebook format and AI-powered data workspace features"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 40,
+    "employee_source": "trueup",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 23800000,
+    "funding_rounds": [
+      {"round": "Seed", "date": "2020-02-06", "amount_usd": 3800000, "lead_investor": "Index Ventures"},
+      {"round": "Series A", "date": "2022-01-31", "amount_usd": 20000000, "lead_investor": "Index Ventures, Accel"}
+    ],
+    "investors": ["Index Ventures", "Accel", "Y Combinator", "Credo Ventures"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "freemium"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jakub Jurovych", "role": "CEO & Co-founder", "source": "ycombinator"},
+      {"name": "Filip Stollar", "role": "Co-founder", "source": "therecursive"},
+      {"name": "Jan Matas", "role": "Co-founder", "source": "therecursive"},
+      {"name": "Jirka Lhotka", "role": "Co-founder", "source": "therecursive"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://deepnote.com/join-us",
+    "open_roles_count": 6,
+    "open_roles": [],
+    "tech_stack": ["python", "jupyter", "typescript"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Y Combinator alumnus", "Top 10 Largest Czech Funding Rounds 2022 (The Recursive)"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Y Combinator"]
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["google_search", "ycombinator", "tracxn", "businesswire", "therecursive", "trueup", "linkedin", "dexteragent"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_url", "revenue_estimate_usd", "notable_clients", "open_roles_detail"],
+    "needs_review": true,
+    "notes": "Deepnote homepage (deepnote.com) blocked direct browser navigation. Glassdoor search could not be completed due to browser session conflicts. Series A company with $23.8M total funding. TrueUp reports ~40 employees and 6 open roles. LinkedIn shows 12.3K+ followers. Golden.com also lists San Francisco as a location, suggesting dual Prague/SF presence. Revenue data not publicly available."
+  }
+}

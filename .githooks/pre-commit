@@ -1,0 +1,19 @@
+#!/bin/sh
+
+EXPECTED_NAME="Daniel Herman"
+EXPECTED_EMAIL="daniel.herman@protonmail.com"
+
+ACTUAL_NAME=$(git config user.name)
+ACTUAL_EMAIL=$(git config user.email)
+
+if [ "$ACTUAL_NAME" != "$EXPECTED_NAME" ]; then
+    echo "ERROR: git user.name is '$ACTUAL_NAME', expected '$EXPECTED_NAME'"
+    echo "Fix: git config user.name '$EXPECTED_NAME'"
+    exit 1
+fi
+
+if [ "$ACTUAL_EMAIL" != "$EXPECTED_EMAIL" ]; then
+    echo "ERROR: git user.email is '$ACTUAL_EMAIL', expected '$EXPECTED_EMAIL'"
+    echo "Fix: git config user.email '$EXPECTED_EMAIL'"
+    exit 1
+fi

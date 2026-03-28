@@ -1,0 +1,167 @@
+{
+  "id": "e2b",
+  "name": "E2B",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+  "overview": {
+    "description": "E2B provides open-source cloud infrastructure that gives AI agents secure sandboxed computers to execute code, process data, and run tools.",
+    "description_long": "E2B (e2b.dev) is an open-source infrastructure platform that provides isolated Linux microVM sandboxes for AI agents to safely execute code. Used by 88% of Fortune 100 companies for frontier agentic workflows, E2B enables developers to start and manage sandboxes via SDKs in Python and JavaScript. The platform supports enterprise features including BYOC (Bring Your Own Cloud) deployment on AWS.",
+    "tagline": "The Enterprise AI Agent Cloud",
+    "website": "https://e2b.dev",
+    "cnaip_url": null
+  },
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["ml_ops", "automation"],
+    "industries_served": ["software_development", "ai_infrastructure", "enterprise_ai"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+  "history": {
+    "founded_year": 2023,
+    "founders": [
+      {
+        "name": "Vasek Mlejnsky",
+        "role": "CEO",
+        "source": "hacker_news_who_is_hiring"
+      }
+    ],
+    "origin_story": "Founded in 2023 in Prague, E2B started as an open-source infrastructure project to provide secure sandboxed environments for AI agents to execute code safely, addressing the growing need for safe code execution in agentic AI workflows.",
+    "key_milestones": [
+      {
+        "year": 2023,
+        "event": "E2B founded in Prague, initial funding raised"
+      },
+      {
+        "year": 2024,
+        "event": "Listed among 10 most promising Czech startups by EU-Startups; early-stage funding of EUR 340K reported"
+      },
+      {
+        "year": 2025,
+        "event": "Series A completed; total funding surpassed $32M; reached 7-figure revenue; expanded to San Francisco office"
+      },
+      {
+        "year": 2026,
+        "event": "Total funding exceeded $37M; reached 8-figure revenue; used by 88% of Fortune 100 companies"
+      }
+    ]
+  },
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "paraform_job_listings",
+    "office_count": 2
+  },
+  "offices": [
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    },
+    {
+      "city": "San Francisco",
+      "country": "US",
+      "is_hq": false
+    }
+  ],
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 37000000,
+    "funding_rounds": [
+      {
+        "date": "2023",
+        "round": "Seed",
+        "amount_usd": null,
+        "source": "eu-startups"
+      },
+      {
+        "date": "2025",
+        "round": "Series A",
+        "amount_usd": null,
+        "source": "hacker_news_who_is_hiring"
+      }
+    ],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": "glassdoor_job_listing_description_8_figure",
+    "business_model": "usage_based"
+  },
+  "team": {
+    "leadership": [
+      {
+        "name": "Vasek Mlejnsky",
+        "role": "CEO & Co-founder",
+        "source": "hacker_news_who_is_hiring"
+      }
+    ],
+    "notable_people": []
+  },
+  "careers": {
+    "careers_url": "https://e2b.dev/careers",
+    "open_roles_count": 3,
+    "open_roles": [
+      {
+        "title": "Founding Designer",
+        "location": "San Francisco, CA",
+        "source": "glassdoor"
+      },
+      {
+        "title": "Forward Deployed Engineer",
+        "location": "San Francisco, CA",
+        "source": "glassdoor"
+      },
+      {
+        "title": "Distributed Systems Engineer",
+        "location": "San Francisco / Prague",
+        "source": "paraform"
+      },
+      {
+        "title": "Security Engineer",
+        "location": "San Francisco / Prague",
+        "source": "paraform"
+      }
+    ],
+    "tech_stack": ["Linux microVMs", "Firecracker", "Python SDK", "JavaScript SDK", "AWS"],
+    "hiring_signals": "actively_hiring"
+  },
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-E2B-EI_IE10750951.11,14.htm"
+  },
+  "recognition": {
+    "awards": [
+      "Listed among 10 most promising Czech startups to watch in 2024 (EU-Startups)"
+    ],
+    "notable_clients": ["Microsoft"],
+    "customer_count": null,
+    "partnerships": []
+  },
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": [
+      "google_search_e2b_dev",
+      "google_search_e2b_prague_funding",
+      "google_search_glassdoor",
+      "hacker_news_who_is_hiring_dec_2025",
+      "eu_startups_article_jan_2024",
+      "paraform_job_listings",
+      "glassdoor_job_listings",
+      "cb_insights_snippet",
+      "latent_space_mention"
+    ],
+    "fields_missing": [
+      "founders_full_list",
+      "investors",
+      "exact_funding_round_amounts",
+      "glassdoor_rating",
+      "revenue_exact"
+    ],
+    "needs_review": false,
+    "notes": "E2B homepage (e2b.dev) could not be directly scraped due to navigation issues. Funding data evolved: HN Dec 2025 said $32M+, Glassdoor job listings (most recent) say $37M+ and 8-figure revenue. The company operates with 4 days on-site, 1 day WFH policy in both offices. CB Insights lists founding in 2023 in Prague. EU-Startups Jan 2024 article mentioned early-stage EUR 340K raised. Business model is usage-based (pay per sandbox compute time). Note: e2b teknologies on Glassdoor (rating 4.0, 4 reviews) is a DIFFERENT company - not the AI sandbox startup."
+  }
+}

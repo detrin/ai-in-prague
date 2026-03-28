@@ -1,0 +1,100 @@
+{
+  "id": "born-digital",
+  "name": "Born Digital",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered platform for customer experience automation in contact centers, featuring conversational AI agents, digital personas, and back-office automation",
+    "description_long": "Born Digital is a Prague-based AI company that provides an all-in-one platform for enhancing customer experience through conversational AI. The platform includes AI-powered virtual agents for inbound and outbound voice calls, digital human avatars, email processing, analytics, and full backend automation for contact centers. The company helps enterprises digitally transform their contact center operations. Born Digital was recognized in the Gartner 2025 Market Guide for Digital Humans. The company was acquired by Mews (hospitality management software), and borndigital.ai now redirects to mews.com.",
+    "tagline": "AI Agent Platform - Meet Your AI Workforce",
+    "website": "https://borndigital.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "speech", "automation", "generative_ai"],
+    "industries_served": ["contact_centers", "customer_service", "telecommunications", "financial_services", "hospitality"],
+    "company_type": "acquired",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2019,
+    "founders": ["Zenon Sliwka"],
+    "origin_story": "Founded in 2019 in Prague as a Czech-Slovak AI startup focused on conversational AI and digital transformation of contact centers. The company built AI-powered virtual agents and digital human technology for customer interactions.",
+    "key_milestones": [
+      {"year": 2019, "event": "Founded in Prague"},
+      {"year": 2021, "event": "J&T Ventures investment in Born Digital"},
+      {"year": 2023, "event": "Secured EUR 2 million in seed funding (December 2023)"},
+      {"year": 2024, "event": "Seed round closed at US$2.2M total (January 2024)"},
+      {"year": 2025, "event": "Recognized in Gartner 2025 Market Guide for Digital Humans"},
+      {"year": 2025, "event": "Acquired by Mews (hospitality management software); borndigital.ai redirects to mews.com"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Mews",
+    "funding_total_usd": 2200000,
+    "funding_rounds": [
+      {"round": "Pre-Seed", "date": "2021", "amount_usd": null, "investors": ["J&T Ventures"]},
+      {"round": "Seed", "date": "2024-01", "amount_usd": 2200000, "investors": []}
+    ],
+    "investors": ["J&T Ventures"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Zenon Sliwka", "role": "Founder / CEO", "source": "linkedin"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "not_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Gartner 2025 Market Guide for Digital Humans"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["google_search_snippets", "thesaasnews", "tracxn_snippet", "cbinsights_snippet", "parsers_vc_snippet", "linkedin_snippet", "facebook_snippet"],
+    "fields_missing": ["employees_exact", "glassdoor_rating", "revenue_estimate_usd", "careers_url", "tech_stack", "notable_clients"],
+    "needs_review": false,
+    "notes": "borndigital.ai redirects to mews.com as of March 2026, confirming acquisition by Mews (hospitality software). Data primarily gathered from Google search snippets since the company website is no longer accessible. LinkedIn shows 3,700+ followers. Founded in 2019 as Czech-Slovak startup. Total funding of US$2.2M across 2 rounds. J&T Ventures was an early investor. Glassdoor search was blocked by CAPTCHA; no rating data available. Hiring signals set to not_hiring due to acquisition. Revenue search was blocked by rate limiting."
+  }
+}

@@ -1,0 +1,123 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - generic [ref=e9]:
+      - button [ref=e10] [cursor=pointer]:
+        - img [ref=e11]
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - textbox [ref=e16]:
+            - /placeholder: Search for topics
+          - img [ref=e18]
+        - img [ref=e21]
+      - generic [ref=e24]:
+        - button "Create" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e31]
+            - text: Create
+            - img [ref=e34]
+        - generic [ref=e36]:
+          - link "Log in" [ref=e37] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e38]: Log in
+          - link "Enquire now" [ref=e39] [cursor=pointer]:
+            - /url: /pricing
+            - generic [ref=e40]: Enquire now
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - heading "404" [level=1] [ref=e44]
+        - heading "Try out some popular queries" [level=2] [ref=e45]
+        - img [ref=e48]
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - link "Home" [ref=e54] [cursor=pointer]:
+            - /url: /home
+            - img "Golden logo" [ref=e55]
+          - navigation [ref=e56]:
+            - generic [ref=e57]:
+              - heading "Company" [level=3] [ref=e58]
+              - list [ref=e59]:
+                - listitem [ref=e60]:
+                  - link "Home" [ref=e61] [cursor=pointer]:
+                    - /url: /home
+                - listitem [ref=e62]:
+                  - link "Press & Media" [ref=e63] [cursor=pointer]:
+                    - /url: /about/press-and-media
+                - listitem [ref=e64]:
+                  - link "Blog" [ref=e65] [cursor=pointer]:
+                    - /url: //golden.com/blog
+                - listitem [ref=e66]:
+                  - link "Careers" [ref=e67] [cursor=pointer]:
+                    - /url: /about/careers
+                - listitem [ref=e68]:
+                  - link "WE'RE HIRING" [ref=e69] [cursor=pointer]:
+                    - /url: /about/careers
+            - generic [ref=e70]:
+              - heading "Products" [level=3] [ref=e71]
+              - list [ref=e72]:
+                - listitem [ref=e73]:
+                  - link "Knowledge Graph" [ref=e74] [cursor=pointer]:
+                    - /url: /product/knowledge-graph
+                - listitem [ref=e75]:
+                  - link "Query Tool" [ref=e76] [cursor=pointer]:
+                    - /url: /product/query-tool
+                - listitem [ref=e77]:
+                  - link "Data Requests" [ref=e78] [cursor=pointer]:
+                    - /url: /product/data-requests
+                - listitem [ref=e79]:
+                  - link "Knowledge Storage" [ref=e80] [cursor=pointer]:
+                    - /url: /product/knowledge-storage
+                - listitem [ref=e81]:
+                  - link "API" [ref=e82] [cursor=pointer]:
+                    - /url: /product/api
+                - listitem [ref=e83]:
+                  - link "Pricing" [ref=e84] [cursor=pointer]:
+                    - /url: /pricing
+                - listitem [ref=e85]:
+                  - link "Enterprise" [ref=e86] [cursor=pointer]:
+                    - /url: /enterprise
+                - listitem [ref=e87]:
+                  - link "ChatGPT Plugin" [ref=e88] [cursor=pointer]:
+                    - /url: /product/chatgpt
+            - generic [ref=e89]:
+              - heading "Legal" [level=3] [ref=e90]
+              - list [ref=e91]:
+                - listitem [ref=e92]:
+                  - link "Terms of Service" [ref=e93] [cursor=pointer]:
+                    - /url: /about/terms-of-service
+                - listitem [ref=e94]:
+                  - link "Enterprise Terms of Service" [ref=e95] [cursor=pointer]:
+                    - /url: /about/enterprise-terms-of-service
+                - listitem [ref=e96]:
+                  - link "Privacy Policy" [ref=e97] [cursor=pointer]:
+                    - /url: /about/privacy-policy
+            - generic [ref=e98]:
+              - heading "Help" [level=3] [ref=e99]
+              - list [ref=e100]:
+                - listitem [ref=e101]:
+                  - link "Help center" [ref=e102] [cursor=pointer]:
+                    - /url: https://goldenhq.notion.site/goldenhq/Golden-Guide-1eef7518f3ca43da8d6ee4d54307801b
+                - listitem [ref=e103]:
+                  - link "API Documentation" [ref=e104] [cursor=pointer]:
+                    - /url: https://docs.golden.com
+                - listitem [ref=e105]:
+                  - link "Contact Us" [ref=e106] [cursor=pointer]:
+                    - /url: /about/contact-us
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - text: By using this site, you agree to our
+            - link "Terms of Service" [ref=e110] [cursor=pointer]:
+              - /url: /about/terms-of-service
+            - text: .
+          - generic [ref=e111]:
+            - link "Golden on AngelList" [ref=e112] [cursor=pointer]:
+              - /url: https://angel.co/golden
+              - img [ref=e113]
+            - link "Golden on Twitter" [ref=e115] [cursor=pointer]:
+              - /url: https://twitter.com/golden
+              - img [ref=e116]
+            - generic [ref=e118]:
+              - textbox "Subscribe to email updates" [ref=e119]
+              - button "SUBSCRIBE" [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]: SUBSCRIBE
+  - button [ref=e124] [cursor=pointer]:
+    - img [ref=e127]

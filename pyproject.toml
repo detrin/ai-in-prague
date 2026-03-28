@@ -1,0 +1,25 @@
+[project]
+name = "ai-in-prague"
+version = "0.1.0"
+description = "Prague AI/ML company catalog for job seekers"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.5.1",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["scripts"]
+
+[project.scripts]
+scrape = "scripts.dispatch:main"
+validate = "scripts.validate_company:cli"

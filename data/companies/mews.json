@@ -1,0 +1,164 @@
+{
+  "id": "mews",
+  "name": "Mews",
+  "legal_name": "Mews Systems B.V.",
+  "description": "Mews is the operating system for modern hospitality, providing a cloud-native platform that connects property management (PMS), point-of-sale (POS), revenue management (RMS via Atomize), embedded payments, and 1000+ integrations. It powers 15,000+ properties across 85 countries with 132,000+ monthly active hoteliers.",
+  "website": "https://www.mews.com",
+  "founded_year": 2012,
+  "headquarter_city": "Amsterdam",
+  "headquarter_country": "Netherlands",
+  "prague_connection": "Founded in Prague by Richard Valtr while building a hotel there. Core engineering and product teams remain in Prague. The Emblem Prague Hotel was the first Mews customer.",
+  "business_type": "b2b_saas",
+  "company_type": "scaleup",
+  "ai_focus": ["automation", "recommendation", "data_engineering"],
+  "ai_details": "Uses AI for dynamic pricing and demand forecasting through its Atomize RMS acquisition. Acquired the DataChat team to double down on AI. Revenue management system leverages machine learning to optimize hotel pricing in real time. Platform automates reservation management, check-in/check-out, housekeeping coordination, and payment processing.",
+  "products": [
+    {
+      "name": "Mews PMS",
+      "description": "Cloud-native property management system for hotels, hostels, and extended stays. Handles reservations, guest check-in/out, housekeeping, accounting, and billing."
+    },
+    {
+      "name": "Mews POS",
+      "description": "Point-of-sale system purpose-built for hotel restaurants and F&B operations, fully integrated with the PMS."
+    },
+    {
+      "name": "Atomize RMS",
+      "description": "AI-powered revenue management system providing dynamic pricing, demand forecasting, and portfolio/group pricing optimization."
+    },
+    {
+      "name": "Mews Payments",
+      "description": "Embedded payment processing with tokenization, automated reconciliation, multicurrency support, and terminal management."
+    },
+    {
+      "name": "Mews Marketplace",
+      "description": "Integration marketplace with 1000+ hospitality apps and third-party connections."
+    },
+    {
+      "name": "Mews Booking Engine",
+      "description": "Direct booking engine for hotel websites with guest self-check-in capabilities."
+    }
+  ],
+  "employees_range": "1001-5000",
+  "employees_estimate": 1350,
+  "business_model": "subscription_saas",
+  "target_market": "Hotels, hotel groups and chains, hostels, motels, extended stays, and independent properties worldwide",
+  "funding": {
+    "total_raised_usd": 530000000,
+    "total_raised_note": "Estimated $530M+ total across all rounds",
+    "last_round": "Series D",
+    "last_round_date": "2026-01-22",
+    "valuation_usd": 2500000000,
+    "valuation_note": "$2.5B valuation at Series D (Jan 2026)",
+    "rounds": [
+      {
+        "round": "Seed",
+        "date": "2016-11",
+        "amount_usd": 1700000,
+        "amount_note": "EUR 1.5M from Axivate Capital",
+        "investors": ["Axivate Capital"]
+      },
+      {
+        "round": "Series B",
+        "date": "2019-08",
+        "amount_usd": 33000000,
+        "investors": ["Battery Ventures", "Notion Capital"]
+      },
+      {
+        "round": "Series C",
+        "date": "2022-12",
+        "amount_usd": 185000000,
+        "investors": ["Kinnevik", "Goldman Sachs Asset Management"]
+      },
+      {
+        "round": "Growth",
+        "date": "2024-03",
+        "amount_usd": 110000000,
+        "amount_note": "EUR 101M; led by Kinnevik with participation from existing investors",
+        "investors": ["Kinnevik", "Battery Ventures", "Tiger Global"]
+      },
+      {
+        "round": "Series D",
+        "date": "2026-01",
+        "amount_usd": 300000000,
+        "amount_note": "EUR 255M; valued at $2.5B",
+        "investors": ["EQT Growth", "Atomico", "HarbourVest Partners", "Kinnevik", "Battery Ventures", "Tiger Global"]
+      }
+    ]
+  },
+  "revenue": {
+    "estimated_annual_usd": 210000000,
+    "revenue_note": "Crossed $100M ARR in 2023; over $200M revenue in 2024 (Skift/ZoomInfo); VP Rev Ops job listing references scaling from $200M to $500M+ ARR",
+    "platform_transaction_volume_usd": 19700000000,
+    "platform_transaction_volume_note": "Platform transaction volumes of $19.7B in 2025"
+  },
+  "key_people": [
+    {
+      "name": "Richard Valtr",
+      "role": "Founder",
+      "note": "Ex-hotelier who founded Mews in 2012 while building a hotel in Prague"
+    },
+    {
+      "name": "Matthijs Welle",
+      "role": "CEO",
+      "note": "Former hotelier; joined shortly after founding"
+    },
+    {
+      "name": "Josef Starychfojtu",
+      "role": "Chief Product and Technical Officer",
+      "note": "Joined Mews as a backend developer and rose to lead product and tech teams"
+    },
+    {
+      "name": "Naomi",
+      "role": "Chief People Officer",
+      "note": "Leads People Team; company repeatedly wins Best Place to Work awards"
+    }
+  ],
+  "acquisitions": [
+    {
+      "name": "Planet Winner",
+      "note": "First acquisition; part of early expansion"
+    },
+    {
+      "name": "Atomize",
+      "note": "AI-powered revenue management system; now Mews RMS"
+    },
+    {
+      "name": "DataChat team",
+      "note": "Acquired to accelerate AI capabilities"
+    }
+  ],
+  "customers": {
+    "count": 15000,
+    "notable_count_note": "15,000 properties across 85 countries; 132,000+ monthly active hoteliers; 42.3M checked-in reservations in 2025",
+    "examples": ["Leven", "The Neighborhood Hotel", "Airelles", "The Social Hub", "Ligula Hospitality Group", "The Boundary Shoreditch", "Locale Apartments", "Wythe Hotel", "GuestHouse Hotels", "9hotel Collection", "Crane Hotel Group"]
+  },
+  "awards": [
+    "Best Property Management System 2024, 2025, 2026 (Hotel Tech Report)",
+    "Best Hotel Restaurant POS System 2026",
+    "Best Revenue Management System 2025, 2026",
+    "Best Housekeeping Software 2026",
+    "Best Places to Work in Hotel Tech 2024, 2025, 2026"
+  ],
+  "glassdoor": {
+    "rating": 4.0,
+    "review_count": 430,
+    "recommend_to_friend_pct": 73,
+    "work_life_balance": 3.9,
+    "culture_and_values": 4.0,
+    "career_opportunities": 3.9
+  },
+  "hiring_signals": "actively_hiring",
+  "hiring_notes": "VP Revenue Operations (NYC), multiple engineering and sales roles visible. Job listings reference scaling from $200M to $500M+ ARR, indicating aggressive growth hiring.",
+  "tech_stack_notes": "Cloud-native architecture; Open API; 1000+ marketplace integrations; mobile-first with kiosk check-in (3.2M kiosk check-ins in 2025)",
+  "linkedin_url": "https://www.linkedin.com/company/maboromews/",
+  "crunchbase_url": "https://www.crunchbase.com/organization/mews-systems",
+  "tags": ["hospitality", "hotel-tech", "property-management", "cloud-pms", "payments", "revenue-management", "ai-pricing", "saas-unicorn"],
+  "data_quality": "high",
+  "data_sources": [
+    "mews.com (homepage, about page)",
+    "Brave Search: funding results (Vestbee, TechFundingNews, TheRecursive, EU-Startups, mews.com/press)",
+    "Brave Search: Glassdoor snippets (glassdoor.com)",
+    "Brave Search: revenue results (Getlatka, Skift, ZoomInfo, SaaStock, Notion Capital)"
+  ],
+  "last_updated": "2026-03-28"
+}

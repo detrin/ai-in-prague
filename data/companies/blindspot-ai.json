@@ -1,0 +1,127 @@
+{
+  "id": "blindspot-ai",
+  "name": "Blindspot AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI software company delivering tailored ML solutions, optimization tools, fraud detection, and document processing for enterprise clients",
+    "description_long": "Blindspot Solutions (Blindspot.AI) is a Prague-based AI software company that helps enterprises unlock business value through artificial intelligence. The company delivers 9 ready-made AI products spanning workforce scheduling (OptiPlan), logistics optimization (OptiRoute), smart document reading (ReeDee), anomaly detection (ADF), customer support automation (ARESPO), intelligent video analytics (MACULA), fraud detection (ML FDS), optimization platform (OptiSuite), and intelligent loading (OptiFit). They also provide AI consulting and AI-powered software development services. Since 2017, Blindspot has been part of the Adastra Group, operating as its AI lab. The team draws from top Czech Technical University talent and employs professionals with PhDs from Cambridge, Imperial College, and CTU.",
+    "tagline": "We help companies unlock business value through artificial intelligence",
+    "website": "https://blindspot.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["automation", "fraud_detection", "document_processing", "cv", "nlp", "data_engineering"],
+    "industries_served": ["insurance", "banking", "logistics", "manufacturing", "telecommunications", "energy", "retail", "defense", "automotive"],
+    "company_type": "acquired",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2014,
+    "founders": ["Ondrej Vanek", "Stepan Kopriva", "Michal Pechoucek"],
+    "origin_story": "Founded in 2014 in Prague by AI researchers with deep ties to the Czech Technical University (CTU). Co-founder Michal Pechoucek is a professor of computer science at CTU and founder of the AI Center there (now CTO of Gen). In 2017, Adastra Group acquired a 50% stake in Blindspot, eventually making it a fully integrated member of the Adastra Group as their AI lab.",
+    "key_milestones": [
+      {"year": 2014, "event": "Founded in Prague"},
+      {"year": 2017, "event": "Adastra Group acquired 50% stake; became member of Adastra Group"},
+      {"year": 2019, "event": "Ranked among top 3 fastest growing companies in Central Europe by Deloitte Fast 50"},
+      {"year": 2020, "event": "Again ranked in Deloitte Fast 50 top 3 in Central Europe"},
+      {"year": 2021, "event": "Won Microsoft Awards 2021"},
+      {"year": 2025, "event": "Co-founder Michal Pechoucek joins Evolution Equity Partners as partner"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": 70,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true, "address": "Karolinska 706/3, 186 00 Karlin, Prague"}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Adastra Group",
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"year": 2017, "type": "acquisition", "amount_usd": null, "investor": "Adastra Group", "details": "Adastra acquired 50% stake, later fully integrated"}
+    ],
+    "investors": ["Adastra Group"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "licensing"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ondrej Vanek", "role": "Co-founder, CEO of Blindspot AI", "linkedin": "https://www.linkedin.com/in/ondrejvanek/", "source": "company_website"},
+      {"name": "Stepan Kopriva", "role": "Co-founder, CEO of Adastra Czech Republic", "linkedin": "https://www.linkedin.com/in/stepan-kopriva-56b5961/", "source": "company_website"},
+      {"name": "Michal Pechoucek", "role": "Co-founder, CTO of Gen (formerly professor at CTU Prague)", "linkedin": "https://www.linkedin.com/in/pechoucek/", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Michal Pechoucek", "note": "Professor of CS at CTU Prague, founder of AI Center at CTU, now partner at Evolution Equity Partners and CTO of Gen"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://blindspot.ai/career",
+    "open_roles_count": 6,
+    "open_roles": [
+      "Generative AI TeamLead",
+      "AI Business Analyst/Consultant",
+      "Back-End/DevOps Engineer",
+      "Generative AI and ML Developer",
+      "AI Solutions Consultant",
+      "AI Engagement Leader"
+    ],
+    "tech_stack": ["python", "machine_learning", "deep_learning", "computer_vision", "nlp", "optimization_algorithms"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Deloitte Fast 50 Central Europe 2019 (top 3 fastest growing)",
+      "Deloitte Fast 50 Central Europe 2020 (top 3 fastest growing)",
+      "Microsoft Awards 2021",
+      "Czech Rise Up Program"
+    ],
+    "notable_clients": ["Skoda", "CSOB", "Zonky", "Socialbakers", "TUV SUD", "Kooperativa", "CPP", "OKsystem", "Helgi Library", "DFLabs", "Avata Intelligence", "Office of Naval Research Global", "Czech Academy of Sciences"],
+    "customer_count": null,
+    "partnerships": ["Adastra Group", "Czech Technical University in Prague", "Microsoft"]
+  },
+
+  "products": [
+    {"name": "OptiPlan", "description": "Automated and real-time optimized workforce scheduling system"},
+    {"name": "OptiRoute", "description": "Automated planning system for logistics processes and routes"},
+    {"name": "ReeDee", "description": "Smart document reader for analog-to-digital transformation and fraud detection"},
+    {"name": "ADF", "description": "Anomaly detection framework for unlabeled anomalies across industries"},
+    {"name": "ARESPO", "description": "Customer support automation with NLP-powered multi-channel message inbox"},
+    {"name": "MACULA", "description": "Intelligent real-time video analytics for safety and security"},
+    {"name": "ML FDS", "description": "Machine learning fraud detection system for various fraud types"},
+    {"name": "OptiSuite", "description": "Intelligent optimization platform for complex processes and operations"},
+    {"name": "OptiFit", "description": "Intelligent loading software for container/vehicle loading optimization"}
+  ],
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "adastra_corp_blog", "venture_capital_journal", "blindspot_pdf"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "revenue_estimate_usd", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "Blindspot Solutions is the AI lab of Adastra Group since 2017 acquisition. Founded in 2014 with 70+ experts and 300+ projects delivered. Google blocked Glassdoor and revenue searches with CAPTCHA so those fields are null. Employee count of 70+ from company website About page. The company offers both ready-made AI products (9 products) and consulting/development services. Strong academic ties to CTU Prague."
+  }
+}

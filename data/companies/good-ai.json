@@ -1,0 +1,133 @@
+{
+  "id": "good-ai",
+  "name": "GoodAI",
+  "category": "company",
+  "scraped_at": "2026-03-28",
+  "overview": {
+    "description": "GoodAI is a Prague-based artificial intelligence research company focused on developing safe general artificial intelligence (AGI). The company's current work centers on LLM-based autonomous agents and AI brain software. GoodAI also runs a grants program supporting external AI researchers worldwide.",
+    "website": "https://www.goodai.com",
+    "linkedin": "https://www.linkedin.com/company/goodai",
+    "crunchbase": "https://www.crunchbase.com/organization/goodai",
+    "twitter": null,
+    "github": null,
+    "tagline": "Develop safe general artificial intelligence - as fast as possible"
+  },
+  "classification": {
+    "business_type": "research",
+    "company_type": "research_lab",
+    "ai_focus": ["generative_ai", "automation"],
+    "business_model": "other",
+    "tags": ["agi", "artificial-general-intelligence", "llm-agents", "ai-brain", "ai-research", "ai-grants"]
+  },
+  "history": {
+    "founded_year": 2014,
+    "founders": [
+      {
+        "name": "Marek Rosa",
+        "role": "CEO & CTO",
+        "linkedin": "https://cz.linkedin.com/in/marekrosa1",
+        "background": "Slovak entrepreneur, programmer, and game developer. Also CEO and founder of Keen Software House (Space Engineers). Founded GoodAI with a personal investment of $10M to pursue AGI research."
+      }
+    ],
+    "milestones": [
+      {
+        "year": 2014,
+        "event": "GoodAI founded by Marek Rosa with $10M personal investment"
+      },
+      {
+        "year": 2017,
+        "event": "Launched GoodAI General AI Challenge to advance AGI research"
+      },
+      {
+        "year": 2020,
+        "event": "Launched GoodAI Grants initiative with $300,000 grant fund for AI research"
+      },
+      {
+        "year": 2023,
+        "event": "Shifted focus to LLM-based autonomous agents and practical AI applications"
+      }
+    ]
+  },
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employees_source": "glassdoor_estimate",
+    "engineering_percentage": null
+  },
+  "offices": [
+    {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "is_hq": true,
+      "address": null
+    }
+  ],
+  "financials": {
+    "funding_total_usd": 10000000,
+    "funding_rounds": [
+      {
+        "date": "2014",
+        "round": "Self-funded",
+        "amount_usd": 10000000,
+        "investors": ["Marek Rosa (personal investment)"],
+        "source": "goodai.com/about"
+      }
+    ],
+    "revenue_estimated_usd": 7700000,
+    "revenue_source": "zoominfo",
+    "is_profitable": null,
+    "last_valuation_usd": null
+  },
+  "team": {
+    "key_people": [
+      {
+        "name": "Marek Rosa",
+        "title": "CEO & CTO",
+        "linkedin": "https://cz.linkedin.com/in/marekrosa1"
+      }
+    ]
+  },
+  "careers": {
+    "careers_page": "https://www.goodai.com/careers",
+    "hiring_signals": "unknown",
+    "open_roles_count": null,
+    "open_roles": [],
+    "notes": "Careers page could not be accessed due to SSL certificate issues on goodai.com"
+  },
+  "glassdoor": {
+    "rating": 4.6,
+    "review_count": 20,
+    "recommend_percentage": 88,
+    "work_life_balance": 4.4,
+    "url": "https://www.glassdoor.com/Reviews/GoodAI-Reviews-E1038071.htm",
+    "sample_reviews": [
+      "Best Job experience ever",
+      "Good company to work at",
+      "The dream of artificial intelligence",
+      "A Fulfilling Experience",
+      "Learned a lot, high energy team"
+    ]
+  },
+  "recognition": {
+    "awards": [],
+    "notable_mentions": [
+      "Featured in Forbes interview with Marek Rosa (2023)",
+      "Radio Prague International feature on AGI research (2016)",
+      "prg.ai interview: 'In search of general artificial intelligence' (2022)",
+      "Ran GoodAI General AI Challenge and GoodAI Grants ($300K fund)"
+    ]
+  },
+  "metadata": {
+    "data_quality": "medium",
+    "sources": [
+      "google_search",
+      "glassdoor_snippets",
+      "zoominfo_snippet",
+      "tracxn_snippet",
+      "crunchbase_snippet",
+      "wikipedia_snippet"
+    ],
+    "notes": "GoodAI website (goodai.com) had SSL certificate issues preventing direct scraping. Company data primarily self-funded by founder Marek Rosa's $10M personal investment. Not to be confused with 'Goodai Global', a Korean cosmetics company. The About page states founding in 2014 while Tracxn lists 2015. Revenue figure from ZoomInfo is unverified and may be an estimate. Marek Rosa also runs Keen Software House, the game studio behind Space Engineers.",
+    "last_updated": "2026-03-28"
+  }
+}

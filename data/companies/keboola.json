@@ -1,0 +1,103 @@
+{
+  "id": "keboola",
+  "name": "Keboola",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Cloud-based unified data and AI orchestration platform for data integration, transformation, automation, and governance",
+    "description_long": "Keboola is a B2B SaaS platform that unifies the entire data stack on one interface -- covering data integration, storage, transformation, automation, and governance. It helps businesses build end-to-end data workflows, automate repetitive tasks, and build data applications with a no-code front end. The platform serves enterprises in financial services, retail, marketing, and logistics with capabilities in churn prediction, logistics flow optimization, revenue prediction, and financial intelligence. Keboola was bootstrapped from 2008 to 2022 before raising external funding.",
+    "tagline": "Unified data & AI orchestration platform",
+    "website": "https://www.keboola.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["data_engineering", "automation", "ml_ops"],
+    "industries_served": ["financial_services", "retail", "marketing", "logistics", "telecom"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2008,
+    "founders": ["Mirek Burkon", "Milan Veverka", "Petr Simecek"],
+    "origin_story": "Founded in Prague in 2008 (incorporated July 2007) by Mirek Burkon, Milan Veverka, and Petr Simecek. The company was entirely self-funded and bootstrapped for over 14 years before raising its first external round in 2022. Their first employee was Jiri Sobotik.",
+    "key_milestones": [
+      {"year": 2008, "event": "Company founded in Prague"},
+      {"year": 2021, "event": "Reached $4.9M ARR bootstrapped with 56 employees"},
+      {"year": 2022, "event": "Raised $4.5M seed round led by Presto Ventures, first external funding after 14 years of bootstrapping"},
+      {"year": 2023, "event": "Raised $32M Series A led by Viking Global Investors, largest Series A in Central Europe in 2023"},
+      {"year": 2024, "event": "Revenue reached $11.7M with 175 customers"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": 84,
+    "employee_source": "getlatka",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true, "address": "Delnicka 191/27, Prague 7, 17000"},
+    {"city": "Vancouver", "country": "CA", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 36500000,
+    "funding_rounds": [
+      {"round": "Seed", "amount_usd": 4500000, "date": "2022-11", "lead_investor": "Presto Ventures"},
+      {"round": "Series A", "amount_usd": 32000000, "date": "2023-12", "lead_investor": "Viking Global Investors"}
+    ],
+    "investors": ["Viking Global Investors", "Presto Ventures", "Reflex Capital", "Eduard Kucera (Avast co-founder)"],
+    "revenue_estimate_usd": 11700000,
+    "revenue_source": "getlatka (2024)",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Pavel Dolezal", "role": "CEO & Founder", "source": "crunchbase"},
+      {"name": "Mirek Burkon", "role": "Co-founder", "source": "crunchbase"},
+      {"name": "Milan Veverka", "role": "Co-founder", "source": "crunchbase"},
+      {"name": "Petr Simecek", "role": "Co-founder", "source": "crunchbase"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.keboola.com/about/jobs",
+    "open_roles_count": 8,
+    "open_roles": [],
+    "tech_stack": ["python", "javascript", "cloud", "docker"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": 3.2,
+    "review_count": 42,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Keboola-Reviews-E1616091.htm"
+  },
+
+  "recognition": {
+    "awards": ["Largest Series A in Central Europe 2023"],
+    "notable_clients": ["Publicis Groupe", "Deloitte", "Erste Group", "BNP Paribas", "Allegro", "Home Credit"],
+    "customer_count": 175,
+    "partnerships": []
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["brave_search", "crunchbase", "getlatka", "glassdoor", "linkedin", "tracxn", "rocketreach", "venturebeat", "tech.eu", "g2"],
+    "fields_missing": ["recommend_pct", "detailed_open_roles", "exact_tech_stack"],
+    "needs_review": false,
+    "notes": "Bootstrapped for 14 years (2008-2022) before raising external capital. Revenue trajectory: $400K (2015) -> $4.9M (2021) -> $8M+ (2022) -> $7.5M (2023 per getlatka) -> $11.7M (2024). Employee count varies by source: LinkedIn says 51-200, getlatka reports 84, ContactOut reports 128. Glassdoor shows 3.2/5 from 42 reviews with 8 open positions. 70% positive interview experience. G2 has 138 product reviews. Keboola.com homepage could not be directly scraped due to browser navigation issues; data gathered from search engine snippets and third-party sources."
+  }
+}
