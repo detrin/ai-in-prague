@@ -1,0 +1,107 @@
+{
+  "id": "omnim",
+  "name": "Omnim",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:15:00Z",
+
+  "overview": {
+    "description": "AI marketing agents for B2B SaaS teams",
+    "description_long": "Omnim is a multi-agent marketing workspace where AI teammates execute real campaigns across your existing tools. Rather than passive AI assistants, Omnim agents actively plan, coordinate, and run marketing workflows — learning your playbooks and operating inside platforms like HubSpot, Mailchimp, and Ads Manager. Platform plus services model. Built for B2B SaaS companies that need marketing to happen without hiring a full team.",
+    "tagline": "AI agents that actually do your marketing.",
+    "website": "https://www.omnim.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["generative_ai", "automation"],
+    "industries_served": ["saas", "technology", "marketing"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2025,
+    "founders": ["Kubo Kubis", "Martin Matus"],
+    "origin_story": "Founded in 2025 by Kubo Kubis (CEO) and Martin Matus (CTO) to solve the gap between AI capabilities and actual marketing execution for B2B SaaS teams.",
+    "key_milestones": [
+      {"year": 2025, "event": "Founded; launched early access program"},
+      {"year": 2025, "event": "Raised pre-seed from Credo Ventures and Bek Ventures"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred_from_stage",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2025", "type": "Pre-Seed", "amount_usd": null, "lead_investor": "Credo Ventures"}
+    ],
+    "investors": ["Credo Ventures", "Bek Ventures"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Kubo Kubis", "role": "Co-founder & CEO", "source": "company_website"},
+      {"name": "Martin Matus", "role": "Co-founder & CTO", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["HubSpot", "Mailchimp", "Google Ads", "Meta Ads Manager", "Webflow"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Core value prop is using AI agents for marketing content and campaign orchestration — a use case that foundation model providers (OpenAI, Anthropic, Google) and major incumbents (HubSpot AI, Salesforce Einstein) are actively building natively. Very early stage with no disclosed proprietary data moat.",
+    "market_risk": "medium",
+    "market_risk_rationale": "AI marketing automation is a real and growing market, but highly competitive with many funded players (Jasper, Copy.ai, Persado) and rapid platform encroachment from HubSpot, Salesforce, and Adobe. Omnim's human-in-the-loop + services model differentiates but may be hard to scale.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Pre-seed backed by credible Czech/CE European VCs (Credo Ventures, Bek Ventures) with early access only — limited revenue visibility and very early stage. Runway uncertainty typical for 2025-era pre-seed.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Very early stage startup in a crowded market where the core AI layer is being commoditized by LLM providers. Without disclosed proprietary data or strong enterprise moat, displacement risk is elevated. Pre-seed stage means limited financial cushion."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["funding_total_usd", "employees_exact", "careers_url", "glassdoor", "office_address"],
+    "needs_review": false,
+    "notes": "No CNAIP URL. Website omnim.com is a parked domain; actual site is omnim.ai. Company is in early access as of March 2026. Prague location inferred from CNAIP source listing and Czech VC (Credo Ventures) backing."
+  }
+}
