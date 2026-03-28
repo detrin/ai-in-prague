@@ -1,0 +1,100 @@
+{
+  "id": "deepscout",
+  "name": "DeepScout",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered e-commerce competitive intelligence platform for price monitoring and product matching",
+    "description_long": "DeepScout (Algorama, s.r.o.) provides an AI-driven platform that collects competitor data from e-commerce sites—including prices, availability, product details, and assortment—without technical setup. Its unique 5-step AI matching algorithm matches identical products across competitors with 99% precision. The platform delivers actionable insights on pricing and assortment strategy, serving clients across multiple markets.",
+    "tagline": "Get Your Competition Data in Just a Few Clicks",
+    "website": "https://deepscout.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "cv", "data_engineering"],
+    "industries_served": ["e-commerce", "retail"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2019,
+    "founders": ["Jan Mittner"],
+    "origin_story": "Founded by Jan Mittner, entrepreneur and AI engineer, with early backing from Tomáš Hodboď (Miton) as Founding Investor. Supported by the Czech Technologická inkubace (Technology Incubation) program.",
+    "key_milestones": [
+      {"year": 2019, "event": "Algorama, s.r.o. incorporated (Company ID: 08751218)"},
+      {"year": 2024, "event": "DeepScout brand and platform publicly launched with 14-day free trial offering"},
+      {"year": 2024, "event": "Jan Mittner featured on Cinkátko Podcast discussing competitive pricing"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Třebíč", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Miton"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "usage_based"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jan Mittner", "role": "Founder", "source": "company_website"},
+      {"name": "Tomáš Hodboď", "role": "Founding Investor", "source": "company_website"},
+      {"name": "Martin Dítě", "role": "Product Manager", "source": "company_website"},
+      {"name": "Michal Marhan", "role": "Software Engineer", "source": "company_website"},
+      {"name": "Jan Vítů", "role": "Business Development", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Tomáš Hodboď", "note": "Partner at Miton; previously led Heureka and founded & scaled Glami"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://deepscout.ai",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "react", "next.js", "aws", "google-analytics"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Technologická inkubace program recipient"],
+    "notable_clients": ["Biano", "Bonami", "Rotorama", "Olivie"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "glassdoor", "open_roles_count", "founded_year_exact"],
+    "needs_review": false,
+    "notes": "Legal entity is Algorama, s.r.o. Registered office is in Třebíč, not Prague, but appears in Czech national AI/tech catalog. Company ID: 08751218, VAT ID: CZ08751218. Founding year estimated from company registration number range (~2019). Miton invested via Tomáš Hodboď as Founding Investor. Business model is usage-based (per website + per 1,000 products) with monthly/annual billing options."
+  }
+}
