@@ -1,0 +1,121 @@
+{
+  "id": "tovek",
+  "name": "TOVEK",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Czech AI-powered search, analytics and data intelligence platform for government and enterprise",
+    "description_long": "TOVEK (TOVEK, spol. s r.o.) is a Czech technology company founded in 1993 that develops professional tools for searching, analyzing and visualizing information. Their product suite — Tovek Tools, Tovek Server, Tovek Web Client, and Tovek Finder — is powered by TOVEK:AI modules for entity extraction, object detection, NLP search, and AI-based data enrichment. Solutions serve police investigation units, customs, military, OSINT/SIGINT teams, banks, insurance companies, HR departments, and compliance teams. The platform connects documents, databases, CRM and DMS systems and enriches data with AI-driven analysis.",
+    "tagline": "DATA?! We know how...",
+    "website": "https://www.tovek.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["nlp", "fraud_detection", "data_engineering", "automation"],
+    "industries_served": ["government", "finance", "banking", "insurance", "compliance", "cybersecurity"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1993,
+    "founders": ["Tomáš Vejlupek"],
+    "origin_story": "Founded by Tomáš Vejlupek in 1993, driven by fascination with information processing and its societal impact. Built a technology platform for professional search and analytics tools, later integrating AI. Czech-owned and Czech-operated for 30+ years.",
+    "key_milestones": [
+      {"year": 1993, "event": "Founded in Prague as a Czech analytics software company"},
+      {"year": 2017, "event": "1st place in Solutions for GDPR category (Czech IT competition)"},
+      {"year": 2018, "event": "1st place in Enterprise Software category"},
+      {"year": 2021, "event": "1st place in Special Projects category"},
+      {"year": 2022, "event": "1st place in Enterprise Software category"},
+      {"year": 2024, "event": "1st place in Online and related services category"},
+      {"year": 2025, "event": "Financial Efficiency Award for public procurement automation case study"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "licensing"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš Vejlupek", "role": "Founder, President", "source": "company_website"},
+      {"name": "Bořivoj Kostka", "role": "CEO", "source": "company_website"},
+      {"name": "Petr Hloušek", "role": "Associate", "source": "company_website"},
+      {"name": "Naďa Weiserová", "role": "Head of Partnership", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "1st place Online and related services 2024 (Czech IT competition)",
+      "1st place Enterprise Software 2022 (Czech IT competition)",
+      "1st place Special Projects 2021 (Czech IT competition)",
+      "1st place Enterprise Software 2018 (Czech IT competition)",
+      "1st place Solutions for GDPR 2017 (Czech IT competition)",
+      "2025 Financial Efficiency Award – public procurement automation",
+      "2022 Case Study Innovation Award – insurance fraud detection",
+      "2021 Best Case Study Award – financial institutions"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "TOVEK's core value is its integrated search, analytics, and AI platform with modules for entity extraction, object detection, and domain-specific AI training on private customer data. While foundation models could commoditize general NLP search, TOVEK's differentiation lies in on-premise deployment for sensitive government/security use cases and a 30-year relationship base with institutional clients — areas where off-the-shelf LLMs face adoption barriers.",
+    "market_risk": "low",
+    "market_risk_rationale": "Serves established, perennial markets: law enforcement analytics, enterprise compliance, fraud detection, and OSINT/intelligence. These are well-funded public-sector and enterprise markets with sustained demand. TOVEK has 30+ years of customer relationships and multiple award wins confirming real-world deployments.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Founded in 1993 and operating continuously for 30+ years as a privately-held Czech company, TOVEK is almost certainly self-sustaining through licensing revenue. No external funding needed or apparent; long-standing enterprise customer base provides stable recurring revenue.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Three decades of operation, strong public-sector client base in government and security, on-premise AI capabilities for sensitive data environments, and a diversified product portfolio make TOVEK resilient. AGI disruption is mitigated by regulated and security-sensitive deployment contexts where foundation model adoption is slow."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "careers_url", "open_roles_count"],
+    "needs_review": false,
+    "notes": "No CNAIP URL available. Employee count estimated — LinkedIn company page existed but headcount not extractable from snippet. Company is a long-established Czech enterprise software vendor; no public funding rounds found, consistent with a bootstrapped/profitable private company."
+  }
+}
