@@ -1,0 +1,122 @@
+{
+  "id": "centrum-karla-capka",
+  "name": "Centrum Karla Čapka",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T19:30:00Z",
+
+  "overview": {
+    "description": "Interdisciplinary AI ethics and technology values research center affiliated with the Czech Academy of Sciences",
+    "description_long": "The Karel Čapek Center for Values in Science and Technology (CEVAST) is an interdisciplinary research center named after Karel Čapek, the Czech writer who introduced the word 'robot' to world languages. Founded on October 12, 2018, the center studies ethical and socio-political questions related to artificial intelligence, robotics, and autonomous vehicles. Research strands include ethics of autonomous vehicles, AI surveillance and security, computer science and philosophy of machine consciousness, experimental philosophy of other minds, and robot-human relationships. The center is affiliated with the Czech Academy of Sciences (Filosofický ústav, Ústav státu a práva, Ústav informatiky) and the Faculty of Science at Charles University.",
+    "tagline": "Exploring values in science and technology through the lens of AI and robotics ethics",
+    "website": "https://www.cevast.org",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["other"],
+    "industries_served": ["academia", "policy", "ethics"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2018,
+    "founders": ["David Černý", "Tomáš Hříbek"],
+    "origin_story": "Founded on October 12, 2018 as an interdisciplinary research center under the Czech Academy of Sciences' Strategie AV21 program. Named after Karel Čapek, the Czech writer who coined the word 'robot' in his 1920 play R.U.R., the center was established to study ethical and philosophical questions arising from advances in AI, robotics, and autonomous systems.",
+    "key_milestones": [
+      {"year": 2018, "event": "Founded on October 12, 2018 under Czech Academy of Sciences"},
+      {"year": 2019, "event": "First anniversary conference 'Dobrá A.I. jako etická a filosofická výzva' (Good AI as an Ethical and Philosophical Challenge)"},
+      {"year": 2021, "event": "Annual essay competition on AI ethics for secondary school students"},
+      {"year": 2022, "event": "Published 'Autonomous Vehicle Ethics: The Trolley Problem and Beyond' (Oxford University Press)"},
+      {"year": 2025, "event": "Launched Karel Čapek Public Lecture Series in Technology Ethics at Edison Filmhub, Prague"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Academy of Sciences (AV ČR)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "David Černý", "role": "Co-director / Principal Investigator", "source": "company_website"},
+      {"name": "Tomáš Hříbek", "role": "Co-director / Principal Investigator", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Adam Doležal", "role": "Researcher", "note": "Institute of State & Law, Czech Academy of Sciences"},
+      {"name": "Jaroslav Flegr", "role": "Researcher", "note": "Faculty of Science, Charles University"},
+      {"name": "Robin Kopecký", "role": "Researcher", "note": "Faculty of Science, Charles University; studies anthropomorphic robot perception"},
+      {"name": "Michaela Kosová", "role": "Researcher", "note": "Faculty of Science, Charles University"},
+      {"name": "Tomáš Sobek", "role": "Researcher", "note": "Institute of State & Law, Czech Academy of Sciences"},
+      {"name": "Jiří Wiedermann", "role": "Researcher", "note": "Institute of Computer Science, Czech Academy of Sciences; minimal consciousness in AI systems"},
+      {"name": "Monika Mareková", "role": "Researcher", "note": ""}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Filosofický ústav AV ČR (Institute of Philosophy, Czech Academy of Sciences)",
+      "Ústav státu a práva AV ČR (Institute of State and Law, Czech Academy of Sciences)",
+      "Ústav informatiky AV ČR (Institute of Computer Science, Czech Academy of Sciences)",
+      "Přírodovědecká fakulta UK (Faculty of Science, Charles University)",
+      "Strategie AV21 (Czech Academy of Sciences 21st Century Strategy program)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "CEVAST is an AI ethics and philosophy research center — its work on values in AI, autonomous vehicle ethics, and robot consciousness becomes more relevant as AI advances, not less.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Academic research center operating within the Czech Academy of Sciences structure; not subject to commercial market dynamics.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Center operates under the Czech Academy of Sciences' Strategie AV21 program with institutional affiliation, providing stability. However, as a small interdisciplinary center without a dedicated funding page, continued operations depend on renewal of CAS grants and academic support.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "CEVAST is firmly embedded within the prestigious Czech Academy of Sciences, has produced peer-reviewed publications including an Oxford University Press book (2022), and is active in public engagement events. The center's focus on AI ethics is gaining importance as AI regulation (e.g. EU AI Act) increases demand for applied ethics research."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "avcr.cz"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "careers_url", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "Full Czech name: Centrum Karla Čapka pro studium hodnot ve vědě a technice. Abbreviation: CEVAST. Founded October 12, 2018. Two Prague locations: Institute of State & Law at Národní 18, 116 00 Praha 1; Institute of Philosophy at Jilská 1, 110 00 Praha 1. Facebook: http://www.facebook.com/TheKarelCapekCenter. Projects: 'Století robotů' (Century of Robots), 'Etika epidemie' (Ethics of Epidemic). Annual essay competition for secondary school students on AI/robotics ethics topics."
+  }
+}
