@@ -1,0 +1,111 @@
+{
+  "id": "spacetrees",
+  "name": "SPACETREES",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "AI-powered satellite monitoring for forests, critical infrastructure, and landscapes",
+    "description_long": "Spacetrees develops advanced AI solutions for monitoring forests, critical infrastructure, and landscapes using satellite imagery and geospatial data. The platform delivers actionable insights on forest health, drought, bark beetle outbreaks, and environmental risks. It leverages machine learning, computer vision, and time-series analysis to detect changes and support sustainable ecosystem management. Expanding into international markets with a primary focus on Europe.",
+    "tagline": "AI Tree Monitoring — Přesná data. Lepší správa.",
+    "website": "https://www.spacetrees.cz",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/spacetrees"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["cv", "ml_ops", "data_engineering"],
+    "industries_served": ["forestry", "environment", "defense", "critical_infrastructure", "public_sector"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Martin Chlubna", "Martin Rychlý", "Petr Klápště"],
+    "origin_story": "Founded by forest environment and remote sensing specialists to combine satellite data, AI, and forestry expertise for ecosystem management.",
+    "key_milestones": [
+      {"year": 2023, "event": "Monitored 5,000 hectares in first operational year"},
+      {"year": 2024, "event": "Scaled to 10,000 hectares monitored; Vojenské lesy a statky ČR (Military Forests and Estates of CZ) as key client"},
+      {"year": 2025, "event": "Planned scale-up to 40,000 hectares; expanding internationally"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 6,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Martin Chlubna", "role": "Founder, Forest Environment Specialist & Satellite Imagery Expert", "source": "company_website"},
+      {"name": "Martin Rychlý", "role": "Co-Founder, GIS Engineer & AI Forest Monitoring Specialist", "source": "company_website"},
+      {"name": "Petr Klápště", "role": "Co-Founder, Remote Sensing & GIS Specialist (Ph.D.)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Jiří Petrs", "role": "AI Specialist, Satellite Geodesy & Earth Observation", "source": "company_website"},
+      {"name": "Petra Vincencová", "role": "Project Manager & Business Development (International Expansion)", "source": "company_website"},
+      {"name": "Jan Limpouch", "role": "GIS Specialist, LiDAR & SAR Data Analyst", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "machine_learning", "computer_vision", "gis", "lidar", "sar", "sentinel-2", "mlops"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Vojenské lesy a statky ČR"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Spacetrees operates in a specialized geospatial AI niche (forest and infrastructure monitoring via satellite imagery) with proprietary data pipelines and domain expertise in forestry. However, major cloud and earth observation platforms (Google Earth Engine, Microsoft Planetary Computer, Esri) are rapidly expanding AI capabilities in this space, creating commoditization risk over the medium term.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Forest health monitoring and critical infrastructure surveillance via satellite is a real and growing market (driven by climate change, ESG mandates, and government needs), but it is relatively niche and primarily reliant on public sector and B2G clients who procure slowly. The company's rapid year-on-year growth (5k → 10k → 40k hectares) signals genuine product-market fit, but the addressable market size is moderate.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external funding identified. The company is very small (~6 people), appears bootstrapped, and is in early revenue stage. While they have a notable public-sector client (Military Forests and Estates of CZ), there are no runway signals from institutional investment.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Despite strong domain expertise and a differentiated satellite-AI product, the combination of no known funding, a very small team, and dependence on public-sector procurement cycles creates significant execution and sustainability risk. The company's rapid growth trajectory is promising but insufficient to offset funding and scale risks at this stage."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor"],
+    "needs_review": false,
+    "notes": "IČO: 17901855. Company likely founded 2022-2023 based on first operational year data (2023). Team of 6 listed on website; actual headcount may be slightly higher. No careers page found. Primary client is Vojenské lesy a statky ČR (state military forestry enterprise)."
+  }
+}
