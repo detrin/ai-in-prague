@@ -1,0 +1,113 @@
+{
+  "id": "upheal",
+  "name": "Upheal",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "AI-powered EHR and practice management platform for mental health therapists",
+    "description_long": "Upheal is an all-in-one practice management platform built for mental health clinicians. It combines AI-generated progress notes (from session transcription), telehealth video calling, scheduling, billing/payments, treatment planning, and analytics. The platform serves individual therapists, group practices, and virtual mental health providers with HIPAA-compliant tooling. Trusted by 70,000+ mental health providers globally.",
+    "tagline": "Mental Health EHR with AI Notes — Designed for clinicians. Built by clinicians. Powered by AI.",
+    "website": "https://www.upheal.io",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "speech", "automation"],
+    "industries_served": ["mental_health", "healthcare"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2021,
+    "founders": ["Juraj Chrappa", "Martin Horvath"],
+    "origin_story": "Founded in 2021 by Juraj Chrappa (CEO) and Martin Horvath (CTO) with development team based in Prague. Incorporated as Upheal, Inc. in the US.",
+    "key_milestones": [
+      {"year": 2021, "event": "Founded in Prague/Miami"},
+      {"year": 2022, "event": "Raised $2M seed round"},
+      {"year": 2024, "event": "Launched UphealOS — full EHR replacement for private-pay practices"},
+      {"year": 2026, "event": "Reached 70,000+ mental health providers on platform"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "linkedin",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Miami", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Middletown", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 2000000,
+    "funding_rounds": [
+      {"date": "2022-05", "type": "Seed", "amount_usd": 2000000, "lead_investor": null}
+    ],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "freemium"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Juraj Chrappa", "role": "Co-founder & CEO", "source": "linkedin"},
+      {"name": "Martin Horvath", "role": "Co-founder & CTO", "source": "linkedin"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.upheal.io/careers",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "Customer Success Manager", "department": "customer_experience", "location": "US (remote)"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": 70000,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core AI (session transcription + clinical note generation) is becoming commoditized by general-purpose LLMs. However, Upheal has meaningful moat in HIPAA compliance infrastructure, clinical-specific note formats (SOAP, DAP, GIRP, BIRP, EMDR), EHR integration, and insurance compliance checking — all requiring deep domain expertise to replicate.",
+    "market_risk": "low",
+    "market_risk_rationale": "Mental health documentation burden is a well-documented and growing problem with large addressable market. 70,000+ paying/free providers demonstrates clear product-market fit and adoption.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Only a $2M seed round (2022) is publicly confirmed with no evidence of follow-on funding. However, 70,000+ users and freemium-to-paid conversion model suggest real revenue. Bootstrapped growth is plausible but runway remains uncertain.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong PMF and domain-specific moat in healthcare compliance reduce displacement risk, but commoditization of AI note-taking (many competitors: Mentalyc, Blueprint, Autonotes, Heidi) and limited known funding create medium overall risk. Prague engineering team with US market focus is a good cost structure for sustainability."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["funding_total_usd_confirmed", "investors", "glassdoor_rating", "tech_stack", "revenue_estimate_usd"],
+    "needs_review": false,
+    "notes": "No CNAIP URL available. Company is US-incorporated (Upheal, Inc., Miami FL) with Prague CZ engineering office. Seed round amount ($2M) inferred from tech.eu URL slug 'upheal-raises-2m-seed-round' — not verified from article body. Czech/Slovak founders (Juraj Chrappa, Martin Horvath) with Prague dev team qualifies as Prague AI company."
+  }
+}
