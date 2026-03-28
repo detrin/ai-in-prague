@@ -1,0 +1,130 @@
+{
+  "id": "skoda-auto",
+  "name": "ŠKODA AUTO",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Czech automotive manufacturer using AI in production, logistics, diagnostics, and connected car features",
+    "description_long": "ŠKODA AUTO is a Czech automobile manufacturer and wholly-owned subsidiary of Volkswagen Group, established in 1895/1896. Headquartered in Mladá Boleslav, the company employs over 37,000 people and generates €25.5 billion in annual revenue. ŠKODA applies AI across manufacturing (predictive maintenance via sound analysis), logistics (AI-optimised container loading), vehicle diagnostics (Sound Analyser app), and connected services (Citymove mobility app). The company operates ŠKODA AUTO DigiLab, an in-house innovation workshop, and co-founded '42 Prague', a programming education institute. ŠKODA describes its strategic direction as transforming from a traditional car manufacturer to a software-oriented company.",
+    "tagline": "Let's Explore",
+    "website": "https://www.skoda-auto.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["automation", "ml_ops", "other"],
+    "industries_served": ["automotive", "manufacturing", "mobility"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1895,
+    "founders": ["Václav Laurin", "Václav Klement"],
+    "origin_story": "Founded in 1895/1896 as Laurin & Klement, a bicycle repair shop in Mladá Boleslav, Bohemia. Transitioned to motorcycles (1899) then automobiles (1905). Acquired by Škoda Works in 1925. Became a VW Group subsidiary starting in 1991, fully acquired in 2000.",
+    "key_milestones": [
+      {"year": 1895, "event": "Founded as Laurin & Klement bicycle repair shop in Mladá Boleslav"},
+      {"year": 1905, "event": "Started automobile production"},
+      {"year": 1925, "event": "Acquired by Škoda Works"},
+      {"year": 1991, "event": "Privatisation begins; VW Group acquires initial stake"},
+      {"year": 2000, "event": "Becomes fully owned VW Group subsidiary"},
+      {"year": 2019, "event": "ŠKODA AUTO DigiLab launches AI-based Sound Analyser app for vehicle diagnostics"},
+      {"year": 2020, "event": "Wins Pioneer Award from Auto Bild/Computer Bild for AI use (Sound Analyser)"},
+      {"year": 2022, "event": "Co-founds '42 Prague' coding institute; new brand identity launched with slogan 'Let's Explore'"},
+      {"year": 2024, "event": "Revenue €25.5 billion; 822,568 vehicles produced"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 37551,
+    "employee_source": "wikipedia_2024",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Mladá Boleslav", "country": "CZ", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Kvasiny", "country": "CZ", "is_hq": false},
+    {"city": "Vrchlabí", "country": "CZ", "is_hq": false},
+    {"city": "Pune", "country": "IN", "is_hq": false},
+    {"city": "Weiterstadt", "country": "DE", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Volkswagen Group",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Volkswagen Group"],
+    "revenue_estimate_usd": 27625000000,
+    "revenue_source": "wikipedia_2024_eur25.5b_converted",
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Klaus Zellmer", "role": "Chairman of the Board of Management (CEO)", "source": "skoda_storyboard"},
+      {"name": "Martin Jahn", "role": "Member of the Board for Sales and Marketing", "source": "skoda_storyboard"},
+      {"name": "Andreas Dick", "role": "Member of the Board for Production and Logistics", "source": "skoda_storyboard"},
+      {"name": "Dr. Johannes Neft", "role": "Member of the Board for Technical Development", "source": "skoda_storyboard"},
+      {"name": "Maren Gräf", "role": "Member of the Board for People & Culture", "source": "skoda_storyboard"},
+      {"name": "Holger Peters", "role": "Member of the Board for Finance, IT and Legal Affairs", "source": "skoda_storyboard"},
+      {"name": "Michael Kerschensteiner", "role": "Chief Procurement Officer", "source": "skoda_storyboard"}
+    ],
+    "notable_people": [
+      {"name": "Daria Hvížďalová", "role": "AI/IT expert; CEO of co-founded '42 Prague' coding institute", "source": "skoda_storyboard"},
+      {"name": "Milan Dědek", "role": "AI expert in predictive maintenance at ŠKODA AUTO", "source": "skoda_storyboard"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.skoda-career.com/en",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Skoda-Auto-Reviews-E13019.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Pioneer Award 2020 (Auto Bild / Computer Bild) — AI-based Sound Analyser app"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "42 Prague (co-founder)",
+      "Anagog — invested in Israeli predictive mobility AI startup (2018)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "ŠKODA is a 130-year-old automotive OEM. Its core value is physical manufacturing of cars, not AI software. Internal AI use (diagnostics, logistics, predictive maintenance) enhances operations but is not the company's product. Foundation models cannot replace car manufacturing.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established global automotive market with 822,568 vehicles produced in 2024 and €25.5B revenue. Competitive EV transition risk exists industry-wide but ŠKODA is executing its electrification strategy within VW Group's platform.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Wholly owned subsidiary of Volkswagen Group with €2.09B operating income in 2024. No funding risk — backed by one of the world's largest automotive conglomerates.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "ŠKODA is a profitable, century-old enterprise with VW Group backing, €25.5B revenue, and a clear electrification roadmap. Primary risks are macro automotive sector challenges (EV transition, supply chain), not AI displacement."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["wikipedia", "skoda_storyboard", "linkedin", "company_website"],
+    "fields_missing": ["glassdoor_rating", "open_roles_count", "tech_stack", "office_count"],
+    "needs_review": false,
+    "notes": "ŠKODA AUTO HQ is in Mladá Boleslav, not Prague. Prague office exists and ŠKODA co-founded '42 Prague' coding institute. Included in catalog as a major Czech employer deploying AI in manufacturing/automotive context. Revenue USD figure converted from €25.5B using approximate rate."
+  }
+}
