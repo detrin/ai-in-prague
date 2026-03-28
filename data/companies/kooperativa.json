@@ -1,0 +1,112 @@
+{
+  "id": "kooperativa",
+  "name": "Kooperativa pojišťovna",
+  "category": "company",
+  "scraped_at": "2026-03-28T19:43:00Z",
+
+  "overview": {
+    "description": "Second largest insurance company in Czech Republic, using AI for claims processing and document classification",
+    "description_long": "Kooperativa pojišťovna, a.s. is the second largest commercial insurer in the Czech Republic with over 24.72% market share. Founded in 1991 as the first private insurer in Czechoslovakia, it is a member of the Vienna Insurance Group (VIG). The company provides life and non-life insurance for individuals, SMEs, and large enterprises. It serves 2.48 million clients with 4.74 million contracts, and in 2025 processed over 685,000 insurance claims. Kooperativa uses AI for document classification to speed up claims settlement, sorting documents submitted by clients in connection with insurance events.",
+    "tagline": "Vaše starosti si bereme na starost (We take your worries off your hands)",
+    "website": "https://www.koop.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["document_processing", "automation"],
+    "industries_served": ["insurance", "finance"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1991,
+    "founders": ["Vladimír Mráz"],
+    "origin_story": "Founded on May 28, 1991 as the first private insurance company in Czechoslovakia, following the new insurance act that ended the monopoly of the Czech State Insurance company.",
+    "key_milestones": [
+      {"year": 1991, "event": "Founded as first private insurer in Czechoslovakia"},
+      {"year": 1993, "event": "Began insuring large industrial risks; split into Czech and Moravian-Silesian branches after dissolution of Czechoslovakia"},
+      {"year": 2001, "event": "Vienna Insurance Group became majority shareholder"},
+      {"year": 2020, "event": "Named Most Trusted Brand and Best Insurance Company of the Year"},
+      {"year": 2023, "event": "Reached 2.48 million clients and 4.74 million contracts with 24.72% Czech market share"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 4075,
+    "employee_source": "wikipedia_cs",
+    "office_count": 300
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Vienna Insurance Group",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Vienna Insurance Group (95.8%)", "Česká spořitelna (1.6%)", "Svaz českých a moravských výrobních družstev (1.1%)"],
+    "revenue_estimate_usd": 1900000000,
+    "revenue_source": "wikipedia_cs (43.8 billion CZK in 2021, converted at ~23 CZK/USD)",
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Vladimír Mráz", "role": "Founder / Board Chair", "source": "wikipedia_cs"},
+      {"name": "Martin Diviš", "role": "Executive", "source": "wikipedia_cs"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.koop.cz/o-nas/kariery",
+    "open_roles_count": 45,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Zlatá Koruna – 1st place Pojištění pro podnikatele – TREND",
+      "Nejlepší pojišťovna 2020 – 1st place Pojišťovna roku HN – Nejlepší životní pojišťovna",
+      "Nejdůvěryhodnější značka 2020 – 1st place Pojišťovny"
+    ],
+    "notable_clients": [],
+    "customer_count": 2480000,
+    "partnerships": ["Vienna Insurance Group"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Kooperativa is a traditional insurer where AI is a supporting tool for document processing, not the core business. Insurance value lies in risk assessment, regulatory compliance, claims handling, and customer relationships — none of which are easily displaced by foundation models.",
+    "market_risk": "low",
+    "market_risk_rationale": "Insurance is a stable, regulated, and mandatory-purchase market. Kooperativa holds ~25% Czech market share with 2.48 million clients, backed by the financially strong Vienna Insurance Group.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Kooperativa is a large, profitable enterprise subsidiary of Vienna Insurance Group with ~1.9 billion USD annual revenue and 10.6 billion CZK net profit in 2021. No funding risk.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Established market leader in Czech insurance with multi-decade history, strong parent company backing, regulatory moat, and large loyal customer base. AI use is complementary to core business rather than existentially dependent on it."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["wikipedia_cs", "company_website"],
+    "fields_missing": ["glassdoor_rating", "tech_stack", "open_roles_detail", "exact_leadership_titles"],
+    "needs_review": false,
+    "notes": "Kooperativa is not an AI-native company but uses AI for document classification in claims processing. Included in the Prague AI catalog as an enterprise AI adopter. Revenue and profit data from Wikipedia (2021 figures). Employee count from Wikipedia 2021 data; koop.cz mentions 'over 3,800 employees' in an older page snapshot."
+  }
+}
