@@ -1,0 +1,121 @@
+{
+  "id": "ernst-and-young",
+  "name": "Ernst & Young",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Big Four professional services and consulting firm with strong AI and technology consulting practice in Czech Republic",
+    "description_long": "EY (formerly Ernst & Young) is one of the Big Four global professional services networks, offering assurance, tax, consulting, and advisory services. In the Czech Republic, EY operates from Prague, Brno, and Ostrava with over 1,100 professionals serving nearly 2,000 Czech and international clients. EY has invested $1.4 billion globally in AI capabilities, launching the EY.ai platform and its proprietary large language model EYQ, which won the Generative AI Excellence Award 2024. The Czech Republic practice offers AI strategy consulting, data and decision intelligence, and technology transformation services.",
+    "tagline": "Shape the future with confidence",
+    "website": "https://www.ey.com/en_cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "automation", "data_engineering"],
+    "industries_served": ["finance", "banking", "manufacturing", "retail", "energy", "public_sector"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1991,
+    "founders": [],
+    "origin_story": "EY entered the Czech Republic circa 1991 following the country's transition to a market economy. Globally, EY was formed in 1989 through the merger of Ernst & Whinney and Arthur Young & Co. The Czech entity celebrated its 30th anniversary in 2021 under Country Managing Partner Magdalena Souček.",
+    "key_milestones": [
+      {"year": 1989, "event": "Global EY formed through merger of Ernst & Whinney and Arthur Young & Co."},
+      {"year": 1991, "event": "EY establishes presence in Czech Republic"},
+      {"year": 2013, "event": "Global rebranding from Ernst & Young to EY"},
+      {"year": 2021, "event": "EY Czech Republic celebrates 30th anniversary; Martina Kneiflová appointed Country Managing Partner"},
+      {"year": 2023, "event": "EY invests $1.4B in AI; launches EY.ai platform and EYQ large language model"},
+      {"year": 2024, "event": "EYQ wins Generative AI category at Artificial Intelligence Excellence Award 2024; Global revenue reaches $51.2B"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 1100,
+    "employee_source": "linkedin_snippet",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "Ostrava", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Ernst & Young Global Limited",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 51200000000,
+    "revenue_source": "Global FY2024 revenue per EY press release (ey.com/newsroom); Czech entity revenue not disclosed",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Martina Kneiflová", "role": "Country Managing Partner, EY Czech Republic", "source": "company_website"},
+      {"name": "Janet Truncale", "role": "Global Chair and CEO, EY Global", "source": "wikipedia"}
+    ],
+    "notable_people": [
+      {"name": "Magdalena Souček", "role": "Former Country Managing Partner (until Jan 2022)", "note": "Led Czech entity through 30th anniversary"},
+      {"name": "Alice Machová", "role": "Head of Climate Change & Sustainability Services, EY Czech Republic", "source": "sustainabilitysummit.cz"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.ey.com/en_cz/careers",
+    "open_roles_count": 72,
+    "open_roles": [
+      {"title": "AI/Technology Consultant", "department": "consulting", "location": "Prague"},
+      {"title": "Tax Consultant", "department": "tax", "location": "Prague"},
+      {"title": "Assurance Associate", "department": "assurance", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "azure", "aws", "powerbi", "sap"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": 3.7,
+    "review_count": 117,
+    "recommend_pct": 71,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/EY-Prague-Reviews-EI_IE2784.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Artificial Intelligence Excellence Award 2024 – Generative AI category (EY.ai EYQ)",
+      "Fortune 100 Best Companies to Work For – 25 consecutive years (global)"
+    ],
+    "notable_clients": null,
+    "customer_count": 2000,
+    "partnerships": ["Microsoft", "IBM", "SAP", "Salesforce", "ServiceNow"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "EY's core AI value proposition is AI-augmented consulting (EY.ai/EYQ), not a proprietary AI product. While foundation models commoditize parts of their analytical work, EY's deep regulatory expertise, client trust relationships, and enterprise integration capabilities provide meaningful lock-in. The $1.4B AI investment demonstrates adaptation rather than disruption.",
+    "market_risk": "low",
+    "market_risk_rationale": "EY is a Big Four firm with a 30+ year presence in Czech Republic, serving nearly 2,000 clients including 20 of Czech top 30 companies and the 6 largest banks. The professional services market is mature, well-funded, and highly regulated, providing stable demand with high switching costs.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "EY is one of the world's largest professional services networks with $51.2B global revenue (2024) and 393,000 employees globally. The Czech subsidiary is a fully backed member firm of Ernst & Young Global Limited with no funding risk.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "EY Czech Republic is an established enterprise with over 1,100 employees, nearly 2,000 clients, and the backing of a $51B global network. Its consulting model and deep client relationships provide significant resilience against AI commoditization, though it faces ongoing pressure to embed AI into its service delivery."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "wikipedia", "linkedin_snippet", "yahoo_search_snippets", "britishchamber.cz", "glassdoor_snippet", "acca_careers_snippet"],
+    "fields_missing": ["cnaip_url", "exact_czech_revenue", "open_roles_detail"],
+    "needs_review": false,
+    "notes": "EY Czech Republic was listed in the CNAIP catalog without a CNAIP URL. The company is primarily a consulting enterprise, not an AI-native startup. The 1,100 employee count and 2,000 client count are Czech Republic-specific figures. Global revenue ($51.2B) and global employee count (393,000) are for the EY network as a whole. The Czech entity celebrated its 30th anniversary in 2021, placing its founding around 1991."
+  }
+}
