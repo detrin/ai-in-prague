@@ -1,0 +1,110 @@
+{
+  "id": "peopleboard-ai",
+  "name": "PeopleBoard.ai",
+  "category": "company",
+  "scraped_at": "2026-03-28T21:15:00Z",
+
+  "overview": {
+    "description": "AI-powered SaaS platform for data-driven company management, connecting performance, people and systems",
+    "description_long": "PeopleBoard.ai is a Czech SaaS platform that helps CEOs and top management make decisions based on the real state of their company rather than intuition. It collects and connects data on performance, people, and organisational systems into a single coherent picture. The platform uses AI to uncover root causes of operational problems — strategic fatigue, execution fragmentation, silent performance loss — and guides leaders toward systemic fixes. Complementary offering VisionFit provides an entry diagnostics for leaders who want clarity before making changes. Implementation is provided either by the PeopleBoard team or through a certified partner network.",
+    "tagline": "Platforma, která ukazuje skutečnou realitu vaší firmy",
+    "website": "https://www.peopleboard.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["data_engineering", "recommendation"],
+    "industries_served": ["manufacturing", "finance", "insurance", "technology", "hr_consulting"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2023,
+    "founders": ["Michal Martoch", "Monika Martochová", "Beata Holá"],
+    "origin_story": "Founded in August 2023 by three practitioners with 20+ years of combined experience in IT, people development, HR and business coaching. The founders decided to combine their methodological expertise (Gallup Strengths, Barrett Values Centre, Yellow Couch) with AI and modern data technology into a scalable SaaS product.",
+    "key_milestones": [
+      {"year": 2023, "event": "PeopleBoard s.r.o. formally incorporated (August 2023), registered at Krajský soud v Ostravě"},
+      {"year": 2024, "event": "Product expanded, certified partner programme launched"},
+      {"year": 2025, "event": "17+ named client logos on website including Denso, NN, Synthon, B:TECH, Raynet"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Starý Jičín", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Michal Martoch", "role": "CEO & Co-Founder", "source": "company_website"},
+      {"name": "Monika Martochová", "role": "COO & Co-Founder", "source": "company_website"},
+      {"name": "Beata Holá", "role": "Co-Founder, Head of Methodology and Business Psychology", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Andrea Šimoníková", "role": "Head of Implementation", "source": "company_website"},
+      {"name": "Kateřina Foltýnková", "role": "Business Development Specialist", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.peopleboard.ai/o-nas",
+    "open_roles_count": 0,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "not_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Denso", "NN (insurance)", "Synthon", "B:TECH", "Raynet", "UlovDomov", "B:Group", "Elinkx", "ZFP Group", "JIC", "Neoops"],
+    "customer_count": null,
+    "partnerships": ["Gallup Strengths (certified coach programme)", "Barrett Values Centre", "Yellow Couch"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "The platform's core value proposition — connecting people, performance and systems data into actionable insights — relies on domain-specific HR methodology (Gallup Strengths, Barrett Values, Yellow Couch) and a certified partner ecosystem rather than raw AI capability. However, the analytics and recommendation layer is not deeply differentiated from what foundation models could increasingly provide, giving it a medium displacement risk.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The Czech/Slovak SME management analytics market is real but limited in size. The company has 17+ named clients after ~2 years, showing proof of demand. However, it competes with global HR and BI tools entering this space and has a narrow geographic focus.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No evidence of external funding; appears bootstrapped. Subscription pricing is modest (22,800–144,000 CZK/year per client), making revenue limited for a small team. The company is less than 3 years old with no investor backing signals.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Early-stage bootstrapped Czech startup with modest pricing, limited geographic market, and a core analytics offering that faces pressure from AI commoditisation. The certified partner network and methodology-driven approach provide partial differentiation but are insufficient to significantly mitigate risk at this stage."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ares_gov_cz"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "glassdoor_rating", "founded_year_exact_product_launch"],
+    "needs_review": false,
+    "notes": "Company is registered in Starý Jičín (Moravskoslezský kraj), NOT Prague. Listed in CNAIP as Czech AI company. IČO: 19630344, registered at Krajský soud v Ostravě C 93451/KSOS. Website is Czech-language only, targeting Czech/Slovak market. The .ai domain and SaaS branding launched ~2023-2024; founders have 20+ years background in people/HR development consulting."
+  }
+}
