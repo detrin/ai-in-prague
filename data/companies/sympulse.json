@@ -1,0 +1,110 @@
+{
+  "id": "sympulse",
+  "name": "Sympulse",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "IT services and consulting company offering Data Science & AI, quantum security, and observability solutions",
+    "description_long": "Sympulse s.r.o. is a Prague-based IT services and consulting company, part of the SYNTECA international group. They offer data science and AI consulting, quantum resiliency and post-quantum cryptography services, Dynatrace-based observability and monitoring, Dataminr real-time AI event detection reselling, and technology education programs. Formerly known as Sysklass CZ s.r.o. (founded 1997), rebranded as Sympulse in 2023 under the SYNTECA umbrella.",
+    "tagline": "Innovating Intelligence. Securing the Future.",
+    "website": "https://sympulse.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["data_engineering", "ml_ops", "other"],
+    "industries_served": ["finance", "enterprise", "public_sector"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1997,
+    "founders": null,
+    "origin_story": "Originally founded as Sysklass CZ s.r.o. in April 1997. Rebranded to Sympulse s.r.o. in August 2023 after becoming part of the SYNTECA international IT group, which merged several Central European IT firms including Alanata, Datalan, Dignit, DQI, Softip, Sympulse, T-Soft, and others.",
+    "key_milestones": [
+      {"year": 1997, "event": "Founded as Sysklass CZ s.r.o. in Prague"},
+      {"year": 2023, "event": "Renamed to Sympulse s.r.o. and integrated into SYNTECA international IT group"},
+      {"year": 2024, "event": "Expanded leadership with appointment of Tomáš Žilavý as director"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "linkedin_snippet",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "SYNTECA a.s.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["SYNTECA a.s."],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Róbert Kúšik", "role": "Managing Director (Jednatel)", "source": "czech_business_registry"},
+      {"name": "Albert Šmajda", "role": "Director (Jednatel)", "source": "czech_business_registry"},
+      {"name": "Tomáš Žilavý", "role": "Director (Jednatel)", "source": "czech_business_registry"},
+      {"name": "Michal Ambler", "role": "Head of Data Science & AI", "source": "linkedin_snippet"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://sympulse.cz/index.php/dny-ai/career/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Help Desk / Service Desk Support", "department": "operations", "location": "Prague"}
+    ],
+    "tech_stack": ["dynatrace", "python", "dataminr"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Dynatrace", "Dataminr"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Sympulse primarily resells third-party technology (Dynatrace, Dataminr) and provides general IT/AI consulting with no apparent proprietary AI IP. As a small systems integrator, their value proposition is highly replicable and can be displaced by both AI-native consultancies and direct vendor relationships.",
+    "market_risk": "medium",
+    "market_risk_rationale": "IT services and consulting is a stable, real market, but Sympulse operates as a small regional player within a larger group (SYNTECA). Dependence on reselling Dynatrace and Dataminr creates channel risk if vendors shift go-to-market strategy.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Backed 100% by SYNTECA a.s., an international IT group with 30+ years of market experience and multiple portfolio companies. As a subsidiary, Sympulse benefits from the parent group's financial stability.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "The parent company backing (SYNTECA) mitigates funding risk, but Sympulse's lack of proprietary AI technology and heavy reliance on third-party product reselling creates high AGI displacement risk. Small team and limited visible AI differentiation make this a moderate-to-high risk profile for AI-focused job seekers."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_registry", "linkedin_snippet", "duckduckgo_snippets"],
+    "fields_missing": ["founded_year_exact", "revenue_estimate_usd", "funding_total_usd", "glassdoor_rating", "open_roles_count"],
+    "needs_review": false,
+    "notes": "Company was originally Sysklass CZ s.r.o. (founded 1997), rebranded in 2023. Part of SYNTECA international group. No CNAIP URL available. IČO: 25160621. Website blocks scraper access on subpages after initial access."
+  }
+}

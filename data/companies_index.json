@@ -2617,7 +2617,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "error"
+    "status": "done"
   },
   {
     "id": "structural-bioinfo",
@@ -2673,7 +2673,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "error"
+    "status": "done"
   },
   {
     "id": "t-mobile",
