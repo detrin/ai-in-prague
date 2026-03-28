@@ -1,0 +1,106 @@
+{
+  "id": "diribet",
+  "name": "Diribet",
+  "category": "company",
+  "scraped_at": "2026-03-28T19:35:00Z",
+
+  "overview": {
+    "description": "Statistical methods and ML software for industrial manufacturing quality control",
+    "description_long": "Diribet is a specialist in statistical methods and their application in industry, combining statistics, machine learning, and domain expertise. They develop cloud-based software (chy.stat for SPC, KPI monitoring, LIMS; YARVYN for measurement system analysis) and provide training through their Statisfaction Academy. Their products serve manufacturing companies with real-time process monitoring, anomaly detection, and continuous improvement tools aligned with Industry 4.0.",
+    "tagline": "Everything is a number, count with us",
+    "website": "https://www.diribet.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["automation", "data_engineering"],
+    "industries_served": ["manufacturing", "automotive", "quality_management"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2013,
+    "founders": null,
+    "origin_story": "Founded in 2013 in Beroun with a mission to make industry smarter by connecting technology, statistics/math, and modern IT systems with manufacturing quality data. Started in a garage.",
+    "key_milestones": [
+      {"year": 2013, "event": "Diribet s.r.o. established in Beroun, Czech Republic"},
+      {"year": 2016, "event": "Outgrew garage office, expanded while staying in Beroun"},
+      {"year": 2017, "event": "Went global with software available in 8 languages; first major Škoda Auto deployment"},
+      {"year": 2019, "event": "Launched YARVYN – cloud tool for measurement uncertainty analysis"},
+      {"year": 2020, "event": "DIRIBET CAPUT Plc. founded; launched employee share ownership programme"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Beroun", "country": "CZ", "is_hq": true},
+    {"city": "Germany", "country": "DE", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "DIRIBET CAPUT Plc.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.diribet.com",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": null,
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Škoda Auto (Vrchlabí plant)", "Škoda Auto (Mladá Boleslav plant)", "Festool s.r.o.", "Gentherm CZ s.r.o."],
+    "customer_count": null,
+    "partnerships": ["Diribet GmbH (Germany)", "9HQ (Poland)", "IQS (Italy)", "Wanzel (Austria)", "AaretonQS (India)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Diribet operates in industrial/manufacturing SPC and quality control – a domain requiring deep proprietary integrations with PLC machines, measuring devices, and factory IT systems. Their value is in vertical domain expertise and established industrial data pipelines, not in generic AI capabilities that can be replicated by foundation models.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established market in manufacturing quality management and SPC, with long-term contracts with tier-1 automotive clients (Škoda Auto, Festool, Gentherm). Industry 4.0 digitization demand is structural and growing, particularly in Central European manufacturing.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Bootstrapped SME with no known VC funding. While they have paying enterprise clients and a holding company structure (DIRIBET CAPUT Plc.), there is limited visibility into financial runway or margins for a small Czech company.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Deep integration moat in manufacturing processes, strong automotive client base, and expanding international partner network provide resilience. The main risk is limited scale as a small bootstrapped company competing in a niche industrial domain."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "product_websites_chystat_yarvyn", "bing_search_snippets"],
+    "fields_missing": ["founders", "employees_exact", "leadership", "glassdoor", "funding", "revenue", "careers_url"],
+    "needs_review": false,
+    "notes": "Diribet is headquartered in Beroun (near Prague), not Prague itself. Primary products: chy.stat (smart statistics SaaS for manufacturing) and YARVYN (measurement system analysis cloud tool). Company holds DIRIBET CAPUT Plc. as parent/holding from 2020. Notable clients include Škoda Auto VW Group plants."
+  }
+}
