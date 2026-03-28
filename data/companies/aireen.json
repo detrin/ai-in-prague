@@ -1,0 +1,129 @@
+{
+  "id": "aireen",
+  "name": "Aireen",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered autonomous retinal image analysis for screening chronic diseases",
+    "description_long": "Aireen is a Czech AI software medical device company that diagnoses chronic diseases from retinal images using deep learning. Their platform analyzes fundus images in under 60 seconds to detect diabetic retinopathy and age-related macular degeneration (AMD), with glaucoma and cardiovascular disease detection in development. Aireen is the first CE MDR class IIb certified EU-developed medical device with autonomous diagnostic capacity in its category. The system uses a cascade of neural networks trained on over 1.2 million retinal images, leveraging Intel OpenVINO technology for fast inference. It is offered as a cloud service (pay-as-you-go) to healthcare providers, insurers, and screening programmes.",
+    "tagline": "Scaling care for millions. Instantly.",
+    "website": "https://aireen.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["cv", "other"],
+    "industries_served": ["healthcare", "ophthalmology", "insurance"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2018,
+    "founders": ["David Navrátil"],
+    "origin_story": "Founded in April 2018 in Prague by David Navrátil with strategic investor Petr Kocian, Aireen set out to use AI and retinal imaging to enable early detection of chronic diseases such as diabetic retinopathy — conditions where late diagnosis leads to irreversible damage. The company achieved its first CE MDR IIb certification in May 2023, becoming the first Czech startup with this top-tier EU medical device certification for autonomous diagnostics.",
+    "key_milestones": [
+      {"year": 2018, "event": "Founded in Prague as Aireen a.s. (IČO 07074697)"},
+      {"year": 2021, "event": "Won 'Nápad roku' (Idea of the Year) award; announced over 20M CZK in development funding"},
+      {"year": 2022, "event": "Czech public health insurance begins reimbursement of AI diabetic retinopathy screening"},
+      {"year": 2023, "event": "Achieved CE MDR class IIb certification for diabetic retinopathy screening (May 2023)"},
+      {"year": 2024, "event": "Achieved CE MDR class IIb certification for AMD screening (May 2024)"},
+      {"year": 2025, "event": "ISO 27001 certified; expanded to Italian market with CzechInvest support"},
+      {"year": 2026, "event": "Strategic partnership with Optomed for AI-powered handheld diabetic retinopathy screening (January 2026)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2021-01", "type": "Seed/Early", "amount_usd": null, "lead_investor": "Petr Kocian (Strategic Partner)"}
+    ],
+    "investors": ["Petr Kocian"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "usage_based"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jiří Kuchyňa", "role": "CEO", "source": "company_website"},
+      {"name": "David Navrátil", "role": "Founder", "source": "company_website"},
+      {"name": "Petr Kocian", "role": "Strategic Partner", "source": "company_website"},
+      {"name": "Jan Hlaváček", "role": "COO", "source": "company_website"},
+      {"name": "Martin Slíva", "role": "CTO", "source": "company_website"},
+      {"name": "Adam Švrčina", "role": "CSO", "source": "company_website"},
+      {"name": "Jozefína Vaľková", "role": "Chief Medical Officer", "source": "company_website"},
+      {"name": "Renata Ženíšková", "role": "Clinical Researcher", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "prof. MUDr. Jakub Hort, Ph.D.", "role": "Advisory Board", "source": "company_website"},
+      {"name": "prof. MUDr. Martin Prázný CSc., Ph.D.", "role": "Advisory Board", "source": "company_website"},
+      {"name": "Doc. MUDr. Martin Šín Ph.D., FEBO", "role": "Advisory Board", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "intel_openvino", "deep_learning"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "CE MDR class IIb certification — diabetic retinopathy (May 2023)",
+      "CE MDR class IIb certification — AMD (May 2024)",
+      "ISO 27001 information security certification (May 2025)",
+      "Nápad roku (Idea of the Year) 2021",
+      "Vodafone award winner 2021",
+      "Microsoft for Startups supporter"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Optomed", "Intel", "Microsoft for Startups", "CzechInvest"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Aireen operates as a certified CE MDR class IIb medical device — a regulatory moat that takes years to obtain and cannot be bypassed by foundation models. The system is trained on 1.2M+ proprietary clinical retinal images with clinically validated outcomes, and integrates into regulated healthcare workflows. AGI foundation models cannot be deployed in EU medical diagnostics without equivalent CE MDR certification.",
+    "market_risk": "low",
+    "market_risk_rationale": "Diabetic retinopathy screening has real, proven demand and Czech public health insurance already reimburses the AI screening. The global prevalence of diabetes (500M+) drives long-term structural demand. Aireen has international expansion (Italy) and a strategic hardware partnership with Optomed, expanding addressable market.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Aireen is an early-stage startup with limited publicly disclosed funding (early mentions of ~20M CZK in development capital). The company appears to be largely self-funded or angel-backed, with no disclosed Series A+. However, healthcare reimbursement signals revenue, and CzechInvest support helps with international expansion costs.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "The strong regulatory moat (CE MDR IIb) and clinically validated proprietary training data provide significant barriers to competition and AGI displacement. Established reimbursement in Czech healthcare and strategic partnerships de-risk market entry. Funding is the primary risk factor for a small startup in a capital-intensive regulated sector."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ares.gov.cz", "cc.cz", "roklen24.cz", "optomed.com"],
+    "fields_missing": ["funding_total_usd", "employees_exact", "revenue_estimate_usd", "glassdoor_rating", "open_roles", "careers_url"],
+    "needs_review": false,
+    "notes": "Aireen a.s. (IČO: 07074697, DIČ: CZ07074697) is registered at Vodičkova 736/17, Nové Město, Prague 1. Operations address: Budějovická 3a, Prague 4. Founded April 25, 2018. No CNAIP listing found. Funding details limited — CzechCrunch January 2021 headline references '20M CZK for development' but amount not confirmed from primary source. Company uses pay-as-you-go cloud model for healthcare providers."
+  }
+}
