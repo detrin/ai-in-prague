@@ -1,0 +1,107 @@
+{
+  "id": "myriad-ai",
+  "name": "Myriad AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered regulatory compliance platform for enterprises",
+    "description_long": "Myriad empowers compliance teams by revolutionizing how they access and apply regulations. Their cutting-edge platform ensures teams always have the most comprehensive and up-to-date regulatory insights at their fingertips, with AI-driven agents that interpret complex regulations tailored to specific business needs. Features include document review, horizon scanning, audit trails, compliance navigator, and a central risk dashboard.",
+    "tagline": "Empower your enterprise. Put compliance on autopilot.",
+    "website": "https://myriad.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "document_processing", "automation"],
+    "industries_served": ["finance", "fintech", "healthcare", "insurance"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": null,
+    "key_milestones": []
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 34,
+    "employee_source": "linkedin",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "San Francisco", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jan Spidlen", "role": "CTO", "source": "linkedin"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://myriad.ai/career",
+    "open_roles_count": 4,
+    "open_roles": [
+      {"title": "AI Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Frontend Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Growth Marketing Manager", "department": "marketing", "location": "Prague"},
+      {"title": "Senior Sales Development Representative", "department": "sales", "location": "Remote UK"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Myriad AI's core value proposition — regulatory Q&A, document review, horizon scanning — sits squarely in capabilities that general-purpose LLMs (GPT, Claude, Gemini) can replicate. Without evidence of proprietary training data, deep integrations, or a compliance-specific model, the product risks commoditization as foundation model providers add native compliance tooling.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Regulatory compliance tech is a growing, real market (DORA, GDPR, AI Act driving demand), but competition includes well-funded incumbents like ComplyAdvantage, Ascent, and emerging LegalTech players. Covering 50+ global frameworks is a differentiator, but the landscape is contested.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No publicly known funding rounds or investors. With only ~34 employees and no disclosed revenue, runway is uncertain. The company is at an early stage where funding risk is elevated.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "High AGI displacement risk combined with high funding risk and limited evidence of customer traction or proprietary moat makes this a high-risk catalog entry. Prague engineering presence is notable, but the company needs to demonstrate differentiation and runway."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["founded_year", "founders", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "tech_stack"],
+    "needs_review": false,
+    "notes": "San Francisco HQ with Prague engineering/R&D office. CTO Jan Spidlen confirmed via LinkedIn post. No CNAIP entry. Compliance regulations coverage spans MiFID II, DORA, GDPR, HIPAA, CCPA, and 50+ others."
+  }
+}
