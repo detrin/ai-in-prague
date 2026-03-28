@@ -1,0 +1,135 @@
+{
+  "id": "oksystem",
+  "name": "OKsystem",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Czech software company delivering HR/payroll enterprise software and AI-driven digital transformation services",
+    "description_long": "OKsystem is a Prague-based family-owned software company operating since 1990, with over 500 employees and offices in Prague, Brno, and Ostrava. The company builds and maintains enterprise products including OKbase (HR/HCM/payroll), Checkbot (Industry 4.0 quality control), Scormium (eLearning), and OKadresy (address validation). Its internal OKlab unit researches and implements AI, robotics, data analytics and cybersecurity. Core clients include Czech public administration (Ministry of Labour and Social Affairs), multinational manufacturers, and large retail chains. Listed by Forbes Czech as one of the top 101 largest family businesses in the country.",
+    "tagline": "Your first choice for development and innovation",
+    "website": "https://www.oksystem.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["automation", "data_engineering", "ml_ops"],
+    "industries_served": ["public_sector", "manufacturing", "healthcare", "finance", "retail", "logistics"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1990,
+    "founders": null,
+    "origin_story": "Founded in Prague in 1990, OKsystem grew from a domestic software provider into one of the Czech Republic's largest family-owned IT companies, specialising in HR/payroll systems and enterprise digital transformation. The company has served some clients for more than 30 years.",
+    "key_milestones": [
+      {"year": 1990, "event": "Founded in Prague"},
+      {"year": 1999, "event": "Began supplying payroll system to Czech Ministry of Foreign Affairs"},
+      {"year": 2003, "event": "Started long-term cooperation with Eberspächer on payroll/time-attendance"},
+      {"year": 2015, "event": "Expanded OKbase to cover 7,000+ city and regional authority employees"},
+      {"year": 2025, "event": "Acquired majority stake in Sense4code (Scormium eLearning platform)"},
+      {"year": 2026, "event": "Named IT partner of the Czech Tennis Federation; ranked 101st in Forbes Czech largest family businesses"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": 500,
+    "employee_source": "company_website",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "Ostrava", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Martin Procházka", "role": "Chairman of the Board of Directors", "source": "company_website"},
+      {"name": "Vítězslav Ciml", "role": "CEO & Vice Chairman of the Board", "source": "company_website"},
+      {"name": "Zuzana Hofová", "role": "CFO", "source": "company_website"},
+      {"name": "Petr Gottesman", "role": "Software Development Director", "source": "company_website"},
+      {"name": "Eva Vodenková", "role": "HR & Operations Director", "source": "company_website"},
+      {"name": "Petr Červený", "role": "Service Delivery Director", "source": "company_website"},
+      {"name": "Vladimír Fuchs", "role": "Chief Sales Officer", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.oksystem.cz/en/careers",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["java", "oracle", "microsoft", "cisco", "android", "ios"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Forbes Czech Top 101 Largest Family Businesses (2026)",
+      "ISO 9001 Quality Management",
+      "ISO 14001 Environmental Management",
+      "ISO/IEC 27001 Information Security",
+      "ProcessUnity Global Risk Exchange trusted IT vendor",
+      "Entrepreneur Certificate 002535 – Classified Information (Confidential level)"
+    ],
+    "notable_clients": [
+      "Ministry of Labour and Social Affairs (Czech Republic)",
+      "Ministry of Foreign Affairs (Czech Republic)",
+      "City of Brno",
+      "Czech Academy of Sciences",
+      "ELI ERIC",
+      "ROCHE",
+      "Dr.Max pharmacies (ČESKÁ LÉKÁRNA HOLDING)",
+      "BILLA Czech Republic",
+      "Yaskawa Europe",
+      "Eberspächer",
+      "Airbus (service center)"
+    ],
+    "customer_count": null,
+    "partnerships": ["Datera (hardware/infrastructure for OKlab)", "Czech Tennis Federation (ČTS)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "OKsystem's core OKbase HR/payroll platform has deep enterprise integrations and 30+ years of customer lock-in, reducing short-term displacement risk. However, AI-native HR tools (Workday AI, SAP SuccessFactors) are increasingly automating payroll and HCM workflows, making the core product vulnerable over the medium term. OKlab is exploring AI but it is not yet a revenue-generating differentiator.",
+    "market_risk": "low",
+    "market_risk_rationale": "The company has a diversified base of long-tenure enterprise and public-sector clients in a stable Czech HR/payroll market. Multiple government ministry contracts provide recurring revenue, and the company has been profitable and growing for 36 years.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "OKsystem is a bootstrapped family-owned company with 500+ employees, 36 years of operations, and substantial recurring government and enterprise contracts. No external funding dependence; ranked among the largest Czech family businesses by Forbes.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong customer lock-in through deep enterprise integrations, long-standing government contracts, and 36-year track record make OKsystem resilient. Medium AGI displacement risk on core HR/payroll products is offset by low market and funding risk."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "founders", "open_roles_count"],
+    "needs_review": false,
+    "notes": "No CNAIP URL available. Website fully accessible. Bootstrapped family company — no external funding rounds. OKlab is the AI innovation unit. Employees listed as '500+' on About page and '500+ zaměstnanců' on careers page; mapped to 501-1000 bucket."
+  }
+}
