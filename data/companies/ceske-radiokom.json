@@ -1,0 +1,125 @@
+{
+  "id": "ceske-radiokom",
+  "name": "České Radiokomunikace",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:22:00Z",
+
+  "overview": {
+    "description": "Czech telecommunications and ICT infrastructure company offering AI cloud services including GPUaaS, MODELaaS, and Speech-to-Text",
+    "description_long": "České Radiokomunikace (CRA) is a provider of unique television, radio, and internet infrastructure, operating 8 data centers across the Czech Republic. Alongside traditional broadcast and telco services, CRA offers an AI Cloud portfolio including GPU as a Service (NVIDIA L4/L40S/H100/B200), Model as a Service (OpenAI-compatible API with open-source models like LLAMA, Gemma, DeepSeek, Qwen), and Speech to Text (25 languages, WER <15%). CRA is part of Czech critical infrastructure and is building the Prague Gateway DC, set to be the largest data center in the Czech Republic. 100% owned by Cordiant Digital Infrastructure Limited (UK).",
+    "tagline": "Datové centrum, přenos dat, Cloud a IoT",
+    "website": "https://www.cra.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["ml_ops", "generative_ai", "speech"],
+    "industries_served": ["telecommunications", "media", "enterprise", "public_sector"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1963,
+    "founders": [],
+    "origin_story": "Originally established in 1963 as a Czechoslovak state telecommunications and broadcasting infrastructure company. Privatized post-1989 and transformed into a modern ICT infrastructure provider. Now 100% owned by UK-based Cordiant Digital Infrastructure Limited.",
+    "key_milestones": [
+      {"year": 1963, "event": "Founded as state telecommunications and broadcasting infrastructure operator"},
+      {"year": 2016, "event": "Miloš Mastník becomes CEO"},
+      {"year": 2025, "event": "Launched AI Cloud services: GPUaaS, MODELaaS, Speech to Text"},
+      {"year": 2025, "event": "Installed NVIDIA DGX B200 systems in DC Lužice"},
+      {"year": 2025, "event": "Acquired nangu.TV streaming platform"},
+      {"year": 2025, "event": "Launched praguegateway.com for planned Prague Gateway DC (largest DC in Czech Republic)"},
+      {"year": 2026, "event": "Committed 70% of funding for AI Gigafactory project in Czech Republic"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 8
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "Ostrava", "country": "CZ", "is_hq": false},
+    {"city": "Pardubice", "country": "CZ", "is_hq": false},
+    {"city": "Zlín", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Cordiant Digital Infrastructure Limited",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Cordiant Digital Infrastructure Limited"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "usage_based"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Miloš Mastník", "role": "CEO", "source": "company_website"},
+      {"name": "Jiří Černík", "role": "CFO", "source": "company_website"},
+      {"name": "Petr Holý", "role": "CTO", "source": "company_website"},
+      {"name": "Petr Možiš", "role": "CCO", "source": "company_website"},
+      {"name": "Martina Ježková", "role": "CPO", "source": "company_website"},
+      {"name": "Marcel Procházka", "role": "Legal & Regulatory Director", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.cra.cz/kariera",
+    "open_roles_count": 9,
+    "open_roles": [
+      {"title": "ESG Analyst", "department": "strategy", "location": "Prague, Strahov"},
+      {"title": "Specialista dohledového centra - ICT služby", "department": "operations", "location": "Prague, Žižkov"},
+      {"title": "Quality Manager", "department": "operations", "location": "Prague"},
+      {"title": "Senior Analytik IS / Architekt IS", "department": "engineering", "location": "Prague, Strahov"},
+      {"title": "IT Project Manager", "department": "project_management", "location": "Prague"},
+      {"title": "IT Systems Specialist", "department": "engineering", "location": "Prague, Strahov"}
+    ],
+    "tech_stack": ["nvidia_gpu", "pytorch", "tensorflow", "vmware", "ubuntu", "openai_api", "hugging_face", "iso27001"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["ISO 27001", "ISO 9001", "ISO 14001", "ISO 50001", "TIA-942 (DC Tower Praha)", "Tier III (DC Lužice)"],
+    "notable_clients": ["Boosteroid"],
+    "customer_count": 120,
+    "partnerships": ["NVIDIA", "CzechInno EDIH", "Česká asociace umělé inteligence"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "CRA is a physical infrastructure provider — data centers, GPU clouds, and networking. Foundation models need this infrastructure to run; they don't displace it. Their AI offerings (GPUaaS, MODELaaS) are compute infrastructure layers, not AI applications that could be commoditized by better AI.",
+    "market_risk": "low",
+    "market_risk_rationale": "Demand for data center and GPU infrastructure in Central Europe is growing rapidly driven by AI workloads. CRA has a unique position as part of Czech critical infrastructure with 31-year track record, Tier III certified DCs, and is building the largest DC in the Czech Republic. National sovereignty angle (data stays in Czech Republic) adds further competitive moat.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "100% owned by Cordiant Digital Infrastructure Limited, a UK-based infrastructure investment fund. As a portfolio company of a professional infrastructure investor, CRA has strong institutional backing and access to capital for expansion (e.g., Prague Gateway DC, AI Gigafactory).",
+    "overall_risk": "low",
+    "overall_risk_rationale": "CRA is a well-capitalized, established national infrastructure company with a 60+ year operating history. Its pivot to AI cloud services builds on existing data center and networking assets, making it a resilient infrastructure play with low AGI displacement and market risk."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "wikipedia", "linkedin", "praguegateway_website"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "founded_year_current_entity"],
+    "needs_review": false,
+    "notes": "Founded 1963 refers to original state entity; current a.s. corporate form established later. Employee count estimated based on company scale (8 data centers, national telco). No CNAIP profile found. Cordiant Digital Infrastructure also owns Emitel (Poland), Hudson Interxchange, and Speed Fibre."
+  }
+}
