@@ -1,0 +1,135 @@
+{
+  "id": "profinit",
+  "name": "Profinit",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Custom software development, data management, and AI solutions from Central Europe",
+    "description_long": "Profinit specializes in custom software development, data management, data science and AI. With delivery centers in Czechia and Slovakia, 650+ professionals support clients across Central and Western Europe in banking, insurance, telecom, and life sciences. Founded in 1998 and acquired by Amdocs in February 2025, Profinit now serves as Amdocs Studios' European hub. Services include AI assistants, AI testing, custom AI solutions, data analytics, cloud solutions, and systems modernization.",
+    "tagline": "Custom software development, data & AI solutions from Central Europe",
+    "website": "https://profinit.eu",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["ml_ops", "generative_ai", "data_engineering", "automation"],
+    "industries_served": ["banking", "insurance", "telecom", "life_sciences", "fintech", "utilities"],
+    "company_type": "acquired",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1998,
+    "founders": [],
+    "origin_story": "Started in 1998 as a software product distributor in Prague; quickly expanded into Business Intelligence and Data Warehousing, forming a key partnership with Informatica for Czechia and Slovakia. Over 27 years evolved into a leading Central European custom software and data/AI firm.",
+    "key_milestones": [
+      {"year": 1998, "event": "Founded in Prague as software product distributor"},
+      {"year": 2005, "event": "First international branch opened in Slovakia; became tech partner to 4 of 6 largest Czech financial institutions"},
+      {"year": 2010, "event": "Joined New Frontier Group; won Gartner BI Award EMEA for Komerční banka solution"},
+      {"year": 2012, "event": "Prague Airport data management project named IT Project of the Year; ranked IDC top 5 Czech custom software company"},
+      {"year": 2015, "event": "Completed buyout returning to Czech ownership with 300+ professionals"},
+      {"year": 2018, "event": "Launched Big Data and Data Science projects; international work reaches 25% of portfolio"},
+      {"year": 2020, "event": "Launched first UK project: AI, MLOps, and decision engines for London-based financial institution"},
+      {"year": 2022, "event": "Opened new delivery center in Bratislava"},
+      {"year": 2023, "event": "Established Profinit Deutschland in Hamburg; revenue reaches €37M"},
+      {"year": 2024, "event": "Ranked 22nd in CIO TOP 100 ICT companies"},
+      {"year": 2025, "event": "Acquired by Amdocs (February 2025); becomes Amdocs Studios' European hub"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Bratislava", "country": "SK", "is_hq": false},
+    {"city": "Hamburg", "country": "DE", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Amdocs",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Amdocs"],
+    "revenue_estimate_usd": 40000000,
+    "revenue_source": "company_blog (2023 annual revenue €37M reported at time of Amdocs acquisition)",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Vladimír Dynda", "role": "CEO", "source": "company_website"},
+      {"name": "Bohumír Zoubek", "role": "Chief Competency Officer", "source": "company_website"},
+      {"name": "Vladimír Rytíř", "role": "Business Unit Director", "source": "company_website"},
+      {"name": "Jiří Trpkoš", "role": "Business Unit Director", "source": "company_website"},
+      {"name": "Richard Boura", "role": "Business Unit Director", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://jsmeprofinit.eu/en/",
+    "open_roles_count": 9,
+    "open_roles": [
+      {"title": "Senior BI Consultant", "department": "data_analytics", "location": "Prague"},
+      {"title": "Java Developer – Banking and Finance", "department": "engineering", "location": "Prague"},
+      {"title": "Javascript / Front-End Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Java Software Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "DS/ML/AI Lead Engineer", "department": "ai_ml", "location": "Prague"},
+      {"title": "Kotlin / Java Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Kotlin Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Java Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Business Development Manager", "department": "business", "location": "Prague"}
+    ],
+    "tech_stack": ["java", "kotlin", "javascript", "python", "aws", "azure", "microsoft_fabric", "power_bi"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "CIO TOP 100 – Ranked 22nd (2024)",
+      "Gartner BI Award EMEA (Komerční banka solution)",
+      "IT Project of the Year – Prague Airport data management",
+      "IDC top 5 Czech custom software company",
+      "5 stars on Clutch"
+    ],
+    "notable_clients": ["Komerční banka", "BNP Paribas Cardif", "Česká spořitelna (Erste Group)", "Amplifi Capital", "Václav Havel Airport Prague", "Berenberg"],
+    "customer_count": null,
+    "partnerships": ["Informatica", "Microsoft", "Amdocs"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Profinit's core value is enterprise integration work across complex banking/telecom/insurance environments with 27+ years of accumulated domain expertise. AI coding assistants will commoditize some junior development tasks, but the deep business domain knowledge, regulatory compliance expertise, and client relationships are harder to replicate. Medium risk as the market for custom dev services will shrink over time with AI productivity gains.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established market with proven demand — €37M revenue in 2023, serving major Czech and international banks and telcos. Backed by Amdocs ($5B revenue), which accelerates access to global accounts. Enterprise digital transformation and data/AI adoption continue to drive strong nearshoring demand.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Acquired by Amdocs in February 2025, a NASDAQ-listed company with $5B annual revenue serving 400+ customers across 90 countries. Funding risk is not applicable for an enterprise subsidiary.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Amdocs ownership provides financial stability and access to global telecom accounts. Deep enterprise relationships, 27+ years of domain expertise in regulated industries, and a growing AI/data practice position Profinit well despite the medium-term AGI displacement risk to pure-play development services."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "company_blog", "company_jobs_site"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "founders", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "Acquired by Amdocs on February 12, 2025. Revenue €37M reported at time of acquisition (2023 figure). 650+ employees current (500+ at time of acquisition announcement). Offices in Prague, Bratislava, Hamburg. Career site is jsmeprofinit.eu."
+  }
+}
