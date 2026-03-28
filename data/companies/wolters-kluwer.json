@@ -1,0 +1,119 @@
+{
+  "id": "wolters-kluwer",
+  "name": "Wolters Kluwer",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Global provider of professional information, software, AI solutions, and services for legal, tax, healthcare, and compliance professionals",
+    "description_long": "Wolters Kluwer N.V. is a Dutch multinational that provides expert information solutions, software, and services across healthcare, tax & accounting, financial & corporate compliance, legal & regulatory, and corporate performance & ESG sectors. In the Czech Republic, the company operates with a dedicated local product portfolio including ASPI (the leading Czech legal information system), DAUČ (tax and accounting), and Praetor (law office management), all of which have AI capabilities. The company launched ASPI AI for Czech legal professionals and the Libra AI workspace across Eastern Europe. With €6.1 billion in annual revenues and 21,100+ employees globally, Wolters Kluwer brands its AI capabilities as 'Expert AI', embedding AI into workflows across all professional verticals.",
+    "tagline": "Expert solutions combining expertise with advanced technology",
+    "website": "https://www.wolterskluwer.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["nlp", "automation", "document_processing"],
+    "industries_served": ["legal", "healthcare", "finance", "tax_accounting", "compliance", "education"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1968,
+    "founders": [],
+    "origin_story": "Formed in 1968 from the merger of Wolters-Noordhoff (itself tracing roots to Jan-Berend Wolters' 1836 Schoolbook publishing house in Groningen) and Kluwer. Wolters merged with Wolters-Samsom in 1987 to form Wolters Kluwer N.V., fending off an Elsevier takeover bid. Expanded into Eastern Europe in the 1990s; established Czech operations through ASPI legal information system.",
+    "key_milestones": [
+      {"year": 1836, "event": "Jan-Berend Wolters founds Schoolbook publishing house in Groningen, Netherlands"},
+      {"year": 1968, "event": "Wolters-Noordhoff merges with ICU; Wolters Kluwer N.V. formed"},
+      {"year": 1987, "event": "Kluwer merges with Wolters-Samsom to form Wolters Kluwer"},
+      {"year": 1994, "event": "First Eastern European subsidiary established (IURA Edition, Bratislava)"},
+      {"year": 2008, "event": "Acquires UpToDate clinical decision support platform"},
+      {"year": 2016, "event": "Acquires Enablon (EHS/ESG software)"},
+      {"year": 2025, "event": "Annual revenues reach €6.1 billion; launches Libra AI workspace in Eastern Europe"},
+      {"year": 2026, "event": "ASPI AI launched with AI-powered Czech legal research; Expert AI wins BIG Awards for Excellence in AI"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 21100,
+    "employee_source": "company_website",
+    "office_count": 40
+  },
+
+  "offices": [
+    {"city": "Alphen aan den Rijn", "country": "NL", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "New York", "country": "US", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Waltham", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "WKL",
+    "stock_exchange": "Euronext Amsterdam",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 6710000000,
+    "revenue_source": "annual_report_2025",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Stacey Caywood", "role": "CEO", "source": "wikipedia"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.wolterskluwer.com/en/careers",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Dow Jones Sustainability Index member",
+      "Corporate Knights Global 100 Most Sustainable Corporations",
+      "BIG Awards for Excellence in AI 2026 (two awards for Expert AI)",
+      "AEX Index component (Euronext Amsterdam)"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["FairPlay AI (fair lending optimization, 2026)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Wolters Kluwer's value is embedded in proprietary legal content databases (ASPI in Czech Republic), regulatory compliance data, clinical decision support (UpToDate), and deep vertical integrations into professional workflows. The Expert AI brand extends AI into these proprietary content layers rather than sitting on top of generic LLMs. Domain-specific regulatory and legal content in multiple languages is a durable moat.",
+    "market_risk": "low",
+    "market_risk_rationale": "Operates in large, established, non-discretionary markets (legal compliance, healthcare decision support, tax accounting) with mission-critical software. Revenue of €6.1B and operations in 180+ countries demonstrate sustainable demand well beyond hype cycles.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Publicly traded on Euronext Amsterdam (WKL, AEX component) with €6.1B annual revenue and 21,100+ employees. Funding risk is not applicable to a profitable, listed enterprise of this scale.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Wolters Kluwer is a mature, publicly traded enterprise with deep vertical content moats across legal, healthcare, and compliance domains. The Czech Republic operations center on ASPI — the dominant Czech legal information system now enhanced with AI — which is deeply embedded into the workflows of Czech lawyers, tax professionals, and courts. AGI cannot easily replicate this domain-specific regulatory content or the customer lock-in."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "wikipedia", "czech_local_site"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "open_roles_count", "tech_stack", "employees_exact_cz", "careers_url_cz"],
+    "needs_review": false,
+    "notes": "Wolters Kluwer is a global enterprise headquartered in the Netherlands with significant Czech Republic operations. Czech division focuses on legal (ASPI), tax (DAUČ), and compliance software, all with AI features. Revenue figure (€6.1B) and employee count (21,100) are global. Czech headcount not separately disclosed. Glassdoor blocked automated scraping. No CNAIP URL available in the index record."
+  }
+}
