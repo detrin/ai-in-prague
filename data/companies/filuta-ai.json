@@ -1,0 +1,118 @@
+{
+  "id": "filuta-ai",
+  "name": "Filuta AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T17:30:00Z",
+
+  "overview": {
+    "description": "Composite AI platform for intelligent automation and game testing via planning agents",
+    "description_long": "Filuta AI builds an intelligent automated platform powered by Composite AI — combining symbolic AI, automated planning, NLP, constraint solving, and ML. Their flagship product uses Planning Agents originally developed for deep space exploration to automate game QA testing: testers set a goal (e.g. 'kill the dragon'), and the AI autonomously plans and executes the test sequence, adapting as the game evolves. The platform also addresses logistics, manufacturing, and government/education automation. Claims 80%+ coverage of functional and regression tests and up to 70% savings on QA costs.",
+    "tagline": "Simplify with AI, Reduce complexity, Deploy intelligent automation – at 10x the speed.",
+    "website": "https://filuta.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["automation", "other"],
+    "industries_served": ["gaming", "government", "education", "logistics", "manufacturing"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Filip Dvorak", "Slavomir Svancar"],
+    "origin_story": "Founded by AI researchers leveraging symbolic AI and automated planning technology used in deep space and deep-sea exploration missions, with backing from CzechInvest Technological Incubation and EU H2020 AIPlan4EU programme.",
+    "key_milestones": [
+      {"year": 2023, "event": "Presented at ICAPS 2023, SAT 2023, SoCS 2023; won 2nd place Best System Demonstration at ICAPS 2023"},
+      {"year": 2023, "event": "Published 3 preprints on video game QA automation, planning action model synthesis, and logistics optimization"},
+      {"year": 2024, "event": "Bohemia Interactive (Silica game) became a reference customer for game QA platform"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 32,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Austin", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["CzechInvest (Technological Incubation)", "European Commission H2020 (AIPlan4EU grant No. 101016442)"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Filip Dvorak", "role": "Co-founder / Chief Filuta", "source": "company_website"},
+      {"name": "Slavomir Svancar", "role": "Co-founder / Chief Filuta", "source": "company_website"},
+      {"name": "Tomas Balyo", "role": "Head of Research", "source": "company_website"},
+      {"name": "Michal Ficek", "role": "Head of Data Science", "source": "company_website"},
+      {"name": "Michal Halenka", "role": "Head of Infrastructure", "source": "company_website"},
+      {"name": "Ondrej Sykala", "role": "People Ops", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Roman Barták", "role": "Scientific Advisor", "note": "Professor in AI"},
+      {"name": "Lukas Chrpa", "role": "Senior Research Scientist", "source": "company_website"},
+      {"name": "Martin Suda", "role": "Senior AI Consultant", "source": "company_website"},
+      {"name": "Stephan Gocht", "role": "Senior AI Research Engineer", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://filuta.ai/career",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "Neurosymbolic Systems Engineer", "department": "engineering", "location": "Prague / Remote"}
+    ],
+    "tech_stack": ["symbolic_ai", "automated_planning", "nlp", "constraint_programming", "machine_learning"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["2nd place Best System Demonstration — ICAPS 2023"],
+    "notable_clients": ["Bohemia Interactive (Silica)"],
+    "customer_count": null,
+    "partnerships": ["CzechInvest", "AIPlan4EU (EU H2020)", "ICAPS (conference sponsor)", "International SAT Competition (sponsor)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Filuta's core IP is symbolic AI and automated planning — not LLM wrappers — with patents and published research. Planning agents trained on game state logic are technically differentiated. However, as general AI models become capable of playing and testing games autonomously (e.g. via reinforcement learning or multimodal LLMs), the moat could erode over time.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Game QA automation is a real pain point with a validated customer (Bohemia Interactive), but the addressable market is relatively niche. Diversification into logistics and government/education reduces concentration risk, but these verticals have longer sales cycles and heavier competition.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Backed by EU H2020 grants and CzechInvest Technological Incubation, but no known VC funding rounds. A 32-person team with limited public funding signals suggests the company may be bootstrapped or grant-dependent, with unclear runway. EU grants are finite and non-recurring.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Technically differentiated product with a deep symbolic AI moat and validated use case in gaming QA. However, a small team, grant-dependent funding profile, and niche initial market make this a medium-risk play. Execution risk is real given the complexity of scaling neurosymbolic systems into new verticals."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["founded_year", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "customer_count"],
+    "needs_review": false,
+    "notes": "Dual legal entity: Filuta AI Inc. (Austin, TX - formal HQ) and Filuta AI CZ s.r.o. (Prague 8, Zirkon Office Center). Core R&D team is in Prague. Company is listed on LinkedIn with 25 employees but website claims 32 team members (likely more current). No CNAIP listing found."
+  }
+}
