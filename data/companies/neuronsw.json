@@ -1,0 +1,121 @@
+{
+  "id": "neuronsw",
+  "name": "Neuron Soundware",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI/ML-powered acoustic diagnostics and predictive maintenance for industrial machines",
+    "description_long": "Neuron Soundware uses Artificial Intelligence and Machine Learning in combination with the analysis of sound and other physical parameters (temperature, pressure, current, vibration, etc.) to monitor and control industrial machines and processes. Their end-to-end solution combines proprietary IoT edge hardware (nEdge, nEdge Pro) and a cloud/edge software platform (nGuard) to deliver real-time predictive maintenance, quality assurance, and process control for manufacturing, energy, transportation, and other heavy industries. Founded in 2016 through the StartupYard accelerator, NeuronSW has deployed systems for global corporations including Daimler, BMW, Airbus, E.ON, and the Prague metro.",
+    "tagline": "AI, IoT and Edge Computing for Industrial Optimization",
+    "website": "https://www.neuronsw.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["speech", "automation", "ml_ops"],
+    "industries_served": ["manufacturing", "energy", "transportation", "automotive"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2016,
+    "founders": ["Pavel Konečný"],
+    "origin_story": "Founded in February 2016 in Prague by Pavel Konečný through the StartupYard accelerator. The same year, the project combining IoT and AI won the Idea of the Year international award.",
+    "key_milestones": [
+      {"year": 2016, "event": "Founded in Prague via StartupYard accelerator; won Idea of the Year international award"},
+      {"year": 2019, "event": "Raised Series A funding; J&T Ventures invested"},
+      {"year": 2020, "event": "DCASE Top 5 AI-powered audio diagnostics award"},
+      {"year": 2021, "event": "DCASE Top 5 again; Top 5 IoT Innovator at Hannover Messe; won BoostUp! Vienna Accelerate category"},
+      {"year": 2023, "event": "Raised €5.75M from INVEN CAPITAL (ČEZ Group) and LEAD VENTURES (MOL Group); received ~€7M in EU Horizon / TAČR grants"},
+      {"year": 2024, "event": "Named Railroad Innovation Rising Star by StartUs Insights among global top 10 railroad startups"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 20,
+    "employee_source": "company_website_news",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 9500000,
+    "funding_rounds": [
+      {"date": "2019-06", "type": "Series A", "amount_usd": null, "lead_investor": "J&T Ventures"},
+      {"date": "2023-09", "type": "Series A extension", "amount_usd": 6200000, "lead_investor": "INVEN CAPITAL"}
+    ],
+    "investors": ["INVEN CAPITAL (ČEZ Group)", "LEAD VENTURES (MOL Group / Hungarian Eximbank)", "J&T Ventures", "European Innovation Council", "SAP.io"],
+    "revenue_estimate_usd": 540000,
+    "revenue_source": "company_website_news (2022: ~€500K)",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Pavel Konečný", "role": "CEO & Founder", "source": "company_website"},
+      {"name": "Pavel Trojánek", "role": "SVP Sales & Marketing", "source": "company_website"},
+      {"name": "Petra Vecajova", "role": "Operations Manager", "source": "company_website"},
+      {"name": "Jan Tožička", "role": "Head of Machine Learning", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "edge_computing", "iot", "neural_networks"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": 8,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Neuron-Soundware-Reviews-E2909919.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Idea of the Year international award (2016)",
+      "DCASE Top 5 AI-powered audio diagnostics (2020)",
+      "DCASE Top 5 AI-powered audio diagnostics (2021)",
+      "Top 5 IoT Innovator at Hannover Messe (2021)",
+      "Winner Accelerate category BoostUp! Vienna (2021)",
+      "Railroad Innovation Map Rising Star – StartUs Insights (2024)"
+    ],
+    "notable_clients": ["Daimler", "BMW", "Airbus", "E.ON", "innogy", "LG", "ČEZ ESCO", "Prague Metro (DPP)"],
+    "customer_count": null,
+    "partnerships": ["SAP.io", "TAČR", "European Innovation Council / Horizon 2020"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "NeuronSW owns proprietary IoT hardware (nEdge devices) and a unique acoustic database built over years of real-world industrial deployments. Their value is embedded in physical edge devices, domain-specific acoustic ML models, and certified industrial integrations (ATEX/CE), which foundation models cannot easily replicate.",
+    "market_risk": "low",
+    "market_risk_rationale": "Predictive maintenance and industrial monitoring is a large, proven market with strong ROI for customers. NeuronSW has paying enterprise clients including Daimler, BMW, Airbus, and national energy utilities, confirming real product-market fit.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "The company raised €5.75M in 2023 and received ~€7M in EU/TAČR grants, but remains small (~20 employees) with revenue of under €500K in 2022. Further scaling will likely require additional commercial traction or follow-on funding.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong hardware and acoustic data moat with certified industrial integrations, a real and growing market, and strategic backing from energy majors (ČEZ/Inven Capital, MOL/Lead Ventures) combine to make NeuronSW resilient. The main risk is scale: the company is still small and must grow revenue significantly before achieving sustainability."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "neuronsw_blog_funding_news", "climatetechlist", "duckduckgo_snippets"],
+    "fields_missing": ["careers_url", "open_roles", "glassdoor_rating", "funding_round_amounts_exact"],
+    "needs_review": false,
+    "notes": "NeuronSW = Neuron Soundware. The €5.75M 2023 round is described as extending Series A (original Series A was June 2019 per ClimateTechList). Total equity $9.5M from ClimateTechList. EU/TAČR grants (~€7M) are non-dilutive and excluded from equity total. Revenue figure (€500K) is from 2022 company press release."
+  }
+}
