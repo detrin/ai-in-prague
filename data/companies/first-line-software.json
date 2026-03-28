@@ -1,0 +1,141 @@
+{
+  "id": "first-line-software",
+  "name": "First Line Software",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-Native Engineering company delivering managed AI services and AI-accelerated software development",
+    "description_long": "First Line Software is a global AI-Native Engineering company that builds and operates AI-native systems end to end. Their Managed AI Services (MAIS) framework helps organizations adopt AI safely and predictably across the full lifecycle — from strategy and engineering to evaluation and operations. Originally a software outsourcing and digital transformation company founded in 2009, they have pivoted strongly to AI-augmented delivery, embedding AI agents, automated quality gates, and intelligence-driven workflows into their engineering processes. They operate a Czech entity (Praha 4 - Nusle) alongside offices across North America, Europe, and Australia.",
+    "tagline": "We build and operate AI-native systems end to end",
+    "website": "https://firstlinesoftware.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "automation", "ml_ops"],
+    "industries_served": ["healthcare", "real_estate", "logistics", "retail", "manufacturing"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2009,
+    "founders": ["Nick Puntikov"],
+    "origin_story": "Founded in 2009 by Nick Puntikov as a software engineering and outsourcing company, headquartered in Cambridge, MA. Initially operated delivery centers across Eastern Europe including Russia, Czech Republic, and Poland. In 2022, separated from its Russian subsidiary following the invasion of Ukraine. Has since pivoted from pure software outsourcing toward AI-Native Engineering with the MAIS framework.",
+    "key_milestones": [
+      {"year": 2009, "event": "Founded by Nick Puntikov in Cambridge, MA"},
+      {"year": 2010, "event": "Became Certified Gold Microsoft Partner in Application Development"},
+      {"year": 2012, "event": "First inclusion in IAOP Global Outsourcing 100 list"},
+      {"year": 2022, "event": "Separated from Russian subsidiary; opened new centers in Montenegro, India, and US"},
+      {"year": 2023, "event": "12th consecutive year on IAOP Global Outsourcing 100; launched Clinovera healthcare practice"},
+      {"year": 2025, "event": "Rebranded as AI-Native Engineering Company; launched MAIS (Managed AI Services) framework"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": null,
+    "employee_source": "glassdoor_snippet",
+    "office_count": 12
+  },
+
+  "offices": [
+    {"city": "Cambridge", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Warsaw", "country": "PL", "is_hq": false},
+    {"city": "Amsterdam", "country": "NL", "is_hq": false},
+    {"city": "Sydney", "country": "AU", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Budva", "country": "ME", "is_hq": false},
+    {"city": "Bratislava", "country": "SK", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Nick Puntikov", "role": "Chairman of the Board & CEO", "source": "company_website"},
+      {"name": "Pavel Khodalev", "role": "GenAI CTO", "source": "company_website"},
+      {"name": "Rafic Habib", "role": "Managing Director", "source": "company_website"},
+      {"name": "Daria Kolchina", "role": "Operations Director, DX Practice Lead", "source": "company_website"},
+      {"name": "Tony McGibbon", "role": "Head of Real Estate Practice", "source": "company_website"},
+      {"name": "Richard Leslie", "role": "VP, UK Business Development", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://careers.firstlinesoftware.com",
+    "open_roles_count": 20,
+    "open_roles": [
+      {"title": "Application Security Analyst", "department": "engineering", "location": "Remote"},
+      {"title": "InterSystems Cache Developer", "department": "engineering", "location": "Remote"},
+      {"title": "Senior .NET Developer", "department": "engineering", "location": null},
+      {"title": "Senior InterSystems Developer", "department": "engineering", "location": null}
+    ],
+    "tech_stack": [".net", "java", "python", "intersystems", "azure", "genai", "devops"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": 4.4,
+    "review_count": 65,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/First-Line-Software-Reviews-E620371.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "IAOP Global Outsourcing 100 (12 consecutive years through 2023)",
+      "Clutch Global Leader in B2B IT Services 2023",
+      "Clutch Global Leader Spring 2024",
+      "Gold Microsoft Partner (Application Development, Digital Advertising, App Integration)",
+      "Microsoft Azure Partner – Data & AI (2023)",
+      "Microsoft Azure Partner – Digital & App Innovation (2023)",
+      "Top 11 Best Software Development Agencies in Boston 2020 (Expertise.com)"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Microsoft Gold Partner",
+      "Microsoft Azure Data & AI Partner",
+      "InterSystems Select Implementation Partner",
+      "Optimizely Bronze Partner",
+      "Intel Partner Alliance",
+      "Mendix Application Services Partner",
+      "Parallaxis AI Partner"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "First Line Software is an engineering services company actively pivoting to AI-native delivery — rather than being displaced, they are embedding AI into their own workflows. However, their core value (outsourced engineering labor) remains susceptible as AI coding assistants and autonomous agents reduce the need for large nearshore delivery teams over the long term.",
+    "market_risk": "low",
+    "market_risk_rationale": "Engineering outsourcing is a well-established market with deep enterprise demand. Their pivot to Managed AI Services (MAIS) and AI-accelerated engineering targets a fast-growing segment. 12+ years on IAOP Global Outsourcing 100 confirms stable market position and client trust.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Bootstrapped with no known VC funding raised — over 15 years of operation suggests profitability, but no external validation of growth trajectory or runway. The 2022 Russia separation caused 'substantial losses' per their own statement, introducing some financial uncertainty.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "A proven, profitable outsourcing company with 15+ years of operation and strong client retention, but faces medium-term structural risk as AI-native engineering reduces demand for large delivery teams. Their proactive AI pivot (MAIS framework, AI-native branding) buys meaningful runway."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "press_releases", "glassdoor_snippet", "brave_search", "tracxn_snippet", "dnb_snippet", "clutch_snippet"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "glassdoor_recommend_pct", "founded_year_cnaip_confirmed"],
+    "needs_review": false,
+    "notes": "HQ is Cambridge, MA (USA) but has a significant Czech entity (First Line Software s.r.o., Praha 4 - Nusle, ~29 employees per D&B). Listed in Czech AI catalog due to Prague delivery center. Founded 2009 per Tracxn; Clutch says 'since 2010' (likely Microsoft partnership year). Employee count of 501-1000 from Glassdoor as of Jul 2024; press releases reference 450+ team members (2022-2023 era). Separated from Russian subsidiary in April 2022."
+  }
+}
