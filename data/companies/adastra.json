@@ -1,0 +1,116 @@
+{
+  "id": "adastra",
+  "name": "Adastra",
+  "category": "company",
+  "scraped_at": "2026-03-28T22:40:00Z",
+
+  "overview": {
+    "description": "Global data analytics, AI, and cloud consulting firm founded in Prague",
+    "description_long": "Adastra is an international IT consulting and services company specialising in data governance, cloud enablement, data engineering, AI, IoT, and analytics. Founded in Prague in 2000, the group operates across Czech Republic, Canada (Toronto, Calgary, Markham), the USA (NYC, Irvine, Austin), and Germany. The company serves banking, insurance, automotive, healthcare, pharma, and public sector clients. Key offerings include Adastra AI (150+ AI specialists), proprietary solutions (AskYourData ChatGPT-powered assistant, Adele, Adoki, Data Migration Engine), and certified partnerships with AWS (Premier Tier), Microsoft (fast-growing Data and AI partner in Canada), Google Cloud, Databricks, Snowflake, Informatica, and Ataccama.",
+    "tagline": "AI First. Data, Analytics and Cloud, Always.",
+    "website": "https://adastracorp.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["data_engineering", "generative_ai", "automation", "ml_ops"],
+    "industries_served": ["finance", "insurance", "automotive", "healthcare", "pharmaceutical", "public_sector"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2000,
+    "founders": [],
+    "origin_story": "Founded in Prague on 5 October 2000 as ADASTRA, s.r.o.; grew from a Czech IT services firm into a multi-national data and AI consultancy with operations in North America and Europe",
+    "key_milestones": [
+      {"year": 2000, "event": "Founded in Prague as ADASTRA, s.r.o. (IČO 26202981)"},
+      {"year": 2016, "event": "ADASTRA GROUP SE (European Company holding structure) incorporated in Prague"},
+      {"year": 2023, "event": "Launched Adastra AskYourData, a ChatGPT-powered enterprise virtual assistant"},
+      {"year": 2024, "event": "Recognised as one of Microsoft's fastest-growing Data and AI partners in Canada"},
+      {"year": 2025, "event": "Adastra AI division reaches 150+ dedicated AI specialists"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": null,
+    "employee_source": "czech_statistical_office_plus_estimate",
+    "office_count": 7
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Toronto", "country": "CA", "is_hq": false},
+    {"city": "Calgary", "country": "CA", "is_hq": false},
+    {"city": "Markham", "country": "CA", "is_hq": false},
+    {"city": "New York City", "country": "US", "is_hq": false},
+    {"city": "Irvine", "country": "US", "is_hq": false},
+    {"city": "Austin", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Štěpán Kopřiva", "role": "Managing Director (jednatel), ADASTRA s.r.o.", "source": "czech_registry"},
+      {"name": "Pavel Kysela", "role": "Managing Director (jednatel), ADASTRA s.r.o.; Board member, ADASTRA GROUP SE", "source": "czech_registry"},
+      {"name": "Tomáš Bělík", "role": "Managing Director (jednatel), ADASTRA s.r.o.", "source": "czech_registry"},
+      {"name": "Lukáš Houba", "role": "Board member, ADASTRA GROUP SE", "source": "czech_registry"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://adastracorp.com/careers/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["azure", "aws", "gcp", "databricks", "snowflake", "python", "microsoft_fabric"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["AWS Premier Tier Services Partner", "Microsoft Data and AI Partner (Canada)", "Google Cloud Professional Service and Sell Partner"],
+    "notable_clients": ["ŠKODA AUTO", "TÜV SÜD"],
+    "customer_count": null,
+    "partnerships": ["AWS", "Microsoft", "Google Cloud", "Informatica", "Databricks", "Snowflake", "Ataccama"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Adastra's core value is consulting expertise and certified partner relationships (AWS Premier, Google Cloud, Microsoft), which are harder to automate than product development. However, AI agents could reduce demand for bespoke data integration and governance consulting. Their proprietary solutions (AskYourData, Adele, Adoki) are thin enough to face competitive pressure from foundation-model capabilities.",
+    "market_risk": "low",
+    "market_risk_rationale": "Data governance, cloud migration, and enterprise AI consulting are large and growing markets. Adastra serves regulated industries (healthcare, finance, automotive) that require hands-on compliance expertise and multi-year engagements, creating durable demand.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "25-year-old mature company with 500+ employees across North America and Europe. As a self-funded consulting business with recurring project revenue across multiple geographies, the company has no dependency on external capital.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Long-established enterprise consultancy with deep client relationships, certified cloud partnerships, and geographic diversification. The primary risk is AI automation of consulting work, but the regulated industry focus and complex multi-vendor integrations they handle provide resilience."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "czech_registry", "czech_statistical_office"],
+    "fields_missing": ["founders", "funding_total_usd", "revenue_estimate_usd", "glassdoor", "open_roles_count"],
+    "needs_review": false,
+    "notes": "Czech entity ADASTRA, s.r.o. (IČO 26202981) has 250-499 employees per Czech Statistical Office. Total group (CZ + Canada + USA + Germany) estimated at 501-1000. Holding structure: ADASTRA GROUP SE (IČO 05273293) owned by ADASTRA CZ s.r.o.; ADASTRA s.r.o. owned by AGH(C) LIMITED (Cyprus). Website also at adastra.digital."
+  }
+}
