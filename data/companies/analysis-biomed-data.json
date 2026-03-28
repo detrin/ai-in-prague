@@ -1,0 +1,116 @@
+{
+  "id": "analysis-biomed-data",
+  "name": "Analysis and Interpretation of Biomedical Data",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T22:55:00Z",
+
+  "overview": {
+    "description": "Research group at CTU FEL applying AI to biomedical data analysis, computational neuroscience, and digital medicine",
+    "description_long": "The Analysis and Interpretation of Biomedical Data (AID) Group operates within the Department of Cybernetics at the Faculty of Electrical Engineering, Czech Technical University in Prague. Its aim is to perform high-quality research in the biomedicine field and transform academic outcomes into clinical and daily-living practice. Core research themes include Computational Neuroscience (EEG/MRI signal processing, deep brain stimulation, Parkinson's disease), Digital Medicine (mental health monitoring, actigraphy, bipolar disorder), and Assistive Technology (Brain-Computer Interfaces). The group publishes actively in neuroscience and AI for health, and teaches Neuroinformatics and Biometrics courses.",
+    "tagline": "High-quality research in biomedicine — from academic outcomes to clinical practice",
+    "website": "https://aid.felk.cvut.cz/",
+    "cnaip_url": "https://www.cnaip.cz/en/entity/analysis-and-interpretation-of-biomedical-data"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["cv", "data_engineering", "other"],
+    "industries_served": ["healthcare", "neuroscience", "assistive_technology"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Daniel Novák"],
+    "origin_story": "Research group founded at the Department of Cybernetics, CTU Faculty of Electrical Engineering, focused on applying AI and machine learning to biomedical data, particularly neurological signals and clinical data.",
+    "key_milestones": [
+      {"year": 2019, "event": "First Wayback Machine capture of aid.felk.cvut.cz — group publicly active"},
+      {"year": 2024, "event": "Listed on CNAIP Czech AI Platform"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (ČVUT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Daniel Novák", "role": "Group Leader (Doc. Ing., PhD)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Tomáš Sieger", "role": "Senior Researcher", "source": "company_website"},
+      {"name": "Eduard Bakštein", "role": "Senior Researcher", "source": "company_website"},
+      {"name": "Jiří Anýž", "role": "Postdoc Researcher", "source": "company_website"},
+      {"name": "Jakub Schneider", "role": "Postdoc Researcher", "source": "company_website"},
+      {"name": "Pavel Filip", "role": "Senior Neurologist / Researcher", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://aid.felk.cvut.cz/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD Student / Researcher (We Are Hiring)", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "r", "matlab", "eeg", "mri", "machine_learning"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "National Institute of Mental Health (NIMH)",
+      "General University Hospital in Prague",
+      "Department of Neurology and Center of Clinical Neuroscience, Charles University"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group conducting fundamental and applied research in biomedical AI; not subject to commercial displacement by foundation models.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Publicly funded university research group at CTU; not exposed to commercial market risks.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Operates as a research group within Czech Technical University under institutional and grant funding; not dependent on venture capital or commercial revenue.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Research lab embedded within a leading Czech technical university with established partnerships with clinical institutions. Tenure of the group leader (Doc. Ing. Daniel Novák) and long publication track record suggest stable institutional footing."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website_archived"],
+    "fields_missing": ["founded_year", "funding_total_usd", "glassdoor_rating", "open_roles_count"],
+    "needs_review": false,
+    "notes": "Category corrected from 'company' to 'research_group' — entity is a research group at ČVUT FEL (Dept. of Cybernetics). Website https://aid.felk.cvut.cz/ was inaccessible at time of scraping; data sourced from Wayback Machine snapshot (Nov 2024)."
+  }
+}
