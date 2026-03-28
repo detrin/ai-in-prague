@@ -1,0 +1,125 @@
+{
+  "id": "o2",
+  "name": "O2 Czech Republic",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:10:00Z",
+
+  "overview": {
+    "description": "Largest integrated telecom operator in the Czech Republic, providing mobile, internet, TV, ICT, and cloud services powered by AI-driven network and security operations",
+    "description_long": "O2 Czech Republic (O2 Czech Republic a.s.) is the dominant telecom operator in the Czech market, serving consumers, SMBs, and large corporations. The company provides mobile services, fixed broadband internet (available at 99% of Czech addresses), O2 TV (the largest internet TV service in the country with exclusive sports rights), and a full suite of ICT, cloud hosting, and managed services. O2 is a leader in 5G deployment in the Czech Republic, being the first operator to launch 5G commercially. The company actively applies AI and machine learning across network management, predictive maintenance, fraud detection (via its Cyber Defense Center), customer analytics, and personalized content recommendations. O2 also develops IoT solutions and financial services (device insurance, travel insurance). The company is a member of the PPF Group.",
+    "tagline": "Vždy o krok dál (Always a step ahead)",
+    "website": "https://www.o2.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["automation", "fraud_detection", "data_engineering", "recommendation"],
+    "industries_served": ["telecommunications", "consumer", "enterprise", "iot", "media"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2006,
+    "founders": [],
+    "origin_story": "Formed on 1 July 2006 from the merger of state-owned fixed-line operator Český Telecom (founded in 1993 from SPT Telecom) and mobile operator Eurotel. Acquired by Spain's Telefónica in 2005; sold to Czech PPF Group in 2014. Operates under the O2 brand under a license from Telefónica (extended to 2027).",
+    "key_milestones": [
+      {"year": 1993, "event": "Český Telecom established from SPT Telecom post-Velvet Divorce"},
+      {"year": 2005, "event": "Telefónica acquires the company and rebrands to O2"},
+      {"year": 2006, "event": "Merger of Český Telecom and Eurotel into O2 Czech Republic a.s."},
+      {"year": 2014, "event": "PPF Group acquires O2 Czech Republic from Telefónica"},
+      {"year": 2019, "event": "First telecom in Czech Republic to launch 5G commercially"},
+      {"year": 2022, "event": "PPF Group fully acquires remaining shares; company delisted from Prague Stock Exchange"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 5381,
+    "employee_source": "wikipedia_2018",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Ostrava", "country": "CZ", "is_hq": false},
+    {"city": "Ústí nad Labem", "country": "CZ", "is_hq": false},
+    {"city": "Pardubice", "country": "CZ", "is_hq": false},
+    {"city": "Bratislava", "country": "SK", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "PPF Comco N.V. (PPF Group)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["PPF Group"],
+    "revenue_estimate_usd": 1600000000,
+    "revenue_source": "wikipedia_2018_converted_estimate",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jindřich Fremuth", "role": "CEO & Chairman of the Board", "source": "company_website"},
+      {"name": "Jan Bechyně", "role": "CFO & Vice-Chairman", "source": "company_website"},
+      {"name": "Richard Siebenstich", "role": "Chief Commercial Officer", "source": "company_website"},
+      {"name": "Jan Hruška", "role": "Chief Technology Officer", "source": "company_website"},
+      {"name": "Václav Zakouřil", "role": "Legal & Regulatory Director", "source": "company_website"},
+      {"name": "Pavel Milec", "role": "HR Director", "source": "company_website"},
+      {"name": "Lukáš Uhl", "role": "ICT Division Director", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://kariera.o2.cz",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Bezpečnostní analytik pro Cyber Defense Center", "department": "security", "location": "Prague"},
+      {"title": "Administrátor Windows serverů a Hyper-V - O2 IT Services", "department": "it", "location": "Prague"},
+      {"title": "Administrátor Windows serverů a M365 - O2 IT Services", "department": "it", "location": "Prague"},
+      {"title": "Configuration Manager Administrátor - O2 IT Services", "department": "it", "location": "Prague"},
+      {"title": "Direct Marketing Specialist", "department": "marketing", "location": "Prague"},
+      {"title": "Business Development Manager - Korporátní segment", "department": "sales", "location": "Brno"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Telefónica (brand license)", "PPF Group"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "O2 is fundamentally a network infrastructure and licensed telecom operator — AGI cannot replace physical 5G/4G/fiber networks, regulatory licenses, or spectrum allocations. AI enhances O2's operations but the core infrastructure moat (network, spectrum, regulatory position, 5G leadership in CZ) is highly defensible.",
+    "market_risk": "low",
+    "market_risk_rationale": "O2 holds the dominant position in the Czech telecom market as both the largest mobile operator and largest fixed broadband provider. Telecom is a regulated, mature market with high barriers to entry and stable recurring demand.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "O2 Czech Republic is 100% owned by PPF Group, one of Central Europe's largest conglomerates with assets exceeding €45 billion. The company generates ~CZK 38 billion in annual revenue and is financially self-sustaining. No funding risk applicable.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "O2 is the established market leader in Czech telecom with strong infrastructure moats, regulatory protection, a dominant market position, and backing from PPF Group. The company actively uses AI to enhance its operations rather than being vulnerable to AI commoditization."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "wikipedia", "careers_page"],
+    "fields_missing": ["glassdoor_rating", "employees_exact_current", "open_roles_count", "tech_stack", "customer_count", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "O2 Czech Republic is a major telecom enterprise included in the Prague AI ecosystem catalog due to its significant AI investments in network management, fraud detection (Cyber Defense Center), and data analytics. Employee count from Wikipedia 2018 data (5,381); current count likely similar. Revenue estimate based on 2018 CZK figures converted to USD at approximate historical exchange rate. Company was delisted from Prague Stock Exchange in 2022 after PPF Group acquired all remaining shares. Wikipedia financial data is from 2018; more recent data not publicly available after delisting."
+  }
+}
