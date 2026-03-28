@@ -1,0 +1,127 @@
+{
+  "id": "avvoka",
+  "name": "Avvoka",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered legal drafting and document automation platform for law firms and in-house legal teams",
+    "description_long": "Avvoka provides drafting infrastructure for modern legal teams. Founded by two former Magic Circle lawyers, the platform combines advanced document automation, AI-assisted drafting, and human-in-the-loop control. It turns firm precedents into reusable, intelligent templates — enabling teams to manage high-volume, high-variation work without losing consistency, governance, or commercial oversight. Trusted by over 20% of the Am Law 100 including A&O Shearman, Fenwick, Fried Frank, and Ropes & Gray, as well as in-house legal teams at Warner Bros. Discovery and other multinationals.",
+    "tagline": "Drafting infrastructure for modern legal teams",
+    "website": "https://avvoka.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["document_processing", "automation", "generative_ai", "nlp"],
+    "industries_served": ["legal", "finance", "enterprise"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2016,
+    "founders": ["Eliot Benzecrit", "David Howorth"],
+    "origin_story": "Founded in 2016 by two former Magic Circle lawyers who experienced first-hand the friction between speed and precision in legal drafting. They set out to separate legal thinking from document format and turn firm precedents into reusable, intelligent systems.",
+    "key_milestones": [
+      {"year": 2015, "event": "Avvoka Limited incorporated in London (August 2015)"},
+      {"year": 2016, "event": "Platform launched; £600k raised from angel investors"},
+      {"year": 2016, "event": "Mark O'Hare joins board of directors"},
+      {"year": 2026, "event": "Raised £14 million growth investment led by Valhalla Ventures (Mark & Lindy O'Hare); adopted by 20%+ of Am Law 100"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "London", "country": "GB", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Singapore", "country": "SG", "is_hq": false},
+    {"city": "Manila", "country": "PH", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 18380000,
+    "funding_rounds": [
+      {"date": "2016", "type": "Angel", "amount_usd": 760000, "lead_investor": "Angel investors"},
+      {"date": "2026-03", "type": "Growth", "amount_usd": 17780000, "lead_investor": "Valhalla Ventures (Mark & Lindy O'Hare)"}
+    ],
+    "investors": ["Valhalla Ventures"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Eliot Benzecrit", "role": "Co-founder & CEO", "source": "company_website"},
+      {"name": "David Howorth", "role": "Co-founder", "source": "company_website"},
+      {"name": "Mark O'Hare", "role": "Board Director / Lead Investor (Valhalla Ventures)", "source": "companies_house"}
+    ],
+    "notable_people": [
+      {"name": "Peter Opperman", "role": "Director", "source": "companies_house"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://avvoka.com/careers",
+    "open_roles_count": 14,
+    "open_roles": [
+      {"title": "Typescript Developer - M365 Plugins", "department": "engineering", "location": "Prague"},
+      {"title": "AI Software Engineer - The Factory", "department": "ai", "location": "Prague"},
+      {"title": "Vue.js Frontend Senior Software Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Ruby Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Typescript Engineer (Editor)", "department": "engineering", "location": "Prague"},
+      {"title": "Graduate Sales Development Representative", "department": "sales", "location": "London"},
+      {"title": "Content Lead (B2B Content Marketing Manager)", "department": "marketing", "location": "London"},
+      {"title": "Customer Onboarding Lead", "department": "customer_success", "location": "London"},
+      {"title": "Account Executive", "department": "sales", "location": "London"},
+      {"title": "Product Marketing Manager", "department": "marketing", "location": "London"}
+    ],
+    "tech_stack": ["typescript", "vue.js", "ruby", "python", "microsoft_365"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["A&O Shearman", "Fenwick", "Fried Frank", "Ropes & Gray", "Kirkland & Ellis", "Cleary Gottlieb", "Sidley Austin", "Warner Bros. Discovery", "Maddocks", "MTU", "Clarion Solicitors", "CLS Holdings"],
+    "customer_count": null,
+    "partnerships": ["DocuSign", "Adobe Sign", "iManage", "SharePoint", "Salesforce"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Avvoka embeds AI within rules-based automation frameworks built on firm-specific precedents — making it harder for generic LLMs to replicate without institutional knowledge. However, as foundational legal AI models improve, the document automation layer could face commoditisation pressure; the platform's moat depends on governance, workflow integrations, and switching costs.",
+    "market_risk": "low",
+    "market_risk_rationale": "Legal document automation is a well-established, fast-growing market with strong PMF: over 20% of Am Law 100 already use Avvoka, and clients report 95% reduction in drafting time. Revenue and headcount growing 70%+ YoY before institutional funding confirms demand.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Just raised £14M growth round in March 2026 led by Valhalla Ventures after a decade of near-bootstrapped operation. The company has a proven revenue model and enterprise customer base before taking institutional capital.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Avvoka's deep integration into law firm workflows, firm-specific precedent systems, and strong enterprise client base across the Am Law 100 create substantial switching costs. Recent £14M funding provides runway for US expansion, and the product has clear ROI for buyers in a large, underserved market."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "companies_house", "legalreader.com", "thesiliconreview.com", "legaltechnologyhub.com", "nonbillable.co.uk"],
+    "fields_missing": ["glassdoor_rating", "employees_exact", "revenue_estimate_usd"],
+    "needs_review": false,
+    "notes": "Company incorporated August 2015 per Companies House (reg. 09729807); product launched and established 2016. Offices confirmed: London (HQ), Prague (Czech Republic), Singapore, Manila. £14M growth round announced March 2026, first institutional capital after £600k angel round in 2016. Prague office has 5 open engineering/AI roles."
+  }
+}
