@@ -1,0 +1,115 @@
+{
+  "id": "muzeum-prahy",
+  "name": "Muzeum Prahy",
+  "category": "initiative",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Prague's city museum and Methodological Center for AI Implementation in Czech museology",
+    "description_long": "Muzeum Prahy (Museum of the Capital City of Prague) is a publicly funded city museum managing 8 historic buildings across Prague. Within the museum, the AI department operates as a Metodické centrum pro implementaci AI (Methodological Center for AI Implementation in Museology), helping Czech museums and galleries adopt AI. Their AI services include consultation, training, implementation assistance and student internships. In-house AI deployments include face-swap photo experiences, indoor visitor navigation/analytics, interactive AI puppets, and an AI chatbot. Partners include FEL ČVUT (Czech Technical University) and IFSA Prague.",
+    "tagline": "Vtáhnout návštěvníky do hry i zefektivnit provoz (Engage visitors and streamline operations)",
+    "website": "https://www.muzeumprahy.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["cv", "nlp", "generative_ai"],
+    "industries_served": ["cultural_heritage", "museums", "galleries"],
+    "company_type": "nonprofit",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1883,
+    "founders": [],
+    "origin_story": "Established in 1883 as the municipal museum of Prague, funded by the City of Prague. The AI initiative was created in the 2020s, positioning Muzeum Prahy as a Methodological Center for AI in Czech museology in partnership with ČVUT and IFSA Prague.",
+    "key_milestones": [
+      {"year": 1883, "event": "Museum of the Capital City of Prague founded"},
+      {"year": 2024, "event": "AI muzeum initiative launched as methodological center for AI in Czech museums"},
+      {"year": 2025, "event": "Immersive hall opened in main building; AI faceswap, chatbot, indoor navigation deployed"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 8
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "City of Prague (Hlavní město Praha)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "RNDr. Ing. Ivo Macek", "role": "Director (Ředitel)", "source": "company_website"},
+      {"name": "MgA. Vojtěch Leischner, Ph.D.", "role": "Head of Methodological Centre for AI Implementation in Museology", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "MgA. Tereza Janečková, Ph.D.", "role": "Head of Marketing Department", "source": "company_website"},
+      {"name": "Mgr. Ester Fleischerová", "role": "Press Spokesperson & Head of Communications", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.muzeumprahy.cz/o-nas-volna-mista/",
+    "open_roles_count": 5,
+    "open_roles": [
+      {"title": "Pokladní (Cashier)", "department": "operations", "location": "Prague"},
+      {"title": "Vedoucí obchodního oddělení (Head of Sales)", "department": "business", "location": "Prague"},
+      {"title": "Vedoucí/vedoucí směny (Shift Manager)", "department": "operations", "location": "Prague"},
+      {"title": "Facility Manager – Správce historických nemovitostí", "department": "facilities", "location": "Prague"},
+      {"title": "Recepční (Receptionist)", "department": "operations", "location": "Prague"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Lobkowicz Museum (Nelahozeves castle)", "Signal Space gallery"],
+    "customer_count": null,
+    "partnerships": ["FEL ČVUT (Czech Technical University, Faculty of Electrical Engineering)", "IFSA Prague"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Muzeum Prahy is a publicly funded city museum and cultural institution. Its AI department serves as a methodological center for Czech museology, not a commercial AI product. AGI displacement risk is not applicable.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "As a příspěvková organizace (contributory organization) of the City of Prague, Muzeum Prahy is publicly funded and not subject to conventional market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Funded by the City of Prague. Operational continuity is not dependent on commercial revenue or external investors.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Publicly funded municipal museum with a stable institutional mandate. The AI initiative is an internal innovation program, not a commercial venture exposed to market or funding risk."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["employees_exact", "founded_year_of_ai_initiative", "glassdoor_rating", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "Muzeum Prahy is the Museum of the Capital City of Prague (formally: Muzeum hlavního města Prahy, IČ: 00064432). The AI initiative at muzeum-prahy.cz/ai-muzeum/ positions the museum as a Methodological Center for AI implementation in Czech museology, with consulting and deployment services for other museums. No CNAIP entry found. Founding year refers to the museum itself (1883); the AI initiative appears to have launched around 2024-2025."
+  }
+}
