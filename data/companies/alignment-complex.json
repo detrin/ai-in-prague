@@ -1,0 +1,122 @@
+{
+  "id": "alignment-complex",
+  "name": "Alignment of Complex Systems Research Group",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T19:00:00Z",
+
+  "overview": {
+    "description": "Interdisciplinary AI safety research group studying multi-agent systems of humans and advanced AI",
+    "description_long": "The Alignment of Complex Systems Research Group (ACS) is an interdisciplinary research group studying questions about multi-agent systems composed of humans and advanced AI systems. Their goal is to develop an understanding of advanced AI systems and the complex ways in which they are embedded in and interact with humans and human institutions, contributing to making such systems safe and aligned with shared human values. Key research themes include Gradual Disempowerment (systemic existential risks from incremental AI), LLM Psychology and Sociology, Hierarchical Agency, and building a Science of the Space of Intelligent Systems.",
+    "tagline": "Investigating how complex systems composed of both humans and AIs could be aligned with human values",
+    "website": "https://acsresearch.org",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["ml_ops", "nlp", "other"],
+    "industries_served": ["academia", "ai_safety"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2022,
+    "founders": ["Jan Kulveit"],
+    "origin_story": "Announced in May 2022 as a research group affiliated with the Center for Theoretical Study at Charles University in Prague, focused on AI alignment and safety for complex human-AI systems.",
+    "key_milestones": [
+      {"year": 2022, "event": "Research group announced (May 2022)"},
+      {"year": 2024, "event": "Hosted Human-Aligned AI Summer School 2024"},
+      {"year": 2024, "event": "Launched InterLab toolkit for multi-agent interaction experiments"},
+      {"year": 2025, "event": "Paper 'Gradual Disempowerment' published at ICML 2025"},
+      {"year": 2025, "event": "Paper 'AI-AI Bias' published in PNAS"},
+      {"year": 2025, "event": "Hosted Workshop on Post-AGI Outcomes and Human-Aligned AI Summer School 2025"},
+      {"year": 2026, "event": "Contributor to International AI Safety Report 2026"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jan Kulveit", "role": "Principal Investigator", "source": "company_website"},
+      {"name": "Raymond Douglas", "role": "Senior Researcher", "source": "company_website"},
+      {"name": "Martin Vaněk", "role": "Research Manager", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Theia Pearson-Vogel", "role": "LLM Psychology and Sociology Researcher", "note": "Creator of the repeng open-source library for representation engineering; 2024 New Science fellow"},
+      {"name": "Annie Stephenson", "role": "LLM Psychology and Sociology Researcher", "note": "PhD in applied physics from Harvard; postdoc at Princeton studying collective behavior in online communities"},
+      {"name": "Vojtěch Kovařík", "role": "Affiliated Researcher", "note": "PhD in mathematics from Charles University; postdoc at CMU Foundations of Cooperative AI Lab; research at Oxford Future of Humanity Institute"},
+      {"name": "Tomáš Gavenčiak", "role": "Researcher & Research Engineer", "note": "PhD in theoretical computer science; research in game theory, algorithms, Bayesian modelling"},
+      {"name": "Gavin Leech", "role": "Research Associate", "note": "Cofounded Arb research consultancy; PhD in ML; advised UK government on Covid and AI policy"},
+      {"name": "Clem von Stengel", "role": "Research Engineer", "note": ""},
+      {"name": "Nora Ammann", "role": "Researcher", "note": "Contributor on value malleability and naturalized planning papers"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://acsresearch.org/contact",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Best poster award at 5th International Workshop on Active Inference (2024)"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Center for Theoretical Study, Charles University in Prague (academic affiliation)",
+      "Epistea, z.s. (supporting organization)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "ACS is an AI safety research group whose work focuses on aligning advanced AI systems — AGI progress increases the relevance and urgency of their research rather than displacing it.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research group operating in academia and the AI safety community; not subject to conventional market dynamics.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Small research group supported by Epistea (a Czech nonprofit) and affiliated with Charles University. No evidence of large institutional funders (e.g. Open Philanthropy); long-term funding stability is unclear for a group of this size in the nascent AI safety research ecosystem.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "ACS demonstrates strong research output (ICML 2025, PNAS, arXiv papers), a growing international team, and institutional anchoring at Charles University Prague. Their work on gradual disempowerment and LLM psychology occupies a distinctive niche in the AI safety landscape with growing relevance."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin", "google_sites"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "open_roles_count", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "Group founded May 2022. Address: Husova 4, 110 00 Prague. Academic part affiliated with Center for Theoretical Study at Charles University. Supported by Epistea, z.s. Twitter: @acsresearchorg. LinkedIn shows 'ACS Research' with 3 followers. Research Manager Martin Vaněk confirmed via paper co-authorship. Group runs Human-Aligned AI Summer School annually."
+  }
+}
