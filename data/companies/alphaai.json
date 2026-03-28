@@ -1,0 +1,113 @@
+{
+  "id": "alphaai",
+  "name": "AlphaAI",
+  "category": "company",
+  "scraped_at": "2026-03-28T22:50:00Z",
+
+  "overview": {
+    "description": "Czech AI company focused on ethical AI development, NLP solutions, digital humans, and AI education",
+    "description_long": "Alpha Industries s.r.o. is a Czech tech company focused on developing ethical and human-centered AI. They build custom AI solutions including emotion detectors, insult detectors, digital philosophers, digital writers, and multimodal assistants. They also provide AI consulting, enterprise AI implementation, AI governance advisory, and run the Startup Akademie — a training program connecting startups with investors. They collaborate with Czech universities (ČVUT, VŠE, VŠO) and have been featured in Czech TV, Radio, and at events like JobsDev and Startup World Cup.",
+    "tagline": "AI for the real world",
+    "website": "https://www.alphai.cz",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/alphaai"
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["nlp", "generative_ai", "other"],
+    "industries_served": ["education", "healthcare", "entertainment", "legal", "public_sector"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2018,
+    "founders": ["Jan Tyl"],
+    "origin_story": "Founded in Prague in June 2018 by Jan Tyl as a boutique AI company focused on ethical, human-centered AI products and services.",
+    "key_milestones": [
+      {"year": 2018, "event": "Founded in Prague by Jan Tyl"},
+      {"year": 2018, "event": "Won AI Award for best idea in AI"},
+      {"year": 2019, "event": "Dita Malečková joins as Philosophy/Art collaborator; work begins on Digital Philosopher and Digital Writer projects"},
+      {"year": 2021, "event": "Company restructured; Eva Popílková removed as shareholder"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 5,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jan Tyl", "role": "CEO / CTO", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Tomáš Dětko", "role": "AI Researcher", "source": "company_website"},
+      {"name": "Dmytro Molokoiedov", "role": "AI Researcher", "source": "company_website"},
+      {"name": "Dita Malečková", "role": "Philosophy / Art", "source": "company_website"},
+      {"name": "Eva Popílková", "role": "PR", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.alphai.cz/kariera",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "AI Tamer (general application)", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "javascript", "machine_learning", "neural_networks", "deep_learning"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["AI Award — Best AI Idea (2018)"],
+    "notable_clients": ["NaviRider", "Kurzy Živě", "Prague Local Friends", "Alma Ras", "Caflou", "Jihočeský Digi Hub", "Databig"],
+    "customer_count": null,
+    "partnerships": ["ČVUT", "VŠE", "VŠO", "VSTECB"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "AlphaAI's core products — emotion detectors, chatbots, digital philosophers, digital writers, and conversational AI — are exactly the types of applications that modern foundation models (GPT, Claude, Gemini) have commoditized. No significant proprietary data moat or patented technology is evident; the company acts largely as an integrator and custom developer on top of standard ML/NLP frameworks.",
+    "market_risk": "medium",
+    "market_risk_rationale": "AI consulting and custom development is a real and growing market in Czech Republic, but competition is intensifying from larger agencies and global players. The company's niche focus on ethical AI and human-centered design provides some differentiation, but the small team limits scalability.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Bootstrapped with only 20,000 CZK registered capital and no known external investment. A team of ~5 people with no disclosed revenue figures and no institutional backing presents significant sustainability risk.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "The combination of high AGI displacement risk (commoditized product portfolio), high funding risk (bootstrapped, no external investment), and a small team with limited scalability makes this a high-risk company from a job-seeker stability perspective."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["cnaip", "company_website", "czech_business_registry"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor", "employees_exact_verified", "open_roles_count"],
+    "needs_review": false,
+    "notes": "Legal name is Alpha Industries s.r.o. (IČO: 07233361). CNAIP lists them as 'AlphaAI'. Website is alphai.cz (not alphaai.cz). Jan Tyl is sole owner and director per Czech business registry."
+  }
+}
