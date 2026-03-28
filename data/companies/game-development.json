@@ -1,0 +1,117 @@
+{
+  "id": "game-development",
+  "name": "Game Development",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI for games research group at Charles University Faculty of Mathematics and Physics",
+    "description_long": "Game Development @ MFF-UK is a research and education group at Charles University (Faculty of Mathematics and Physics, Prague) focused on AI for games, AI-aided game development, applied AI in games, and AI interaction in games. The group runs game programming courses, organises game jams, participates in Erasmus+ projects on game dev higher education, and conducts research in generative AI, reinforcement learning, human-AI interaction, and agentic AI applied to the gaming domain.",
+    "tagline": "Looking into the Future of Gaming",
+    "website": "https://gamedev.cuni.cz",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/game-development"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["generative_ai", "other"],
+    "industries_served": ["gaming", "education"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2013,
+    "founders": ["Vojtěch Černý"],
+    "origin_story": "Established at Charles University Faculty of Mathematics and Physics in Prague; courses documented from 2013-2014 onwards. Focuses on bridging academic research and game development industry.",
+    "key_milestones": [
+      {"year": 2013, "event": "First game development courses at MFF-UK"},
+      {"year": 2015, "event": "Started hosting Ludum Dare game jams at MFF"},
+      {"year": 2019, "event": "GAMEHIGHED Erasmus+ project launched (2019-2022), partnering with 4 European universities"},
+      {"year": 2020, "event": "Exil 1968 game project"},
+      {"year": 2024, "event": "Gamebadges project launched (2024-2027)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Charles University",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other",
+    "grants": [
+      {"name": "GAMEHIGHED", "program": "Erasmus+ Strategic Partnership", "years": "2019-2022", "description": "Higher-ed programmes for careers in game design and development; 5-partner consortium"},
+      {"name": "Gamebadges", "program": "unknown", "years": "2024-2027", "description": "Active research project on gamification/badges in game development education"}
+    ]
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Vojtěch Černý", "role": "Group Lead / PI", "source": "cnaip", "google_scholar": "https://scholar.google.com/citations?view_op=list_works&hl=cs&user=QpeW_Y4AAAAJ", "orcid": "https://orcid.org/0000-0002-2921-2416", "email": "cerny@gamedev.cuni.cz"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://gamedev.cuni.cz",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Kazimierz Wielki University, Poland (Erasmus+ partner)",
+      "University of Jyvaskyla, Finland (Erasmus+ partner)",
+      "Bahcesehir University, Turkey (Erasmus+ partner)",
+      "Czech Game Developers Association"
+    ],
+    "publications": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at Charles University; not a commercial entity. Research mission is to explore and advance AI in games, not a product that could be displaced.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research group embedded within a university; not subject to market risk in the commercial sense. Funding comes from Erasmus+ grants and university budget.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Funded through Charles University and EU Erasmus+ grants. Active grant projects (Gamebadges 2024-2027) indicate continued institutional support.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research group within Charles University's Faculty of Mathematics and Physics. Risk framework designed for commercial entities does not apply."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["employees_exact", "open_roles_count", "glassdoor", "publications", "h_index"],
+    "needs_review": false,
+    "notes": "CNAIP categorises this as 'Research groups', not a company — index category 'company' appears to be a data entry error. This is a game development research and education group led by Vojtěch Černý at Charles University MFF. Website (gamedev.cuni.cz) is active with courses through 2025-2026 but blog last updated 2018."
+  }
+}
