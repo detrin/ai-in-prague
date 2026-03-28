@@ -1,0 +1,110 @@
+{
+  "id": "ml-and-agents",
+  "name": "ML & Agents",
+  "category": "company",
+  "scraped_at": "2026-03-28T19:55:00Z",
+
+  "overview": {
+    "description": "Research group at the Czech Academy of Sciences focused on LLM-based agent design and applications",
+    "description_long": "ML & Agents is a research group within the Department of Artificial Intelligence at the Institute of Computer Science of the Czech Academy of Sciences (ICS CAS). The group focuses on the design and application of agents based on large language models (LLMs), covering agent AI, generative AI, multi-agent systems, machine learning, and interdisciplinary applications of AI. Research spans neural networks, deep learning, meta-learning, and AI in social sciences.",
+    "tagline": "Designing and applying LLM-based agents for research and interdisciplinary use",
+    "website": "https://www.cs.cas.cz/artificial-intelligence/en",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/ml-agents"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["generative_ai", "ml_ops", "nlp", "automation"],
+    "industries_served": ["science_and_research", "academia"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": "Research group within the long-established Department of Artificial Intelligence at ICS CAS, part of the Czech Academy of Sciences. The ML & Agents group emerged as a focused sub-group led by Roman Neruda concentrating on LLM-based agent research.",
+    "key_milestones": []
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Academy of Sciences (AV ČR) – Institute of Computer Science",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Roman Neruda", "role": "Group Leader / Principal Investigator", "source": "cnaip"},
+      {"name": "Stefan Ratschan", "role": "Head of Department of Artificial Intelligence", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Petra Vidnerová", "role": "Researcher (meta-learning, epidemiology)", "source": "company_website"},
+      {"name": "David Coufal", "role": "Researcher (foundations of neural networks)", "source": "company_website"},
+      {"name": "David Černý", "role": "Researcher (philosophy of AI)", "source": "company_website"},
+      {"name": "Ondřej Neruda", "role": "Project Staff", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.cs.cas.cz/job-offer/en",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD Student in Artificial Intelligence", "department": "research", "location": "Prague"},
+      {"title": "Tenure Track Research Position – Computer Science", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "pytorch", "llm"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Czech Academy of Sciences", "Czech Science Foundation (GAČR)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group operating at the frontier of LLM and agent research. The group's core mission is to advance foundational AI knowledge, not deliver commercial products, so AGI displacement risk is not applicable.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Publicly-funded research institution under the Czech Academy of Sciences. Not subject to commercial market risk; funding comes from government grants and institutional support.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Part of the Czech Academy of Sciences with stable government institutional funding. Individual projects may depend on grant renewals (Czech Science Foundation), but base institutional support is ongoing.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Publicly-funded academic research group at an established state institution. No commercial risk factors apply; the group's stability depends on institutional funding from the Czech Academy of Sciences."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "employees_exact", "glassdoor", "funding_total_usd", "revenue_estimate_usd"],
+    "needs_review": true,
+    "notes": "Note: companies_index lists category as 'company' but this entity is a research group at the Institute of Computer Science, Czech Academy of Sciences. CNAIP also lists it under research groups. The ML & Agents group specifically focuses on LLM-based agent design; Roman Neruda (roman@cs.cas.cz, ORCID 0000-0003-2364-5357) is the group leader. No dedicated group website found beyond the ICS CAS department page."
+  }
+}
