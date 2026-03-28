@@ -1,0 +1,105 @@
+{
+  "id": "talentiqa",
+  "name": "Talentiqa",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI pre-screening and interview automation for high-volume hiring",
+    "description_long": "Talentiqa (operating as mind the gap s.r.o.) builds AI-powered HR tech products for high-volume recruitment. Their core product, 'Ella', is a virtual AI assistant that automates candidate pre-screening, interview scheduling, and scoring — eliminating the need for CVs and reducing time-to-shortlist. Designed for blue-collar and entry-level hiring at scale, Ella works across retail, logistics, telecom, finance, and recruitment agencies. Founded in Prague in January 2021, they serve Fortune 100 companies and claim €2M in annual net cost savings and 400% ROI for clients.",
+    "tagline": "Meet Ella, your AI pre-screening superpower",
+    "website": "https://www.talentiqa.ai",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/talentiqa"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "automation"],
+    "industries_served": ["retail", "logistics", "recruitment", "finance", "energy", "telecommunications"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2021,
+    "founders": [],
+    "origin_story": "Founded as mind the gap s.r.o. in Prague (January 13, 2021), building AI tools to automate high-volume recruitment pre-screening under the Talentiqa brand.",
+    "key_milestones": [
+      {"year": 2021, "event": "Incorporated as mind the gap s.r.o. in Prague (Jan 13, 2021)"},
+      {"year": 2021, "event": "Launched Talentiqa brand and Ella AI pre-screening product"},
+      {"year": 2024, "event": "Clients include Fortune 100 companies; Manpower Group case study published showing 400% ROI"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Romana", "role": "Sales/Demo Contact", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["New Yorker", "Geis Global", "Manpower Group"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Talentiqa's value lies in conversational AI screening workflows with ATS integrations and domain-specific scoring logic. While general LLMs could replicate basic chat-screening, their vertical focus on high-volume blue-collar hiring, pre-built ATS integrations, and compliance tooling provides meaningful differentiation and switching costs.",
+    "market_risk": "low",
+    "market_risk_rationale": "High-volume recruitment automation is a growing, proven market with real paying customers including Fortune 100 companies. Clients like New Yorker, Geis Global, and Manpower Group represent strong PMF validation across retail, logistics, and recruitment verticals.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No known external funding found; appears bootstrapped or early-stage. However, the company has paying enterprise clients and claims €2M in client cost savings which signals revenue generation. Runway is unclear without funding disclosure.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "A bootstrapped HR-tech startup with real enterprise customers and a clear niche (high-volume blue-collar pre-screening), but vulnerable to commoditization as general-purpose AI assistants increasingly offer similar capabilities. ATS integrations and compliance features provide defensibility, but the company remains small and unfunded."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "cnaip", "czech_business_registry_ares"],
+    "fields_missing": ["founders", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count", "careers_url"],
+    "needs_review": false,
+    "notes": "Legal entity is 'mind the gap s.r.o.' (IČO: 09821074, VAT: CZ09821074), registered Jan 13, 2021. Brand marketed as Talentiqa / TALENTIQA PRE-SCREENING. Calendly contact suggests 'Romana' is a key team member. Address: Na Beránce 57/2, Dejvice, 160 00 Praha 6."
+  }
+}
