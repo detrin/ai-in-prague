@@ -1,0 +1,133 @@
+{
+  "id": "ai-inst-transform",
+  "name": "AI Institutional Transformation Research Group",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T22:45:00Z",
+
+  "overview": {
+    "description": "Research on how political and epistemic institutions can adapt to the challenges and opportunities posed by AI",
+    "description_long": "The AI Institutional Transformation Research Group investigates how political and epistemic institutions can adapt to the challenges and opportunities posed by artificial intelligence. Led by Petr Špecián at Charles University's Faculty of Social Sciences, the group draws on economics, philosophy, and political theory to study the impacts of generative AI on political and educational institutions. Key interests include expediting institutional adaptation to technological shocks and improving the robustness and performance of key institutional infrastructure.",
+    "tagline": "We investigate how political and epistemic institutions can adapt to the challenges and opportunities posed by AI",
+    "website": "https://www.institutional-transformation.ai/",
+    "cnaip_url": "https://www.cnaip.cz/en/entity/ai-institutional-transformation-research-group"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["other"],
+    "industries_served": ["government", "education", "public_services"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Petr Špecián"],
+    "origin_story": "Established at Charles University Faculty of Social Sciences by Petr Špecián, an interdisciplinary scholar with a background in economics, philosophy, and political theory. The group grew out of research on democratic epistemology and shifted focus toward AI's institutional impacts, culminating in a 2024 Czech Science Foundation grant on LLMs in democracy.",
+    "key_milestones": [
+      {"year": 2024, "event": "Grant awarded: 'Look Who's Talking: Pragmatics and Ethics of Large Language Models in Democracy'"},
+      {"year": 2024, "event": "Petr Špecián appointed Assistant Professor at Charles University"},
+      {"year": 2024, "event": "Published 'Machine Advisors: Integrating Large Language Models Into Democratic Assemblies'"},
+      {"year": 2025, "event": "Published 'Universal Basic AI Access: Countering the Digital Divide'"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Charles University",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "grants": [
+      {
+        "title": "Look Who's Talking: Pragmatics and Ethics of Large Language Models in Democracy",
+        "funder": "Czech Science Foundation (GAČR)",
+        "start_year": 2024,
+        "amount_czk": null
+      },
+      {
+        "title": "Perspectives of Paternalism in a Democratic Society: Lessons from Behavioral Sciences for Political Philosophy",
+        "funder": "Czech Science Foundation (GAČR)",
+        "start_year": 2020,
+        "amount_czk": null
+      }
+    ],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {
+        "name": "Petr Špecián",
+        "role": "Group Head / Principal Investigator",
+        "source": "cnaip",
+        "orcid": "https://orcid.org/0000-0003-2702-0354",
+        "linkedin": "https://www.linkedin.com/in/pspecian/",
+        "affiliation": "Assistant Professor, Institute for Political Studies, Faculty of Social Sciences, Charles University"
+      }
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.institutional-transformation.ai/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [],
+    "selected_publications": [
+      {"year": 2025, "title": "Universal Basic AI Access: Countering the Digital Divide"},
+      {"year": 2025, "title": "Give the machine a chance, human experts ain't that great…"},
+      {"year": 2024, "title": "Machine Advisors: Integrating Large Language Models Into Democratic Assemblies"},
+      {"year": 2022, "title": "The Myth of the Victim Public. Democracy contra Disinformation"}
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Research group studying AI's societal and institutional impacts — its value lies in social science scholarship, not in building AI products that could be commoditized by foundation models.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Academic research group embedded within Charles University; success is measured by scholarly output and grant funding, not commercial market dynamics.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Relies on competitive Czech Science Foundation (GAČR) grants and institutional support from Charles University. Individual grants are time-limited, and the group is small enough that departure of the PI would effectively dissolve it.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "As an academic research group at a major university studying AI governance and democracy, standard commercial risk categories do not apply. The group has stable institutional backing through Charles University but depends on grant renewals for research capacity."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "orcid", "company_website"],
+    "fields_missing": ["founded_year", "employees_exact", "open_roles_count", "grants_amounts"],
+    "needs_review": false,
+    "notes": "Small academic research group led by Petr Špecián at Charles University FSS. Website is hosted on Google Sites (institutional-transformation.ai). CNAIP URL found via page source; not listed in companies_index.json. Research topics: institutional change, generative AI, AI & democracy, technology governance, institutional economics."
+  }
+}
