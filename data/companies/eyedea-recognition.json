@@ -1,0 +1,117 @@
+{
+  "id": "eyedea-recognition",
+  "name": "Eyedea Recognition",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered visual recognition for traffic analysis, license plate reading, and biometrics",
+    "description_long": "Eyedea Recognition is a B2B company founded in 2006 as a spin-off from the Czech Technical University in Prague (CTU). The company develops proprietary AI and machine learning technologies for visual object recognition and supplies them to partners worldwide. Core products include MMR (vehicle Make and Model Recognition), ANPR (Automatic Number Plate Reading), forensic video analysis, facial recognition, anonymization, and a cloud API (TrafficEye). Clients include Toyota, Macq, TollNet, Europol, Interpol, and Nielsen Admosphere.",
+    "tagline": "Artificial Intelligence for Visual Recognition",
+    "website": "https://www.eyedea.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["cv", "ml_ops"],
+    "industries_served": ["transportation", "law_enforcement", "smart_cities", "media"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2006,
+    "founders": ["Martin Urban", "Jiří Matas", "Vojtěch Franc"],
+    "origin_story": "Founded in 2006 by researchers from the Centre for Machine Perception at FEE CTU Prague as a university spin-off. First product was car license plate recognition software.",
+    "key_milestones": [
+      {"year": 2006, "event": "Founded as CTU Prague spin-off; first product: license plate recognition"},
+      {"year": 2017, "event": "Jiří Matas appointed as Neuron Science Board guarantor in Computer Science"},
+      {"year": 2024, "event": "Launched TrafficEye.ai cloud API for ANPR and MMR; launched anonymization product suite"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "inferred_from_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "licensing"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Martin Urban", "role": "CEO & Co-founder", "source": "company_website"},
+      {"name": "Jiří Matas", "role": "Chief Research Officer & Co-founder", "source": "company_website"},
+      {"name": "Vojtěch Franc", "role": "Chief Research Advisor & Co-founder", "source": "company_website"},
+      {"name": "Luboš Král", "role": "Research Project Manager", "source": "company_website"},
+      {"name": "Helena Chalupová", "role": "Office Manager & HR", "source": "company_website"},
+      {"name": "Filip Kachnič", "role": "Business Manager", "source": "company_website"},
+      {"name": "Václava Parkánová", "role": "Public Relations Manager", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Jiří Matas", "note": "Top-rated Czech computer scientist per Research.com ranking; h-index 87; Professor at FEE CTU Prague; 200+ peer-reviewed publications"},
+      {"name": "Vojtěch Franc", "note": "ML and optimization expert; Assistant Professor at FEE CTU Prague; h-index 25; 50+ peer-reviewed publications"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.eyedea.ai/join-the-band",
+    "open_roles_count": 2,
+    "open_roles": [
+      {"title": "C/C++ Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Machine Learning Expert", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["c", "cpp", "python", "machine_learning"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Toyota", "Macq", "TollNet", "Europol", "Interpol", "SDAT", "Nielsen Admosphere"],
+    "customer_count": null,
+    "partnerships": ["FEE CTU Prague", "FIT BUT Brno", "UTIA"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Eyedea has spent 18+ years building proprietary, domain-specific computer vision models for license plate reading, vehicle recognition, and forensic analysis — validated by law enforcement agencies like Europol and Interpol. These are highly specialized, regulated use cases where foundation models provide no off-the-shelf drop-in replacement, and where accuracy, compliance, and integration depth create strong moats.",
+    "market_risk": "low",
+    "market_risk_rationale": "Traffic analysis, ANPR, and law enforcement AI are established markets with stable government and enterprise demand. Eyedea's 18-year track record with customers like Europol, Interpol, Toyota, and Macq demonstrates proven product-market fit in durable, regulated verticals.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "No external funding found, suggesting the company has been self-sustaining and likely profitable since 2006. An 18-year-old bootstrapped company with paying enterprise clients in regulated sectors indicates stable revenue and minimal funding risk.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Eyedea operates in a stable, regulated niche with deep proprietary technology built over nearly two decades, world-class academic founders (h-index 87 CRO), and long-standing enterprise and law enforcement clients. Low displacement risk from foundation models and strong operational sustainability make this a low-risk profile."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "glassdoor_rating", "cnaip_url"],
+    "needs_review": false,
+    "notes": "No CNAIP URL available in index. No external funding found; company appears bootstrapped since 2006 CTU spin-off. Glassdoor blocked — no rating available. Employee count estimated at 11-50 based on leadership team size and 2 open roles. Legal name: Eyedea Recognition s.r.o. Address: Vyšehradská 320/49, Prague 128 00, CZ."
+  }
+}
