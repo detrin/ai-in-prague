@@ -2665,7 +2665,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "error"
+    "status": "done"
   },
   {
     "id": "sympulse",
@@ -2881,7 +2881,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "vocalls",
@@ -2889,7 +2889,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "vodafone",
@@ -2897,7 +2897,7 @@
     "category": "company",
     "source": "other",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "vyslovuj-cz",
@@ -2905,7 +2905,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "waypoint-ai",
@@ -2913,7 +2913,7 @@
     "category": "company",
     "source": "manual",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "white-and-case",
@@ -2921,7 +2921,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "wolters-kluwer",
@@ -2929,7 +2929,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "wopee-io",
@@ -2937,7 +2937,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "workday",
@@ -2945,7 +2945,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "y-soft",
@@ -2953,7 +2953,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "ydistri",
@@ -2961,7 +2961,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "yieldigo",
@@ -2969,7 +2969,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "yubetsu",
@@ -2977,7 +2977,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "yunex-traffic",
@@ -2985,7 +2985,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "zealous",
@@ -2993,7 +2993,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "zentiva",
@@ -3001,7 +3001,7 @@
     "category": "company",
     "source": "other",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "zoe-ai",
@@ -3009,6 +3009,6 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   }
 ]
