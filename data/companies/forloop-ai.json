@@ -1,0 +1,116 @@
+{
+  "id": "forloop-ai",
+  "name": "Forloop.ai",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "No-code platform for web scraping, data pipeline automation, and AI workflows",
+    "description_long": "Forloop.ai is a 'vibe no-coding' platform that combines a visual no-code editor with Python-first workflows, enabling data teams to scrape, clean, and automate external data processes in minutes. The platform includes a no-code pipeline builder, a web extractor that turns any website into an API, and a competitive intelligence analytics product (Forloop Insights) targeting FMCG brands and retailers for digital shelf monitoring, price tracking, and competitor analysis. Registered as Loop Technologies AB (Sweden), the company targets data analysts, engineers, and developers across consumer brands, real estate, and logistics verticals.",
+    "tagline": "Scrape. Clean. Automate. AI workflows in minutes.",
+    "website": "https://forloop.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["data_engineering", "automation"],
+    "industries_served": ["fmcg", "retail", "real_estate", "logistics", "data_science"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2021,
+    "founders": ["Dominik Vach"],
+    "origin_story": "Founded by Dominik Vach and at least one other co-founder (referenced as 'two talented and passionate founders' in early testimonials), with the mission to make external data accessible and automatable for data teams. GitHub organization created March 2021; product launched publicly around 2022. Registered as Loop Technologies AB in Sweden.",
+    "key_milestones": [
+      {"year": 2021, "event": "GitHub organization created (March 2021); company founded"},
+      {"year": 2022, "event": "Public website launched; received backing from APX (Porsche + Axel Springer Ventures), Depo Ventures, Fazole Ventures, Startguide Rockstart"},
+      {"year": 2023, "event": "Blog and content marketing launched; Product Hunt daily top badge"},
+      {"year": 2024, "event": "Pivoted toward 'vibe no-coding' and AI workflows positioning; launched Forloop Insights for FMCG competitive intelligence"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 15,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Stockholm", "country": "SE", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["APX (Porsche + Axel Springer Ventures)", "Depo Ventures", "Fazole Ventures", "Startguide Rockstart"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "freemium"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Dominik Vach", "role": "Founder & CEO", "source": "company_website"},
+      {"name": "Oldrich Muller", "role": "Interim COO", "source": "company_website"},
+      {"name": "Roberto Alvarez", "role": "Head of Growth (Sales + BD)", "source": "company_website"},
+      {"name": "Ilya Tsakunov", "role": "Head of Data Engineering", "source": "company_website"},
+      {"name": "Joaquín Martí", "role": "Technical Lead", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Knarik Avanesyan", "role": "DevRel Marketing Advisor", "source": "company_website"},
+      {"name": "Daniel Chmurny", "role": "Backend Lead", "source": "company_website"},
+      {"name": "Jakub Kawecki", "role": "Python Developer", "source": "company_website"},
+      {"name": "Tomas Omasta", "role": "Data Scientist", "source": "company_website"},
+      {"name": "Petr Sevcik", "role": "Web Automation Engineer", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://forloop.ai/careers",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "no-code", "web-scraping", "data-pipelines"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Product Hunt Daily Top Post Badge (2024)"],
+    "notable_clients": ["Porsche", "Axel Springer", "Investown", "Saxo Bank", "Sharespace", "AiCare", "Syndicai", "Shipvio"],
+    "customer_count": null,
+    "partnerships": ["APX (Porsche + Axel Springer Ventures)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core web scraping functionality is increasingly commoditized by AI agents capable of autonomous web browsing. However, Forloop's no-code pipeline editor and competitive intelligence analytics product (Forloop Insights) provide structured, repeatable workflows and business dashboards beyond raw scraping, giving some differentiation. The 'vibe no-coding' pivot shows strategic adaptability to AI trends.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Web scraping and data automation is a crowded market with established players (Apify, Brightdata, Octoparse). The FMCG digital shelf and competitive intelligence niche is real and growing, but Forloop faces competition from specialized retail analytics tools. Serving the same Czech/European market as Apify is an additional challenge.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Backed by four investors including APX (Porsche and Axel Springer Ventures), Depo Ventures, Fazole Ventures, and Startguide Rockstart, suggesting seed-stage support. However, no specific funding amounts are publicly confirmed and the team remains small (~15 people), indicating limited runway without continued revenue growth.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Forloop is an early-stage startup in a competitive space with real but limited differentiation. Multi-investor backing and a freemium product with paying customers provide a foundation, but the small team size, commoditizing web scraping market, and AGI pressure on data automation workflows create a medium-risk profile overall."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin", "github"],
+    "fields_missing": ["founded_year_confirmed", "funding_total_usd", "funding_rounds", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count", "office_prague_confirmed"],
+    "needs_review": false,
+    "notes": "Legal entity is Loop Technologies AB (registered in Sweden/Stockholm per LinkedIn). Included in Czech/Prague AI catalog likely due to Czech founding team (Dominik Vach and others have Czech surnames). GitHub org created March 2021 used as founding year proxy. Funding investors named on website but no amounts disclosed. Second co-founder name not confirmed (website references 'two founders' in testimonial). Product Hunt badge ID 454155."
+  }
+}
