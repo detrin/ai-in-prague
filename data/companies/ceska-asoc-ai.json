@@ -1,0 +1,104 @@
+{
+  "id": "ceska-asoc-ai",
+  "name": "Česká asociace umělé inteligence",
+  "category": "initiative",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Czech Society for Artificial Intelligence — a non-profit initiative connecting AI researchers, practitioners and enthusiasts across the Czech Republic.",
+    "description_long": "Czech AI (Česká asociace pro umělou inteligenci / Czech Society for Artificial Intelligence) is a non-profit organization that unites everyone interested in artificial intelligence, whether from a practical application or fundamental research perspective. Founded by a group of AI enthusiasts, its mission is to spread awareness of AI, foster collaboration and knowledge sharing, support education at universities and beyond, organise local meetups and community events, and connect the Czech AI community with national and international initiatives. The organisation maintains an online community registry and acts as a platform for networking between students, researchers, companies and investors.",
+    "tagline": "Umělá inteligence je novou elektřinou — zelektrifikujme Českou republiku",
+    "website": "https://czechai.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["other"],
+    "industries_served": ["education", "research", "community"],
+    "company_type": "nonprofit",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2018,
+    "founders": [],
+    "origin_story": "Founded by a group of AI enthusiasts who wanted a simple way to connect with others working in or interested in AI in the Czech Republic.",
+    "key_milestones": [
+      {"year": 2018, "event": "Czech AI established and website launched (czechai.cz)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Brno", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Dr. Pavel Dvořák", "role": "Contact Person", "source": "company_website"},
+      {"name": "Dr. Jakub Valčík", "role": "Contact Person", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Non-profit community initiative with no commercial AI product. Community/advocacy value cannot be commoditized by foundation models.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Not a commercial entity — operates as a volunteer-run nonprofit professional society with no revenue-dependent business model.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Volunteer-run nonprofit with no known external funding dependency. Minimal operating costs typical of a community association.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "As a non-profit community initiative connecting Czech AI stakeholders, standard commercial risk categories do not apply. The main sustainability risk is volunteer attrition, but the organisation appears stable since 2018."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["founded_year_exact", "founders", "member_count", "funding_details"],
+    "needs_review": false,
+    "notes": "Czech AI is based in Brno, not Prague, but is a national Czech AI initiative. The formal Czech name in the index ('Česká asociace umělé inteligence') varies slightly from the name on the website ('Česká asociace pro umělou inteligenci' / Czech Society for Artificial Intelligence). LinkedIn shows 46 followers as of March 2026. Website copyright states 2018."
+  }
+}
