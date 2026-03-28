@@ -1,0 +1,107 @@
+{
+  "id": "arbo-technologies",
+  "name": "ARBO Technologies",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:20:00Z",
+
+  "overview": {
+    "description": "AI-powered software for data-driven tree condition assessment and arborist workflows",
+    "description_long": "ARBO Technologies develops a suite of AI and sensor tools for arborists to assess the structural stability and health of non-forest trees. Their three products — Adbian (3D stability analysis software), TreeScanner (mobile data collection app), and TreeWatch (vehicle-mounted hardware sensor) — combine neural networks, LiDAR, 3D terrain modelling, and automated photo analysis to give arborists objective data on tree risk, replacing guesswork with evidence-based decisions. The company is based in Brno and has global ambitions, partnering with Safe Trees and Y Soft, and was incubated under the Czech Technologická inkubace programme.",
+    "tagline": "Data-based care for non-forest greenery",
+    "website": "https://www.arbotechnologies.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["cv", "data_engineering", "ml_ops"],
+    "industries_served": ["urban infrastructure", "municipalities", "utilities", "arboriculture"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2021,
+    "founders": [],
+    "origin_story": "Founded in February 2021 in Brno, Czech Republic, combining deep arboristika field expertise with cutting-edge AI and sensor technology to improve tree risk assessment.",
+    "key_milestones": [
+      {"year": 2021, "event": "Founded (incorporated 23 February 2021)"},
+      {"year": 2021, "event": "Adbian project supported by Technologická inkubace programme"},
+      {"year": 2021, "event": "Partnered with Safe Trees and Y Soft"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred_from_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Brno", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.arbotechnologies.com/kariera",
+    "open_roles_count": 3,
+    "open_roles": [
+      {"title": "Senior Physics-Simulation Developer", "department": "engineering", "location": "Brno / remote"},
+      {"title": "Senior Machine Learning Developer", "department": "engineering", "location": "Brno / remote"},
+      {"title": "Tree Classifier – Operations Centre", "department": "operations", "location": "Brno / remote"}
+    ],
+    "tech_stack": ["neural_networks", "lidar", "3d_modelling", "python"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Technologická inkubace programme support"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Safe Trees", "Y Soft"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Core value is in physics-based tree stability simulation (Adbian), calibrated LiDAR/sensor hardware (TreeWatch), and domain-specific arboristika expertise — not a thin LLM wrapper. Foundation models cannot replicate vehicle-mounted sensor hardware or certified structural load analysis.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Real, proven demand from municipalities and utility operators needing tree risk management, but the total addressable market is niche and geographically fragmented. Revenue scale potential is limited without international expansion.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Very early-stage startup (founded 2021) with no known VC funding — only incubation programme support. Small team with unclear runway, making survival to scale dependent on early commercial traction.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong technical moat in hardware+AI tree diagnostics insulates against AGI commoditisation, but high funding risk and a niche market cap constrain long-term growth. Overall risk is medium — viable niche product, uncertain path to scale."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_registry_ares"],
+    "fields_missing": ["founders", "leadership", "funding_total_usd", "employees_exact", "glassdoor_rating", "revenue_estimate_usd"],
+    "needs_review": false,
+    "notes": "Company is headquartered in Brno (not Prague). Included in Czech AI catalog. Website is in Czech; English version partially available. Products: Adbian (3D stability analysis software), TreeScanner (mobile app), TreeWatch (vehicle-mounted sensor device). Adbian supported by Czech Technologická inkubace programme."
+  }
+}
