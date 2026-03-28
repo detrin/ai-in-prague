@@ -1,0 +1,113 @@
+{
+  "id": "raynet",
+  "name": "Raynet",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Czech CRM SaaS for SMEs with built-in AI and automation features",
+    "description_long": "RAYNET CRM is a cloud-based customer relationship management platform founded in 2004 in Ostrava. It serves small and medium enterprises across Czech Republic, Slovakia, and internationally, helping sales teams manage contacts, deals, tasks, and meetings. Key features include smart calendars, voice-to-text entry, email integration, automation, online document signing, and Raynet AI. With over 22,000 paying users across 3,500+ companies, it is the most widely used Czech CRM, available in 7 languages.",
+    "tagline": "Obchod bez chaosu, bez Excelů a bez zmatků. (Sales without chaos, without spreadsheets, without confusion.)",
+    "website": "https://raynet.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["automation", "nlp"],
+    "industries_served": ["finance", "real_estate", "retail", "energy", "manufacturing"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2004,
+    "founders": ["Aleš Seifert", "Dušan Gálik", "Lukáš Rajský", "Jaroslav Bazala"],
+    "origin_story": "Founded in 2004 by a group of friends from Ostrava who initially built web applications, server solutions, and custom software before pivoting to develop a proprietary cloud CRM product around 2008–2010, becoming one of the first to bring cloud CRM to the Czech market.",
+    "key_milestones": [
+      {"year": 2004, "event": "Founded in Ostrava by Aleš Seifert, Dušan Gálik, Lukáš Rajský, and Jaroslav Bazala"},
+      {"year": 2008, "event": "Pivoted from custom software development to building own cloud CRM product"},
+      {"year": 2023, "event": "Revenue exceeded 120M CZK (~$5.4M USD) with 30M CZK profit; RaynetTower named Office of the Year 2023"},
+      {"year": 2024, "event": "Celebrated 20 years on market; 21,000+ paying users; won Profi HR Award 2024"},
+      {"year": 2025, "event": "Reached 22,000 users from 3,500+ companies; launched international expansion push"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "wikipedia",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Ostrava", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 5400000,
+    "revenue_source": "CzechCrunch article (2023 revenue 120M CZK, converted at ~22 CZK/USD)",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Martin Bazala", "role": "CEO", "source": "czechcrunch"},
+      {"name": "Jaroslav Bazala", "role": "Co-founder", "source": "wikipedia"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://raynet.cz/kariera",
+    "open_roles_count": 4,
+    "open_roles": [
+      {"title": "Trainee Software Developer", "department": "engineering", "location": "Ostrava"},
+      {"title": "Raynet Career Kick (Sales Trainee)", "department": "sales", "location": "Ostrava"},
+      {"title": "Backend Developer", "department": "engineering", "location": "Ostrava"},
+      {"title": "Frontend Developer", "department": "engineering", "location": "Ostrava"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Office of the Year 2023 (RaynetTower)", "Profi HR Award 2024"],
+    "notable_clients": ["Mall.cz", "Liftago", "Sonnentor", "Vítkovice a.s.", "Notino", "Columbus Energy"],
+    "customer_count": 3500,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Raynet AI is a feature layer on top of a well-established CRM product with 20 years of accumulated customer data and workflows. Core CRM functionality (contact management, deal tracking) is increasingly commoditized by AI-native tools. However, deep Czech/Slovak market penetration, 22,000 loyal users, and local-language support provide meaningful retention moat.",
+    "market_risk": "low",
+    "market_risk_rationale": "CRM is a proven $50B+ global market with sustained demand. Raynet is the market-leading Czech CRM with 3,500+ companies and 22,000 users, growing 29% YoY. Clear product-market fit with profitable unit economics.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Fully bootstrapped with 120M CZK revenue (~$5.4M USD) and 30M CZK profit in 2023. Self-funding with near-zero reported employee turnover and profit-sharing culture indicates strong financial health and no dependency on external capital.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Profitable, bootstrapped, 20-year-old scaleup with dominant Czech CRM market position, loyal SME customer base, and strong team retention. Primary risk is AGI commoditization of CRM features over the medium term, but the company's deep local roots and profitability provide runway to adapt."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "wikipedia", "czechcrunch", "positiv_magazine", "moravio_case_study"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "employees_exact", "tech_stack"],
+    "needs_review": false,
+    "notes": "Note: Raynet is headquartered in Ostrava, not Prague. Included in AI-in-Prague catalog based on its AI product features (Raynet AI) and Czech tech ecosystem relevance. Fully bootstrapped, no external funding. Revenue figure from September 2023 CzechCrunch article (full-year 2023 forecast of 120M CZK). Company was founded by 4 co-founders; Martin Bazala (brother of co-founder Jaroslav Bazala) serves as CEO."
+  }
+}
