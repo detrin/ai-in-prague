@@ -1,0 +1,121 @@
+{
+  "id": "embedit",
+  "name": "EmbedIT",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Czech-based enterprise IT services and solutions provider, part of PPF Group",
+    "description_long": "EmbedIT is a technology and IT services company that has been operating as part of the PPF Group since 2001. Originally built to power Home Credit Group's global IT infrastructure, EmbedIT now offers enterprise IT transformation, data analytics & AI, cybersecurity, channel transformation, and infrastructure services to external clients. It has enabled Home Credit to scale to 140 million customers across 15 countries and is expanding globally with operations in Czech Republic, India, Indonesia, Philippines, and Vietnam.",
+    "tagline": "Choose forward — enterprise IT that takes you further, faster",
+    "website": "https://www.embedit.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["data_engineering", "ml_ops", "automation", "nlp"],
+    "industries_served": ["finance", "banking", "consumer_finance", "telecommunications", "media"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2001,
+    "founders": [],
+    "origin_story": "Founded as an internal IT centre for PPF Group companies (notably Home Credit Group and Air Bank). Formally rebranded and began expanding externally around 2013 as a standalone IT services entity within PPF Group.",
+    "key_milestones": [
+      {"year": 2001, "event": "Established as PPF Group's internal IT services company"},
+      {"year": 2013, "event": "Emerged as an independent entity within PPF Group, beginning to expand services externally"},
+      {"year": 2023, "event": "Jan Cenkr appointed CEO"},
+      {"year": 2025, "event": "Opened first Southeast Asia office in Ho Chi Minh City, Vietnam"},
+      {"year": 2025, "event": "Forged strategic partnership with FPT to accelerate digital transformation in financial services"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": 542,
+    "employee_source": "leadiq_december_2025",
+    "office_count": 5
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "Ho Chi Minh City", "country": "VN", "is_hq": false},
+    {"city": "Manila", "country": "PH", "is_hq": false},
+    {"city": "Jakarta", "country": "ID", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "PPF Group",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["PPF Group"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jan Cenkr", "role": "CEO", "source": "company_website_linkedin"},
+      {"name": "Roman Polanský", "role": "CFO / Head of Finance & Operations", "source": "linkedin"},
+      {"name": "Michaela Mojžíšová", "role": "Chief People Officer", "source": "glassdoor"},
+      {"name": "Kateřina Lesch", "role": "AI/ML Enablement Leader (PhD Computer Science)", "source": "linkedin"},
+      {"name": "Mihaela Todica", "role": "VP Sales", "source": "linkedin"},
+      {"name": "Ivo Gajdica", "role": "Head of Security Delivery / CISO", "source": "linkedin"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.embedit.com/careers",
+    "open_roles_count": 19,
+    "open_roles": [
+      {"title": "Java Kotlin Software Developer", "department": "engineering", "location": "Ho Chi Minh City, Vietnam"},
+      {"title": "Senior React Software Engineer", "department": "engineering", "location": "Ho Chi Minh City, Vietnam"},
+      {"title": ".NET Software Developer", "department": "engineering", "location": "Ho Chi Minh City, Vietnam"},
+      {"title": "Flutter Software Engineer", "department": "engineering", "location": "Ho Chi Minh City, Vietnam"}
+    ],
+    "tech_stack": ["java", "kotlin", "react", "dotnet", "flutter", "csharp", "docker", "kubernetes", "google_cloud", "oracle", "snowflake", "python", "informatica"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": 3.2,
+    "review_count": 167,
+    "recommend_pct": 48,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-EmbedIT-EI_IE914262.11,18.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Home Credit Group", "Air Bank", "Yettel Bank", "ČSOB Pojišťovna", "TV Nova", "Škoda Transportation", "Central European Media Enterprises", "Creditinfo CEE"],
+    "customer_count": null,
+    "partnerships": ["FPT Corporation"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "EmbedIT's core value is full-stack enterprise IT delivery in highly regulated consumer finance environments — a domain requiring deep integration expertise and compliance knowledge. Their AI/data services (LLMs, MLOps, predictive modelling) are adjacent to commoditizing AI capabilities, but the broader IT services, infrastructure management, and domain-specific delivery cannot be easily replaced by foundation models.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established IT services market with 20+ years of operation, captive PPF Group revenue as a stable baseline, and a growing roster of external enterprise clients including banks, media and telcos. Recently opened offices in Vietnam and SE Asia signal active market expansion.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Wholly owned subsidiary of PPF Group, an international investment conglomerate with €40+ billion in total assets. No external funding dependency; operational funding comes from PPF Group and client revenues.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong PPF Group backing eliminates funding risk. Established for 20+ years with entrenched enterprise client relationships and growing external client base. Medium AGI displacement risk is mitigated by deep vertical expertise in consumer finance IT and full-stack delivery capability beyond pure AI tasks."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "brave_search", "linkedin_snippets", "glassdoor_snippets", "leadiq", "tnglobal_news"],
+    "fields_missing": ["founded_year_exact", "revenue_estimate_usd", "funding_total_usd", "awards"],
+    "needs_review": false,
+    "notes": "EmbedIT has been part of PPF Group since 2001 (original IT Centre for Home Credit/Air Bank). Formally branded and expanding externally since ~2013. CEO Jan Cenkr confirmed via LinkedIn and news articles. 542 employees as of December 2025 per LeadIQ. Glassdoor rating 3.2/5 based on 167 reviews, 48% recommend."
+  }
+}
