@@ -1,0 +1,111 @@
+{
+  "id": "aurisone",
+  "name": "AurisOne",
+  "category": "company",
+  "scraped_at": "2026-03-28T23:52:00Z",
+
+  "overview": {
+    "description": "AI medical documentation assistant that records doctor-patient conversations and generates structured clinical notes",
+    "description_long": "AurisOne (Auris One s.r.o.) is a Czech healthtech startup offering an AI-powered mobile application that listens to doctor-patient consultations and automatically generates structured medical documentation. The app records conversations, processes uploaded photos (e.g. previous reports), and incorporates dictated notes to create a structured visit record that serves as the basis for a full medical report. Built on Google Gemini with domain-specific prompt engineering, the tool aims to save doctors up to 60 hours of administrative work per month. Initial focus is on palliative care, with plans to expand to oncology and other specialisations, and to European markets.",
+    "tagline": "Lékařská dokumentace během pár vteřin (Medical documentation in seconds)",
+    "website": "https://www.aurisone.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["speech", "nlp", "generative_ai", "document_processing"],
+    "industries_served": ["healthcare"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2024,
+    "founders": ["Ondřej Vlček", "Nina Formánek Jaganjacová", "Michal Trs"],
+    "origin_story": "Founded by Ondřej Vlček (former CEO of Avast/Gen Digital) after noticing his wife, palliative care doctor Katarína Vlčková, spent evenings writing medical reports after seeing patients. Vlček invested $1 million (approx. 20M CZK) and brought in Nina Formánek Jaganjacová (LSE graduate, founder of health-awareness nonprofit Sifty52) as CEO, and Michal Trs (former VP of Engineering at Avast) as CTO. The company was formally incorporated in October 2024 and began operating in November 2024.",
+    "key_milestones": [
+      {"year": 2024, "event": "Founded in Prague; incorporated October 14, 2024"},
+      {"year": 2024, "event": "Launched pilot with 10+ palliative care organisations including Cesta domů and Strom života"},
+      {"year": 2025, "event": "Covered by Forbes.cz and CzechCrunch; $1M seed funding from co-founder Ondřej Vlček disclosed"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 10,
+    "employee_source": "czechcrunch_article",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 1000000,
+    "funding_rounds": [
+      {"date": "2024-11", "type": "Seed", "amount_usd": 1000000, "lead_investor": "Ondřej Vlček (co-founder)"}
+    ],
+    "investors": ["Ondřej Vlček"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Nina Formánek Jaganjacová", "role": "CEO", "source": "czechcrunch_article"},
+      {"name": "Michal Trs", "role": "CTO / Head of Engineering", "source": "czechcrunch_article"},
+      {"name": "Ondřej Vlček", "role": "Co-founder & Strategic Investor", "source": "czechcrunch_article"}
+    ],
+    "notable_people": [
+      {"name": "Ondřej Vlček", "note": "Former CEO of Avast / President of Gen Digital; majority shareholder"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["google_gemini", "mobile", "python"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Cesta domů", "Strom života", "MEDICA Třinec", "Onkologická klinika 2. LF UK", "Spondeo"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "AurisOne is explicitly described by its own CTO as 'a sophisticated prompt creator' built on top of Google Gemini, with no proprietary AI models. Google, Microsoft (DAX/Nuance), and other major health AI players can easily replicate or subsume this use case natively within their platforms, leaving limited defensibility beyond domain-specific prompt tuning and Czech-language optimisation.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The market pain is real and validated (77% of Czech doctors report administrative overload per Czech Medical Chamber study), and the pilot traction with 10+ palliative care organisations shows early demand. However, the market is small initially (Czech palliative care), heavily regulated, and increasingly contested by well-funded international players with existing healthcare integrations.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Only $1M seed funding from the founder himself (Ondřej Vlček) with ~10 employees; no external institutional investors and no disclosed revenue. Runway is limited for a company targeting European expansion, though Vlček's deep pockets and network (ex-Avast billionaire-level wealth) reduce existential risk somewhat.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Very early-stage company (founded Nov 2024) with thin AI moat (prompt engineering over Gemini), small team, founder-only funding, and direct exposure to well-resourced incumbents. Ondřej Vlček's profile gives it credibility and some safety net, but the core product is replicable by Big Tech at no marginal cost."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "czechcrunch_article", "forbes_cz_article", "ares_gov_cz", "or_justice_cz"],
+    "fields_missing": ["careers_url", "open_roles_count", "glassdoor_rating", "revenue_estimate_usd"],
+    "needs_review": false,
+    "notes": "Founded by Ondřej Vlček, former CEO of Avast (later Gen Digital). Company formally incorporated 14 October 2024, operational from November 2024. CzechCrunch article published 28 May 2025 confirmed ~10 employees and $1M seed from Vlček. Tech stack explicitly uses Google Gemini as the underlying LLM. Plans to expand to oncology and then to European markets."
+  }
+}
