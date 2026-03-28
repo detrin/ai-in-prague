@@ -1,0 +1,127 @@
+{
+  "id": "productboard",
+  "name": "Productboard",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered product management platform for building products that matter",
+    "description_long": "Productboard is a product management platform that helps teams centralize customer feedback, prioritize features, and build strategic roadmaps. They offer AI features (Productboard AI and Productboard Spark) that help product managers synthesize insights, summarize customer notes, and accelerate decision-making. Used by 6,000+ companies worldwide, with significant engineering presence in Prague and Brno.",
+    "tagline": "Build products that matter",
+    "website": "https://www.productboard.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["automation", "recommendation", "nlp"],
+    "industries_served": ["product_management", "software", "technology", "automotive", "finance"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2014,
+    "founders": ["Hubert Palan", "Daniel Hejl"],
+    "origin_story": "Founded in 2014 by Hubert Palan and Daniel Hejl with a mission to help companies build truly customer-centric products. Czech-origin company that has grown into a global scaleup headquartered in San Francisco.",
+    "key_milestones": [
+      {"year": 2014, "event": "Founded in Prague by Hubert Palan and Daniel Hejl"},
+      {"year": 2021, "event": "Raised $72M Series C led by Tiger Global and Sequoia"},
+      {"year": 2021, "event": "Raised $125M Series D led by Dragoneer Investment Group"},
+      {"year": 2023, "event": "Launched Productboard AI and Productboard Spark (AI for PMs)"},
+      {"year": 2025, "event": "Reached 6,000+ customers and 500+ employees globally"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 6
+  },
+
+  "offices": [
+    {"city": "San Francisco", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "Vancouver", "country": "CA", "is_hq": false},
+    {"city": "Dublin", "country": "IE", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2021-04", "type": "Series C", "amount_usd": 72000000, "lead_investor": "Tiger Global"},
+      {"date": "2021-10", "type": "Series D", "amount_usd": 125000000, "lead_investor": "Dragoneer Investment Group"}
+    ],
+    "investors": ["Dragoneer Investment Group", "Tiger Global", "Sequoia", "Index Ventures", "Credo Ventures"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Hubert Palan", "role": "CEO & Co-Founder", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Daniel Hejl", "role": "Co-Founder", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.productboard.com/careers/open-positions/",
+    "open_roles_count": 20,
+    "open_roles": [
+      {"title": "Staff / Senior AI Product Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Full-stack Product Engineer (Ruby on Rails)", "department": "engineering", "location": "Prague"},
+      {"title": "Frontend / Fullstack Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Frontend Product Engineer (JS/React)", "department": "engineering", "location": "Prague"},
+      {"title": "Staff Backend Engineer (Kotlin/Java)", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Engineering Manager", "department": "engineering", "location": "Prague"},
+      {"title": "Staff Product Designer", "department": "design", "location": "Prague"},
+      {"title": "Staff Product Manager", "department": "product", "location": "Prague"},
+      {"title": "Sr. Growth Marketing Manager", "department": "marketing", "location": "San Francisco"}
+    ],
+    "tech_stack": ["ruby_on_rails", "kotlin", "java", "javascript", "react", "typescript"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Dashlane", "UiPath", "Volkswagen Automotive Cloud", "Smartly", "Adevinta", "Umbrage (Bain & Company)"],
+    "customer_count": 6000,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Productboard's core value is a centralized system of record for product management — roadmaps, customer feedback, prioritization workflows — which has data network effects and enterprise integrations that are hard to replicate. However, their AI features (Spark, Productboard AI) risk being commoditized by general-purpose AI tools, and the product management workflow automation layer is increasingly replicable.",
+    "market_risk": "low",
+    "market_risk_rationale": "Product management tooling is a well-established, growing market with 6,000+ paying customers and major enterprise adoption (UiPath, Volkswagen). While Jira/Confluence and other tools compete, the centralized product management platform space has proven demand.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-funded with $125M Series D in Oct 2021 from Dragoneer and Sequoia, 6,000+ customers, and 500+ employees. The company is at scale with multiple revenue streams and strong investor backing.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Productboard has strong fundamentals: deep enterprise customer base (6,000+), well-funded (Series D), and a system-of-record position in product management that creates switching costs. Medium AGI displacement risk is offset by solid market position and funding."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "company_blog", "press_page", "built_in_sf"],
+    "fields_missing": ["funding_total_usd", "glassdoor_rating", "glassdoor_review_count", "revenue_estimate_usd"],
+    "needs_review": false,
+    "notes": "Productboard is Czech-origin (founded in Prague) but HQ moved to San Francisco. Major engineering hub remains in Prague and Brno. Series A and B amounts not confirmed via scraping. Glassdoor blocked. Company about page states 500+ employees but BuiltInSF shows 246 (likely stale data)."
+  }
+}
