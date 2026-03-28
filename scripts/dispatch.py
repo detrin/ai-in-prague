@@ -113,13 +113,24 @@ def update_index_status(company_id, status):
     save_index(index)
 
 
+def fix_trailing_newline(*paths):
+    for p in paths:
+        p = Path(p)
+        if p.exists():
+            data = p.read_bytes()
+            if data and not data.endswith(b"\n"):
+                p.write_bytes(data + b"\n")
+
+
 async def git_commit(company_id, company_name):
     async with GIT_LOCK:
         update_index_status(company_id, "done")
+        company_file = COMPANIES / f"{company_id}.json"
+        fix_trailing_newline(company_file, INDEX)
         proc = await asyncio.create_subprocess_exec(
             "git",
             "add",
-            str(COMPANIES / f"{company_id}.json"),
+            str(company_file),
             str(INDEX),
             cwd=str(ROOT),
         )
