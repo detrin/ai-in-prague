@@ -3,7 +3,6 @@
   "name": "BuiltMind",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "AI-powered real estate market data and dynamic pricing platform for residential developers and investors",
     "description_long": "BuiltMind provides data-driven solutions for the real estate industry, offering Market Data (real-time competitor monitoring and market analytics), Dynamic Pricing (AI-powered price optimization using up to 120 variables), and BuiltMind AI (generative AI for market analysis powered by GPT-4). Founded with the mission to accelerate data-driven decision-making in real estate. First prototype built at Harvard University; operates in the Czech Republic, Slovakia, Poland, Germany, and the USA.",
@@ -11,38 +10,61 @@
     "website": "https://www.builtmind.com",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["ml_ops", "data_engineering", "generative_ai", "recommendation"],
-    "industries_served": ["real_estate", "construction", "investment"],
+    "ai_focus": [
+      "ml_ops",
+      "data_engineering",
+      "generative_ai",
+      "recommendation"
+    ],
+    "industries_served": [
+      "real_estate",
+      "construction",
+      "investment"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2022,
-    "founders": ["Martin Decky"],
+    "founders": [
+      "Martin Decky"
+    ],
     "origin_story": "First prototype built at Harvard University; BuiltMind Inc. incorporated as a US company with European operations focused on the Czech, Slovak, Polish and German real estate markets.",
     "key_milestones": [
-      {"year": 2022, "event": "2nd place at MIPIM startup competition (world's largest real estate conference)"},
-      {"year": 2023, "event": "Launched BuiltMind AI (GPT-4-powered market analysis) in beta"},
-      {"year": 2025, "event": "Top 10 at PropTech Festival, Property Forum 2025"}
+      {
+        "year": 2022,
+        "event": "2nd place at MIPIM startup competition (world's largest real estate conference)"
+      },
+      {
+        "year": 2023,
+        "event": "Launched BuiltMind AI (GPT-4-powered market analysis) in beta"
+      },
+      {
+        "year": 2025,
+        "event": "Top 10 at PropTech Festival, Property Forum 2025"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": 18,
     "employee_source": "linkedin",
     "office_count": null
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true},
-    {"city": "United States", "country": "US", "is_hq": false}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    },
+    {
+      "city": "United States",
+      "country": "US",
+      "is_hq": false
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -55,16 +77,26 @@
     "revenue_source": null,
     "business_model": "subscription_saas"
   },
-
   "team": {
     "leadership": [
-      {"name": "Martin Decky", "role": "Co-Founder & CEO", "source": "linkedin"},
-      {"name": "Peter Kanos", "role": "CTO", "source": "company_website"},
-      {"name": "Michal Koch", "role": "Head of Product", "source": "linkedin"}
+      {
+        "name": "Martin Decky",
+        "role": "Co-Founder & CEO",
+        "source": "linkedin"
+      },
+      {
+        "name": "Peter Kanos",
+        "role": "CTO",
+        "source": "company_website"
+      },
+      {
+        "name": "Michal Koch",
+        "role": "Head of Product",
+        "source": "linkedin"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": null,
     "open_roles_count": null,
@@ -72,29 +104,54 @@
     "tech_stack": [],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [
       "2nd place MIPIM Startup Competition 2022",
       "Top 10 PropTech Festival, Property Forum 2025"
     ],
-    "notable_clients": ["YIT", "IMMO Building", "Cushman & Wakefield", "Penta Real Estate", "JTRE", "Neocity", "Daramis", "Gartal"],
+    "notable_clients": [
+      "YIT",
+      "IMMO Building",
+      "Cushman & Wakefield",
+      "Penta Real Estate",
+      "JTRE",
+      "Neocity",
+      "Daramis",
+      "Gartal"
+    ],
     "customer_count": null,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "linkedin"],
-    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "careers_url", "glassdoor", "founded_year_exact"],
+    "sources_used": [
+      "company_website",
+      "linkedin"
+    ],
+    "fields_missing": [
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "careers_url",
+      "glassdoor",
+      "founded_year_exact"
+    ],
     "needs_review": false,
     "notes": "BuiltMind Inc. is legally a US entity but has primary European operations centred on Prague. Founded year estimated as 2022 based on MIPIM competition mention; prototype built at Harvard before that. Employee count (18) from LinkedIn profile as of March 2026."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (data_engineering) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No public funding information. Sustainability unclear.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
   }
 }

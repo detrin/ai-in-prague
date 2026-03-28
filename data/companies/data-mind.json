@@ -3,7 +3,6 @@
   "name": "Data Mind",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Data science and ML consulting firm helping Czech businesses turn data into profit",
     "description_long": "Data Mind (Data Mind s.r.o.) is a Prague-based data science boutique founded in 2009. They build custom machine learning models, customer segmentations, predictive analytics, and data engineering pipelines for mid-to-large Czech companies. Services span Azure/Microsoft Fabric integration, BI reporting, churn analysis, next-best-offer models, dynamic pricing, and AI/ML automation. Over 100 data projects delivered, with 2/3 running in production.",
@@ -11,36 +10,55 @@
     "website": "https://www.datamind.cz",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "consulting",
-    "ai_focus": ["ml_ops", "data_engineering", "recommendation", "automation"],
-    "industries_served": ["retail", "telecoms", "finance", "healthcare", "e-commerce", "marketing"],
+    "ai_focus": [
+      "ml_ops",
+      "data_engineering",
+      "recommendation",
+      "automation"
+    ],
+    "industries_served": [
+      "retail",
+      "telecoms",
+      "finance",
+      "healthcare",
+      "e-commerce",
+      "marketing"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2009,
-    "founders": ["Jan Matoušek"],
+    "founders": [
+      "Jan Matoušek"
+    ],
     "origin_story": "Founded by Jan Matoušek, a data scientist with experience at RCA-Research, The Gallup Organization, OgilvyOne, and O2. One of the first specialised data science firms on the Czech market.",
     "key_milestones": [
-      {"year": 2009, "event": "Founded in Prague as one of the first Czech data science consultancies"},
-      {"year": 2025, "event": "100+ data projects delivered, 2/3 running in production"}
+      {
+        "year": 2009,
+        "event": "Founded in Prague as one of the first Czech data science consultancies"
+      },
+      {
+        "year": 2025,
+        "event": "100+ data projects delivered, 2/3 running in production"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": 11,
     "employee_source": "company_website",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -53,48 +71,111 @@
     "revenue_source": null,
     "business_model": "consulting_services"
   },
-
   "team": {
     "leadership": [
-      {"name": "Jan Matoušek", "role": "CEO, Project Lead, Data Scientist", "source": "company_website"},
-      {"name": "Johana Vohanková", "role": "Analytic Team Supervisor", "source": "company_website"}
+      {
+        "name": "Jan Matoušek",
+        "role": "CEO, Project Lead, Data Scientist",
+        "source": "company_website"
+      },
+      {
+        "name": "Johana Vohanková",
+        "role": "Analytic Team Supervisor",
+        "source": "company_website"
+      }
     ],
     "notable_people": [
-      {"name": "Rostislav Cendelín", "role": "Azure & Cloud Specialist", "source": "company_website"},
-      {"name": "Martin Kavalec", "role": "Senior Data Scientist", "source": "company_website"},
-      {"name": "Tomáš Havlík", "role": "Azure, Data Engineer", "source": "company_website"},
-      {"name": "Radim Jedlička", "role": "Data Scientist", "source": "company_website"},
-      {"name": "Radka Rajmonová", "role": "HR Manager", "source": "company_website"}
+      {
+        "name": "Rostislav Cendelín",
+        "role": "Azure & Cloud Specialist",
+        "source": "company_website"
+      },
+      {
+        "name": "Martin Kavalec",
+        "role": "Senior Data Scientist",
+        "source": "company_website"
+      },
+      {
+        "name": "Tomáš Havlík",
+        "role": "Azure, Data Engineer",
+        "source": "company_website"
+      },
+      {
+        "name": "Radim Jedlička",
+        "role": "Data Scientist",
+        "source": "company_website"
+      },
+      {
+        "name": "Radka Rajmonová",
+        "role": "HR Manager",
+        "source": "company_website"
+      }
     ]
   },
-
   "careers": {
     "careers_url": null,
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["python", "sql", "r", "azure", "microsoft-fabric", "power-bi"],
+    "tech_stack": [
+      "python",
+      "sql",
+      "r",
+      "azure",
+      "microsoft-fabric",
+      "power-bi"
+    ],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [],
-    "notable_clients": ["AVON Cosmetics", "Innogy", "T-Mobile Czech Republic", "Philips", "AAA Auto", "Kasa.cz", "Lekarna.cz", "Blažek Praha", "Bonami", "B. Braun Medical"],
+    "notable_clients": [
+      "AVON Cosmetics",
+      "Innogy",
+      "T-Mobile Czech Republic",
+      "Philips",
+      "AAA Auto",
+      "Kasa.cz",
+      "Lekarna.cz",
+      "Blažek Praha",
+      "Bonami",
+      "B. Braun Medical"
+    ],
     "customer_count": null,
-    "partnerships": ["Microsoft Azure", "Microsoft Fabric", "Keboola"]
+    "partnerships": [
+      "Microsoft Azure",
+      "Microsoft Fabric",
+      "Keboola"
+    ]
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website"],
-    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "careers_url", "open_roles_count", "glassdoor"],
+    "sources_used": [
+      "company_website"
+    ],
+    "fields_missing": [
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "careers_url",
+      "open_roles_count",
+      "glassdoor"
+    ],
     "needs_review": false,
     "notes": "Small Czech data science consultancy founded 2009. No CNAIP entry found. 11 team members visible on website team page. Bootstrapped / no VC funding visible. IČO: 28953789. Address: Ke Stírce 1766/5, 182 00 Praha 8."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (data_engineering) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No public funding information. Sustainability unclear.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
   }
 }

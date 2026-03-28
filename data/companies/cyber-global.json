@@ -3,7 +3,6 @@
   "name": "Cyber Global",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Czech AI company developing proprietary neural-network-based conversational AI (METILA®) for organizational management, HR, healthcare, finance, and security",
     "description_long": "Cyber Global is a Prague-based AI company founded by investor and technologist Gustav Mistrík, specializing in the development and commercialization of METILA® — a proprietary qualitative artificial neural network (ANN) for deep-learning-based human dialog understanding. Unlike LLM-based systems, METILA® uses a custom mathematical topology inspired by the human brain to understand communication context, behavioral patterns, and socio-cultural attributes. Applications span organizational behavior optimization, CEO mentoring, HR prescreening, chatbots, and AI consulting. Research began in 2000, with the first commercial deployment at a Microsoft call center in 2008. The company offers consulting services, a SaaS chatbot platform (METILAbot / METILA® Interactive), and training/education on AI and neural networks.",
@@ -11,51 +10,113 @@
     "website": "https://www.cyberglobal.cz",
     "cnaip_url": "https://www.cnaip.cz/cs/entity/cyber-global"
   },
-
   "classification": {
     "business_type": "enterprise_vendor",
-    "ai_focus": ["nlp", "automation"],
-    "industries_served": ["finance", "healthcare", "defense", "hr", "education", "automotive"],
+    "ai_focus": [
+      "nlp",
+      "automation"
+    ],
+    "industries_served": [
+      "finance",
+      "healthcare",
+      "defense",
+      "hr",
+      "education",
+      "automotive"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2000,
-    "founders": ["Gustav Mistrík"],
+    "founders": [
+      "Gustav Mistrík"
+    ],
     "origin_story": "Gustav Mistrík, a technology investor with a military background in cybernetics, built and sold several tech companies (including a banking software firm sold to a German company after PwC due diligence). He then founded a technology incubator, within which he launched the METILA® neural network research project in 2000. After years of basic scientific research (2001–2004) and applied validation (2006–2007), the first commercial use occurred at a Microsoft call center in 2008.",
     "key_milestones": [
-      {"year": 2000, "event": "Research on algorithmization of human communication begins"},
-      {"year": 2001, "event": "Basic scientific research on ANN architecture starts (concludes 2004)"},
-      {"year": 2005, "event": "Applied research and development of technological demonstrator ANN METIX®"},
-      {"year": 2006, "event": "Validation of ANN METILA® on securities trading (through 2007)"},
-      {"year": 2008, "event": "First commercial use at Microsoft call center for screening"},
-      {"year": 2010, "event": "METILA® applied in healthcare (prescreening, audit, training)"},
-      {"year": 2011, "event": "METILA® applied in banking"},
-      {"year": 2014, "event": "METILA®FACE functional robot prototype unveiled"},
-      {"year": 2015, "event": "METILA® integrated with humanoid robot NAO"},
-      {"year": 2016, "event": "Book 'Transactional Synthesis METILA®' published"},
-      {"year": 2017, "event": "METILA® connected to Internet of Things (intelligent voice control)"},
-      {"year": 2018, "event": "METILA® used in security and military sectors"},
-      {"year": 2021, "event": "Book 'Jak inteligence mluví s lidmi' (How AI Talks to People) published"},
-      {"year": 2022, "event": "METILA® Interactive application launched (self-service chatbot builder)"},
-      {"year": 2023, "event": "METILACITY® new customer application released"},
-      {"year": 2024, "event": "Joined Czech AI Association (AICZ)"},
-      {"year": 2025, "event": "Listed on Czech National AI Platform (CNAIP); participated in FUTURE SKILLS 2025 conference"}
+      {
+        "year": 2000,
+        "event": "Research on algorithmization of human communication begins"
+      },
+      {
+        "year": 2001,
+        "event": "Basic scientific research on ANN architecture starts (concludes 2004)"
+      },
+      {
+        "year": 2005,
+        "event": "Applied research and development of technological demonstrator ANN METIX®"
+      },
+      {
+        "year": 2006,
+        "event": "Validation of ANN METILA® on securities trading (through 2007)"
+      },
+      {
+        "year": 2008,
+        "event": "First commercial use at Microsoft call center for screening"
+      },
+      {
+        "year": 2010,
+        "event": "METILA® applied in healthcare (prescreening, audit, training)"
+      },
+      {
+        "year": 2011,
+        "event": "METILA® applied in banking"
+      },
+      {
+        "year": 2014,
+        "event": "METILA®FACE functional robot prototype unveiled"
+      },
+      {
+        "year": 2015,
+        "event": "METILA® integrated with humanoid robot NAO"
+      },
+      {
+        "year": 2016,
+        "event": "Book 'Transactional Synthesis METILA®' published"
+      },
+      {
+        "year": 2017,
+        "event": "METILA® connected to Internet of Things (intelligent voice control)"
+      },
+      {
+        "year": 2018,
+        "event": "METILA® used in security and military sectors"
+      },
+      {
+        "year": 2021,
+        "event": "Book 'Jak inteligence mluví s lidmi' (How AI Talks to People) published"
+      },
+      {
+        "year": 2022,
+        "event": "METILA® Interactive application launched (self-service chatbot builder)"
+      },
+      {
+        "year": 2023,
+        "event": "METILACITY® new customer application released"
+      },
+      {
+        "year": 2024,
+        "event": "Joined Czech AI Association (AICZ)"
+      },
+      {
+        "year": 2025,
+        "event": "Listed on Czech National AI Platform (CNAIP); participated in FUTURE SKILLS 2025 conference"
+      }
     ]
   },
-
   "size": {
     "employees_range": "1-10",
     "employees_exact": null,
     "employee_source": "inferred",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -68,16 +129,22 @@
     "revenue_source": null,
     "business_model": "other"
   },
-
   "team": {
     "leadership": [
-      {"name": "Gustav Mistrík", "role": "Founder & CEO", "source": "company_website"}
+      {
+        "name": "Gustav Mistrík",
+        "role": "Founder & CEO",
+        "source": "company_website"
+      }
     ],
     "notable_people": [
-      {"name": "Gustav Mistrík", "note": "Author of two AI books: 'Transactional Synthesis METILA®' (2016) and 'How Artificial Intelligence Talks to People' (2021); military background in Cybernetics and Automated Control; MBA; sold previous banking software company to German public company", "source": "company_website"}
+      {
+        "name": "Gustav Mistrík",
+        "note": "Author of two AI books: 'Transactional Synthesis METILA®' (2016) and 'How Artificial Intelligence Talks to People' (2021); military background in Cybernetics and Automated Control; MBA; sold previous banking software company to German public company",
+        "source": "company_website"
+      }
     ]
   },
-
   "careers": {
     "careers_url": null,
     "open_roles_count": null,
@@ -85,26 +152,50 @@
     "tech_stack": [],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [],
-    "notable_clients": ["Microsoft"],
+    "notable_clients": [
+      "Microsoft"
+    ],
     "customer_count": null,
-    "partnerships": ["Czech AI Association (AICZ)", "Czech National AI Platform (CNAIP)"]
+    "partnerships": [
+      "Czech AI Association (AICZ)",
+      "Czech National AI Platform (CNAIP)"
+    ]
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["cnaip", "company_website"],
-    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor", "careers_url", "open_roles_count", "tech_stack", "founded_year_exact"],
+    "sources_used": [
+      "cnaip",
+      "company_website"
+    ],
+    "fields_missing": [
+      "employees_exact",
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "glassdoor",
+      "careers_url",
+      "open_roles_count",
+      "tech_stack",
+      "founded_year_exact"
+    ],
     "needs_review": false,
     "notes": "Company was founded as a research/incubator project in 2000 by Gustav Mistrík; legal entity (s.r.o.) registration date not found. METILA® is a proprietary qualitative ANN system independent of mainstream LLMs. Company is very small (likely 1-10 employees) — essentially a solo founder / boutique firm. No Glassdoor or LinkedIn presence found. Business model blends product (SaaS chatbot, METILACITY®) with consulting and training services."
+  },
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Works in commoditizing space (nlp, automation) but has some differentiation through proprietary tech or customer base.",
+    "market_risk": "high",
+    "market_risk_rationale": "Small team with no visible customer traction or market validation signals.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known funding and very small team. High dependency on bootstrapped revenue or future fundraising.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Multiple high-risk factors across AGI displacement, market, or funding dimensions."
   }
 }

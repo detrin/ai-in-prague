@@ -12,8 +12,15 @@
   },
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["ml_ops", "automation"],
-    "industries_served": ["software_development", "ai_infrastructure", "enterprise_ai"],
+    "ai_focus": [
+      "ml_ops",
+      "automation"
+    ],
+    "industries_served": [
+      "software_development",
+      "ai_infrastructure",
+      "enterprise_ai"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
@@ -124,7 +131,13 @@
         "source": "paraform"
       }
     ],
-    "tech_stack": ["Linux microVMs", "Firecracker", "Python SDK", "JavaScript SDK", "AWS"],
+    "tech_stack": [
+      "Linux microVMs",
+      "Firecracker",
+      "Python SDK",
+      "JavaScript SDK",
+      "AWS"
+    ],
     "hiring_signals": "actively_hiring"
   },
   "glassdoor": {
@@ -137,7 +150,9 @@
     "awards": [
       "Listed among 10 most promising Czech startups to watch in 2024 (EU-Startups)"
     ],
-    "notable_clients": ["Microsoft"],
+    "notable_clients": [
+      "Microsoft"
+    ],
     "customer_count": null,
     "partnerships": []
   },
@@ -163,5 +178,15 @@
     ],
     "needs_review": false,
     "notes": "E2B homepage (e2b.dev) could not be directly scraped due to navigation issues. Funding data evolved: HN Dec 2025 said $32M+, Glassdoor job listings (most recent) say $37M+ and 8-figure revenue. The company operates with 4 days on-site, 1 day WFH policy in both offices. CB Insights lists founding in 2023 in Prague. EU-Startups Jan 2024 article mentioned early-stage EUR 340K raised. Business model is usage-based (pay per sandbox compute time). Note: e2b teknologies on Glassdoor (rating 4.0, 4 reviews) is a DIFFERENT company - not the AI sandbox startup."
+  },
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Works in commoditizing space (automation) but has some differentiation through proprietary tech or customer base.",
+    "market_risk": "high",
+    "market_risk_rationale": "Small team with no visible customer traction or market validation signals.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-funded with 2 known funding round(s). Has runway for continued operations.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
   }
 }

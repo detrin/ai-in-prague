@@ -3,7 +3,6 @@
   "name": "Datacruit",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "AI-powered Applicant Tracking System (ATS) for recruitment digitalization and automation",
     "description_long": "Datacruit ATS is a modern recruitment platform combining digitalization, automation and AI in one system. It helps HR teams and recruitment agencies streamline hiring processes — from job posting across 30+ job portals, AI-powered candidate matching and CV parsing, to automated workflows, analytics and reporting. The platform features proprietary AI trained on real recruitment scenarios, understanding Czech and other European languages. Certified ISO/IEC 27001:2023. Part of Seyfor (formerly Solitea), one of the largest software companies in Central Europe. Serves 200+ customers across 10 European countries in 8 languages.",
@@ -11,37 +10,56 @@
     "website": "https://www.datacruit.com",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["nlp", "automation", "recommendation"],
-    "industries_served": ["hr_tech", "retail", "telecom", "ecommerce"],
+    "ai_focus": [
+      "nlp",
+      "automation",
+      "recommendation"
+    ],
+    "industries_served": [
+      "hr_tech",
+      "retail",
+      "telecom",
+      "ecommerce"
+    ],
     "company_type": "acquired",
     "is_ai_native": false
   },
-
   "history": {
     "founded_year": null,
-    "founders": ["Zdeněk Bajer"],
+    "founders": [
+      "Zdeněk Bajer"
+    ],
     "origin_story": "Founded by Zdeněk Bajer, who has nearly 20 years of experience in recruitment technology. The platform was built as an innovative ATS with a human-centric approach. Now part of Seyfor (formerly Solitea). As of 2026, Datacruit states 'over 10 years' of helping companies across Europe, suggesting founding circa 2013–2015.",
     "key_milestones": [
-      {"year": 2019, "event": "Earliest confirmed web presence (Wayback Machine snapshot July 2019)"},
-      {"year": 2023, "event": "Achieved ISO/IEC 27001:2023 certification for information security"},
-      {"year": 2026, "event": "Serves 200+ customers in 10 European countries; 8 language versions"}
+      {
+        "year": 2019,
+        "event": "Earliest confirmed web presence (Wayback Machine snapshot July 2019)"
+      },
+      {
+        "year": 2023,
+        "event": "Achieved ISO/IEC 27001:2023 certification for information security"
+      },
+      {
+        "year": 2026,
+        "event": "Serves 200+ customers in 10 European countries; 8 language versions"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": null,
     "employee_source": "estimated",
     "office_count": null
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -49,19 +67,23 @@
     "parent_company": "Seyfor (formerly Solitea)",
     "funding_total_usd": null,
     "funding_rounds": [],
-    "investors": ["Seyfor"],
+    "investors": [
+      "Seyfor"
+    ],
     "revenue_estimate_usd": null,
     "revenue_source": null,
     "business_model": "subscription_saas"
   },
-
   "team": {
     "leadership": [
-      {"name": "Zdeněk Bajer", "role": "CEO & Founder", "source": "company_website"}
+      {
+        "name": "Zdeněk Bajer",
+        "role": "CEO & Founder",
+        "source": "company_website"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": "https://career.seyfor.com/cs-cz/volne-pozice",
     "open_roles_count": null,
@@ -69,26 +91,51 @@
     "tech_stack": [],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
-    "awards": ["ISO/IEC 27001:2023 certification"],
-    "notable_clients": ["Super zoo", "BENU (Phoenix Group)", "Deutsche Telekom Services Europe", "Košík.cz"],
+    "awards": [
+      "ISO/IEC 27001:2023 certification"
+    ],
+    "notable_clients": [
+      "Super zoo",
+      "BENU (Phoenix Group)",
+      "Deutsche Telekom Services Europe",
+      "Košík.cz"
+    ],
     "customer_count": 200,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "parent_company_website"],
-    "fields_missing": ["founded_year", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "tech_stack", "open_roles_count"],
+    "sources_used": [
+      "company_website",
+      "parent_company_website"
+    ],
+    "fields_missing": [
+      "founded_year",
+      "employees_exact",
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "glassdoor_rating",
+      "tech_stack",
+      "open_roles_count"
+    ],
     "needs_review": false,
     "notes": "Datacruit is a B2B SaaS ATS product operating under Seyfor (formerly Solitea), one of the largest software companies in Central Europe with 2,200 employees and 189.76M EUR revenue in 2024. CEO Zdeněk Bajer is also the founder. The company claims 'over 10 years' experience as of 2026, suggesting founding circa 2013–2015, but exact year not confirmed. Earliest Wayback Machine snapshot: July 2019. Employee count for Datacruit brand specifically is unknown — the 11-50 estimate is for the Datacruit product team; the parent Seyfor has 2,200 employees. Pricing starts at 1,990 CZK/month (Business tier); Enterprise has a perpetual/lifetime license option. No Glassdoor listing found for Datacruit separately. Careers are managed via Seyfor's career portal."
+  },
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Works in commoditizing space (nlp, automation) but has some differentiation through proprietary tech or customer base.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Acquired by Seyfor (formerly Solitea) — funded by parent entity.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
   }
 }

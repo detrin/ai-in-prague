@@ -3,7 +3,6 @@
   "name": "Bilkoff",
   "category": "company",
   "scraped_at": "2026-03-28T13:30:00Z",
-
   "overview": {
     "description": "Czech AI startup helping SMBs with digitalization through AI automation, software automation, and data services",
     "description_long": "Bilkoff is a small Czech startup (formally Bilkoff s.r.o.) that helps small and medium businesses (SMBs) with digitalization. The team, originating from corporate IT project backgrounds, offers custom AI solutions including multiagent systems, document processing, marketing automation, order handling automation, and data analytics. They also developed two products: Bilkoff Platforma (AI-as-a-service platform) and Bilkhub (web app for creating and managing AI agents). As of March 2026, the company is in liquidation (v likvidaci).",
@@ -11,38 +10,58 @@
     "website": "https://bilkoff.com",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "consulting",
-    "ai_focus": ["automation", "document_processing", "generative_ai", "nlp"],
-    "industries_served": ["manufacturing", "retail", "sme"],
+    "ai_focus": [
+      "automation",
+      "document_processing",
+      "generative_ai",
+      "nlp"
+    ],
+    "industries_served": [
+      "manufacturing",
+      "retail",
+      "sme"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2025,
     "founders": [],
     "origin_story": "Founded by a team with prior corporate IT project experience; formally incorporated as Bilkoff s.r.o. on March 18, 2025. The team had been working on AI and automation projects since at least 2023 before formal incorporation.",
     "key_milestones": [
-      {"year": 2023, "event": "Team began delivering AI/ML projects (anomaly detection, document archive with OCR)"},
-      {"year": 2025, "event": "Formally incorporated as Bilkoff s.r.o. on March 18, 2025"},
-      {"year": 2025, "event": "Launched Bilkoff Platforma (AI-as-a-service) and Bilkhub (AI agent builder)"},
-      {"year": 2026, "event": "Company entered liquidation (v likvidaci) as of March 2026"}
+      {
+        "year": 2023,
+        "event": "Team began delivering AI/ML projects (anomaly detection, document archive with OCR)"
+      },
+      {
+        "year": 2025,
+        "event": "Formally incorporated as Bilkoff s.r.o. on March 18, 2025"
+      },
+      {
+        "year": 2025,
+        "event": "Launched Bilkoff Platforma (AI-as-a-service) and Bilkhub (AI agent builder)"
+      },
+      {
+        "year": 2026,
+        "event": "Company entered liquidation (v likvidaci) as of March 2026"
+      }
     ]
   },
-
   "size": {
     "employees_range": "1-10",
     "employees_exact": null,
     "employee_source": "linkedin_snippet",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Praha", "country": "CZ", "is_hq": true}
+    {
+      "city": "Praha",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -55,39 +74,60 @@
     "revenue_source": null,
     "business_model": "consulting_services"
   },
-
   "team": {
     "leadership": [],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": "https://bilkoff.com/kariera/",
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["azure", "google_cloud", "python"],
+    "tech_stack": [
+      "azure",
+      "google_cloud",
+      "python"
+    ],
     "hiring_signals": "not_hiring"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [],
     "notable_clients": [],
     "customer_count": null,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website_archive", "ares_registry", "linkedin_snippet", "duckduckgo_snippets"],
-    "fields_missing": ["founders", "leadership", "funding_total_usd", "revenue_estimate_usd", "glassdoor", "employees_exact"],
+    "sources_used": [
+      "company_website_archive",
+      "ares_registry",
+      "linkedin_snippet",
+      "duckduckgo_snippets"
+    ],
+    "fields_missing": [
+      "founders",
+      "leadership",
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "glassdoor",
+      "employees_exact"
+    ],
     "needs_review": true,
     "notes": "Company is in liquidation ('v likvidaci') as of March 2026 per ARES Czech business registry (IČO: 23074183, last updated 2026-03-15). Formally incorporated March 18, 2025; website active in late 2025 (Wayback Machine archive Oct 2025). bilkoff.com currently returns TLS error. LinkedIn had only 13 followers. Team size inferred as 1-10 from 'small Czech startup' self-description. Products included Bilkoff Platforma (AI SaaS) and Bilkhub (AI agent builder). Registered address: Jaurisova 515/4, Michle, Praha 4, 14000."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (document_processing) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "high",
+    "market_risk_rationale": "Small team with no visible customer traction or market validation signals.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known funding and very small team. High dependency on bootstrapped revenue or future fundraising.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
   }
 }

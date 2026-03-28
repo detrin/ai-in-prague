@@ -3,7 +3,6 @@
   "name": "Carmine Finance",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Blockchain data analytics and DeFi risk management tools for projects and users",
     "description_long": "Carmine Finance builds technologies that help projects and users understand DeFi risks, user behavior, and market dynamics. Products include Segmento (blockchain user analytics), DeRisk (lending protocol risk monitoring), Konoha (Cairo smart contracts for DAO governance), and Custom DeFi Solutions. Previously built the Carmine Options AMM on StarkNet.",
@@ -11,37 +10,54 @@
     "website": "https://carmine.finance",
     "cnaip_url": "https://www.cnaip.cz/cs/entity/carmine-finance"
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["data_engineering", "ml_ops"],
-    "industries_served": ["finance", "defi", "blockchain"],
+    "ai_focus": [
+      "data_engineering",
+      "ml_ops"
+    ],
+    "industries_served": [
+      "finance",
+      "defi",
+      "blockchain"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2022,
-    "founders": ["Marek Hauzr"],
+    "founders": [
+      "Marek Hauzr"
+    ],
     "origin_story": "Founded in Prague in 2022, originally built the Carmine Options AMM on StarkNet. Pivoted to focus on blockchain data analytics and DeFi risk tools including DeRisk and Segmento.",
     "key_milestones": [
-      {"year": 2022, "event": "Founded; Carmine Options AMM launched on StarkNet"},
-      {"year": 2023, "event": "DeRisk platform launched for DeFi lending protocol risk monitoring"},
-      {"year": 2024, "event": "Joined Chainlink Build program; launched Segmento blockchain analytics tool"}
+      {
+        "year": 2022,
+        "event": "Founded; Carmine Options AMM launched on StarkNet"
+      },
+      {
+        "year": 2023,
+        "event": "DeRisk platform launched for DeFi lending protocol risk monitoring"
+      },
+      {
+        "year": 2024,
+        "event": "Joined Chainlink Build program; launched Segmento blockchain analytics tool"
+      }
     ]
   },
-
   "size": {
     "employees_range": "1-10",
     "employees_exact": 7,
     "employee_source": "linkedin",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -54,41 +70,69 @@
     "revenue_source": null,
     "business_model": "subscription_saas"
   },
-
   "team": {
     "leadership": [
-      {"name": "Marek Hauzr", "role": "Co-founder", "source": "company_website"}
+      {
+        "name": "Marek Hauzr",
+        "role": "Co-founder",
+        "source": "company_website"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": null,
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["cairo", "starknet", "python", "typescript"],
+    "tech_stack": [
+      "cairo",
+      "starknet",
+      "python",
+      "typescript"
+    ],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
-    "awards": ["Chainlink Build program member (2024)"],
+    "awards": [
+      "Chainlink Build program member (2024)"
+    ],
     "notable_clients": [],
     "customer_count": null,
-    "partnerships": ["Chainlink"]
+    "partnerships": [
+      "Chainlink"
+    ]
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "cnaip", "linkedin", "github"],
-    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "careers_url", "glassdoor"],
+    "sources_used": [
+      "company_website",
+      "cnaip",
+      "linkedin",
+      "github"
+    ],
+    "fields_missing": [
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "careers_url",
+      "glassdoor"
+    ],
     "needs_review": false,
     "notes": "Small DeFi/blockchain analytics startup in Prague. Originally an options AMM on StarkNet, pivoted to B2B data analytics tools. CARM governance token exists. Address: Sokolovská 428/130, 186 00 Praha."
+  },
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Vertical focus (data_engineering) offers some protection, but limited scale or proprietary differentiation signals.",
+    "market_risk": "high",
+    "market_risk_rationale": "Small team with no visible customer traction or market validation signals.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known funding and very small team. High dependency on bootstrapped revenue or future fundraising.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Multiple high-risk factors across AGI displacement, market, or funding dimensions."
   }
 }

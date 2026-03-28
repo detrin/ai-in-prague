@@ -3,7 +3,6 @@
   "name": "CleverMaps",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Location Intelligence SaaS platform for spatial data analytics and business decision-making",
     "description_long": "CleverMaps is a cloud-based Location Intelligence platform that helps businesses answer comprehensive geospatial business questions. The platform combines spatial data models with interactive maps, data visualization, and predictive analytics for use cases like site selection, branch network optimization, catchment area analysis, and market census. Products include Studio (map builder), Semantic Layer, Stories Builder, Geocoding, and a Data Marketplace. Serves retail, banking, insurance, logistics, FMCG, and real estate sectors.",
@@ -11,39 +10,68 @@
     "website": "https://www.clevermaps.io",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["data_engineering", "other"],
-    "industries_served": ["retail", "banking", "insurance", "logistics", "real estate", "fmcg"],
+    "ai_focus": [
+      "data_engineering",
+      "other"
+    ],
+    "industries_served": [
+      "retail",
+      "banking",
+      "insurance",
+      "logistics",
+      "real estate",
+      "fmcg"
+    ],
     "company_type": "startup",
     "is_ai_native": false
   },
-
   "history": {
     "founded_year": 2015,
-    "founders": ["Ondřej Tomas", "Jiří Žaloudek", "Lukáš Puchrik"],
+    "founders": [
+      "Ondřej Tomas",
+      "Jiří Žaloudek",
+      "Lukáš Puchrik"
+    ],
     "origin_story": "Founded in 2015 (originally as CleverAnalytics) in Czech Republic, tackling the question of 'Where?' in business intelligence. Co-founders bring 25+ years of tech industry experience. Rebranded to CleverMaps to reflect focus on location intelligence.",
     "key_milestones": [
-      {"year": 2015, "event": "Founded in Czech Republic, started building location intelligence platform"},
-      {"year": 2022, "event": "Named G2 High Performer in Business Intelligence and Location Intelligence categories"},
-      {"year": 2023, "event": "Achieved SOC 2 Type II and ISO 27001 certifications"},
-      {"year": 2024, "event": "Partnered with TomTom to enhance location data quality"}
+      {
+        "year": 2015,
+        "event": "Founded in Czech Republic, started building location intelligence platform"
+      },
+      {
+        "year": 2022,
+        "event": "Named G2 High Performer in Business Intelligence and Location Intelligence categories"
+      },
+      {
+        "year": 2023,
+        "event": "Achieved SOC 2 Type II and ISO 27001 certifications"
+      },
+      {
+        "year": 2024,
+        "event": "Partnered with TomTom to enhance location data quality"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": 25,
     "employee_source": "company_website",
     "office_count": 2
   },
-
   "offices": [
-    {"city": "Brno", "country": "CZ", "is_hq": true},
-    {"city": "Prague", "country": "CZ", "is_hq": false}
+    {
+      "city": "Brno",
+      "country": "CZ",
+      "is_hq": true
+    },
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": false
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -51,40 +79,65 @@
     "parent_company": null,
     "funding_total_usd": 500000,
     "funding_rounds": [
-      {"date": null, "type": "Seed", "amount_usd": 500000, "lead_investor": "MindForge"}
+      {
+        "date": null,
+        "type": "Seed",
+        "amount_usd": 500000,
+        "lead_investor": "MindForge"
+      }
     ],
-    "investors": ["MindForge"],
+    "investors": [
+      "MindForge"
+    ],
     "revenue_estimate_usd": 2500000,
     "revenue_source": "third_party_estimate",
     "business_model": "subscription_saas"
   },
-
   "team": {
     "leadership": [
-      {"name": "Ondřej Tomas", "role": "CEO & Co-founder", "source": "company_website"},
-      {"name": "Jiří Žaloudek", "role": "CTO & Co-founder", "source": "startupjobs"},
-      {"name": "Barbora Hinnerová", "role": "Head of Sales & Marketing", "source": "startupjobs"}
+      {
+        "name": "Ondřej Tomas",
+        "role": "CEO & Co-founder",
+        "source": "company_website"
+      },
+      {
+        "name": "Jiří Žaloudek",
+        "role": "CTO & Co-founder",
+        "source": "startupjobs"
+      },
+      {
+        "name": "Barbora Hinnerová",
+        "role": "Head of Sales & Marketing",
+        "source": "startupjobs"
+      }
     ],
     "notable_people": [
-      {"name": "Lukáš Puchrik", "role": "Co-founder", "source": "tracxn"}
+      {
+        "name": "Lukáš Puchrik",
+        "role": "Co-founder",
+        "source": "tracxn"
+      }
     ]
   },
-
   "careers": {
     "careers_url": "https://www.clevermaps.io/company/careers",
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["aws", "docker", "kubernetes", "postgresql", "git"],
+    "tech_stack": [
+      "aws",
+      "docker",
+      "kubernetes",
+      "postgresql",
+      "git"
+    ],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": 1,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [
       "G2 High Performer in Business Intelligence (Winter 2022)",
@@ -92,16 +145,43 @@
       "SOC 2 Type II certified",
       "ISO 27001 certified"
     ],
-    "notable_clients": ["Dr. Max", "Generali Česká pojišťovna", "Česká spořitelna", "foodora", "Kooperativa"],
+    "notable_clients": [
+      "Dr. Max",
+      "Generali Česká pojišťovna",
+      "Česká spořitelna",
+      "foodora",
+      "Kooperativa"
+    ],
     "customer_count": null,
-    "partnerships": ["TomTom"]
+    "partnerships": [
+      "TomTom"
+    ]
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "startupjobs", "tracxn", "search_snippets"],
-    "fields_missing": ["funding_total_usd_date", "glassdoor_rating", "open_roles_count", "revenue_source_verified"],
+    "sources_used": [
+      "company_website",
+      "startupjobs",
+      "tracxn",
+      "search_snippets"
+    ],
+    "fields_missing": [
+      "funding_total_usd_date",
+      "glassdoor_rating",
+      "open_roles_count",
+      "revenue_source_verified"
+    ],
     "needs_review": true,
     "notes": "Founded year discrepancy: company website states 'since 2015', Tracxn reports 2013 (possible original incorporation date as CleverAnalytics). Funding data ($500K seed from MindForge) and revenue estimate ($2.5M ARR) sourced from third-party aggregators (Tracxn/search snippets) — unverified. Originally known as CleverAnalytics before rebranding to CleverMaps. HQ appears to be in Brno (Vídeňská 101/119) with secondary Prague office (Dělnická 191, Holešovice). Pricing model is subscription-based with usage-based workspace pricing tiers."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (data_engineering) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Revenue-generating — has path to sustainability regardless of external funding.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
   }
 }

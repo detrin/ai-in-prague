@@ -3,7 +3,6 @@
   "name": "Cleevio",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "AI-powered product studio that designs, builds, and scales digital products",
     "description_long": "Cleevio is an AI-powered product studio founded in 2008 in Prague, offering generative AI consulting, AI agents & automation, custom software engineering, mobile app development, and cloud services. With 18+ years on the market, 120+ products developed, and 10+ startup exits, Cleevio operates under the Cleevio Group holding structure alongside CleevioX (Web3) and Cleevio Labs (SaaS AI agents). The company employs 100+ in-house experts across offices in Prague, Vienna, and San Francisco.",
@@ -11,40 +10,68 @@
     "website": "https://cleevio.com",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "consulting",
-    "ai_focus": ["generative_ai", "automation", "ml_ops"],
-    "industries_served": ["fintech", "trading", "entertainment", "media"],
+    "ai_focus": [
+      "generative_ai",
+      "automation",
+      "ml_ops"
+    ],
+    "industries_served": [
+      "fintech",
+      "trading",
+      "entertainment",
+      "media"
+    ],
     "company_type": "scaleup",
     "is_ai_native": false
   },
-
   "history": {
     "founded_year": 2008,
     "founders": null,
     "origin_story": "Founded in 2008 by three friends with big dreams. After five years of growth, Cleevio gained international recognition with Spendee, a financial planning app with over 2 million downloads.",
     "key_milestones": [
-      {"year": 2008, "event": "Founded in Prague"},
-      {"year": 2022, "event": "Named in Deloitte Technology Fast 50 Czech Republic"},
-      {"year": 2023, "event": "Named in Deloitte Technology Fast 50 Czech Republic for second consecutive year"},
-      {"year": 2024, "event": "Restructured as Cleevio Group; Lukas Stibor returns as CEO; Cleevio Labs and CleevioX established as sister ventures"}
+      {
+        "year": 2008,
+        "event": "Founded in Prague"
+      },
+      {
+        "year": 2022,
+        "event": "Named in Deloitte Technology Fast 50 Czech Republic"
+      },
+      {
+        "year": 2023,
+        "event": "Named in Deloitte Technology Fast 50 Czech Republic for second consecutive year"
+      },
+      {
+        "year": 2024,
+        "event": "Restructured as Cleevio Group; Lukas Stibor returns as CEO; Cleevio Labs and CleevioX established as sister ventures"
+      }
     ]
   },
-
   "size": {
     "employees_range": "51-200",
     "employees_exact": null,
     "employee_source": "company_website",
     "office_count": 3
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true},
-    {"city": "Vienna", "country": "AT", "is_hq": false},
-    {"city": "San Francisco", "country": "US", "is_hq": false}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    },
+    {
+      "city": "Vienna",
+      "country": "AT",
+      "is_hq": false
+    },
+    {
+      "city": "San Francisco",
+      "country": "US",
+      "is_hq": false
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -57,53 +84,110 @@
     "revenue_source": "rocketreach_estimate",
     "business_model": "consulting_services"
   },
-
   "team": {
     "leadership": [
-      {"name": "Lukas Stibor", "role": "CEO, Cleevio Group", "source": "company_website"},
-      {"name": "Jan Částek", "role": "CPO, Cleevio Group", "source": "company_website"},
-      {"name": "Tomáš Stibor", "role": "Head of Delivery", "source": "company_website"},
-      {"name": "David Zadražil", "role": "CEO, Cleevio Labs", "source": "company_website"}
+      {
+        "name": "Lukas Stibor",
+        "role": "CEO, Cleevio Group",
+        "source": "company_website"
+      },
+      {
+        "name": "Jan Částek",
+        "role": "CPO, Cleevio Group",
+        "source": "company_website"
+      },
+      {
+        "name": "Tomáš Stibor",
+        "role": "Head of Delivery",
+        "source": "company_website"
+      },
+      {
+        "name": "David Zadražil",
+        "role": "CEO, Cleevio Labs",
+        "source": "company_website"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": "https://cleevio.com/careers",
     "open_roles_count": 4,
     "open_roles": [
-      {"title": "Founder's Associate – Sales & New Business (AI)", "department": "sales", "location": "Prague / Brno / Remote"},
-      {"title": "React Native Developer", "department": "engineering", "location": "Prague / Brno / Remote"},
-      {"title": "Frontend Developer", "department": "engineering", "location": "Prague / Brno / Remote"},
-      {"title": "Medior Product & Project Manager", "department": "product", "location": "Prague / Brno / Remote"}
+      {
+        "title": "Founder's Associate – Sales & New Business (AI)",
+        "department": "sales",
+        "location": "Prague / Brno / Remote"
+      },
+      {
+        "title": "React Native Developer",
+        "department": "engineering",
+        "location": "Prague / Brno / Remote"
+      },
+      {
+        "title": "Frontend Developer",
+        "department": "engineering",
+        "location": "Prague / Brno / Remote"
+      },
+      {
+        "title": "Medior Product & Project Manager",
+        "department": "product",
+        "location": "Prague / Brno / Remote"
+      }
     ],
-    "tech_stack": ["react_native", "javascript", "typescript"],
+    "tech_stack": [
+      "react_native",
+      "javascript",
+      "typescript"
+    ],
     "hiring_signals": "few_roles"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": 21,
     "recommend_pct": null,
     "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Cleevio-EI_IE4693031.11,18.htm"
   },
-
   "recognition": {
     "awards": [
       "Deloitte Technology Fast 50 Czech Republic 2022",
       "Deloitte Technology Fast 50 Czech Republic 2023",
       "Clutch 4.9 rating"
     ],
-    "notable_clients": ["Cinemax", "ForTraders", "Funded Mind"],
+    "notable_clients": [
+      "Cinemax",
+      "ForTraders",
+      "Funded Mind"
+    ],
     "customer_count": null,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "crunchbase_snippet", "linkedin_snippet", "rocketreach_snippet", "glassdoor_snippet"],
-    "fields_missing": ["founders", "funding_total_usd", "employees_exact", "glassdoor_rating", "glassdoor_recommend_pct"],
+    "sources_used": [
+      "company_website",
+      "crunchbase_snippet",
+      "linkedin_snippet",
+      "rocketreach_snippet",
+      "glassdoor_snippet"
+    ],
+    "fields_missing": [
+      "founders",
+      "funding_total_usd",
+      "employees_exact",
+      "glassdoor_rating",
+      "glassdoor_recommend_pct"
+    ],
     "needs_review": false,
     "notes": "Founded 2008 per Crunchbase, LinkedIn, Ampliz. Revenue estimate from RocketReach ($7.5M). No VC funding rounds found; appears bootstrapped. 'About' page returned 404, data sourced from homepage, careers page, blog, and search snippets. CIN: 27341801 (Czech company registry). Glassdoor review count of 21 from US Glassdoor snippet; overall rating not visible in snippet."
+  },
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Consulting/services model is highly vulnerable as AI tools enable clients to do work in-house.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Acquired by Cleevio Group s.r.o. — funded by parent entity.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
   }
 }

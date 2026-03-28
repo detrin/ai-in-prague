@@ -12,14 +12,27 @@
   },
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["data_engineering", "automation"],
-    "industries_served": ["technology", "e-commerce", "marketing", "consulting", "telecommunications", "ai_and_machine_learning"],
+    "ai_focus": [
+      "data_engineering",
+      "automation"
+    ],
+    "industries_served": [
+      "technology",
+      "e-commerce",
+      "marketing",
+      "consulting",
+      "telecommunications",
+      "ai_and_machine_learning"
+    ],
     "company_type": "scaleup",
     "is_ai_native": false
   },
   "history": {
     "founded_year": 2015,
-    "founders": ["Jan Curn", "Jakub Balada"],
+    "founders": [
+      "Jan Curn",
+      "Jakub Balada"
+    ],
     "origin_story": "Apify was launched by Jan Curn and Jakub Balada in 2015 from the Y Combinator Fellowship in Mountain View, California. The original idea was to make it easy for developers to build flexible and scalable web crawlers using front-end JavaScript with headless browser technology. In 2016, the team moved back to the Czech Republic, raised a seed investment, and started building a full-stack platform for web scraping and browser automation.",
     "key_milestones": [
       "2015: Founded from Y Combinator Fellowship in Mountain View",
@@ -64,31 +77,76 @@
         "date": "2016",
         "round": "Seed",
         "amount_usd": null,
-        "investors": ["Reflex Capital"]
+        "investors": [
+          "Reflex Capital"
+        ]
       },
       {
         "date": "2024-04",
         "round": "Funding Round",
         "amount_usd": 2980000,
-        "investors": ["J&T Ventures", "Reflex Capital"]
+        "investors": [
+          "J&T Ventures",
+          "Reflex Capital"
+        ]
       }
     ],
-    "investors": ["Y Combinator", "J&T Ventures", "Reflex Capital"],
+    "investors": [
+      "Y Combinator",
+      "J&T Ventures",
+      "Reflex Capital"
+    ],
     "revenue_estimate_usd": 13300000,
     "revenue_source": "LATKA (2024)",
     "business_model": "usage_based"
   },
   "team": {
     "leadership": [
-      {"name": "Jan Curn", "role": "Founder & CEO", "source": "apify.com/about"},
-      {"name": "Jakub Balada", "role": "Co-founder", "source": "apify.com/about"},
-      {"name": "Marek Trunkat", "role": "CTO", "source": "apify.com/about"},
-      {"name": "Ondra Urban", "role": "COO", "source": "apify.com/about"},
-      {"name": "Dusan Antos", "role": "CFO", "source": "apify.com/about"},
-      {"name": "Simona Baxa", "role": "VP of People", "source": "apify.com/about"},
-      {"name": "Jan Zenisek", "role": "VP of Product", "source": "apify.com/about"},
-      {"name": "Petra Chocholova", "role": "Chief of Staff", "source": "apify.com/about"},
-      {"name": "Oliver Lompart", "role": "Head of Marketing", "source": "apify.com/about"}
+      {
+        "name": "Jan Curn",
+        "role": "Founder & CEO",
+        "source": "apify.com/about"
+      },
+      {
+        "name": "Jakub Balada",
+        "role": "Co-founder",
+        "source": "apify.com/about"
+      },
+      {
+        "name": "Marek Trunkat",
+        "role": "CTO",
+        "source": "apify.com/about"
+      },
+      {
+        "name": "Ondra Urban",
+        "role": "COO",
+        "source": "apify.com/about"
+      },
+      {
+        "name": "Dusan Antos",
+        "role": "CFO",
+        "source": "apify.com/about"
+      },
+      {
+        "name": "Simona Baxa",
+        "role": "VP of People",
+        "source": "apify.com/about"
+      },
+      {
+        "name": "Jan Zenisek",
+        "role": "VP of Product",
+        "source": "apify.com/about"
+      },
+      {
+        "name": "Petra Chocholova",
+        "role": "Chief of Staff",
+        "source": "apify.com/about"
+      },
+      {
+        "name": "Oliver Lompart",
+        "role": "Head of Marketing",
+        "source": "apify.com/about"
+      }
     ],
     "notable_people": []
   },
@@ -114,7 +172,19 @@
       "Senior Data Scientist",
       "Senior Product Manager for Core Product"
     ],
-    "tech_stack": ["Node.js", "TypeScript", "React", "Python", "JavaScript", "Playwright", "Puppeteer", "Selenium", "Scrapy", "Crawlee", "headless browsers"],
+    "tech_stack": [
+      "Node.js",
+      "TypeScript",
+      "React",
+      "Python",
+      "JavaScript",
+      "Playwright",
+      "Puppeteer",
+      "Selenium",
+      "Scrapy",
+      "Crawlee",
+      "headless browsers"
+    ],
     "hiring_signals": "actively_hiring"
   },
   "glassdoor": {
@@ -127,7 +197,13 @@
     "awards": [
       "Sifted 30 - fastest-growing startups across Central Europe"
     ],
-    "notable_clients": ["Siemens", "Intercom", "Microsoft", "T-Mobile", "Accenture"],
+    "notable_clients": [
+      "Siemens",
+      "Intercom",
+      "Microsoft",
+      "T-Mobile",
+      "Accenture"
+    ],
     "customer_count": 25000,
     "partnerships": [
       "European Startup Embassy (SF hacker house)",
@@ -155,8 +231,20 @@
       "tracxn.com (snippet)",
       "therecursive.com (snippet)"
     ],
-    "fields_missing": ["glassdoor.recommend_pct"],
+    "fields_missing": [
+      "glassdoor.recommend_pct"
+    ],
     "needs_review": false,
     "notes": "Revenue figure of $13.3M comes from LATKA for 2024. PitchBook lists total funding as $3.29M. Company has been profitable and growing from its own revenue since 2019 seed round until the 2024 round. Apify was originally a web scraping tool but has pivoted significantly toward AI data infrastructure. HQ is in Lucerna Palace, Prague; Brno office in Titanium business center."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (data_engineering) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Revenue-generating — has path to sustainability regardless of external funding.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
   }
 }

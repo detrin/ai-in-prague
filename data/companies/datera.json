@@ -3,7 +3,6 @@
   "name": "DATERA",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Czech technology company offering AI-powered data analytics products and data infrastructure solutions for enterprises and government",
     "description_long": "DATERA s.r.o. is a Prague-based technology company founded in 2011 that specialises in the entire spectrum of data technologies: from data storage and infrastructure to AI-driven analytics. Their proprietary products include EMMA (NLP-based contact centre analytics), LISSA (advanced data search and link analysis), and ABSINT (platform for processing unstructured data). They also resell and integrate solutions from IBM, i2 Group, Infinidat, NVIDIA Mellanox, and Denodo. DATERA holds IBM Platinum Partner status and is certified to ISO 27001, ISO 14001, and ISO 20000-1.",
@@ -11,37 +10,54 @@
     "website": "https://datera.ai",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "enterprise_vendor",
-    "ai_focus": ["nlp", "data_engineering"],
-    "industries_served": ["government", "finance", "insurance", "telecommunications", "energy"],
+    "ai_focus": [
+      "nlp",
+      "data_engineering"
+    ],
+    "industries_served": [
+      "government",
+      "finance",
+      "insurance",
+      "telecommunications",
+      "energy"
+    ],
     "company_type": "scaleup",
     "is_ai_native": false
   },
-
   "history": {
     "founded_year": 2011,
     "founders": null,
     "origin_story": "Founded in 2011 in Prague, dedicated from the start to advanced technologies for storing and analysing data. Over time expanded into AI-powered analytics products including NLP tooling for contact centres.",
     "key_milestones": [
-      {"year": 2011, "event": "Company founded in Prague"},
-      {"year": 2021, "event": "Achieved IBM Platinum Business Partner status"},
-      {"year": 2024, "event": "LISSA product expanded with large language model integration"}
+      {
+        "year": 2011,
+        "event": "Company founded in Prague"
+      },
+      {
+        "year": 2021,
+        "event": "Achieved IBM Platinum Business Partner status"
+      },
+      {
+        "year": 2024,
+        "event": "LISSA product expanded with large language model integration"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": 37,
     "employee_source": "linkedin",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -54,32 +70,45 @@
     "revenue_source": null,
     "business_model": "licensing"
   },
-
   "team": {
     "leadership": [
-      {"name": "Pavel Pokorný", "role": "Managing Director", "source": "company_website"},
-      {"name": "Jan Rančák", "role": "Director / Analytics Business Leader", "source": "company_website"}
+      {
+        "name": "Pavel Pokorný",
+        "role": "Managing Director",
+        "source": "company_website"
+      },
+      {
+        "name": "Jan Rančák",
+        "role": "Director / Analytics Business Leader",
+        "source": "company_website"
+      }
     ],
     "notable_people": [
-      {"name": "Pavel Prokop", "role": "Head of Data Integration", "source": "company_website"}
+      {
+        "name": "Pavel Prokop",
+        "role": "Head of Data Integration",
+        "source": "company_website"
+      }
     ]
   },
-
   "careers": {
     "careers_url": null,
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["nlp", "python", "microsoft_azure", "ibm"],
+    "tech_stack": [
+      "nlp",
+      "python",
+      "microsoft_azure",
+      "ibm"
+    ],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [
       "IBM Platinum Business Partner",
@@ -101,14 +130,39 @@
       "Ministerstvo obrany České republiky (MO ČR)"
     ],
     "customer_count": null,
-    "partnerships": ["IBM", "i2 Group", "Infinidat", "NVIDIA Mellanox", "Denodo", "Microsoft"]
+    "partnerships": [
+      "IBM",
+      "i2 Group",
+      "Infinidat",
+      "NVIDIA Mellanox",
+      "Denodo",
+      "Microsoft"
+    ]
   },
-
   "metadata": {
     "data_quality": "high",
-    "sources_used": ["company_website", "linkedin"],
-    "fields_missing": ["founders", "funding_total_usd", "revenue_estimate_usd", "careers_url", "glassdoor"],
+    "sources_used": [
+      "company_website",
+      "linkedin"
+    ],
+    "fields_missing": [
+      "founders",
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "careers_url",
+      "glassdoor"
+    ],
     "needs_review": false,
     "notes": "No CNAIP URL provided in index. Website is available at both datera.ai (English) and datera.cz (Czech). Company ID: 24804932, registered at Prague City Court C 175842. 37 employees per LinkedIn (March 2026). No public careers page found. No Glassdoor listing found."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (data_engineering) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No public funding information. Sustainability unclear.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
   }
 }

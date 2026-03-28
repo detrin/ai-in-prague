@@ -82,7 +82,8 @@ Do NOT spend more than 2 attempts per URL. Move on quickly.
 1. Follow the scraping strategy in the skill (Sources 1-6 in order)
 2. Save the JSON output to `data/companies/{company["id"]}.json`
 3. Use EXACTLY the enum values listed in the skill. Copy-paste them, do not improvise.
-4. CRITICAL: Every top-level section in the JSON schema must exist (overview, classification, history, size, offices, financials, team, careers, glassdoor, recognition, metadata)
+4. CRITICAL: Every top-level section in the JSON schema must exist (overview, classification, history, size, offices, financials, team, careers, glassdoor, recognition, risk_assessment, metadata)
+7. CRITICAL: The risk_assessment section is REQUIRED. Assess agi_displacement, market_risk, funding_risk, and overall_risk using the guidelines in the skill. Each risk field needs a rating (high/medium/low/not_applicable) AND a rationale string.
 5. Use null for unknown fields. Never invent data.
 6. Set scraped_at to the current ISO timestamp.
 

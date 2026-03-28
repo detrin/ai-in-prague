@@ -59,13 +59,14 @@ Search `"{company_name}" revenue ARR`. Accept whatever snippets return. Do NOT s
 **Copy-paste from this list. Do not improvise.**
 
 ```
-business_type:    b2b_saas | b2c_saas | consulting | product | research | enterprise_vendor | other
-company_type:     startup | scaleup | enterprise | acquired | research_lab | nonprofit
-ai_focus:         nlp | cv | ml_ops | generative_ai | robotics | data_engineering | fraud_detection | recommendation | speech | automation | document_processing | other
-employees_range:  1-10 | 11-50 | 51-200 | 201-500 | 501-1000 | 1001-5000 | 5000+
-business_model:   subscription_saas | usage_based | consulting_services | licensing | marketplace | freemium | other
-hiring_signals:   actively_hiring | few_roles | not_hiring | unknown
-data_quality:     high | medium | low
+business_type:      b2b_saas | b2c_saas | consulting | product | research | enterprise_vendor | other
+company_type:       startup | scaleup | enterprise | acquired | research_lab | nonprofit
+ai_focus:           nlp | cv | ml_ops | generative_ai | robotics | data_engineering | fraud_detection | recommendation | speech | automation | document_processing | other
+employees_range:    1-10 | 11-50 | 51-200 | 201-500 | 501-1000 | 1001-5000 | 5000+
+business_model:     subscription_saas | usage_based | consulting_services | licensing | marketplace | freemium | other
+hiring_signals:     actively_hiring | few_roles | not_hiring | unknown
+data_quality:       high | medium | low
+risk_level:         high | medium | low | not_applicable
 ```
 
 **Rules:**
@@ -169,6 +170,17 @@ Save to `data/companies/{id}.json`:
     "partnerships": []
   },
 
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Proprietary transactional LLM trained on domain-specific document data across 276 languages. Deep vertical moat in document processing with enterprise integrations that foundation models cannot easily replicate.",
+    "market_risk": "medium",
+    "market_risk_rationale": "IDP market is growing but increasingly competitive with Microsoft, Google, and AWS offering native document AI. Rossum differentiates on workflow automation beyond pure extraction.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-funded scaleup with 450+ paying enterprise customers and strong revenue signals (Sifted Rising 100).",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong proprietary tech moat, established enterprise customer base, and vertical focus in regulated industries provide resilience against AGI commoditization."
+  },
+
   "metadata": {
     "data_quality": "high",
     "sources_used": ["company_website", "cnaip", "tech.eu"],
@@ -178,6 +190,36 @@ Save to `data/companies/{id}.json`:
   }
 }
 ```
+
+## Risk Assessment Guidelines
+
+Every company MUST have a `risk_assessment` section. Assess based on what you learned during scraping. Use `risk_level` enum: `high | medium | low | not_applicable`.
+
+### AGI Displacement Risk
+How likely foundation models (GPT, Claude, Gemini) will commoditize this company's core value proposition.
+- **high**: Thin wrapper around LLM APIs, generic chatbot/automation, no proprietary data or tech. Easy to replicate with a prompt.
+- **medium**: Vertical SaaS with some domain expertise, but core AI capability is becoming commoditized. Has customer lock-in that buys time.
+- **low**: Deep proprietary data moat, infrastructure layer that AGI still needs, regulated domain requiring compliance/certification, or hardware/robotics.
+- **not_applicable**: Research groups, nonprofits, government initiatives.
+
+### Market Risk
+Is the market real, sustainable, and big enough?
+- **high**: Hype-driven niche, no clear PMF, tiny addressable market, or dominated by well-funded incumbents.
+- **medium**: Real market but competitive, or dependent on a single trend/platform.
+- **low**: Established market with proven demand and paying customers.
+- **not_applicable**: Research groups.
+
+### Funding Risk
+Can the company survive long enough to reach sustainability?
+- **high**: No known funding, pre-revenue, small team with no runway signals.
+- **medium**: Some funding but early stage, or bootstrapped with revenue but unclear margins.
+- **low**: Well-funded (Series A+), profitable, or backed by large parent company.
+- **not_applicable**: Research groups (grant-funded), acquired companies, enterprise subsidiaries.
+
+### Overall Risk
+Weighted judgment across all factors. A company with high AGI displacement risk but low market and funding risk might be medium overall.
+
+**Rationale is required** for every risk rating — 1-2 sentences explaining why, referencing specific facts from your research (product type, funding, customer base, tech moat).
 
 ## Null Handling
 

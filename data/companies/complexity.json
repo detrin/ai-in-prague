@@ -3,7 +3,6 @@
   "name": "Complexity",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Agentic OS for enterprise AI agent governance and observability",
     "description_long": "Complexity is an Agentic OS that enables enterprises to define Behavior Contracts for AI agents, monitor every agent action in real time, govern actions via approve/block/kill controls, and report governance posture via a single Governance Score. Originally positioned as a software 3.0 platform for codifying knowledge-worker tasks into intelligent automatable processes using natural language, the product has evolved into a full AI-agent governance layer supporting LangChain, CrewAI, Copilot Studio, Agentforce, and custom agents. Addresses CISO, finance, compliance, and IT operations personas with a visual, non-technical interface and EU AI Act Article 14 audit packages.",
@@ -11,36 +10,49 @@
     "website": "https://complexity.dev",
     "cnaip_url": "https://www.cnaip.cz/cs/entity/complexity"
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["automation", "generative_ai", "ml_ops"],
-    "industries_served": ["finance", "enterprise", "technology"],
+    "ai_focus": [
+      "automation",
+      "generative_ai",
+      "ml_ops"
+    ],
+    "industries_served": [
+      "finance",
+      "enterprise",
+      "technology"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2025,
     "founders": [],
     "origin_story": "Founded in Prague with mission to transform organizations into intelligent decision-making systems by codifying knowledge-worker reasoning into automatable AI processes.",
     "key_milestones": [
-      {"year": 2025, "event": "Founded in Prague"},
-      {"year": 2026, "event": "Launched V12 of Agentic OS with full five-layer governance (Define, Observe, Analyze, Act, Report)"}
+      {
+        "year": 2025,
+        "event": "Founded in Prague"
+      },
+      {
+        "year": 2026,
+        "event": "Launched V12 of Agentic OS with full five-layer governance (Define, Observe, Analyze, Act, Report)"
+      }
     ]
   },
-
   "size": {
     "employees_range": "1-10",
     "employees_exact": null,
     "employee_source": "linkedin",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -53,14 +65,16 @@
     "revenue_source": null,
     "business_model": "freemium"
   },
-
   "team": {
     "leadership": [],
     "notable_people": [
-      {"name": "Jakub Bares", "role": "Agent-Driven Strategist & Intelligence Researcher", "source": "linkedin"}
+      {
+        "name": "Jakub Bares",
+        "role": "Agent-Driven Strategist & Intelligence Researcher",
+        "source": "linkedin"
+      }
     ]
   },
-
   "careers": {
     "careers_url": null,
     "open_roles_count": null,
@@ -68,26 +82,49 @@
     "tech_stack": [],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [],
     "notable_clients": [],
     "customer_count": null,
-    "partnerships": ["LangChain", "CrewAI", "Copilot Studio", "Agentforce"]
+    "partnerships": [
+      "LangChain",
+      "CrewAI",
+      "Copilot Studio",
+      "Agentforce"
+    ]
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["cnaip", "company_website", "linkedin"],
-    "fields_missing": ["founders", "funding_total_usd", "revenue_estimate_usd", "careers_url", "open_roles_count", "glassdoor_rating"],
+    "sources_used": [
+      "cnaip",
+      "company_website",
+      "linkedin"
+    ],
+    "fields_missing": [
+      "founders",
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "careers_url",
+      "open_roles_count",
+      "glassdoor_rating"
+    ],
     "needs_review": false,
     "notes": "Very early-stage startup founded 2025 with 2-10 employees. Company is listed under parent 'Hyperspace' on CNAIP but identity of that parent entity is unclear. Website complexity.dev shows a mature product (V12) for enterprise AI agent governance. Pricing: free tier (3 agents), Team $499/month, Enterprise custom. Main differentiator: 5-layer governance in one visual platform (vs competitors who cover only 1-2 layers)."
+  },
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Works in commoditizing space (generative_ai, automation) but has some differentiation through proprietary tech or customer base.",
+    "market_risk": "high",
+    "market_risk_rationale": "Small team with no visible customer traction or market validation signals.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Acquired by Hyperspace — funded by parent entity.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Multiple high-risk factors across AGI displacement, market, or funding dimensions."
   }
 }

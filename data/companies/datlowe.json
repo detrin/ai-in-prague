@@ -3,7 +3,6 @@
   "name": "Datlowe",
   "category": "company",
   "scraped_at": "2026-03-28T10:00:00Z",
-
   "overview": {
     "description": "AI-powered clinical risk detection and patient safety applications for hospitals",
     "description_long": "Datlowe (s.r.o.) is a Prague-based healthtech company combining AI, data science, and deep clinical expertise to help hospitals detect clinical risks earlier and prevent costly adverse events. Their flagship product HAIDI automates healthcare-associated infection (HAI) surveillance by continuously analyzing hospital data — clinical notes, lab results, and patient records — to flag emerging risks in real time. Their second product MERIE is a virtual assistant for medication risk prevention that scans patient records to detect pharmacotherapy risks. Datlowe solutions integrate with hospital IT infrastructure via on-premise deployment, support FHIR and SNOMED CT standards, and are fully GDPR compliant. The company serves 55+ hospitals across Central and Eastern Europe and reduces manual review time by up to 90%.",
@@ -11,38 +10,56 @@
     "website": "https://datlowe.cz",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["nlp", "automation", "other"],
-    "industries_served": ["healthcare"],
+    "ai_focus": [
+      "nlp",
+      "automation",
+      "other"
+    ],
+    "industries_served": [
+      "healthcare"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2014,
     "founders": [],
     "origin_story": "Founded in Prague (LinkedIn: 2014, website: 'since 2017'). Built AI and NLP applications for the healthcare sector, starting with infection surveillance and expanding to medication risk prevention. Grown to serve 55+ hospitals across Central and Eastern Europe.",
     "key_milestones": [
-      {"year": 2014, "event": "Founded in Prague (per LinkedIn)"},
-      {"year": 2017, "event": "Company describes itself as active since this year in building healthcare AI solutions"},
-      {"year": 2026, "event": "Serving 55+ hospitals across Central and Eastern Europe with HAIDI and MERIE products"}
+      {
+        "year": 2014,
+        "event": "Founded in Prague (per LinkedIn)"
+      },
+      {
+        "year": 2017,
+        "event": "Company describes itself as active since this year in building healthcare AI solutions"
+      },
+      {
+        "year": 2026,
+        "event": "Serving 55+ hospitals across Central and Eastern Europe with HAIDI and MERIE products"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": 18,
     "employee_source": "linkedin",
     "office_count": 2
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true},
-    {"city": "Prague (Na Pankráci)", "country": "CZ", "is_hq": false}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    },
+    {
+      "city": "Prague (Na Pankráci)",
+      "country": "CZ",
+      "is_hq": false
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -55,47 +72,97 @@
     "revenue_source": null,
     "business_model": "subscription_saas"
   },
-
   "team": {
     "leadership": [
-      {"name": "Jan Kavalirek", "role": "Leadership/Founder (unconfirmed)", "source": "linkedin_update"},
-      {"name": "Jakub Kozák", "role": "Product/Technical (unconfirmed)", "source": "linkedin_update"}
+      {
+        "name": "Jan Kavalirek",
+        "role": "Leadership/Founder (unconfirmed)",
+        "source": "linkedin_update"
+      },
+      {
+        "name": "Jakub Kozák",
+        "role": "Product/Technical (unconfirmed)",
+        "source": "linkedin_update"
+      }
     ],
     "notable_people": [
-      {"name": "Radim Janda", "role": "Chief of Customer Success", "source": "linkedin"},
-      {"name": "Jan Dedek", "role": "Researcher & Developer", "source": "linkedin"},
-      {"name": "Martina Peachment Brehmer", "role": "Growth & Transformation / Brand & Strategic Communication", "source": "linkedin"},
-      {"name": "Lenka Vrana", "role": "Product Demonstrator / Clinical Solutions", "source": "linkedin_update"}
+      {
+        "name": "Radim Janda",
+        "role": "Chief of Customer Success",
+        "source": "linkedin"
+      },
+      {
+        "name": "Jan Dedek",
+        "role": "Researcher & Developer",
+        "source": "linkedin"
+      },
+      {
+        "name": "Martina Peachment Brehmer",
+        "role": "Growth & Transformation / Brand & Strategic Communication",
+        "source": "linkedin"
+      },
+      {
+        "name": "Lenka Vrana",
+        "role": "Product Demonstrator / Clinical Solutions",
+        "source": "linkedin_update"
+      }
     ]
   },
-
   "careers": {
     "careers_url": null,
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["python", "machine_learning", "nlp", "text_mining", "fhir", "snomed_ct"],
+    "tech_stack": [
+      "python",
+      "machine_learning",
+      "nlp",
+      "text_mining",
+      "fhir",
+      "snomed_ct"
+    ],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [],
-    "notable_clients": ["University Hospital Trnava", "Hospital of Merciful Sisters Ried", "Hospital Jihlava"],
+    "notable_clients": [
+      "University Hospital Trnava",
+      "Hospital of Merciful Sisters Ried",
+      "Hospital Jihlava"
+    ],
     "customer_count": 55,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "linkedin"],
-    "fields_missing": ["founders", "funding_total_usd", "revenue_estimate_usd", "glassdoor", "careers_url", "leadership_confirmed"],
+    "sources_used": [
+      "company_website",
+      "linkedin"
+    ],
+    "fields_missing": [
+      "founders",
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "glassdoor",
+      "careers_url",
+      "leadership_confirmed"
+    ],
     "needs_review": true,
     "notes": "Founded year discrepancy: LinkedIn says 2014, website says 'Since 2017'. Leadership roles not confirmed — Jan Kavalirek and Jakub Kozák appeared in a Czech TV discussion about Datlowe but specific roles unconfirmed. Company has two Prague office addresses listed on website. No careers page found. No Glassdoor data available."
+  },
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Works in commoditizing space (nlp, automation) but has some differentiation through proprietary tech or customer base.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No public funding information. Sustainability unclear.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
   }
 }

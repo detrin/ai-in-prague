@@ -3,7 +3,6 @@
   "name": "Deep MedChem",
   "category": "company",
   "scraped_at": "2026-03-28T14:00:00Z",
-
   "overview": {
     "description": "AI-based tools for accelerated drug discovery",
     "description_long": "Deep MedChem is a Prague-based startup that builds the CHEESE platform — a family of AI products for drug discovery that accelerate the early phases of research. CHEESE enables molecular similarity search (2D, 3D shape, electrostatic, and activity) across 40T+ molecules in seconds, QSAR model training, and docking score prediction. Available on cloud or on-premises. Spun off from The MAMA AI and i&i Prague, an incubator connected with IOCB (Institute of Organic Chemistry and Biochemistry), a leading European medicinal chemistry institution.",
@@ -11,41 +10,72 @@
     "website": "https://deepmedchem.com",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["other", "generative_ai", "ml_ops"],
-    "industries_served": ["pharma", "biotech", "drug_discovery"],
+    "ai_focus": [
+      "other",
+      "generative_ai",
+      "ml_ops"
+    ],
+    "industries_served": [
+      "pharma",
+      "biotech",
+      "drug_discovery"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2023,
-    "founders": ["Jan Macek", "Miroslav Lžičař"],
+    "founders": [
+      "Jan Macek",
+      "Miroslav Lžičař"
+    ],
     "origin_story": "Spun off from The MAMA AI and i&i Prague (a startup investor and incubator connected with IOCB Prague). Originally developed the CHEESE molecular AI platform for IOCB before commercializing it as an independent company in December 2023.",
     "key_milestones": [
-      {"year": 2023, "event": "Deep MedChem a.s. incorporated (December 15, 2023) to commercialize the CHEESE family of molecular AI products"},
-      {"year": 2023, "event": "CHEESE presented at BioML Conference and BioVaria Conference"},
-      {"year": 2024, "event": "CHEESE Modeller launched for customers (February 2024)"},
-      {"year": 2024, "event": "On-premise version of CHEESE Search released (January 2024)"},
-      {"year": 2024, "event": "CHEESE Electrostatics launched in open beta (May 2024)"},
-      {"year": 2024, "event": "Participated in BIO'24 conference in San Diego"},
-      {"year": 2025, "event": "CEO Jan Macek and CTO Miroslav Lžičař attended ACS Spring 2025 in San Diego"}
+      {
+        "year": 2023,
+        "event": "Deep MedChem a.s. incorporated (December 15, 2023) to commercialize the CHEESE family of molecular AI products"
+      },
+      {
+        "year": 2023,
+        "event": "CHEESE presented at BioML Conference and BioVaria Conference"
+      },
+      {
+        "year": 2024,
+        "event": "CHEESE Modeller launched for customers (February 2024)"
+      },
+      {
+        "year": 2024,
+        "event": "On-premise version of CHEESE Search released (January 2024)"
+      },
+      {
+        "year": 2024,
+        "event": "CHEESE Electrostatics launched in open beta (May 2024)"
+      },
+      {
+        "year": 2024,
+        "event": "Participated in BIO'24 conference in San Diego"
+      },
+      {
+        "year": 2025,
+        "event": "CEO Jan Macek and CTO Miroslav Lžičař attended ACS Spring 2025 in San Diego"
+      }
     ]
   },
-
   "size": {
     "employees_range": "1-10",
     "employees_exact": null,
     "employee_source": "company_website",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -53,52 +83,111 @@
     "parent_company": null,
     "funding_total_usd": null,
     "funding_rounds": [],
-    "investors": ["i&i Prague"],
+    "investors": [
+      "i&i Prague"
+    ],
     "revenue_estimate_usd": null,
     "revenue_source": null,
     "business_model": "subscription_saas"
   },
-
   "team": {
     "leadership": [
-      {"name": "Jan Macek", "role": "CEO", "source": "company_website"},
-      {"name": "Miroslav Lžičař", "role": "CTO", "source": "company_website"},
-      {"name": "Jiří Růžička", "role": "CBO", "source": "company_website"}
+      {
+        "name": "Jan Macek",
+        "role": "CEO",
+        "source": "company_website"
+      },
+      {
+        "name": "Miroslav Lžičař",
+        "role": "CTO",
+        "source": "company_website"
+      },
+      {
+        "name": "Jiří Růžička",
+        "role": "CBO",
+        "source": "company_website"
+      }
     ],
     "notable_people": [
-      {"name": "Hamza Gamouh", "role": "Senior AI Engineer", "source": "company_website"},
-      {"name": "David Stíbal", "role": "Senior Biotech VC Expert (Supervisory Board Member)", "source": "company_website"},
-      {"name": "Jan Kleindienst", "role": "Senior AI Executive (Supervisory Board Member)", "source": "company_website"}
+      {
+        "name": "Hamza Gamouh",
+        "role": "Senior AI Engineer",
+        "source": "company_website"
+      },
+      {
+        "name": "David Stíbal",
+        "role": "Senior Biotech VC Expert (Supervisory Board Member)",
+        "source": "company_website"
+      },
+      {
+        "name": "Jan Kleindienst",
+        "role": "Senior AI Executive (Supervisory Board Member)",
+        "source": "company_website"
+      }
     ]
   },
-
   "careers": {
     "careers_url": "https://deepmedchem.com/#team",
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["python", "ai/ml", "cheminformatics"],
+    "tech_stack": [
+      "python",
+      "ai/ml",
+      "cheminformatics"
+    ],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
-    "awards": ["Microsoft for Startups member"],
-    "notable_clients": ["IOCB Prague", "Bridgene Biosciences", "Aurigene", "XtalPi"],
+    "awards": [
+      "Microsoft for Startups member"
+    ],
+    "notable_clients": [
+      "IOCB Prague",
+      "Bridgene Biosciences",
+      "Aurigene",
+      "XtalPi"
+    ],
     "customer_count": null,
-    "partnerships": ["Enamine", "eMolecules", "Chemspace", "Molport", "Mcule", "Otava", "Microsoft for Startups"]
+    "partnerships": [
+      "Enamine",
+      "eMolecules",
+      "Chemspace",
+      "Molport",
+      "Mcule",
+      "Otava",
+      "Microsoft for Startups"
+    ]
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "czech_business_registry_ares"],
-    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "open_roles_count", "glassdoor"],
+    "sources_used": [
+      "company_website",
+      "czech_business_registry_ares"
+    ],
+    "fields_missing": [
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "employees_exact",
+      "open_roles_count",
+      "glassdoor"
+    ],
     "needs_review": false,
     "notes": "Founded December 15, 2023. Legal name: Deep MedChem a.s. IČO: 21029962. Address: Revoluční 764/17, Staré Město, Prague 1. Website is a React SPA; content extracted from JS bundle. Team page shows 6 people (3 C-suite + 1 engineer + 2 supervisory board). Spin-off from The MAMA AI and i&i Prague incubator (IOCB-connected). Main product is CHEESE platform for molecular similarity search and drug discovery AI. Partners include Microsoft for Startups."
+  },
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Works in commoditizing space (generative_ai) but has some differentiation through proprietary tech or customer base.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Some customer traction but still early-stage market validation.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known funding and very small team. High dependency on bootstrapped revenue or future fundraising.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
   }
 }

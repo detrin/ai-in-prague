@@ -3,7 +3,6 @@
   "name": "Bindworks",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Digital healthcare software for Czech hospitals, clinics and emergency services",
     "description_long": "Bindworks s.r.o. builds digital health products for the Czech healthcare sector. Their portfolio includes ZUNI (AI-assisted wound documentation and care), bw Online (patient self-service and telemedicine platform), Mirek (AI medical documentation that auto-transcribes doctor-patient consultations), zCase (real-time hospital–ambulance integration), and Orbiso (personalized digital therapeutics). They run 15 projects across 78 clinics with 50,000+ users and a 4.9-star patient rating.",
@@ -11,38 +10,56 @@
     "website": "https://www.bindworks.eu",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["nlp", "document_processing", "cv", "generative_ai"],
-    "industries_served": ["healthcare"],
+    "ai_focus": [
+      "nlp",
+      "document_processing",
+      "cv",
+      "generative_ai"
+    ],
+    "industries_served": [
+      "healthcare"
+    ],
     "company_type": "startup",
     "is_ai_native": false
   },
-
   "history": {
     "founded_year": 2018,
     "founders": [],
     "origin_story": "Founded in Prague in September 2018 (IČO 07436505). Grew by building digital applications for major Czech healthcare institutions, most notably the IKEM Online app downloaded by 30,000+ patients.",
     "key_milestones": [
-      {"year": 2018, "event": "Founded as Bindworks s.r.o. in Prague"},
-      {"year": 2023, "event": "IKEM Online wins appParade 2023 App of the Year"},
-      {"year": 2024, "event": "ZUNI wins Czech DIGI@MED Award from Roche"},
-      {"year": 2026, "event": "Received 140 million CZK (~$6.3M) grant from Technologická agentura ČR for Orbiso digital therapeutics platform"}
+      {
+        "year": 2018,
+        "event": "Founded as Bindworks s.r.o. in Prague"
+      },
+      {
+        "year": 2023,
+        "event": "IKEM Online wins appParade 2023 App of the Year"
+      },
+      {
+        "year": 2024,
+        "event": "ZUNI wins Czech DIGI@MED Award from Roche"
+      },
+      {
+        "year": 2026,
+        "event": "Received 140 million CZK (~$6.3M) grant from Technologická agentura ČR for Orbiso digital therapeutics platform"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": null,
     "employee_source": "inferred",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Praha", "country": "CZ", "is_hq": true}
+    {
+      "city": "Praha",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -50,57 +67,120 @@
     "parent_company": null,
     "funding_total_usd": null,
     "funding_rounds": [
-      {"date": "2026-02", "type": "Grant", "amount_usd": 6300000, "lead_investor": "Technologická agentura ČR (Technology Agency of the Czech Republic)"}
+      {
+        "date": "2026-02",
+        "type": "Grant",
+        "amount_usd": 6300000,
+        "lead_investor": "Technologická agentura ČR (Technology Agency of the Czech Republic)"
+      }
     ],
-    "investors": ["Technologická agentura ČR"],
+    "investors": [
+      "Technologická agentura ČR"
+    ],
     "revenue_estimate_usd": null,
     "revenue_source": null,
     "business_model": "subscription_saas"
   },
-
   "team": {
     "leadership": [
-      {"name": "Martin Vantara", "role": "CEO", "source": "company_website"},
-      {"name": "Vít Svojše", "role": "Product Director", "source": "cc.cz"}
+      {
+        "name": "Martin Vantara",
+        "role": "CEO",
+        "source": "company_website"
+      },
+      {
+        "name": "Vít Svojše",
+        "role": "Product Director",
+        "source": "cc.cz"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": "https://career.bindworks.eu/",
     "open_roles_count": 4,
     "open_roles": [
-      {"title": "Business Lead / CEO (Orbiso)", "department": "business", "location": "Praha / Brno / remote"},
-      {"title": "Flutter Developer", "department": "engineering", "location": "Praha (Holešovice) / remote"},
-      {"title": "Full-Stack Developer (React + Node.js)", "department": "engineering", "location": "Praha (Holešovice) / remote"},
-      {"title": "AI/ML Engineer", "department": "engineering", "location": "Praha (Holešovice) / remote"}
+      {
+        "title": "Business Lead / CEO (Orbiso)",
+        "department": "business",
+        "location": "Praha / Brno / remote"
+      },
+      {
+        "title": "Flutter Developer",
+        "department": "engineering",
+        "location": "Praha (Holešovice) / remote"
+      },
+      {
+        "title": "Full-Stack Developer (React + Node.js)",
+        "department": "engineering",
+        "location": "Praha (Holešovice) / remote"
+      },
+      {
+        "title": "AI/ML Engineer",
+        "department": "engineering",
+        "location": "Praha (Holešovice) / remote"
+      }
     ],
-    "tech_stack": ["flutter", "react", "nextjs", "nodejs", "typescript", "supabase", "python"],
+    "tech_stack": [
+      "flutter",
+      "react",
+      "nextjs",
+      "nodejs",
+      "typescript",
+      "supabase",
+      "python"
+    ],
     "hiring_signals": "actively_hiring"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [
       "Czech DIGI@MED Award by Roche (2024) — ZUNI app",
       "appParade 2023 App of the Year — IKEM Online"
     ],
-    "notable_clients": ["IKEM (Institut klinické a experimentální medicíny)", "Edwards Lifesciences", "EUC", "Fakultní nemocnice Olomouc", "Záchranné služby"],
+    "notable_clients": [
+      "IKEM (Institut klinické a experimentální medicíny)",
+      "Edwards Lifesciences",
+      "EUC",
+      "Fakultní nemocnice Olomouc",
+      "Záchranné služby"
+    ],
     "customer_count": null,
-    "partnerships": ["Debono (agency co-developer)"]
+    "partnerships": [
+      "Debono (agency co-developer)"
+    ]
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "career_page", "cc.cz", "ares.gov.cz"],
-    "fields_missing": ["founders", "employees_exact", "glassdoor", "revenue_estimate_usd", "funding_total_usd"],
+    "sources_used": [
+      "company_website",
+      "career_page",
+      "cc.cz",
+      "ares.gov.cz"
+    ],
+    "fields_missing": [
+      "founders",
+      "employees_exact",
+      "glassdoor",
+      "revenue_estimate_usd",
+      "funding_total_usd"
+    ],
     "needs_review": false,
     "notes": "140M CZK grant (~$6.3M USD at ~22 CZK/USD) from Technology Agency of Czech Republic confirmed by CzechCrunch article (Feb 17, 2026) for the Orbiso digital therapeutics platform. Grant is co-awarded with agency partner Debono. Employees range estimated from 'small teams' language on careers page and scale of operations."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (cv, document_processing) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Some funding secured but early stage — sustainability depends on continued fundraising or reaching profitability.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
   }
 }

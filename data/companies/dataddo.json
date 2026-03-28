@@ -3,7 +3,6 @@
   "name": "Dataddo",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Unified no-code data integration platform for ETL, ELT, reverse ETL, and data automation",
     "description_long": "Dataddo is a fully-managed, no-code data integration platform that connects cloud-based applications, dashboarding tools, data warehouses, and data lakes. With 400+ managed connectors, it enables any professional to move data from any source to any destination without coding. Products include Data to Dashboards, Data Anywhere (ETL/ELT/reverse ETL), and Headless Data Integration for enterprise API-based data products. SOC 2 Type II certified and ISO 27001 compliant. Serves 4,000+ organizations across 100+ countries.",
@@ -11,40 +10,74 @@
     "website": "https://www.dataddo.com",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["data_engineering", "automation"],
-    "industries_served": ["marketing", "analytics", "ecommerce", "entertainment", "manufacturing", "food_and_beverage", "healthcare"],
+    "ai_focus": [
+      "data_engineering",
+      "automation"
+    ],
+    "industries_served": [
+      "marketing",
+      "analytics",
+      "ecommerce",
+      "entertainment",
+      "manufacturing",
+      "food_and_beverage",
+      "healthcare"
+    ],
     "company_type": "startup",
     "is_ai_native": false
   },
-
   "history": {
     "founded_year": 2018,
-    "founders": ["Petr Nemeth", "Joel Thom", "Zdenek Pecha"],
+    "founders": [
+      "Petr Nemeth",
+      "Joel Thom",
+      "Zdenek Pecha"
+    ],
     "origin_story": "Founded in 2018 by Petr Nemeth (a developer, analyst, and system architect who experienced the pain of 'stuck' data across tools), Joel Thom, and Zdenek Pecha. Built to give both technical and non-technical professionals access to a flexible, user-friendly data integration platform.",
     "key_milestones": [
-      {"year": 2018, "event": "Company founded in Prague, Czech Republic"},
-      {"year": 2021, "event": "Raised $1M funding round"},
-      {"year": 2025, "event": "Hit $3.2M in annual revenue with 29-person team"},
-      {"year": 2025, "event": "M&A offer received (April 2025)"}
+      {
+        "year": 2018,
+        "event": "Company founded in Prague, Czech Republic"
+      },
+      {
+        "year": 2021,
+        "event": "Raised $1M funding round"
+      },
+      {
+        "year": 2025,
+        "event": "Hit $3.2M in annual revenue with 29-person team"
+      },
+      {
+        "year": 2025,
+        "event": "M&A offer received (April 2025)"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": 29,
     "employee_source": "latka_2025",
     "office_count": 3
   },
-
   "offices": [
-    {"city": "Mountain View", "country": "US", "is_hq": true},
-    {"city": "Prague", "country": "CZ", "is_hq": false},
-    {"city": "São Paulo", "country": "BR", "is_hq": false}
+    {
+      "city": "Mountain View",
+      "country": "US",
+      "is_hq": true
+    },
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": false
+    },
+    {
+      "city": "São Paulo",
+      "country": "BR",
+      "is_hq": false
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -52,23 +85,38 @@
     "parent_company": null,
     "funding_total_usd": 1000000,
     "funding_rounds": [
-      {"date": "2021-10", "type": "Seed", "amount_usd": 1000000, "lead_investor": null}
+      {
+        "date": "2021-10",
+        "type": "Seed",
+        "amount_usd": 1000000,
+        "lead_investor": null
+      }
     ],
     "investors": [],
     "revenue_estimate_usd": 3200000,
     "revenue_source": "latka_2025",
     "business_model": "subscription_saas"
   },
-
   "team": {
     "leadership": [
-      {"name": "Petr Nemeth", "role": "CEO & Co-founder", "source": "company_website"},
-      {"name": "Joel Thom", "role": "Co-founder", "source": "company_website"},
-      {"name": "Zdenek Pecha", "role": "Co-founder", "source": "company_website"}
+      {
+        "name": "Petr Nemeth",
+        "role": "CEO & Co-founder",
+        "source": "company_website"
+      },
+      {
+        "name": "Joel Thom",
+        "role": "Co-founder",
+        "source": "company_website"
+      },
+      {
+        "name": "Zdenek Pecha",
+        "role": "Co-founder",
+        "source": "company_website"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": "https://www.dataddo.com/careers",
     "open_roles_count": null,
@@ -76,26 +124,57 @@
     "tech_stack": [],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
-    "awards": ["SOC 2 Type II", "ISO 27001"],
-    "notable_clients": ["Uber Eats", "French Football Federation", "Epic Games", "Livesport", "Ogilvy Spain", "Wärtsilä", "ID&T Group"],
+    "awards": [
+      "SOC 2 Type II",
+      "ISO 27001"
+    ],
+    "notable_clients": [
+      "Uber Eats",
+      "French Football Federation",
+      "Epic Games",
+      "Livesport",
+      "Ogilvy Spain",
+      "Wärtsilä",
+      "ID&T Group"
+    ],
     "customer_count": 4000,
-    "partnerships": ["Google Cloud", "Microsoft Azure", "AWS"]
+    "partnerships": [
+      "Google Cloud",
+      "Microsoft Azure",
+      "AWS"
+    ]
   },
-
   "metadata": {
     "data_quality": "high",
-    "sources_used": ["company_website", "latka", "seedtable", "search_snippets"],
-    "fields_missing": ["glassdoor_rating", "tech_stack", "open_roles_count"],
+    "sources_used": [
+      "company_website",
+      "latka",
+      "seedtable",
+      "search_snippets"
+    ],
+    "fields_missing": [
+      "glassdoor_rating",
+      "tech_stack",
+      "open_roles_count"
+    ],
     "needs_review": false,
     "notes": "HQ listed as Mountain View, CA (Silicon Valley) per company About page; Prague and São Paulo are branch offices. Founded year discrepancy: company website says 2018, Latka says 2015, Seedtable says 2016 — using company's own 2018. Funding: Seedtable shows $1M Oct 2021 (type unclear, listed as 'Unknown'); Latka shows $0 funding (possibly incomplete). M&A offer received April 2025 per Latka."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (data_engineering) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Revenue-generating — has path to sustainability regardless of external funding.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
   }
 }

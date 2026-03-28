@@ -3,7 +3,6 @@
   "name": "Recombee",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "AI-powered recommendation engine and personalized search for websites and apps",
     "description_long": "Recombee is a B2B SaaS platform delivering AI-powered real-time recommendations and personalized search. It serves 10,000+ sites and apps across video, e-commerce, news/media, music, real estate, job boards, and more. The engine uses advanced machine learning models with a flexible query language (ReQL) and provides RESTful API, SDKs, and no-code widgets for easy integration.",
@@ -11,38 +10,66 @@
     "website": "https://www.recombee.com",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["recommendation", "ml_ops"],
-    "industries_served": ["media", "e-commerce", "video", "music", "real_estate", "travel", "job_boards", "sports"],
+    "ai_focus": [
+      "recommendation",
+      "ml_ops"
+    ],
+    "industries_served": [
+      "media",
+      "e-commerce",
+      "video",
+      "music",
+      "real_estate",
+      "travel",
+      "job_boards",
+      "sports"
+    ],
     "company_type": "scaleup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2015,
-    "founders": ["Pavel Kordik", "Tomas Rehorek", "Ondrej Fiedler", "Antonin Kral"],
+    "founders": [
+      "Pavel Kordik",
+      "Tomas Rehorek",
+      "Ondrej Fiedler",
+      "Antonin Kral"
+    ],
     "origin_story": "Founded in 2015 in Prague by four co-founders with deep ties to Czech Technical University (CTU) in Prague. Tomas Rehorek specializes in recommendation algorithms and has lectured AI at FIT CTU for 5+ years.",
     "key_milestones": [
-      {"year": 2015, "event": "Founded in Prague"},
-      {"year": 2025, "event": "Featured as AIN.ua Startup of the Day"},
-      {"year": 2025, "event": "Strategic partnership announced (The Recursive)"},
-      {"year": 2026, "event": "Listed on Gartner Peer Insights for Personalization Engines"}
+      {
+        "year": 2015,
+        "event": "Founded in Prague"
+      },
+      {
+        "year": 2025,
+        "event": "Featured as AIN.ua Startup of the Day"
+      },
+      {
+        "year": 2025,
+        "event": "Strategic partnership announced (The Recursive)"
+      },
+      {
+        "year": 2026,
+        "event": "Listed on Gartner Peer Insights for Personalization Engines"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": 48,
     "employee_source": "getlatka",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -55,44 +82,96 @@
     "revenue_source": "getlatka",
     "business_model": "subscription_saas"
   },
-
   "team": {
     "leadership": [
-      {"name": "Pavel Kordik", "role": "Co-founder", "source": "tracxn"},
-      {"name": "Tomas Rehorek", "role": "Co-founder", "source": "company_website"},
-      {"name": "Ondrej Fiedler", "role": "Co-founder", "source": "tracxn"},
-      {"name": "Antonin Kral", "role": "Co-founder", "source": "tracxn"}
+      {
+        "name": "Pavel Kordik",
+        "role": "Co-founder",
+        "source": "tracxn"
+      },
+      {
+        "name": "Tomas Rehorek",
+        "role": "Co-founder",
+        "source": "company_website"
+      },
+      {
+        "name": "Ondrej Fiedler",
+        "role": "Co-founder",
+        "source": "tracxn"
+      },
+      {
+        "name": "Antonin Kral",
+        "role": "Co-founder",
+        "source": "tracxn"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": null,
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["javascript", "python", "rest_api"],
+    "tech_stack": [
+      "javascript",
+      "python",
+      "rest_api"
+    ],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": 5.0,
     "review_count": 1,
     "recommend_pct": null,
     "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Recombee-EI_IE3234119.11,19.htm"
   },
-
   "recognition": {
-    "awards": ["Gartner Peer Insights - Personalization Engines 2026", "AIN.ua Startup of the Day 2025"],
-    "notable_clients": ["DAZN"],
+    "awards": [
+      "Gartner Peer Insights - Personalization Engines 2026",
+      "AIN.ua Startup of the Day 2025"
+    ],
+    "notable_clients": [
+      "DAZN"
+    ],
     "customer_count": null,
-    "partnerships": ["Czech Technical University in Prague", "DataLab (FIT CTU)", "Segment", "Infobip", "Kontent.ai", "Axinom", "Umbraco"]
+    "partnerships": [
+      "Czech Technical University in Prague",
+      "DataLab (FIT CTU)",
+      "Segment",
+      "Infobip",
+      "Kontent.ai",
+      "Axinom",
+      "Umbraco"
+    ]
   },
-
   "metadata": {
     "data_quality": "high",
-    "sources_used": ["company_website", "tracxn", "getlatka", "glassdoor", "gartner", "linkedin", "rocketreach", "owler", "ain.ua"],
-    "fields_missing": ["careers_url", "recommend_pct", "customer_count"],
+    "sources_used": [
+      "company_website",
+      "tracxn",
+      "getlatka",
+      "glassdoor",
+      "gartner",
+      "linkedin",
+      "rocketreach",
+      "owler",
+      "ain.ua"
+    ],
+    "fields_missing": [
+      "careers_url",
+      "recommend_pct",
+      "customer_count"
+    ],
     "needs_review": false,
     "notes": "Bootstrapped company with $0 external funding. Revenue estimates vary: getlatka reports $5.3M, Owler reports $3M. Trusted by 10,000+ sites and apps per homepage. Academic partner of CTU Prague / DataLab. No dedicated careers page found."
+  },
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Mixed signals — some differentiation but unclear long-term moat against foundation model capabilities.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Revenue-generating — has path to sustainability regardless of external funding.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
   }
 }

@@ -3,7 +3,6 @@
   "name": "Department of Image Processing",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Research department focused on image processing, pattern recognition, and computer vision at the Czech Academy of Sciences",
     "description_long": "The Department of Image Processing (ZOI) is a research department within the Institute of Information Theory and Automation (UTIA) of the Czech Academy of Sciences, established in 1985. The department conducts fundamental and applied research in image processing and pattern recognition, with primary application areas including biomedicine, remote sensing, industry, art conservation, astronomy, digital photography, surveillance systems, and image forensics. Research encompasses invariant descriptors, image registration and fusion, theory of moment invariants (rotation, affine, convolution), image restoration (blind deconvolution, denoising, colour transformations), and neural networks—particularly equivariant networks. The department collaborates with academic and industrial partners and provides university education through multiple courses at Czech universities.",
@@ -11,38 +10,58 @@
     "website": "https://zoi.utia.cas.cz",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "research",
-    "ai_focus": ["cv", "other"],
-    "industries_served": ["healthcare", "defence", "art_conservation", "remote_sensing", "forensics"],
+    "ai_focus": [
+      "cv",
+      "other"
+    ],
+    "industries_served": [
+      "healthcare",
+      "defence",
+      "art_conservation",
+      "remote_sensing",
+      "forensics"
+    ],
     "company_type": "research_lab",
     "is_ai_native": false
   },
-
   "history": {
     "founded_year": 1985,
     "founders": [],
     "origin_story": "The department was established in 1985 as part of the Institute of Information Theory and Automation (UTIA) of the Czech Academy of Sciences. It has built a long track record in fundamental image processing research and applied computer vision.",
     "key_milestones": [
-      {"year": 1985, "event": "Department of Image Processing founded at UTIA, Czech Academy of Sciences"},
-      {"year": 2022, "event": "Started EU HORIZON Vigilant project (image forensics / disinformation detection, grant 101073921)"},
-      {"year": 2022, "event": "Started H2020 PROVENANCE project (digital content verification, grant 825227)"},
-      {"year": 2026, "event": "Hosting ICIP2026 (IEEE International Conference on Image Processing)"}
+      {
+        "year": 1985,
+        "event": "Department of Image Processing founded at UTIA, Czech Academy of Sciences"
+      },
+      {
+        "year": 2022,
+        "event": "Started EU HORIZON Vigilant project (image forensics / disinformation detection, grant 101073921)"
+      },
+      {
+        "year": 2022,
+        "event": "Started H2020 PROVENANCE project (digital content verification, grant 825227)"
+      },
+      {
+        "year": 2026,
+        "event": "Hosting ICIP2026 (IEEE International Conference on Image Processing)"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": 28,
     "employee_source": "company_website",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -55,47 +74,116 @@
     "revenue_source": null,
     "business_model": "other"
   },
-
   "team": {
     "leadership": [
-      {"name": "Barbara Zitová", "role": "Head of Department", "source": "company_website"},
-      {"name": "Adam Novozámský", "role": "Deputy Head", "source": "company_website"}
+      {
+        "name": "Barbara Zitová",
+        "role": "Head of Department",
+        "source": "company_website"
+      },
+      {
+        "name": "Adam Novozámský",
+        "role": "Deputy Head",
+        "source": "company_website"
+      }
     ],
     "notable_people": [
-      {"name": "Jan Flusser", "role": "Research Fellow", "source": "company_website"},
-      {"name": "Filip Šroubek", "role": "Research Fellow", "source": "company_website"},
-      {"name": "Stanislav Saic", "role": "Research Fellow", "source": "company_website"},
-      {"name": "Tomáš Suk", "role": "Research Fellow", "source": "company_website"},
-      {"name": "Michal Šorel", "role": "Research Fellow", "source": "company_website"},
-      {"name": "Babak Mahdian", "role": "Research Fellow", "source": "company_website"},
-      {"name": "Jan Kamenický", "role": "Research Fellow", "source": "company_website"},
-      {"name": "Luboš Soukup", "role": "Research Fellow", "source": "company_website"},
-      {"name": "Michal Bartoš", "role": "Research Fellow", "source": "company_website"},
-      {"name": "Jan Schier", "role": "Research Fellow", "source": "company_website"},
-      {"name": "Jan Blažek", "role": "Research Fellow", "source": "company_website"},
-      {"name": "Jan Kotera", "role": "Research Fellow", "source": "company_website"},
-      {"name": "Milan Talich", "role": "Research Fellow", "source": "company_website"},
-      {"name": "Milan Zajíček", "role": "Research Fellow", "source": "company_website"}
+      {
+        "name": "Jan Flusser",
+        "role": "Research Fellow",
+        "source": "company_website"
+      },
+      {
+        "name": "Filip Šroubek",
+        "role": "Research Fellow",
+        "source": "company_website"
+      },
+      {
+        "name": "Stanislav Saic",
+        "role": "Research Fellow",
+        "source": "company_website"
+      },
+      {
+        "name": "Tomáš Suk",
+        "role": "Research Fellow",
+        "source": "company_website"
+      },
+      {
+        "name": "Michal Šorel",
+        "role": "Research Fellow",
+        "source": "company_website"
+      },
+      {
+        "name": "Babak Mahdian",
+        "role": "Research Fellow",
+        "source": "company_website"
+      },
+      {
+        "name": "Jan Kamenický",
+        "role": "Research Fellow",
+        "source": "company_website"
+      },
+      {
+        "name": "Luboš Soukup",
+        "role": "Research Fellow",
+        "source": "company_website"
+      },
+      {
+        "name": "Michal Bartoš",
+        "role": "Research Fellow",
+        "source": "company_website"
+      },
+      {
+        "name": "Jan Schier",
+        "role": "Research Fellow",
+        "source": "company_website"
+      },
+      {
+        "name": "Jan Blažek",
+        "role": "Research Fellow",
+        "source": "company_website"
+      },
+      {
+        "name": "Jan Kotera",
+        "role": "Research Fellow",
+        "source": "company_website"
+      },
+      {
+        "name": "Milan Talich",
+        "role": "Research Fellow",
+        "source": "company_website"
+      },
+      {
+        "name": "Milan Zajíček",
+        "role": "Research Fellow",
+        "source": "company_website"
+      }
     ]
   },
-
   "careers": {
     "careers_url": "https://zoi.utia.cas.cz/index.php/home/open-positions",
     "open_roles_count": null,
     "open_roles": [
-      {"title": "Postdoctoral Researcher", "department": "research", "location": "Prague"}
+      {
+        "title": "Postdoctoral Researcher",
+        "department": "research",
+        "location": "Prague"
+      }
     ],
-    "tech_stack": ["python", "machine_learning", "computer_vision", "neural_networks"],
+    "tech_stack": [
+      "python",
+      "machine_learning",
+      "computer_vision",
+      "neural_networks"
+    ],
     "hiring_signals": "few_roles"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [],
     "notable_clients": [],
@@ -107,12 +195,29 @@
       "Technology Agency of the Czech Republic (TAČR)"
     ]
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website"],
-    "fields_missing": ["cnaip_url", "funding_total_usd", "glassdoor", "revenue_estimate_usd", "open_roles_count"],
+    "sources_used": [
+      "company_website"
+    ],
+    "fields_missing": [
+      "cnaip_url",
+      "funding_total_usd",
+      "glassdoor",
+      "revenue_estimate_usd",
+      "open_roles_count"
+    ],
     "needs_review": false,
     "notes": "ZOI (Zpracování obrazové informace) is the Czech abbreviation for this department. The department is part of UTIA (Ústav teorie informace a automatizace) at the Czech Academy of Sciences. Address: Pod Vodárenskou věží 4, Prague 8, Czechia. Phone: +420 286 581 419 / +420 284 680 730. Email: imgproc@utia.cas.cz. The input record categorised this as 'company' but it is an academic research department with ~28 staff (14 research fellows, 1 postdoc, 4 research assistants, 6 PhD students, 3 management/admin). Founded 1985. Employees exact count estimated by counting names on People page."
+  },
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Research/nonprofit entity — not subject to commercial displacement.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research/nonprofit — not subject to commercial market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Research/nonprofit — funded by grants, not venture capital.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "All risk categories not applicable (research/nonprofit entity)."
   }
 }

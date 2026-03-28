@@ -10,7 +10,11 @@
   "prague_connection": "Founded in Prague by Richard Valtr while building a hotel there. Core engineering and product teams remain in Prague. The Emblem Prague Hotel was the first Mews customer.",
   "business_type": "b2b_saas",
   "company_type": "scaleup",
-  "ai_focus": ["automation", "recommendation", "data_engineering"],
+  "ai_focus": [
+    "automation",
+    "recommendation",
+    "data_engineering"
+  ],
   "ai_details": "Uses AI for dynamic pricing and demand forecasting through its Atomize RMS acquisition. Acquired the DataChat team to double down on AI. Revenue management system leverages machine learning to optimize hotel pricing in real time. Platform automates reservation management, check-in/check-out, housekeeping coordination, and payment processing.",
   "products": [
     {
@@ -55,33 +59,52 @@
         "date": "2016-11",
         "amount_usd": 1700000,
         "amount_note": "EUR 1.5M from Axivate Capital",
-        "investors": ["Axivate Capital"]
+        "investors": [
+          "Axivate Capital"
+        ]
       },
       {
         "round": "Series B",
         "date": "2019-08",
         "amount_usd": 33000000,
-        "investors": ["Battery Ventures", "Notion Capital"]
+        "investors": [
+          "Battery Ventures",
+          "Notion Capital"
+        ]
       },
       {
         "round": "Series C",
         "date": "2022-12",
         "amount_usd": 185000000,
-        "investors": ["Kinnevik", "Goldman Sachs Asset Management"]
+        "investors": [
+          "Kinnevik",
+          "Goldman Sachs Asset Management"
+        ]
       },
       {
         "round": "Growth",
         "date": "2024-03",
         "amount_usd": 110000000,
         "amount_note": "EUR 101M; led by Kinnevik with participation from existing investors",
-        "investors": ["Kinnevik", "Battery Ventures", "Tiger Global"]
+        "investors": [
+          "Kinnevik",
+          "Battery Ventures",
+          "Tiger Global"
+        ]
       },
       {
         "round": "Series D",
         "date": "2026-01",
         "amount_usd": 300000000,
         "amount_note": "EUR 255M; valued at $2.5B",
-        "investors": ["EQT Growth", "Atomico", "HarbourVest Partners", "Kinnevik", "Battery Ventures", "Tiger Global"]
+        "investors": [
+          "EQT Growth",
+          "Atomico",
+          "HarbourVest Partners",
+          "Kinnevik",
+          "Battery Ventures",
+          "Tiger Global"
+        ]
       }
     ]
   },
@@ -130,7 +153,19 @@
   "customers": {
     "count": 15000,
     "notable_count_note": "15,000 properties across 85 countries; 132,000+ monthly active hoteliers; 42.3M checked-in reservations in 2025",
-    "examples": ["Leven", "The Neighborhood Hotel", "Airelles", "The Social Hub", "Ligula Hospitality Group", "The Boundary Shoreditch", "Locale Apartments", "Wythe Hotel", "GuestHouse Hotels", "9hotel Collection", "Crane Hotel Group"]
+    "examples": [
+      "Leven",
+      "The Neighborhood Hotel",
+      "Airelles",
+      "The Social Hub",
+      "Ligula Hospitality Group",
+      "The Boundary Shoreditch",
+      "Locale Apartments",
+      "Wythe Hotel",
+      "GuestHouse Hotels",
+      "9hotel Collection",
+      "Crane Hotel Group"
+    ]
   },
   "awards": [
     "Best Property Management System 2024, 2025, 2026 (Hotel Tech Report)",
@@ -152,7 +187,16 @@
   "tech_stack_notes": "Cloud-native architecture; Open API; 1000+ marketplace integrations; mobile-first with kiosk check-in (3.2M kiosk check-ins in 2025)",
   "linkedin_url": "https://www.linkedin.com/company/maboromews/",
   "crunchbase_url": "https://www.crunchbase.com/organization/mews-systems",
-  "tags": ["hospitality", "hotel-tech", "property-management", "cloud-pms", "payments", "revenue-management", "ai-pricing", "saas-unicorn"],
+  "tags": [
+    "hospitality",
+    "hotel-tech",
+    "property-management",
+    "cloud-pms",
+    "payments",
+    "revenue-management",
+    "ai-pricing",
+    "saas-unicorn"
+  ],
   "data_quality": "high",
   "data_sources": [
     "mews.com (homepage, about page)",
@@ -160,5 +204,15 @@
     "Brave Search: Glassdoor snippets (glassdoor.com)",
     "Brave Search: revenue results (Getlatka, Skift, ZoomInfo, SaaStock, Notion Capital)"
   ],
-  "last_updated": "2026-03-28"
+  "last_updated": "2026-03-28",
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Mixed signals — some differentiation but unclear long-term moat against foundation model capabilities.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Limited public information on market traction.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No public funding information. Sustainability unclear.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
+  }
 }

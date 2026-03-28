@@ -53,6 +53,10 @@ ENUMS = {
     },
     "careers.hiring_signals": {"actively_hiring", "few_roles", "not_hiring", "unknown"},
     "metadata.data_quality": {"high", "medium", "low"},
+    "risk_assessment.agi_displacement": {"high", "medium", "low", "not_applicable"},
+    "risk_assessment.market_risk": {"high", "medium", "low", "not_applicable"},
+    "risk_assessment.funding_risk": {"high", "medium", "low", "not_applicable"},
+    "risk_assessment.overall_risk": {"high", "medium", "low", "not_applicable"},
 }
 
 REQUIRED = [
@@ -68,6 +72,10 @@ REQUIRED = [
     "size.employees_range",
     "financials.publicly_traded",
     "metadata.data_quality",
+    "risk_assessment.agi_displacement",
+    "risk_assessment.market_risk",
+    "risk_assessment.funding_risk",
+    "risk_assessment.overall_risk",
 ]
 
 EMPLOYEE_SNAP = {

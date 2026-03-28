@@ -3,7 +3,6 @@
   "name": "DataBrothers",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Power BI and Microsoft Fabric consulting and data analytics company",
     "description_long": "DataBrothers is a Prague-based consulting and technology company specializing in Power BI, Microsoft Fabric, and data analytics. They design Lakehouse architectures, automate data ingestion and transformation, build semantic layers and reporting, optimize Power BI environments, and provide mentoring and training programs. Certified Microsoft Solutions Partner for Data & AI and ISO 9001/27001. Also organizes DATA POINT PRAGUE and POWER CONFERENCE, international events on Microsoft data stack and Power Platform.",
@@ -11,39 +10,64 @@
     "website": "https://www.databrothers.cz",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "consulting",
-    "ai_focus": ["data_engineering"],
-    "industries_served": ["finance", "manufacturing", "retail", "logistics", "hr"],
+    "ai_focus": [
+      "data_engineering"
+    ],
+    "industries_served": [
+      "finance",
+      "manufacturing",
+      "retail",
+      "logistics",
+      "hr"
+    ],
     "company_type": "startup",
     "is_ai_native": false
   },
-
   "history": {
     "founded_year": 2018,
-    "founders": ["Štěpán Rešl", "Matěj Rešl"],
+    "founders": [
+      "Štěpán Rešl",
+      "Matěj Rešl"
+    ],
     "origin_story": "Founded in Prague by Štěpán and Matěj Rešl as a specialist Power BI consulting firm; grew into a full Microsoft data stack partner covering Power BI, Microsoft Fabric, and Power Platform.",
     "key_milestones": [
-      {"year": 2018, "event": "Company registered as DataBrothers s.r.o. in Prague"},
-      {"year": 2020, "event": "LinkedIn company page established; active growth phase"},
-      {"year": 2024, "event": "Achieved Microsoft Solutions Partner for Data & AI designation"},
-      {"year": 2024, "event": "Štěpán Rešl recognized as Microsoft Data Platform MVP"},
-      {"year": 2025, "event": "Obtained ISO 9001 and ISO 27001 certifications"}
+      {
+        "year": 2018,
+        "event": "Company registered as DataBrothers s.r.o. in Prague"
+      },
+      {
+        "year": 2020,
+        "event": "LinkedIn company page established; active growth phase"
+      },
+      {
+        "year": 2024,
+        "event": "Achieved Microsoft Solutions Partner for Data & AI designation"
+      },
+      {
+        "year": 2024,
+        "event": "Štěpán Rešl recognized as Microsoft Data Platform MVP"
+      },
+      {
+        "year": 2025,
+        "event": "Obtained ISO 9001 and ISO 27001 certifications"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": 24,
     "employee_source": "linkedin",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -56,46 +80,94 @@
     "revenue_source": null,
     "business_model": "consulting_services"
   },
-
   "team": {
     "leadership": [
-      {"name": "Matěj Rešl", "role": "Lead Business Consultant / CEO", "source": "company_website"},
-      {"name": "Štěpán Rešl", "role": "Lead Technology Consultant (Microsoft Data Platform MVP)", "source": "company_website"}
+      {
+        "name": "Matěj Rešl",
+        "role": "Lead Business Consultant / CEO",
+        "source": "company_website"
+      },
+      {
+        "name": "Štěpán Rešl",
+        "role": "Lead Technology Consultant (Microsoft Data Platform MVP)",
+        "source": "company_website"
+      }
     ],
     "notable_people": [
-      {"name": "Eva Kalníková", "role": "HR", "source": "company_website"}
+      {
+        "name": "Eva Kalníková",
+        "role": "HR",
+        "source": "company_website"
+      }
     ]
   },
-
   "careers": {
     "careers_url": "https://www.databrothers.cz/kariera/",
     "open_roles_count": 1,
     "open_roles": [
-      {"title": "Head of Sales", "department": "sales", "location": "Prague"}
+      {
+        "title": "Head of Sales",
+        "department": "sales",
+        "location": "Prague"
+      }
     ],
-    "tech_stack": ["power_bi", "microsoft_fabric", "azure", "power_platform", "databricks", "postgresql", "sap", "python"],
+    "tech_stack": [
+      "power_bi",
+      "microsoft_fabric",
+      "azure",
+      "power_platform",
+      "databricks",
+      "postgresql",
+      "sap",
+      "python"
+    ],
     "hiring_signals": "few_roles"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
-    "awards": ["ISO 9001", "ISO 27001", "Microsoft Solutions Partner for Data & AI", "Microsoft Data Platform MVP (Štěpán Rešl)"],
+    "awards": [
+      "ISO 9001",
+      "ISO 27001",
+      "Microsoft Solutions Partner for Data & AI",
+      "Microsoft Data Platform MVP (Štěpán Rešl)"
+    ],
     "notable_clients": [],
     "customer_count": null,
-    "partnerships": ["Microsoft"]
+    "partnerships": [
+      "Microsoft"
+    ]
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "linkedin", "czech_business_registry_ares"],
-    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor", "notable_clients", "customer_count", "founders_confirmed"],
+    "sources_used": [
+      "company_website",
+      "linkedin",
+      "czech_business_registry_ares"
+    ],
+    "fields_missing": [
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "glassdoor",
+      "notable_clients",
+      "customer_count",
+      "founders_confirmed"
+    ],
     "needs_review": false,
     "notes": "Founded year 2018 per Czech ARES business registry (IČO: 07080794); LinkedIn shows 2020 which may be when they pivoted focus or created the profile. Company is primarily a BI/data consulting firm — not a traditional AI startup; included in Prague AI catalog due to Microsoft AI/Fabric work and AI conference hosting. Matěj Rešl is referenced as CEO on careers page ('Náš CEO'). Company also has second office address at Čestmírova 17a, Praha 4 per LinkedIn."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (data_engineering) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "high",
+    "market_risk_rationale": "Small team with no visible customer traction or market validation signals.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No public funding information. Sustainability unclear.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
   }
 }

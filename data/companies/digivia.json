@@ -3,7 +3,6 @@
   "name": "Digivia",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Nonprofit digital transformation consultancy helping Czech nonprofit organizations adopt digital tools, automation, and AI",
     "description_long": "Digivia (operating as Sdružení VIA, z. ú.) guides nonprofit organizations through digital transformation. Over 15 years, they have helped nearly 10,000 Czech nonprofits work more efficiently by adopting Microsoft 365, Google Workspace, cloud tools, automation, and AI. They offer digital audits, consultations, training workshops, and affordable software (TechSoup). Their mission is to free nonprofits from administrative burden so they can focus on their core social missions. They claim to have saved organizations 1.2 billion CZK in combined efficiency gains.",
@@ -11,37 +10,51 @@
     "website": "https://www.digivia.cz",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "consulting",
-    "ai_focus": ["automation", "other"],
-    "industries_served": ["nonprofit", "social_sector"],
+    "ai_focus": [
+      "automation",
+      "other"
+    ],
+    "industries_served": [
+      "nonprofit",
+      "social_sector"
+    ],
     "company_type": "nonprofit",
     "is_ai_native": false
   },
-
   "history": {
     "founded_year": null,
     "founders": [],
     "origin_story": "Operating as Sdružení VIA, z. ú. (IČ: 27013812), Digivia has been digitalizing Czech nonprofit organizations for 15+ years. The Digivia brand represents the digital services arm of Sdružení VIA.",
     "key_milestones": [
-      {"year": null, "event": "Founded as Sdružení VIA, z. ú."},
-      {"year": 2014, "event": "Earliest annual report available on website"},
-      {"year": 2025, "event": "Reached 10,000 organizations supported and 1.2 billion CZK in efficiency savings"}
+      {
+        "year": null,
+        "event": "Founded as Sdružení VIA, z. ú."
+      },
+      {
+        "year": 2014,
+        "event": "Earliest annual report available on website"
+      },
+      {
+        "year": 2025,
+        "event": "Reached 10,000 organizations supported and 1.2 billion CZK in efficiency savings"
+      }
     ]
   },
-
   "size": {
     "employees_range": "1-10",
     "employees_exact": null,
     "employee_source": "company_website",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -54,48 +67,105 @@
     "revenue_source": null,
     "business_model": "consulting_services"
   },
-
   "team": {
     "leadership": [
-      {"name": "Radka Bystřická", "role": "Digital Tools Consultant", "source": "company_website"},
-      {"name": "Jana Olejníková", "role": "Partnerships", "source": "company_website"},
-      {"name": "Veronika Bröcknerová", "role": "Communications", "source": "company_website"}
+      {
+        "name": "Radka Bystřická",
+        "role": "Digital Tools Consultant",
+        "source": "company_website"
+      },
+      {
+        "name": "Jana Olejníková",
+        "role": "Partnerships",
+        "source": "company_website"
+      },
+      {
+        "name": "Veronika Bröcknerová",
+        "role": "Communications",
+        "source": "company_website"
+      }
     ],
     "notable_people": [
-      {"name": "Lenka Čábelová", "role": "Board Member", "affiliation": "Microsoft", "source": "company_website"},
-      {"name": "Filip Dřímalka", "role": "Board Member", "affiliation": "Aibility", "source": "company_website"},
-      {"name": "Barbora Hořavová", "role": "Board Member", "affiliation": "Nadace OSF", "source": "company_website"},
-      {"name": "Matěj Lejsal", "role": "Auditor (Revizor)", "affiliation": "Sue Ryder", "source": "company_website"}
+      {
+        "name": "Lenka Čábelová",
+        "role": "Board Member",
+        "affiliation": "Microsoft",
+        "source": "company_website"
+      },
+      {
+        "name": "Filip Dřímalka",
+        "role": "Board Member",
+        "affiliation": "Aibility",
+        "source": "company_website"
+      },
+      {
+        "name": "Barbora Hořavová",
+        "role": "Board Member",
+        "affiliation": "Nadace OSF",
+        "source": "company_website"
+      },
+      {
+        "name": "Matěj Lejsal",
+        "role": "Auditor (Revizor)",
+        "affiliation": "Sue Ryder",
+        "source": "company_website"
+      }
     ]
   },
-
   "careers": {
     "careers_url": null,
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["microsoft_365", "google_workspace"],
+    "tech_stack": [
+      "microsoft_365",
+      "google_workspace"
+    ],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [],
-    "notable_clients": ["Sjednocená organizace nevidomých a slabozrakých ČR", "Klub vozíčkářů Petýrkova o.p.s.", "Centrum pro rodinu a sociální péči z.s."],
+    "notable_clients": [
+      "Sjednocená organizace nevidomých a slabozrakých ČR",
+      "Klub vozíčkářů Petýrkova o.p.s.",
+      "Centrum pro rodinu a sociální péči z.s."
+    ],
     "customer_count": 10000,
-    "partnerships": ["Microsoft", "Google", "TechSoup"]
+    "partnerships": [
+      "Microsoft",
+      "Google",
+      "TechSoup"
+    ]
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website"],
-    "fields_missing": ["founded_year", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor", "careers_url"],
+    "sources_used": [
+      "company_website"
+    ],
+    "fields_missing": [
+      "founded_year",
+      "employees_exact",
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "glassdoor",
+      "careers_url"
+    ],
     "needs_review": true,
     "notes": "Digivia is the brand name for digital services of Sdružení VIA, z. ú. (IČ: 27013812), a Czech nonprofit. It is not a typical AI startup — it is a nonprofit consultancy that helps other nonprofits adopt digital tools including AI/automation. No CNAIP URL was available. The 'founded_year' is unclear; the organization says 15+ years in 2025 but IČ suggests earlier registration. Annual reports available on site from 2014 onwards."
+  },
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Research/nonprofit entity — not subject to commercial displacement.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research/nonprofit — not subject to commercial market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Research/nonprofit — funded by grants, not venture capital.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "All risk categories not applicable (research/nonprofit entity)."
   }
 }

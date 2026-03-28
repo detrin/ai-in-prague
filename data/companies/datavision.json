@@ -3,7 +3,6 @@
   "name": "DataVision",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "High-end engineering and R&D company specializing in computer vision, AI engineering and image data processing solutions.",
     "description_long": "DataVision is a Prague-based high-end engineering and R&D company specializing in computer vision, image data processing and AI-driven solutions. The team designs and builds complex machine vision systems, develops custom AI models, manages large-scale visual data pipelines and delivers end-to-end automation for industrial, automotive, medical and enterprise applications. Founded in 2004, DataVision has 20+ years of experience helping global companies — including Stryker, Pirelli and Bank Creditas — unlock the full potential of image and video data.",
@@ -11,36 +10,52 @@
     "website": "https://www.datavision.software",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "consulting",
-    "ai_focus": ["cv", "automation", "ml_ops"],
-    "industries_served": ["industrial", "automotive", "medical", "enterprise"],
+    "ai_focus": [
+      "cv",
+      "automation",
+      "ml_ops"
+    ],
+    "industries_served": [
+      "industrial",
+      "automotive",
+      "medical",
+      "enterprise"
+    ],
     "company_type": "scaleup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2004,
-    "founders": ["Jindřich Hašek"],
+    "founders": [
+      "Jindřich Hašek"
+    ],
     "origin_story": "Founded on May 6, 2004 in Prague by Jindřich Hašek. Has grown over 20+ years into a specialist computer vision and AI engineering firm serving global clients across industrial, automotive, and medical sectors.",
     "key_milestones": [
-      {"year": 2004, "event": "Founded in Prague by Jindřich Hašek"},
-      {"year": 2024, "event": "Reported operations with 20-24 employees and 20+ years of experience"}
+      {
+        "year": 2004,
+        "event": "Founded in Prague by Jindřich Hašek"
+      },
+      {
+        "year": 2024,
+        "event": "Reported operations with 20-24 employees and 20+ years of experience"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": null,
     "employee_source": "emis.com",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -53,14 +68,16 @@
     "revenue_source": null,
     "business_model": "consulting_services"
   },
-
   "team": {
     "leadership": [
-      {"name": "Jindřich Hašek", "role": "Founder", "source": "linkedin.com (search snippet)"}
+      {
+        "name": "Jindřich Hašek",
+        "role": "Founder",
+        "source": "linkedin.com (search snippet)"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": "https://www.datavision.software/careers",
     "open_roles_count": null,
@@ -68,26 +85,52 @@
     "tech_stack": [],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [],
-    "notable_clients": ["Stryker", "Pirelli", "Bank Creditas"],
+    "notable_clients": [
+      "Stryker",
+      "Pirelli",
+      "Bank Creditas"
+    ],
     "customer_count": null,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["datavision.software (homepage)", "datavision.software/about-1", "datavision.software/careers", "cz.linkedin.com/company/datavisionsoftware", "emis.com (Czech company profile)", "atmoskop.cz"],
-    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor.rating", "glassdoor.review_count", "employees_exact", "open_roles_count", "tech_stack"],
+    "sources_used": [
+      "datavision.software (homepage)",
+      "datavision.software/about-1",
+      "datavision.software/careers",
+      "cz.linkedin.com/company/datavisionsoftware",
+      "emis.com (Czech company profile)",
+      "atmoskop.cz"
+    ],
+    "fields_missing": [
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "glassdoor.rating",
+      "glassdoor.review_count",
+      "employees_exact",
+      "open_roles_count",
+      "tech_stack"
+    ],
     "needs_review": false,
     "notes": "No CNAIP URL available. Founded May 6, 2004 per EMIS. Legal name Datavision S.R.O., registered at Slinkova 589/2, 15300 Prague. Employee count 20-24 per EMIS (2026). Founder Jindřich Hašek confirmed via LinkedIn search snippet. Clients (Stryker, Pirelli, Bank Creditas) from LinkedIn company description. EMIS reports 25.2% net sales revenue drop in 2024 and 11.02% decrease in total assets. Glassdoor page EI_IE3264760 found in search but not confirmed as Czech DataVision (may be US homonym). Careers page exists but Wix-based site renders via JS so open roles could not be extracted."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (cv) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No public funding information. Sustainability unclear.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
   }
 }

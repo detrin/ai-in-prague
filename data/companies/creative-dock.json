@@ -3,7 +3,6 @@
   "name": "Creative Dock",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Corporate venture builder helping large companies create new revenue streams using AI and innovation",
     "description_long": "Creative Dock is a corporate venture builder and business growth engine for large companies. With AI at their core, they bring practical solutions and hands-on expertise to every project, helping businesses create real value. They design, launch, and operate new ventures across industries including fintech, insurtech, retail, construction, manufacturing, and energy. They have built, launched, and operated more than 120 ventures across 40+ markets over 13 years.",
@@ -11,42 +10,82 @@
     "website": "https://www.creativedock.com",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "consulting",
-    "ai_focus": ["automation", "generative_ai", "other"],
-    "industries_served": ["fintech", "insurtech", "retail", "manufacturing", "energy", "construction"],
+    "ai_focus": [
+      "automation",
+      "generative_ai",
+      "other"
+    ],
+    "industries_served": [
+      "fintech",
+      "insurtech",
+      "retail",
+      "manufacturing",
+      "energy",
+      "construction"
+    ],
     "company_type": "scaleup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2012,
-    "founders": ["Martin Pejsa"],
+    "founders": [
+      "Martin Pejsa"
+    ],
     "origin_story": "Founded in Prague in 2012 by Martin Pejsa as a corporate venture builder. Over 13 years grew to 500+ specialists across Europe and MENA, building 120+ ventures for large corporations.",
     "key_milestones": [
-      {"year": 2012, "event": "Founded in Prague by Martin Pejsa"},
-      {"year": 2024, "event": "Received EcoVadis Silver Medal for the 2nd consecutive year for responsible, sustainable growth"},
-      {"year": 2025, "event": "Expanded presence into North America"},
-      {"year": 2026, "event": "Attending GCVI 2026 in Monterey as global corporate venture builder"}
+      {
+        "year": 2012,
+        "event": "Founded in Prague by Martin Pejsa"
+      },
+      {
+        "year": 2024,
+        "event": "Received EcoVadis Silver Medal for the 2nd consecutive year for responsible, sustainable growth"
+      },
+      {
+        "year": 2025,
+        "event": "Expanded presence into North America"
+      },
+      {
+        "year": 2026,
+        "event": "Attending GCVI 2026 in Monterey as global corporate venture builder"
+      }
     ]
   },
-
   "size": {
     "employees_range": "501-1000",
     "employees_exact": null,
     "employee_source": "linkedin",
     "office_count": 5
   },
-
   "offices": [
-    {"city": "Zürich", "country": "CH", "is_hq": true},
-    {"city": "Prague", "country": "CZ", "is_hq": false},
-    {"city": "Munich", "country": "DE", "is_hq": false},
-    {"city": "Berlin", "country": "DE", "is_hq": false},
-    {"city": "Riyadh", "country": "SA", "is_hq": false}
+    {
+      "city": "Zürich",
+      "country": "CH",
+      "is_hq": true
+    },
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": false
+    },
+    {
+      "city": "Munich",
+      "country": "DE",
+      "is_hq": false
+    },
+    {
+      "city": "Berlin",
+      "country": "DE",
+      "is_hq": false
+    },
+    {
+      "city": "Riyadh",
+      "country": "SA",
+      "is_hq": false
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -59,55 +98,131 @@
     "revenue_source": null,
     "business_model": "consulting_services"
   },
-
   "team": {
     "leadership": [
-      {"name": "Martin Pejsa", "role": "Founder and Executive Chairman", "source": "company_website"},
-      {"name": "Gabriela Teissing", "role": "CEO", "source": "company_website"},
-      {"name": "Martin Halasz", "role": "COO", "source": "company_website"},
-      {"name": "Miroslav Esser", "role": "CFO", "source": "company_website"},
-      {"name": "Iveta Kutmanova", "role": "Chief People Officer", "source": "company_website"},
-      {"name": "Serge Dupaux", "role": "Director Foresight, Innovation and AI", "source": "company_website"}
+      {
+        "name": "Martin Pejsa",
+        "role": "Founder and Executive Chairman",
+        "source": "company_website"
+      },
+      {
+        "name": "Gabriela Teissing",
+        "role": "CEO",
+        "source": "company_website"
+      },
+      {
+        "name": "Martin Halasz",
+        "role": "COO",
+        "source": "company_website"
+      },
+      {
+        "name": "Miroslav Esser",
+        "role": "CFO",
+        "source": "company_website"
+      },
+      {
+        "name": "Iveta Kutmanova",
+        "role": "Chief People Officer",
+        "source": "company_website"
+      },
+      {
+        "name": "Serge Dupaux",
+        "role": "Director Foresight, Innovation and AI",
+        "source": "company_website"
+      }
     ],
     "notable_people": [
-      {"name": "Heinrich Arnold", "role": "Anchor Partner", "source": "company_website"},
-      {"name": "Helena Taxova", "role": "Chief of Marketing & Commercial Engine", "source": "company_website"},
-      {"name": "Daniel Buning", "role": "Head of Hardware and Physical Innovation", "source": "company_website"}
+      {
+        "name": "Heinrich Arnold",
+        "role": "Anchor Partner",
+        "source": "company_website"
+      },
+      {
+        "name": "Helena Taxova",
+        "role": "Chief of Marketing & Commercial Engine",
+        "source": "company_website"
+      },
+      {
+        "name": "Daniel Buning",
+        "role": "Head of Hardware and Physical Innovation",
+        "source": "company_website"
+      }
     ]
   },
-
   "careers": {
     "careers_url": "https://www.creativedock.com/careers",
     "open_roles_count": null,
     "open_roles": [
-      {"title": "SEO & AI Specialist", "department": "marketing", "location": "Prague"},
-      {"title": "L2 Support Specialist", "department": "engineering", "location": "Prague"},
-      {"title": "Talent Acquisition Specialist", "department": "people", "location": "Prague"},
-      {"title": "IT Business Analyst", "department": "technology", "location": "Prague"}
+      {
+        "title": "SEO & AI Specialist",
+        "department": "marketing",
+        "location": "Prague"
+      },
+      {
+        "title": "L2 Support Specialist",
+        "department": "engineering",
+        "location": "Prague"
+      },
+      {
+        "title": "Talent Acquisition Specialist",
+        "department": "people",
+        "location": "Prague"
+      },
+      {
+        "title": "IT Business Analyst",
+        "department": "technology",
+        "location": "Prague"
+      }
     ],
     "tech_stack": [],
     "hiring_signals": "few_roles"
   },
-
   "glassdoor": {
     "rating": 3.4,
     "review_count": 71,
     "recommend_pct": null,
     "glassdoor_url": "https://www.glassdoor.com/Reviews/Creative-Dock-Reviews-E.htm"
   },
-
   "recognition": {
-    "awards": ["EcoVadis Silver Medal 2024 (2nd year in a row)", "Top 15% of responsibly run companies per EcoVadis"],
-    "notable_clients": ["Ooredoo", "Ahold Delhaize", "Raiffeisenbank", "Veolia"],
+    "awards": [
+      "EcoVadis Silver Medal 2024 (2nd year in a row)",
+      "Top 15% of responsibly run companies per EcoVadis"
+    ],
+    "notable_clients": [
+      "Ooredoo",
+      "Ahold Delhaize",
+      "Raiffeisenbank",
+      "Veolia"
+    ],
     "customer_count": null,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "high",
-    "sources_used": ["company_website", "linkedin", "search_snippets"],
-    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "open_roles_count", "recommend_pct", "tech_stack"],
+    "sources_used": [
+      "company_website",
+      "linkedin",
+      "search_snippets"
+    ],
+    "fields_missing": [
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "employees_exact",
+      "open_roles_count",
+      "recommend_pct",
+      "tech_stack"
+    ],
     "needs_review": false,
     "notes": "HQ is officially Zürich, Switzerland per LinkedIn, though company originated in Prague and maintains significant Prague office. Founded 2012, self-owned (no external investors listed). Company size per LinkedIn: 501-1,000 employees; website states 500+ specialists. Glassdoor rating from search snippets (various regional sites show 3.3-3.4). Not primarily an AI company but describes AI as core to their venture-building approach."
+  },
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Consulting model is vulnerable to AI automation of services, but scale and client relationships provide buffer.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No public funding information. Sustainability unclear.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
   }
 }

@@ -3,7 +3,6 @@
   "name": "Deepnote",
   "category": "company",
   "scraped_at": "2026-03-28T14:10:00Z",
-
   "overview": {
     "description": "Collaborative data science and analytics notebook platform for data teams",
     "description_long": "Deepnote is a cloud-based data workspace where agents and humans work together. Built on top of the Jupyter standard, it provides real-time collaboration, AI-powered code generation and analysis, integrated Python/SQL/R support, dashboards and data apps, scheduled notebooks, GPU access, and 100+ data source integrations. Used by 500,000+ data professionals and 80+ of the top 100 universities worldwide. Recently open-sourced.",
@@ -11,41 +10,76 @@
     "website": "https://deepnote.com",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["data_engineering", "ml_ops", "generative_ai"],
-    "industries_served": ["technology", "finance", "biotech", "gaming", "education", "research"],
+    "ai_focus": [
+      "data_engineering",
+      "ml_ops",
+      "generative_ai"
+    ],
+    "industries_served": [
+      "technology",
+      "finance",
+      "biotech",
+      "gaming",
+      "education",
+      "research"
+    ],
     "company_type": "scaleup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2019,
-    "founders": ["Jakub Jurovych", "Jan Matas"],
+    "founders": [
+      "Jakub Jurovych",
+      "Jan Matas"
+    ],
     "origin_story": "Founded in early 2019 by Czech engineers Jakub Jurovych (ex-Mozilla) and Jan Matas who wanted to fix broken collaboration in data science tooling. Joined Y Combinator Summer 2019 batch.",
     "key_milestones": [
-      {"year": 2019, "event": "Founded; accepted into Y Combinator Summer 2019 batch"},
-      {"year": 2020, "event": "Raised $3.8M seed round led by Index Ventures and Accel (Feb 2020)"},
-      {"year": 2022, "event": "Raised $20M Series A co-led by Index Ventures and Accel (Jan 2022)"},
-      {"year": 2022, "event": "Reached usage in 80+ of the top 100 universities globally"},
-      {"year": 2025, "event": "Recognized by Gartner in 2025 Market Guide for Augmented Analytics"},
-      {"year": 2026, "event": "Announced open-source release of core platform"}
+      {
+        "year": 2019,
+        "event": "Founded; accepted into Y Combinator Summer 2019 batch"
+      },
+      {
+        "year": 2020,
+        "event": "Raised $3.8M seed round led by Index Ventures and Accel (Feb 2020)"
+      },
+      {
+        "year": 2022,
+        "event": "Raised $20M Series A co-led by Index Ventures and Accel (Jan 2022)"
+      },
+      {
+        "year": 2022,
+        "event": "Reached usage in 80+ of the top 100 universities globally"
+      },
+      {
+        "year": 2025,
+        "event": "Recognized by Gartner in 2025 Market Guide for Augmented Analytics"
+      },
+      {
+        "year": 2026,
+        "event": "Announced open-source release of core platform"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": 19,
     "employee_source": "linkedin",
     "office_count": 2
   },
-
   "offices": [
-    {"city": "San Francisco", "country": "US", "is_hq": true},
-    {"city": "Prague", "country": "CZ", "is_hq": false}
+    {
+      "city": "San Francisco",
+      "country": "US",
+      "is_hq": true
+    },
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": false
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -58,63 +92,142 @@
         "type": "Seed",
         "amount_usd": 3800000,
         "lead_investor": "Index Ventures, Accel",
-        "investors": ["Index Ventures", "Accel", "Y Combinator", "Credo Ventures", "Greg Brockman", "Dylan Field", "Elad Gil", "Naval Ravikant", "Daniel Gross", "Lachy Groom"]
+        "investors": [
+          "Index Ventures",
+          "Accel",
+          "Y Combinator",
+          "Credo Ventures",
+          "Greg Brockman",
+          "Dylan Field",
+          "Elad Gil",
+          "Naval Ravikant",
+          "Daniel Gross",
+          "Lachy Groom"
+        ]
       },
       {
         "date": "2022-01",
         "type": "Series A",
         "amount_usd": 20000000,
         "lead_investor": "Index Ventures, Accel",
-        "investors": ["Index Ventures", "Accel", "Y Combinator", "Credo Ventures"]
+        "investors": [
+          "Index Ventures",
+          "Accel",
+          "Y Combinator",
+          "Credo Ventures"
+        ]
       }
     ],
-    "investors": ["Index Ventures", "Accel", "Y Combinator", "Credo Ventures"],
+    "investors": [
+      "Index Ventures",
+      "Accel",
+      "Y Combinator",
+      "Credo Ventures"
+    ],
     "revenue_estimate_usd": null,
     "revenue_source": null,
     "business_model": "freemium"
   },
-
   "team": {
     "leadership": [
-      {"name": "Jakub Jurovych", "role": "Co-founder & CEO", "source": "techcrunch.com"},
-      {"name": "Jan Matas", "role": "Co-founder & CTO", "source": "techcrunch.com"},
-      {"name": "Filip Stollar", "role": "Head of Design", "source": "techcrunch.com"}
+      {
+        "name": "Jakub Jurovych",
+        "role": "Co-founder & CEO",
+        "source": "techcrunch.com"
+      },
+      {
+        "name": "Jan Matas",
+        "role": "Co-founder & CTO",
+        "source": "techcrunch.com"
+      },
+      {
+        "name": "Filip Stollar",
+        "role": "Head of Design",
+        "source": "techcrunch.com"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": "https://deepnote.com/careers",
     "open_roles_count": 2,
     "open_roles": [
-      {"title": "Technical Writer (AI & Data)", "department": "content", "location": "Remote (US)"},
-      {"title": "Software Engineer", "department": "engineering", "location": "Prague / Remote"}
+      {
+        "title": "Technical Writer (AI & Data)",
+        "department": "content",
+        "location": "Remote (US)"
+      },
+      {
+        "title": "Software Engineer",
+        "department": "engineering",
+        "location": "Prague / Remote"
+      }
     ],
-    "tech_stack": ["python", "sql", "r", "jupyter", "typescript"],
+    "tech_stack": [
+      "python",
+      "sql",
+      "r",
+      "jupyter",
+      "typescript"
+    ],
     "hiring_signals": "few_roles"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [
       "Gartner 2025 Market Guide for Augmented Analytics (industry leader)"
     ],
-    "notable_clients": ["ByteDance", "Discord", "Gusto", "SoundCloud", "Airbase", "Spendesk", "foodpanda", "DAZN", "Chartbeat", "MoneyLion"],
+    "notable_clients": [
+      "ByteDance",
+      "Discord",
+      "Gusto",
+      "SoundCloud",
+      "Airbase",
+      "Spendesk",
+      "foodpanda",
+      "DAZN",
+      "Chartbeat",
+      "MoneyLion"
+    ],
     "customer_count": null,
-    "partnerships": ["Y Combinator (S19)"]
+    "partnerships": [
+      "Y Combinator (S19)"
+    ]
   },
-
   "metadata": {
     "data_quality": "high",
-    "sources_used": ["ycombinator.com", "techcrunch.com (Series A article 2022)", "techcrunch.com (Seed article 2020)", "linkedin.com", "deepnote.com (homepage)", "deepnote.com/pricing", "deepnote.com/customers"],
-    "fields_missing": ["glassdoor.rating", "glassdoor.review_count", "glassdoor.recommend_pct", "glassdoor.glassdoor_url", "revenue_estimate_usd"],
+    "sources_used": [
+      "ycombinator.com",
+      "techcrunch.com (Series A article 2022)",
+      "techcrunch.com (Seed article 2020)",
+      "linkedin.com",
+      "deepnote.com (homepage)",
+      "deepnote.com/pricing",
+      "deepnote.com/customers"
+    ],
+    "fields_missing": [
+      "glassdoor.rating",
+      "glassdoor.review_count",
+      "glassdoor.recommend_pct",
+      "glassdoor.glassdoor_url",
+      "revenue_estimate_usd"
+    ],
     "needs_review": false,
     "notes": "Company was founded by Czech engineers and is in the Prague AI ecosystem catalog, but official HQ is San Francisco per LinkedIn. Remote-first with a Prague engineering office. Total funding calculated as seed ($3.8M) + Series A ($20M) = $23.8M. Employee count of 19 from LinkedIn as of March 2026. The company recently open-sourced its core platform. 500,000+ users including 80+ of the top 100 universities."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (data_engineering) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-funded with 2 known funding round(s). Has runway for continued operations.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
   }
 }

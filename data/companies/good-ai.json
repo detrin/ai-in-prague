@@ -15,9 +15,19 @@
   "classification": {
     "business_type": "research",
     "company_type": "research_lab",
-    "ai_focus": ["generative_ai", "automation"],
+    "ai_focus": [
+      "generative_ai",
+      "automation"
+    ],
     "business_model": "other",
-    "tags": ["agi", "artificial-general-intelligence", "llm-agents", "ai-brain", "ai-research", "ai-grants"]
+    "tags": [
+      "agi",
+      "artificial-general-intelligence",
+      "llm-agents",
+      "ai-brain",
+      "ai-research",
+      "ai-grants"
+    ]
   },
   "history": {
     "founded_year": 2014,
@@ -69,7 +79,9 @@
         "date": "2014",
         "round": "Self-funded",
         "amount_usd": 10000000,
-        "investors": ["Marek Rosa (personal investment)"],
+        "investors": [
+          "Marek Rosa (personal investment)"
+        ],
         "source": "goodai.com/about"
       }
     ],
@@ -129,5 +141,15 @@
     ],
     "notes": "GoodAI website (goodai.com) had SSL certificate issues preventing direct scraping. Company data primarily self-funded by founder Marek Rosa's $10M personal investment. Not to be confused with 'Goodai Global', a Korean cosmetics company. The About page states founding in 2014 while Tracxn lists 2015. Revenue figure from ZoomInfo is unverified and may be an estimate. Marek Rosa also runs Keen Software House, the game studio behind Space Engineers.",
     "last_updated": "2026-03-28"
+  },
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Research/nonprofit entity — not subject to commercial displacement.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research/nonprofit — not subject to commercial market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Research/nonprofit — funded by grants, not venture capital.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "All risk categories not applicable (research/nonprofit entity)."
   }
 }

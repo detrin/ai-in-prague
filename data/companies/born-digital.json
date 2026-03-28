@@ -3,7 +3,6 @@
   "name": "Born Digital",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "All-in-one AI agent platform for digital humans, conversational AI, and customer experience automation",
     "description_long": "Born Digital is a Czech AI company founded in 2019 by contact center experts and AI enthusiasts. It provides an all-in-one platform for building and deploying AI agents and digital humans that automate customer service, sales, and marketing activities via chat, voice, and avatar-based interactions. Its three core products are: AI Agent (conversational), Customer Insight Analytics, and Digital Human. Trusted by 150+ companies across 15 countries.",
@@ -11,38 +10,62 @@
     "website": "https://borndigital.ai",
     "cnaip_url": "https://www.cnaip.cz/cs/entity/born-digital"
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["nlp", "speech", "generative_ai", "automation"],
-    "industries_served": ["finance", "energy", "telecom", "e-commerce", "insurance", "healthcare", "public_sector"],
+    "ai_focus": [
+      "nlp",
+      "speech",
+      "generative_ai",
+      "automation"
+    ],
+    "industries_served": [
+      "finance",
+      "energy",
+      "telecom",
+      "e-commerce",
+      "insurance",
+      "healthcare",
+      "public_sector"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2019,
     "founders": [],
     "origin_story": "In 2019, customer contact center experts teamed up with artificial intelligence enthusiasts and Born Digital was born, with a mission to provide companies with advanced digital transformation of contact centers.",
     "key_milestones": [
-      {"year": 2019, "event": "Founded in Prague by contact center and AI experts"},
-      {"year": 2025, "event": "Recognized by Gartner in the 2025 Market Guide for Digital Humans"},
-      {"year": 2025, "event": "EU-funded project on LLMs for knowledge base processing (NextGenerationEU)"},
-      {"year": 2025, "event": "Expanded to 150+ customers in 15 countries"}
+      {
+        "year": 2019,
+        "event": "Founded in Prague by contact center and AI experts"
+      },
+      {
+        "year": 2025,
+        "event": "Recognized by Gartner in the 2025 Market Guide for Digital Humans"
+      },
+      {
+        "year": 2025,
+        "event": "EU-funded project on LLMs for knowledge base processing (NextGenerationEU)"
+      },
+      {
+        "year": 2025,
+        "event": "Expanded to 150+ customers in 15 countries"
+      }
     ]
   },
-
   "size": {
     "employees_range": "51-200",
     "employees_exact": 70,
     "employee_source": "company_website",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -55,54 +78,135 @@
     "revenue_source": null,
     "business_model": "subscription_saas"
   },
-
   "team": {
     "leadership": [
-      {"name": "Tomáš Malovec", "role": "CEO", "source": "company_website"},
-      {"name": "Zenon Sliwka", "role": "CSO", "source": "company_website"},
-      {"name": "David Dudáš", "role": "CTO", "source": "company_website"},
-      {"name": "Dominika Dlasková", "role": "COO", "source": "company_website"},
-      {"name": "Michal Jurčo", "role": "CPO (Conversational AI)", "source": "company_website"},
-      {"name": "Ludvika Moravcova", "role": "Head of Delivery", "source": "company_website"},
-      {"name": "Simona Galková", "role": "Head of Product (Customer Insight Analytics)", "source": "company_website"},
-      {"name": "Kristýna Hrochová", "role": "Head of PR & Marketing", "source": "company_website"}
+      {
+        "name": "Tomáš Malovec",
+        "role": "CEO",
+        "source": "company_website"
+      },
+      {
+        "name": "Zenon Sliwka",
+        "role": "CSO",
+        "source": "company_website"
+      },
+      {
+        "name": "David Dudáš",
+        "role": "CTO",
+        "source": "company_website"
+      },
+      {
+        "name": "Dominika Dlasková",
+        "role": "COO",
+        "source": "company_website"
+      },
+      {
+        "name": "Michal Jurčo",
+        "role": "CPO (Conversational AI)",
+        "source": "company_website"
+      },
+      {
+        "name": "Ludvika Moravcova",
+        "role": "Head of Delivery",
+        "source": "company_website"
+      },
+      {
+        "name": "Simona Galková",
+        "role": "Head of Product (Customer Insight Analytics)",
+        "source": "company_website"
+      },
+      {
+        "name": "Kristýna Hrochová",
+        "role": "Head of PR & Marketing",
+        "source": "company_website"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": "https://borndigital.ai/careers",
     "open_roles_count": 5,
     "open_roles": [
-      {"title": "Product Owner", "department": "product", "location": "Prague"},
-      {"title": "DevOps Engineer (Medior)", "department": "engineering", "location": "Prague"},
-      {"title": "AI Business Consultant", "department": "consulting", "location": "Prague"},
-      {"title": "Integration Engineer", "department": "engineering", "location": "Prague"},
-      {"title": "AI Analytics Consultant", "department": "data", "location": "Prague"}
+      {
+        "title": "Product Owner",
+        "department": "product",
+        "location": "Prague"
+      },
+      {
+        "title": "DevOps Engineer (Medior)",
+        "department": "engineering",
+        "location": "Prague"
+      },
+      {
+        "title": "AI Business Consultant",
+        "department": "consulting",
+        "location": "Prague"
+      },
+      {
+        "title": "Integration Engineer",
+        "department": "engineering",
+        "location": "Prague"
+      },
+      {
+        "title": "AI Analytics Consultant",
+        "department": "data",
+        "location": "Prague"
+      }
     ],
-    "tech_stack": ["python", "javascript", "typescript", "react", "nodejs", "graphql", "llm", "elasticsearch", "postgresql", "mongodb", "fasttext", "scikit-learn"],
+    "tech_stack": [
+      "python",
+      "javascript",
+      "typescript",
+      "react",
+      "nodejs",
+      "graphql",
+      "llm",
+      "elasticsearch",
+      "postgresql",
+      "mongodb",
+      "fasttext",
+      "scikit-learn"
+    ],
     "hiring_signals": "actively_hiring"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
-    "awards": ["Gartner 2025 Market Guide for Digital Humans"],
+    "awards": [
+      "Gartner 2025 Market Guide for Digital Humans"
+    ],
     "notable_clients": [],
     "customer_count": 150,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "high",
-    "sources_used": ["cnaip", "company_website", "linkedin"],
-    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "founders"],
+    "sources_used": [
+      "cnaip",
+      "company_website",
+      "linkedin"
+    ],
+    "fields_missing": [
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "glassdoor_rating",
+      "founders"
+    ],
     "needs_review": false,
     "notes": "Founded 2019. 70 employees globally per About page. Clients include luxury patisseries, Dubai security forces, and the world's largest ATM manufacturer. Two EU-funded R&D projects (NextGenerationEU). Address: Eberlova 1483/3, 155 00 Praha."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (speech) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No public funding information. Sustainability unclear.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
   }
 }

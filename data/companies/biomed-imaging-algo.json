@@ -3,7 +3,6 @@
   "name": "Biomedical Imaging Algorithms",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Academic research group developing ML and CV algorithms for medical and biological image analysis at CTU Prague",
     "description_long": "The Biomedical Imaging Algorithms (BIA) group, led by Full Professor Jan Kybic at the Department of Cybernetics, Faculty of Electrical Engineering, Czech Technical University in Prague. The group's research mainly involves algorithms for medical and biological image processing, including segmentation, registration, classification, and detection applied to modalities such as CT, MRI, ultrasound, and microscopy. Active projects include embryo quality estimation from time-lapse images for assisted reproduction, medical image segmentation leveraging expert knowledge, and analysis of ultrasound images of the knee.",
@@ -11,39 +10,62 @@
     "website": "https://cmp.felk.cvut.cz/~kybic/index.html",
     "cnaip_url": "https://www.cnaip.cz/cs/entity/biomedical-imaging-algorithms"
   },
-
   "classification": {
     "business_type": "research",
-    "ai_focus": ["cv", "ml_ops"],
-    "industries_served": ["healthcare", "pharma", "biotech"],
+    "ai_focus": [
+      "cv",
+      "ml_ops"
+    ],
+    "industries_served": [
+      "healthcare",
+      "pharma",
+      "biotech"
+    ],
     "company_type": "research_lab",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2003,
-    "founders": ["Jan Kybic"],
+    "founders": [
+      "Jan Kybic"
+    ],
     "origin_story": "Founded by Jan Kybic upon joining CTU Prague as a senior researcher at the Center for Machine Perception (CMP) in 2003, after a postdoc at INRIA and a PhD at EPFL. The BIA group focuses on applying algorithmic and ML techniques to biomedical image analysis.",
     "key_milestones": [
-      {"year": 2003, "event": "Jan Kybic joins CTU Prague as senior researcher, establishes BIA group"},
-      {"year": 2011, "event": "Jan Kybic becomes Associate Professor at CTU"},
-      {"year": 2015, "event": "Jan Kybic becomes Full Professor at CTU"},
-      {"year": 2016, "event": "General co-chair of ISBI 2016 (IEEE International Symposium on Biomedical Imaging)"},
-      {"year": 2024, "event": "Active grants: Czech Health Research Council (2024-2028) and Czech Science Foundation (2026-2028)"}
+      {
+        "year": 2003,
+        "event": "Jan Kybic joins CTU Prague as senior researcher, establishes BIA group"
+      },
+      {
+        "year": 2011,
+        "event": "Jan Kybic becomes Associate Professor at CTU"
+      },
+      {
+        "year": 2015,
+        "event": "Jan Kybic becomes Full Professor at CTU"
+      },
+      {
+        "year": 2016,
+        "event": "General co-chair of ISBI 2016 (IEEE International Symposium on Biomedical Imaging)"
+      },
+      {
+        "year": 2024,
+        "event": "Active grants: Czech Health Research Council (2024-2028) and Czech Science Foundation (2026-2028)"
+      }
     ]
   },
-
   "size": {
     "employees_range": "1-10",
     "employees_exact": null,
     "employee_source": "company_website",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -56,48 +78,100 @@
     "revenue_source": null,
     "business_model": "other"
   },
-
   "team": {
     "leadership": [
-      {"name": "Jan Kybic", "role": "Group Head / Full Professor", "source": "cnaip"}
+      {
+        "name": "Jan Kybic",
+        "role": "Group Head / Full Professor",
+        "source": "cnaip"
+      }
     ],
     "notable_people": [
-      {"name": "Denis Barucic", "role": "PhD Student", "source": "company_website"}
+      {
+        "name": "Denis Barucic",
+        "role": "PhD Student",
+        "source": "company_website"
+      }
     ]
   },
-
   "careers": {
     "careers_url": "https://cmp.felk.cvut.cz/~kybic/proposed.html",
     "open_roles_count": 4,
     "open_roles": [
-      {"title": "PhD Student – Embryo Quality Estimation from Time-Lapse Images", "department": "research", "location": "Prague"},
-      {"title": "Postdoc – Embryo Quality Estimation from Time-Lapse Images", "department": "research", "location": "Prague"},
-      {"title": "PhD Student – Medical Image Segmentation with Expert Knowledge", "department": "research", "location": "Prague"},
-      {"title": "Postdoc – Medical Image Segmentation with Expert Knowledge", "department": "research", "location": "Prague"}
+      {
+        "title": "PhD Student – Embryo Quality Estimation from Time-Lapse Images",
+        "department": "research",
+        "location": "Prague"
+      },
+      {
+        "title": "Postdoc – Embryo Quality Estimation from Time-Lapse Images",
+        "department": "research",
+        "location": "Prague"
+      },
+      {
+        "title": "PhD Student – Medical Image Segmentation with Expert Knowledge",
+        "department": "research",
+        "location": "Prague"
+      },
+      {
+        "title": "Postdoc – Medical Image Segmentation with Expert Knowledge",
+        "department": "research",
+        "location": "Prague"
+      }
     ],
-    "tech_stack": ["python", "machine_learning", "image_processing", "deep_learning", "computer_vision"],
+    "tech_stack": [
+      "python",
+      "machine_learning",
+      "image_processing",
+      "deep_learning",
+      "computer_vision"
+    ],
     "hiring_signals": "actively_hiring"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
-    "awards": ["General co-chair ISBI 2016", "Former associate editor IEEE Transactions on Medical Imaging"],
-    "notable_clients": ["IKEM (Institut klinické a experimentální medicíny)"],
+    "awards": [
+      "General co-chair ISBI 2016",
+      "Former associate editor IEEE Transactions on Medical Imaging"
+    ],
+    "notable_clients": [
+      "IKEM (Institut klinické a experimentální medicíny)"
+    ],
     "customer_count": null,
-    "partnerships": ["IKEM Prague", "Masaryk University", "Charles University"]
+    "partnerships": [
+      "IKEM Prague",
+      "Masaryk University",
+      "Charles University"
+    ]
   },
-
   "metadata": {
     "data_quality": "high",
-    "sources_used": ["cnaip", "company_website"],
-    "fields_missing": ["employees_exact", "funding_total_usd", "glassdoor", "revenue_estimate_usd"],
+    "sources_used": [
+      "cnaip",
+      "company_website"
+    ],
+    "fields_missing": [
+      "employees_exact",
+      "funding_total_usd",
+      "glassdoor",
+      "revenue_estimate_usd"
+    ],
     "needs_review": false,
     "notes": "This is an academic research group at CTU Prague (Czech Technical University), not a company. Listed under 'company' category in the source index, but CNAIP classifies it as a research group. PI Jan Kybic (born 1974, Prague) is a Full Professor and Head of Department of Cybernetics. Current active grants: Czech Health Research Council 24-08-00048 (2024-2028, oocyte quality assessment for ART), Czech Science Foundation 26-23522S (2026-2028, medical image segmentation). Contact: kybic@fel.cvut.cz. Address: Technická 2, 166 27 Praha. Google Scholar: https://scholar.google.com/citations?hl=en&user=QwIATDoAAAAJ. ORCID: https://orcid.org/0000-0002-9363-4947."
+  },
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Research/nonprofit entity — not subject to commercial displacement.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research/nonprofit — not subject to commercial market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Research/nonprofit — funded by grants, not venture capital.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "All risk categories not applicable (research/nonprofit entity)."
   }
 }

@@ -3,7 +3,6 @@
   "name": "Bird & Bird",
   "category": "company",
   "scraped_at": "2026-03-28T12:35:00Z",
-
   "overview": {
     "description": "International law firm specialising in technology and digital sectors, including AI legal services",
     "description_long": "Bird & Bird is a global law firm founded in London in 1846, with a strong specialism in technology, media, communications and life sciences. The Prague office, opened in 2008, advises clients on AI regulation, EU AI Act compliance, intellectual property for AI, data protection and privacy. The firm publishes an AI Regulatory Horizon Tracker covering Czech Republic AI law developments and the draft Czech Act on Artificial Intelligence.",
@@ -11,39 +10,65 @@
     "website": "https://www.twobirds.com",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "consulting",
-    "ai_focus": ["other"],
-    "industries_served": ["legal", "technology", "financial_services", "life_sciences", "media"],
+    "ai_focus": [
+      "other"
+    ],
+    "industries_served": [
+      "legal",
+      "technology",
+      "financial_services",
+      "life_sciences",
+      "media"
+    ],
     "company_type": "enterprise",
     "is_ai_native": false
   },
-
   "history": {
     "founded_year": 1846,
-    "founders": ["William Frederick Wratislaw Bird", "James Moore"],
+    "founders": [
+      "William Frederick Wratislaw Bird",
+      "James Moore"
+    ],
     "origin_story": "Founded in London in 1846; history stretches back to the 1830s. Prague office opened in 2008 alongside offices in Hungary, Poland and Slovakia.",
     "key_milestones": [
-      {"year": 1846, "event": "Founded in London"},
-      {"year": 2008, "event": "Prague office opened"},
-      {"year": 2013, "event": "Merged with Danish firm BvHD, completing Nordic coverage"},
-      {"year": 2014, "event": "Merged with Truman Hoyle to open first Australian office"}
+      {
+        "year": 1846,
+        "event": "Founded in London"
+      },
+      {
+        "year": 2008,
+        "event": "Prague office opened"
+      },
+      {
+        "year": 2013,
+        "event": "Merged with Danish firm BvHD, completing Nordic coverage"
+      },
+      {
+        "year": 2014,
+        "event": "Merged with Truman Hoyle to open first Australian office"
+      }
     ]
   },
-
   "size": {
     "employees_range": "1001-5000",
     "employees_exact": null,
     "employee_source": "wikipedia",
     "office_count": 34
   },
-
   "offices": [
-    {"city": "London", "country": "GB", "is_hq": true},
-    {"city": "Prague", "country": "CZ", "is_hq": false}
+    {
+      "city": "London",
+      "country": "GB",
+      "is_hq": true
+    },
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": false
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -56,14 +81,16 @@
     "revenue_source": null,
     "business_model": "consulting_services"
   },
-
   "team": {
     "leadership": [
-      {"name": "Christian Bartsch", "role": "Managing Partner", "source": "wikipedia"}
+      {
+        "name": "Christian Bartsch",
+        "role": "Managing Partner",
+        "source": "wikipedia"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": "https://www.twobirds.com/en/careers/czech-republic",
     "open_roles_count": null,
@@ -71,26 +98,42 @@
     "tech_stack": [],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [],
     "notable_clients": [],
     "customer_count": null,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "wikipedia"],
-    "fields_missing": ["glassdoor_rating", "revenue_estimate_usd", "open_roles", "leadership_prague", "notable_clients"],
+    "sources_used": [
+      "company_website",
+      "wikipedia"
+    ],
+    "fields_missing": [
+      "glassdoor_rating",
+      "revenue_estimate_usd",
+      "open_roles",
+      "leadership_prague",
+      "notable_clients"
+    ],
     "needs_review": false,
     "notes": "Bird & Bird is a global law firm (not an AI tech company) included in the Prague AI ecosystem for its AI legal services practice. The Prague office (Karolinska 707/7, 186 00 Prague 8 Karlin) advises on EU AI Act, Czech draft AI legislation, AI IP and data protection. Employee count of 3,000+ and 1,700+ attorneys refers to global firm; Czech Republic office size unknown. The firm publishes an AI Regulatory Horizon Tracker for Czech Republic. Glassdoor blocked; no rating data available."
+  },
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Consulting model is vulnerable to AI automation of services, but scale and client relationships provide buffer.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Limited public information on market traction.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Established enterprise/public company with sustainable funding.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
   }
 }

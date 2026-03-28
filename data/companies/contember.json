@@ -3,7 +3,6 @@
   "name": "Contember",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Open-source full-stack TypeScript framework, AI-powered SaaS products, and custom business applications",
     "description_long": "Contember is a Prague & Dublin-based team that builds open-source frameworks, AI-powered products, and custom business applications. Their core product is the Contember Framework — an open-source, full-stack TypeScript platform that auto-generates GraphQL APIs, auth, and admin UIs from a data model. They also ship Nua Site (AI-powered website editing by chat) and Redo My Site (AI rebuilds websites with Astro + Tailwind). Their services arm delivers custom CRMs, ERPs, internal tools, and AI-powered apps for clients in manufacturing, logistics, finance, e-commerce, and publishing.",
@@ -11,40 +10,69 @@
     "website": "https://www.contember.com",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "product",
-    "ai_focus": ["generative_ai", "automation"],
-    "industries_served": ["manufacturing", "logistics", "finance", "e-commerce", "publishing"],
+    "ai_focus": [
+      "generative_ai",
+      "automation"
+    ],
+    "industries_served": [
+      "manufacturing",
+      "logistics",
+      "finance",
+      "e-commerce",
+      "publishing"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2021,
-    "founders": ["Honza Sladek"],
+    "founders": [
+      "Honza Sladek"
+    ],
     "origin_story": "Founded in Prague when the team got tired of rebuilding the same boilerplate on every project — auth, permissions, APIs, database migrations. Built Contember Framework to solve the problem, then started shipping client apps and SaaS products on top of it.",
     "key_milestones": [
-      {"year": 2019, "event": "GitHub organisation created; early development of Contember framework begins"},
-      {"year": 2020, "event": "Contember open-source repo created on GitHub"},
-      {"year": 2021, "event": "Company officially established in Prague & Dublin as Contember Limited"},
-      {"year": 2022, "event": "Started taking on client custom application projects using the framework"},
-      {"year": 2024, "event": "Launched Nua Site (AI-powered website editor) and Redo My Site (AI website rebuilder)"}
+      {
+        "year": 2019,
+        "event": "GitHub organisation created; early development of Contember framework begins"
+      },
+      {
+        "year": 2020,
+        "event": "Contember open-source repo created on GitHub"
+      },
+      {
+        "year": 2021,
+        "event": "Company officially established in Prague & Dublin as Contember Limited"
+      },
+      {
+        "year": 2022,
+        "event": "Started taking on client custom application projects using the framework"
+      },
+      {
+        "year": 2024,
+        "event": "Launched Nua Site (AI-powered website editor) and Redo My Site (AI website rebuilder)"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": null,
     "employee_source": "company_website_inferred",
     "office_count": 2
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true},
-    {"city": "Dublin", "country": "IE", "is_hq": false}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    },
+    {
+      "city": "Dublin",
+      "country": "IE",
+      "is_hq": false
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -57,41 +85,66 @@
     "revenue_source": null,
     "business_model": "other"
   },
-
   "team": {
     "leadership": [
-      {"name": "Honza Sladek", "role": "CEO & Co-founder", "source": "company_website"}
+      {
+        "name": "Honza Sladek",
+        "role": "CEO & Co-founder",
+        "source": "company_website"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": "https://www.contember.com/about",
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["typescript", "react", "graphql", "astro", "tailwind", "rust"],
+    "tech_stack": [
+      "typescript",
+      "react",
+      "graphql",
+      "astro",
+      "tailwind",
+      "rust"
+    ],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [],
     "notable_clients": [],
     "customer_count": null,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "github"],
-    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "open_roles_count", "glassdoor"],
+    "sources_used": [
+      "company_website",
+      "github"
+    ],
+    "fields_missing": [
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "employees_exact",
+      "open_roles_count",
+      "glassdoor"
+    ],
     "needs_review": false,
     "notes": "Small bootstrapped team (~11-50 people). Mixed business model: open-source framework (Apache 2.0), two SaaS products (Nua Site, Redo My Site), and consulting/custom app development. GitHub org created 2019 but company officially est. 2021. 1000+ apps built according to website. Main repo has 181 GitHub stars. No public funding rounds found. No Glassdoor presence found."
+  },
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Works in commoditizing space (generative_ai, automation) but has some differentiation through proprietary tech or customer base.",
+    "market_risk": "high",
+    "market_risk_rationale": "Small team with no visible customer traction or market validation signals.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No public funding information. Sustainability unclear.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
   }
 }

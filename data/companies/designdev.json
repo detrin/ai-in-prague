@@ -3,7 +3,6 @@
   "name": "Designdev",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Czech digital product design and development studio specialising in UX, web/app development, and applied AI innovation.",
     "description_long": "Designdev (formerly AW-dev) is a Prague-based studio of designers, architects, and developers of digital products and services. For 10+ years they have built websites, e-shops, and custom applications, and for the past three years have run an internal R&D unit dedicated to real-world AI applications. Their AI services span solution design and architecture, AI process audits, RAG/semantic search, AI agent workflows, AI Vision/ML, generative AI, and MLOps. They joined the Czech Association of Artificial Intelligence (CNAIP) in December 2025.",
@@ -11,37 +10,60 @@
     "website": "https://designdev.cz",
     "cnaip_url": "https://www.cnaip.cz/cs/entity/designdev"
   },
-
   "classification": {
     "business_type": "consulting",
-    "ai_focus": ["nlp", "cv", "generative_ai", "automation", "ml_ops"],
-    "industries_served": ["finance", "banking", "construction", "travel", "retail", "e-commerce", "education", "government"],
+    "ai_focus": [
+      "nlp",
+      "cv",
+      "generative_ai",
+      "automation",
+      "ml_ops"
+    ],
+    "industries_served": [
+      "finance",
+      "banking",
+      "construction",
+      "travel",
+      "retail",
+      "e-commerce",
+      "education",
+      "government"
+    ],
     "company_type": "startup",
     "is_ai_native": false
   },
-
   "history": {
     "founded_year": 2015,
     "founders": [],
     "origin_story": "Founded as AW-dev, rebranded to Designdev. Has been operating for ~10 years as of 2025-2026. AI R&D practice launched ~3 years before 2025.",
     "key_milestones": [
-      {"year": 2015, "event": "Operating as AW-dev (client testimonial references collaboration from 2015)"},
-      {"year": 2022, "event": "Launched dedicated AI R&D department (3+ years before 2025)"},
-      {"year": 2025, "event": "Became member of Czech Association of Artificial Intelligence (CNAIP)"}
+      {
+        "year": 2015,
+        "event": "Operating as AW-dev (client testimonial references collaboration from 2015)"
+      },
+      {
+        "year": 2022,
+        "event": "Launched dedicated AI R&D department (3+ years before 2025)"
+      },
+      {
+        "year": 2025,
+        "event": "Became member of Czech Association of Artificial Intelligence (CNAIP)"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": null,
     "employee_source": "company_website",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -54,46 +76,93 @@
     "revenue_source": null,
     "business_model": "consulting_services"
   },
-
   "team": {
     "leadership": [
-      {"name": "Michal Voják", "role": "CEO, Product Designer", "source": "company_website"},
-      {"name": "Martin Henych", "role": "CRO", "source": "company_website"},
-      {"name": "Petr Šmída", "role": "COO", "source": "company_website"},
-      {"name": "Michal Roth", "role": "CTO", "source": "company_website"}
+      {
+        "name": "Michal Voják",
+        "role": "CEO, Product Designer",
+        "source": "company_website"
+      },
+      {
+        "name": "Martin Henych",
+        "role": "CRO",
+        "source": "company_website"
+      },
+      {
+        "name": "Petr Šmída",
+        "role": "COO",
+        "source": "company_website"
+      },
+      {
+        "name": "Michal Roth",
+        "role": "CTO",
+        "source": "company_website"
+      }
     ],
     "notable_people": [
-      {"name": "Lukáš Chadraba", "role": "Innovation & Product Designer (AI lead)", "source": "company_website"}
+      {
+        "name": "Lukáš Chadraba",
+        "role": "Innovation & Product Designer (AI lead)",
+        "source": "company_website"
+      }
     ]
   },
-
   "careers": {
     "careers_url": "https://designdev.cz",
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["python", "php", "node.js", "typescript", "vue", "react"],
+    "tech_stack": [
+      "python",
+      "php",
+      "node.js",
+      "typescript",
+      "vue",
+      "react"
+    ],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
-    "awards": ["CNAIP member (Czech Association of Artificial Intelligence, 2025)"],
-    "notable_clients": ["Mobilní banka"],
+    "awards": [
+      "CNAIP member (Czech Association of Artificial Intelligence, 2025)"
+    ],
+    "notable_clients": [
+      "Mobilní banka"
+    ],
     "customer_count": null,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "cnaip"],
-    "fields_missing": ["founded_year_exact", "founders", "funding_total_usd", "revenue_estimate_usd", "glassdoor", "open_roles_count", "employees_exact"],
+    "sources_used": [
+      "company_website",
+      "cnaip"
+    ],
+    "fields_missing": [
+      "founded_year_exact",
+      "founders",
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "glassdoor",
+      "open_roles_count",
+      "employees_exact"
+    ],
     "needs_review": false,
     "notes": "Company was formerly known as AW-dev before rebranding to Designdev. Founded year is estimated ~2015 based on website stating '10 years on market' and a client testimonial referencing collaboration since 2015. No careers/jobs page found (404 at /pridej-se). No Glassdoor data found via snippets. ~16 named team members on About page, so employees_range is 11-50."
+  },
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Vertical focus (cv) offers some protection, but limited scale or proprietary differentiation signals.",
+    "market_risk": "high",
+    "market_risk_rationale": "Small team with no visible customer traction or market validation signals.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No public funding information. Sustainability unclear.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
   }
 }

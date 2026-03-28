@@ -3,7 +3,6 @@
   "name": "DigiLobby",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "SaaS platform for AI-powered legislative, regulatory and political monitoring (public affairs / government intelligence)",
     "description_long": "DigiLobby is the first platform in the CEE region focused on artificial intelligence that monitors and analyzes the EU legislative, regulatory and political environment in real-time for businesses in heavily regulated industries. The platform works with open data and OSINT, tracks legislation, regulatory processes, politicians and their votes and positions, automates repetitive tasks, and processes unstructured text data into actionable insights. Key features include legislative tracking, political signal monitoring, stakeholder management, comparative analysis of legislative documents, amendment comparisons, AI-generated summaries, and newsletter generation.",
@@ -11,37 +10,59 @@
     "website": "https://www.digilobby.cz",
     "cnaip_url": "https://www.cnaip.cz/cs/entity/digilobby"
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["nlp", "automation", "document_processing"],
-    "industries_served": ["financial_services", "energy", "healthcare", "legal", "telecommunications", "environment"],
+    "ai_focus": [
+      "nlp",
+      "automation",
+      "document_processing"
+    ],
+    "industries_served": [
+      "financial_services",
+      "energy",
+      "healthcare",
+      "legal",
+      "telecommunications",
+      "environment"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2021,
-    "founders": ["Matěj Křístek", "Tomáš Grundza"],
+    "founders": [
+      "Matěj Křístek",
+      "Tomáš Grundza"
+    ],
     "origin_story": "Co-founded by Matěj Křístek and Tomáš Grundza in Prague, focused on bringing AI and automation to the underdeveloped digital space of public affairs and stakeholder engagement in the CEE region.",
     "key_milestones": [
-      {"year": 2021, "event": "Founded and registered in Prague (Libeň) on August 20, 2021"},
-      {"year": 2022, "event": "Launched SaaS platform for legislative and political monitoring"},
-      {"year": 2025, "event": "Management restructuring: Matěj Křístek appointed as director (March 2025); 2024 annual accounts filed"}
+      {
+        "year": 2021,
+        "event": "Founded and registered in Prague (Libeň) on August 20, 2021"
+      },
+      {
+        "year": 2022,
+        "event": "Launched SaaS platform for legislative and political monitoring"
+      },
+      {
+        "year": 2025,
+        "event": "Management restructuring: Matěj Křístek appointed as director (March 2025); 2024 annual accounts filed"
+      }
     ]
   },
-
   "size": {
     "employees_range": "1-10",
     "employees_exact": null,
     "employee_source": "linkedin",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -54,42 +75,72 @@
     "revenue_source": null,
     "business_model": "subscription_saas"
   },
-
   "team": {
     "leadership": [
-      {"name": "Matěj Křístek", "role": "Co-founder & Director (from March 2025)", "source": "czech_business_registry"},
-      {"name": "Tomáš Grundza", "role": "Co-founder & Director", "source": "czech_business_registry"}
+      {
+        "name": "Matěj Křístek",
+        "role": "Co-founder & Director (from March 2025)",
+        "source": "czech_business_registry"
+      },
+      {
+        "name": "Tomáš Grundza",
+        "role": "Co-founder & Director",
+        "source": "czech_business_registry"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": "https://www.digilobby.cz",
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["nlp", "python", "machine_learning", "rag", "autonomous_agents"],
+    "tech_stack": [
+      "nlp",
+      "python",
+      "machine_learning",
+      "rag",
+      "autonomous_agents"
+    ],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [],
     "notable_clients": [],
     "customer_count": null,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["cnaip", "linkedin", "czech_business_registry", "startupjobs.cz"],
-    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor_rating", "employees_exact"],
+    "sources_used": [
+      "cnaip",
+      "linkedin",
+      "czech_business_registry",
+      "startupjobs.cz"
+    ],
+    "fields_missing": [
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "open_roles_count",
+      "glassdoor_rating",
+      "employees_exact"
+    ],
     "needs_review": true,
     "notes": "Website digilobby.cz is Cloudflare-blocked. Co-founder Matěj Křístek's LinkedIn (Luxembourg profile) states 'the project has since been closed', however the company remains legally registered in Czech Republic with a 2024 annual report filed in May 2025 and a management change in March 2025. May be dormant or in wind-down. CNAIP page still active as of scrape date. LinkedIn shows 34 followers and company founded 2022 (Czech registry shows August 2021). Tech stack inferred from CNAIP tags: #NLP #predictivemodels #documentextraction #automation. IČO: 11747161. Basic capital: 10,000 CZK."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (document_processing) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "high",
+    "market_risk_rationale": "Small team with no visible customer traction or market validation signals.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known funding and very small team. High dependency on bootstrapped revenue or future fundraising.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
   }
 }

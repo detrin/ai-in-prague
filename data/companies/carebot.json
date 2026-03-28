@@ -3,7 +3,6 @@
   "name": "Carebot",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Clinically validated and certified AI solution for faster and more accurate interpretation of medical imaging",
     "description_long": "Carebot is a Czech technology startup focused on AI in healthcare. Their tool acts as a doctor's 'third eye' – automatically detecting suspicious findings on medical images, supporting early detection of serious oncological and other diseases. Products include AI CXR (chest X-ray), AI Bones (fracture detection), AI Mammography, AI Head CT, AI Lungs CT, and Bone Age measurement. Certified as a medical device under EU MDR IIa. Expanded portfolio branded as 'Horizon by Carebot'.",
@@ -11,40 +10,67 @@
     "website": "https://www.carebot.com",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["cv", "ml_ops"],
-    "industries_served": ["healthcare", "radiology", "oncology"],
+    "ai_focus": [
+      "cv",
+      "ml_ops"
+    ],
+    "industries_served": [
+      "healthcare",
+      "radiology",
+      "oncology"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2021,
-    "founders": ["Matěj Misař", "Daniel Kvak"],
+    "founders": [
+      "Matěj Misař",
+      "Daniel Kvak"
+    ],
     "origin_story": "Founded in Prague in June 2021 by Matěj Misař (media background) and Daniel Kvak (AI researcher), combining clinical expertise and data science to build AI-assisted medical image interpretation tools.",
     "key_milestones": [
-      {"year": 2021, "event": "Founded as Carebot s.r.o. in Prague (June 3, 2021)"},
-      {"year": 2023, "event": "AI Bones module obtained MDR IIa CE certification as a medical device"},
-      {"year": 2024, "event": "Announced new investment round and international license for European expansion"},
-      {"year": 2024, "event": "Partnership with Bristol-Myers Squibb to combat lung cancer through AI early detection"},
-      {"year": 2025, "event": "Launched Horizon by Carebot — comprehensive AI solution portfolio for hospitals"},
-      {"year": 2026, "event": "Presented new clinical evidence at ECR 2026"}
+      {
+        "year": 2021,
+        "event": "Founded as Carebot s.r.o. in Prague (June 3, 2021)"
+      },
+      {
+        "year": 2023,
+        "event": "AI Bones module obtained MDR IIa CE certification as a medical device"
+      },
+      {
+        "year": 2024,
+        "event": "Announced new investment round and international license for European expansion"
+      },
+      {
+        "year": 2024,
+        "event": "Partnership with Bristol-Myers Squibb to combat lung cancer through AI early detection"
+      },
+      {
+        "year": 2025,
+        "event": "Launched Horizon by Carebot — comprehensive AI solution portfolio for hospitals"
+      },
+      {
+        "year": 2026,
+        "event": "Presented new clinical evidence at ECR 2026"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": null,
     "employee_source": "inferred",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -52,57 +78,121 @@
     "parent_company": null,
     "funding_total_usd": null,
     "funding_rounds": [
-      {"date": "2024", "type": "undisclosed", "amount_usd": null, "lead_investor": null}
+      {
+        "date": "2024",
+        "type": "undisclosed",
+        "amount_usd": null,
+        "lead_investor": null
+      }
     ],
     "investors": [],
     "revenue_estimate_usd": null,
     "revenue_source": null,
     "business_model": "subscription_saas"
   },
-
   "team": {
     "leadership": [
-      {"name": "Matěj Misař", "role": "Co-founder & CEO", "source": "company_website"},
-      {"name": "Daniel Kvak", "role": "Co-founder & CTO", "source": "company_website"},
-      {"name": "Marek Řehoř", "role": "COO", "source": "company_website"},
-      {"name": "Daniel Dufek", "role": "Head of R&D", "source": "company_website"}
+      {
+        "name": "Matěj Misař",
+        "role": "Co-founder & CEO",
+        "source": "company_website"
+      },
+      {
+        "name": "Daniel Kvak",
+        "role": "Co-founder & CTO",
+        "source": "company_website"
+      },
+      {
+        "name": "Marek Řehoř",
+        "role": "COO",
+        "source": "company_website"
+      },
+      {
+        "name": "Daniel Dufek",
+        "role": "Head of R&D",
+        "source": "company_website"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": "https://www.carebot.com/career",
     "open_roles_count": 5,
     "open_roles": [
-      {"title": "Pharma Account Manager", "department": "sales", "location": "Prague"},
-      {"title": "Mid/Senior Backend Developer", "department": "engineering", "location": "Prague"},
-      {"title": "Product Manager – Market & Discovery (AI Healthcare)", "department": "product", "location": "Prague"},
-      {"title": "Head of Sales", "department": "sales", "location": "Prague"},
-      {"title": "Office Coordinator", "department": "operations", "location": "Prague"}
+      {
+        "title": "Pharma Account Manager",
+        "department": "sales",
+        "location": "Prague"
+      },
+      {
+        "title": "Mid/Senior Backend Developer",
+        "department": "engineering",
+        "location": "Prague"
+      },
+      {
+        "title": "Product Manager – Market & Discovery (AI Healthcare)",
+        "department": "product",
+        "location": "Prague"
+      },
+      {
+        "title": "Head of Sales",
+        "department": "sales",
+        "location": "Prague"
+      },
+      {
+        "title": "Office Coordinator",
+        "department": "operations",
+        "location": "Prague"
+      }
     ],
     "tech_stack": [],
     "hiring_signals": "actively_hiring"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
-    "awards": ["MDR IIa CE Certification for AI Bones", "EU National Recovery Plan grant recipient"],
-    "notable_clients": ["Moravian-Silesian Region hospitals", "Miskolc Regional Hospital (Hungary)", "Tokuda Hospital (Bulgaria)"],
+    "awards": [
+      "MDR IIa CE Certification for AI Bones",
+      "EU National Recovery Plan grant recipient"
+    ],
+    "notable_clients": [
+      "Moravian-Silesian Region hospitals",
+      "Miskolc Regional Hospital (Hungary)",
+      "Tokuda Hospital (Bulgaria)"
+    ],
     "customer_count": null,
-    "partnerships": ["Bristol-Myers Squibb"]
+    "partnerships": [
+      "Bristol-Myers Squibb"
+    ]
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "czech_ares_registry"],
-    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "tech_stack"],
+    "sources_used": [
+      "company_website",
+      "czech_ares_registry"
+    ],
+    "fields_missing": [
+      "employees_exact",
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "glassdoor_rating",
+      "tech_stack"
+    ],
     "needs_review": false,
     "notes": "Founded June 3, 2021 (Czech ARES IČO: 10898263). Address: Holečkova 3150/25b, Smíchov, Praha 5. Daniel Kvak referred to as CEO in BMS partnership press release (2024) despite being listed as CTO on about-us page — possible title change. Employee range is inferred from company size/age. Website uses Framer (JavaScript-rendered), limiting data extraction."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (cv) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Some funding secured but early stage — sustainability depends on continued fundraising or reaching profitability.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
   }
 }

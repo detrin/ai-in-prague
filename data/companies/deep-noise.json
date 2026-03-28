@@ -3,7 +3,6 @@
   "name": "Deep Noise",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "AI audio technology company building generative tools for music, sound design, video, gaming and podcast production",
     "description_long": "Deep Noise develops AI-powered tools for creating and editing audio across music, video, games, podcasts and other media. Founded by a team of audio creators and AI experts, the company builds its own generative audio models and emphasises safe, transparent and responsible AI use. Products include Deep Noise Studio (AI music studio) and AI Synthesizer (text-to-sound VST plugin + web app), trained on over 1 million sounds. The company targets both individual creators and B2B customers in media and entertainment.",
@@ -11,37 +10,54 @@
     "website": "https://deepnoise.ai",
     "cnaip_url": "https://www.cnaip.cz/cs/entity/deep-noise"
   },
-
   "classification": {
     "business_type": "b2c_saas",
-    "ai_focus": ["generative_ai", "speech"],
-    "industries_served": ["music", "gaming", "media", "content_creation", "advertising"],
+    "ai_focus": [
+      "generative_ai",
+      "speech"
+    ],
+    "industries_served": [
+      "music",
+      "gaming",
+      "media",
+      "content_creation",
+      "advertising"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": null,
     "founders": [],
     "origin_story": "Founded by a team of audio creators and AI experts who experienced first-hand how slow and complex traditional audio tools can be. Mission is to make professional audio work accessible to anyone while keeping full creative control in the hands of people.",
     "key_milestones": [
-      {"year": 2025, "event": "AI Synthesizer launched in closed beta (text-to-sound generator trained on 1M+ sounds)"},
-      {"year": 2025, "event": "Deep Noise Studio launched in early access (AI multitrack music studio)"},
-      {"year": 2025, "event": "Represented at Music Tectonics conference in Los Angeles"}
+      {
+        "year": 2025,
+        "event": "AI Synthesizer launched in closed beta (text-to-sound generator trained on 1M+ sounds)"
+      },
+      {
+        "year": 2025,
+        "event": "Deep Noise Studio launched in early access (AI multitrack music studio)"
+      },
+      {
+        "year": 2025,
+        "event": "Represented at Music Tectonics conference in Los Angeles"
+      }
     ]
   },
-
   "size": {
     "employees_range": "1-10",
     "employees_exact": 4,
     "employee_source": "linkedin",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -54,17 +70,27 @@
     "revenue_source": null,
     "business_model": "freemium"
   },
-
   "team": {
     "leadership": [
-      {"name": "Matt Zimak", "role": "Founder / CEO (inferred)", "source": "linkedin"}
+      {
+        "name": "Matt Zimak",
+        "role": "Founder / CEO (inferred)",
+        "source": "linkedin"
+      }
     ],
     "notable_people": [
-      {"name": "Patrik Gudev", "role": "Team member", "source": "linkedin"},
-      {"name": "Karel Nemecek", "role": "Technical Storyteller & Strategic Marketing Architect", "source": "linkedin"}
+      {
+        "name": "Patrik Gudev",
+        "role": "Team member",
+        "source": "linkedin"
+      },
+      {
+        "name": "Karel Nemecek",
+        "role": "Technical Storyteller & Strategic Marketing Architect",
+        "source": "linkedin"
+      }
     ]
   },
-
   "careers": {
     "careers_url": null,
     "open_roles_count": null,
@@ -72,26 +98,45 @@
     "tech_stack": [],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [],
     "notable_clients": [],
     "customer_count": null,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["cnaip", "company_website", "linkedin"],
-    "fields_missing": ["founded_year", "founders", "funding_total_usd", "revenue_estimate_usd", "tech_stack", "careers_url", "glassdoor"],
+    "sources_used": [
+      "cnaip",
+      "company_website",
+      "linkedin"
+    ],
+    "fields_missing": [
+      "founded_year",
+      "founders",
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "tech_stack",
+      "careers_url",
+      "glassdoor"
+    ],
     "needs_review": false,
     "notes": "Very early-stage startup (~4 employees) in closed/early-access beta as of early 2026. Two products: Deep Noise Studio (AI music studio) and AI Synthesizer (text-to-sound via web + VST plugin, aisynthesizer.com). Address: Mánesova 62, 120 00 Praha. Email: hello@deepnoise.ai. Social: @deepnoiseai (X), facebook.com/deepnoiselabs. Matt Zimak represented the company at Music Tectonics LA conference. CNAIP tags the company as B2B and B2C, targeting music, gaming, media, and podcast industries."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (speech) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "high",
+    "market_risk_rationale": "Small team with no visible customer traction or market validation signals.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known funding and very small team. High dependency on bootstrapped revenue or future fundraising.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
   }
 }

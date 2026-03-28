@@ -3,7 +3,6 @@
   "name": "DigitálníHR",
   "category": "company",
   "scraped_at": "2026-03-28T10:00:00Z",
-
   "overview": {
     "description": "Educational platform teaching HR professionals to use AI and digital tools",
     "description_long": "DigitálníHR is a Czech educational platform run by Matěj Matolín (Aplayerz s.r.o.) that helps HR professionals adopt AI and digital tools. Offers hands-on training and workshops (in-person in Prague and online), consulting services, AI tools guidance, webinars, a blog, and a free e-book. Courses cover AI applications across recruitment, employer branding, analytics, onboarding, and HR marketing. Over 50 corporate clients served.",
@@ -11,36 +10,44 @@
     "website": "https://www.digitalnihr.cz",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "consulting",
-    "ai_focus": ["automation", "other"],
-    "industries_served": ["hr", "talent_acquisition", "education"],
+    "ai_focus": [
+      "automation",
+      "other"
+    ],
+    "industries_served": [
+      "hr",
+      "talent_acquisition",
+      "education"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2015,
-    "founders": ["Matěj Matolín"],
+    "founders": [
+      "Matěj Matolín"
+    ],
     "origin_story": "Founded by Matěj Matolín, an HR practitioner with 15 years of managerial HR experience who built DigitálníHR to help HR teams adopt AI and digital tools practically and without technical jargon. Legal entity Aplayerz s.r.o. registered January 2015 in Praha 3.",
     "key_milestones": [
       "2015: Aplayerz s.r.o. founded in Prague",
       "2024-2026: Active AI training courses launched for HR professionals across Czech Republic"
     ]
   },
-
   "size": {
     "employees_range": "1-10",
     "employees_exact": null,
     "employee_source": "inferred_from_website",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -53,14 +60,16 @@
     "revenue_source": null,
     "business_model": "consulting_services"
   },
-
   "team": {
     "leadership": [
-      {"name": "Matěj Matolín", "role": "Founder", "source": "company_website"}
+      {
+        "name": "Matěj Matolín",
+        "role": "Founder",
+        "source": "company_website"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": null,
     "open_roles_count": null,
@@ -68,26 +77,42 @@
     "tech_stack": [],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [],
     "notable_clients": [],
     "customer_count": 50,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website", "czech_business_registry_ares"],
-    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor", "open_roles"],
+    "sources_used": [
+      "company_website",
+      "czech_business_registry_ares"
+    ],
+    "fields_missing": [
+      "employees_exact",
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "glassdoor",
+      "open_roles"
+    ],
     "needs_review": false,
     "notes": "Solo/micro company run by Matěj Matolín via legal entity Aplayerz s.r.o. (ICO 03679438, founded 2015-01-05). Focused on HR education around AI tools. LinkedIn: https://www.linkedin.com/in/matejmatolin/. No CNAIP page found. 50+ corporate clients mentioned on homepage. No careers page found."
+  },
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Consulting/services model is highly vulnerable as AI tools enable clients to do work in-house.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Some customer traction but still early-stage market validation.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known funding and very small team. High dependency on bootstrapped revenue or future fundraising.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Multiple high-risk factors across AGI displacement, market, or funding dimensions."
   }
 }

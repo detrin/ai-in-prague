@@ -3,7 +3,6 @@
   "name": "Buinsoft Technology",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "IT consulting and AI services firm specialising in AI agents, automation, software development, and Oracle database solutions",
     "description_long": "Buinsoft Technology S.R.O. is a Prague-based IT consulting company offering AI agents, workflow automation, software development, Oracle database management, and IT outsourcing. They serve SMBs and enterprises across multiple industries, deploying ready-made and custom AI automations built with tools like n8n. The team claims 15+ years of combined IT expertise and operates across multiple continents with multilingual support in 9 languages.",
@@ -11,33 +10,46 @@
     "website": "https://www.buinsoft.com",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "consulting",
-    "ai_focus": ["automation", "generative_ai", "other"],
-    "industries_served": ["retail", "e-commerce", "healthcare", "manufacturing", "government", "energy", "transportation"],
+    "ai_focus": [
+      "automation",
+      "generative_ai",
+      "other"
+    ],
+    "industries_served": [
+      "retail",
+      "e-commerce",
+      "healthcare",
+      "manufacturing",
+      "government",
+      "energy",
+      "transportation"
+    ],
     "company_type": "startup",
     "is_ai_native": false
   },
-
   "history": {
     "founded_year": null,
-    "founders": ["Emre Alemdar"],
+    "founders": [
+      "Emre Alemdar"
+    ],
     "origin_story": "Founded by Emre Alemdar in Prague, Czechia. The team has 15+ years of combined IT experience. Company vision targets becoming a player in IT-as-a-Service.",
     "key_milestones": []
   },
-
   "size": {
     "employees_range": "1-10",
     "employees_exact": null,
     "employee_source": "inferred_from_website",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -45,49 +57,82 @@
     "parent_company": null,
     "funding_total_usd": null,
     "funding_rounds": [],
-    "investors": ["Stuart Evers (Investor & Advisor)", "Aytek Karagozoglu (Investor & Advisor)"],
+    "investors": [
+      "Stuart Evers (Investor & Advisor)",
+      "Aytek Karagozoglu (Investor & Advisor)"
+    ],
     "revenue_estimate_usd": null,
     "revenue_source": null,
     "business_model": "consulting_services"
   },
-
   "team": {
     "leadership": [
-      {"name": "Emre Alemdar", "role": "Founder & CEO", "source": "company_website"}
+      {
+        "name": "Emre Alemdar",
+        "role": "Founder & CEO",
+        "source": "company_website"
+      }
     ],
     "notable_people": [
-      {"name": "Stuart Evers", "role": "Investor & Advisor", "source": "company_website"},
-      {"name": "Aytek Karagozoglu", "role": "Investor & Advisor", "source": "company_website"}
+      {
+        "name": "Stuart Evers",
+        "role": "Investor & Advisor",
+        "source": "company_website"
+      },
+      {
+        "name": "Aytek Karagozoglu",
+        "role": "Investor & Advisor",
+        "source": "company_website"
+      }
     ]
   },
-
   "careers": {
     "careers_url": null,
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["n8n", "oracle"],
+    "tech_stack": [
+      "n8n",
+      "oracle"
+    ],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [],
     "notable_clients": [],
     "customer_count": null,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["company_website"],
-    "fields_missing": ["founded_year", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles", "notable_clients"],
+    "sources_used": [
+      "company_website"
+    ],
+    "fields_missing": [
+      "founded_year",
+      "employees_exact",
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "glassdoor_rating",
+      "open_roles",
+      "notable_clients"
+    ],
     "needs_review": false,
     "notes": "Small Prague-based IT consulting/AI services firm. Legal name: Buinsoft Technology S.R.O. Address: Na Folimance 2155/15, Vinohrady, 120 00 Praha 2. Contact: +420-778-406-906, info@buinsoft.com. Website copyright ©2025. No Wayback Machine snapshots available. No CNAIP entry found. 15+ years team experience claimed but company founding year unknown. Employees range estimated as 1-10 based on small consultancy profile."
+  },
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Consulting/services model is highly vulnerable as AI tools enable clients to do work in-house.",
+    "market_risk": "high",
+    "market_risk_rationale": "Small team with no visible customer traction or market validation signals.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known funding and very small team. High dependency on bootstrapped revenue or future fundraising.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Multiple high-risk factors across AGI displacement, market, or funding dimensions."
   }
 }

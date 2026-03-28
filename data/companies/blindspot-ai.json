@@ -3,7 +3,6 @@
   "name": "Blindspot AI",
   "category": "company",
   "scraped_at": "2026-03-28T12:35:00Z",
-
   "overview": {
     "description": "Prague-based AI consulting and product company delivering machine learning solutions to enterprises",
     "description_long": "Blindspot Solutions (trading as Blindspot AI) is a Prague-based AI company that helps businesses harness the power of artificial intelligence through a combination of ready-made AI products and bespoke consulting. They offer 9 off-the-shelf AI products covering anomaly detection (ADF), fraud detection (ML FDS), intelligent video analysis (MACULA), customer support automation (ARESPO), smart document reading (ReeDee), and four optimization tools (OptiSuite, OptiFit, OptiPlan, OptiRoute). The company also delivers custom AI-powered software development and consulting engagements. Founded in 2014 and a member of Adastra Group since 2017. Ranked among the top 3 fastest-growing companies in Central Europe by Deloitte Fast 50 in both 2019 and 2020.",
@@ -11,18 +10,34 @@
     "website": "https://blindspot.ai",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "consulting",
-    "ai_focus": ["nlp", "cv", "fraud_detection", "automation", "document_processing", "other"],
-    "industries_served": ["finance", "insurance", "manufacturing", "logistics", "government", "telecommunications"],
+    "ai_focus": [
+      "nlp",
+      "cv",
+      "fraud_detection",
+      "automation",
+      "document_processing",
+      "other"
+    ],
+    "industries_served": [
+      "finance",
+      "insurance",
+      "manufacturing",
+      "logistics",
+      "government",
+      "telecommunications"
+    ],
     "company_type": "acquired",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2014,
-    "founders": ["Ondřej Vaněk", "Štěpán Kopřiva", "Michal Pěchouček"],
+    "founders": [
+      "Ondřej Vaněk",
+      "Štěpán Kopřiva",
+      "Michal Pěchouček"
+    ],
     "origin_story": "Founded on 11 March 2014 in Prague by three co-founders with backgrounds in applied AI research and software engineering. Became a member of Adastra Group in 2017, expanding its reach for multinational enterprise engagements.",
     "key_milestones": [
       "2014: Founded as Blindspot Solutions s.r.o. in Prague (IČO 02758784)",
@@ -33,18 +48,19 @@
       "2021: Czech Rise Up Program participant"
     ]
   },
-
   "size": {
     "employees_range": "51-200",
     "employees_exact": 70,
     "employee_source": "company_website",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -52,21 +68,33 @@
     "parent_company": "Adastra Group",
     "funding_total_usd": null,
     "funding_rounds": [],
-    "investors": ["Adastra Group"],
+    "investors": [
+      "Adastra Group"
+    ],
     "revenue_estimate_usd": null,
     "revenue_source": null,
     "business_model": "consulting_services"
   },
-
   "team": {
     "leadership": [
-      {"name": "Ondřej Vaněk", "role": "Co-founder & CEO of Blindspot AI", "source": "company_website"},
-      {"name": "Štěpán Kopřiva", "role": "Co-founder & CEO of Adastra Czech Republic", "source": "company_website"},
-      {"name": "Michal Pěchouček", "role": "Co-founder (now CTO of Gen)", "source": "company_website"}
+      {
+        "name": "Ondřej Vaněk",
+        "role": "Co-founder & CEO of Blindspot AI",
+        "source": "company_website"
+      },
+      {
+        "name": "Štěpán Kopřiva",
+        "role": "Co-founder & CEO of Adastra Czech Republic",
+        "source": "company_website"
+      },
+      {
+        "name": "Michal Pěchouček",
+        "role": "Co-founder (now CTO of Gen)",
+        "source": "company_website"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": "https://blindspot.ai/career",
     "open_roles_count": 6,
@@ -78,17 +106,20 @@
       "AI Solutions Consultant",
       "AI Engagement Leader"
     ],
-    "tech_stack": ["python", "machine_learning", "generative_ai", "devops"],
+    "tech_stack": [
+      "python",
+      "machine_learning",
+      "generative_ai",
+      "devops"
+    ],
     "hiring_signals": "actively_hiring"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Blindspot-Solutions-EI_IE4346073.11,30.htm"
   },
-
   "recognition": {
     "awards": [
       "Deloitte Technology Fast 50 CE 2019 (Top 3)",
@@ -110,9 +141,10 @@
       "Avata Intelligence"
     ],
     "customer_count": null,
-    "partnerships": ["Adastra Group"]
+    "partnerships": [
+      "Adastra Group"
+    ]
   },
-
   "metadata": {
     "data_quality": "high",
     "sources_used": [
@@ -132,5 +164,15 @@
     ],
     "needs_review": false,
     "notes": "Legal name is Blindspot Solutions s.r.o. (IČO 02758784). The website branding uses 'Blindspot AI' and 'Blindspot.AI'. Company has been a member of Adastra Group since 2017 — categorised as 'acquired'. The co-founder Michal Pěchouček is listed on the website as 'CTO of Gen' (a cybersecurity firm), indicating he has moved on from active Blindspot leadership. Employee count of 70 is from the website's own stats counter ('Experts' metric). Founding date of 2014-03-11 confirmed via Czech ARES business registry."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (cv, fraud_detection, document_processing) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Acquired by Adastra Group — funded by parent entity.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
   }
 }

@@ -3,7 +3,6 @@
   "name": "Boost.space",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "No-code Single Source of Truth Database for AI & Automations",
     "description_long": "At Boost.space, we are engineering the Data Layer for the AI era. We go beyond simple integration by unifying fragmented business data into a Unified Grid—a dynamic Single Source of Truth. While others just move data, we actively enrich and transform it, creating the deep context that AI Agents need to execute real work. Our mission is to orchestrate the entire data flow across the enterprise ecosystem, bridging the gap between static databases and action-oriented AI. Connects 1600+ apps and tools in real-time.",
@@ -11,39 +10,65 @@
     "website": "https://boost.space",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["automation", "data_engineering", "generative_ai"],
-    "industries_served": ["e-commerce", "manufacturing", "retail", "sales", "marketing"],
+    "ai_focus": [
+      "automation",
+      "data_engineering",
+      "generative_ai"
+    ],
+    "industries_served": [
+      "e-commerce",
+      "manufacturing",
+      "retail",
+      "sales",
+      "marketing"
+    ],
     "company_type": "startup",
     "is_ai_native": true
   },
-
   "history": {
     "founded_year": 2017,
-    "founders": ["Tadeáš Marek"],
+    "founders": [
+      "Tadeáš Marek"
+    ],
     "origin_story": "While working at Praga Global, Tadeáš Marek saw firsthand the complexity of keeping product data and prices synchronized across a vast network of dealers. Excel sheets were inadequate and no existing solution could meet their needs. This inspired him to bootstrap Boost.space, initially a platform for product data sync, which evolved into a full data-centralization and AI-ready database platform.",
     "key_milestones": [
-      {"year": 2017, "event": "Founded as bootstrap project by Tadeáš Marek"},
-      {"year": 2022, "event": "Public launch in September 2022; attracted 500+ businesses in first month"},
-      {"year": 2023, "event": "Reached 15,000+ teams across 140 countries"},
-      {"year": 2025, "event": "G2 Momentum Leader Spring 2025; pivoted to Agentic AI Database positioning"},
-      {"year": 2026, "event": "Launched Boost.space v5; powered 140,000+ automations across 140+ countries"}
+      {
+        "year": 2017,
+        "event": "Founded as bootstrap project by Tadeáš Marek"
+      },
+      {
+        "year": 2022,
+        "event": "Public launch in September 2022; attracted 500+ businesses in first month"
+      },
+      {
+        "year": 2023,
+        "event": "Reached 15,000+ teams across 140 countries"
+      },
+      {
+        "year": 2025,
+        "event": "G2 Momentum Leader Spring 2025; pivoted to Agentic AI Database positioning"
+      },
+      {
+        "year": 2026,
+        "event": "Launched Boost.space v5; powered 140,000+ automations across 140+ countries"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": null,
     "employee_source": "linkedin",
     "office_count": 1
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -51,55 +76,121 @@
     "parent_company": null,
     "funding_total_usd": null,
     "funding_rounds": [],
-    "investors": ["angels and private investors (undisclosed)"],
+    "investors": [
+      "angels and private investors (undisclosed)"
+    ],
     "revenue_estimate_usd": null,
     "revenue_source": null,
     "business_model": "subscription_saas"
   },
-
   "team": {
     "leadership": [
-      {"name": "Tadeáš Marek", "role": "Founder & CEO", "source": "linkedin"},
-      {"name": "Matouš Králík", "role": "CMO", "source": "company_website"},
-      {"name": "Vít Bilinec", "role": "Director of Customer Success & Partnerships", "source": "company_website"},
-      {"name": "Paul Čejka", "role": "Head of Sales EMEA", "source": "company_website"},
-      {"name": "Jan Legner", "role": "Chief Automation Officer", "source": "company_website"}
+      {
+        "name": "Tadeáš Marek",
+        "role": "Founder & CEO",
+        "source": "linkedin"
+      },
+      {
+        "name": "Matouš Králík",
+        "role": "CMO",
+        "source": "company_website"
+      },
+      {
+        "name": "Vít Bilinec",
+        "role": "Director of Customer Success & Partnerships",
+        "source": "company_website"
+      },
+      {
+        "name": "Paul Čejka",
+        "role": "Head of Sales EMEA",
+        "source": "company_website"
+      },
+      {
+        "name": "Jan Legner",
+        "role": "Chief Automation Officer",
+        "source": "company_website"
+      }
     ],
     "notable_people": [
-      {"name": "Jiří Ratica", "role": "Product Owner", "source": "company_website"},
-      {"name": "Marek Bradáč", "role": "Senior Account Executive", "source": "company_website"},
-      {"name": "Robert Tesař", "role": "Head of Delivery", "source": "company_website"},
-      {"name": "Lukáš Poštulka", "role": "Head of Web Development", "source": "company_website"}
+      {
+        "name": "Jiří Ratica",
+        "role": "Product Owner",
+        "source": "company_website"
+      },
+      {
+        "name": "Marek Bradáč",
+        "role": "Senior Account Executive",
+        "source": "company_website"
+      },
+      {
+        "name": "Robert Tesař",
+        "role": "Head of Delivery",
+        "source": "company_website"
+      },
+      {
+        "name": "Lukáš Poštulka",
+        "role": "Head of Web Development",
+        "source": "company_website"
+      }
     ]
   },
-
   "careers": {
     "careers_url": "https://boost.space/jobs",
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["nuxt", "vue", "javascript"],
+    "tech_stack": [
+      "nuxt",
+      "vue",
+      "javascript"
+    ],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
-    "awards": ["G2 Momentum Leader Spring 2025", "ISO 27001 Certified"],
-    "notable_clients": ["SIKO BATHROOMS & KITCHENS", "Škoda X"],
+    "awards": [
+      "G2 Momentum Leader Spring 2025",
+      "ISO 27001 Certified"
+    ],
+    "notable_clients": [
+      "SIKO BATHROOMS & KITCHENS",
+      "Škoda X"
+    ],
     "customer_count": 15000,
-    "partnerships": ["Make.com"]
+    "partnerships": [
+      "Make.com"
+    ]
   },
-
   "metadata": {
     "data_quality": "medium",
-    "sources_used": ["linkedin", "company_website", "wayback_machine", "producthunt"],
-    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor_rating", "employees_exact"],
+    "sources_used": [
+      "linkedin",
+      "company_website",
+      "wayback_machine",
+      "producthunt"
+    ],
+    "fields_missing": [
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "open_roles_count",
+      "glassdoor_rating",
+      "employees_exact"
+    ],
     "needs_review": false,
     "notes": "Company website (boost.space) blocks automated access via Vercel Security Checkpoint. Data sourced from LinkedIn, Product Hunt, and Wayback Machine archive of the company About page (2023). Founded year 2017 per LinkedIn; public product launch was September 2022. Bootstrapped initially; mentions angels and private investors but no funding rounds disclosed. 140,000+ automations as of early 2026. Positioned as AI-ready data layer / agentic AI database."
+  },
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Vertical focus (data_engineering) offers some protection, but limited scale or proprietary differentiation signals.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No public funding information. Sustainability unclear.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
   }
 }

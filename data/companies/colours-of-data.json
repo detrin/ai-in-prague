@@ -3,7 +3,6 @@
   "name": "Colours of Data",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "AI and data analytics consulting firm helping businesses leverage data for growth, automation, and customer intelligence",
     "description_long": "Colours of Data are experts in customer value growth and impactful insights. They create AI solutions that personalize customer interactions, optimize business operations, and drive measurable business growth. Services span intelligent automation, AI-powered personalization, data engineering, BI, and digital transformation. They serve enterprises across banking, telco, e-commerce, automotive, healthcare, and logistics.",
@@ -11,38 +10,65 @@
     "website": "https://www.coloursofdata.com",
     "cnaip_url": "https://www.cnaip.cz/cs/entity/colours-of-data"
   },
-
   "classification": {
     "business_type": "consulting",
-    "ai_focus": ["automation", "data_engineering", "ml_ops", "generative_ai"],
-    "industries_served": ["banking", "telecommunications", "retail", "automotive", "healthcare", "logistics"],
+    "ai_focus": [
+      "automation",
+      "data_engineering",
+      "ml_ops",
+      "generative_ai"
+    ],
+    "industries_served": [
+      "banking",
+      "telecommunications",
+      "retail",
+      "automotive",
+      "healthcare",
+      "logistics"
+    ],
     "company_type": "startup",
     "is_ai_native": false
   },
-
   "history": {
     "founded_year": 2017,
-    "founders": ["Tomáš Mátl"],
+    "founders": [
+      "Tomáš Mátl"
+    ],
     "origin_story": "Founded in 2017 with offices in Prague and London, focused on helping enterprises use data analytics and AI to drive business outcomes.",
     "key_milestones": [
-      {"year": 2017, "event": "Founded in Prague and London"},
-      {"year": 2024, "event": "Expanded AI offerings to include generative AI and agentic frameworks"}
+      {
+        "year": 2017,
+        "event": "Founded in Prague and London"
+      },
+      {
+        "year": 2024,
+        "event": "Expanded AI offerings to include generative AI and agentic frameworks"
+      }
     ]
   },
-
   "size": {
     "employees_range": "11-50",
     "employees_exact": null,
     "employee_source": "linkedin",
     "office_count": 3
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true},
-    {"city": "London", "country": "GB", "is_hq": false},
-    {"city": "Zeleneč", "country": "CZ", "is_hq": false}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    },
+    {
+      "city": "London",
+      "country": "GB",
+      "is_hq": false
+    },
+    {
+      "city": "Zeleneč",
+      "country": "CZ",
+      "is_hq": false
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -55,44 +81,87 @@
     "revenue_source": null,
     "business_model": "consulting_services"
   },
-
   "team": {
     "leadership": [
-      {"name": "Tomáš Mátl", "role": "Founder", "source": "company_website"}
+      {
+        "name": "Tomáš Mátl",
+        "role": "Founder",
+        "source": "company_website"
+      }
     ],
     "notable_people": [
-      {"name": "Petr Václavek", "role": "Customer Value Growth Expert", "source": "linkedin"},
-      {"name": "Jakub Marian", "role": "Senior DS & AI Architect", "source": "linkedin"}
+      {
+        "name": "Petr Václavek",
+        "role": "Customer Value Growth Expert",
+        "source": "linkedin"
+      },
+      {
+        "name": "Jakub Marian",
+        "role": "Senior DS & AI Architect",
+        "source": "linkedin"
+      }
     ]
   },
-
   "careers": {
     "careers_url": "https://www.coloursofdata.com/en/career",
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": ["python", "power_bi", "bloomreach", "big_query"],
+    "tech_stack": [
+      "python",
+      "power_bi",
+      "bloomreach",
+      "big_query"
+    ],
     "hiring_signals": "unknown"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": null
   },
-
   "recognition": {
     "awards": [],
-    "notable_clients": ["O2", "Marks & Spencer", "Škoda Auto", "Tele2", "Kiwi.com", "Continental", "Bulovka Hospital", "Česká spořitelna", "Financial Times", "Rugvista", "Popeyes"],
+    "notable_clients": [
+      "O2",
+      "Marks & Spencer",
+      "Škoda Auto",
+      "Tele2",
+      "Kiwi.com",
+      "Continental",
+      "Bulovka Hospital",
+      "Česká spořitelna",
+      "Financial Times",
+      "Rugvista",
+      "Popeyes"
+    ],
     "customer_count": null,
     "partnerships": []
   },
-
   "metadata": {
     "data_quality": "high",
-    "sources_used": ["cnaip", "company_website", "linkedin"],
-    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor", "open_roles_count"],
+    "sources_used": [
+      "cnaip",
+      "company_website",
+      "linkedin"
+    ],
+    "fields_missing": [
+      "funding_total_usd",
+      "revenue_estimate_usd",
+      "glassdoor",
+      "open_roles_count"
+    ],
     "needs_review": false,
     "notes": "Company has two main websites: coloursofdata.com and cod.bi (redirect). Prague office at River Garden, Rohanské nábřeží 17, Praha 8. Czech IČO: 06204163. Additional branch in Zeleneč. Company is primarily a consulting/services firm with strong AI and data analytics focus."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (data_engineering) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No public funding information. Sustainability unclear.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
   }
 }

@@ -3,7 +3,6 @@
   "name": "Make",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
-
   "overview": {
     "description": "Visual AI workflow automation platform that enables businesses to build, scale, and automate workflows and AI agents across 3,000+ apps without code",
     "description_long": "Make (formerly Integromat) is the leading integration and automation development platform, empowering businesses across all verticals to visually design, build, and automate workflows and AI agents. The platform connects 3,000+ pre-built app integrations and supports agentic automation, enabling teams to orchestrate complex processes with transparency and control. Originally launched in 2012 as Integromat by Czech systems integrator Integrators.cz, the company was acquired by Celonis in October 2020 for over $100 million and rebranded to Make in February 2022. Today Make serves over 400,000 organizations in 200+ countries, with 100,000+ paying customers.",
@@ -11,44 +10,88 @@
     "website": "https://www.make.com",
     "cnaip_url": null
   },
-
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["automation", "generative_ai", "data_engineering"],
-    "industries_served": ["marketing", "sales", "operations", "it", "finance", "customer_experience", "hr"],
+    "ai_focus": [
+      "automation",
+      "generative_ai",
+      "data_engineering"
+    ],
+    "industries_served": [
+      "marketing",
+      "sales",
+      "operations",
+      "it",
+      "finance",
+      "customer_experience",
+      "hr"
+    ],
     "company_type": "acquired",
     "is_ai_native": false
   },
-
   "history": {
     "founded_year": 2012,
     "founders": [],
     "origin_story": "Built by the Czech systems integrator Integrators.cz as part of their work doing integration consulting for large Czech companies including banks. Launched as Integromat in 2012, the platform grew organically without external funding to 250K customers and $10M revenue by 2020.",
     "key_milestones": [
-      {"year": 2012, "event": "Integromat launched by Integrators.cz in Prague"},
-      {"year": 2020, "event": "Reached $10M revenue and 250K customers"},
-      {"year": 2020, "event": "Acquired by Celonis (Munich-based, $2.5B valuation at time) for over $100M in October"},
-      {"year": 2022, "event": "Rebranded from Integromat to Make in February; launched as own business unit within Celonis"},
-      {"year": 2025, "event": "Approaching EUR 100M+ ARR; 15x revenue growth since acquisition; grew team from ~50 to ~400"},
-      {"year": 2025, "event": "Launched AI Agents, Agentic Automation, and MCP Server capabilities"},
-      {"year": 2025, "event": "Celonis raises $1B funding round, valued at $13B"}
+      {
+        "year": 2012,
+        "event": "Integromat launched by Integrators.cz in Prague"
+      },
+      {
+        "year": 2020,
+        "event": "Reached $10M revenue and 250K customers"
+      },
+      {
+        "year": 2020,
+        "event": "Acquired by Celonis (Munich-based, $2.5B valuation at time) for over $100M in October"
+      },
+      {
+        "year": 2022,
+        "event": "Rebranded from Integromat to Make in February; launched as own business unit within Celonis"
+      },
+      {
+        "year": 2025,
+        "event": "Approaching EUR 100M+ ARR; 15x revenue growth since acquisition; grew team from ~50 to ~400"
+      },
+      {
+        "year": 2025,
+        "event": "Launched AI Agents, Agentic Automation, and MCP Server capabilities"
+      },
+      {
+        "year": 2025,
+        "event": "Celonis raises $1B funding round, valued at $13B"
+      }
     ]
   },
-
   "size": {
     "employees_range": "201-500",
     "employees_exact": 350,
     "employee_source": "make.com/en/about",
     "office_count": 4
   },
-
   "offices": [
-    {"city": "Prague", "country": "CZ", "is_hq": true},
-    {"city": "Madrid", "country": "ES", "is_hq": false},
-    {"city": "Raleigh", "country": "US", "is_hq": false},
-    {"city": "Pristina", "country": "XK", "is_hq": false}
+    {
+      "city": "Prague",
+      "country": "CZ",
+      "is_hq": true
+    },
+    {
+      "city": "Madrid",
+      "country": "ES",
+      "is_hq": false
+    },
+    {
+      "city": "Raleigh",
+      "country": "US",
+      "is_hq": false
+    },
+    {
+      "city": "Pristina",
+      "country": "XK",
+      "is_hq": false
+    }
   ],
-
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
@@ -61,14 +104,16 @@
     "revenue_source": "SaaSiest podcast Nov 2025 - CEO Fabian Q. Veit stated approaching EUR 100M+ ARR; 15x growth from ~$10M at acquisition",
     "business_model": "freemium"
   },
-
   "team": {
     "leadership": [
-      {"name": "Fabian Q. Veit", "title": "CEO", "source": "SaaSiest podcast Nov 2025"}
+      {
+        "name": "Fabian Q. Veit",
+        "title": "CEO",
+        "source": "SaaSiest podcast Nov 2025"
+      }
     ],
     "notable_people": []
   },
-
   "careers": {
     "careers_url": "https://www.make.com/en/careers",
     "open_roles_count": 29,
@@ -96,26 +141,41 @@
       "Tech Lead - Execution Engine",
       "Value Engineer with Portuguese"
     ],
-    "tech_stack": ["JavaScript", "TypeScript"],
+    "tech_stack": [
+      "JavaScript",
+      "TypeScript"
+    ],
     "hiring_signals": "actively_hiring"
   },
-
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
     "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Make-EI_IE7362352.11,15.htm"
   },
-
   "recognition": {
     "awards": [],
-    "notable_clients": ["BambooHR", "BNY", "Bolt", "Finn", "Fonds Finanz", "Gojob", "Tally.so", "Celonis", "Perk", "FranklinCovey"],
+    "notable_clients": [
+      "BambooHR",
+      "BNY",
+      "Bolt",
+      "Finn",
+      "Fonds Finanz",
+      "Gojob",
+      "Tally.so",
+      "Celonis",
+      "Perk",
+      "FranklinCovey"
+    ],
     "customer_count": 400000,
     "partnerships": [
-      {"partner": "Celonis", "type": "parent_company", "details": "Acquired by Celonis in October 2020; operates as business unit within Celonis ($13B valuation)"}
+      {
+        "partner": "Celonis",
+        "type": "parent_company",
+        "details": "Acquired by Celonis in October 2020; operates as business unit within Celonis ($13B valuation)"
+      }
     ]
   },
-
   "metadata": {
     "data_quality": "medium",
     "sources_used": [
@@ -137,5 +197,15 @@
     ],
     "needs_review": true,
     "notes": "Integromat was bootstrapped (no external funding raised before Celonis acquisition). Founders not named on current Make website as it operates as a Celonis business unit. Glassdoor blocked automated access. Revenue estimate based on CEO statement in Nov 2025 podcast about approaching EUR 100M+ ARR. Celonis parent company valued at $13B after $1B raise in 2025. Make has 50+ nationalities represented among 350+ employees. Platform ratings: Capterra 4.8/5 (404 reviews), G2 4.7/5 (238 reviews), Gartner 4.6/5 (20 reviews)."
+  },
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Domain-specific focus (data_engineering) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established customer base with proven market demand.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Acquired by Celonis — funded by parent entity.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
   }
 }
