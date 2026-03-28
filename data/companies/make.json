@@ -3,209 +3,111 @@
   "name": "Make",
   "category": "company",
   "scraped_at": "2026-03-28T12:00:00Z",
+
   "overview": {
-    "description": "Visual AI workflow automation platform that enables businesses to build, scale, and automate workflows and AI agents across 3,000+ apps without code",
-    "description_long": "Make (formerly Integromat) is the leading integration and automation development platform, empowering businesses across all verticals to visually design, build, and automate workflows and AI agents. The platform connects 3,000+ pre-built app integrations and supports agentic automation, enabling teams to orchestrate complex processes with transparency and control. Originally launched in 2012 as Integromat by Czech systems integrator Integrators.cz, the company was acquired by Celonis in October 2020 for over $100 million and rebranded to Make in February 2022. Today Make serves over 400,000 organizations in 200+ countries, with 100,000+ paying customers.",
-    "tagline": "Visual AI workflow automation that puts teams in control",
-    "website": "https://www.make.com",
+    "description": "Visual no-code/low-code platform for automating workflows and connecting apps",
+    "description_long": "Make (formerly Integromat) is a leading visual automation platform that enables individuals, teams, and enterprises to design, build, and automate workflows across 1,000+ apps and services without coding. Originally founded in Prague as Integromat in 2012, the company was acquired by Celonis in 2020 and rebranded to Make in 2022. With 500K+ users across 198 countries and 308 employees, Make serves as an enterprise-grade alternative to Zapier with more powerful visual workflow logic.",
+    "tagline": "Work the way you imagine #withMake",
+    "website": "https://www.make.com/en",
     "cnaip_url": null
   },
+
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": [
-      "automation",
-      "generative_ai",
-      "data_engineering"
-    ],
-    "industries_served": [
-      "marketing",
-      "sales",
-      "operations",
-      "it",
-      "finance",
-      "customer_experience",
-      "hr"
-    ],
+    "ai_focus": ["automation"],
+    "industries_served": ["marketing", "sales", "operations", "finance", "retail", "logistics", "technology", "hr"],
     "company_type": "acquired",
     "is_ai_native": false
   },
+
   "history": {
     "founded_year": 2012,
-    "founders": [],
-    "origin_story": "Built by the Czech systems integrator Integrators.cz as part of their work doing integration consulting for large Czech companies including banks. Launched as Integromat in 2012, the platform grew organically without external funding to 250K customers and $10M revenue by 2020.",
+    "founders": ["Ondřej Gazda", "Patrik Šimek", "Michal Toman"],
+    "origin_story": "Founded in Prague in 2012 as Integromat, a visual workflow automation platform described as an enterprise version of Zapier. Acquired by German process mining company Celonis in October 2020 and rebranded to Make in February 2022.",
     "key_milestones": [
-      {
-        "year": 2012,
-        "event": "Integromat launched by Integrators.cz in Prague"
-      },
-      {
-        "year": 2020,
-        "event": "Reached $10M revenue and 250K customers"
-      },
-      {
-        "year": 2020,
-        "event": "Acquired by Celonis (Munich-based, $2.5B valuation at time) for over $100M in October"
-      },
-      {
-        "year": 2022,
-        "event": "Rebranded from Integromat to Make in February; launched as own business unit within Celonis"
-      },
-      {
-        "year": 2025,
-        "event": "Approaching EUR 100M+ ARR; 15x revenue growth since acquisition; grew team from ~50 to ~400"
-      },
-      {
-        "year": 2025,
-        "event": "Launched AI Agents, Agentic Automation, and MCP Server capabilities"
-      },
-      {
-        "year": 2025,
-        "event": "Celonis raises $1B funding round, valued at $13B"
-      }
+      {"year": 2012, "event": "Founded in Prague as Integromat"},
+      {"year": 2020, "event": "Acquired by Celonis (undisclosed amount); ~60 employees at time of acquisition"},
+      {"year": 2022, "event": "Rebranded from Integromat to Make (February 22, 2022)"},
+      {"year": 2022, "event": "AWS partnership announced; listed on AWS Marketplace"},
+      {"year": 2022, "event": "Won Golden Kitty Award for Best No-Code Product"},
+      {"year": 2022, "event": "Launched first Customer Advisory Board"},
+      {"year": 2023, "event": "Legacy Integromat platform officially closed"}
     ]
   },
+
   "size": {
     "employees_range": "201-500",
-    "employees_exact": 350,
-    "employee_source": "make.com/en/about",
-    "office_count": 4
+    "employees_exact": 308,
+    "employee_source": "company_website (Wayback Machine snapshot, September 2024)",
+    "office_count": null
   },
+
   "offices": [
-    {
-      "city": "Prague",
-      "country": "CZ",
-      "is_hq": true
-    },
-    {
-      "city": "Madrid",
-      "country": "ES",
-      "is_hq": false
-    },
-    {
-      "city": "Raleigh",
-      "country": "US",
-      "is_hq": false
-    },
-    {
-      "city": "Pristina",
-      "country": "XK",
-      "is_hq": false
-    }
+    {"city": "Prague", "country": "CZ", "is_hq": true}
   ],
+
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
     "stock_exchange": null,
-    "parent_company": "Celonis",
+    "parent_company": "Celonis, Inc.",
     "funding_total_usd": null,
-    "funding_rounds": [],
-    "investors": [],
-    "revenue_estimate_usd": 100000000,
-    "revenue_source": "SaaSiest podcast Nov 2025 - CEO Fabian Q. Veit stated approaching EUR 100M+ ARR; 15x growth from ~$10M at acquisition",
+    "funding_rounds": [
+      {"date": "2020-10", "type": "Acquisition", "amount_usd": null, "lead_investor": "Celonis"}
+    ],
+    "investors": ["Celonis"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
     "business_model": "freemium"
   },
+
   "team": {
     "leadership": [
-      {
-        "name": "Fabian Q. Veit",
-        "title": "CEO",
-        "source": "SaaSiest podcast Nov 2025"
-      }
+      {"name": "Ondřej Gazda", "role": "Co-founder, CEO", "source": "company_website (Integromat About page, 2020)"},
+      {"name": "Patrik Šimek", "role": "Co-founder, CTO", "source": "company_website (Integromat About page, 2020)"},
+      {"name": "Michal Toman", "role": "Co-founder, Platform Engineer", "source": "company_website (Integromat About page, 2020)"}
     ],
     "notable_people": []
   },
+
   "careers": {
     "careers_url": "https://www.make.com/en/careers",
-    "open_roles_count": 29,
-    "open_roles": [
-      "Account Manager CEE",
-      "AI Product Manager",
-      "Business Development Representative",
-      "Community Event Manager",
-      "Events Lead",
-      "Integration Engineer",
-      "Partner Manager",
-      "Performance Marketing Manager",
-      "Product Design Intern (UX/UI)",
-      "Product Manager",
-      "Product Operations Manager",
-      "Senior Back-End Software Engineer",
-      "Senior Back-end Software Engineer - Biz Tools",
-      "(Senior) Full-stack Software Engineer - Growth",
-      "Senior Full-Stack Software Engineer - Product Platform",
-      "Senior Software Engineer - Developer Productivity team",
-      "Site Reliability Engineer - Infrastructure",
-      "Software Engineering Intern",
-      "Staff AI Engineer (JS/TS)",
-      "Staff Product Designer",
-      "Tech Lead - Execution Engine",
-      "Value Engineer with Portuguese"
-    ],
-    "tech_stack": [
-      "JavaScript",
-      "TypeScript"
-    ],
-    "hiring_signals": "actively_hiring"
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["javascript", "node.js", "react"],
+    "hiring_signals": "unknown"
   },
+
   "glassdoor": {
     "rating": null,
     "review_count": null,
     "recommend_pct": null,
-    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Make-EI_IE7362352.11,15.htm"
+    "glassdoor_url": null
   },
+
   "recognition": {
-    "awards": [],
-    "notable_clients": [
-      "BambooHR",
-      "BNY",
-      "Bolt",
-      "Finn",
-      "Fonds Finanz",
-      "Gojob",
-      "Tally.so",
-      "Celonis",
-      "Perk",
-      "FranklinCovey"
-    ],
-    "customer_count": 400000,
-    "partnerships": [
-      {
-        "partner": "Celonis",
-        "type": "parent_company",
-        "details": "Acquired by Celonis in October 2020; operates as business unit within Celonis ($13B valuation)"
-      }
-    ]
+    "awards": ["Golden Kitty Award 2022 for Best No-Code Product"],
+    "notable_clients": ["Spotify", "BNY", "Bolt", "Roche", "BambooHR", "Finn"],
+    "customer_count": null,
+    "partnerships": ["AWS"]
   },
-  "metadata": {
-    "data_quality": "medium",
-    "sources_used": [
-      "make.com homepage",
-      "make.com/en/about",
-      "make.com/en/careers",
-      "Google Search: Make Integromat Prague funding raised acquired Celonis",
-      "Brave Search: Make Integromat revenue ARR",
-      "TechCrunch Oct 2020 acquisition article",
-      "SaaSiest podcast episode 200 (Nov 2025) with CEO Fabian Q. Veit",
-      "Getlatka Integromat profile"
-    ],
-    "fields_missing": [
-      "founders",
-      "glassdoor.rating",
-      "glassdoor.review_count",
-      "glassdoor.recommend_pct",
-      "financials.funding_total_usd"
-    ],
-    "needs_review": true,
-    "notes": "Integromat was bootstrapped (no external funding raised before Celonis acquisition). Founders not named on current Make website as it operates as a Celonis business unit. Glassdoor blocked automated access. Revenue estimate based on CEO statement in Nov 2025 podcast about approaching EUR 100M+ ARR. Celonis parent company valued at $13B after $1B raise in 2025. Make has 50+ nationalities represented among 350+ employees. Platform ratings: Capterra 4.8/5 (404 reviews), G2 4.7/5 (238 reviews), Gartner 4.6/5 (20 reviews)."
-  },
+
   "risk_assessment": {
-    "agi_displacement": "low",
-    "agi_displacement_rationale": "Domain-specific focus (data_engineering) with proprietary tech or established customer base provides moat against foundation model commoditization.",
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Make's visual workflow automation faces medium risk as LLMs increasingly enable natural language workflow creation that could bypass visual builders. However, Make's deep integration library (1,000+ apps), complex conditional logic capabilities, and visual debuggability provide a moat that is hard to replicate through pure language interfaces.",
     "market_risk": "low",
-    "market_risk_rationale": "Established customer base with proven market demand.",
+    "market_risk_rationale": "Make operates in an established and growing no-code automation market with 500K+ users and major enterprise clients like Spotify and Roche. Despite competition from Zapier, n8n, and Workato, Make has demonstrated strong product-market fit and differentiation through its visual interface and pricing.",
     "funding_risk": "not_applicable",
-    "funding_risk_rationale": "Acquired by Celonis — funded by parent entity.",
+    "funding_risk_rationale": "Make is a wholly-owned subsidiary of Celonis, Inc., which has raised over $2.4 billion. As an acquired company, Make benefits from Celonis' financial stability and is not subject to typical startup funding risk.",
     "overall_risk": "low",
-    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
+    "overall_risk_rationale": "Despite medium AGI displacement risk from natural language workflow alternatives, Make's low funding risk (backed by Celonis) and established user base of 500K+ across 198 countries with major enterprise clients provide strong overall resilience."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website (Wayback Machine archive)", "techcrunch.com", "integromat.com (archived 2020)"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "funding_total_usd", "revenue_estimate_usd", "open_roles_count", "office_count"],
+    "needs_review": false,
+    "notes": "Make.com website is Cloudflare-protected; data sourced from Wayback Machine archives. Employee count (308) from September 2024 Make About page. Founders identified from 2020 Integromat About page archive. Rebranded from Integromat to Make in February 2022 after Celonis acquisition in October 2020."
   }
 }
