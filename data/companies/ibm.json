@@ -1,0 +1,123 @@
+{
+  "id": "ibm",
+  "name": "IBM",
+  "category": "company",
+  "scraped_at": "2026-03-28T17:40:00Z",
+
+  "overview": {
+    "description": "Global technology leader offering AI, hybrid cloud, consulting, and enterprise software with Czech Republic operations in Prague and Brno",
+    "description_long": "IBM (International Business Machines Corporation) is a global technology and consulting company. In the Czech Republic, IBM operates through IBM Česká republika, spol. s r. o. (Prague HQ, Chodov) and IBM Client Innovation Centre Brno (since 2001). The Czech offices deliver consulting services, managed outsourcing, IT infrastructure, and AI/automation solutions (including the watsonx platform) to clients in banking, insurance, telecom, and pharma across Central Europe. IBM's AI portfolio includes watsonx for generative AI and automation, Watson for enterprise NLP, and IBM Consulting for AI transformation projects.",
+    "tagline": "IBM. Let's create",
+    "website": "https://www.ibm.com/cz-en",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["generative_ai", "automation", "nlp", "ml_ops", "data_engineering"],
+    "industries_served": ["banking", "insurance", "telecommunications", "healthcare", "government", "manufacturing", "pharma"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1911,
+    "founders": ["Charles Ranlett Flint", "Thomas J. Watson"],
+    "origin_story": "Founded in 1911 as Computing-Tabulating-Recording Company; renamed IBM in 1924. Czech Republic operations established in Prague (Chodov). IBM Client Innovation Centre Brno launched in 2001.",
+    "key_milestones": [
+      {"year": 1911, "event": "Founded as Computing-Tabulating-Recording Company in Endicott, New York"},
+      {"year": 1924, "event": "Renamed International Business Machines Corporation (IBM)"},
+      {"year": 1997, "event": "Deep Blue defeats world chess champion Garry Kasparov"},
+      {"year": 2001, "event": "IBM Client Innovation Centre Brno established in Czech Republic"},
+      {"year": 2011, "event": "Watson defeats human champions on Jeopardy!, marking AI milestone"},
+      {"year": 2022, "event": "Fridrich Matejík appointed General Director of IBM Czech Republic"},
+      {"year": 2023, "event": "watsonx generative AI platform launched globally"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 264300,
+    "employee_source": "wikipedia_2025",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "Armonk", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "IBM",
+    "stock_exchange": "NYSE",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 67540000000,
+    "revenue_source": "wikipedia_annual_report_2025",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Arvind Krishna", "role": "Chairman & CEO (Global)", "source": "wikipedia"},
+      {"name": "Fridrich Matejík", "role": "General Director, IBM Czech Republic (since 2022)", "source": "cs.wikipedia.org"},
+      {"name": "Zoltan Zerenyi", "role": "Director, IBM Client Innovation Centre Brno", "source": "cs.wikipedia.org"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.ibm.com/cz-en/careers",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Consulting Role – Business Transformation Consultant", "department": "consulting", "location": "Prague/Brno"},
+      {"title": "Software Engineer", "department": "engineering", "location": "Prague/Brno"},
+      {"title": "AI & watsonx Consultant", "department": "consulting", "location": "Prague/Brno"},
+      {"title": "SAP Consultant", "department": "consulting", "location": "Prague/Brno"},
+      {"title": "DevOps Engineer", "department": "engineering", "location": "Prague/Brno"}
+    ],
+    "tech_stack": ["python", "java", "kubernetes", "openshift", "ibm-cloud", "watsonx", "red-hat", "ansible"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/IBM-Reviews-E354.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Forbes America's Best Management Consulting Firms 2026",
+      "National Medal of Technology and Innovation (multiple years)",
+      "29 consecutive years of most annual US patents (1993–2021)"
+    ],
+    "notable_clients": ["Pfizer", "Lufthansa", "Sixt", "Ferrari (Scuderia Ferrari HP)", "US Open / USTA", "UFC"],
+    "customer_count": null,
+    "partnerships": ["Red Hat", "Microsoft", "SAP", "Salesforce", "AWS"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "IBM is itself a major AI platform provider (watsonx, Watson, IBM Research) with decades of proprietary AI research, enterprise data, and deep customer integrations across regulated industries. Their consulting division's value lies in complex enterprise transformation work that cannot easily be replaced by commoditized AI tools.",
+    "market_risk": "low",
+    "market_risk_rationale": "IBM has $67.5B annual revenue, 264,000+ employees in 177 countries, and established enterprise relationships across banking, insurance, healthcare, and government. The Czech Republic offices serve a large and stable Central European enterprise market.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "IBM is a publicly traded company (NYSE: IBM) with over $67 billion in annual revenue and substantial profitability. Funding risk is not applicable for this global enterprise.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "IBM is a 100+ year old global technology enterprise with deep AI capabilities, a large and stable customer base, and its own AI platforms (watsonx). Its Czech Republic operations are well-established with offices in Prague and Brno serving major enterprise clients."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["ibm.com/cz-en", "cs.wikipedia.org", "en.wikipedia.org", "ibm.com/careers"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "open_roles_count", "employees_czech_republic"],
+    "needs_review": false,
+    "notes": "IBM Czech Republic operates under IBM Česká republika, spol. s r. o. (Prague, Chodov) and IBM Middleware Czechia / Client Innovation Centre (Brno). Employee count reflects global figure. Czech-specific employee count not publicly available. Revenue reflects global figure. Glassdoor blocked automated access."
+  }
+}
