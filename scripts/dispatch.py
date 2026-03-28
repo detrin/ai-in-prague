@@ -125,7 +125,7 @@ def fix_trailing_newline(*paths):
                 p.write_bytes(data + b"\n")
 
 
-async def git_commit(company_id, company_name):
+async def git_commit(company_id, company_name, push=False):
     async with GIT_LOCK:
         update_index_status(company_id, "done")
         company_file = COMPANIES / f"{company_id}.json"
@@ -153,6 +153,21 @@ async def git_commit(company_id, company_name):
             print(f"[GIT]   {company_name} — committed")
         else:
             print(f"[GIT]   {company_name} — commit failed: {stderr.decode()[:200]}")
+            return
+
+        if push:
+            proc = await asyncio.create_subprocess_exec(
+                "git",
+                "push",
+                cwd=str(ROOT),
+                stdout=asyncio.subprocess.PIPE,
+                stderr=asyncio.subprocess.PIPE,
+            )
+            stdout, stderr = await proc.communicate()
+            if proc.returncode == 0:
+                print(f"[GIT]   {company_name} — pushed")
+            else:
+                print(f"[GIT]   {company_name} — push failed: {stderr.decode()[:200]}")
 
 
 async def render_pdf(company_id):
@@ -182,7 +197,7 @@ async def render_pdf(company_id):
         print(f"[PDF]   {company_id} — render failed: {stdout.decode()[:100]}")
 
 
-async def scrape_one(sem, company, model, dry_run, commit, render):
+async def scrape_one(sem, company, model, dry_run, commit, render, push=False):
     async with sem:
         cid = company["id"]
         name = company["name"]
@@ -222,7 +237,7 @@ async def scrape_one(sem, company, model, dry_run, commit, render):
         print(f"[{icon:4s}]  {name} ({elapsed:.0f}s) — {detail}")
 
         if commit and ok:
-            await git_commit(cid, name)
+            await git_commit(cid, name, push=push)
 
         if render and ok:
             await render_pdf(cid)
@@ -230,9 +245,9 @@ async def scrape_one(sem, company, model, dry_run, commit, render):
         return cid, status, elapsed
 
 
-async def run(companies, concurrency, model, dry_run, commit, render):
+async def run(companies, concurrency, model, dry_run, commit, render, push=False):
     sem = asyncio.Semaphore(concurrency)
-    tasks = [scrape_one(sem, c, model, dry_run, commit, render) for c in companies]
+    tasks = [scrape_one(sem, c, model, dry_run, commit, render, push=push) for c in companies]
     results = await asyncio.gather(*tasks)
 
     index = load_index()
@@ -300,6 +315,11 @@ def main():
         action="store_true",
         help="render PDF leaflet after each successful scrape",
     )
+    parser.add_argument(
+        "--push",
+        action="store_true",
+        help="git push after each successful commit",
+    )
     args = parser.parse_args()
 
     index = load_index()
@@ -334,6 +354,7 @@ def main():
             args.dry_run,
             args.commit,
             args.render,
+            push=args.push,
         )
     )
 
