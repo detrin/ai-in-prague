@@ -1,0 +1,125 @@
+{
+  "id": "qminers",
+  "name": "Qminers",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "Algorithmic trading software company using advanced mathematics and ML for market making",
+    "description_long": "Qminers develops proprietary algorithmic trading software that trades autonomously on global financial markets based on complex mathematical models, statistical methods and optimisation algorithms. The company focuses on market making — narrowing bid-ask spreads to improve market efficiency. They use C++, Python, deep learning, and FPGA technology. Their software runs under a partnership with a major US trading firm, with Qminers receiving a significant profit share. Founded in 2012, the company has never had a loss-making month.",
+    "tagline": "We develop software for algorithmic trading",
+    "website": "https://qminers.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["ml_ops", "data_engineering", "other"],
+    "industries_served": ["finance"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2012,
+    "founders": ["Petr Zahradník", "Miloš Krejník"],
+    "origin_story": "Founded in 2012 in Kutná Hora by Petr Zahradník (econometrics, Charles University) and Miloš Krejník. Instead of being hired by a US trading firm's headhunter, they proposed an independent software licensing deal and kept autonomy.",
+    "key_milestones": [
+      {"year": 2012, "event": "Founded in Kutná Hora"},
+      {"year": 2013, "event": "First algorithmic trades executed"},
+      {"year": 2014, "event": "Launched trading software written in C++"},
+      {"year": 2015, "event": "First couple of million dollars operating through US partner"},
+      {"year": 2016, "event": "Achieved Sharpe ratio > 10"},
+      {"year": 2018, "event": "Became independent and licensed out software; moved to Prague"},
+      {"year": 2020, "event": "Learned to work with FPGA cards; donated CZK 2M for hospital ventilators"},
+      {"year": 2021, "event": "Contributed CZK 5M towards military equipment for Ukraine"},
+      {"year": 2023, "event": "Record year for total profits and charitable contributions"},
+      {"year": 2024, "event": "Best results in company history; established Qminers Foundation; renovated Špork Palace offices"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 41,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "licensing"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Petr Zahradník", "role": "CEO & Partner", "source": "company_website"},
+      {"name": "Filip Matzner", "role": "CTO", "source": "company_website"},
+      {"name": "Oldřich Myslivec", "role": "COO", "source": "company_website"},
+      {"name": "Daniel Krýcha", "role": "Chief Project Officer", "source": "company_website"},
+      {"name": "Alexandra Helánová", "role": "Chief of People", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Martin Hadrava", "role": "C++ Developer, Team Leader & Partner", "source": "company_website"},
+      {"name": "Vít Kubelka", "role": "Quantitative Analyst, Team Leader", "source": "company_website"},
+      {"name": "Šárka Večeřová", "role": "Quantitative Analyst, Team Leader", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://qminers.com/en/hiring/work-with-us",
+    "open_roles_count": 12,
+    "open_roles": [
+      {"title": "Quantitative Analyst", "department": "analytics", "location": "Prague"},
+      {"title": "C++ Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Python Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Deep Learning Researcher/Engineer", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["c++", "python", "fpga", "deep_learning"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Major US algorithmic trading firm (undisclosed)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Qminers' core value is proprietary real-time market making algorithms built on deep quantitative finance expertise, C++ microsecond execution, and FPGA hardware — none of which can be replicated by general-purpose LLMs. Their moat lies in domain knowledge, proprietary data pipelines, and ultra-low latency engineering.",
+    "market_risk": "low",
+    "market_risk_rationale": "Market making is a well-established, profitable segment of global financial markets. Qminers has an active partnership with a major US trading firm and has operated profitably without a single loss-making month since 2012, demonstrating robust and durable demand.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Qminers is fully self-funded and bootstrapped, profitable from inception with no external investors. The company explicitly states it has never had a loss-making month in over a decade of operation.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Qminers is a profitable, bootstrapped company with a deep technical moat in quantitative finance, zero funding risk, and a business model insulated from commoditisation by LLMs. The main risk would be a structural change in market microstructure, but their diversified global market exposure and ongoing ML/deep learning investment mitigate this."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin", "cocuma"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "Bootstrapped proprietary trading firm with unique licensing business model — not a typical SaaS. Team size ~40 per company website, LinkedIn shows 41. No external funding or public revenue data; company describes consistent profitability since 2012."
+  }
+}
