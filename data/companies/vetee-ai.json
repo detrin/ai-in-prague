@@ -1,0 +1,102 @@
+{
+  "id": "vetee-ai",
+  "name": "Vetee.ai",
+  "category": "company",
+  "scraped_at": "2026-03-28T22:30:00Z",
+
+  "overview": {
+    "description": "AI-powered veterinary consultation and pet care app for Czech pet owners",
+    "description_long": "Vetee.ai s.r.o. operates the uVeterináře app — a 24/7 veterinary advice platform and pet care companion. The app provides online veterinary consultations, reminders for vaccinations, deworming and medication, an overview of emergency vet clinics and pet hotels, and contact with animal rescue services. Their mission is to bring accessible, high-quality veterinary care to all pet owners.",
+    "tagline": "Zdraví a bezpečnost Vašich mazlíčků (Health and safety of your pets)",
+    "website": "https://vetee.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2c_saas",
+    "ai_focus": ["nlp", "other"],
+    "industries_served": ["veterinary", "pet care", "healthcare"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2023,
+    "founders": [],
+    "origin_story": "Founded in November 2023 in Prague (Libeň district). Registered at the Municipal Court in Prague under file C 394694.",
+    "key_milestones": [
+      {"year": 2023, "event": "Company Vetee.ai s.r.o. incorporated on 27 November 2023, registered at Municipal Court in Prague"},
+      {"year": 2024, "event": "Launched uVeterináře mobile app on iOS (App Store) and Android (Google Play)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Praha 8 (Libeň)", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "freemium"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "The core value proposition — 24/7 AI veterinary consultation — is directly replicable by general-purpose LLMs (GPT-4, Claude) with veterinary prompting. No proprietary training data or medical certification moat is evident; the app primarily aggregates vet consultations and reminders.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The pet care app market is growing with real consumer demand, but it is fragmented and competitive. The company targets Czech-speaking users in a relatively small geographic market, limiting scale. Large pet care platforms could add similar AI features.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Founded in late 2023 with no known external funding. The app has only 16 App Store reviews, indicating very early traction. Small team with no disclosed revenue or investors creates meaningful runway risk.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "A very early-stage Czech B2C consumer startup with no known funding, a generic AI veterinary consultation product that major LLM providers could commoditize, and limited traction (16 app reviews). High across all risk dimensions."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ares_cz", "app_store"],
+    "fields_missing": ["founders", "leadership", "funding_total_usd", "employees_exact", "glassdoor_rating", "tech_stack"],
+    "needs_review": false,
+    "notes": "Company registered 2023-11-27. IČO: 19961685. DUNS: 984001751. App called uVeterináře (uveterinare.ai). App Store rating 4.8/5 from 16 reviews. LinkedIn: company/103094630. No CNAIP entry found. Founders not publicly listed."
+  }
+}
