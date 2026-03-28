@@ -1,0 +1,114 @@
+{
+  "id": "yieldigo",
+  "name": "Yieldigo",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered retail price management software for professional retailers and e-commerce companies",
+    "description_long": "Yieldigo is a B2B SaaS pricing platform that combines ML/AI with a 'glass-box' approach to help retail pricing professionals manage and optimize prices, promotions, markdowns, and multibuy offers. The platform empowers pricing teams to execute complex strategies via an intuitive cockpit while maintaining full oversight of AI-driven recommendations. Customers report recovering 3–12% of sales margin. Legal entity: Yieldigo, s.r.o.",
+    "tagline": "Control Your Retail Prices with Ease",
+    "website": "https://www.yieldigo.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["ml_ops", "recommendation", "automation"],
+    "industries_served": ["retail", "e-commerce", "grocery", "fmcg"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2016,
+    "founders": [],
+    "origin_story": "Founded in late 2016 in Prague by experts driven by curiosity for retail pricing gaps. Started with a mathematical model with ML/AI features and developed it into a full pricing management platform.",
+    "key_milestones": [
+      {"year": 2016, "event": "Founded in Prague, Czech Republic"},
+      {"year": 2023, "event": "Received EU National Recovery Plan grant (Country for the Future program)"},
+      {"year": 2025, "event": "100+ pricing projects with leading retail chains across Europe"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": 50,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "San Francisco", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": [
+      {"name": "Rudolf Dobias", "role": "Head of IT Development", "source": "company_website"},
+      {"name": "Alina Denyshchenko", "role": "Onboarding Director", "source": "company_website"},
+      {"name": "Tony Pokorny", "role": "Customer Success Manager", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.yieldigo.com/careers/",
+    "open_roles_count": 5,
+    "open_roles": [
+      {"title": "QA Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Junior Office Manager", "department": "operations", "location": "Prague"},
+      {"title": "Data Scientist (R, Python, SQL)", "department": "data", "location": "Prague"},
+      {"title": "Sr. Retail Pricing Consultant – Poland", "department": "consulting", "location": "Poland"},
+      {"title": "Content Lead (B2B SaaS)", "department": "marketing", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "r", "sql"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Gartner Representative Vendor – Unified price, promotion and markdown optimization", "IT Infrastructure & Security Infrastructure Partner"],
+    "notable_clients": ["Metro Cash and Carry Slovakia", "Frisco.pl", "Phoenix Pharma Italia", "Colruyt", "Healthspan", "Bonami", "Bringmeister", "Ahold Czechia", "LKQ/ELIT"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Yieldigo's pricing AI could face commoditization as general-purpose LLMs improve at data-driven recommendations. However, the platform's 'glass-box' approach with deep retail data integrations, workflow automations, and domain-specific pricing rules engine create meaningful lock-in beyond a pure AI wrapper.",
+    "market_risk": "low",
+    "market_risk_rationale": "Retail price management is an established market with clear ROI (3–12% margin recovery reported by customers). Yieldigo serves multiple verticals (grocery, FMCG, e-commerce) with 100+ projects and named enterprise clients like Colruyt and Ahold Czechia.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No external VC funding rounds found; appears bootstrapped with EU grant support (National Recovery Plan). Small team of ~50 with paying customers, but limited runway visibility and no disclosed institutional backing.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Solid market position and customer base reduce downside, but bootstrapped funding model and medium AGI displacement risk from commoditizing pricing AI keep overall risk at medium. Deep domain expertise and customer lock-in via integrations provide resilience."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["founders", "leadership_names", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "Founder/CEO names not published on website or LinkedIn. Team size from company website (50) slightly differs from careers page (40); LinkedIn lists 51-200 bucket. EU grant received: CZ.31.4.0/0.0/0.0/23_069/0007885 under Country for the Future program (EU National Recovery Plan)."
+  }
+}
