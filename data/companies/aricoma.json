@@ -1,0 +1,118 @@
+{
+  "id": "aricoma",
+  "name": "Aricoma",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Enterprise IT services and digital transformation leader in Czech Republic and Central Europe",
+    "description_long": "Aricoma is the #1 enterprise IT company in Czech Republic, part of the KKCG Investment Group. It delivers end-to-end IT services spanning enterprise applications (SAP, Microsoft Dynamics), IT infrastructure, enterprise cybersecurity, digital government transformation, and artificial intelligence. AI offerings include Microsoft Copilot specialization, AI agents for business process automation, AI-powered ERP assistants, AI security, and GPU cluster solutions for AI workloads. Serves commercial businesses and public sector across CZ, SK, and internationally.",
+    "tagline": "#1 in Enterprise IT",
+    "website": "https://www.aricoma.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["automation", "generative_ai", "ml_ops"],
+    "industries_served": ["manufacturing", "banking", "insurance", "energy", "retail", "logistics", "healthcare", "government", "education"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2021,
+    "founders": [],
+    "origin_story": "Aricoma was established as the unified brand for the IT division of KKCG Investment Group, consolidating multiple Czech IT companies under one enterprise brand. The underlying entities have longer operating histories, while the Aricoma brand emerged around 2021.",
+    "key_milestones": [
+      {"year": 2021, "event": "Aricoma brand established as unified IT arm of KKCG Group"},
+      {"year": 2025, "event": "Acquired Datron's IT infrastructure business"},
+      {"year": 2025, "event": "Renewed European Commission contract worth EUR 616.8 million"},
+      {"year": 2026, "event": "Acquired SAP suppliers in Austria and Slovenia"},
+      {"year": 2026, "event": "Unified SAP companies into a single team"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 2300,
+    "employee_source": "company_website",
+    "office_count": 10
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Bratislava", "country": "SK", "is_hq": false},
+    {"city": "Brussels", "country": "BE", "is_hq": false},
+    {"city": "Luxembourg", "country": "LU", "is_hq": false},
+    {"city": "Vienna", "country": "AT", "is_hq": false},
+    {"city": "Ljubljana", "country": "SI", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "KKCG Investment Group",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["KKCG Investment Group"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Milan Sameš", "role": "CEO & Chairman of the Board", "source": "company_website"},
+      {"name": "Martin Grigar", "role": "Vice Chairman of the Board", "source": "company_website"},
+      {"name": "Michal Tománek", "role": "Member of the Board", "source": "company_website"},
+      {"name": "Ondřej Matuštík", "role": "Member of the Board", "source": "company_website"},
+      {"name": "Jaromír Babinec", "role": "M&A Director, Member of the Board", "source": "company_website"},
+      {"name": "Tomáš Ječmínek", "role": "CFO", "source": "company_website"},
+      {"name": "Kristína Šmída", "role": "HR Director", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.aricoma.com/about-us/career",
+    "open_roles_count": 30,
+    "open_roles": [],
+    "tech_stack": ["sap", "microsoft-dynamics-365", "microsoft-copilot", "azure", "cisco", "hpe", "dell", "ibm", "fortinet", "sharepoint", "servicenow"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": 81,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Škoda Auto", "McDonald's", "Raiffeisenbank", "ČSOB Group", "O2 Czech Republic", "Allianz", "ČEZ Group", "Allwyn", "Continental", "Daikin", "HP TRONIC", "Metrostav", "2N Telecommunications", "Zentiva", "Dr. Max"],
+    "customer_count": null,
+    "partnerships": ["Microsoft", "SAP", "Cisco", "HPE", "Dell", "IBM", "Fortinet"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Aricoma's core business is enterprise IT services, system integration, and consulting — activities requiring significant human expertise and customer relationships. However, certain AI-augmented services (document AI, copilot implementations, service desk automation) could face commoditization as foundation models mature. Deep enterprise relationships and system integration complexity provide a partial moat.",
+    "market_risk": "low",
+    "market_risk_rationale": "Aricoma operates in established, large markets: enterprise IT services, digital government transformation, and cybersecurity — all growing segments with proven demand. The EUR 616.8M European Commission contract renewal and extensive enterprise client base (Škoda Auto, ČSOB, ČEZ, Allianz) demonstrate sustained market position.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Aricoma is a wholly owned subsidiary of KKCG Investment Group, a large Czech investment conglomerate active in lotteries, energy, IT, and real estate. Financial stability is backed by the parent group, not dependent on external venture funding.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Large, established enterprise IT company with 2300+ employees, KKCG Group backing, major government and corporate clients, and diversified service portfolio across CZ, SK, and Europe. The company is growing through acquisitions and has a renewed major EU Commission contract. Low overall risk despite some AI commoditization exposure in specific service lines."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year_confirmed", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "glassdoor_review_count"],
+    "needs_review": false,
+    "notes": "Aricoma is the IT arm of KKCG Group. The 81% recommend_pct in glassdoor field is actually from Atmoskop (Czech employer review platform), not Glassdoor — Glassdoor was blocked. Founded year of 2021 is estimated based on context; the brand Aricoma was created when KKCG unified its IT division. Employees exact count (2300+) from company career page."
+  }
+}
