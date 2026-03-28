@@ -1,0 +1,116 @@
+{
+  "id": "robotic-perception",
+  "name": "Robotic Perception Group",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Academic research group at CIIRC CTU focused on machine perception, computer vision, and human-robot interaction",
+    "description_long": "The Robotics Perception (ROP) Group is part of the Robotics and Machine Perception (RMP) Department at the Czech Institute of Informatics, Robotics, and Cybernetics (CIIRC) at Czech Technical University in Prague. The group deals with machine perception — including computer vision, tactile perception for robotic manipulation, perception from other sensory modalities, and cognitive approaches to human-robot interaction. Active in automotive perception, situational awareness for mobile robots, dual-arm manipulation of soft objects, and Industry 4.0 applications. The group builds on the tradition of the Center for Machine Perception (CMP) established at FEL CTU in 1996.",
+    "tagline": "Machine perception, computer vision, and human-robot interaction research",
+    "website": "https://rop.ciirc.cvut.cz/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["cv", "robotics", "automation"],
+    "industries_served": ["automotive", "manufacturing", "robotics"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2013,
+    "founders": ["Václav Hlaváč"],
+    "origin_story": "Established in 2013 as part of the Robotics and Machine Perception Department of CIIRC CTU. Builds on the tradition of the Center for Machine Perception (CMP) founded in 1996 at FEL CTU under Prof. Václav Hlaváč. Leadership passed to Karla Štěpánová in 2024.",
+    "key_milestones": [
+      {"year": 1996, "event": "Center for Machine Perception (CMP) founded at FEL CTU — predecessor group"},
+      {"year": 2013, "event": "ROP Group formally established within CIIRC CTU"},
+      {"year": 2024, "event": "Leadership transitioned from Prof. Václav Hlaváč to Dr. Karla Štěpánová"},
+      {"year": 2025, "event": "Joined EU Horizon ELLIOT project on open multimodal foundation models for robotics"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 18,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (CIIRC)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Karla Štěpánová", "role": "Head of ROP Group (since 2024)", "source": "company_website"},
+      {"name": "Václav Hlaváč", "role": "Professor / Former Head (until 2024)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Mirko Navara", "role": "Professor", "source": "company_website"},
+      {"name": "Pavel Krsek", "role": "Senior Researcher", "source": "company_website"},
+      {"name": "Martin Matoušek", "role": "Senior Researcher", "source": "company_website"},
+      {"name": "Vladimir Smutný", "role": "Senior Researcher", "source": "company_website"},
+      {"name": "Michal Vavrečka", "role": "Senior Researcher", "source": "company_website"},
+      {"name": "Radoslav Škoviera", "role": "PostDoc", "source": "company_website"},
+      {"name": "Julia Škovierová", "role": "PostDoc", "source": "company_website"},
+      {"name": "Gabriela Šejnová", "role": "PostDoc", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://rop.ciirc.cvut.cz/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "ros", "pytorch", "opencv"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Dekonta", "KM-Robotics", "Factorio Solutions"],
+    "customer_count": null,
+    "partnerships": ["TU Vienna", "Jagiellonian University in Cracow", "TU Delft (EU ELLIOT project)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at CTU/CIIRC — not a commercial entity competing in the AI market. Core mission is fundamental and applied research in robotics perception, not building a product that could be commoditized.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research group funded by national grants (GAČR, TAČR, MPO) and EU Horizon programs. Market dynamics do not apply to this type of institution.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Embedded within CIIRC CTU with ongoing national and EU Horizon funding streams (PersonalRobot GAČR Junior STAR, ELLIOT EU Horizon, ROBOPROX OP JAK). University affiliation provides structural stability.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research group within a leading Czech technical university. Commercial risk metrics do not apply. Funding continuity depends on grant cycles, which appear healthy given active portfolio of national and EU projects."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website"],
+    "fields_missing": ["funding_total_usd", "open_roles_count", "glassdoor_url", "revenue_estimate_usd"],
+    "needs_review": false,
+    "notes": "Research group within CIIRC CTU — part of the Robotics and Machine Perception (RMP) Department. No CNAIP page found. Website at rop.ciirc.cvut.cz is fully accessible. Team count (~18) estimated from people page. LinkedIn: linkedin.com/company/robotic-perception-group"
+  }
+}
