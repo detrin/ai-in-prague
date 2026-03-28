@@ -1,0 +1,106 @@
+{
+  "id": "2t-consulting",
+  "name": "2T Consulting",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Prague-based technology and consulting firm specializing in AI integration, digital transformation, and Microsoft cloud solutions",
+    "description_long": "2T Consulting is a technology and consulting firm headquartered in Prague, focused on digital transformation, cloud solutions, and AI integration. The company specializes in Microsoft technologies (Azure, Office 365, Dynamics 365) and operates in the automotive, financial, and manufacturing sectors. Services include strategic workshops, architecture design sessions, rapid prototyping, best practice implementation, talent development, and long-term consulting. The firm also offers Azure AI agent development, Copilot deployment consulting, Microsoft Fabric integration, Semantic Kernel planning, voice avatar modeling, and enterprise AI architecture design.",
+    "tagline": "Innovating Through Technology, Empowering Through Action",
+    "website": "https://www.2t-consulting.com",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/2t-consulting"
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "generative_ai", "ml_ops"],
+    "industries_served": ["automotive", "finance", "manufacturing"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2024,
+    "founders": ["Tibor Rybarik"],
+    "origin_story": "Founded in June 2024 in Prague, 2T Consulting was established to provide AI strategy, Microsoft cloud consulting, and digital transformation services to large B2B enterprises.",
+    "key_milestones": [
+      {"year": 2024, "event": "Founded in Prague (June 2024)"},
+      {"year": 2024, "event": "Achieved ISO 9001:2015 and ISO/IEC 27001:2022 certifications"},
+      {"year": 2024, "event": "Listed on CNAIP (Czech National AI Platform)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tibor Rybarik", "role": "Founder / Contact", "source": "company_website"},
+      {"name": "Milan Průcha", "role": "Director (jednatel)", "source": "czech_business_register"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["microsoft_azure", "office_365", "dynamics_365", "microsoft_fabric", "semantic_kernel", "azure_ai"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["ISO 9001:2015", "ISO/IEC 27001:2022", "TISAX"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Microsoft"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "2T Consulting's core value proposition is helping enterprises deploy off-the-shelf Microsoft AI tools (Copilot, Azure OpenAI, Semantic Kernel). As these tools become easier to self-deploy and Microsoft builds more native guidance, the consulting layer risks commoditization. No proprietary technology or data moat was identified.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Enterprise AI adoption consulting is a real and growing market, but it is highly competitive with global SIs (Accenture, Deloitte, Avanade) and Microsoft's own partner ecosystem. As a small boutique founded in 2024, 2T Consulting faces stiff competition for contracts.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Company was founded in June 2024 with minimal share capital (200,000 CZK / ~$9,000 USD), no known external funding, and a very small team. Long-term sustainability depends entirely on consulting revenue with no runway buffer.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "A very newly founded (2024) micro-consultancy with no proprietary technology, minimal capital, and intense competition from larger Microsoft partners. High AGI displacement risk combined with high funding risk makes this a fragile operation despite operating in a growing market."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website", "czech_business_register"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor_rating", "notable_clients"],
+    "needs_review": false,
+    "notes": "Very new company founded June 2024. Contact person Tibor Rybarik (email: tibor.rybarik@2t-consulting.com) appears to be the founder; Ing. Milan Průcha is listed as director in Czech business register. ICO: 21693455. TISAX certification suggests automotive sector focus."
+  }
+}
