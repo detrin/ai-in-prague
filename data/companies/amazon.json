@@ -1,0 +1,127 @@
+{
+  "id": "amazon",
+  "name": "Amazon",
+  "category": "company",
+  "scraped_at": "2026-03-28T19:20:00Z",
+
+  "overview": {
+    "description": "Global technology and e-commerce conglomerate; Prague hub hosts European finance operations (FinOps) and an AWS Czech branch",
+    "description_long": "Amazon.com, Inc. is an American multinational technology company engaged in e-commerce, cloud computing, online advertising, digital streaming, and artificial intelligence. In the Czech Republic, Amazon operates through multiple legal entities: Amazon Czech Republic Services s.r.o. (finance/HR shared services hub in Prague), Amazon Web Services EMEA SARL Czech Branch (cloud sales and solutions), and Amazon Logistic Prague s.r.o. (fulfillment centres in Dobrovíz and Kojetín). The Prague corporate office primarily serves as a European FinOps hub with multilingual finance analysts, payroll, HR services, and AWS solutions architects covering the CEE region.",
+    "tagline": "Earth's Most Customer-Centric Company",
+    "website": "https://www.amazon.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["generative_ai", "ml_ops", "recommendation", "nlp", "automation"],
+    "industries_served": ["retail", "logistics", "finance", "healthcare", "media", "manufacturing", "public_sector"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1994,
+    "founders": ["Jeff Bezos"],
+    "origin_story": "Founded by Jeff Bezos in Bellevue, Washington as an online bookstore; grew into the world's largest e-commerce marketplace and cloud provider. AWS launched in 2006 and became a dominant cloud and AI platform.",
+    "key_milestones": [
+      {"year": 1994, "event": "Founded in Bellevue, WA as an online bookstore"},
+      {"year": 1997, "event": "IPO on NASDAQ"},
+      {"year": 2006, "event": "AWS launched, pioneering cloud computing"},
+      {"year": 2014, "event": "Amazon Echo / Alexa launched, entering consumer AI"},
+      {"year": 2017, "event": "Acquired Whole Foods for $13.4B; Czech fulfillment centres open"},
+      {"year": 2022, "event": "Acquired MGM Studios; AWS Bedrock generative AI platform introduced"},
+      {"year": 2023, "event": "$4B investment in Anthropic; major AI/ML push across AWS"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 1500000,
+    "employee_source": "public_reports",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Seattle", "country": "US", "is_hq": true},
+    {"city": "Arlington", "country": "US", "is_hq": false},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Dobrovíz", "country": "CZ", "is_hq": false},
+    {"city": "Kojetín", "country": "CZ", "is_hq": false},
+    {"city": "Luxembourg", "country": "LU", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "AMZN",
+    "stock_exchange": "NASDAQ",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 574785000000,
+    "revenue_source": "annual_report_2023",
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Andy Jassy", "role": "CEO", "source": "company_website"},
+      {"name": "Jeff Bezos", "role": "Founder / Executive Chairman", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.amazon.jobs",
+    "open_roles_count": 36,
+    "open_roles": [
+      {"title": "Senior Solutions Architect - Czech Republic / Slovakia, AWS Global Sales", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Solutions Architect, CEE ISV", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Finance Analyst with Polish, FinOps", "department": "finance", "location": "Prague"},
+      {"title": "Sr. Associate, GCO", "department": "hr", "location": "Prague"},
+      {"title": "Payroll Manager - Germany", "department": "finance", "location": "Prague"},
+      {"title": "HR Contact Center Associate", "department": "hr", "location": "Prague"}
+    ],
+    "tech_stack": ["java", "python", "aws", "scala", "typescript", "spark", "terraform"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": 3.6,
+    "review_count": 50000,
+    "recommend_pct": 71,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Amazon-Reviews-E6036.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Fortune 500 #2 (2024)",
+      "Gartner Magic Quadrant Leader — Cloud Infrastructure (AWS)",
+      "IDC MarketScape Leader — AI/ML Cloud Platforms"
+    ],
+    "notable_clients": ["Netflix", "NASA", "Samsung", "Airbnb", "Volkswagen", "Siemens"],
+    "customer_count": null,
+    "partnerships": ["Anthropic ($4B investment)", "NVIDIA", "Intel", "SAP", "Salesforce"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Amazon is an AI builder, not an AI consumer. AWS offers Bedrock (foundation model platform), SageMaker (ML ops), and proprietary models. Amazon invested $4B in Anthropic. Their recommendation engines and Alexa represent deep proprietary AI. They cannot be displaced by AGI — they would benefit from or build it.",
+    "market_risk": "low",
+    "market_risk_rationale": "Amazon is the world's second-largest company by revenue with dominant positions in e-commerce, cloud (AWS ~33% market share), and streaming. The Prague office serves stable European FinOps and AWS sales functions with no single-market concentration risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Publicly traded mega-cap on NASDAQ (AMZN) with ~$2T market capitalisation and $574B+ annual revenue. No funding risk.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Amazon is a diversified technology giant building the AI infrastructure layer (AWS Bedrock, SageMaker, Trainium chips). Its Prague operations are stable shared-service and cloud-sales functions serving European enterprise customers. No meaningful risk to its existence or Prague presence."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["amazon_jobs_api", "wikipedia", "company_website"],
+    "fields_missing": ["employees_exact_prague", "prague_office_founding_year", "glassdoor_rating_verified"],
+    "needs_review": false,
+    "notes": "Amazon has no CNAIP listing. Prague office is primarily a European FinOps (finance operations) hub and AWS Czech branch, not an AI R&D centre. The 36 open Czech Republic roles include 16 in Prague (FinOps, HR, AWS Solutions Architects) and 20 in warehouse/logistics sites (Dobrovíz PRG2, Kojetín BRQ2). Legal entities: Amazon Czech Republic Services s.r.o., Amazon Web Services EMEA SARL Czech Branch, Amazon Logistic Prague s.r.o. Glassdoor rating is an approximation from public knowledge; review count is approximate. Global employee count ~1.5M as of 2023."
+  }
+}
