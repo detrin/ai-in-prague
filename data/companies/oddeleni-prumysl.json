@@ -1,0 +1,113 @@
+{
+  "id": "oddeleni-prumysl",
+  "name": "Oddělení průmyslové výroby a automatizace",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Joint research department of CIIRC CTU and Faculty of Mechanical Engineering focused on industrial production, automation, and robotics",
+    "description_long": "The IPA (Industrial Production and Automation) department is a joint department of CIIRC (Czech Institute of Informatics, Robotics and Cybernetics) at CTU Prague and the Faculty of Mechanical Engineering. Research covers theory of time-delayed systems and their applications, robotics, production machines and processes. The department runs four research groups: Machine and Process Control (MPC), Efficient Production (EFP), Simulation Optimization and Measurement (SOM), and a Prototype Workshop (PRO). Research results are applied across industrial production processes in the Czech Republic and abroad, including power generation and heavy industry. The group also co-runs the Testbed for Industry 4.0 at CIIRC.",
+    "tagline": "Research in industrial production, automation, and robotics at CIIRC CTU Prague",
+    "website": "https://www.ciirc.cvut.cz/en/teams-labs/ipa/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["robotics", "automation", "ml_ops", "data_engineering"],
+    "industries_served": ["manufacturing", "energy", "robotics"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": "Joint department of CIIRC CTU Prague and the Faculty of Mechanical Engineering (Fakulta strojního inženýrství ČVUT). Part of CIIRC, which was established in 2013.",
+    "key_milestones": [
+      {"year": 2013, "event": "CIIRC CTU Prague established; IPA is one of its founding departments"},
+      {"year": 2019, "event": "RICAIP (Research and Innovation Centre on Advanced Industrial Production) EU-funded project launched"},
+      {"year": 2026, "event": "Hosts Industry 4.0 open days and Testbed for Industry 4.0 lower-level operations"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "CIIRC CTU Prague / Czech Technical University in Prague",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Michael Valášek", "role": "Head of Department / Head of SOM group", "source": "company_website"},
+      {"name": "Petr Kolář", "role": "Deputy Head / Head of EFP group", "source": "company_website"},
+      {"name": "Tomáš Vyhlídal", "role": "Head of MPC group", "source": "company_website"},
+      {"name": "Jan Smolík", "role": "Head of Prototype Workshop (PRO)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "P. Zeman", "role": "Researcher", "source": "company_website"},
+      {"name": "J. Švéda", "role": "Researcher", "source": "company_website"},
+      {"name": "M. Sulitka", "role": "Researcher", "source": "company_website"},
+      {"name": "A. Čermák", "role": "Researcher", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.ciirc.cvut.cz/en/career-opportunity/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Faculty of Mechanical Engineering CTU Prague", "RICAIP consortium (EU-funded)", "National Center of Competence MESTEC2 (TAČR-funded)", "Czech Science Foundation (GAČR)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at CIIRC CTU Prague; not a commercial entity subject to AGI commoditization pressure.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "University research group funded by grants (TAČR, GAČR, EU); not exposed to commercial market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Funded through Czech and EU grant programs (GAČR, TAČR, RICAIP EU) and CTU institutional budget; academic funding model.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research department within CTU Prague's CIIRC; risk assessment framework does not apply to public university research groups."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year", "employees_exact", "open_roles_count", "glassdoor"],
+    "needs_review": false,
+    "notes": "IPA = Oddělení průmyslové výroby a automatizace. Joint department of CIIRC CTU and Faculty of Mechanical Engineering. Address: Jugoslávských partyzánů 1580/3, Praha 5 Dejvice. No CNAIP page found."
+  }
+}
