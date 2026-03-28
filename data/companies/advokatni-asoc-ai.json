@@ -1,0 +1,107 @@
+{
+  "id": "advokatni-asoc-ai",
+  "name": "Advokátní asociace pro AI",
+  "category": "initiative",
+  "scraped_at": "2026-03-28T23:45:00Z",
+
+  "overview": {
+    "description": "Czech lawyers' professional association dedicated to raising the level of the AI environment in the Czech Republic and Europe.",
+    "description_long": "Advokátní asociace pro AI, z.s. (Lawyers' Association for AI) is a registered non-profit association (spolek) founded in Prague in July 2024. Its stated purpose is to raise the level of the AI environment in the Czech Republic and in Europe. The association is led by lawyers with advanced legal qualifications (Mgr., JUDr.) and focuses on the intersection of law and artificial intelligence — likely covering AI regulation, EU AI Act compliance, AI governance, and legal aspects of AI deployment. The association's board is composed of four legal professionals and it operates out of Prague's Nusle district.",
+    "tagline": "Zvyšování úrovně AI prostředí v České republice a v Evropě",
+    "website": null,
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["other"],
+    "industries_served": ["legal", "policy", "regulation"],
+    "company_type": "nonprofit",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2024,
+    "founders": ["Mgr. Filip Drnec", "JUDr. Adam Felix, LL.M., Ph.D.", "JUDr. Jiří Novák"],
+    "origin_story": "Established July 30, 2024 as a registered association (spolek) by Czech legal professionals to advance the AI environment in the Czech Republic and Europe.",
+    "key_milestones": [
+      {"year": 2024, "event": "Founded as Advokátní asociace pro AI, z.s. — registered at Prague Municipal Court (L 79410)"},
+      {"year": 2025, "event": "JUDr. Michal Šilhánek joins the executive board (November 2025)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Mgr. Filip Drnec", "role": "Předseda výkonného představenstva (Chairman)", "source": "czech_business_registry"},
+      {"name": "JUDr. Adam Felix, LL.M., Ph.D.", "role": "Člen výkonného představenstva (Board Member)", "source": "czech_business_registry"},
+      {"name": "JUDr. Jiří Novák", "role": "Člen výkonného představenstva (Board Member)", "source": "czech_business_registry"},
+      {"name": "JUDr. Michal Šilhánek", "role": "Člen výkonného představenstva (Board Member)", "source": "czech_business_registry"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Non-profit legal advocacy association; its core value is convening expertise and policy influence, not building AI products. AGI displacement is not applicable.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Not a commercial entity. The association's activities are driven by regulatory developments (EU AI Act) and professional advocacy rather than market competition.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Very recently founded (July 2024) with only 4 members and no known public funding or revenue model. As a small spolek (non-profit association), it likely relies on member contributions or voluntary effort with no disclosed funding.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Non-profit legal advocacy initiative founded in 2024. Not relevant to assess commercial risk; sustainability depends on member engagement and relevance of its legal/regulatory mission."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["czech_business_registry"],
+    "fields_missing": ["website", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "careers_url"],
+    "needs_review": false,
+    "notes": "Registry data from or.justice.cz (Spolkový rejstřík L 79410, Městský soud v Praze). IČO: 21861170. Address: Hvězdova 1716/2b, Nusle, 140 00 Praha 4. No public website found as of March 2026. Association purpose: 'zvyšování úrovně AI prostředí v České republice a v Evropě'."
+  }
+}
