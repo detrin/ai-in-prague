@@ -1,0 +1,119 @@
+{
+  "id": "tolion-health",
+  "name": "TOLION Health",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered digital health platform for preventive, predictive, and personalized brain health and longevity guidance",
+    "description_long": "TOLION Health AI is a digital health company developing artificial intelligence solutions for preventive, predictive, and personalized lifestyle recommendations to improve brain health, performance, and longevity. The company combines the latest scientific insights, advanced AI technologies, and a personalized approach to defeat neurodegenerative disorders such as Alzheimer's disease. Its proprietary Tolion AI Engine evaluates client health status, identifies key risk factors, and delivers personalized interventions based on genetic predispositions, biomarkers, and lifestyle data. Products include the Tolion Brain Coach mobile app (launched November 2025) and the MedPortal Platform.",
+    "tagline": "Preventive · Predictive · Personalized brain health & longevity guidance based on science and enabled by AI",
+    "website": "https://www.tolion.com",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/tolion-health"
+  },
+
+  "classification": {
+    "business_type": "b2c_saas",
+    "ai_focus": ["ml_ops", "nlp", "recommendation", "other"],
+    "industries_served": ["healthcare", "wellness", "longevity"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2023,
+    "founders": ["Martin Tolar, MD, PhD"],
+    "origin_story": "Founded in 2023 by Martin Tolar, a physician-scientist, to leverage AI for personalized brain health and dementia prevention. Operates with a US entity (Tolion Health, Inc.) and a Czech subsidiary headquartered in Prague.",
+    "key_milestones": [
+      {"year": 2023, "event": "Founded by Martin Tolar, MD, PhD"},
+      {"year": 2025, "event": "Named a Top 10 Longevity Startup to Watch by StartUs Insights"},
+      {"year": 2025, "event": "Launched Tolion Brain Coach on Apple App Store (November 2025)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "United States", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "freemium"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Martin Tolar", "role": "Founder", "source": "company_website"},
+      {"name": "Jaroslav Lískovec", "role": "CEO (Czech Subsidiary)", "source": "company_website"},
+      {"name": "Lenka Kratochvílová", "role": "Chief of Staff", "source": "company_website"},
+      {"name": "Jan Zahálka", "role": "Chief AI Officer", "source": "company_website"},
+      {"name": "Erik Derner", "role": "VP of AI", "source": "company_website"},
+      {"name": "Ondřej Lerch", "role": "Chief Medical Officer", "source": "company_website"},
+      {"name": "Kateřina Veverová", "role": "VP of Medical Affairs", "source": "company_website"},
+      {"name": "Anna Marie Gabrhelová", "role": "Head of Customer Insights and Advocacy", "source": "company_website"},
+      {"name": "Adem Albayrak", "role": "US Data Strategy", "source": "company_website"},
+      {"name": "David Nikodem", "role": "US Fundraising", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Jan Zahálka", "note": "PhD Computer Science, University of Amsterdam; 30+ peer-reviewed papers; ACM Multimedia Grand Challenge 2014 winner"},
+      {"name": "Erik Derner", "note": "PhD Czech Technical University Prague 2022; FEE CTU Dean's Prestigious Doctoral Thesis Award; Werner von Siemens Award; CIIRC CTU researcher; ELLIS network member"},
+      {"name": "Kateřina Veverová", "note": "Leads Czech Brain Aging Lab; part of the Czech Brain Aging Study — largest longitudinal brain aging study in Czech Republic"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.tolion.com/careers/",
+    "open_roles_count": 0,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "not_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["2025 Top 10 Longevity Startup to Watch — StartUs Insights"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "TOLION has a proprietary AI engine trained on biomarker, genetic, and lifestyle data for neurodegenerative disease prevention, and employs deep clinical expertise (neurologists, neuroscientists). However, the core value proposition of personalized health coaching is increasingly replicable by general-purpose LLMs and consumer health AI tools, and the app layer is thin without clear evidence of a proprietary data moat.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The longevity and brain health market is growing rapidly (aging populations, dementia awareness), but the consumer digital health space is crowded and customer acquisition is expensive. The app only launched in November 2025, so product-market fit is unproven.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Founded in 2023 with no publicly disclosed funding rounds or investors. The app is pre-revenue (just launched), the company is not hiring, and there is no runway signal publicly available. High burn risk for a startup of this stage.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Very early-stage startup with no known funding, a consumer app launched only in late 2025, and an unproven business model. While the scientific team is strong and the market opportunity is real, the combination of funding risk and unproven PMF places TOLION Health in the high-risk category for job seekers."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "cnaip"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "employees_exact"],
+    "needs_review": false,
+    "notes": "Website is https://www.tolion.com (also tolionhealth.com). CNAIP URL confirmed at https://www.cnaip.cz/cs/entity/tolion-health though not listed in index. The domain tolion.health is for sale (unrelated). Company is incorporated as Tolion Health, Inc. (US) with Czech subsidiary at Blox, Evropská 2758/11, 160 00 Prague. No public funding found. Not hiring as of March 2026."
+  }
+}
