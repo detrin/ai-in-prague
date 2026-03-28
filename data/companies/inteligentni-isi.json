@@ -1,0 +1,111 @@
+{
+  "id": "inteligentni-isi",
+  "name": "Inteligentní systémy pro průmysl (ISI)",
+  "category": "company",
+  "scraped_at": "2026-03-28T17:40:00Z",
+
+  "overview": {
+    "description": "University research group applying AI methods to industrial systems at CIIRC/CTU Prague",
+    "description_long": "ISI (Intelligent Systems for Industry) is a research group at the Czech Institute of Informatics, Robotics, and Cybernetics (CIIRC) at Czech Technical University in Prague. The group applies AI methods to industrial challenges including flexible production systems that adapt to current needs, data analysis for production processes, automatic inference for supply chains, and evolutionary programming for optimizing factory layouts. Core research covers distributed AI, multi-agent systems, cyber-physical systems, Industry 4.0, semantic technologies, and big data. Application domains include distributed manufacturing control, adaptive production planning, logistics/transportation, intelligent energy systems, and smart grids.",
+    "tagline": "Distributed intelligent solutions for industry",
+    "website": "http://isi.ciirc.cvut.cz/",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/intelligent-systems-for-industry-isi"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["automation", "ml_ops", "data_engineering"],
+    "industries_served": ["manufacturing", "energy", "aerospace", "logistics", "smart cities"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2012,
+    "founders": ["Petr Kadera", "Vladimír Mařík"],
+    "origin_story": "Founded in April 2012 at the Department of Cybernetics, Faculty of Electrical Engineering, CTU Prague. Later moved to CIIRC as one of its founding research groups. Grew from Rockwell Automation Research Center Prague collaboration.",
+    "key_milestones": [
+      {"year": 2012, "event": "Group founded at CTU Dept. of Cybernetics; established RA-DIC lab with Rockwell Automation"},
+      {"year": 2012, "event": "Joined ARUM FP7 project (11.5M EUR EC project on adaptive production management with EADS/Airbus)"},
+      {"year": 2014, "event": "Moved to newly established CIIRC as founding research group"},
+      {"year": 2015, "event": "ARUM project completed; multiple publications at ETFA and industrial conferences"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 5,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (ČVUT) / CIIRC",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Petr Kadera", "role": "Head of ISI Group", "source": "company_website"},
+      {"name": "Vladimír Mařík", "role": "Director of CIIRC (senior advisor)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Václav Jirkovský", "role": "Researcher", "source": "company_website"},
+      {"name": "Petr Novák", "role": "Researcher", "source": "company_website"},
+      {"name": "Ondřej Harcuba", "role": "Researcher", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "http://isi.ciirc.cvut.cz/index.php/for-students",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["java", "jade", "jbossesb", "android", "python"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Rockwell Automation", "EADS/Airbus", "ENEA"],
+    "customer_count": null,
+    "partnerships": ["Rockwell Automation (RA-DIC laboratory)", "Austrian Institute of Technology", "Vienna University of Technology (Christian Doppler Lab)", "ENEA (Italian energy agency)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at a state university; not a commercial entity competing in the AI product market. Research on industrial multi-agent systems and distributed AI has inherent academic mission independent of AGI commoditization.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research group funded by EU projects, national grants, and university budget. Market risk concept does not apply to an academic research unit at CTU/CIIRC.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Dependent on securing EU/national research grants and industrial partnerships (Rockwell Automation). The group is small (5 people) and funding continuity depends on grant cycle success. The website appears to show limited recent activity after 2015 ARUM project conclusion.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research group at CIIRC/CTU; commercial risk assessment is not applicable. The group's continuity is tied to university budget, grant success, and industrial partnerships rather than market competition."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website", "ciirc_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor_rating"],
+    "needs_review": true,
+    "notes": "ISI is a research group at CIIRC/CTU, not a standalone company, despite being listed as 'company' category in the index. CNAIP URL found at /cs/entity/intelligent-systems-for-industry-isi (not provided in index). Website (isi.ciirc.cvut.cz) appears to show limited updates after 2015; group may have evolved or reduced activity since then. Rockwell Automation Research Center Prague connection is significant historical context."
+  }
+}
