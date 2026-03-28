@@ -559,8 +559,9 @@
     "name": "Data Science & Explainable AI",
     "category": "company",
     "source": "cnaip",
-    "cnaip_url": null,
-    "status": "pending"
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/data-science-explainable-ai",
+    "status": "done",
+    "website_url": "https://kizi.vse.cz/dsxai"
   },
   {
     "id": "databrothers",

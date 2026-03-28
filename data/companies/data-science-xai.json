@@ -1,0 +1,121 @@
+{
+  "id": "data-science-xai",
+  "name": "Data Science & Explainable AI",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T13:45:00Z",
+
+  "overview": {
+    "description": "Research group at Prague University of Economics and Business (VSE) focused on data science, explainable AI, and knowledge engineering",
+    "description_long": "The Data Science & Explainable AI (DSXAI) research group was explicitly formed at VSE in 2024, building upon multiple pre-existing research groups, in view of creating synergy between multiple threads of Data Science, AI, and Knowledge Engineering research. It is recognized as one of the 12 'teams of excellence' within VSE. Central research topics include: psychological aspects and biases in machine learning; explainable machine learning based on rule discovery (propositional and relational); integration of symbolic AI with large language models (LLMs); mechanizing hypothesis formation through observational calculi; knowledge graphs as source and/or target in machine learning; structural patterns in ontologies and knowledge graphs; and measuring the intelligence of artificial agents. The group is part of the Department of Information and Knowledge Engineering (KIZI) at the Faculty of Informatics and Statistics (FIS).",
+    "tagline": "Synergy between Data Science, AI, and Knowledge Engineering research at VSE Prague",
+    "website": "https://kizi.vse.cz/dsxai",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/data-science-explainable-ai"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["nlp", "data_engineering", "generative_ai", "recommendation", "other"],
+    "industries_served": ["healthcare", "government", "retail", "research", "environment"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2024,
+    "founders": ["Vojtěch Svátek", "Petr Berka", "Tomáš Kliegr", "Jan Rauch", "Vilém Sklenák", "Ondřej Zamazal"],
+    "origin_story": "Formally established at VSE in June 2024 by merging three pre-existing KIZI research subgroups (DMKD, SWOE, IIS) to create synergy across data science, knowledge engineering, and explainable AI threads.",
+    "key_milestones": [
+      {"year": 2024, "event": "Formally established at VSE as one of 12 'teams of excellence'"},
+      {"year": 2024, "event": "EU COST Action GOBLIN launched (Global Network on Large-Scale, Cross-domain and Multilingual Open Knowledge Graphs, 2024-2028)"},
+      {"year": 2025, "event": "EU COST Action KGELL launched (Knowledge Graphs in the Era of Large Language Models, 2025-2029)"},
+      {"year": 2025, "event": "EU CHIST-ERA ClimateSense project started (2025-2028)"},
+      {"year": 2025, "event": "Hosted RuleML 2025 conference with 19th International Rule Challenge"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 29,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Prague University of Economics and Business (VSE)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Vojtěch Svátek", "role": "Co-lead / Contact Person (Professor)", "source": "cnaip"},
+      {"name": "Tomáš Kliegr", "role": "Co-lead (Senior Researcher)", "source": "company_website"},
+      {"name": "Petr Berka", "role": "Co-lead (Senior Researcher)", "source": "company_website"},
+      {"name": "Jan Rauch", "role": "Co-lead (Senior Researcher)", "source": "company_website"},
+      {"name": "Vilém Sklenák", "role": "Co-lead / Department Head (doc. Ing., CSc.)", "source": "company_website"},
+      {"name": "Ondřej Zamazal", "role": "Co-lead (Senior Researcher)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Petr Berka", "role": "AICZECHIA Fellow", "source": "company_website"},
+      {"name": "Tomáš Kliegr", "role": "AICZECHIA Fellow", "source": "company_website"},
+      {"name": "Jan Rauch", "role": "AICZECHIA Fellow", "source": "company_website"},
+      {"name": "Vojtěch Svátek", "role": "AICZECHIA Fellow", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://kizi.vse.cz/dsxai",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD Student", "department": "research", "location": "Prague"},
+      {"title": "Post-doc Researcher", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "One of 12 'Teams of Excellence' at Prague University of Economics and Business (VSE)"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "EU COST Action KGELL (Knowledge Graphs in the Era of Large Language Models, 2025-2029)",
+      "EU CHIST-ERA ClimateSense (2025-2028)",
+      "EU HE Onto-DESIDE (2022-2025)",
+      "EU COST Action GOBLIN (2024-2028)",
+      "EU CHIST-ERA CIMPLE (2021-2024)",
+      "EU COST Action Nexus Linguarum (2019-2024)",
+      "EU H2020 HeartBIT 4.0 (2020-2022)",
+      "AICZECHIA (Czech scientific association for AI)",
+      "prg.ai initiative"
+    ]
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor_rating", "careers_url"],
+    "needs_review": false,
+    "notes": "DSXAI is a research group at the Department of Information and Knowledge Engineering (KIZI), Faculty of Informatics and Statistics (FIS), Prague University of Economics and Business (VSE). Formally founded June 2024 by merging pre-existing subgroups (DMKD, SWOE, IIS). Group has 6 senior co-leads + 6 tenure-track researchers + 4 postdocs + 13 PhD students = ~29 people total. 4 of the 6 co-leads are AICZECHIA fellows. Research entity ID: research-0059. Contact: svatek@vse.cz (Vojtěch Svátek). Address: Nám. W. Churchilla 4, 130 67 Praha."
+  }
+}
