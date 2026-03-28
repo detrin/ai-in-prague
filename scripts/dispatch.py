@@ -101,7 +101,47 @@ def validate(company_id):
     return result.returncode == 0, result.stdout.strip()
 
 
-async def scrape_one(sem, company, model, dry_run):
+GIT_LOCK = asyncio.Lock()
+
+
+def update_index_status(company_id, status):
+    index = load_index()
+    for entry in index:
+        if entry["id"] == company_id:
+            entry["status"] = status
+            break
+    save_index(index)
+
+
+async def git_commit(company_id, company_name):
+    async with GIT_LOCK:
+        update_index_status(company_id, "done")
+        proc = await asyncio.create_subprocess_exec(
+            "git",
+            "add",
+            str(COMPANIES / f"{company_id}.json"),
+            str(INDEX),
+            cwd=str(ROOT),
+        )
+        await proc.communicate()
+        msg = f"data: add {company_name} ({company_id})\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
+        proc = await asyncio.create_subprocess_exec(
+            "git",
+            "commit",
+            "-m",
+            msg,
+            cwd=str(ROOT),
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+        )
+        stdout, stderr = await proc.communicate()
+        if proc.returncode == 0:
+            print(f"[GIT]   {company_name} — committed")
+        else:
+            print(f"[GIT]   {company_name} — commit failed: {stderr.decode()[:200]}")
+
+
+async def scrape_one(sem, company, model, dry_run, commit):
     async with sem:
         cid = company["id"]
         name = company["name"]
@@ -139,18 +179,22 @@ async def scrape_one(sem, company, model, dry_run):
         status = "done" if ok else "needs_review"
         icon = "OK" if ok else "WARN"
         print(f"[{icon:4s}]  {name} ({elapsed:.0f}s) — {detail}")
+
+        if commit and ok:
+            await git_commit(cid, name)
+
         return cid, status, elapsed
 
 
-async def run(companies, concurrency, model, dry_run):
+async def run(companies, concurrency, model, dry_run, commit):
     sem = asyncio.Semaphore(concurrency)
-    tasks = [scrape_one(sem, c, model, dry_run) for c in companies]
+    tasks = [scrape_one(sem, c, model, dry_run, commit) for c in companies]
     results = await asyncio.gather(*tasks)
 
     index = load_index()
     id_to_status = {cid: status for cid, status, _ in results}
     for entry in index:
-        if entry["id"] in id_to_status:
+        if entry["id"] in id_to_status and entry["status"] != "done":
             entry["status"] = id_to_status[entry["id"]]
     save_index(index)
 
@@ -202,6 +246,11 @@ def main():
         action="store_true",
         help="show what would be dispatched without running",
     )
+    parser.add_argument(
+        "--commit",
+        action="store_true",
+        help="git commit after each successful scrape",
+    )
     args = parser.parse_args()
 
     index = load_index()
@@ -228,7 +277,7 @@ def main():
         f"Scraping {len(companies)} companies, concurrency={args.concurrency}, model={args.model}"
     )
     print("-" * 60)
-    asyncio.run(run(companies, args.concurrency, args.model, args.dry_run))
+    asyncio.run(run(companies, args.concurrency, args.model, args.dry_run, args.commit))
 
 
 if __name__ == "__main__":
