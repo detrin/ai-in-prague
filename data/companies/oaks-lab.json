@@ -1,0 +1,117 @@
+{
+  "id": "oaks-lab",
+  "name": "OAK'S LAB",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Outsourced software development partner specialising in product discovery, custom software, and AI/agentic systems for US-based startups and scaleups",
+    "description_long": "OAK'S LAB is a Prague-based software development partner founded in 2016 by Czech-American brothers Jake and Theo Dluhy-Smith. The company deploys autonomous product teams (product managers, designers, tech leads, engineers, QA) for fast-growing US companies, covering product discovery & design, full-stack JavaScript development, and AI & agentic systems including LLMs, RAG pipelines, and AI orchestration. Bootstrapped and profitable, the firm has built 65+ products whose clients have raised over $200M combined.",
+    "tagline": "High-performing outsourced software teams for scaling companies",
+    "website": "https://www.oakslab.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "generative_ai", "other"],
+    "industries_served": ["fintech", "cybersecurity", "healthtech", "edtech", "real_estate", "foodtech"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2016,
+    "founders": ["Jake Dluhy-Smith", "Theo Dluhy-Smith"],
+    "origin_story": "Czech-American brothers Jake and Theo Dluhy-Smith moved to Prague in 2016 to bridge American tech entrepreneurship with elite Czech engineering talent, building entirely without investor funding.",
+    "key_milestones": [
+      {"year": 2016, "event": "Founded in Prague; first client product launched; OAK'S LAB WAY methodology established"},
+      {"year": 2018, "event": "First client product acquired; Bill Gates highlighted a product they built on Twitter; moved to Old Town Square office"},
+      {"year": 2019, "event": "First client product reached Series A; launched business development department; 20 software products delivered"},
+      {"year": 2021, "event": "Clutch top company Czech Republic award; established early-stage investment arm; team expanded to 70 members"},
+      {"year": 2022, "event": "Clutch top company Czech Republic award; 40 products built; startup client portfolio exceeded $1B valuation"},
+      {"year": 2023, "event": "Clutch Champion & Global Winner awards; featured at TechCrunch Disrupt and Startup Grind Global; expanded to enterprise clients"},
+      {"year": 2024, "event": "Refined service pillars to Product Discovery, Custom Software Development, and Agentic AI Systems; clients raised over $200M; strong FinTech presence in New York"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": 85,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": "Bootstrapped; reported to generate hundreds of millions CZK in annual revenue (ment2grow.com profile of CEO)",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jake Dluhy-Smith", "role": "CEO & Co-Founder", "source": "company_website"},
+      {"name": "Theo Dluhy-Smith", "role": "Co-Founder", "source": "company_website"},
+      {"name": "Martin Klikar", "role": "CFO", "source": "company_website"},
+      {"name": "Andy Powell", "role": "CBO", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.oakslab.com/careers",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["typescript", "react", "next.js", "node.js", "react_native", "python", "figma"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": 17,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/OAK-S-LAB-Reviews-E4425208.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Clutch Top Company Czech Republic 2021",
+      "Clutch Top Company Czech Republic 2022",
+      "Clutch Champion Award 2023",
+      "Clutch Global Winner 2023"
+    ],
+    "notable_clients": ["Nasdaq Private Markets", "PlexTrac", "Blackpoint Cyber", "Capital Markets Gateway", "Virtual Dining Concepts"],
+    "customer_count": 65,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "As a software development services firm, OAK'S LAB faces real risk from AI-assisted coding tools (Copilot, Cursor, Devin) commoditising developer labour. However, they are actively pivoting into AI/agentic systems delivery and their value proposition relies on project management, product strategy, and client trust — dimensions not easily replaced. The shift to AI delivery services partially offsets the risk.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established demand for outsourced product teams from US tech companies is proven and growing; OAK'S LAB has 65+ delivered products, 89% client retention, and a 4.9/5 Clutch rating. The US-to-Prague talent arbitrage model remains attractive given US hiring costs.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Fully bootstrapped with reported hundreds of millions CZK in annual revenue, meaning no reliance on external investors or runway concerns. The business has been self-sustaining since 2016.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong financials and market position are offset by medium-term disruption risk as AI coding tools reduce the cost advantage of nearshore engineering. The company is adapting by offering agentic AI systems, but it remains a services business whose unit economics will be challenged as AI productivity tools mature."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "duckduckgo_snippets", "eustartup.news", "czechcrunch", "rocketreach", "ment2grow"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor_rating", "glassdoor_recommend_pct"],
+    "needs_review": true,
+    "notes": "Category in companies_index.json is 'research_group' but OAK'S LAB is clearly a commercial software development consultancy, not a research group. Consider reclassifying to 'company'. Glassdoor URL found (E4425208, 17 reviews) but rating not visible in search snippet — direct access blocked."
+  }
+}
