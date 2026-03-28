@@ -1,0 +1,108 @@
+{
+  "id": "vyslovuj-cz",
+  "name": "Vyslovuj.cz",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "AI-powered Czech pronunciation and speech therapy app for children",
+    "description_long": "Vyslovuj.cz (operated by I am Ema s.r.o.) is an AI-driven interactive platform designed to help children aged 3–10 develop Czech pronunciation, vocabulary, and cognitive skills through gamified exercises. It serves parents, speech therapists (logopeds), teachers, and foreigners learning Czech. The platform offers 3000+ exercises, 1600 videos, 800 photos, and 200 illustrations across 150 courses. AI characters Alžběta and Matěj guide children through adaptive exercises, while therapists get individual exercise plans, progress analytics, and client management tools.",
+    "tagline": "Rozmluvme děti (Let's get children talking)",
+    "website": "https://vyslovuj.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2c_saas",
+    "ai_focus": ["speech", "nlp"],
+    "industries_served": ["education", "healthcare", "speech_therapy"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2021,
+    "founders": ["Richard Erben"],
+    "origin_story": "Founded in Prague in August 2021 as I am Ema s.r.o. by Richard Erben, with a mission to make speech therapy support accessible to Czech families through AI-driven gamification.",
+    "key_milestones": [
+      {"year": 2021, "event": "Founded as I am Ema s.r.o. in Prague"},
+      {"year": 2022, "event": "Launched Vyslovuj.cz platform with AI speech exercises"},
+      {"year": 2024, "event": "Expanded to 3000+ exercises across 150 courses"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 5,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Richard Erben", "role": "CEO / Founder", "source": "czech_business_register"}
+    ],
+    "notable_people": [
+      {"name": "Jan Hodinář", "role": "Shareholder (9%)", "source": "czech_business_register"},
+      {"name": "Alžběta Mádrová", "role": "Shareholder (2%)", "source": "czech_business_register"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core value is a curated library of 3000+ Czech speech therapy exercises with gamification and therapist tooling — not easily replicable by generic LLMs. However, foundation models are improving at speech recognition and language coaching, and competitors could leverage general-purpose AI to build similar tools for the Czech market.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Real demand for at-home speech therapy support in Czech and Slovak markets, but the total addressable market is small given the language-specific focus. EdTech competition (including international players) may expand into this niche. Subscription at 79 CZK/month (~€3) limits revenue ceiling.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Bootstrapped startup with just 20,000 CZK registered share capital and approximately 5 employees. No known external funding rounds. Survival depends entirely on subscription revenue from a niche Czech-language market.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Small bootstrapped team with minimal capital, niche Czech-language market, and low subscription pricing combine to create high execution risk. The domain-specific content library provides a modest moat, but the company's size and financial profile make it vulnerable to better-funded competitors or AI commoditization of speech coaching."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_register", "linkedin", "ares_gov_cz"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "careers_url", "tech_stack"],
+    "needs_review": false,
+    "notes": "Legal entity is I am Ema s.r.o. (IČO: 11799021), founded 31.8.2021, registered in Prague 10 (Vinohrady). Richard Erben holds majority stake (75% across multiple share classes). App is available in Czech, Slovak, Ukrainian, English, and German. Pricing: 79 CZK/month for individuals; institutional pricing for schools and clinics. No CNAIP page found."
+  }
+}
