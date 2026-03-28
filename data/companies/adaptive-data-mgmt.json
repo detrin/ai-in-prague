@@ -1,0 +1,108 @@
+{
+  "id": "adaptive-data-mgmt",
+  "name": "Adaptive Data Management Research Group",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T14:00:00Z",
+
+  "overview": {
+    "description": "Prague-based research group focused on adaptive approaches to data management",
+    "description_long": "The Adaptive Data Management Research Group is a research entity based in Prague, Czech Republic, working on data management systems and methodologies with an adaptive or machine-learning-informed approach. No public website or CNAIP listing was found during research; the group appears to have minimal online presence and could not be independently verified through Czech university, Academy of Sciences, or research portal sources. The name suggests work at the intersection of database systems, data engineering, and possibly ML-driven query optimisation or schema adaptation.",
+    "tagline": null,
+    "website": null,
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["data_engineering", "ml_ops"],
+    "industries_served": ["academia"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": null,
+    "key_milestones": []
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Research/nonprofit entity — not subject to commercial displacement by foundation models.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research/nonprofit — not subject to commercial market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Research/nonprofit — typically grant-funded, not venture-backed.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "All risk categories not applicable; this is an academic research group, not a commercial entity."
+  },
+
+  "metadata": {
+    "data_quality": "low",
+    "sources_used": ["search_snippets"],
+    "fields_missing": [
+      "overview.website",
+      "overview.tagline",
+      "overview.description_long",
+      "history.founded_year",
+      "history.founders",
+      "size.employees_range",
+      "team.leadership",
+      "careers.careers_url"
+    ],
+    "needs_review": true,
+    "notes": "Entity could NOT be verified through any available online source. No website, no CNAIP listing, no university department page, no academic paper trail found. Searched KSI MFF CUNI (areas.js: bioinformatics, data-on-the-web, multimedia, multi-model-data, compilers, HPC, RSE — no ADM), CTU FEL/FIT, Czech Academy of Sciences ICS, VSE FIS KIZI, prg.ai, CNAIP, DBLP, ORCID, and general search engines. Source is 'other' and status is 'dry_run', suggesting this may be an unverified or informal sub-group. Requires manual investigation to confirm existence and affiliation."
+  }
+}
