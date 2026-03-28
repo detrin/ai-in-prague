@@ -1,0 +1,124 @@
+{
+  "id": "ufal-dialog-systemy",
+  "name": "ÚFAL Skupina dialogových systémů",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Research group on spoken dialogue systems and natural language generation at Charles University Prague",
+    "description_long": "The Dialog Systems Group at ÚFAL (Institute of Formal and Applied Linguistics, Charles University) conducts research on spoken dialogue systems, chatbots, and natural language generation (NLG). Established as a formal group in 2019 via the PRIMUS-funded NaMuDDiS project, the group is led by Ondřej Dušek and is currently supported by the ERC Starting Grant NG-NLG (2022–2027). Research themes include statistical and neural dialogue management, task-oriented and multi-domain dialogue, NLG evaluation, and data-efficient model adaptation. The group also maintains the open-source Alex Dialogue Systems Framework.",
+    "tagline": "Dialogue systems and natural language generation research at Charles University Prague",
+    "website": "https://ufal.mff.cuni.cz/projects/speech-dialog",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["nlp", "speech", "generative_ai"],
+    "industries_served": ["academia", "public_sector"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2019,
+    "founders": ["Ondřej Dušek"],
+    "origin_story": "Formally established in 2019 via the PRIMUS grant NaMuDDiS (Natural Multi-domain Dialogue Systems, PRIMUS/19/SCI/10), which created a new research group for dialogue systems within ÚFAL, Charles University. Prior dialogue research had been ongoing at ÚFAL since at least 2013 under the Vystadial project.",
+    "key_milestones": [
+      {"year": 2013, "event": "Vystadial project — early statistical spoken dialogue system research at ÚFAL"},
+      {"year": 2015, "event": "ÚFAL hosted SIGdial 2015 conference (record 149 attendees), organised by Filip Jurčíček"},
+      {"year": 2019, "event": "NaMuDDiS PRIMUS grant (CZK 7.1M) formally establishes the Dialog Systems research group"},
+      {"year": 2020, "event": "METOD industry collaboration with Agnostix, co-funded by City of Prague"},
+      {"year": 2022, "event": "ERC Starting Grant NG-NLG (Next-Generation Natural Language Generation) awarded to Ondřej Dušek; €1.5M, 2022–2027"},
+      {"year": 2024, "event": "CEDMO project (digital media safety) adds new collaborative direction"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "ufal_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Institute of Formal and Applied Linguistics (ÚFAL), Charles University",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other",
+    "grants": [
+      {"name": "NG-NLG", "full_name": "Next-Generation Natural Language Generation", "provider": "Horizon Europe / ERC Starting Grant", "grant_id": "101039303", "start_year": 2022, "end_year": 2027, "pi": "Ondřej Dušek"},
+      {"name": "NaMuDDiS", "full_name": "Natural Multi-domain Dialogue Systems", "provider": "Charles University (PRIMUS)", "grant_id": "PRIMUS/19/SCI/10", "amount_czk": 7100000, "start_year": 2019, "end_year": 2021, "pi": "Ondřej Dušek"},
+      {"name": "CEDMO", "full_name": "Digital media safety", "provider": "Ministry of Industry & Commerce (CZ)", "start_year": 2024, "end_year": 2026, "pi": "Ondřej Dušek"},
+      {"name": "METOD", "full_name": "Dialogue management", "provider": "City of Prague / industry cooperation with Agnostix", "start_year": 2020, "end_year": 2020, "pi": "Ondřej Dušek"}
+    ]
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ondřej Dušek", "role": "Group Lead / Principal Investigator", "source": "ufal_website"},
+      {"name": "Filip Jurčíček", "role": "Assistant Professor (dialogue systems)", "source": "ufal_website"}
+    ],
+    "notable_people": [
+      {"name": "Zdeněk Kasner", "role": "Postdoctoral researcher (completed PhD 2024)", "source": "ufal_website"},
+      {"name": "Mateusz Lango", "role": "Researcher (NG-NLG)", "source": "ufal_website"},
+      {"name": "Patrícia Schmidtová", "role": "PhD student (NG-NLG)", "source": "ufal_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://ufal.mff.cuni.cz/jobs",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "pytorch", "transformers"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["ERC Starting Grant 2022 (NG-NLG, €1.5M)"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Agnostix (industry collaboration)", "City of Prague (METOD project)"],
+    "notable_publications": [
+      "Dušek et al. (2020): Evaluating the State-of-the-Art of End-to-End NLG: The E2E NLG Challenge (Computer Speech and Language)",
+      "Hudeček & Dušek (2022): Learning Interpretable Latent Dialogue Actions With Less Supervision (AACL-IJCNLP)",
+      "Schmidtová et al. (2024): Automatic Metrics in Natural Language Generation: A survey (INLG 2024)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group whose mission is to advance the scientific frontier of dialogue systems and NLG. AGI displacement is not a meaningful risk category; the group actively studies and contributes to LLM-era approaches.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research lab funded by competitive grants (ERC, PRIMUS) and university support. Not subject to commercial market risk.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Currently backed by the ERC Starting Grant NG-NLG (2022–2027, Grant ID 101039303), one of Europe's most prestigious research funding instruments. Prior PRIMUS/19/SCI/10 grant (CZK 7.1M) demonstrates track record of securing competitive funding.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Well-funded academic research group at a leading Czech university with an active ERC grant running to 2027, strong publication record, and established collaborations with both academia and industry. Primary risk is post-2027 grant renewal, which is typical for all research groups."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["ufal_website", "researcher_profile_pages", "grant_pages"],
+    "fields_missing": ["employees_exact", "open_roles_count", "glassdoor_rating", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "No dedicated CNAIP page found. The 'skupiny dialogových systémů' URL (ufal.mff.cuni.cz/dialog-systems) returns 404; group page is effectively https://ufal.mff.cuni.cz/projects/speech-dialog. Team size estimated from researcher profiles (~5–8 active members including PhD students). Filip Jurčíček is also an ÚFAL dialogue researcher but appears to operate somewhat independently from the Dušek-led group."
+  }
+}
