@@ -1,0 +1,132 @@
+{
+  "id": "aws",
+  "name": "AWS",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Amazon Web Services — the world's leading cloud platform, providing on-demand compute, storage, databases, AI/ML services, and edge infrastructure",
+    "description_long": "Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon and the dominant global cloud computing provider, offering 200+ fully featured cloud services from data centers worldwide. AWS powers critical AI/ML workloads for enterprises, startups, and governments via services such as Amazon SageMaker (ML platform), Amazon Bedrock (generative AI), Amazon Q (AI assistant), Amazon Rekognition (computer vision), Amazon Comprehend (NLP), and the proprietary Nova and Titan foundation model families. AWS launched in 2006 and has operated a Prague office serving the Czech Republic and CEE region with finance, HR shared services, and sales/solutions architect functions. Prague is also an active AWS CloudFront edge location.",
+    "tagline": "Build almost anything you can imagine",
+    "website": "https://aws.amazon.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["ml_ops", "generative_ai", "cv", "nlp", "speech", "data_engineering"],
+    "industries_served": ["finance", "healthcare", "retail", "manufacturing", "public_sector", "media", "technology", "telecommunications"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2006,
+    "founders": ["Andy Jassy", "Jeff Bezos"],
+    "origin_story": "AWS grew out of Amazon's internal infrastructure work in the early 2000s. Jeff Bezos and Andy Jassy recognized that Amazon had built world-class scalable infrastructure and could offer it as a service to developers. AWS officially launched cloud computing services in March 2006 with S3 and EC2, pioneering the modern cloud industry.",
+    "key_milestones": [
+      {"year": 2002, "event": "Amazon Web Services brand launched for developer APIs"},
+      {"year": 2006, "event": "Cloud computing services launched with Amazon S3 and EC2"},
+      {"year": 2012, "event": "AWS re:Invent conference launched in Las Vegas"},
+      {"year": 2016, "event": "Alexa and Amazon AI services (Rekognition, Polly, Lex) launched"},
+      {"year": 2017, "event": "Amazon SageMaker launched, democratizing ML model training and deployment"},
+      {"year": 2023, "event": "Amazon Bedrock (generative AI) launched; AWS re:Invent showcased AI/ML transformation"},
+      {"year": 2024, "event": "Matt Garman becomes AWS CEO; Amazon Nova foundation models announced"},
+      {"year": 2025, "event": "AWS revenue reaches $128.7 billion; Amazon Q becomes flagship AI assistant"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 100
+  },
+
+  "offices": [
+    {"city": "Seattle", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Dublin", "country": "IE", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Luxembourg", "country": "LU", "is_hq": false},
+    {"city": "Singapore", "country": "SG", "is_hq": false},
+    {"city": "Tokyo", "country": "JP", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "AMZN",
+    "stock_exchange": "NASDAQ",
+    "parent_company": "Amazon",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 128700000000,
+    "revenue_source": "amazon_annual_report_2025",
+    "business_model": "usage_based"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Matt Garman", "role": "CEO", "source": "company_website"},
+      {"name": "C. J. Moses", "role": "CISO", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Andy Jassy", "role": "Former AWS CEO (now Amazon CEO)", "source": "public_record"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.amazon.jobs/en/locations/prague-czech-republic",
+    "open_roles_count": 20,
+    "open_roles": [
+      {"title": "Senior Solutions Architect - Czech Republic / Slovakia, AWS Global Sales", "department": "sales", "location": "Prague"},
+      {"title": "Senior Solutions Architect, CEE ISV", "department": "sales", "location": "Prague"},
+      {"title": "Senior Finance Analyst - HE, AWS Accounts Receivables", "department": "finance", "location": "Prague"},
+      {"title": "Senior Finance Analyst with Turkish/Polish, FinOps", "department": "finance", "location": "Prague"},
+      {"title": "Sr. Associate, GCO", "department": "hr", "location": "Prague"},
+      {"title": "HR Contact Center Associate (multiple languages)", "department": "hr", "location": "Prague"},
+      {"title": "Payroll Manager - Germany", "department": "finance", "location": "Prague"},
+      {"title": "Import Logistics Specialist, Global Logistics", "department": "operations", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "java", "scala", "rust", "go", "kubernetes", "terraform"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Amazon-Web-Services-EI_IE6036.11,30.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Gartner Magic Quadrant Leader (Cloud Infrastructure) — 13 consecutive years",
+      "IDC MarketScape Leader: Worldwide Cloud Professional Services",
+      "Fortune 500 via parent Amazon (#2, 2025)"
+    ],
+    "notable_clients": ["Netflix", "Airbnb", "NASA", "Samsung", "BMW", "Pfizer", "Major League Baseball", "Epic Games"],
+    "customer_count": null,
+    "partnerships": ["NVIDIA", "Intel", "Qualcomm", "SAP", "Salesforce", "Siemens", "Accenture", "Deloitte"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "AWS is cloud infrastructure — foundation models run ON AWS, not instead of it. AWS also develops its own foundation models (Nova, Titan) and has deep platform lock-in through SageMaker, Bedrock, and proprietary ML chips (Inferentia, Trainium). Their moat is the infrastructure and tooling layer that AI still fundamentally depends on.",
+    "market_risk": "low",
+    "market_risk_rationale": "AWS commands approximately 30-32% of the global cloud market with $128.7B annual revenue (2025) growing ~17% YoY. Cloud infrastructure demand is structurally growing with AI workloads. Dominant market position with strong enterprise customer lock-in.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "AWS is a highly profitable division of publicly traded Amazon (NASDAQ: AMZN), generating $45.6B operating income in 2025. No funding risk applicable.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "AWS is the world's dominant cloud platform with deep infrastructure moat, $128.7B revenue, and structural tailwinds from AI adoption. The Prague office is a supporting shared-services and sales hub within this global enterprise."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "wikipedia", "amazon_jobs_api"],
+    "fields_missing": ["employees_exact", "glassdoor_rating", "glassdoor_review_count", "open_roles_count_exact"],
+    "needs_review": false,
+    "notes": "Prague office is primarily a shared-services hub (finance, HR) plus CZ/SK/CEE sales and solutions architect roles. Prague is also an active AWS CloudFront edge location. The 20 open roles figure reflects current live postings on amazon.jobs as of March 2026. AWS revenue figures are for the full AWS segment (global), not Czech/Prague specifically."
+  }
+}
