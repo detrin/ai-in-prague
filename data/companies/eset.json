@@ -1,0 +1,132 @@
+{
+  "id": "eset",
+  "name": "ESET",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Global cybersecurity company using AI/ML for proactive threat detection and prevention",
+    "description_long": "ESET is a global leader in cybersecurity, combining AI-native technology with human expertise to protect businesses, critical infrastructure, and individuals from evolving threats. Founded in Slovakia in 1992, ESET operates a Prague office serving Czech Republic clients, an R&D lab in Brno, and 11 global R&D centers. Its PROTECT Platform integrates behavioral analysis, machine learning (since 1997), and the 2024-launched ESET AI Advisor for XDR-based incident response. Products span consumer antivirus (NOD32), endpoint protection, and enterprise threat intelligence.",
+    "tagline": "Progress. Protected.",
+    "website": "https://www.eset.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["ml_ops", "automation", "fraud_detection"],
+    "industries_served": ["cybersecurity", "finance", "government", "healthcare", "enterprise"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1992,
+    "founders": ["Miroslav Trnka", "Peter Paško", "Rudolf Hrubý"],
+    "origin_story": "Founded in Bratislava in 1992 by Miroslav Trnka and Peter Paško, who in 1987 wrote NOD — one of the first PC antivirus programs — while Czechoslovakia was still under communist rule. After the fall of communism, they formalised ESET as a private company. Czech Republic subsidiary registered 2001, R&D lab in Brno and sales office in Prague (Praha 7).",
+    "key_milestones": [
+      {"year": 1987, "event": "NOD antivirus created by Trnka and Paško in Czechoslovakia"},
+      {"year": 1992, "event": "ESET formally founded as private company in Bratislava, Slovakia"},
+      {"year": 1995, "event": "Introduced heuristic analysis into detection engine"},
+      {"year": 1997, "event": "First use of neural networks / machine learning in products"},
+      {"year": 1998, "event": "NOD32 1.0 for Windows released"},
+      {"year": 2001, "event": "ESET software spol. s r.o. established in Czech Republic (Prague)"},
+      {"year": 2005, "event": "DNA Detections ML-based technology introduced"},
+      {"year": 2011, "event": "ESET LiveGrid cloud-based reputation system launched"},
+      {"year": 2013, "event": "WeLiveSecurity threat research blog launched"},
+      {"year": 2017, "event": "First UEFI Scanner in the industry; 30th anniversary"},
+      {"year": 2019, "event": "Advanced Machine Learning offline endpoint detection layer released"},
+      {"year": 2024, "event": "ESET AI Advisor for XDR incident response launched; revenue reached €691M"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": null,
+    "employee_source": "wikipedia_2020_plus_leadiq",
+    "office_count": 11
+  },
+
+  "offices": [
+    {"city": "Bratislava", "country": "SK", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "San Diego", "country": "US", "is_hq": false},
+    {"city": "Jena", "country": "DE", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 761000000,
+    "revenue_source": "eset_2024_annual_report_eur691m_converted",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Richard Marko", "role": "CEO", "source": "company_website"},
+      {"name": "Martin Balušík", "role": "CFO", "source": "wikipedia"},
+      {"name": "Juraj Malcho", "role": "CTO", "source": "wikipedia"},
+      {"name": "Palo Luka", "role": "COO", "source": "wikipedia"},
+      {"name": "Mária Trnková", "role": "CMO", "source": "wikipedia"},
+      {"name": "Jan Urbík", "role": "Country Manager CZ", "source": "eset_cz_website"}
+    ],
+    "notable_people": [
+      {"name": "Miroslav Trnka", "role": "Co-founder", "source": "wikipedia"},
+      {"name": "Peter Paško", "role": "Co-founder", "source": "wikipedia"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.eset.com/int/careers/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Local Information Security Officer", "department": "security", "location": "Prague"},
+      {"title": "Senior Product Manager Cloud Security", "department": "product", "location": "Prague"}
+    ],
+    "tech_stack": ["c++", "python", "machine_learning", "cloud"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": 4.1,
+    "review_count": 388,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-ESET-EI_IE152816.11,15.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "MITRE ATT&CK Enterprise Evaluations 2024",
+      "Europe's biggest privately held cybersecurity company"
+    ],
+    "notable_clients": [],
+    "customer_count": 500000,
+    "partnerships": ["Google App Defense Alliance", "No More Ransom", "Europol Advisory Group", "Arctic Wolf"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "ESET's core value rests on 30+ years of proprietary threat intelligence data, 847-member R&D team, and deep behavioral analysis expertise that cannot easily be replicated by foundation models. However, commoditization of endpoint detection is real as cloud-native security platforms (Microsoft Defender, CrowdStrike) increasingly bundle AI security at scale, threatening ESET's consumer and SMB moat.",
+    "market_risk": "low",
+    "market_risk_rationale": "Cybersecurity is a structurally growing market with sustained enterprise demand. ESET has 500k+ business customers, 1B+ consumer users, and €691M revenue with 9% YoY growth, confirming real PMF in an established market.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "ESET is a self-funded, profitable private company with €100M adjusted EBITDA (2024) and three consecutive decades of growth. No external funding needed.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "ESET's profitability, €691M revenue base, proprietary threat intelligence moat, and 30-year track record make it resilient. Medium AGI displacement risk is offset by deep data assets and regulated enterprise relationships."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "wikipedia", "eset_2024_annual_report", "duckduckgo_search", "glassdoor_snippets"],
+    "fields_missing": ["employees_exact", "open_roles_count", "recommend_pct", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "ESET is headquartered in Bratislava, Slovakia, but has a significant Czech presence: ESET software spol. s r.o. at Classic 7 Business Park, Jankovcova 1037/49, Praha 7 (sales/marketing), and ESET Research Czech Republic s.r.o. in Brno (R&D). Revenue figure converted from €691M at ~1.10 USD/EUR. Czech CZ entity has 50-99 employees (2023, EMIS data). Global employees estimated 1001-5000 based on LeadIQ and Wikipedia 2020 data of 1,831."
+  }
+}
