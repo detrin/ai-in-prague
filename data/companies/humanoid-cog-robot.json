@@ -1,0 +1,131 @@
+{
+  "id": "humanoid-cog-robot",
+  "name": "Humanoid and Cognitive Robotics",
+  "category": "company",
+  "scraped_at": "2026-03-28T17:30:00Z",
+
+  "overview": {
+    "description": "Academic research group at CTU Prague specialising in humanoid, cognitive developmental, and collaborative robotics with artificial electronic skins",
+    "description_long": "Research group within the Vision for Robotics and Autonomous Systems (VRAS) department at Czech Technical University in Prague, Faculty of Electrical Engineering (ČVUT FEL). Led by Assoc. Prof. Matej Hoffmann, the group employs the synthetic methodology ('understanding by building') to study how cognition and body representations develop in infants and to build robots that safely share space with humans. Key specialties include robots equipped with whole-body artificial sensitive skins, multimodal (vision + touch) human-robot interaction, peripersonal space learning, self-calibration, and developmental/cognitive robotics. The group uses iCub, Pepper, and Nao humanoid robots alongside collaborative manipulator arms.",
+    "tagline": "Understanding cognition by building robots — from brains to safe collaborative machines",
+    "website": "https://cyber.felk.cvut.cz/research/groups-teams/humanoids/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["robotics", "cv", "ml_ops"],
+    "industries_served": ["academia", "manufacturing"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Matej Hoffmann"],
+    "origin_story": "Research group established within the Department of Cybernetics at Czech Technical University in Prague. Led by Matej Hoffmann, who became Associate Professor in 2022. Group focuses on synthetic approaches to cognitive robotics, inspired by developmental psychology and neuroscience.",
+    "key_milestones": [
+      {"year": 2017, "event": "Zdenek Straka and Matej Hoffmann awarded ENNS Best Paper Award at ICANN17"},
+      {"year": 2018, "event": "Group became a Partnering Project of the Human Brain Project; KUKA Innovation Award 2018 won in collaboration with IIT"},
+      {"year": 2018, "event": "IPALM European research project started (CHIST-ERA, Horizon 2020), coordinated by Imperial College London"},
+      {"year": 2019, "event": "Matej Hoffmann awarded GAČR EXPRO project for excellence in fundamental research (2020-2024)"},
+      {"year": 2021, "event": "Received iCub and Pepper humanoid robots"},
+      {"year": 2022, "event": "Matej Hoffmann became Associate Professor"},
+      {"year": 2023, "event": "ROBOPROX national project started (2023-2028)"},
+      {"year": 2024, "event": "HARMONIOUS article published in IEEE TRO; covered by Czech TV evening news"},
+      {"year": 2025, "event": "Giulia D'Angelo awarded GAČR grant for PIONEER neuromorphic vision project; organised IEEE ICDL 2025 in Prague"},
+      {"year": 2026, "event": "Paper published in Nature Communications on sensory homunculus development (with Cambridge, Durham, UCL, EPFL)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 13,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (ČVUT), Faculty of Electrical Engineering",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Matej Hoffmann", "role": "Group Coordinator / Associate Professor", "source": "company_website"},
+      {"name": "Giulia D'Angelo", "role": "Assistant Professor", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Zdenek Straka", "role": "Postdoc", "source": "company_website"},
+      {"name": "Haofeng Chen", "role": "Postdoc", "source": "company_website"},
+      {"name": "Ninib Yakoub", "role": "Postdoc", "source": "company_website"},
+      {"name": "Loic Goasguen", "role": "Postdoc", "source": "company_website"},
+      {"name": "Filipe Gama", "role": "PhD Student", "source": "company_website"},
+      {"name": "Lukas Rustler", "role": "PhD Student", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://cyber.felk.cvut.cz/research/groups-teams/humanoids/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD Student (robotics / cognitive science)", "department": "research", "location": "Prague"},
+      {"title": "Research Internship (student thesis)", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "ros", "c++", "matlab"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "ENNS Best Paper Award – ICANN17 (2017)",
+      "KUKA Innovation Award 2018: Real-World Interaction Challenge (with IIT)"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Human Brain Project (EU Flagship)",
+      "Imperial College London (IPALM, CHIST-ERA)",
+      "Italian Institute of Technology (iCub platform)",
+      "University of Cambridge, Durham University, UCL, EPFL (Nature Comms 2026)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at a public university; not a commercial entity. The group's work on embodied cognition and physical robotics hardware is not substitutable by foundation models.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "University research group operating on public grants; no commercial market risk applicable.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-funded by Czech Science Foundation (GAČR EXPRO, PIONEER grants), national ROBOPROX project (2023-2028), and European projects. Multiple active grants provide stable medium-term runway.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "As an established academic research group at ČVUT with continuous grant funding, international collaborations, and a track record of publications in top venues (Nature Communications, IEEE TRO), the group faces no significant existential risk."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year", "glassdoor_rating", "funding_total_usd", "open_roles_count"],
+    "needs_review": true,
+    "notes": "Index entry categorises this as 'company' but it is an academic research group within CTU Prague's Faculty of Electrical Engineering (Department of Cybernetics). No CNAIP page available. Team size of ~13 is estimated from the current members listed on the website (2 faculty, 4 postdocs, 6 PhD students, 1 technician; visiting researchers excluded). Tech stack inferred from robotics research norms (ROS/Python/C++) rather than explicitly stated."
+  }
+}
