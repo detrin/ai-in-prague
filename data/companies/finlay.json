@@ -1,0 +1,108 @@
+{
+  "id": "finlay",
+  "name": "Finlay",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI recruitment platform combining AI agents with human recruiter oversight to source, screen, and place technical candidates",
+    "description_long": "Finlay is an AI-first recruiting platform built by experienced tech and talent professionals who scaled teams at Mews and Rossum. The platform deploys AI agents for CV sourcing, CV matching, AI-generated outreach, and AI screening calls (voice and avatar), supplemented by human recruiter oversight. Offers a freemium SaaS product and a recruiter marketplace.",
+    "tagline": "Meet Your New Recruiting Team",
+    "website": "https://finlay.ai",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/finlay"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["automation", "nlp", "recommendation", "speech"],
+    "industries_served": ["hr", "recruitment", "technology"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2025,
+    "founders": ["Matt Slavik", "Scott Moran"],
+    "origin_story": "Founded by experienced tech and talent professionals who built fast-growing teams at companies like Mews and Rossum. The company completed its first year by early 2026.",
+    "key_milestones": [
+      {"year": 2025, "event": "Founded in Prague as Mamba Technologies s.r.o."},
+      {"year": 2025, "event": "Accepted into Czech Technologická inkubace (Technology Incubation) program"},
+      {"year": 2026, "event": "Launched freemium pricing (Starter, Pro $135/mo, Growth custom)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Technologická inkubace (Czech government incubation program)"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "freemium"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Matt Slavik", "role": "Co-founder", "source": "company_website"},
+      {"name": "Scott Moran", "role": "Co-founder", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Ondrej Illek", "role": "Team member / contributor", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.finlay.ai/about-us",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["PromethistAI"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Finlay explicitly self-describes as 'not deep tech in the strict sense — we're leveraging existing AI'. The core product (sourcing, matching, outreach, screening) is built on top of foundation models without a proprietary data or model moat, making it highly vulnerable to commoditization as LLM capabilities improve.",
+    "market_risk": "medium",
+    "market_risk_rationale": "AI recruitment is a large and real market with proven demand, but it is crowded with well-funded competitors (HireVue, Ashby, Greenhouse, and numerous AI-native startups). Finlay differentiates with a human-in-the-loop hybrid model and recruiter marketplace, but faces steep competition.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Very early stage (founded ~2025, completed first year), with only Czech Technologická inkubace program support identified — no known VC funding rounds. Revenue is nascent with a freemium model starting at $0/month.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Combination of high AGI displacement risk (no proprietary tech moat), highly competitive market, and lack of meaningful external funding makes this a high-risk early-stage startup. Success depends on rapid customer acquisition before larger players commoditize the space."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "open_roles_count", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "Legal entity is Mamba Technologies s.r.o., Prague. Founders inferred from Calendly link (matt-finlay) and blog authorship (Scott Moran explicitly mentions 'my cofounder Matt'). Founded year estimated as 2025 based on blog post (Feb 2026) stating 'we just wrapped our first year'. Tech Incubation program support mentioned in website footer."
+  }
+}
