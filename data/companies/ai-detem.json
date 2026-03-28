@@ -1,0 +1,129 @@
+{
+  "id": "ai-detem",
+  "name": "AI dětem",
+  "category": "initiative",
+  "scraped_at": "2026-03-28T22:40:00Z",
+
+  "overview": {
+    "description": "Czech nonprofit AI education initiative helping schools prepare students for an AI-driven world",
+    "description_long": "AI dětem (AI for Children) is a Czech nonprofit registered association (z.s.) founded in March 2022. It is a leader in AI education in the Czech Republic, helping schools, educators, and children understand and use artificial intelligence responsibly. The organization operates on three pillars: (1) creating free educational and methodical materials including an AI curriculum for primary and secondary schools, (2) running training workshops, webinars, AI academies, after-school clubs, summer camps, and an AI Olympiad for students, and (3) developing technology solutions for schools — most notably the 'Tiny [Tajny]' app, an AI assistant and mentor for educators and pupils. The organization also runs an 'AI Accelerator' programme providing systemic support for schools undergoing digital transformation.",
+    "tagline": "Pomáháme školám připravovat budoucí generace na proměnlivý svět",
+    "website": "https://aidetem.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["other"],
+    "industries_served": ["education"],
+    "company_type": "nonprofit",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2022,
+    "founders": ["Eva Nečasová", "Jitka Šimková"],
+    "origin_story": "Founded in March 2022 by Eva Nečasová and Jitka Šimková to improve AI and digital literacy in Czech schools",
+    "key_milestones": [
+      {"year": 2022, "event": "Founded in March 2022 as a registered nonprofit association (z.s.)"},
+      {"year": 2023, "event": "AI Awards 2023 – first place in the Education category"},
+      {"year": 2024, "event": "Secured Google.org Impact Challenge: Tech for Social Good grant for Tiny app development"},
+      {"year": 2024, "event": "SDGs 2024 award in the Education category"},
+      {"year": 2025, "event": "AI Awards 2025 – first place in the Education category"},
+      {"year": 2025, "event": "Eva Nečasová named most influential woman in education by Vogue CZ"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [
+      "Google.org Impact Challenge: Tech for Social Good",
+      "Nadace České spořitelny",
+      "Nadace rodiny Tykačových"
+    ],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Eva Nečasová", "role": "Co-founder, Content & Strategy", "source": "company_website"},
+      {"name": "Jitka Šimková", "role": "Co-founder, Operations & Finance", "source": "company_website"},
+      {"name": "Radovan Lupták", "role": "Co-founder, Tiny CTO", "source": "company_website"},
+      {"name": "Pavel Kordík", "role": "Co-founder, Tiny CINO", "source": "company_website"},
+      {"name": "Kateřina Çakın", "role": "Tiny CEO", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Eva Nečasová", "note": "Named most influential woman in education by Vogue CZ (2025); Moje Heroine award from Heroine magazine (2025)"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://aidetem.cz",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "nextjs", "llm"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "AI Awards 2023 – 1st place, Education category",
+      "AI Awards 2025 – 1st place, Education category",
+      "SDGs 2024 – Education category",
+      "Eva Nečasová: Moje Heroine (Heroine magazine, 2025)",
+      "Eva Nečasová: Most influential woman in education (Vogue CZ, 2025)"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Google.org",
+      "Nadace České spořitelny",
+      "Nadace rodiny Tykačových",
+      "prg.ai (Elements of AI course in Czech)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "AI dětem is a nonprofit education initiative; its value lies in community-building, teacher training, and pedagogical design rather than AI product development. Not subject to AGI commoditization risk.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "As a nonprofit focused on public-good AI education in Czech schools, it operates outside commercial market dynamics. Demand for AI literacy education is growing.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "The organisation depends on grants and donations (Google.org, Czech Savings Bank Foundation, Tykač Family Foundation) without recurring commercial revenue. Grants can be discontinued, making long-term sustainability uncertain.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "AI dětem is a well-recognised nonprofit with multiple prestigious grants, strong media presence, and award-winning programmes. The primary risk is grant dependency, but the organisation is well-positioned with diverse funders and growing public sector relevance in Czech AI education policy."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website"],
+    "fields_missing": ["employees_exact", "open_roles_count", "funding_total_usd", "revenue_estimate_usd", "glassdoor_url"],
+    "needs_review": false,
+    "notes": "AI dětem (AI for Children) is a Czech nonprofit (z.s.) IČ: 17914582. No CNAIP entry. Website is aidetem.cz (WordPress). The 'Tiny [Tajny]' app is a separately developed AI assistant product within the organisation. Founded March 2022 by Eva Nečasová and Jitka Šimková."
+  }
+}
