@@ -1,0 +1,116 @@
+{
+  "id": "infomatic",
+  "name": "INFOMATIC",
+  "category": "company",
+  "scraped_at": "2026-03-28T18:27:00Z",
+
+  "overview": {
+    "description": "Prague-based Tungsten Automation Platinum Partner specialising in document digitalization, intelligent process automation, and RPA for Czech and Slovak enterprises",
+    "description_long": "INFOMATIC s.r.o. is the sole Tungsten Automation (formerly Kofax) Platinum Partner for the Czech and Slovak Republics. Founded in 2011, they help organizations eliminate paper dependency, automate business processes, and deploy AI capabilities including NLP, generative AI (Azure OpenAI GPT), document classification, and RPA robots. Their services span accounts payable automation, digital mailrooms, HR onboarding workflows, logistics document processing, and financial services automation. The Tungsten TotalAgility platform they implement connects people, processes, and systems across organizations.",
+    "tagline": "Digitalizace nestačí. Důležitější je změna chování lidí",
+    "website": "https://www.infomatic.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["document_processing", "nlp", "automation"],
+    "industries_served": ["finance", "logistics", "manufacturing", "insurance", "retail"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2011,
+    "founders": ["Tomáš Dolejš", "David Večeřa"],
+    "origin_story": "Founded in 2011 as the Czech and Slovak Kofax (now Tungsten Automation) partner, building on over a decade of direct Kofax experience by one of the founders (1999–2011). Both founders each hold a 50% stake.",
+    "key_milestones": [
+      {"year": 2011, "event": "INFOMATIC s.r.o. founded in Prague; appointed Kofax partner for Czech and Slovak Republic"},
+      {"year": 2013, "event": "Major digitalization projects delivered for Generali and ČSOB; long-term partnerships established"},
+      {"year": 2014, "event": "Became authorised Fujitsu document scanner distributor for CZ and SK"},
+      {"year": 2016, "event": "Achieved Kofax Platinum Partner status — highest tier"},
+      {"year": 2020, "event": "Won Kofax Innovation Award for Globus project: 120 processes, 33 business rules, 70+ RPA robots, 30,000+ operations/day"},
+      {"year": 2023, "event": "Kofax rebrands to Tungsten Automation; INFOMATIC retains Platinum Partner status"},
+      {"year": 2026, "event": "15+ years of digitalization and automation services"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website_inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš Dolejš", "role": "CEO", "source": "company_website"},
+      {"name": "David Večeřa", "role": "Sales Director", "source": "company_website"},
+      {"name": "Jan Tomášek", "role": "Delivery Manager", "source": "company_website"},
+      {"name": "Eliška Nováková", "role": "HR", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Jakub Kadeřábek", "role": "Senior Software Consultant", "note": "15+ years Kofax/OCR expertise"},
+      {"name": "Pavel Vraj", "role": "Senior Business Analyst", "note": "15+ years Kofax, BPM, DMS, IDP"},
+      {"name": "Petr Melník", "role": "Document Imaging Specialist", "note": "15+ years Fujitsu experience"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.infomatic.cz/kariera",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["kofax", "tungsten-automation", "azure-openai", "rpa", "ocr", "low-code"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Kofax Innovation Award 2020 (Globus project)", "Tungsten Automation Platinum Partner CZ & SK"],
+    "notable_clients": ["Meopta", "Allianz", "ČSOB", "Globus", "Generali", "Drivalia", "LeasePlan", "Centropol"],
+    "customer_count": null,
+    "partnerships": ["Tungsten Automation (Platinum Partner)", "Fujitsu (document scanner distributor)", "RICOH", "InoTec"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "INFOMATIC's core value is implementation expertise and long-term customer relationships around the Tungsten Automation platform, not proprietary AI. As document AI becomes commoditized (Azure AI Document Intelligence, AWS Textract, etc.), their differentiation narrows. However, 15 years of domain knowledge, certified expertise, and deep enterprise customer integrations provide meaningful lock-in.",
+    "market_risk": "low",
+    "market_risk_rationale": "Document digitalization, intelligent process automation, and RPA are established markets with proven enterprise demand. INFOMATIC has reference clients across finance, insurance, manufacturing, and logistics, with multi-year engagements and measurable ROI.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Privately held, bootstrapped since 2011 with no known external funding. The 15-year track record and dual-founder ownership structure suggest sustainable profitability, but limited capital constrains growth and resilience against larger integrators.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "A stable, profitable 15-year-old consulting firm with strong client references and Tungsten Platinum Partner status. The primary risk is commoditization of document AI making the underlying platform less differentiated, while larger system integrators (Accenture, Deloitte) could encroach on their niche."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_registry"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count"],
+    "needs_review": false,
+    "notes": "No CNAIP URL available. Employees range estimated from team page (6 named staff) and boutique consulting nature — likely 11-50. Both founders (Tomáš Dolejš, David Večeřa) each hold 50% equity per Czech business registry (IČO: 24828441). Company formerly marketed around Kofax brand; now Tungsten Automation after rebrand."
+  }
+}
