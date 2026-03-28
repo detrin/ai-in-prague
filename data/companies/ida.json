@@ -1,0 +1,115 @@
+{
+  "id": "ida",
+  "name": "Intelligent Data Analysis (IDA)",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Research group at ČVUT FEL focused on machine learning, symbolic AI, optimization, and computational biology",
+    "description_long": "The Intelligent Data Analysis (IDA) lab is a research group at the Czech Technical University in Prague (ČVUT), Faculty of Electrical Engineering (FEL). It focuses on machine learning theory, deep relational learning, symbolic AI, optimization, and computational biology. Primary application domains include sports analytics, bioinformatics, and biostatistics. The group develops neuro-symbolic integration methods, inductive logic programming, lifted inference, and graphical probabilistic models.",
+    "tagline": "Machine learning meets symbolic AI — from theory to applications",
+    "website": "https://ida.fel.cvut.cz/",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/intelligent-data-analysis-ida"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["ml_ops", "nlp", "other"],
+    "industries_served": ["healthcare", "life_sciences", "sports_analytics", "transport"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Filip Železný"],
+    "origin_story": "Research group at ČVUT Faculty of Electrical Engineering led by Prof. Filip Železný; active at least since 2015 based on earliest publications",
+    "key_milestones": [
+      {"year": 2015, "event": "Publication of Lifted Relational Neural Networks at NIPS workshop"},
+      {"year": 2019, "event": "Published work on learning to predict soccer results with gradient boosted trees"},
+      {"year": 2023, "event": "Published reference-free phylogeny from sequencing data in BioData Mining"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (ČVUT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Filip Železný", "role": "Group Leader / Principal Investigator", "source": "cnaip"},
+      {"name": "Gustav Šír", "role": "Contact / Researcher", "source": "cnaip"},
+      {"name": "Jiří Kléma", "role": "Researcher (Computational Biology)", "source": "company_website"},
+      {"name": "Vyacheslav Kungurtsev", "role": "Researcher (Optimization)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Petr Ryšavý", "role": "Researcher (Computational Biology)", "source": "company_website"},
+      {"name": "Fadwa Idlahcen", "role": "Researcher", "source": "company_website"},
+      {"name": "Peter Jung", "role": "Researcher", "source": "company_website"},
+      {"name": "Martin Krutský", "role": "Researcher", "source": "company_website"},
+      {"name": "Jakub Peleška", "role": "Researcher", "source": "company_website"},
+      {"name": "Jan Tóth", "role": "Researcher", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://ida.fel.cvut.cz/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "matlab"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["ČVUT Faculty of Electrical Engineering"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at ČVUT — not a commercial entity competing in the AI product market.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "University research group funded through academic grants and institutional support, not subject to commercial market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Funded through ČVUT institutional budget and competitive research grants; not reliant on commercial funding rounds.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "IDA is an academic research group embedded within ČVUT Faculty of Electrical Engineering. Commercial risk metrics do not apply; sustainability is tied to the university and grant funding ecosystem."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "employees_exact", "open_roles_count", "glassdoor"],
+    "needs_review": false,
+    "notes": "Listed as 'company' in companies_index.json but is in fact an academic research group at ČVUT FEL. Category corrected to research_group. Address: Karlovo nám. 293/13, 120 00 Praha."
+  }
+}
