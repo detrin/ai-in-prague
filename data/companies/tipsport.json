@@ -1,0 +1,116 @@
+{
+  "id": "tipsport",
+  "name": "Tipsport",
+  "category": "company",
+  "scraped_at": "2026-03-28T22:25:00Z",
+
+  "overview": {
+    "description": "Largest Czech sports betting company, using ML for responsible gambling detection and personalization",
+    "description_long": "Tipsport is the largest sports betting company in the Czech Republic, founded in 1991 in Beroun. Operating nearly 700 physical branches across Czech Republic and Slovakia, as well as a major online betting platform (tipsport.cz), the company has built one of the largest Czech betting communities. The tech arm, Tipsport.net a.s., develops and operates the digital products and actively hires ML engineers and data scientists. Tipsport co-developed proprietary software for early detection of risky gambling behavior in collaboration with other Czech betting companies, reflecting a serious investment in responsible gambling AI. The group also includes Pluso a.s., a crypto FinTech subsidiary.",
+    "tagline": "Vsaď na Tipsport — pojď s námi měnit svět sázení",
+    "website": "https://www.tipsport.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["fraud_detection", "recommendation", "ml_ops", "data_engineering"],
+    "industries_served": ["gambling", "sports", "entertainment"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1991,
+    "founders": null,
+    "origin_story": "Founded in 1991 in Beroun by a group of local businessmen; opened first branch in May 1991. Obtained an internet betting licence in 2009. Following the new Czech gambling legislation in 2017, Tipsport expanded online significantly.",
+    "key_milestones": [
+      {"year": 1991, "event": "Founded in Beroun, Czech Republic"},
+      {"year": 2009, "event": "Obtained internet betting licence"},
+      {"year": 2017, "event": "Expanded online following new Czech gambling legislation"},
+      {"year": 2022, "event": "Revenue of 511M CZK (~$23M USD)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Beroun", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 23000000,
+    "revenue_source": "Czech trade registry 2022 (511,557,000 CZK; holding entity only)",
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Vratislav Randa", "role": "Chairperson", "source": "wikipedia"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://jobs.tipsport.cz",
+    "open_roles_count": 14,
+    "open_roles": [
+      {"title": "ML specialista senior", "department": "engineering", "location": "Beroun"},
+      {"title": "Python vývojář se zájmem o Machine Learning", "department": "engineering", "location": "Beroun"},
+      {"title": "Marketing/CRM Data Scientist", "department": "data", "location": "Beroun"},
+      {"title": "PROJECT MANAGER | Mobile, Web, AI", "department": "product", "location": "Beroun"},
+      {"title": "IT analytik", "department": "engineering", "location": "Beroun"},
+      {"title": "DATA SECURITY ENGINEER", "department": "security", "location": "Beroun & Brno"},
+      {"title": "Web Application Firewall Administrator | F5 - Cloudflare", "department": "security", "location": "Beroun"},
+      {"title": "Cybersecurity Solution Engineer | DevOps", "department": "devops", "location": "Beroun"},
+      {"title": "SEO Specialista", "department": "marketing", "location": "Beroun"}
+    ],
+    "tech_stack": ["python", "machine_learning"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Tipsport-Reviews-E5213571.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Collaboration with other Czech betting companies on responsible gambling detection software"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Tipsport is a sports betting platform, not an AI product company. Its value lies in its brand, 700+ branch distribution network, Czech gambling licence, and 30+ years of customer relationships. Internal ML use for responsible gambling and personalization is operational tooling, not the core product.",
+    "market_risk": "low",
+    "market_risk_rationale": "Czech and Slovak sports betting is a well-established, regulated market. Tipsport has been the market leader since 1991 with the largest bettor community in the region and a strong omnichannel presence.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Profitable enterprise company with ~511M CZK annual revenue (2022 holding entity) and decades of operational history. No external funding needed; self-sustaining through betting margins.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Tipsport is a mature, profitable, regulated enterprise with dominant market position in Czech/Slovak sports betting. AI/ML is an internal capability for responsible gambling and personalization, not exposed to AGI commoditization risk. Low risk across all dimensions."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["wikipedia", "company_website_jobs", "czech_trade_registry"],
+    "fields_missing": ["founders", "employees_exact", "glassdoor_rating", "office_count", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "HQ is in Beroun (~35km from Prague), not Prague itself. Included in catalog due to Czech Republic AI/ML tech presence. Employee count estimated — Wikipedia lists 34 for the holding company TIPSPORT a.s. only; the full Tipsport group (including ~700 branches and tech arm Tipsport.net a.s.) is likely 1,000–5,000+ employees. The main tipsport.cz website was protected by Cloudflare and could not be scraped directly."
+  }
+}
