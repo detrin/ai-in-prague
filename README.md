@@ -1,6 +1,6 @@
 # AI in Prague
 
-Structured catalog of 371 AI/ML companies, research groups, and initiatives based in Prague. Built for job seekers exploring the Prague AI ecosystem.
+Structured catalog of 371 AI/ML companies, research groups, and initiatives based in Prague.
 
 Each entity gets a detailed JSON profile covering what they do, team size, funding, tech stack, open roles, Glassdoor ratings, and more.
 
