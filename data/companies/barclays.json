@@ -1,0 +1,122 @@
+{
+  "id": "barclays",
+  "name": "Barclays",
+  "category": "company",
+  "scraped_at": "2026-03-28T19:30:00Z",
+
+  "overview": {
+    "description": "Global financial institution operating a major technology hub in Prague employing ~1,400 engineers and quant developers",
+    "description_long": "Barclays is one of the world's largest diversified banks with ~48 million customers and clients worldwide. Prague is one of Barclays' key global technology hubs, established in 2008, housing around 1,400 colleagues across 70 nationalities. The Prague Technology Centre is a centre of excellence for software engineering, quantitative development, data engineering, fraud detection, and GenAI — supporting trading systems, payments infrastructure, risk management, and retail banking platforms globally.",
+    "tagline": "A tech-first centre of excellence in the heart of Prague",
+    "website": "https://home.barclays",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["fraud_detection", "generative_ai", "data_engineering", "ml_ops"],
+    "industries_served": ["finance", "banking", "payments", "investment_banking"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1690,
+    "founders": ["John Freame", "Thomas Gould"],
+    "origin_story": "Founded in 1690 as a goldsmith banking business in London. The Barclays name came into use in 1736. The Prague Technology Centre was established in 2008 as a global hub for software engineering and quantitative development.",
+    "key_milestones": [
+      {"year": 1690, "event": "Founded in London as a goldsmith banking business"},
+      {"year": 1736, "event": "Barclays name adopted"},
+      {"year": 2008, "event": "Prague Technology Centre established"},
+      {"year": 2021, "event": "CS Venkatakrishnan appointed Group CEO"},
+      {"year": 2022, "event": "Multi-tenancy AI platform for merchant risk monitoring launched"},
+      {"year": 2025, "event": "GenAI Centre of Excellence established; Prague hub expanded to ~1,400 colleagues"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "London", "country": "GB", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "New York", "country": "US", "is_hq": false},
+    {"city": "Bengaluru", "country": "IN", "is_hq": false},
+    {"city": "Glasgow", "country": "GB", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "BARC",
+    "stock_exchange": "LSE",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "CS Venkatakrishnan", "role": "Group CEO", "source": "company_website"},
+      {"name": "Craig Bright", "role": "Group CIO", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Miloš Broulík", "role": "Director, Research and Markets (Prague)", "source": "company_website"},
+      {"name": "Vojtěch Král", "role": "Cloud Solutions Architect (Prague)", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://search.jobs.barclays/barclays-prague",
+    "open_roles_count": 34,
+    "open_roles": [
+      {"title": "Quant AI/ML Model Developer", "department": "quantitative_research", "location": "Prague"},
+      {"title": "Core Engineering Quant Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Cloud AI Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Angular Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Test Automation Engineer", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["java", "f#", "python", "microsoft_copilot", "cloud_ai"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": 4.0,
+    "review_count": 21805,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Barclays-Prague-Reviews-EI_IE9599.0,8_IL.9,15_IC2451979.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": 48000000,
+    "partnerships": ["Microsoft (Copilot integration)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Barclays is a regulated financial institution — its core value lies in banking licenses, customer relationships, compliance infrastructure, and capital markets operations. AI is a tool it deploys, not the product. AGI cannot displace a bank's regulatory standing, balance sheet, or trust relationships.",
+    "market_risk": "low",
+    "market_risk_rationale": "Barclays is a 330+ year old institution with 48 million customers, publicly traded on the LSE, and one of the largest banks in the world. The banking market is established and highly regulated, providing structural barriers to disruption.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Publicly traded global bank with hundreds of billions in assets and well-established capital markets access. No funding risk applies.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "As one of the world's largest banks with deep regulatory moats, a 330-year history, 48M customers, and an expanding Prague Technology Centre focused on AI and quant development, Barclays faces minimal risk. The Prague hub is growing and actively hiring, including for Quant AI/ML roles."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "search.jobs.barclays", "home.barclays"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "recommend_pct", "office_count", "employees_exact"],
+    "needs_review": false,
+    "notes": "Prague Technology Centre established 2008; ~1,400 employees in Prague across 70 nationalities; offices in Pankrac, Prague 4, Gemini buildings. Glassdoor rating of 4.0 is for Prague specifically (21,805 reviews). 34 open Prague roles as of March 2026. Barclays has a GenAI Centre of Excellence and is actively building Quant AI/ML teams in Prague."
+  }
+}
