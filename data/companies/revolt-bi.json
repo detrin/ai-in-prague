@@ -1,0 +1,112 @@
+{
+  "id": "revolt-bi",
+  "name": "Revolt BI",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Data analytics and AI consulting agency helping Czech companies become data-driven",
+    "description_long": "Revolt BI is a consultancy-implementation agency founded in 2017 in Prague that specialises in data analytics, business intelligence, and AI solutions. With 50+ data experts and 100+ satisfied clients, they help companies across retail, e-commerce, logistics and manufacturing make better decisions through data. They offer services spanning data strategy, business dashboards, cloud migration, predictive analytics, AI strategy, rapid prototyping with AI, and a Data Academy training programme. Key technology partnerships include Snowflake, dbt, ThoughtSpot, Google Cloud, Tableau, and Power BI.",
+    "tagline": "Better data. Better decisions. Better results.",
+    "website": "https://www.revolt.bi",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["data_engineering", "ml_ops", "automation"],
+    "industries_served": ["retail", "e-commerce", "logistics", "manufacturing"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2017,
+    "founders": ["Giuliano Giannetti"],
+    "origin_story": "Founded by Giuliano Giannetti in 2017 in Prague. First client was Košík.cz. Grew to ~50 data professionals and moved to new offices in the Docky complex.",
+    "key_milestones": [
+      {"year": 2017, "event": "Founded in Prague"},
+      {"year": 2018, "event": "Partnership with Tableau and Snowflake"},
+      {"year": 2018, "event": "Won Škoda Auto Hackathon (two years running), saving Škoda 60M CZK"},
+      {"year": 2022, "event": "Google Cloud partnership established"},
+      {"year": 2023, "event": "Moved to Docky offices with nearly 50 data enthusiasts"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Giuliano Giannetti", "role": "Founder", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Kristýna", "role": "Talent & People Lead", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.revolt.bi/kariera/",
+    "open_roles_count": 2,
+    "open_roles": [
+      {"title": "Sales Manager", "department": "sales", "location": "Prague"},
+      {"title": "Data DevOps Engineer", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["snowflake", "dbt", "google_cloud", "tableau", "power_bi", "thoughtspot", "python"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Košík.cz", "Škoda Auto", "Sportisimo", "Mall.cz", "MALL Group", "EUROMEDIA GROUP", "STOCK Plzeň-Božkov"],
+    "customer_count": 100,
+    "partnerships": ["Snowflake", "dbt Labs", "Google Cloud", "Tableau", "ThoughtSpot"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Revolt BI is a consulting/implementation agency whose core value lies in domain expertise and client relationships rather than proprietary AI. As LLM-powered BI tools (e.g. Tableau Pulse, ThoughtSpot AI) commoditise analytics implementation, their advisory and integration layer faces commoditisation pressure, though client trust and industry depth (retail, logistics) provide some buffer.",
+    "market_risk": "low",
+    "market_risk_rationale": "Data analytics consulting is a well-established, growing market in the Czech Republic and CEE. With 100+ paying clients including Škoda Auto, Mall.cz, and Sportisimo, Revolt BI has demonstrated clear product-market fit and recurring demand.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No visible external funding; the company appears to be bootstrapped with 50+ employees and a healthy client roster. Sustainable on client revenue but lacks the runway buffer of a VC-backed firm should market conditions shift.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "A well-established, bootstrapped Czech data consultancy with a diversified client base and strong tech partnerships. Medium risk driven by consulting commoditisation pressure from AI tooling, partially offset by strong client relationships and domain expertise."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "employees_exact", "founded_year_exact"],
+    "needs_review": false,
+    "notes": "Website is at revolt.bi (not revoltbi.com which is a parked domain). Company is Czech-language primary with an English version at revolt.bi/en/. Founder Giuliano Giannetti is mentioned by first name in origin story quote."
+  }
+}
