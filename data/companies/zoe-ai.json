@@ -1,0 +1,109 @@
+{
+  "id": "zoe-ai",
+  "name": "Zoe AI",
+  "category": "company",
+  "scraped_at": "2026-03-29T10:00:00Z",
+
+  "overview": {
+    "description": "AI-powered hyper-personalization platform for e-commerce (search, recommendations, shopping assistant)",
+    "description_long": "Zoe AI (now rebranded as Perselio in January 2026) is a Czech AI platform for e-commerce personalization, spun off from consulting firm Lundegaard a.s. in 2018. It operates under parent company Aguan s.r.o. and offers three core products: Perselio Search (semantic, personalized full-text search), Perselio Recommendations (real-time personalized product recommendations), and Perselio Shopping Assistant (AI-driven conversational product guidance). The platform uses real-time behavioral data and customer-specific ML models to boost e-commerce revenues by up to 25%. Clients include Sportisimo, Astratex, Rituals, Heureka, Sanitino, Pilulka, and others across Czech Republic, Slovakia, Germany, Poland, and Switzerland.",
+    "tagline": "Hyper-personalised Search and Recommendation",
+    "website": "https://www.zoe-ai.eu",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/zoe-ai"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["recommendation", "nlp", "ml_ops"],
+    "industries_served": ["retail", "e-commerce"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2018,
+    "founders": ["Lukáš Matějka"],
+    "origin_story": "Spun off from Czech consulting and technology company Lundegaard a.s. in 2018 as an independent project focused on real-time behavioral data analytics and AI. Initially focused on fraud detection for banks and insurers before pivoting to e-commerce personalization after a breakthrough project with Heureka in 2021.",
+    "key_milestones": [
+      {"year": 2018, "event": "Spun off from Lundegaard a.s. as an independent project"},
+      {"year": 2021, "event": "Breakthrough partnership with Heureka; pivoted to e-commerce personalization"},
+      {"year": 2022, "event": "Began doubling revenues year-on-year"},
+      {"year": 2024, "event": "5x client growth and 4x revenue growth vs 2023; expanded to Germany, Poland, Switzerland"},
+      {"year": 2026, "event": "Rebranded from Zoe.ai to Perselio; preparing for Benelux and Scandinavian expansion"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Aguan s.r.o.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": "Revenue described as 'tens of millions CZK' as of Jan 2026, growing 4x YoY in 2024; exact USD equivalent not disclosed",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Lukáš Matějka", "role": "Founder", "source": "czechcrunch"},
+      {"name": "Michal Krňák", "role": "Sales Director", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["machine_learning", "deep_learning", "llm", "real_time_data_processing"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Heureka", "Sportisimo", "Astratex", "Rituals", "Sanitino", "Pilulka", "Angry Beards", "Česká mincovna", "EMOS", "Portu", "Elnino", "decoDoma"],
+    "customer_count": null,
+    "partnerships": ["Lundegaard a.s. (origin)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core value is in customer-specific ML models trained on real behavioral data from each e-shop, which creates a data moat. However, foundation models and off-the-shelf recommendation engines (AWS Personalize, Google Recommendations AI) are commoditizing the underlying tech, making the moat time-limited.",
+    "market_risk": "low",
+    "market_risk_rationale": "E-commerce personalization is a proven, growing market with clear ROI signals (clients report up to 25% revenue uplift). The company has demonstrated traction across Czech and international markets with a growing blue-chip client base.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No known external funding; operates as a bootstrapped spin-off under parent Aguan s.r.o. Revenue is growing rapidly (4x YoY) but still in the low millions of USD range, limiting runway for aggressive international expansion.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Solid customer traction and a real market, but the combination of commoditizing underlying AI tech and limited funding for the planned European expansion keeps overall risk at medium. The rebrand to Perselio and international expansion strategy introduce execution risk."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website", "czechcrunch"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor", "open_roles_count"],
+    "needs_review": false,
+    "notes": "Zoe AI rebranded to Perselio in January 2026. Website redirects from zoe-ai.eu to perselio.com. Parent company is Aguan s.r.o. (IČ: 24173681), headquartered at Futurama Business Park, Prague. Previously focused on fraud detection in finance before pivoting to e-commerce personalization in 2021."
+  }
+}
