@@ -1,0 +1,125 @@
+{
+  "id": "comp-psychometrics",
+  "name": "Computational Psychometrics Group",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T19:30:00Z",
+
+  "overview": {
+    "description": "Research group advancing statistical and computational methods for psychometric analysis and educational measurement",
+    "description_long": "The COMputational PSychometrics (COMPS) Group is based at the Institute of Computer Science of the Czech Academy of Sciences (ICS CAS). It advances statistical and computational methods for educational and psychological measurement, developing widely-used open-source R packages including ShinyItemAnalysis (SIA), difNLR, SIAmodules, and SIAtools. Research spans reliability and variance component models, latent variable models, differential item functioning (DIF), computerized adaptive testing (CAT), text mining and NLP for item difficulty prediction, and meta-analyses.",
+    "tagline": "Advancing computational methods for psychometric analysis",
+    "website": "https://www.cs.cas.cz/comps/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["nlp", "ml_ops", "other"],
+    "industries_served": ["education", "healthcare", "research"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2015,
+    "founders": ["Patrícia Martinková"],
+    "origin_story": "Founded by Patrícia Martinková at the Department of Statistical Modelling, Institute of Computer Science, Czech Academy of Sciences. The group's first Czech Science Foundation grant (GJ15-15856Y) ran 2015–2017. The COMPS name and group identity solidified around 2018–2019 with publication of the ShinyItemAnalysis paper in The R Journal.",
+    "key_milestones": [
+      {"year": 2015, "event": "First Czech Science Foundation grant (GJ15-15856Y) — Estimation of psychometric measures as part of admission test development"},
+      {"year": 2018, "event": "ShinyItemAnalysis paper published in The R Journal"},
+      {"year": 2019, "event": "Hosted Psychoco 2019 (International Workshop on Psychometric Computing) in Prague"},
+      {"year": 2021, "event": "Czech Science Foundation grant GA21-03658S (Theoretical Foundations of Computational Psychometrics) awarded"},
+      {"year": 2023, "event": "Book 'Computational Aspects of Psychometric Methods With R' published by CRC Press (Chapman & Hall)"},
+      {"year": 2024, "event": "Local organizer for IMPS 2024 — welcomed 570+ participants from 40 countries"},
+      {"year": 2025, "event": "ComPs project rated Excellent by Czech Science Foundation; new EduCoDe grant (2025–2027) awarded"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 15,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Institute of Computer Science, Czech Academy of Sciences",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Patrícia Martinková", "role": "Group Leader, Senior Researcher (Head of Department of Statistical Modelling)", "source": "company_website"},
+      {"name": "Marek Brabec", "role": "Senior Researcher", "source": "company_website"},
+      {"name": "Adéla Hladká", "role": "Researcher", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "František Bartoš", "role": "Ph.D. Fellow — Bayesian methods, meta-analysis", "source": "company_website"},
+      {"name": "Giuseppe Mignemi", "role": "Postdoc Fellow (from Bocconi University) — Bayesian nonparametric methods", "source": "company_website"},
+      {"name": "Jun Wu", "role": "Postdoc Fellow (MSCA-CZ grant 2025–27) — Graphical models, cognitive diagnosis models", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.cs.cas.cz/comps/jobs.html",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "Tenure Track Research Position", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["R", "Shiny", "python"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "ComPs project rated Excellent by Czech Science Foundation (2025)",
+      "Local organizer IMPS 2024 — 570+ attendees, 40 countries",
+      "NCME 2026 workshop on recent book"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Institute for Research and Development in Education, Charles University",
+      "University of Washington (Center for Statistics and Social Sciences)",
+      "DigiWELL OP JAK project consortium"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at the Czech Academy of Sciences — develops fundamental statistical and computational methods for psychometrics, not a commercial product subject to commoditization. Their open-source R packages (ShinyItemAnalysis) are domain-specific tools for educational measurement with deep methodological moat.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research group funded by Czech Science Foundation, EU OP JAK, and institutional ICS CAS support — not exposed to commercial market dynamics.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-funded with two active grants (EduCoDe 2025–2027, DigiWELL 2024–2028) plus institutional ICS CAS backing. Previous project (ComPs) rated Excellent by Czech Science Foundation, indicating high likelihood of continued competitive grant success.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "As a grant-funded academic research group within a prestigious national research institution, commercial risk categories are not applicable. Funding risk is low given strong grant track record and institutional support from the Czech Academy of Sciences."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "cs.cas.cz"],
+    "fields_missing": ["funding_total_usd", "glassdoor_rating", "founded_year_exact"],
+    "needs_review": false,
+    "notes": "COMPS = COMputational PSychometrics. Group is part of the Department of Statistical Modelling at ICS CAS (Ústav informatiky AV ČR, v.v.i.), Pod Vodárenskou věží 271/2, 182 00 Praha 8. PI Patrícia Martinková also holds appointment at Charles University and is Affiliate Associate Professor at University of Washington. Founded year estimated as 2015 based on first CSF grant."
+  }
+}
