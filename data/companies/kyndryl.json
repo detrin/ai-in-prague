@@ -1,0 +1,116 @@
+{
+  "id": "kyndryl",
+  "name": "Kyndryl",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "World's largest IT infrastructure services provider, offering managed services and AI-enabled operations for enterprise mission-critical systems",
+    "description_long": "Kyndryl designs, builds, manages and modernizes the mission-critical technology systems that the world depends on every day. Spun off from IBM's Global Technology Services division in November 2021, Kyndryl operates in 60+ countries serving 4,400+ customers including 75% of the Fortune 100. Its flagship platform, Kyndryl Bridge, is an open integration platform delivering IT solutions using data insights and AI. Service lines include Data and AI, Cloud, Cyber Resilience, Digital Workplace, Core Enterprise and zCloud, Network and Edge, and Applications.",
+    "tagline": "The Heart of Progress",
+    "website": "https://www.kyndryl.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["ml_ops", "data_engineering", "automation"],
+    "industries_served": ["banking", "insurance", "manufacturing", "retail", "government", "healthcare", "telecommunications", "automotive", "energy", "travel"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2021,
+    "founders": [],
+    "origin_story": "Created from the spin-off of IBM's infrastructure services (Global Technology Services) division on November 3, 2021. Inherited IBM's decades-long IT services operations across 60+ countries, including established Czech Republic presence.",
+    "key_milestones": [
+      {"year": 2021, "event": "Spun off from IBM as an independent public company listed on NYSE (KD)"},
+      {"year": 2021, "event": "Partnered with Microsoft for digital transformation services using Microsoft Cloud"},
+      {"year": 2021, "event": "Partnered with Google Cloud on digital transformation projects"},
+      {"year": 2022, "event": "Partnered with Amazon Web Services; launched Kyndryl Bridge open integration platform and consulting segment"},
+      {"year": 2022, "event": "Ranked No. 6 on CRN's largest IT solution providers in North America"},
+      {"year": 2024, "event": "Acquired Skytap; divested Securities Industry Services to Broadridge Financial Solutions"},
+      {"year": 2025, "event": "Reported $15.1B revenue and ~73,000 employees globally"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 73000,
+    "employee_source": "wikipedia_2025",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "New York City", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "KD",
+    "stock_exchange": "NYSE",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["The Vanguard Group", "FMR LLC (Fidelity)", "BlackRock Inc.", "Neuberger Berman Group LLC"],
+    "revenue_estimate_usd": 15100000000,
+    "revenue_source": "wikipedia_10k_fy2025",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Martin Schroeter", "role": "Chairman and CEO", "source": "company_website"},
+      {"name": "Elly Keinan", "role": "Group President", "source": "company_website"},
+      {"name": "Nel Akoth", "role": "Chief Transformation Officer", "source": "company_website"},
+      {"name": "Kim Basile", "role": "Chief Information Officer", "source": "company_website"},
+      {"name": "Maryjo Charbonnier", "role": "Chief Human Resources Officer", "source": "company_website"},
+      {"name": "Harsh Chugh", "role": "Interim Chief Financial Officer", "source": "company_website"},
+      {"name": "Giovanni Carraro", "role": "SVP Global Strategic Alliances", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.kyndryl.com/us/en/careers",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["aws", "microsoft-azure", "google-cloud", "ai", "data-analytics", "cloud", "cybersecurity", "mainframe"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Fortune 100 companies (75% of)", "Carrefour"],
+    "customer_count": 4400,
+    "partnerships": ["Microsoft", "Amazon Web Services", "Google Cloud"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Kyndryl's core value is in managing complex legacy enterprise IT infrastructure (mainframes, hybrid cloud, regulated systems), not in building AI products. However, increasing AI-driven IT automation and hyperscaler managed services could reduce demand for traditional IT outsourcing. Their IBM heritage and deep enterprise integrations provide some moat.",
+    "market_risk": "medium",
+    "market_risk_rationale": "IT managed services is a real, multi-billion dollar market with steady enterprise demand. However, Kyndryl faces pressure from cloud hyperscalers (AWS, Azure, GCP) offering native managed infrastructure, and the company has been navigating a post-IBM revenue transition since 2021.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Publicly traded on NYSE (KD) with $15.1B in annual revenue and net income of $252M (FY2025). Large institutional shareholders include Vanguard, Fidelity, and BlackRock. No funding risk given public status and scale.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Kyndryl is a large, stable, publicly-traded company with strong revenue and enterprise customer base. Market risk is medium as hyperscalers continue to expand managed services, but Kyndryl's scale, regulatory expertise, and Fortune 100 relationships provide durability."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "wikipedia"],
+    "fields_missing": ["glassdoor_rating", "open_roles_count", "office_count", "cnaip_url"],
+    "needs_review": false,
+    "notes": "Kyndryl is a large global enterprise with a Czech Republic presence (inherited from IBM GTS). No CNAIP URL provided. Global employee count and revenue from Wikipedia/annual report. Czech/Prague specific headcount not publicly disclosed. Company is publicly traded on NYSE since November 2021."
+  }
+}
