@@ -1,0 +1,132 @@
+{
+  "id": "oddin-gg",
+  "name": "Oddin.gg",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered esports betting infrastructure for sportsbook operators",
+    "description_long": "Oddin.gg is the world-leading B2B provider of esports betting solutions, founded in 2018 in Prague. It delivers end-to-end esports betting infrastructure including real-time odds feeds, automated risk management, iFrame integration, official esports data, and eSim content. The platform uses advanced data science and machine learning algorithms to generate odds and manage risk across 30+ esports titles including CS2, Dota 2, League of Legends and Valorant. Clients include Betano, Stake, Allwyn, Dafabet, Betway, Betsson and hundreds of other sportsbooks globally.",
+    "tagline": "End-to-End Esports Betting Solutions",
+    "website": "https://oddin.gg",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["ml_ops", "recommendation", "data_engineering", "fraud_detection"],
+    "industries_served": ["igaming", "esports", "sports betting"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2018,
+    "founders": ["Vlastimil Venclík", "Marek Suchar"],
+    "origin_story": "Founded in 2018 in Prague by esports industry veterans with a goal to transform esports expertise into a B2B betting infrastructure platform.",
+    "key_milestones": [
+      {"year": 2018, "event": "Founded in Prague"},
+      {"year": 2022, "event": "Raised $4.5M Series A from Velo Partners and Genting Ventures"},
+      {"year": 2024, "event": "Won Deloitte Technology Fast 50 Award"},
+      {"year": 2024, "event": "Reached $31.7M revenue with ~145 person team"},
+      {"year": 2025, "event": "Grew to nearly 300 team members; obtained 7th North American license (Maryland)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Aarhus", "country": "DK", "is_hq": false},
+    {"city": "Amsterdam", "country": "NL", "is_hq": false},
+    {"city": "Lima", "country": "PE", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 5700000,
+    "funding_rounds": [
+      {"date": "2022-01", "type": "Series A", "amount_usd": 4500000, "lead_investor": "Velo Partners"}
+    ],
+    "investors": ["Velo Partners", "Genting Ventures", "Presto Ventures"],
+    "revenue_estimate_usd": 31700000,
+    "revenue_source": "press_snippet_2024",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Vlastimil Venclík", "role": "CEO & Co-Founder", "source": "company_website"},
+      {"name": "Marek Suchar", "role": "Managing Director & Co-Founder", "source": "company_website"},
+      {"name": "Martin Podval", "role": "Head of Technology", "source": "company_website"},
+      {"name": "Todd McCully", "role": "Head of Sales", "source": "company_website"},
+      {"name": "Martin Lycka", "role": "VP Institutional Affairs", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Prokop Šimon", "role": "Quantitative Team Leader", "source": "company_website"},
+      {"name": "Pavel Macháň", "role": "Engineering Team Leader", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://oddin.gg/en/careers",
+    "open_roles_count": 19,
+    "open_roles": [
+      {"title": "Strategy Associate to the Co-Founder", "department": "strategy", "location": "Prague"},
+      {"title": "Director Fast Betting Content (FBC)", "department": "product", "location": "Prague"},
+      {"title": "Business Development Manager - AI Live Dealer Solutions", "department": "sales", "location": "Prague"},
+      {"title": "Mathematician", "department": "quantitative", "location": "Prague"},
+      {"title": "Quant ML Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Esports Data Operator", "department": "data", "location": "Prague"},
+      {"title": "DevOps Engineer", "department": "engineering", "location": "Aarhus"},
+      {"title": "League of Legends Expert Data Scientist", "department": "data", "location": "Prague"},
+      {"title": "Head of Platform", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Infrastructure Engineer", "department": "engineering", "location": "remote"}
+    ],
+    "tech_stack": ["machine_learning", "data_science", "quantitative_modeling"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Deloitte Technology Fast 50 Award 2024"
+    ],
+    "notable_clients": ["Betano", "Stake", "Allwyn", "Dafabet", "Betway", "Betsson", "Yolo Group", "Aspire Global", "Altenar", "Softswiss"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Oddin.gg's value lies in proprietary real-time esports data pipelines, tailor-made quantitative models for in-game scenarios, regulatory compliance (7 North American licenses), and deep integrations with sportsbook operators — not in generic AI capabilities that foundation models could replace.",
+    "market_risk": "low",
+    "market_risk_rationale": "Esports betting is a growing market projected to exceed $20B by 2027; Oddin.gg demonstrated 7,958% revenue growth 2020-2023 and $31.7M revenue in 2024, confirming strong PMF with enterprise operators globally.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-funded with Series A backing from Velo Partners and Genting Ventures, $31.7M revenue, and a more recent large syndicate funding round. Deloitte Fast 50 recognition further validates financial health.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Oddin.gg holds a defensible niche as the dominant B2B esports betting infrastructure provider with proprietary ML-driven odds models, regulatory licenses, and strong enterprise traction. Revenue growth and team expansion signal a healthy, sustainable business."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "tracxn_snippet", "esports_gg_snippet", "twogpedia", "duckduckgo_search"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "employees_exact", "funding_total_exact_post_series_a"],
+    "needs_review": false,
+    "notes": "Revenue $31.7M in 2024 sourced from press snippet. Team grew from 50 to nearly 300 per About Us page. A subsequent large syndicate funding round (described as 'hundreds of millions' in one snippet) was announced but exact amount could not be verified — funding_total_usd reflects confirmed $5.7M only. LinkedIn shows 8,942 followers."
+  }
+}
