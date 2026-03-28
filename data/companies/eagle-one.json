@@ -1,0 +1,132 @@
+{
+  "id": "eagle-one",
+  "name": "EAGLE.ONE",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Autonomous AI-powered drone hunter for counter-UAS (anti-drone) airspace security",
+    "description_long": "EAGLE.ONE develops fully autonomous drone interception systems that use onboard AI, LiDAR, cameras, and model predictive control to detect, track, and capture unauthorized drones using a non-destructive net-capture mechanism. The system integrates with existing RF and sensor detection networks and operates in critical environments such as airports, military zones, prisons, and industrial complexes. Developed in co-operation with the Multi-Robot Systems Group at CTU Prague.",
+    "tagline": "The One and Only Autonomous drone hunter",
+    "website": "https://eagle.one",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["robotics", "cv", "automation"],
+    "industries_served": ["defence", "aviation", "critical_infrastructure", "public_safety"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2015,
+    "founders": [
+      "Miloslav Žáček",
+      "doc. Ing. Martin Saska, Dr. rer. nat.",
+      "Ing. Tomáš Báča",
+      "Ing. Vojtěch Spurný, Ph.D.",
+      "Ing. Daniel Heřt"
+    ],
+    "origin_story": "Founded by engineers from the Multi-Robot Systems Group at the Czech Technical University in Prague, combining academic AI/robotics research with a commercial anti-drone product. Legally registered in March 2015, first prototype (Mark I) demonstrated publicly in 2018.",
+    "key_milestones": [
+      {"year": 2015, "event": "Company registered in Prague (ORG ID: 03947394)"},
+      {"year": 2018, "event": "Mark I prototype demonstrated at Future Forces exhibition and Future Port Prague; featured on Czech Television"},
+      {"year": 2019, "event": "Mark II at IDET 2019 defence fair; established cooperation with Czech Military Technical Institute; exhibited at Commercial UAV EXPO Las Vegas"},
+      {"year": 2020, "event": "Won Grand Finale of MBZIRC 2020 robotics challenge in Abu Dhabi (as CTU-UPenn-NYU team); Mark III with LiDAR developed"},
+      {"year": 2021, "event": "Mark IV developed; displayed at EXPO 2020 in Dubai"},
+      {"year": 2022, "event": "Real use-case demonstration at Rapotice prison complex"},
+      {"year": 2024, "event": "Mark V announced; EAGLE.ONE accompanied Czech Presidential delegation to the USA; featured on Czech Television"},
+      {"year": 2025, "event": "European Commission recognised EAGLE.ONE; first confirmed drone interception in Germany at DLR Airport; exhibited at Smart City Expo World Congress Barcelona; received Visionaries 2025 Award"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Miloslav Žáček", "role": "CEO, Co-Founder", "source": "company_website"},
+      {"name": "doc. Ing. Martin Saska, Dr. rer. nat.", "role": "CTO, Co-Founder, Senior Researcher, Head of Multi-Robot Systems Group at CTU", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Ing. Tomáš Báča", "role": "Engineer, Co-Founder (predictive controls, sensor fusion)", "source": "company_website"},
+      {"name": "Ing. Vojtěch Spurný, Ph.D.", "role": "Engineer, Co-Founder (communication, DeDrone integration)", "source": "company_website"},
+      {"name": "Ing. Daniel Heřt", "role": "Engineer, Co-Founder (system integration, experimental work)", "source": "company_website"},
+      {"name": "Ing. Barbora Matyášová", "role": "Data Analyst", "source": "company_website"},
+      {"name": "Mgr. Michael Pospíšil", "role": "Project & PR Manager", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["lidar", "computer_vision", "model_predictive_control", "ros", "python"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Visionaries 2025 Award (December 2025)",
+      "MBZIRC 2020 Grand Finale Winner (CTU-UPenn-NYU team)",
+      "European Commission recognition for counter-UAS innovation (September 2025)"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Multi-Robot Systems Group, Department of Cybernetics, Czech Technical University in Prague",
+      "Fly4Future",
+      "UAV Alliance for Unmanned Aviation Industry",
+      "Czech Military Technical Institute"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "EAGLE.ONE is a hardware-first product — a physical autonomous drone with proprietary onboard AI, LiDAR, and net-capture mechanics. Foundation models cannot replicate a purpose-built interception drone; the value lies in the physical system, embedded real-time control algorithms (FRPN), and years of field-tested robotics IP developed with CTU Prague.",
+    "market_risk": "low",
+    "market_risk_rationale": "The counter-UAS market is growing from $2-3B (2024) to $10-30B+ by the early 2030s driven by real regulatory and security demand across Europe. EAGLE.ONE has demonstrated real deployments (Germany, Czech prisons, airport security) and received European Commission recognition, confirming product-market fit.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No disclosed external funding rounds; the invest page actively solicits investors, indicating the company has not yet raised institutional capital. The small visible team (~9 people on website) and early-stage investor outreach suggest limited runway and financial risk.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong hardware/AI moat and a growing defence/security market reduce displacement and market risk, but the absence of disclosed funding and small team size introduce meaningful execution and runway risk as the company scales from demonstrations to commercial deployments."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ares_cz_business_register"],
+    "fields_missing": ["funding_total_usd", "employees_exact", "glassdoor", "careers_url", "open_roles_count", "revenue_estimate_usd"],
+    "needs_review": false,
+    "notes": "Company legally registered March 31, 2015 per Czech ARES business register (ORG ID: 03947394). Team page lists 9 named individuals; actual headcount estimated at 11-50. No public funding data found — invest page actively solicits investors. Business model is hardware product sales + enterprise contracts (not SaaS). NACE code 3030 (manufacture of air/spacecraft). Fly4Future mentioned as partner in European Commission recognition article."
+  }
+}
