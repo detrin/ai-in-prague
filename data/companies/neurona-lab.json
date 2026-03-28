@@ -1,0 +1,110 @@
+{
+  "id": "neurona-lab",
+  "name": "Neurona Lab",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered diagnostics for neurodegenerative diseases (Alzheimer's, Parkinson's)",
+    "description_long": "Neurona Lab is a Prague-based health-tech company building AI algorithms for fast and precise diagnosis of neurodegenerative diseases. Their product suite includes Neurona PET (MRI & PET fusion algorithm for amyloid quantification), Neurona ARIA (detection of cerebral oedemas and microbleeding — complications of Alzheimer's biological treatments), and Neurona App (speech-based early Alzheimer's/Parkinson's detection). All products are progressing through clinical testing and CE medical-device certification. Part of the Channel Lab group.",
+    "tagline": "Fast and precise diagnosis of neurodegenerative diseases using artificial intelligence.",
+    "website": "https://neurona-lab.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["cv", "ml_ops", "speech"],
+    "industries_served": ["healthcare", "neurology", "medtech"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Jan Pavlík"],
+    "origin_story": "Founded by Jan Pavlík (also co-founder of Terrapino) to apply AI to the growing global dementia crisis; WHO estimates 55M+ sufferers worldwide, with primary care identifying fewer than 1 in 3 patients.",
+    "key_milestones": [
+      {"year": 2025, "event": "Presented products at CzechCrunch Longevity Fest in Prague"},
+      {"year": 2026, "event": "Attended AD/PD 2026 international Alzheimer's & Parkinson's conference in Copenhagen; secured partnerships for Neurona PET"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Channel Lab group",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jan Pavlík", "role": "CEO & Co-Founder", "source": "company_website"},
+      {"name": "Kamila Dvořák", "role": "CTO", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Prof. MUDr. Jakub Hort, Ph.D, FEAN", "role": "Medical Advisor", "source": "company_website"},
+      {"name": "David Navrátil", "role": "Advisory Board — Founder & Innovator", "source": "company_website"},
+      {"name": "Vojtěch Barnat", "role": "AI Engineer and Developer", "source": "company_website"},
+      {"name": "Kateřina Zachová", "role": "Quality Assurance Manager", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "deep_learning", "machine_learning"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Motol University Hospital (clinical testing partner — inferred from advisory board)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Neurona Lab builds CE-certified medical-device AI for neurodegenerative diagnostics. Regulatory certification, clinical trial data, and integration with hospital information systems (DICOM/HL7) create a deep compliance moat that foundation models cannot replicate off-the-shelf.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The neurodegenerative diagnostics market is large and growing (55M→139M dementia patients by 2050), but Neurona Lab is pre-commercial and competing with established medical imaging vendors (Siemens, GE, Philips). Revenue timeline depends on CE certification cycles.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No public funding information found. The company is 2–10 employees, pre-commercial (products still in R&D/certification phases), and relies on the Channel Lab group umbrella. Without confirmed external investment, runway is uncertain.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong regulatory moat and a large unmet clinical need offset the pre-commercial status and funding uncertainty. Success depends on navigating CE/MDR certification timelines and securing hospital partnerships — achievable given the experienced medical advisory board."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["founded_year", "funding_total_usd", "revenue_estimate_usd", "careers_url", "open_roles_count", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "Input category is 'research_group' but Neurona Lab describes itself as a 'health-tech company'; classified here as startup/product given commercial intent and product roadmap. Address: Vodičkova 17, Prague 1. LinkedIn shows 2,315 followers and 2-10 employees. Member of Channel Lab group (parent/incubator)."
+  }
+}
