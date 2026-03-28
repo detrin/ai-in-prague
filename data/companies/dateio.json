@@ -1,0 +1,102 @@
+{
+  "id": "dateio",
+  "name": "Dateio",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Europe's largest card-linked marketing and transaction data enrichment ecosystem for banks and fintechs.",
+    "description_long": "Founded in 2013 by Ondrej Knot and Ivan Dovica, Dateio is Europe's largest platform for card-linked marketing and transaction data enrichment. The company operates in 80+ markets and serves 50+ global banks and fintechs as well as 600+ European retailers. Dateio's two main products are the Dateio Platform (card-linked marketing rewards for banks and retailers) and Tapix (a transaction data enrichment API enabling banks and fintechs to clean up raw payment data, identify merchants, classify spending, and add sustainability insights). The platform processes data for 73 million+ customers daily at 99.99% accuracy. Headquartered in Prague with offices in Slovakia, Hungary, Romania, Croatia, Austria, Germany, and Italy.",
+    "tagline": "Turn Payment Data into your Winning Strategy",
+    "website": "https://www.dateio.eu",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["data_engineering", "recommendation", "other"],
+    "industries_served": ["banking", "fintech", "retail"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2013,
+    "founders": ["Ondrej Knot", "Ivan Dovica"],
+    "origin_story": "Founded in 2013 when Ondrej Knot and Ivan Dovica decided to leave their consultancy careers to explore payment data analytics for banking clients. The company evolved from data analytics into a full card-linked marketing and transaction enrichment platform.",
+    "key_milestones": [
+      {"year": 2013, "event": "Founded in Prague by Ondrej Knot and Ivan Dovica"},
+      {"year": 2024, "event": "Launched Tapix as a standalone transaction data enrichment brand"},
+      {"year": 2025, "event": "Expanded to 80+ markets with 73 million+ customers engaging with Dateio data daily"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 8
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Bratislava", "country": "SK", "is_hq": false},
+    {"city": "Budapest", "country": "HU", "is_hq": false},
+    {"city": "Bucharest", "country": "RO", "is_hq": false},
+    {"city": "Zagreb", "country": "HR", "is_hq": false},
+    {"city": "Vienna", "country": "AT", "is_hq": false},
+    {"city": "Berlin", "country": "DE", "is_hq": false},
+    {"city": "Milan", "country": "IT", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ondrej Knot", "role": "Co-founder", "source": "dateio.eu/about-us"},
+      {"name": "Ivan Dovica", "role": "Co-founder", "source": "dateio.eu/about-us"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.dateio.eu",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["dateio.eu (homepage)", "dateio.eu/about-us", "dateio.eu/contact-us", "tapix.io (homepage)", "tapix.io/about-us"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor.rating", "employees_exact", "open_roles", "tech_stack"],
+    "needs_review": false,
+    "notes": "No CNAIP URL. Founded 2013 by Ondrej Knot and Ivan Dovica. Company ID: 02216973, registered as Dateio s.r.o. in Prague 5. Operates in 80+ markets, serves 50+ banks/fintechs and 600+ retailers, with 73M+ daily active customers. Career pages on both dateio.eu and tapix.io return 404 — current job openings unknown. No funding rounds found. Employee count estimated based on company scale across 8 European offices. Tapix is a brand/product of Dateio, with its own website (tapix.io)."
+  }
+}
