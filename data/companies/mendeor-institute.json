@@ -1,0 +1,115 @@
+{
+  "id": "mendeor-institute",
+  "name": "Mendeor Institute",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T20:00:00Z",
+
+  "overview": {
+    "description": "AI Academy for team leaders and managers focusing on mental resilience, leadership, and performance",
+    "description_long": "Mendeor Institute delivers an AI-powered microlearning academy for team leaders and managers, built on six years of experience from the SOULMIO team. The platform covers 24 key topics — including burnout prevention, anxiety, toxic workplace dynamics, and emotional intelligence — through interactive e-learning modules and AI role-play simulations powered by MAMA AI. Content is developed by neuroscientists, psychologists, and coaches, with course guarantors including a Charles University professor and 1st Medical Faculty researchers.",
+    "tagline": "AI ACADEMY powering resilience, leadership and performance",
+    "website": "https://mendeor.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["generative_ai", "nlp", "automation"],
+    "industries_served": ["hr_tech", "education", "mental_health"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [
+      "Simona Zábržová",
+      "Jan Kleindienst",
+      "Jakub Krchák",
+      "Jan Cuřín"
+    ],
+    "origin_story": "Founded by the SOULMIO team, drawing on over six years of experience working with organizations on team leader and manager challenges. The founders identified recurring pain points (burnout, anxiety, team conflicts, toxic dynamics) and built an AI-powered microlearning platform to address them.",
+    "key_milestones": []
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Simona Zábržová", "role": "CEO & Co-Founder", "source": "company_website"},
+      {"name": "Jan Kleindienst", "role": "Co-Founder (also Co-CEO, MAMA AI)", "source": "company_website"},
+      {"name": "Jakub Krchák", "role": "Co-Founder (also Co-CEO, MAMA AI)", "source": "company_website"},
+      {"name": "Jan Cuřín", "role": "Co-Founder (also Co-CEO, MAMA AI)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Aleš Stuchlík", "role": "Course Guarantor — Neuroscientist, Professor at Charles University", "source": "company_website"},
+      {"name": "Adam Kulhánek", "role": "Course Guarantor — Addictologist, 1st Medical Faculty UK", "source": "company_website"},
+      {"name": "Kristýna Cetkovská", "role": "Course Guarantor — Work Psychologist, Senior L&D at Deloitte; researcher at University of Zurich Centre for Salutogenesis", "source": "company_website"},
+      {"name": "Pavla Horáková", "role": "Course Guarantor — Work Psychologist & Coach", "source": "company_website"},
+      {"name": "Martina Mikesková", "role": "Course Guarantor — Psychologist & Psychotherapist", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["mama_ai", "e_learning_platform"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["MAMA AI", "Soulmio"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Mendeor's core AI layer (MAMA AI chatbot role-play) is relatively thin and replicable; however, their proprietary value lies in curated expert content from credentialed neuroscientists and psychologists and structured 24-topic curriculum for corporate managers. The domain expertise and corporate trust provide some moat, but GPT-class models could increasingly commoditize AI coaching tools.",
+    "market_risk": "low",
+    "market_risk_rationale": "Corporate mental health and leadership development is a large, growing market with sustained demand driven by post-pandemic wellbeing focus. The intersection of AI and HR learning is gaining traction with enterprise buyers, and there is clear PMF for manager-focused mental health training.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external funding found; small team (11-50 per LinkedIn) and early-stage startup with no public revenue or investor signals. Bootstrapped or pre-seed stage with significant runway uncertainty.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong market demand and credible expert content create a viable product, but lack of funding and a thin AI moat introduce meaningful execution risk. The MAMA AI co-founding overlap provides technical depth but also suggests potential resource constraints."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["founded_year", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count", "employees_exact"],
+    "needs_review": true,
+    "notes": "Company is indexed as 'research_group' but operates as an AI EdTech startup/company. It has academic expert contributors (Charles University, 1st Medical Faculty UK) but is commercially oriented. Address: Revoluční 764/17, Staré Město, 110 00 Praha. Contact: hello@mendeor.com, +420 777 285 544. Co-founders Jan Kleindienst, Jakub Krchák, and Jan Cuřín are also Co-CEOs of MAMA AI (the AI technology partner). Mendeor is built on the SOULMIO team's 6 years of corporate wellness experience."
+  }
+}
