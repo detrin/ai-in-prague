@@ -1,0 +1,117 @@
+{
+  "id": "promethistai",
+  "name": "PromethistAI",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:25:00Z",
+
+  "overview": {
+    "description": "Multimodal relational AI agents for enterprise customer and employee interactions",
+    "description_long": "PromethistAI is a 40+ person conversational AI company co-founded by Amazon Alexa Prize-winning researchers and engineers. They build multimodal relational agents combining chat, voice, and digital human avatars to help enterprises build meaningful relationships with customers and employees. Products include Promethist Empower (AI sales coaching), Promethist Engage (lead gen via digital human agents), and Promethist Convert (CX optimisation). Use cases span financial services, telco, and publishing.",
+    "tagline": "Relational Intelligence",
+    "website": "https://promethist.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "speech", "generative_ai", "automation"],
+    "industries_served": ["financial_services", "telco", "education", "retail"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2019,
+    "founders": ["Jan Sedivy"],
+    "origin_story": "Founded in November 2019 in Prague by Jan Sedivy, building on research from the Amazon Alexa Prize-winning Alquist team at CTU CIIRC. The company emerged from academic conversational AI research to build enterprise-grade digital human interaction platforms.",
+    "key_milestones": [
+      {"year": 2019, "event": "Founded in Prague (registered November 8, 2019)"},
+      {"year": 2023, "event": "Rebranded and repositioned as PromethistAI with focus on relational intelligence"},
+      {"year": 2025, "event": "Expanded to 45 employees with two Prague offices; launched Empower, Engage, and Convert product lines"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 45,
+    "employee_source": "builtin.com (2025)",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Prague 6", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Klára Lorencová", "role": "CEO", "source": "company_website"},
+      {"name": "Jan Pichl", "role": "COO", "source": "company_website"},
+      {"name": "Jakub Konrád", "role": "CCO", "source": "company_website"},
+      {"name": "Dominik Novozamský", "role": "CPTO", "source": "company_website"},
+      {"name": "Roman Kučera", "role": "VP of Product", "source": "company_website"},
+      {"name": "Petr Marek", "role": "Head of AI & ML", "source": "company_website"},
+      {"name": "Jan Sedivy", "role": "Co-founder", "source": "tracxn / theorg.com"}
+    ],
+    "notable_people": [
+      {"name": "Jan Pichl", "note": "PhD in ML, Alexa Prize award-winning AI researcher, Forbes 30 Under 30"},
+      {"name": "Jakub Konrád", "note": "Former leader of Amazon Alexa Prize-winning Alquist team at CTU CIIRC"},
+      {"name": "Petr Marek", "note": "PhD in Artificial Intelligence, Alexa Prize-winning researcher"},
+      {"name": "Roman Kučera", "note": "Former CTO at Ataccama"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://builtin.com/company/promethistai",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "nlp", "machine_learning", "digital_humans", "conversational_ai"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Amazon Alexa Prize (Alquist team, founding team members)"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Core value proposition — multimodal conversational agents for enterprise — is directly in the path of commoditisation by GPT-4o, Gemini, and other foundation models with native voice and vision. The psychological differentiation layer adds some moat but is difficult to defend long-term.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Enterprise conversational AI is a real and growing market with proven demand (banking, telco case studies shown on site), but is intensely competitive with well-funded players like Cognigy, Kore.ai, and big-tech platforms. Relational/emotional angle is differentiated but niche.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Tracxn confirms the company is unfunded with no known funding rounds. With 45 employees and no disclosed investors, runway and sustainability are unclear. Bootstrapped growth in enterprise AI is possible but challenging at scale.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "The combination of no external funding and a core product area facing rapid commoditisation from foundation model providers creates significant combined risk. Strong academic pedigree (Alexa Prize) and enterprise traction provide some resilience, but the overall picture is high risk for job-seekers."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "builtin.com", "tracxn", "thecompanycheck.com", "theorg.com"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count", "careers_url_direct"],
+    "needs_review": false,
+    "notes": "Company registered as PromethistAI a.s. (IČO: 08671281), incorporated 2019-11-08 in Prague. Employee count 45 from Built In (2025); earlier sources (2020) cited 16. Tracxn lists as unfunded. Two Prague offices per Built In. Founding team includes Alexa Prize-winning researchers from CTU CIIRC Alquist project."
+  }
+}
