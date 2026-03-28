@@ -1,0 +1,99 @@
+{
+  "id": "cynsta",
+  "name": "Cynsta",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI Governance Evidence Platform — forensic safety layer for AI agents with cryptographic, immutable audit trails",
+    "description_long": "Cynsta AI™ is the first Forensic Safety Layer for AI Agents. It provides cryptographic evidence for AI compliance, built for the EU AI Act. The platform creates immutable, court-ready proof of what AI systems do through tamper-evident logs, qualified timestamps, and a non-gateway observer architecture. Originally launched as an LLM CI tool (tests, runtime guardrails, unified logging, and Flight Recorder), it has evolved into a deep-tech AI governance and evidence platform for the agentic era. Powered by EuroHPC Leonardo and E2B.dev.",
+    "tagline": "We make AI agents safe to deploy.",
+    "website": "https://cynsta.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["ml_ops", "generative_ai", "automation"],
+    "industries_served": ["technology", "finance", "legal", "regulated_industries"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2025,
+    "founders": ["Martin Pagac", "Michael Treml"],
+    "origin_story": "Founded in Prague in 2025 by Martin Pagac (CEO) and Michael Treml (Co-Founder) to build trust infrastructure for the digital economy. Began as an LLM CI/CD and guardrails tool, then pivoted to become an AI governance and forensic safety layer focused on EU AI Act compliance.",
+    "key_milestones": [
+      {"year": 2025, "event": "Founded in Prague, Czech Republic"},
+      {"year": 2025, "event": "Received EuroHPC Joint Undertaking grant (Leonardo supercomputer access)"},
+      {"year": 2025, "event": "Joined E2B for Startups program"},
+      {"year": 2025, "event": "Raised pre-seed funding round"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 4,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": null, "type": "Grant", "amount_usd": null, "lead_investor": "EuroHPC Joint Undertaking"},
+      {"date": null, "type": "Pre Seed", "amount_usd": null, "lead_investor": null}
+    ],
+    "investors": ["EuroHPC Joint Undertaking"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Martin Pagac", "role": "CEO & Founder", "source": "linkedin"},
+      {"name": "Michael Treml", "role": "Co-Founder", "source": "linkedin"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["EuroHPC Joint Undertaking", "E2B.dev"]
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin", "crunchbase_snippet", "tracxn_snippet"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "careers_url", "open_roles", "glassdoor"],
+    "needs_review": false,
+    "notes": "Very early-stage startup founded in 2025. 4 employees on LinkedIn. Has two domains: cynsta.com (original LLM CI branding) and cynsta.ai (newer EU AI Act compliance branding). Pre-seed funding round exists but amount is obfuscated on Crunchbase. EuroHPC grant confirms EU-backed research/compute support."
+  }
+}
