@@ -1,0 +1,117 @@
+{
+  "id": "t-mobile",
+  "name": "T-Mobile Czech Republic",
+  "category": "company",
+  "scraped_at": "2026-03-28T22:20:00Z",
+
+  "overview": {
+    "description": "Largest mobile network operator in Czech Republic with internal AI/ML capabilities and consumer AI product Magenta AI",
+    "description_long": "T-Mobile Czech Republic, a.s. is the largest mobile phone network operator in the Czech Republic, wholly owned by Deutsche Telekom. Operating since 1996 (originally as RadioMobil with the Paegas brand), the company serves 6+ million customers with mobile, fixed internet, and TV services. T-Mobile CZ runs an internal Advanced Analytics & AI Squad using Python, GCP, LLM APIs, Spark, and MLflow for data science and ML. Consumer-facing AI features are bundled under 'Magenta AI', offering Perplexity-powered search, ElevenLabs podcast creation, and PicsArt photo editing within their mobile app.",
+    "tagline": "Jsme sami sebou — we are ourselves",
+    "website": "https://www.t-mobile.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["ml_ops", "data_engineering", "automation"],
+    "industries_served": ["telecommunications", "consumer", "enterprise"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1996,
+    "founders": null,
+    "origin_story": "Founded in 1996 as RadioMobil, a joint venture between Ceske Radiokomunikace and Deutsche Telekom, operating the Paegas mobile network. Rebranded to T-Mobile in 2005. First mobile operator in Czech Republic to use HSDPA (2005).",
+    "key_milestones": [
+      {"year": 1996, "event": "Founded as RadioMobil (Paegas brand), joint venture between Ceske Radiokomunikace and Deutsche Telekom"},
+      {"year": 2005, "event": "Rebranded to T-Mobile; first Czech operator to launch HSDPA"},
+      {"year": 2021, "event": "Revenue ~30 billion CZK (~$1.35B USD)"},
+      {"year": 2024, "event": "Ranked #1 Top Employer in Czech Republic (TOP Zaměstnavatelé 2024)"},
+      {"year": 2024, "event": "Launched Magenta AI consumer AI product with Perplexity, ElevenLabs, and PicsArt integrations"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": null,
+    "employee_source": "wikipedia_estimated",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Deutsche Telekom",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Deutsche Telekom"],
+    "revenue_estimate_usd": 1350000000,
+    "revenue_source": "wikipedia_2021_30b_czk",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jindřich Fremuth", "role": "CEO / Chairman of Board", "source": "public_knowledge"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.t-kariera.cz",
+    "open_roles_count": 55,
+    "open_roles": [
+      {"title": "Data Scientist (Advanced Analytics & AI Squad)", "department": "data_analytics", "location": "Prague"},
+      {"title": "DevOps Engineer for IDM", "department": "engineering", "location": "Prague"},
+      {"title": "Business Analyst", "department": "product", "location": "Prague"},
+      {"title": "Credit Risk Expert", "department": "finance", "location": "Prague"},
+      {"title": "IT Solution Architect for Telco Industry", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "apache-hive", "spark", "gcp", "llm-apis", "mlflow", "prefect", "kubernetes", "jupyter"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/T-Mobile-Czech-Republic-Reviews-E2131843.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "TOP Zaměstnavatelé 2024 — 1st place",
+      "Leading Employer certificate (Deutsche Telekom)",
+      "Podnik podporující zdraví — Grade III (Health-Promoting Employer)"
+    ],
+    "notable_clients": null,
+    "customer_count": 6000000,
+    "partnerships": ["Perplexity", "ElevenLabs", "PicsArt"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "T-Mobile CZ is a telecom infrastructure and services company; its core business (mobile network, fixed internet, TV) is not AI-replaceable. AI is used internally for analytics and externally as packaged consumer features (Magenta AI) built on third-party partnerships rather than proprietary models.",
+    "market_risk": "low",
+    "market_risk_rationale": "Dominant position as the largest mobile operator in Czech Republic with 6+ million customers in a stable, mature telecom market. Subsidiary of Deutsche Telekom with significant capital backing.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Wholly owned subsidiary of Deutsche Telekom (one of Europe's largest telecom groups). Revenue of ~$1.35B USD (2021). No independent funding risk.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Established enterprise with dominant market position, massive revenue base, and Deutsche Telekom backing. AI activities are augmentations rather than core revenue drivers, providing resilience against AI commoditization."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "careers_website", "wikipedia"],
+    "fields_missing": ["glassdoor_rating", "employees_exact", "office_count", "founders"],
+    "needs_review": false,
+    "notes": "T-Mobile CZ is listed in CNAIP despite being primarily a telecom company; their AI angle is the internal Advanced Analytics & AI Squad and the consumer Magenta AI app (Perplexity, ElevenLabs, PicsArt integrations). No CNAIP URL available. CEO name from public knowledge — verify if needed."
+  }
+}
