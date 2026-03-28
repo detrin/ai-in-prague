@@ -1,0 +1,112 @@
+{
+  "id": "ceska-sporitelna",
+  "name": "Česká spořitelna",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Largest Czech bank by client count, actively integrating AI into banking services and operations",
+    "description_long": "Česká spořitelna is the largest bank in the Czech Republic by number of clients (~4.8 million), founded in 1825 and part of Erste Group since 2000. The bank is investing heavily in AI, including deploying AI avatars (powered by ChatGPT) in its first 24/7 'Future Lab' branch on Národní třída in Prague, building LLM-based customer solutions, and actively hiring AI Engineers, Prompt Engineers, and Senior AI Engineers for enterprise AI platforms. It has partnered with Born Digital for conversational AI solutions.",
+    "tagline": "Propojujeme lidské a digitální finanční poradenství",
+    "website": "https://www.csas.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["generative_ai", "nlp", "automation"],
+    "industries_served": ["finance", "banking", "retail"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1825,
+    "founders": null,
+    "origin_story": "Founded in Prague in 1825 as one of the first savings bank institutions in the Habsburg Empire. Privatized in the 1990s and became part of Erste Group in 2000 when Erste Bank acquired a 52% stake for 19 billion CZK.",
+    "key_milestones": [
+      {"year": 1825, "event": "Founded in Prague as Böhmische Sparkasse / Česká spořitelna"},
+      {"year": 1992, "event": "Converted to joint-stock company (a.s.)"},
+      {"year": 2000, "event": "Erste Bank became 52% shareholder; now part of Erste Group"},
+      {"year": 2024, "event": "Opened Future Lab — first AI-powered 24/7 branch with ChatGPT-driven AI avatar on Národní třída, Prague"},
+      {"year": 2025, "event": "Actively hiring AI Engineers and building enterprise LLM-based AI platform"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 9829,
+    "employee_source": "wikipedia_2023",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Erste Group Bank AG",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Erste Group Bank AG"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš Salomon", "role": "CEO", "source": "wikipedia"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://jobs.csas.cz/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "AI Engineer - Large Language Models and AI Solutions", "department": "engineering", "location": "Prague"},
+      {"title": "AI Prompt Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Senior AI Engineer - Enterprise AI Platforms", "department": "engineering", "location": "Prague"},
+      {"title": "Chapter Lead - Conversational AI", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["openai", "llm", "python"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": null,
+    "customer_count": 4800000,
+    "partnerships": ["Born Digital (conversational AI)", "Erste Group"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Česká spořitelna is a 200-year-old licensed bank with deep regulatory moat, established client relationships, and branch infrastructure. AI is a tool it adopts, not its core product — foundation models cannot replace a retail bank.",
+    "market_risk": "low",
+    "market_risk_rationale": "Czech retail banking is a stable, regulated market. With ~4.8 million clients and ~20% market share as the largest bank in the country, there is no meaningful market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Wholly owned subsidiary of Erste Group Bank AG (Vienna Stock Exchange: EBS), one of Central Europe's largest banking groups. Funding risk is not applicable.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Established major bank with regulatory moat, dominant domestic market position, and strong parent company backing. AI adoption enhances services rather than exposing it to displacement risk."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["wikipedia", "company_website", "search_snippets", "linkedin_snippets", "duckduckgo"],
+    "fields_missing": ["glassdoor_rating", "funding_total_usd", "revenue_estimate_usd", "office_count"],
+    "needs_review": false,
+    "notes": "Česká spořitelna is a traditional bank, not an AI-native startup. Listed in the AI-in-Prague catalog due to active AI adoption: Future Lab AI branch, LLM hiring push, and conversational AI partnerships. No CNAIP URL available."
+  }
+}
