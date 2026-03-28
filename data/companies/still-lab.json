@@ -1,0 +1,131 @@
+{
+  "id": "still-lab",
+  "name": "System Testing IntelLigent Lab (STILL)",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Academic research lab at CTU Prague focused on system testing, IoT quality assurance, and AI-augmented software testing methods",
+    "description_long": "STILL (System Testing IntelLigent Lab) is a research lab located in the Department of Computer Science, Faculty of Electrical Engineering, Czech Technical University in Prague. Dedicated to research in system testing and search-based software engineering, the lab develops new tools and strategies for testing complex software, IoT, and mission-critical systems. Research topics include Model-based Testing (MBT), Combinatorial Interaction Testing, IoT-specific QA, test automation architectures, and search-based software engineering. The lab also conducts applied IoT projects in defense and rescue mission support sectors, and collaborates with NATO and Czech Ministry of Defence.",
+    "tagline": "Developing efficient and automated testing strategies for complex software, IoT, and mission-critical systems",
+    "website": "https://still.felk.cvut.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["automation", "ml_ops", "other"],
+    "industries_served": ["software_testing", "iot", "defense", "healthcare"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Miroslav Bureš"],
+    "origin_story": "Lab established by Miroslav Bureš at the Department of Computer Science, Faculty of Electrical Engineering, Czech Technical University in Prague. Bureš previously led testing teams at Capgemini CZ and SK and co-founded the pro[Test]! Czech and Slovak testing community before establishing the academic lab at CTU.",
+    "key_milestones": [
+      {"year": 2019, "event": "Martin Filipsky PhD thesis defended in test automation"},
+      {"year": 2021, "event": "Digital Triage Assistant (DTA) project with NATO and Czech Ministry of Defence"},
+      {"year": 2021, "event": "TERESA telerehabilitation IoT project pilot run for post-COVID-19 patients"},
+      {"year": 2022, "event": "Teeba Ismail PhD thesis defended in IoT testing"},
+      {"year": 2024, "event": "AR-RESCUE project started — augmented reality for first responders with CTU, University of Defence, and DefSec IH"},
+      {"year": 2024, "event": "Miroslav Bureš promoted to Full Professor"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "lab_website_archive",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (CTU/ČVUT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Miroslav Bureš", "role": "Full Professor & Head of STILL", "source": "lab_website_archive"}
+    ],
+    "notable_people": [
+      {"name": "Karel Frajtak", "role": "Researcher", "source": "lab_website_archive"},
+      {"name": "Matej Klima", "role": "Researcher", "source": "lab_website_archive"},
+      {"name": "Bestoun S. Ahmed", "role": "Associate Professor (Karlstad University, Sweden) — external collaborator", "source": "lab_website_archive"},
+      {"name": "Mel Alipio", "role": "Postdoctoral Researcher", "source": "lab_website_archive"},
+      {"name": "Vaclav Rechtberger", "role": "PhD student — Model-based Testing", "source": "lab_website_archive"},
+      {"name": "Tomas Novak", "role": "Test Automation and Software Engineer", "source": "lab_website_archive"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://still.felk.cvut.cz/phd_students.html",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD student — Model-based Testing Techniques for Complex Software Systems", "department": "research", "location": "Prague"},
+      {"title": "PhD student — Advanced Test Automation Methods for IoT Systems", "department": "research", "location": "Prague"},
+      {"title": "PhD student — Context-aware Sensor Clustering using Adaptive Learning", "department": "research", "location": "Prague"},
+      {"title": "PhD student — Deep Learning for Software Defect Classification", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "java", "iot_protocols", "sensor_networks"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Red Hat Research (PatrIoT project)",
+      "University of Strathclyde Glasgow (IoT security testing)",
+      "Abertay University (cybersecurity)",
+      "University of West Bohemia (ReliSA group)",
+      "Czech Ministry of Defence — Cyber and Info Ops",
+      "University of Defence (military health sciences & air defence)",
+      "DefSec Innovation Hub",
+      "NATO Allied Command Transformation Innovation Hub",
+      "University Hospital Hradec Králové (TERESA project)",
+      "VRgineers / Quanti (AR-RESCUE project)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research lab at CTU; research groups are not commercially displaced by foundation models. The lab actively researches AI applications in testing, making them a contributor to the field rather than a target of commoditization.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Publicly funded academic research group operating under CTU; not subject to commercial market risk. Sustained by university grants, Czech government funding, and defense research contracts.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Embedded within Czech Technical University (CTU) — one of Central Europe's leading technical universities. Funding comes from university budgets, Czech state grants, and defense/NATO research projects, providing stable institutional backing.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "As an academic research lab within CTU Prague with active NATO and Czech Ministry of Defence research partnerships, STILL operates in an institutionally supported environment outside the scope of commercial risk assessment."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["lab_website_archive", "wayback_machine", "redhat_research", "duckduckgo_snippets"],
+    "fields_missing": ["founded_year", "employees_exact", "glassdoor_rating", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "Lab website (still.felk.cvut.cz) is currently unreachable (ERR_CONNECTION_RESET). Data sourced from Wayback Machine archive (2023 snapshot) and Red Hat Research profile. Miroslav Bureš was Associate Professor at time of 2023 snapshot; updated to Full Professor per more recent sources. The lab has no CNAIP entry."
+  }
+}
