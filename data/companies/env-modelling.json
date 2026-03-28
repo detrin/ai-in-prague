@@ -1,0 +1,113 @@
+{
+  "id": "env-modelling",
+  "name": "Environmental Modelling",
+  "category": "company",
+  "scraped_at": "2026-03-28T14:00:00Z",
+
+  "overview": {
+    "description": "Master's degree programme in Environmental Modelling at the Faculty of Environmental Sciences, Czech University of Life Sciences Prague",
+    "description_long": "The Environmental Modelling master's programme at CZU Prague's Faculty of Environmental Sciences (FŽP) prepares graduates to combine knowledge of applied mathematics, statistics and informatics with an understanding of environmental processes — including atmosphere, soil, surface/subsurface water, groundwater and contaminant transport. The 2-year English-language programme (Ing./MSc.) addresses real-world challenges such as flood risk assessment, climate change impacts on water resources, adaptation measures design and contaminant transport modelling. The curriculum covers environmental hydrology, computational hydraulics, geochemistry, computer modelling, groundwater hydraulics, fluid mechanics, applied hydropedology and applied hydroinformatics. Co-supervised with Charles University, Czech Technical University, Czech Academy of Sciences, and the Danish Hydraulic Institute (DHI).",
+    "tagline": "Combining applied mathematics, informatics and environmental sciences to model real-world ecological challenges",
+    "website": "https://www.fzp.czu.cz/en/r-9753-environmental-modelling",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["ml_ops", "data_engineering"],
+    "industries_served": ["environment", "water_management", "public_sector", "education"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2007,
+    "founders": [],
+    "origin_story": "The Faculty of Environmental Sciences (FŽP) was established at CZU Prague on 1 July 2007, following consent of the Accreditation Commission and approval of the CZU Academic Senate. The Environmental Modelling master's programme is one of its flagship English-language offerings.",
+    "key_milestones": [
+      {"year": 2007, "event": "Faculty of Environmental Sciences (FŽP) established at CZU Prague"},
+      {"year": 2007, "event": "Environmental Modelling master's programme launched (English language)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech University of Life Sciences Prague (CZU) — Faculty of Environmental Sciences (FŽP)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Michael Komárek", "role": "Dean, Faculty of Environmental Sciences", "source": "company_website"},
+      {"name": "Pavel Pech", "role": "Programme Guarantor (Environmental Modelling)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Petra Janků", "role": "Admissions Coordinator", "source": "company_website"},
+      {"name": "Radka Glosová", "role": "Study Officer", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.fzp.czu.cz/en/r-9408-study/r-9495-study-programmes/r-9745-master-s-degree-programmes/r-9753-environmental-modelling",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "matlab", "r", "gis", "hydraulic_modelling"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Charles University (Prague)",
+      "Czech Technical University in Prague (ČVUT)",
+      "Czech Academy of Sciences (CAS)",
+      "Danish Hydraulic Institute (DHI)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic education programme at a public university — not a commercial entity subject to competitive displacement.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "University master's programme, not subject to commercial market risk. Demand for environmental modelling skills is stable in the public sector.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Part of CZU, a Czech public university funded by the state and EU programmes. Not subject to venture or commercial funding risk.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "All risk categories not applicable. This is a state-university academic programme, not a commercial AI company."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "search_snippets"],
+    "fields_missing": ["employees_exact", "founded_year_programme", "student_count", "glassdoor_rating", "cnaip_url"],
+    "needs_review": true,
+    "notes": "Environmental Modelling is a master's degree programme at the Faculty of Environmental Sciences (FŽP), Czech University of Life Sciences Prague (CZU/ČZU). It is NOT a commercial company — it is an academic educational programme. The CNAIP index lists it under category='company' which appears to be a classification error (same pattern as ctr-tech-env-ethics). IČO of CZU: 60460709. Programme webpage: https://www.fzp.czu.cz/en/r-9753-environmental-modelling. Dean of Faculty: Prof. RNDr. Michael Komárek Ph.D. The CNAIP entity page at https://www.cnaip.cz/cs/entity/environmental-modelling returns 404 — the entity may have been removed or never existed with this slug. The programme uses computational modelling, GIS, applied hydroinformatics and increasingly ML/AI methods for environmental prediction and simulation."
+  }
+}
