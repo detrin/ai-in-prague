@@ -1,0 +1,112 @@
+{
+  "id": "algotech",
+  "name": "Algotech",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "Czech IT services company offering cloud, ERP, CRM, cybersecurity, contact center, and AI solutions to businesses",
+    "description_long": "Algotech (Algotech, a.s.) is a Prague-based IT services and solutions provider founded in 1997 as Tservis97. Over 25+ years, they have expanded from call center and telecoms hardware/software into cloud services (AlgoCloud), enterprise ERP systems (Oracle JD Edwards, Oracle E-Business Suite, Oracle Cloud ERP), CRM (SugarCRM), contact center software (Algotech CC), IT outsourcing, ServiceDesk, cybersecurity (GDPR, NIS2, penetration testing), custom software development, and — since 2024 — artificial intelligence services. Their AI offering includes AI chatbots, AI voicebots, an AI ERP assistant, and AI-as-a-service consulting. They operate their own data center in Prague and serve 500+ enterprise and public sector clients.",
+    "tagline": "Enterprise IT and Cloud Solutions",
+    "website": "https://www.algotech.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "nlp", "other"],
+    "industries_served": ["finance", "manufacturing", "public_sector", "telecommunications", "logistics", "energy"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1997,
+    "founders": ["František Zeman"],
+    "origin_story": "Founded in 1997 as Tservis97, a small call center and telecoms hardware/software company in Prague. Renamed and expanded under František Zeman from 2003 onward, growing into a full-service Czech IT solutions provider with divisions covering cloud, ERP, CRM, cybersecurity, and — from 2024 — artificial intelligence.",
+    "key_milestones": [
+      {"year": 1997, "event": "Founded as Tservis97 in Prague, focused on call center and telecoms"},
+      {"year": 2012, "event": "Established AlgoFoundation charitable fund and data centre"},
+      {"year": 2014, "event": "Launched proprietary Algotech CC contact center software"},
+      {"year": 2018, "event": "Acquired SugarFactory, launching CRM division with SugarCRM"},
+      {"year": 2019, "event": "Data centre and cloud certified ISO 27001:2014"},
+      {"year": 2022, "event": "Celebrated 25 years; rebranded with new website"},
+      {"year": 2024, "event": "Founded dedicated AI division led by Vojtěch Černý; launched AI chatbot, voicebot, ERP assistant and AI-as-a-service"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": 120,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 4000000,
+    "revenue_source": "rocketreach_estimate",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "František Zeman", "role": "CEO (General Director)", "source": "company_website"},
+      {"name": "Josef Pavlis", "role": "Deputy General Director and Director of Telco", "source": "craft.co"},
+      {"name": "Petr Loužecký", "role": "Director of AlgoCloud and CRM", "source": "craft.co"},
+      {"name": "Vojtěch Černý", "role": "Head of AI Division", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.algotech.cz/kariera/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["oracle", "sugarcm", "avaya", "microsoft", "docker", "sophos", "hpe"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": 12,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Algotech-EI_IE877172.11,19.htm"
+  },
+
+  "recognition": {
+    "awards": ["Sophos Platinum Partnership (cloud)", "ISO 27001:2014 certification", "eGovernment cloud catalogue — first place"],
+    "notable_clients": ["Škoda Auto", "České aerolinie", "Moneta Bank", "Raiffeisenbank", "Czech Radio", "Smithfield Foods", "ČD – Informační systémy", "CBRE", "Kapitol"],
+    "customer_count": 500,
+    "partnerships": ["Oracle", "SugarCRM", "Avaya", "Sophos", "NICE", "HPE", "ESET", "Microsoft", "Palo Alto"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Algotech's AI products (chatbot, voicebot, AI ERP assistant) are relatively generic AI consulting and integration services built on top of third-party AI models. These can face commoditization pressure. However, the company's core revenue comes from IT services, ERP integrations, and cloud infrastructure — areas that require ongoing human expertise and are less easily displaced by AI.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established IT services market with 500+ customers and 25+ years of operations. Strong diversification across cloud, ERP, cybersecurity, and telecoms reduces dependence on any single trend. AI is an add-on growth area, not the primary business.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Bootstrapped, profitable Czech enterprise with 25+ years of operations, 500+ customers, and no apparent dependence on external funding. Sustained organic growth over decades indicates financial self-sufficiency.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Algotech is a mature, profitable Czech IT services provider with deep customer relationships and diversified service lines. While their AI services are not deeply differentiated, the core business is resilient. AGI commoditization of generic chatbots is a medium-term risk to their AI revenue, but not to their overall business."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "search_snippets", "craft.co", "rocketreach"],
+    "fields_missing": ["funding_total_usd", "glassdoor_rating", "open_roles_count", "open_roles"],
+    "needs_review": false,
+    "notes": "Algotech is not a pure-play AI company — it is a diversified Czech IT services company that launched an AI division in 2024. The CNAIP listing likely refers to their AI consulting and product offerings. Founded 1997 as Tservis97; current Algotech a.s. legal entity incorporated 2010. CEO František Zeman confirmed as founder/operator from 2003. Revenue estimate of $4M from RocketReach is likely understated given 120+ employees."
+  }
+}
