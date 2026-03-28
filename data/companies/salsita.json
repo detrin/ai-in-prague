@@ -1,0 +1,112 @@
+{
+  "id": "salsita",
+  "name": "Salsita",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "3D product configurator platform with AI-powered Conversational UI for B2B2C e-commerce",
+    "description_long": "Founded in Prague in 2010, Salsita is a team of 50+ designers and engineers dedicated to creating 3D and 2D product configurators for B2B2C e-commerce. The company pivoted from web/mobile development into the configurator space around 2020, specialising in 3D configurators, room planners, augmented reality, and AI-driven solutions. Salsita claims to have built the world's first and only Conversational Configurator — combining a 3D product configurator with a generative AI assistant that guides customers through customisation in natural language. Industries served include home and office furniture, outdoor living, construction equipment, jewellery, luxury goods, retail, and e-commerce.",
+    "tagline": "Salsita Empowers Businesses to Deliver Exceptional Customer Experiences and Drive Real Results",
+    "website": "https://salsita.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["generative_ai", "nlp", "cv"],
+    "industries_served": ["furniture", "retail", "construction", "jewelry", "luxury", "e-commerce"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2010,
+    "founders": [],
+    "origin_story": "Founded in Prague in 2010 as a web and mobile applications agency working with clients like eBay, SAP, and Balfour. About five years ago (c. 2020) pivoted into the 3D/2D product configurator space, specialising in e-commerce personalisation. Rebranded from salsitasoft.com to salsita.ai in late 2023.",
+    "key_milestones": [
+      {"year": 2010, "event": "Founded in Prague as a web/mobile development agency"},
+      {"year": 2012, "event": "GitHub organisation created (Salsita Software)"},
+      {"year": 2020, "event": "Pivoted into 3D/2D product configurators and e-commerce AI"},
+      {"year": 2023, "event": "Launched Conversational Configurator (claimed world's first); rebranded to salsita.ai"},
+      {"year": 2024, "event": "Expanded office footprint to Prague, Ostrava, and Atlanta"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Ostrava", "country": "CZ", "is_hq": false},
+    {"city": "Atlanta", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Matthew Gertner", "role": "CEO", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://salsita.ai/career",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["javascript", "typescript", "react", "redux", "python", "node.js"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "GoodFirms Top E-Commerce Software",
+      "SoftwareWorld Top Rated App Development Company"
+    ],
+    "notable_clients": ["eBay", "SAP", "Balfour", "Texas Instruments", "First American Financial", "Easysteel", "L'Atelier Paris", "Moduline"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core 3D configurator product involves significant visual computing and integration work that generic LLMs cannot directly replicate. However, the Conversational UI layer is a thin wrapper over generative AI APIs, which is easily commoditised. The proprietary value lies in the 3D rendering technology, UX expertise, and deep industry integrations built over 15 years.",
+    "market_risk": "low",
+    "market_risk_rationale": "3D product configurators for e-commerce represent a real and growing market driven by mass-personalisation trends. Salsita has 1000+ completed client projects and named enterprise customers (eBay, SAP, Texas Instruments), demonstrating proven demand and product-market fit.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No external funding found; company appears to be bootstrapped. However, 15+ years of profitable operation with a broad client base (1000+ projects) and offices in three cities suggests sustainable revenues. Lack of growth capital may limit speed of AI investment.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Long-established company with a real product and paying enterprise customers, but the AI wrapper portion of their Conversational Configurator faces commoditisation risk. Bootstrapped status limits ability to rapidly outpace better-funded configurator competitors (Threekit, Zakeke, Expivi)."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "wayback_machine", "github"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "founders", "open_roles_count"],
+    "needs_review": false,
+    "notes": "Company website (salsita.ai) is built on Squarespace with JavaScript-rendered content; text extracted via Wayback Machine snapshots. Originally operated as salsitasoft.com. Legal name: Salsita, s.r.o. GitHub org at github.com/salsita has 147 public repos. The company self-describes as 'a high-end software development agency' and also as a product company — they straddle both custom services and a SaaS configurator platform."
+  }
+}
