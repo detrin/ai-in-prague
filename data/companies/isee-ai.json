@@ -1,0 +1,124 @@
+{
+  "id": "isee-ai",
+  "name": "ISEE AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T19:38:00Z",
+
+  "overview": {
+    "description": "Autonomous yard truck solutions for logistics and supply chain",
+    "description_long": "ISEE AI is an autonomous driving technology company spun out of MIT, whose humanistic, AI-powered self-driving yard trucks are modernizing the global supply chain. The company's proprietary AI understands physics, psychology, and causality of complex situations, enabling it to interact with people and equipment in unexpected situations. ISEE commercially deployed the world's first fully autonomous truck yard in February 2024 and has logged 100,000+ fully autonomous moves.",
+    "tagline": "The most advanced autonomous yard truck solution in the marketplace today",
+    "website": "https://www.isee.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["cv", "robotics", "ml_ops"],
+    "industries_served": ["logistics", "supply chain", "transportation", "manufacturing"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2017,
+    "founders": ["Yibiao Zhao", "Debbie Yu", "Chris Baker"],
+    "origin_story": "Spun out of MIT in 2017, founded by Yibiao Zhao, Debbie Yu, and Chris Baker. Initially tested on Boston roads, then pivoted to logistics and yard truck automation in 2018.",
+    "key_milestones": [
+      {"year": 2017, "event": "Founded in Cambridge, MA as MIT spinout"},
+      {"year": 2018, "event": "First yard truck and semi-truck equipped with ISEE autonomous driving system"},
+      {"year": 2021, "event": "Launched autonomous driving solution for yard trucks; MIT STEX25 Accelerator addition"},
+      {"year": 2022, "event": "Raised $40M Series B led by Founders Fund; announced BMW partnership"},
+      {"year": 2023, "event": "Won Autonomous Truck of the Year at 2023 SupplyTech Breakthrough Awards"},
+      {"year": 2024, "event": "Commercially deployed world's first fully autonomous truck yard; unveiled AI-powered Trailer Auto-Coupling System"},
+      {"year": 2025, "event": "Strategic partnership with TICO for fully integrated autonomous yard trucks; earned CyberVadis Gold Medal"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": 68,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Cambridge", "country": "US", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2022-11", "type": "Series B", "amount_usd": 40000000, "lead_investor": "Founders Fund"}
+    ],
+    "investors": ["Founders Fund"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Yibiao Zhao", "role": "Co-Founder & CEO", "source": "company_website"},
+      {"name": "Debbie Yu", "role": "Co-Founder", "source": "company_website"},
+      {"name": "Chris Baker", "role": "Co-Founder", "source": "company_website"},
+      {"name": "Josh Tenenbaum", "role": "Chief Scientific Advisor (MIT Professor)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Scott Nolan", "role": "Partner, Founders Fund (investor)", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.isee.ai/careers",
+    "open_roles_count": 26,
+    "open_roles": [
+      {"title": "Machine Learning Engineer", "department": "engineering", "location": "Remote, US"},
+      {"title": "Research Scientist - Machine Learning", "department": "research", "location": "Remote, US"},
+      {"title": "Senior Perception Engineer", "department": "engineering", "location": "Remote, US"},
+      {"title": "Embedded Systems Engineer - Autonomous Vehicles", "department": "engineering", "location": "Dallas, TX"},
+      {"title": "Robotics Engineer - Robotic Arm", "department": "engineering", "location": "Cambridge, MA"},
+      {"title": "Autonomous Vehicle Operator", "department": "operations", "location": "Dayton, OH"},
+      {"title": "AV Test Engineer", "department": "engineering", "location": "Dallas, TX"}
+    ],
+    "tech_stack": ["python", "machine learning", "computer vision", "reinforcement learning", "robotics", "embedded systems"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/ISEE-AI-Reviews-E7571040.htm"
+  },
+
+  "recognition": {
+    "awards": ["Autonomous Truck of the Year - 2023 SupplyTech Breakthrough Awards", "CyberVadis Gold Medal 2025", "MIT STEX25 Accelerator 2021"],
+    "notable_clients": ["Maersk", "Lazerspot"],
+    "customer_count": null,
+    "partnerships": ["BMW", "TICO"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "ISEE AI's core value is deeply integrated hardware + software: physical trucks equipped with proprietary perception and control systems. Foundation models cannot replace the years of operational data (100k+ autonomous moves), safety certifications, and real-world logistics integrations needed to run an autonomous yard truck operation.",
+    "market_risk": "low",
+    "market_risk_rationale": "Operates in a $100B global autonomous yard truck market with paying enterprise customers including Maersk and Fortune 100 retailers. Commercially deployed the world's first fully autonomous truck yard in 2024, validating strong product-market fit.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Raised $40M Series B in November 2022 led by Peter Thiel's Founders Fund, with growing commercial deployments providing revenue. Well-capitalized relative to current team size of ~68 employees.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Hardware-software integration moat, enterprise customer traction with Maersk, strong MIT scientific pedigree, and Series B funding from top-tier VC combine to make this a well-positioned autonomous logistics company with durable competitive advantages."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin", "businesswire", "lever_api"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "founding_series_a_amount"],
+    "needs_review": false,
+    "notes": "US-based company (Cambridge, MA); not Czech/Prague-based. Listed in index with source 'other'. MIT spinout. Series A amount not found publicly. Glassdoor blocked. 26 open positions as of 2026-03-28 via Lever API."
+  }
+}
