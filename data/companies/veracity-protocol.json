@@ -1,0 +1,123 @@
+{
+  "id": "veracity-protocol",
+  "name": "Veracity Protocol",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Vision AI platform for physical product authentication, fingerprinting, and digital product passports",
+    "description_long": "Veracity Protocol builds a protocol of trust for physical objects, using proprietary Vision AI models to create unique microstructure fingerprints that enable non-invasive serialization, authentication, classification, traceability, and secure digital product passports. Their technology works without adding physical tags, QR codes, RFID chips or holograms — instead leveraging the natural microstructure of the product itself. They serve industries including pharma, packaging, automotive, aerospace, agrochemicals, luxury goods, and collectibles.",
+    "tagline": "The Standard of Trust for Physical Objects",
+    "website": "https://veracityprotocol.org",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["cv", "ml_ops"],
+    "industries_served": ["pharma", "automotive", "aerospace", "packaging", "luxury", "agriculture"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2019,
+    "founders": ["Jakub Krcmar", "Kamil Behun", "Roman Komarek"],
+    "origin_story": "Founded by three Czech technical co-founders (CEO, CTO, COO) focused on building Vision AI-based product authentication to fight counterfeiting and enable trust for physical goods in the digital world. Went through Techstars accelerator in 2019.",
+    "key_milestones": [
+      {"year": 2019, "event": "Named Top 10 AI-Blockchain Startup by Techstars"},
+      {"year": 2020, "event": "Named Top 20 Vision IoT Startup by Plug & Play"},
+      {"year": 2021, "event": "Named Top 10 Vision AI Startup by Starburst"},
+      {"year": 2022, "event": "Became Microsoft for Startups partner"},
+      {"year": 2024, "event": "Member of Cirpass2 EWG and Community of Practice under EC Digital Europe program (Digital Product Passport)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website_archived",
+    "office_count": 4
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "New York", "country": "US", "is_hq": false},
+    {"city": "Geneva", "country": "CH", "is_hq": false},
+    {"city": "Brno", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "licensing"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jakub Krcmar", "role": "CEO & Founder", "source": "company_website_archived"},
+      {"name": "Kamil Behun", "role": "CTO & Founder", "source": "company_website_archived"},
+      {"name": "Roman Komarek", "role": "COO & Founder", "source": "company_website_archived"},
+      {"name": "Dominique Elbez", "role": "Chief Commercial Officer", "source": "company_website_archived"}
+    ],
+    "notable_people": [
+      {"name": "Prof. Adam Herout, PhD", "role": "CV/ML Partner", "source": "company_website_archived"},
+      {"name": "Prof. Babak Kia", "role": "AI/HW Partner", "source": "company_website_archived"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["computer_vision", "mobile", "cloud_api", "sdk"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Top 10 AI-Blockchain Startup — Techstars 2019",
+      "Top 20 Vision IoT Startup — Plug & Play 2020",
+      "Top 10 Vision AI Startup — Starburst 2021",
+      "Microsoft for Startups Partner 2022",
+      "Member, Cirpass2 EWG — EC Digital Europe 2024",
+      "Member, Community of Practice — EC Digital Europe 2024"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Microsoft"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Veracity Protocol's core IP lies in proprietary Vision AI models trained specifically on physical object microstructures to generate tamper-proof fingerprints. This is a hardware+AI combination requiring calibrated physical imaging; generic foundation models cannot replicate the non-invasive physical fingerprinting capability without the specialized training data and domain expertise in materials science.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Real and growing market driven by EU Digital Product Passport regulation (Cirpass2 membership shows regulatory alignment), but the anti-counterfeiting and product authentication market has incumbent players (RFID/NFC providers, hologram vendors). Their non-invasive approach is differentiating but requires changing established industry workflows.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No publicly documented funding rounds beyond early Techstars participation. Small team (~30-50 employees) with no visible VC backing or public revenue signals. Reliance on B2B enterprise sales in regulated sectors can result in long sales cycles with uncertain runway.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Proprietary Vision AI tech moat and strong EU regulatory tailwinds (Digital Product Passports) provide differentiation and market pull. However, undisclosed funding and early-stage enterprise sales challenges elevate risk above companies with established revenue or VC backing."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "wayback_machine_archived_company_page"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count", "employees_exact", "founded_year_exact"],
+    "needs_review": false,
+    "notes": "No CNAIP URL available. Careers page returns 404. Archived company page from 2023 (Wayback Machine) provided team/founder names. Founded year estimated at 2019 based on Techstars award. Team size in 2023 was 30-40 (23+ developers named plus leadership); used 11-50 range as conservative estimate."
+  }
+}
