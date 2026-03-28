@@ -1,0 +1,119 @@
+{
+  "id": "cetin",
+  "name": "CETIN",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "Czech telecommunications infrastructure operator using AI/ML for network optimization and digital transformation",
+    "description_long": "CETIN (Česká telekomunikační infrastruktura a.s.) operates the largest telecommunications network in the Czech Republic, covering 99.6% of the population with fixed and mobile technologies including 5G. Spun off from O2 Czech Republic in 2015, CETIN is a PPF Group subsidiary providing wholesale infrastructure services — mobile network, fixed line, data services, DWDM, and data centers — to over 200 operators worldwide. The company is undergoing a data-driven transformation leveraging BI/DWH, chatbots, RPA, and AI-assisted network optimization.",
+    "tagline": "We are the backbone of the Czech Internet",
+    "website": "https://www.cetin.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["automation", "data_engineering", "ml_ops"],
+    "industries_served": ["telecommunications", "infrastructure", "data_centers"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2015,
+    "founders": [],
+    "origin_story": "CETIN was created in 2015 as a spin-off from O2 Czech Republic a.s. (formerly Telefónica Czech Republic), separating the network infrastructure from the retail business. The network itself traces its roots to the 1992 founding of SPT TELECOM, the original Czech state telecommunications enterprise.",
+    "key_milestones": [
+      {"year": 1992, "event": "SPT TELECOM state enterprise founded"},
+      {"year": 2005, "event": "Telefónica S.A. becomes majority owner"},
+      {"year": 2014, "event": "PPF Group becomes majority owner; company renamed O2 Czech Republic"},
+      {"year": 2015, "event": "CETIN spun off from O2 Czech Republic as independent infrastructure company"},
+      {"year": 2020, "event": "Expanded internationally via infrastructure spin-offs in Hungary, Bulgaria, and Serbia"},
+      {"year": 2021, "event": "Deployed Internet connectivity in Prague Metro"},
+      {"year": 2025, "event": "Founded subsidiary Nová optika s.r.o. for fibre expansion"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 3000,
+    "employee_source": "company_website",
+    "office_count": 7
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Vienna", "country": "AT", "is_hq": false},
+    {"city": "Frankfurt", "country": "DE", "is_hq": false},
+    {"city": "Bratislava", "country": "SK", "is_hq": false},
+    {"city": "Budapest", "country": "HU", "is_hq": false},
+    {"city": "Hong Kong", "country": "HK", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": null,
+    "stock_exchange": "Prague Stock Exchange (bonds, ISIN CZ0009000089)",
+    "parent_company": "PPF Group",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["PPF Group"],
+    "revenue_estimate_usd": null,
+    "revenue_source": "CZK 19.4 billion (2019, Wikipedia)",
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš Kouřil", "role": "CEO", "source": "company_website"},
+      {"name": "Katarína Vániková", "role": "CCO", "source": "company_website"},
+      {"name": "Jan Menclík", "role": "CFO", "source": "company_website"},
+      {"name": "Jan Štěpánovský", "role": "Director, IT", "source": "company_website"},
+      {"name": "Pavel Rivola", "role": "Director, Security", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.cetin.cz/kariera/volne-pozice",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["5G", "LTE", "DWDM", "optical_fiber", "data_warehousing", "business_intelligence", "RPA", "chatbots"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": 200,
+    "partnerships": ["PPF Group"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "CETIN is a physical telecommunications infrastructure operator — it owns 65,000 km of optical cables and 6,000 mobile base stations. Physical network infrastructure cannot be commoditized by AI/LLMs. AI is used internally for optimization, not as the core product.",
+    "market_risk": "low",
+    "market_risk_rationale": "CETIN operates as the dominant wholesale telecom infrastructure provider in the Czech Republic with a near-monopoly network position covering 99.6% of the population. The market is stable, regulated, and essential, with over 200 operator customers worldwide.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "CETIN is a profitable PPF Group subsidiary with CZK 19.4 billion in revenue (2019). As critical national telecommunications infrastructure, it is financially stable and not dependent on external funding.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "As the largest telecom infrastructure operator in the Czech Republic with deep physical assets, long-term operator contracts, and PPF Group ownership, CETIN faces negligible existential risk. AI is used internally for operational efficiency rather than being a core revenue driver."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "wikipedia"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count"],
+    "needs_review": false,
+    "notes": "CETIN is primarily a telecom infrastructure company, not an AI-native firm. Its inclusion in the Prague AI catalog likely reflects its data-driven transformation initiatives (BI/DWH, chatbots, RPA, AI-assisted network optimization). Revenue figure is from 2019 Wikipedia data; more recent financials not publicly available in English sources."
+  }
+}
