@@ -1,0 +1,115 @@
+{
+  "id": "meiro",
+  "name": "Meiro",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered composable Customer Data Platform for private deployments",
+    "description_long": "Meiro is a composable Customer Data Platform (CDP) and Customer Data Infrastructure (CDI) designed for enterprises with strict compliance and data sovereignty needs. Unlike traditional cloud-based CDPs, Meiro deploys privately — on-premise or in the client's own cloud (AWS, GCP, Azure) — giving IT teams full control while enabling marketing teams with AI-driven personalization, journey orchestration, identity resolution, and real-time cross-channel activation. The platform includes agentic AI capabilities, MCP server for LLM integration, and built-in email, WhatsApp, and mobile push marketing tools.",
+    "tagline": "The Best Customer Data Platform & Infrastructure for Private Deployments",
+    "website": "https://meiro.io",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["data_engineering", "recommendation", "automation", "ml_ops"],
+    "industries_served": ["banking", "insurance", "retail", "e-commerce", "media", "health", "igaming"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2017,
+    "founders": ["Jana Marle-Zizkova", "Pavel Bulowski", "V (Head of R&D)"],
+    "origin_story": "Founded in Singapore in 2017 after the three co-founders worked together at Data Driven Co (Southeast Asia, Australia, NZ) which they co-founded in 2015. The concept was proven when Indonesia's 4th largest bank requested consolidation of online and offline customer data into a Single Customer View.",
+    "key_milestones": [
+      {"year": 2015, "event": "Co-founders established Data Driven Co in Singapore"},
+      {"year": 2017, "event": "Meiro founded in Singapore"},
+      {"year": 2025, "event": "AWS-native CDP with AI Agents listed on AWS Marketplace"},
+      {"year": 2025, "event": "Listed on Google Cloud Marketplace"},
+      {"year": 2026, "event": "Pavel Bulowski appointed CEO; Jana Marle-Zizkova becomes Executive Chairman"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Singapore", "country": "SG", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Middle East", "country": null, "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 3000000,
+    "funding_rounds": [
+      {"date": null, "type": "unknown", "amount_usd": 3000000, "lead_investor": null}
+    ],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Pavel Bulowski", "role": "CEO", "source": "company_website"},
+      {"name": "Jana Marle-Zizkova", "role": "Executive Chairman", "source": "company_website"},
+      {"name": "V", "role": "Head of R&D", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Natalia Vavilina", "role": "Senior Marketing Manager", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://meiro.io/career/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Komerční banka (KB)"],
+    "customer_count": null,
+    "partnerships": ["AWS Marketplace", "Google Cloud Marketplace", "Microsoft Azure"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Meiro's core value lies in the private deployment model and data infrastructure layer, which AGI cannot commoditize directly. However, the AI-driven personalization, segmentation, and journey orchestration features may face competition from foundation models embedded in competing platforms. Customer lock-in through deep data warehouse integration and compliance requirements provides some protection.",
+    "market_risk": "low",
+    "market_risk_rationale": "The CDP market for enterprise private deployments is real and growing, driven by increasing data sovereignty regulations (GDPR, local data laws in SEA and Middle East). Meiro has paying enterprise clients including major banks, and has secured AWS and GCP marketplace listings validating product-market fit.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Only $3M raised since founding in 2017, which is modest for a nearly decade-old company. However, bootstrapped growth with enterprise clients in regulated industries (banking) suggests real revenue. No evidence of Series A or larger rounds.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Meiro has a defensible niche in private-deployment CDP with enterprise banking and retail clients, but modest funding relative to company age and larger well-funded competitors (Salesforce, Adobe, Segment). The Czech R&D center and regional focus in SEA and Middle East provides market differentiation."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["employees_exact", "funding_rounds_detail", "glassdoor_rating", "open_roles", "revenue_estimate_usd"],
+    "needs_review": false,
+    "notes": "Company is legally incorporated as Meiro Pte. Ltd. in Singapore with R&D based in Central Europe (Prague, Czech Republic). 'V' is the known nickname of the Head of R&D — full name not publicly disclosed on website. Funding of $3M disclosed in CEO appointment blog post (Jan 2026) as total raised 'under Jana's leadership'."
+  }
+}
