@@ -1,0 +1,114 @@
+{
+  "id": "apoco",
+  "name": "Apoco",
+  "category": "company",
+  "scraped_at": "2026-03-28T22:47:00Z",
+
+  "overview": {
+    "description": "AI engineering studio building production AI systems, multi-agent architectures, and custom infrastructure",
+    "description_long": "Apoco is a Prague-based software engineering studio specializing in AI, robotics, IoT, and computer vision. Founded by identical twin brothers Matous and Ondrej Havlena, the studio embeds senior engineers directly into client teams to deliver production-ready systems across finance, automotive, healthcare, and energy sectors. With 30+ engineers across Prague, San Francisco, and New York, they build multi-agent AI frameworks, robotics orchestration platforms, and secure system integrations.",
+    "tagline": "Software engineering at the edge of what's possible",
+    "website": "https://apoco.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "robotics", "automation", "cv", "ml_ops"],
+    "industries_served": ["finance", "automotive", "healthcare", "energy"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2020,
+    "founders": ["Matous Havlena", "Ondrej Havlena"],
+    "origin_story": "Founded in 2020 by identical twin brothers Matous (technology) and Ondrej (business) Havlena in a small Prague office, with ambition to tackle hard engineering problems without corporate bureaucracy.",
+    "key_milestones": [
+      {"year": 2020, "event": "Founded in Prague by the Havlena twins"},
+      {"year": 2021, "event": "Grew to include senior engineers; expanded AI and robotics practice"},
+      {"year": 2025, "event": "Expanded to offices in San Francisco and New York; team exceeded 30 engineers"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "San Francisco", "country": "US", "is_hq": false},
+    {"city": "New York", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Matous Havlena", "role": "Co-founder (Technology)", "source": "company_website"},
+      {"name": "Ondrej Havlena", "role": "Co-founder (Business & Product)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Aleš Kalfas", "role": "Senior Software Engineer in Generative AI / Team Lead", "source": "theorg.com"},
+      {"name": "Tomas Weiss", "role": "Engineer / Blog contributor", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://apoco.com/careers",
+    "open_roles_count": 2,
+    "open_roles": [
+      {"title": "Delivery AI Lead", "department": "engineering", "location": "Prague"},
+      {"title": "Senior AI Engineer", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "typescript", "nestjs", "trpc"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Apoco embeds senior engineers into complex projects in regulated industries (healthcare, energy, automotive), which requires domain knowledge and accountability beyond what AI coding assistants currently provide. However, as AI-assisted development matures, demand for external engineering studios could decrease.",
+    "market_risk": "low",
+    "market_risk_rationale": "Demand for expert AI engineering services in regulated and complex industries is strong and growing. Apoco's multi-vertical focus across finance, healthcare, automotive, and energy limits concentration risk.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No known external funding — appears bootstrapped via consulting revenue. Small team of 30+ engineers suggests the business is self-sustaining, but no public runway data or investor backing provides a buffer.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Apoco has a real market with strong demand and a differentiated positioning in hard engineering domains, but as a bootstrapped consulting studio without known funding or proprietary IP moat, it faces medium-term displacement risk as AI tools commoditize software engineering."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "theorg.com", "brave_search"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "notable_clients", "employees_exact"],
+    "needs_review": false,
+    "notes": "Schema.org data on site lists foundingDate as 2018 but About page text explicitly states 'We started Apoco in 2020'. Using 2020 as the founding year per narrative text. Company appears bootstrapped with no public funding data found."
+  }
+}
