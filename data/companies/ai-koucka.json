@@ -1,0 +1,101 @@
+{
+  "id": "ai-koucka",
+  "name": "AI Kočka",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Solo AI coaching and consulting service building personalized AI stacks for C-level executives",
+    "description_long": "koučka.ai (AI Kočka) is a one-person AI consulting practice run by Dita Eckhardtová, targeting CEOs and senior executives. The service offers a deep intake session to map the client's working style and decision-making patterns, then builds a private AI stack of custom agents, automations, and workflows — including daily briefings, weekly summaries, and personalized tools. Packages include a one-time AI System Setup (20,000 CZK / €1,500) and a monthly Private AI Retainer (15,000 CZK / €1,000/month, max 5 clients). Eckhardtová is also a co-organizer of the Prague AI Monday community events and a published author on time management.",
+    "tagline": "Tvůj soukromý AI mozek (Your private AI brain)",
+    "website": "https://koucka.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "generative_ai"],
+    "industries_served": ["executive_services", "professional_services"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Dita Eckhardtová"],
+    "origin_story": "Founded by Dita Eckhardtová, a former ghostwriter for CEOs and top executives, who pivoted from building personal brands on LinkedIn to building AI infrastructure for the same clientele. She co-organizes the Prague AI Monday community and is the author of a book on time management.",
+    "key_milestones": []
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 1,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Dita Eckhardtová", "role": "Founder / AI Coach", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "not_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["AI Monday Prague"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "The core service — helping executives set up AI tools and workflows — is highly susceptible to commoditization as AI platforms become easier to use and self-service. There is no proprietary technology, data moat, or defensible IP; the value is entirely in personal expertise and time.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Demand for executive AI coaching is real and growing, but the market is fragmented with many freelancers and boutique consultants offering similar services. Capped at 5 clients by design, limiting scale and revenue ceiling.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Solo freelancer operation with no external funding, no team, and revenue entirely dependent on retaining a handful of individual clients. No runway buffer and highly vulnerable to client churn.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "A one-person consultancy with high AGI displacement risk (no proprietary tech), high funding risk (no backing, minimal scale), and a model capped at 5 clients. Personally sustainable for the founder but structurally fragile as a catalogued company."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year", "employees_exact_confirmation", "revenue_estimate_usd", "glassdoor_rating", "notable_clients", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "This is a solo consultant brand ('AI Kočka' / 'koučka.ai') operated by Dita Eckhardtová. Contact: dita.eckhardtova@gmail.com, +420 727 961 319. Co-organizer of AI Monday Prague. No CNAIP entry found. No Glassdoor presence (too small). Maximum client count self-described as 5 at a time."
+  }
+}
