@@ -1,0 +1,115 @@
+{
+  "id": "custom-ink",
+  "name": "Custom Ink",
+  "category": "company",
+  "scraped_at": "2026-03-28T19:30:00Z",
+
+  "overview": {
+    "description": "US-based online leader in custom apparel and promotional products with a tech office in Prague",
+    "description_long": "Custom Ink is an e-commerce platform for custom t-shirts, apparel, and promotional products, serving organizations, businesses, schools, and groups. Founded in 2000, the company provides an innovative design lab, a broad product catalog, and end-to-end fulfillment. Headquartered in Fairfax, Virginia, it has engineering/tech operations in Prague, Czech Republic. The company uses AI/ML for product recommendations, personalization, and design workflows.",
+    "tagline": "Design custom t-shirts, apparel & promo products online",
+    "website": "https://www.customink.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["recommendation", "automation"],
+    "industries_served": ["retail", "education", "events", "corporate"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2000,
+    "founders": ["Marc Katz", "Mike Driscoll", "Dave Christensen"],
+    "origin_story": "Co-founded in 2000 by Marc Katz (Harvard Physics) and college friends after Katz left a Wall Street job seeking more meaningful work. Started as the first website to let people design custom t-shirts online.",
+    "key_milestones": [
+      {"year": 2000, "event": "Founded in Northern Virginia"},
+      {"year": 2024, "event": "David Doctorow named CEO; Marc Katz becomes Chairman after 24 years as CEO"},
+      {"year": 2024, "event": "Company celebrates 25 years with 1,600+ team members and offices in Prague, CZ"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 1306,
+    "employee_source": "linkedin",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Fairfax", "country": "US", "is_hq": true},
+    {"city": "Dallas", "country": "US", "is_hq": false},
+    {"city": "Prague", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Great Hill Partners", "HarbourVest Partners"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "David Doctorow", "role": "CEO", "source": "company_website"},
+      {"name": "Marc Katz", "role": "Chairman of the Board (co-founder)", "source": "company_website"},
+      {"name": "Mike Driscoll", "role": "Co-founder", "source": "company_website"},
+      {"name": "Dave Christensen", "role": "Co-founder", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Michael Kumin", "role": "Director (Managing Partner, Great Hill Partners)", "source": "company_website"},
+      {"name": "Peter Garran", "role": "Director (Partner, Great Hill Partners)", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.customink.com/about/jobs",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "Inbound Sales Representative", "department": "sales", "location": "Remote US"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Custom-Ink-Reviews-E152733.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Custom Ink's core value is its e-commerce platform, design tools, manufacturing network, and fulfillment operations — not AI. While they use ML for recommendations and personalization, their moat lies in physical fulfillment and brand trust, not AI IP. AI could automate their design tools and customer service, but the production/logistics layer remains protected.",
+    "market_risk": "low",
+    "market_risk_rationale": "Custom merchandise and branded apparel is a large, stable, and growing market with consistent demand from businesses, schools, events, and nonprofits. Custom Ink is a 25-year-old category leader with a proven business model and PE-backed balance sheet.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Backed by Great Hill Partners ($5B AUM) and HarbourVest Partners, with 25+ years of operations and 1,300+ employees. Well-established revenue base from a large and diverse customer pool reduces financial risk significantly.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Mature, PE-backed e-commerce company with a 25-year track record and physical manufacturing moat. The Prague office is a tech hub, not the core business. Low overall risk despite limited AI-native positioning."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "glassdoor_review_count", "tech_stack"],
+    "needs_review": true,
+    "notes": "Custom Ink is a US-based custom apparel e-commerce company (not AI-native) that has an engineering/tech office in Prague, Czech Republic. It was sourced as 'other' in the index. The Prague office likely does software engineering and potentially some ML/data work. Company has 1,306 employees per LinkedIn; company website claims 1,600+. Backed by Great Hill Partners (2 board members) and HarbourVest Partners."
+  }
+}
