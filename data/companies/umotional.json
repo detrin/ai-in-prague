@@ -1,0 +1,108 @@
+{
+  "id": "umotional",
+  "name": "Umotional",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered routing and navigation engine for cycling, micromobility, and Mobility-as-a-Service",
+    "description_long": "Umotional builds next-generation AI solutions for transport and mobility. Their two main products are Cyclers Navigate — a routing and navigation API/SDK built exclusively for cycling and micromobility, validated by 200,000+ users — and AnyRoute, an intermodal routing engine for public transport and MaaS platforms. AnyRoute powers PID Lítačka, the largest integrated transport system in Czechia serving 3 million people. Umotional's routing engine outperforms Google Maps (74% vs 12% route accuracy on real cyclist trajectories).",
+    "tagline": "AI Power for Transport & Mobility",
+    "website": "https://umotional.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["recommendation", "ml_ops", "data_engineering"],
+    "industries_served": ["transportation", "public_transport", "micromobility", "mobility_as_a_service"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2016,
+    "founders": ["Michal Jakob"],
+    "origin_story": "Founded in Prague by Michal Jakob to apply AI to transport and mobility optimization problems",
+    "key_milestones": [
+      {"year": 2016, "event": "Founded in Prague"},
+      {"year": 2019, "event": "Launched Cyclers Navigate API/SDK for cycling and micromobility"},
+      {"year": 2022, "event": "AnyRoute deployed to power PID Lítačka — Prague Integrated Transport serving 3 million people"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "licensing"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Michal Jakob", "role": "Founder & CEO", "source": "linkedin"}
+    ],
+    "notable_people": [
+      {"name": "Pavol Zilecky", "role": "AI Engineer", "source": "linkedin"},
+      {"name": "Jan Hrnčíř", "role": "Senior Java Backend and DevOps Engineer", "source": "linkedin"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["java", "python", "android", "ios"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["PID Lítačka (Prague Integrated Transport)"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Umotional's routing engine is built on proprietary community data and specialized ML algorithms for cycling/micromobility, outperforming Google Maps on cyclist trajectory accuracy. However, as foundation models and large mapping platforms (Google, Apple, Mapbox) continue investing in specialized routing, the moat could narrow over time.",
+    "market_risk": "low",
+    "market_risk_rationale": "Transport and mobility is a large, real market with proven demand. AnyRoute's deployment for PID Lítačka (3 million users) and Cyclers' 200,000+ validated users demonstrate clear product-market fit. Micromobility and MaaS are growing globally.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No public funding information found. Company is small (11-50 employees), privately held with no disclosed investors or rounds. Revenue sustainability is unknown for a company of this size serving primarily B2B API customers.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Umotional has genuine technical differentiation and proven enterprise clients, but the small team size and lack of disclosed funding create meaningful execution and sustainability risk. The growing MaaS market provides a favorable tailwind."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin", "cyclers.tech"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor"],
+    "needs_review": false,
+    "notes": "No CNAIP URL available. Company has two main products: Cyclers (cycling/micromobility routing) and AnyRoute (intermodal MaaS routing). No careers page found on website. LinkedIn shows ~10 visible employees within 11-50 range."
+  }
+}
