@@ -1,0 +1,110 @@
+{
+  "id": "medicmee",
+  "name": "MedicMee",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered digital health documentation platform for patients and doctors",
+    "description_long": "MedicMee is a health-tech startup building ZdravoKarta — an AI assistant that digitalises patient health records, auto-generates medical histories (anamnéza), transcribes voice dictation into structured medical reports, and provides doctors with a real-time medication overview from the SÚKL (Czech pharmaceutical) database. The platform serves both patients (organising their own health records) and doctors (reducing administrative overhead in the clinic). Uses generative AI for document classification, summarisation, and treatment-plan drafting.",
+    "tagline": "Zdraví pod kontrolou (Health under control)",
+    "website": "https://www.medicmee.com",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/medicmee"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["generative_ai", "nlp", "document_processing", "speech"],
+    "industries_served": ["healthcare", "pharmacy", "biotechnology"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2023,
+    "founders": ["Marek Minárik", "Tomáš Feran"],
+    "origin_story": "Founded in November 2023 in Prague by Marek Minárik (oncology/genetics entrepreneur with prior startups Genomac and Elphogene) and Tomáš Feran (20+ years in pharma IT). Built ZdravoKarta based on real clinical needs, supported by a group of physicians from leading Czech hospitals.",
+    "key_milestones": [
+      {"year": 2023, "event": "Company incorporated (MedicMee, s.r.o., IČ 19903537)"},
+      {"year": 2024, "event": "Product launched; received support from Technologická inkubace programme"},
+      {"year": 2025, "event": "Listed as member of Czech AI Association (CNAIP)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Technologická inkubace (Czech government technology incubation programme)"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Marek Minárik", "role": "Founder & CEO", "source": "company_website"},
+      {"name": "Tomáš Feran", "role": "Founder & CTO", "source": "company_website"},
+      {"name": "Jannis Tornikidis", "role": "CMO", "source": "company_website"},
+      {"name": "Jan Minárik", "role": "CPO", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Tomáš Landovský", "role": "Product Specialist", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["SÚKL (Czech pharmaceutical database integration)", "Nemocnice na Homolce", "online24 s.r.o."]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "MedicMee's core value proposition (AI summarisation and classification of medical documents, voice-to-text for clinical notes) is directly replicable by general-purpose foundation models. The product has limited proprietary data moat at this early stage; its differentiation rests primarily on Czech-language healthcare domain tuning and SÚKL database integration, which could be replicated by better-resourced competitors.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Healthcare AI documentation is a real and growing market globally, but adoption in Czech Republic is slow due to regulatory, data-privacy, and interoperability constraints. The company is early-stage with no confirmed paying customer base at scale. Market potential is genuine but time-to-revenue may be long.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Founded in late 2023 with only government technology incubation support noted. No disclosed private funding rounds. Team is 2-10 people. Runway is uncertain and the company is pre-revenue or very early revenue.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Very early-stage startup (incorporated 2023) with a small team, no disclosed private funding, and a core AI capability (document summarisation, voice transcription) that is highly commoditisable by foundation models. Healthcare domain expertise and Czech-specific integrations provide some buffer, but overall risk is high."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "cnaip", "linkedin", "ares_registry"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor_rating", "tech_stack", "customer_count"],
+    "needs_review": false,
+    "notes": "Company IČ 19903537, registered address Drnovská 1112/60, Ruzyně, Praha 6. Product name: ZdravoKarta. Supported by Czech government Technologická inkubace programme. CNAIP URL confirmed at https://www.cnaip.cz/cs/entity/medicmee despite null in index."
+  }
+}
