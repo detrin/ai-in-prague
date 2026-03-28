@@ -1,0 +1,118 @@
+{
+  "id": "dnai",
+  "name": "DNAi",
+  "category": "company",
+  "scraped_at": "2026-03-28T15:50:00Z",
+
+  "overview": {
+    "description": "AI innovation incubator bridging cutting-edge AI research and real-world industry deployment",
+    "description_long": "Founded in 2018 in Prague, DNAi.ai is an innovation incubator focused on bridging the gap between the latest AI research and real-world solutions. They develop proprietary products including MYIO (inventory optimization and demand forecasting for supply chain), FLOXGEN (cloud-based genomic data processing), Computer Vision-based quality control systems, and a Cognitive Digital Assistant powered by LLMs. Their consulting arm, Tekies, generates revenue that funds AI product R&D. DNAi serves clients across healthcare, manufacturing, supply chain, energy, and public sector in Czech Republic and beyond.",
+    "tagline": "Cultivating Tomorrow's Innovation",
+    "website": "https://www.dnai.ai",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/dnai"
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["cv", "ml_ops", "generative_ai", "data_engineering", "automation"],
+    "industries_served": ["healthcare", "manufacturing", "supply_chain", "energy", "government"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2018,
+    "founders": ["Pavel Wimmer", "David Kadleček"],
+    "origin_story": "Founded in Prague in 2018 as an innovation incubator to bridge AI research and real-world industry applications. The company developed a dual-structure model where Tekies (IT consulting) funds DNAi (AI product R&D).",
+    "key_milestones": [
+      {"year": 2018, "event": "Founded in Prague, Smíchov"},
+      {"year": 2023, "event": "Website copyright date indicates active product portfolio including MYIO, FLOXGEN, Computer Vision, and Cognitive Assistant"},
+      {"year": 2024, "event": "International expansion signal — 'Ze Smíchova do Singapuru' (From Smíchov to Singapore)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": 65,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Pavel Wimmer", "role": "CEO", "source": "cocuma_profile"},
+      {"name": "David Kadleček", "role": "CTO", "source": "cocuma_profile"}
+    ],
+    "notable_people": [
+      {"name": "Jakub Szasz", "role": "AI/React Developer", "source": "cocuma_profile"},
+      {"name": "Ondřej Svoboda", "role": "Solution Architect", "source": "cocuma_profile"},
+      {"name": "Jitka Radová", "role": "Talent Acquisition Manager", "source": "cocuma_profile"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.dnai.ai/career",
+    "open_roles_count": 7,
+    "open_roles": [
+      {"title": "DevLead/Senior AI Developer/Python Software Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Java Developer/Architekt – Moderní digitalizační projekt", "department": "engineering", "location": "Remote"},
+      {"title": "Cloud DWH Developer/Data Engineer - medior/senior (Azure / Databricks)", "department": "data", "location": "Prague"},
+      {"title": "Senior Delivery/Project Manager", "department": "operations", "location": "Prague"},
+      {"title": "Business/IT Analytik – Digitalizační projekt pro veřejný sektor", "department": "consulting", "location": "Prague"},
+      {"title": "IT Analytik/Architekt - Digitalizační projekty napříč sektory", "department": "consulting", "location": "Prague"},
+      {"title": "DevOps Engineer / Architect (Senior / Medior) - Cloud", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "java", "azure", "databricks", "react", "cloud"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["IMTM", "Dormer Pramet"],
+    "customer_count": null,
+    "partnerships": ["Tekies"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "DNAi has domain-specific products (MYIO for supply chain, FLOXGEN for genomics) with some vertical moat, but a large share of revenue appears to come from consulting and custom AI development which is highly susceptible to commoditization by foundation models and low-code AI platforms.",
+    "market_risk": "low",
+    "market_risk_rationale": "Serves well-established industrial markets (healthcare, manufacturing, supply chain) with real enterprise demand and paying clients including Dormer Pramet and IMTM. These sectors have long sales cycles and implementation depth that protects against pure hype risk.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No external investment rounds identified. The company appears bootstrapped, funding AI product R&D via revenue from Tekies IT consulting arm. This self-funding model limits growth speed but avoids dilution risk; however, it may constrain ability to scale or compete with better-funded rivals.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "DNAi's dual structure (Tekies consulting + DNAi products) provides some financial stability, but the lack of external funding and the medium displacement risk from genericized AI tools creates moderate overall risk. Vertical focus on healthcare genomics (FLOXGEN) and supply chain (MYIO) provides partial moat."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website", "cocuma_profile", "linkedin"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "founders_full_list", "customer_count"],
+    "needs_review": false,
+    "notes": "DNAi operates alongside Tekies (IT consulting brand), sharing management. CEO Pavel Wimmer and CTO David Kadleček identified from Cocuma profile. LinkedIn shows 65 employees. They run a podcast called 'Beyond AI'. Offices in Prague Smíchov with mention of Singapore expansion."
+  }
+}
