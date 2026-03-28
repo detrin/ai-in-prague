@@ -1,0 +1,114 @@
+{
+  "id": "emark",
+  "name": "EMARK",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Data analytics and digital transformation advisory company",
+    "description_long": "EMARK is a data analytics and digital transformation advisory firm helping businesses extract value from their data. Over 25 years, they have guided 280+ businesses in 15 countries in building, adopting, and maintaining data solutions. They are Qlik Master Reseller in Slovakia, Czechia, and Hungary, Qlik Solutions Provider in Australia, and Snowflake Select Partner. Services span data integration & governance, analytics & BI, planning & forecasting, and real-world AI/ML.",
+    "tagline": "Heavy skills. Lean execution. We make your data project succeed.",
+    "website": "https://emarkanalytics.com",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/emark"
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["data_engineering", "ml_ops", "automation"],
+    "industries_served": ["finance", "manufacturing", "retail", "logistics", "energy"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2001,
+    "founders": [],
+    "origin_story": "Founded around 2001 (company claims 25 years of experience as of 2026). Czech legal entity EMARK s.r.o. established in Prague in March 2009. Likely originated in Slovakia (main Bratislava office). Grew into a multi-country data analytics advisory group with offices in Prague, Bratislava, Pardubice, and Sydney.",
+    "key_milestones": [
+      {"year": 2009, "event": "Czech entity EMARK s.r.o. established in Prague"},
+      {"year": 2017, "event": "EMARK Services s.r.o. entity established in Pardubice"},
+      {"year": 2024, "event": "Reached 300+ customers and 75+ experts across offices"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": 53,
+    "employee_source": "linkedin",
+    "office_count": 4
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Bratislava", "country": "SK", "is_hq": false},
+    {"city": "Pardubice", "country": "CZ", "is_hq": false},
+    {"city": "Sydney", "country": "AU", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": [
+      {"name": "Radovan Oresky", "role": "Blog contributor / consultant", "source": "company_website"},
+      {"name": "Martin Kostič", "role": "Blog contributor / consultant", "source": "company_website"},
+      {"name": "Róbert Šrotýř", "role": "Blog contributor", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://emarkanalytics.com/career/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["qlik", "snowflake", "talend", "inphinity", "python"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Qlik Master Reseller (Slovakia, Czechia, Hungary)",
+      "Qlik Solutions Provider (Australia)",
+      "Snowflake Select Partner"
+    ],
+    "notable_clients": ["Foxconn CZ", "ESET", "Ahold", "Gefco", "SATUR Group", "UniCredit Leasing", "2N Telekomunikace", "Alphega"],
+    "customer_count": 300,
+    "partnerships": ["Qlik", "Snowflake", "Talend", "Inphinity"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "EMARK's core value is human expertise in Qlik/Snowflake/Talend implementation and data architecture consulting. While AI can assist with analytics and BI tasks, the specialized vendor partnership status (Qlik Master Reseller) and long-term client relationships provide meaningful protection. However, some analytics and BI report-generation work is susceptible to commoditization by AI tools.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established 25-year presence with 280-300+ enterprise clients across 15 countries and official vendor certifications. Data analytics consulting is a stable, growing market with proven enterprise demand.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Long-established consulting firm operating for 25 years, likely self-sustaining on consulting revenue with 300+ paying clients. No venture funding dependency. Czech legal entity active since 2009 with no risk indicators.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "EMARK's 25-year track record, 300+ enterprise customer base, elite vendor partnership status, and multi-country operations indicate a resilient, well-established services business with low existential risk, despite moderate AI commoditization pressure on commodity BI work."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website", "linkedin", "czech_business_registry"],
+    "fields_missing": ["founders", "leadership", "funding_total_usd", "glassdoor_rating", "open_roles", "founded_year_exact"],
+    "needs_review": false,
+    "notes": "Founded year is approximate (~2001) based on company's '25 years' claim in 2026. Czech ARES registry shows EMARK s.r.o. founded 2009-03-19 in Prague (may be Czech subsidiary of older Slovak entity). LinkedIn employee count: 53. Website claims 75+ experts."
+  }
+}
