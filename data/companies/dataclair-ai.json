@@ -1,0 +1,96 @@
+{
+  "id": "dataclair-ai",
+  "name": "Dataclair.ai",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI/ML division of O2 Czech Republic focused on telco and finance AI applications",
+    "description_long": "Dataclair.ai is the artificial intelligence arm of O2 Czech Republic. They develop and implement advanced machine learning applications in telco and finance domains, push the state-of-the-art in business-applied AI research, and develop Fair Machine Learning and Ethical AI approaches. Their products include BigPlan (outdoor campaign optimization), Predictive Insights for OOH advertising, Cell2Vec/Cust2Vec (deep neural networks for customer lifecycle management), credit risk scoring models, Virtual Buddy (AI assistant for customer support), and Map Matching for traffic insights using mobile network data.",
+    "tagline": "We do Artificial Intelligence",
+    "website": "https://dataclair.ai",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/dataclair-ai"
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["ml_ops", "nlp", "data_engineering", "generative_ai", "automation", "recommendation"],
+    "industries_served": ["telco", "finance", "marketing", "smart_city", "transport", "government"],
+    "company_type": "enterprise",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Jan Romportl"],
+    "origin_story": "Founded as the internal AI lab of O2 Czech Republic. Jan Romportl was the original director and AI visionary. The division develops AI products and services both for internal O2 use and for external enterprise clients.",
+    "key_milestones": []
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "O2 Czech Republic a.s.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Petr Hirš", "role": "Director", "source": "company_website"},
+      {"name": "Petr Stanislav", "role": "Head of AI Technology", "source": "company_website"},
+      {"name": "Ivo Brýdl", "role": "Head of AI Systems & Engineering", "source": "company_website"},
+      {"name": "Filip Roskovec", "role": "Head of Data Science", "source": "company_website"},
+      {"name": "Filip Kojan", "role": "Mobility AI Lead", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Jan Romportl", "role": "AI Visionary and Former Director", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://kariera.o2.cz/volne-pozice-filter?job_type_id%5B%5D=obor-19",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "tensorflow", "spark", "sql", "machine_learning", "deep_learning", "reinforcement_learning", "cloud", "big_data"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["O2 Czech Republic"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "cnaip"],
+    "fields_missing": ["founded_year", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor", "open_roles_count"],
+    "needs_review": false,
+    "notes": "Dataclair.ai is the internal AI division of O2 Czech Republic (major Czech telecom), not a standalone startup. They serve both O2 internally and external B2B/B2G clients. Address: Za Brumlovkou 266/2, Prague 4 - Michle. Contact: dataclair@o2.cz. Client types per CNAIP: B2B large enterprises, B2B startups/SMEs, B2C, B2G."
+  }
+}
