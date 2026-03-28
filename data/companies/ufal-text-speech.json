@@ -1,0 +1,132 @@
+{
+  "id": "ufal-text-speech",
+  "name": "UFAL Text and Speech Translation Group",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T22:30:00Z",
+
+  "overview": {
+    "description": "Machine translation and simultaneous speech translation research group at Charles University's UFAL institute",
+    "description_long": "The Text and Speech Translation Group (also known as the Machine Translation Research Group) is part of the Institute of Formal and Applied Linguistics (ÚFAL) at Charles University in Prague. The group researches neural machine translation, simultaneous speech translation, and multilingual NLP. Notable outputs include the CUBBITT system (Czech-English MT reaching human-level quality, published in Nature Communications 2020), the ELITR European Live Translator (H2020-funded simultaneous speech translation), and the Charles Translator for Ukraine (Ukrainian-Czech neural MT, 2019–).",
+    "tagline": "Breaking language barriers through machine and speech translation research",
+    "website": "https://ufal.mff.cuni.cz/projects/machine-translation",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["nlp", "speech"],
+    "industries_served": ["academia", "government", "media"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 1990,
+    "founders": ["Jan Hajič"],
+    "origin_story": "ÚFAL (Institute of Formal and Applied Linguistics) was established in 1990 at Charles University's Faculty of Mathematics and Physics as a continuation of earlier computational linguistics research. The machine translation and speech translation group within ÚFAL has developed as one of its core research strands, gaining international prominence through EU-funded projects and top-venue publications.",
+    "key_milestones": [
+      {"year": 1990, "event": "ÚFAL founded at Charles University, Faculty of Mathematics and Physics"},
+      {"year": 2013, "event": "Chimera hybrid MT system developed, winning WMT 2013"},
+      {"year": 2018, "event": "CUBBITT Transformer system wins WMT 2018 English-Czech translation"},
+      {"year": 2019, "event": "ELITR (European Live Translator) H2020 grant awarded; Charles Translator for Ukraine launched"},
+      {"year": 2020, "event": "CUBBITT neural MT system reaches human-level quality; published in Nature Communications"},
+      {"year": 2022, "event": "Steven Krauwer award for Charles Translator team; regular IWSLT evaluation organiser"},
+      {"year": 2024, "event": "HPLT (High Performance Language Technologies) Horizon Europe project ongoing"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "ufal_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Charles University (ÚFAL)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ondřej Bojar", "role": "Group Lead / PI (Machine Translation & Speech Translation)", "source": "ufal_website"},
+      {"name": "Martin Popel", "role": "Research Associate (Neural MT, CUBBITT)", "source": "ufal_website"},
+      {"name": "Dominik Macháček", "role": "Researcher (Simultaneous Speech Translation)", "source": "ufal_website"},
+      {"name": "Jindřich Helcl", "role": "Research Associate (NMT)", "source": "ufal_website"},
+      {"name": "Jindřich Libovický", "role": "Research Associate (Multimodal MT)", "source": "ufal_website"}
+    ],
+    "notable_people": [
+      {"name": "Dušan Variš", "role": "Researcher (MT)", "source": "ufal_website"},
+      {"name": "Ivana Kvapilíková", "role": "Researcher (MT)", "source": "ufal_website"},
+      {"name": "Zdeněk Kasner", "role": "Researcher (NLP)", "source": "ufal_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://ufal.mff.cuni.cz/jobs",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "Software Developer (NLP/AI) for OpenEuroLLM", "department": "research", "location": "Prague"},
+      {"title": "PhD / Master thesis supervision (Speech Translation, MT)", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "pytorch", "fairseq", "marian-nmt", "huggingface"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "WMT 2013 Best System (Chimera hybrid MT)",
+      "WMT 2018 English-Czech winner (CUBBITT Transformer)",
+      "WMT 2020 English-Czech winner (CUBBITT)",
+      "Steven Krauwer Award 2022 for Charles Translator for Ukraine team",
+      "Nature Communications publication (2020) — MT reaching human-level quality"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "University of Edinburgh",
+      "Karlsruher Institut für Technologie",
+      "PerVoice SPA",
+      "CLARIN/LINDAT infrastructure",
+      "Agnostix (industry collaboration)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at a university; its mission is to advance fundamental MT and speech translation research, not provide a commercial product. The group actively works on frontier problems including simultaneous speech translation and multilingual NLP that are part of AGI research itself.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "As a grant-funded university research lab, market risk is not applicable. Funding comes from EU (H2020, Horizon Europe), national agencies (GAČR, GAUK, TAČR, MŠMT), and Charles University.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Funding through Charles University institutional support, EU grants (ELITR H2020, HPLT Horizon Europe), and multiple Czech national grants. As part of a well-established university institute (ÚFAL founded 1990), institutional funding risk is minimal.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "ÚFAL's Text and Speech Translation Group is a well-established academic research group with strong publication record (Nature Communications, ACL, IWSLT), sustained EU and national grant funding, and internationally recognized researchers. No commercial risk applies."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["ufal_website", "researcher_profiles"],
+    "fields_missing": ["employees_exact", "glassdoor", "revenue_estimate_usd", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "No dedicated CNAIP page for this group. The 'Text and Speech Translation Group' name is used on the UFAL projects page (ufal.mff.cuni.cz/projects/machine-translation) to describe the Machine Translation Research Group. Group is part of ÚFAL (Institute of Formal and Applied Linguistics) at Charles University. UFAL was established in 1990; the MT group has been active since. Key grants: ELITR (H2020 #825460, 2019-2021), HPLT (Horizon Europe, 2022-2025), Babel Octopus (START, 2021-2023). Ondřej Bojar is the PI for translation-related grants."
+  }
+}
