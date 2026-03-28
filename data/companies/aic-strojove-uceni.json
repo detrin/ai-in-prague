@@ -1,0 +1,122 @@
+{
+  "id": "aic-strojove-uceni",
+  "name": "AIC Strojové učení",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Machine Learning research group at the Artificial Intelligence Center, CTU Prague",
+    "description_long": "AIC Strojové učení is the Machine Learning research group within the Artificial Intelligence Center (AIC) at the Faculty of Electrical Engineering, Czech Technical University in Prague. The group conducts research across three main clusters: Security Applications of ML (collaboration with Avast on graph/tree-structured data and interpretable models), AI Journalism and Fact-Checking (TAČR-funded project with Charles University Faculty of Social Sciences, focused on automated journalism and disinformation detection via CEDMO 2.0), and Log Processing (NLP-inspired methods for log embeddings, anomaly detection with Red Hat, and manufacturing process prediction with Škoda Auto). AIC overall is ranked #6 in Europe within AI and Computer Vision by CSRankings.org.",
+    "tagline": "Driven by the AI challenges in security, journalism and NLP",
+    "website": "https://www.aic.fel.cvut.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["nlp", "fraud_detection", "other"],
+    "industries_served": ["cybersecurity", "media", "manufacturing", "automotive"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2001,
+    "founders": ["Michal Pěchouček"],
+    "origin_story": "AIC was founded in 2001 by Michal Pěchouček at the Faculty of Electrical Engineering, CTU Prague. The Machine Learning group grew as one of seven core research areas within AIC, focused on security ML, NLP, and log analytics.",
+    "key_milestones": [
+      {"year": 2001, "event": "AIC founded by Michal Pěchouček at FEE CTU Prague"},
+      {"year": 2020, "event": "ML group published Neural Power Unit (NPU) at NeurIPS 2020"},
+      {"year": 2023, "event": "TAČR-funded AI in Journalism project launched"},
+      {"year": 2024, "event": "Milan Papež wins Best Paper Honorable Mention at TPM UAI 2024"},
+      {"year": 2025, "event": "AIC joins Czech National AI Scene Map (CNAIP); CEDMO 2.0 and AI & Human Rights projects launched"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (CTU)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš Pevný", "role": "Associate Professor / ML Group Head", "source": "company_website"},
+      {"name": "Jan Drchal", "role": "Assistant Professor / ML Group Head", "source": "company_website"},
+      {"name": "Václav Šmídl", "role": "Associate Professor / ML Group Head", "source": "company_website"},
+      {"name": "Michal Pěchouček", "role": "Director and Co-founder of AIC", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Quentin Giboulot", "role": "Postdoctoral Fellow", "source": "company_website"},
+      {"name": "Milan Papež", "role": "Postdoctoral Fellow (Best Paper Honorable Mention UAI 2024)", "source": "company_website"},
+      {"name": "Mirza Ramičić", "role": "Postdoc", "source": "company_website"},
+      {"name": "Luboš Král", "role": "Research Projects Leader", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.aic.fel.cvut.cz/careers",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD Student (Machine Learning)", "department": "research", "location": "Prague"},
+      {"title": "Postdoctoral Fellow (Machine Learning)", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "pytorch", "graph-neural-networks"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "CSRankings.org #6 in Europe for AI and Computer Vision",
+      "Milan Papež – Best Paper Honorable Mention at TPM UAI 2024",
+      "Šimon Mandlík – Hlávka Foundation Award"
+    ],
+    "notable_clients": ["Avast", "Red Hat", "Škoda Auto"],
+    "customer_count": null,
+    "partnerships": ["Avast", "Red Hat", "Škoda Auto", "Charles University Faculty of Social Sciences", "CEDMO", "EU Horizon Europe", "TAČR", "US Department of Defense (historical)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at CTU Prague — the mission is to advance AI science, not to sell a product that could be commoditized by foundation models.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Grant-funded university research lab with no commercial product or customer revenue; market risk concept does not apply.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Embedded within CTU Prague (a major public university) with diversified grant funding from TAČR, EU Horizon Europe, and historically the US DoD. Institutional backing and long track record (founded 2001) provide strong funding stability.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Established university research group with 20+ years of history, diversified public and international grant funding, strong industry collaboration (Avast, Red Hat, Škoda Auto), and high academic standing (CSRankings #6 in Europe). Existential risk is very low."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["employees_exact", "open_roles_count", "glassdoor_rating", "funding_total_usd", "cnaip_url"],
+    "needs_review": false,
+    "notes": "AIC Strojové učení is the Machine Learning sub-group of the Artificial Intelligence Center at CTU Prague (https://www.aic.fel.cvut.cz/research-areas/machine-learning). Employee count estimated for the ML sub-group only (not all 80+ AIC researchers). No CNAIP URL was available in the index, though AIC as a whole joined the Czech AI Scene Map in October 2025. Size range reflects the ML group's visible team (~15 people) rather than all of AIC."
+  }
+}
