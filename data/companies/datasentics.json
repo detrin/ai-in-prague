@@ -1,0 +1,106 @@
+{
+  "id": "datasentics",
+  "name": "DataSentics",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI and data engineering consultancy and product company serving large enterprises",
+    "description_long": "DataSentics (an Eviden business, transitioning to Bull brand in April 2026) solves business challenges for large organizations by building end-to-end AI solutions, industry-specific accelerators and harnessing the latest technologies, including MLOps and generative AI. They are the Data AI Center of Excellence of Eviden. They offer 4 certified Data AI products and 15+ solutions/accelerators across industries including Financial Services, Retail, Manufacturing, and Health & Life Sciences. Key products include Quality Inspector (computer vision for manufacturing), Persona 360 (customer analytics for banks/insurers), SAP to Databricks Integration Accelerator, and Digital Pathology Pipeline.",
+    "tagline": "We solve business challenges for large organizations by building end-to-end AI solutions",
+    "website": "https://datasentics.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["ml_ops", "generative_ai", "data_engineering", "automation", "cv"],
+    "industries_served": ["finance", "retail", "manufacturing", "healthcare"],
+    "company_type": "acquired",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2016,
+    "founders": ["Petr Bednařík"],
+    "origin_story": "Founded as a startup by experienced data analytics and BI professionals in Prague; earliest web presence dates to August 2016. Acquired by Eviden (Atos subsidiary) and designated as Eviden's Data AI Center of Excellence.",
+    "key_milestones": [
+      {"year": 2016, "event": "Founded in Prague as a data analytics and ML boutique"},
+      {"year": 2020, "event": "Microsoft Gold partner and Partner of the Year 2020"},
+      {"year": 2023, "event": "Named 8th fastest-growing tech company in CEE region (Deloitte Fast 50)"},
+      {"year": 2024, "event": "Databricks Elite Consulting Partner"},
+      {"year": 2026, "event": "Transitioning from Eviden brand to Bull brand (effective 1 April 2026)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Bezons", "country": "FR", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Eviden (Atos group) — transitioning to Bull brand April 2026",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Petr Bednařík", "role": "CEO & Founder", "source": "company_website"},
+      {"name": "Jan Procházka", "role": "CTO; Data + AI Platform Lead", "source": "company_website"},
+      {"name": "David Vopelka", "role": "FinTech Lead | AI & Personalisation Expert", "source": "company_website"},
+      {"name": "Jan Císař", "role": "Vertical AI Solutions PreSales Lead", "source": "company_website"},
+      {"name": "Fanny Frafer", "role": "Vertical AI Solutions France Lead", "source": "company_website"},
+      {"name": "Sebastian Sohl", "role": "Vertical AI Solutions Germany Lead", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://careers.datasentics.com/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "databricks", "azure", "aws", "google-cloud", "mlops"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Deloitte Fast 50 — 8th Fastest Growing Tech Company in CEE region",
+      "Microsoft Gold Partner & Partner of the Year 2020",
+      "Databricks Elite Consulting Partner"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Microsoft", "AWS", "Databricks", "Google Cloud"]
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "wayback_machine"],
+    "fields_missing": ["founded_year_exact", "funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor_rating", "employees_exact"],
+    "needs_review": false,
+    "notes": "DataSentics is the Data AI Center of Excellence of Eviden (an Atos company). As of February 2026 they announced a transition to the Bull brand, with full rebranding completing April 1, 2026. Homepage states '200+ data science and engineering experts'. An older team page meta description cited '100+' — the 200+ figure from the homepage statistics widget is more current. Founding year estimated as 2016 based on earliest Wayback Machine snapshot (August 2016); company self-describes as 'more than 7 years' of product development (from 2026). Glassdoor blocked by Cloudflare — no rating data available."
+  }
+}
