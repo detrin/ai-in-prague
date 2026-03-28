@@ -1,0 +1,112 @@
+{
+  "id": "flowmon-networks",
+  "name": "Flowmon Networks",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Network performance monitoring and security platform with AI-based anomaly and threat detection",
+    "description_long": "Flowmon Networks (now Progress Flowmon) is a Czech-origin network monitoring and cybersecurity company providing a platform for network traffic visibility, Network Detection & Response (NDR), and Application Performance Monitoring. Its AI/ML-based anomaly detection engine identifies ransomware, insider threats, encrypted malicious traffic, and unknown threats. Originally a university spin-off from Brno, it was acquired by Kemp Technologies in 2020, then became part of Progress Software (NASDAQ: PRGS) in 2021.",
+    "tagline": "Visualize Network Traffic, Identify Issues & Prevent Cyber Incidents",
+    "website": "https://www.progress.com/flowmon",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["fraud_detection", "automation"],
+    "industries_served": ["government", "finance", "education", "telecommunications", "manufacturing"],
+    "company_type": "acquired",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2007,
+    "founders": [],
+    "origin_story": "Originated from the CESNET Liberouter research project (2002). Invea-Tech was spun off in 2007 from Masaryk University, Brno University of Technology and UNIS company based on technology transfer from CESNET. Incubated at the South Moravian Innovation Centre. In 2015 Invea-Tech split into Flowmon Networks and Netcope Technologies. Acquired by Kemp Technologies in November 2020, then by Progress Software in November 2021 for $258M.",
+    "key_milestones": [
+      {"year": 2002, "event": "Origins in CESNET Liberouter research project on programmable hardware networking"},
+      {"year": 2007, "event": "Invea-Tech founded as spin-off from Masaryk University, Brno University of Technology and UNIS"},
+      {"year": 2014, "event": "Recognized as one of fastest growing tech companies in Central Europe by Deloitte Technology Fast 50"},
+      {"year": 2015, "event": "Invea-Tech split into Flowmon Networks and Netcope Technologies"},
+      {"year": 2016, "event": "Acquired FerretApps to supplement APM capabilities"},
+      {"year": 2020, "event": "Acquired by Kemp Technologies for early detection of advanced threats and network anomalies"},
+      {"year": 2021, "event": "Progress Software acquires Kemp Technologies for $258M, including Flowmon; now Progress Flowmon"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "linkedin",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Brno", "country": "CZ", "is_hq": true},
+    {"city": "Bedford", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Progress Software Corporation (NASDAQ: PRGS)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Progress Software Corporation"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.progress.com/company/careers",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["netflow", "ipfix", "python", "c++"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "SPARK Matrix Technology Leader in Network Detection & Response (2025)",
+      "Gartner recognition for NDR",
+      "Deloitte Technology Fast 50 Central Europe (2014)"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Flowmon operates at network infrastructure layer, processing raw NetFlow/IPFIX traffic data in real-time — a domain requiring deep hardware integration and proprietary ML models trained on network behavior baselines. Foundation models cannot easily replicate real-time traffic analysis at scale.",
+    "market_risk": "low",
+    "market_risk_rationale": "Network Detection & Response (NDR) is a growing, well-funded cybersecurity segment with strong enterprise demand. Flowmon is recognized as a Technology Leader in NDR by SPARK Matrix (2025) and serves diversified verticals including government, telco, and industrial control systems.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Flowmon is a product unit of Progress Software (NASDAQ: PRGS), a publicly traded company. Funding and sustainability risks are absorbed by the parent.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Low AGI displacement risk due to infrastructure-layer positioning and real-time network telemetry processing. Backed by a publicly traded parent (Progress Software). Established customer base across regulated sectors (government, education, ICS/SCADA) providing strong retention."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "wikipedia", "linkedin", "progress_investor_relations"],
+    "fields_missing": ["founders", "leadership", "glassdoor_rating", "open_roles", "notable_clients", "revenue_estimate_usd"],
+    "needs_review": false,
+    "notes": "Company is headquartered in Brno (not Prague) but included in CNAIP Czech AI catalog. Founded as Invea-Tech in 2007, became Flowmon Networks in 2015, acquired by Kemp Technologies in 2020, then by Progress Software in 2021 ($258M acquisition of Kemp). Now marketed as Progress Flowmon."
+  }
+}
