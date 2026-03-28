@@ -1,0 +1,117 @@
+{
+  "id": "troja-robotic-lab",
+  "name": "Troja Robotic Lab",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Robotics and AI research lab at Charles University focused on algorithmic intelligence, legged locomotion, and multi-robot systems",
+    "description_long": "Troja Robotic Lab is the robotics and AI research laboratory of Prof. Stefan Edelkamp at the Faculty of Mathematics and Physics, Charles University in Prague. Inspired by Karel Čapek's RUR (Rossum's Universal Robots), the lab is located on the 2nd floor of the Troja campus (V Holešovičkách 2). Research spans Algorithmic Intelligence including Heuristic Search, Action Planning, Game Playing, Machine Learning, Motion Planning, Multi-Agent Simulation, Model Checking, and Robotics. The lab hosts hardware including three humanoid G1comp robots, two robotic dogs (Go2 and Nao), chess-playing robots, industrial conveyor-belt robots, and various mobile platforms. The lab is also affiliated with the Artificial Intelligence Center at CTU Prague.",
+    "tagline": "Algorithmic Intelligence and Robotics — inspired by RUR",
+    "website": "https://ktiml.mff.cuni.cz/~edelkamp/",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/troja-robotic-lab"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["robotics", "automation", "ml_ops"],
+    "industries_served": ["education", "defense", "manufacturing", "transportation"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Stefan Edelkamp"],
+    "origin_story": "Founded by Stefan Edelkamp, full professor in Robotics and AI at Charles University (MFF UK), inspired by Karel Čapek's RUR. Edelkamp previously led planning groups at CTU Prague and King's College London.",
+    "key_milestones": [
+      {"year": 2018, "event": "Runner-Up Optimal Track of International Planning Competition"},
+      {"year": 2023, "event": "Papers published at NeurIPS, ESORICS, CASE, ICAR, EPIA"},
+      {"year": 2024, "event": "Papers published at KI (3x), ISAIM"},
+      {"year": 2025, "event": "Paper in Journal of Intelligent Manufacturing; RIE-25 publication"},
+      {"year": 2026, "event": "AAMAS-26 paper accepted"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Charles University (Faculty of Mathematics and Physics)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Stefan Edelkamp", "role": "Professor / Lab Head (PI)", "source": "cnaip"},
+      {"name": "David Obdrzalek", "role": "Co-Instructor / Contact", "source": "cnaip"}
+    ],
+    "notable_people": [
+      {"name": "Stefan Edelkamp", "note": "Full professor in Robotics and AI at Charles University; previously CTU Prague and King's College London; 230+ papers, h-index=45, 8100+ citations; author of 'Heuristic Search' (Elsevier) and 'Algorithmic Intelligence' (Springer Nature)"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://ktiml.mff.cuni.cz/~edelkamp/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "ros", "unity", "arduino"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Runner-Up Optimal Track, International Planning Competition 2018",
+      "Winner International Planning Competition 2008 and 2014",
+      "Influential Paper Award at ICAPS",
+      "Best Student Paper at ICAART",
+      "Outstanding Paper at KI",
+      "Best Paper at MATES"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Artificial Intelligence Center (CTU Prague)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research lab — not a commercial entity. The lab's research on algorithmic intelligence, legged locomotion, and multi-robot planning contributes to foundational AI/robotics knowledge rather than offering a commercial product susceptible to commoditization.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "University research group funded through academic grants and Charles University budgets; not exposed to commercial market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Operating within Charles University (Faculty of Mathematics and Physics) with stable institutional funding; PI Stefan Edelkamp is a full professor with active grant participation (GACR, DFG panels) and a strong publication record (AAMAS-26, Journal of Intelligent Manufacturing 2025).",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Research lab embedded in a leading Czech university with an internationally recognized PI (h-index=45, 230+ papers); risk profile is that of a stable academic institution rather than a commercial venture."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["cnaip", "company_website", "youtube"],
+    "fields_missing": ["founded_year", "employees_exact", "open_roles_count"],
+    "needs_review": false,
+    "notes": "Lab website is PI's personal academic page at ktiml.mff.cuni.cz/~edelkamp/. YouTube channel: https://www.youtube.com/@rossumrobot. Address: V Holešovičkách 2, 180 00 Praha (Troja campus, MFF UK). Contact: edelkamp@ktiml.mff.cuni.cz. Google Scholar: https://scholar.google.de/citations?user=TKVCz1MAAAAJ"
+  }
+}
