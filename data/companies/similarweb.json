@@ -1,0 +1,129 @@
+{
+  "id": "similarweb",
+  "name": "SimilarWeb",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered digital intelligence platform for web and app analytics, market research, and competitive intelligence",
+    "description_long": "Similarweb is a global software development and data aggregation company specializing in mobile app and web analytics, web traffic measurement, digital performance, SEO tools, and generative engine optimization. The platform processes data from 100M+ websites, 4M+ apps, and 5B+ search terms, providing real-time market intelligence to over 3,500 enterprise customers. Offers products including Web Intelligence, App Intelligence, Sales Intelligence, Retail Intelligence, and Stock Intelligence, all increasingly powered by AI (AI Studio, AI Prospecting Agent, AI Traffic Tracker).",
+    "tagline": "Your Must-Have Data Partner To Win In The AI Era",
+    "website": "https://www.similarweb.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["data_engineering", "ml_ops", "recommendation"],
+    "industries_served": ["marketing", "finance", "ecommerce", "media", "retail", "telecom", "travel"],
+    "company_type": "enterprise",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2007,
+    "founders": ["Or Offer"],
+    "origin_story": "Founded in 2007 by Or Offer in Tel Aviv, Israel. While trying to scale a jewelry business, Offer built a web analytics tool to analyze competitors, which evolved into Similarweb. Won the first Israeli SeedCamp in 2009, attracting international investors.",
+    "key_milestones": [
+      {"year": 2007, "event": "Founded in Tel Aviv, Israel by Or Offer"},
+      {"year": 2009, "event": "Won the first Israeli SeedCamp"},
+      {"year": 2013, "event": "Series A funding (TechCrunch)"},
+      {"year": 2014, "event": "Series C: Naspers invests $18M; acquires TapDog"},
+      {"year": 2015, "event": "Acquires Swayy and Quettra"},
+      {"year": 2020, "event": "Raises $120M"},
+      {"year": 2021, "event": "IPO on NYSE (SMWB) at $1.6B valuation, raising ~$180M"},
+      {"year": 2021, "event": "Acquires Embee"},
+      {"year": 2022, "event": "Acquires RankRanger"},
+      {"year": 2024, "event": "Opens Prague office (Dock in Five); acquires Admetricks and 42matters"},
+      {"year": 2025, "event": "Acquires The Search Monitor"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 1288,
+    "employee_source": "wikipedia",
+    "office_count": 12
+  },
+
+  "offices": [
+    {"city": "New York", "country": "US", "is_hq": true},
+    {"city": "Givatayim", "country": "IL", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Paris", "country": "FR", "is_hq": false},
+    {"city": "Munich", "country": "DE", "is_hq": false},
+    {"city": "Burlington", "country": "US", "is_hq": false},
+    {"city": "São Paulo", "country": "BR", "is_hq": false},
+    {"city": "Florianópolis", "country": "BR", "is_hq": false},
+    {"city": "Santiago", "country": "CL", "is_hq": false},
+    {"city": "Tokyo", "country": "JP", "is_hq": false},
+    {"city": "Singapore", "country": "SG", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "SMWB",
+    "stock_exchange": "NYSE",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2013-09", "type": "Series A", "amount_usd": null, "lead_investor": null},
+      {"date": "2014-02", "type": "Series C", "amount_usd": 18000000, "lead_investor": "Naspers"},
+      {"date": "2020-10", "type": "Late Stage", "amount_usd": 120000000, "lead_investor": null},
+      {"date": "2021-05", "type": "IPO", "amount_usd": 180000000, "lead_investor": null}
+    ],
+    "investors": ["Naspers", "public shareholders (NYSE: SMWB)"],
+    "revenue_estimate_usd": 250000000,
+    "revenue_source": "wikipedia (2024 annual)",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Or Offer", "role": "CEO & Chairman", "source": "wikipedia"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.similarweb.com/corp/careers/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "scala", "java", "javascript", "typescript", "big data", "aws"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": 3500,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Similarweb's core value rests on proprietary clickstream and behavioral data collected from browser extensions, ISP partnerships, and data partners — not easily replicated by foundation models. However, its analytical and SEO tooling increasingly overlaps with capabilities that AI agents can provide, and commoditization of web analytics features is possible over time.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established market leader in digital intelligence with $250M revenue (2024), 3,500+ enterprise customers, and NYSE-listed. Web analytics and competitive intelligence are well-proven categories with strong enterprise demand.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Publicly traded on NYSE (SMWB) since May 2021, generating $250M annual revenue. No meaningful funding risk as a public company.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong proprietary data moat, public company with $250M revenue, 3,500+ enterprise customers, and active expansion (Prague office 2024, multiple acquisitions). AGI commoditization risk is present but mitigated by unique data assets and vertical depth."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "wikipedia", "prague_morning"],
+    "fields_missing": ["glassdoor_rating", "open_roles_count", "funding_total_usd", "tech_stack_exact", "notable_clients"],
+    "needs_review": false,
+    "notes": "Prague office opened July 2024 at Boudníkova 2538/13, 180 00 Praha 8, Dock in Five. Company is Israeli-American, publicly traded. Prague is a development/engineering center. Revenue $250M (2024) from Wikipedia/SEC filings."
+  }
+}
