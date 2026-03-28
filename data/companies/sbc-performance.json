@@ -1,0 +1,121 @@
+{
+  "id": "sbc-performance",
+  "name": "SBC Performance",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Global performance marketing and ad-tech agency using ML for campaign optimization",
+    "description_long": "SBC Performance is an international growth ecosystem combining performance marketing, creative production, data-driven analytics, and automation. Operates a proprietary CRM Hub and creative factory. Direct platform partnerships with TikTok, Meta, Google, Bing, and Snapchat. Manages $150M+ in ad spend for 1750+ clients across eCommerce, Health & Wellness, Education, and Entertainment. Employs Machine Learning Engineers in Prague to power campaign optimization and scaling tools.",
+    "tagline": "Global Advertising Ecosystem — From strategy to execution, we help brands scale with confidence",
+    "website": "https://sbc-performance.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "recommendation", "data_engineering"],
+    "industries_served": ["e-commerce", "health_wellness", "education", "entertainment"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2021,
+    "founders": [],
+    "origin_story": "Started in Q4 2021 as a performance unit focused on making digital marketing measurable and scalable. Built proprietary tracker tools in 2022, launched creative lab, and signed platform partnerships with TikTok, Meta, and Google. Evolved into a full-scale growth agency in 2023.",
+    "key_milestones": [
+      {"year": 2021, "event": "Founded as a performance marketing unit in Prague (Q4)"},
+      {"year": 2022, "event": "Built first proprietary Tracker unifying campaign management, data, and automation"},
+      {"year": 2022, "event": "Launched SBC Creative Lab for data-driven creative production"},
+      {"year": 2022, "event": "Signed official partnerships with TikTok, Meta, and Google"},
+      {"year": 2023, "event": "Evolved into a full-scale growth agency"},
+      {"year": 2024, "event": "Launched proprietary CRM system for account and billing management"},
+      {"year": 2025, "event": "Featured on TikTok Marketing Partners official platform directory"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": 250,
+    "employee_source": "company_website",
+    "office_count": 4
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Warsaw", "country": "PL", "is_hq": false},
+    {"city": "Kyiv", "country": "UA", "is_hq": false},
+    {"city": "Charlotte", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Demian Kladiev", "role": "Agency Director", "source": "rocketreach"},
+      {"name": "Mariia Chupryna", "role": "Human Resources Director", "source": "rocketreach"},
+      {"name": "Artem Konstantynov", "role": "Head of Performance", "source": "linkedin"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://sbc-performance.breezy.hr",
+    "open_roles_count": 15,
+    "open_roles": [
+      {"title": "Machine Learning Engineer", "department": "R&D", "location": "Prague"},
+      {"title": "Full Stack Engineer (Node.js & Angular)", "department": "R&D", "location": "Prague / Kyiv"},
+      {"title": "Head of Sales", "department": "Agency", "location": "Prague / Warsaw / Kyiv"},
+      {"title": "Sales Manager", "department": "Agency", "location": "Multiple"},
+      {"title": "Marketing Manager", "department": "Agency", "location": "Multiple"},
+      {"title": "HR Specialist", "department": "Human Resource", "location": "Multiple"}
+    ],
+    "tech_stack": ["node.js", "angular", "python", "machine_learning"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-SBC-Performance-EI_IE10870003.11,26.htm"
+  },
+
+  "recognition": {
+    "awards": ["TikTok Marketing Partners official directory listing (2025)"],
+    "notable_clients": [],
+    "customer_count": 1750,
+    "partnerships": ["TikTok", "Meta", "Google", "Bing", "Snapchat", "Pinterest"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core value is managed ad services + proprietary CRM Hub and creative production infrastructure. Platform partnerships (TikTok, Meta elite partner) provide moat, but campaign optimization and creative generation are increasingly automated by AI tools built into the ad platforms themselves.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Performance marketing is a large, real market with proven demand ($150M+ ad spend managed). However, it is highly competitive with many agency players and growing automation by the platforms themselves (Meta Advantage+, Google Performance Max) that reduce the need for intermediaries.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No known external funding — appears bootstrapped, which means revenue-funded growth. The agency model can be profitable, but rapid global expansion across 4+ offices with 250+ staff introduces burn risk. No funding signals or investor backing found.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Agency business model with real revenue (1750+ clients, $150M ad spend) provides stability, but commoditization by ad-platform AI and lack of known external funding create moderate risk. ML/R&D investment in Prague suggests product-ization ambitions that could improve moat over time."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin", "rocketreach", "brave_search", "breezy_hr"],
+    "fields_missing": ["founders", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "glassdoor_review_count"],
+    "needs_review": false,
+    "notes": "Czech legal entity: SBC Performance s.r.o., ICO 27957471, address Plzeňská 3350/18, 15000 Praha. Founded year discrepancy: website says Q4 2021 operational start, LinkedIn/RocketReach says 2023. Website timeline used as authoritative. LinkedIn lists company type as 'Public' which appears erroneous for an s.r.o. No CEO/founder information found publicly. Category tagged as AI company likely due to ML Engineer role in Prague R&D team and data-driven marketing automation tools."
+  }
+}
