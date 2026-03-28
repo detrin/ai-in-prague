@@ -1,0 +1,122 @@
+{
+  "id": "fla-robotics",
+  "name": "FLÆ Robotics",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered virtual receptionist and humanoid staff platform for the hospitality industry",
+    "description_long": "FLÆ Robotics was born in May 2024 out of a passion for AI technology. The company builds BE-A, a tiered AI receptionist platform for hotels that handles bookings, guest requests, and day-to-day communication via email, WhatsApp, voice, and (roadmapped) physical humanoid form. BE-A speaks 100+ languages, works 24/7, integrates with PMS/CRS/POS systems, and is designed to save hotels 20–50% on staffing costs. The product roadmap progresses from virtual text assistant → voice AI → avatar/holobox → full humanoid receptionist.",
+    "tagline": "We create the perfect AI staff for hospitality",
+    "website": "https://flaerobotics.ai",
+    "cnaip_url": "https://cnaip.cz/cs/entity/flae-robotics"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "speech", "generative_ai", "automation", "robotics"],
+    "industries_served": ["hospitality", "travel"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2024,
+    "founders": ["Filip Linek", "Lukáš Korous"],
+    "origin_story": "Founded in May 2024 by Filip Linek, a hotelier and entrepreneur (ex-director of PECR Hotel Complex, previously sold OSKAR PLAST to BUNZL), and Lukáš Korous (PhD in applied mathematics, ex-McKinsey), to harness AI to solve the hospitality industry's staffing shortage.",
+    "key_milestones": [
+      {"year": 2024, "event": "Founded in Prague (May 2024)"},
+      {"year": 2024, "event": "BE-A Virtual launched with email and WhatsApp guest communication"},
+      {"year": 2025, "event": "BE-A Voice launched with phone call handling and human-in-the-loop support"},
+      {"year": 2025, "event": "Opened UK sales office; hired Head of UK Sales"},
+      {"year": 2026, "event": "BE-A Avatar and Holobox versions in active development"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "London", "country": "GB", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Filip Linek", "role": "CEO and Chairman of the Board of Directors", "source": "company_website"},
+      {"name": "Lukáš Korous", "role": "Co-Founder & VP of Technology", "source": "company_website"},
+      {"name": "Eishah Sulaiman", "role": "Head of UK Sales", "source": "company_website"},
+      {"name": "Martina Duřtová", "role": "Head of QA & Support", "source": "company_website"},
+      {"name": "Patricie Linek Honslová", "role": "Marketing Director", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Jakub Janský", "role": "Senior Audio Processing Engineer", "note": "PhD from Technical University of Liberec, audio signal processing specialist", "source": "company_website"},
+      {"name": "Sebastian Dix", "role": "Principal Software Engineer", "note": "Python/Django/FastAPI backend; ex-Zultys, Barclays, Deutsche Boerse", "source": "company_website"},
+      {"name": "Jan Kučera", "role": "Hospitality Integrations Lead", "note": "Ex-Deloitte, Rohlik.cz; PMS/CRS/POS integration expert", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://flaerobotics.ai",
+    "open_roles_count": 5,
+    "open_roles": [
+      {"title": "Full-stack and AI-assisted Coding Lead", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Audio Processing Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Senior UI/UX Engineer (React, Unreal)", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Full-stack Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Development Manager", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "django", "fastapi", "nodejs", "react", "unreal-engine", "llm"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Mews (PMS)", "Previo (hotel software)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "BE-A is built on top of LLMs and conversational AI, but FLÆ Robotics differentiates through deep PMS/CRS/POS integrations, a multi-tier physical product roadmap (holobox, humanoid robots), and hospitality domain expertise. The hardware roadmap provides a moat that pure foundation models cannot easily replicate. However, the virtual/voice tiers face competition from any hotelier who could deploy a general-purpose AI agent directly.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The hospitality AI assistant market is real and growing, driven by chronic labor shortages in hotels. However, the market is crowded with competing products, and conversion from demo to signed contracts in enterprise hospitality can be long. The company is very early stage (founded May 2024) with no confirmed public customer base.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Founded in May 2024, FLÆ Robotics mentions 5 investors but discloses no amounts or rounds. The team of 14+ named employees implies a significant monthly burn. With no disclosed revenue or investment round, runway visibility is low for a hardware-roadmap startup.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Very early-stage startup (founded May 2024) targeting enterprise hospitality with no disclosed revenue or funding round size. While the product concept is differentiated and the team is strong, the combination of high burn rate, unproven PMF, and a hardware development roadmap makes this high risk overall."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "customer_count", "investors"],
+    "needs_review": false,
+    "notes": "Company name in CNAIP uses the ligature FLÆ (U+00C6), while the companies_index uses FLÁ (U+00C1). The CNAIP slug is 'flae-robotics'. Website be-a.ai is the product site; flaerobotics.ai is the company site. 5 investors mentioned but not named on website. Founded May 2024."
+  }
+}
