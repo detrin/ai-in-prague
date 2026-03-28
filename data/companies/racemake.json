@@ -1,0 +1,109 @@
+{
+  "id": "racemake",
+  "name": "RACEMAKE",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:30:00Z",
+
+  "overview": {
+    "description": "Next-gen sim racing telemetry analysis and visualization platform",
+    "description_long": "RACEMAKE is a web-based telemetry analysis and visualization platform built by sim racers for sim racers. It replaces traditional numbers-only telemetry tools with dynamic racing line visualizations, brake/throttle overlays, and lap comparison tools. With 7000+ drivers on the platform, RACEMAKE aims to simplify data interpretation to help drivers find lap time. The company describes itself as a spin-off from SETSBASE, with long-term ambitions to expand into real motorsport telemetry. AI-powered coaching features are listed on the product roadmap.",
+    "tagline": "Level up your racing skill, get faster and win",
+    "website": "https://racemake.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2c_saas",
+    "ai_focus": ["recommendation", "data_engineering"],
+    "industries_served": ["gaming", "motorsport", "esports"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2022,
+    "founders": [],
+    "origin_story": "Spin-off from SETSBASE; founded by sim racing enthusiasts in Prague to make telemetry analysis accessible beyond traditional graph-heavy tools like Motec.",
+    "key_milestones": [
+      {"year": 2022, "event": "RACEMAKE s.r.o. incorporated in Prague (December 22)"},
+      {"year": 2024, "event": "Open Beta 0.8 launched, limited to 499 users, supporting Assetto Corsa Competizione"},
+      {"year": 2024, "event": "Privacy Policy effective date March 2024 — product went live"},
+      {"year": 2025, "event": "Open Beta reached 100,000+ laps recorded; Founders Edition (199 spots, $99 for 3 years) sold out"},
+      {"year": 2025, "event": "Early Access launched at $4.99/month with unlimited laps"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "freemium"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Milan", "role": "Founder / Product (first name only from blog)", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://racemake.com/career",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "Community Manager", "department": "marketing", "location": "Remote"}
+    ],
+    "tech_stack": ["javascript", "webflow"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core value is data visualization and lap analysis — relatively thin on proprietary AI, with AI features still on the roadmap. However, the product moat lies in the UX/visualization layer and community of 7000+ racers with laps data, not in raw AI capability.",
+    "market_risk": "high",
+    "market_risk_rationale": "The sim racing telemetry niche is small and already served by established tools (Motec, CrewChief, Simucube). RACEMAKE targets consumer sim racers with a freemium model, making it hard to achieve significant revenue scale without expansion into professional motorsport.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external funding. Very small team (1-10 people), early-stage freemium product with a $4.99/month price point and limited Founders Edition ($99 lifetime) as primary revenue. Runway and burn rate unknown.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Early-stage bootstrapped startup in a niche consumer market with no known funding, limited team size, and AI features still on the roadmap. While the product shows traction (7000+ users, 100k+ laps), the path to sustainability is unclear."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_registry_ares"],
+    "fields_missing": ["founders", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "RACEMAKE is a spin-off from SETSBASE per their blog. Blog author 'Milan' is likely a founder but full name not found publicly. Company address: Zenklova 24/54, Libeň, 18000 Praha 8. ICO: 17854881. The product is primarily a data visualization tool for sim racers; AI coaching features are listed as future functionality in the Founders Edition roadmap."
+  }
+}
