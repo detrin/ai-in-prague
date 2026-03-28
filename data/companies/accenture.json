@@ -1,0 +1,114 @@
+{
+  "id": "accenture",
+  "name": "Accenture",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Global professional services company offering consulting, technology, and outsourcing with a major AI and data practice",
+    "description_long": "Accenture is a Fortune Global 500 multinational technology and management consulting firm serving approximately 9,000 clients in over 120 countries. With 786,000 employees worldwide, Accenture provides Strategy & Consulting, Technology, Operations, Song (marketing/experience), and Industry X services. Their Data & AI practice covers generative AI, agentic AI, automation, cloud, and enterprise transformation. Accenture has a significant presence in the Czech Republic with offices in Prague, serving clients across financial services, consumer goods, industrial, and public sector industries. In 2025–2026 Accenture has aggressively expanded its AI offerings, including acquiring UK-based AI firm Faculty for ~$1 billion.",
+    "tagline": "Let there be change",
+    "website": "https://www.accenture.com/cz-en",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "automation", "ml_ops", "data_engineering"],
+    "industries_served": ["finance", "retail", "manufacturing", "public_sector", "healthcare", "telecommunications", "energy"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1989,
+    "founders": [],
+    "origin_story": "Spun off from Arthur Andersen's technology consulting division in 1989 as Andersen Consulting; renamed Accenture on 1 January 2001. Incorporated in Bermuda (2001), reincorporated in Ireland (2009). IPO on NYSE in July 2001.",
+    "key_milestones": [
+      {"year": 1989, "event": "Founded as Andersen Consulting, spun off from Arthur Andersen"},
+      {"year": 2001, "event": "Renamed to Accenture; IPO on NYSE at $14.50/share"},
+      {"year": 2009, "event": "Reincorporated in Dublin, Ireland"},
+      {"year": 2017, "event": "Became strategic partner of The Alan Turing Institute"},
+      {"year": 2025, "event": "Annual revenue reaches $69.67 billion; launched AI-focused 'Reinvention Services' reorganization"},
+      {"year": 2026, "event": "Acquired UK AI company Faculty for ~$1 billion; acquired Ookla for $1.2 billion"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 786000,
+    "employee_source": "company_website",
+    "office_count": 200
+  },
+
+  "offices": [
+    {"city": "Dublin", "country": "IE", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "New York", "country": "US", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Paris", "country": "FR", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "ACN",
+    "stock_exchange": "NYSE",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 69670000000,
+    "revenue_source": "annual_report_fy2025",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Julie Sweet", "role": "Chair & CEO", "source": "company_website"},
+      {"name": "Angie Park", "role": "Chief Financial Officer", "source": "company_website"},
+      {"name": "Kate Hogan", "role": "Chief Operating Officer", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.accenture.com/cz-en/careers",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "java", "azure", "aws", "gcp", "salesforce", "sap"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Accenture-EI_IE4138.11,20.htm"
+  },
+
+  "recognition": {
+    "awards": ["Fortune Global 500 (#211, 2026)", "S&P 100 component", "S&P 500 component", "Russell 1000 Index"],
+    "notable_clients": [],
+    "customer_count": 9000,
+    "partnerships": ["Microsoft", "SAP", "Salesforce", "ServiceNow", "AWS", "Google Cloud", "The Alan Turing Institute"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Accenture's consulting and implementation services involve deep client relationships, proprietary platforms (e.g. SynOps), and domain expertise that are hard to replicate via generic AI. However, portions of their knowledge work (documentation, analysis, code generation) are increasingly automatable, and clients may reduce reliance on large SI/consulting firms as AI tools improve. Accenture is actively adapting via its AI-first reorganization and acquisitions like Faculty.",
+    "market_risk": "low",
+    "market_risk_rationale": "Accenture operates in large, stable, and growing markets (IT consulting, AI transformation) with ~9,000 enterprise clients and $69.67B in annual revenue. Demand for AI implementation and enterprise transformation continues to grow strongly.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Accenture is a publicly traded NYSE company (ACN) with $69.67B in annual revenues, $7.83B net income, and $65.39B in assets. Funding risk is not applicable.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "As a massive, publicly traded enterprise with deep client relationships, a proprietary AI-powered operations platform, and over 786,000 employees, Accenture faces limited existential risk. The medium AGI displacement risk is offset by the company's scale, ongoing AI-native transformation, and strong financial position."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "wikipedia", "newsroom_accenture"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "employees_cz_prague", "open_roles_count"],
+    "needs_review": false,
+    "notes": "Accenture is a global enterprise with Prague/Czech Republic presence. No CNAIP URL in index. Revenue and employee figures are global, not Czech-specific. Glassdoor blocked automated access (403). Czech headcount not publicly disclosed separately."
+  }
+}
