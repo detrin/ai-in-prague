@@ -1,0 +1,111 @@
+{
+  "id": "u12137-machine-vis",
+  "name": "U12137 Machine Vision Lab",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T22:00:00Z",
+
+  "overview": {
+    "description": "Machine vision and automatic control research group at CTU Prague",
+    "description_long": "The Machine Vision Lab (Unit 12137) is the Division of Automatic Control and Engineering Informatics within the Department of Instrumentation and Control Engineering (Ústav přístrojové a řídicí techniky, U12110) at Czech Technical University in Prague's Faculty of Mechanical Engineering. The division focuses on advanced control algorithms, machine perception, signal and data processing — all with focus on industrial systems. Key research areas include machine vision for industrial measurement, machine learning for anomaly detection, automatic control of technical processes, vibration suppression, and robotics.",
+    "tagline": "Machine perception and advanced control for industrial systems",
+    "website": "https://control.fs.cvut.cz/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["cv", "ml_ops", "automation"],
+    "industries_served": ["manufacturing", "robotics", "industrial_automation"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": "Division 12137 (Odbor automatického řízení) is part of the Department of Instrumentation and Control Engineering (U12110) at CTU Faculty of Mechanical Engineering, established as part of CTU's research structure. The department itself was formed in 1998 by merging the Department of Electrotechnology and Precision Mechanics.",
+    "key_milestones": [
+      {"year": 1998, "event": "Parent institute (U12110) formed by merging departments"},
+      {"year": 2019, "event": "Publication: Machine vision object measurement in difficult industry environment (Oswald)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 31,
+    "employee_source": "ctu_people_database",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (ČVUT), Faculty of Mechanical Engineering",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "prof. Ing. Tomáš Vyhlídal, Ph.D.", "role": "Head of Division (vedoucí)", "source": "ctu_people_database"},
+      {"name": "Ing. Cyril Oswald, Ph.D.", "role": "Researcher — Machine Learning, Data Analysis, Automatic Control", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "doc. Ing. Jaromír Fišer, Ph.D.", "role": "Associate Professor", "source": "ctu_people_database"},
+      {"name": "Ing. Matouš Cejnek, Ph.D.", "role": "Assistant Professor — signal processing", "source": "ctu_people_database"},
+      {"name": "Dr. Goran Simeunovič, Ph.D.", "role": "Researcher", "source": "ctu_people_database"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://control.fs.cvut.cz/en/prospective-students/ph-d-program/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD student", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "matlab", "labview"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Siemens"],
+    "customer_count": null,
+    "partnerships": ["Centre for Applied Cybernetics", "ROBOPROX project"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at CTU; not a commercial product. Research on machine vision for industrial measurement is complementary to, rather than displaced by, foundation models.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "University research division funded by grants and institutional support; not exposed to commercial market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Funded through CTU institutional budget, Czech Science Foundation grants, and projects such as ROBOPROX and Centre for Applied Cybernetics. Stable grant-funded academic research.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research group at Czech Technical University; risk profile not applicable for commercial risk assessment. Research output drives academic reputation rather than commercial revenue."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["ctu_people_database", "company_website", "wordpress_api", "orcid"],
+    "fields_missing": ["founded_year", "glassdoor", "open_roles_count", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "U12137 is officially named 'Division of Automatic Control and Engineering Informatics' (Odbor automatického řízení) — part of CTU's Department of Instrumentation and Control Engineering (U12110). The 'Machine Vision Lab' designation used in the index reflects machine vision/perception as a key research area within the division, confirmed by Oswald's 2019 publication on 'Machine vision object measurement in difficult industry environment'. The division is at Dejvice campus, rooms A1 and B1, Technical 4, Prague 6."
+  }
+}
