@@ -1,0 +1,103 @@
+{
+  "id": "futugen",
+  "name": "FutuGen",
+  "category": "company",
+  "scraped_at": "2026-03-28T19:35:00Z",
+
+  "overview": {
+    "description": "Czech AI startup building automation, analytics, and a predictive platform combining multi-agent AI with prediction markets",
+    "description_long": "FutuGen is a Czech AI startup helping businesses and individuals harness the power of artificial intelligence — from automation and data analysis to predictive systems of the future. The company focuses on developing and implementing AI solutions across various industries, helping clients process unstructured data, automate workflows, and build intelligent analytics. One of their own research projects is a predictive AI platform combining multi-agent systems, behavioral data, and collective intelligence to forecast future events — from personal life trajectories to market trends — leveraging blockchain for transparent reward distribution.",
+    "tagline": "The Future is Now",
+    "website": "https://futugen.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["ml_ops", "automation", "recommendation"],
+    "industries_served": ["finance", "other"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2025,
+    "founders": [],
+    "origin_story": "Founded in Hradec Králové as a Czech AI startup focused on pragmatic AI adoption — rapid prototyping and measurable results. Developed an internal research project around a predictive AI platform combining multi-agent systems and prediction markets with blockchain distribution.",
+    "key_milestones": [
+      {"year": 2025, "event": "Founded; launched futugen.cz landing page and StartupJobs listing"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "startupjobs",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Hradec Králové", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.startupjobs.com/startup/futugen",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "AI/ML Engineer", "department": "engineering", "location": "Hradec Králové / Remote"}
+    ],
+    "tech_stack": ["python", "machine_learning", "multi-agent_systems"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "FutuGen's core business is AI consulting/implementation services for enterprises — a category highly vulnerable to commoditization as foundation models make AI adoption increasingly plug-and-play. Their predictive platform is early-stage research with no evident proprietary data moat.",
+    "market_risk": "medium",
+    "market_risk_rationale": "AI consulting is a real and growing market in Central/Eastern Europe, but it is highly competitive with large system integrators (Accenture, Deloitte, local consultancies) dominating enterprise deals. The prediction markets niche is interesting but unproven at scale.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external funding, actively looking for a cofounder (signal of very early stage), and minimal public presence. Bootstrapped micro-startup with high runway risk and no disclosed paying customers.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "FutuGen is a very early-stage bootstrapped startup with no funding, no disclosed clients, and a core consulting business model that is highly susceptible to AGI commoditization. The predictive platform research project is promising conceptually but remains unvalidated."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "startupjobs"],
+    "fields_missing": ["founders", "founded_year_exact", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "leadership"],
+    "needs_review": true,
+    "notes": "Company is based in Hradec Králové (not Prague), but is listed in the Czech AI catalog. Website (futugen.cz) was built with Lovable.dev (no-code AI builder — visible in OG meta twitter:site tag). The company advertises as looking for a cofounder, suggesting it is a 1–2 person founding-stage startup. No information found on founders' names or LinkedIn profiles. The predictive AI platform described on the website combines multi-agent AI with prediction markets and blockchain distribution."
+  }
+}
