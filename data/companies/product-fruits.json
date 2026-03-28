@@ -1,0 +1,117 @@
+{
+  "id": "product-fruits",
+  "name": "Product Fruits",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "AI-powered product adoption platform for user onboarding and digital adoption",
+    "description_long": "Product Fruits is an AI-driven digital adoption platform (DAP) that helps SaaS product teams create effective in-app onboarding flows, product tours, hints, tooltips, NPS surveys, and knowledge bases — all without coding. Their Elvin AI copilot autonomously resolves support questions, generates personalized onboarding flows, and guides users to activation through adaptive, conversational onboarding. Trusted by 1,300+ teams including Sanofi, Rakuten, and Mango.",
+    "tagline": "The AI-Powered Product Adoption Platform",
+    "website": "https://productfruits.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["generative_ai", "automation", "recommendation"],
+    "industries_served": ["saas", "enterprise_software", "e-commerce", "education"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2019,
+    "founders": ["Ladislav Šalom", "Karel Papik"],
+    "origin_story": "Founded in June 2019 by Ladislav Šalom and Karel Papik in Prague to help SaaS teams deliver effective user onboarding without coding.",
+    "key_milestones": [
+      {"year": 2019, "event": "Founded in Prague, Czech Republic"},
+      {"year": 2023, "event": "Raised €1.6M seed round led by Leverage and Venture to Future Fund"},
+      {"year": 2024, "event": "Raised additional €1.47M led by Reflex Capital, total funding €3.22M"},
+      {"year": 2024, "event": "Launched Elvin AI copilot for autonomous onboarding and support ticket reduction"},
+      {"year": 2026, "event": "Rebranded as 'The AI-Powered Product Adoption Platform'; serves 1,300+ teams"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 33,
+    "employee_source": "linkedin_rocketreach",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 3500000,
+    "funding_rounds": [
+      {"date": "2023", "type": "Seed", "amount_usd": 1700000, "lead_investor": "Leverage (LVRG)"},
+      {"date": "2024-05", "type": "Seed Extension", "amount_usd": 1600000, "lead_investor": "Reflex Capital"}
+    ],
+    "investors": ["Reflex Capital", "Lighthouse Ventures", "LVRG (The LVRG Group)", "Venture to Future Fund"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ladislav Šalom", "role": "Co-Founder", "source": "linkedin"},
+      {"name": "Karel Papik", "role": "Co-Founder", "source": "linkedin"},
+      {"name": "Martin Fišera", "role": "CPO", "source": "linkedin"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://productfruits.com/jobs",
+    "open_roles_count": 4,
+    "open_roles": [
+      {"title": "Senior Account Executive", "department": "sales", "location": "Prague"},
+      {"title": "Account Based Marketing Manager", "department": "marketing", "location": "Prague"},
+      {"title": "Partnership Manager", "department": "business_development", "location": "Prague"},
+      {"title": "Performance Manager - Social Media", "department": "marketing", "location": "Prague"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Product-Fruits-EI_IE10042767.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Sanofi", "Rakuten", "Mango", "Keboola", "IU (International University)"],
+    "customer_count": 1300,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Product Fruits wraps AI capabilities (Elvin AI copilot) around a product adoption layer with in-app integration, analytics, segmentation, and no-code workflow tooling. The core onboarding content generation could be commoditized by foundation models, but the deep in-app integration layer, behavioral analytics, and enterprise SaaS integrations provide some moat. Competitors are also racing to add AI, increasing the risk.",
+    "market_risk": "low",
+    "market_risk_rationale": "The digital adoption platform (DAP) market is established and growing, with real paying customers (1,300+ teams) including enterprise brands like Sanofi and Rakuten. Product-led growth and onboarding automation are mainstream SaaS priorities, providing sustained demand.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Total funding of ~€3.22M is modest (seed stage), but the company has 1,300+ paying customers generating SaaS subscription revenue, reducing dependency on venture capital. Plans to expand to US and European markets may require additional funding.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Product Fruits has genuine traction with 1,300+ customers and real revenue, but operates in a competitive space (Pendo, WalkMe, Userpilot) where AI is increasingly table stakes. The modest funding base and mid-market positioning create execution risk even as market demand is solid."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin", "thesaasnews.com", "tracxn", "yahoo_search", "rocketreach"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "revenue_estimate_usd", "tech_stack"],
+    "needs_review": false,
+    "notes": "Founded June 2019 per LinkedIn/TheOrg (Tracxn also confirms 2019); LinkedIn company page shows 'Founded 2021' which may reflect a rebranding or legal entity change. Funding total of ~$3.5M / €3.22M confirmed by multiple sources. 33 employees per RocketReach, 29 on LinkedIn (March 2026)."
+  }
+}
