@@ -1,0 +1,121 @@
+{
+  "id": "luigis-box",
+  "name": "Luigi's Box",
+  "category": "company",
+  "scraped_at": "2026-03-28T17:55:00Z",
+
+  "overview": {
+    "description": "AI-powered product discovery suite for e-commerce (search, recommendations, product listing, analytics)",
+    "description_long": "Luigi's Box is an intelligent, AI-powered platform built to enhance e-commerce product discovery. It improves the online shopping experience through fast, relevant search results, tailored recommendations, customizable product listings, and an intuitive shopping assistant. Backed by actionable analytics, it helps e-shops boost engagement and drive revenue. Used by 2,000+ e-shops across almost 30 languages, including KiK, Škoda, Nespresso, Under Armour, Notino and Muziker.",
+    "tagline": "AI-Powered Discovery Suite for e-commerce",
+    "website": "https://www.luigisbox.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "recommendation", "automation"],
+    "industries_served": ["e-commerce", "retail"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2016,
+    "founders": ["Gejza Nagy", "Michal Barla", "Tomáš Kramár"],
+    "origin_story": "Founded by a team from an academic background studying personalization, profiling, and search. Research began in 2014; officially launched product in 2016 with an analytics tool for e-commerce search.",
+    "key_milestones": [
+      {"year": 2014, "event": "Team begins research on personalization and search"},
+      {"year": 2016, "event": "Luigi's Box officially launched with analytics tool for site search"},
+      {"year": 2021, "event": "Pandemic spurred team to triple staff; revenue reached 1 million EUR"},
+      {"year": 2023, "event": "Doubled revenue; 1,000+ e-shops using products"},
+      {"year": 2024, "event": "Doubled revenue third time in a row; 2,000+ e-shops; won E-Commerce Germany Award"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": 130,
+    "employee_source": "company_website",
+    "office_count": 4
+  },
+
+  "offices": [
+    {"city": "Bratislava", "country": "SK", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Warsaw", "country": "PL", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": "Press coverage notes revenue doubled three times in a row as of 2024; reached 1M EUR milestone (year unknown, pre-2024)",
+    "business_model": "usage_based"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Gejza Nagy", "role": "CEO & Co-founder", "source": "company_website"},
+      {"name": "Michal Barla", "role": "Co-founder", "source": "company_website"},
+      {"name": "Tomáš Kramár", "role": "Co-founder", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.luigisbox.com/careers/",
+    "open_roles_count": 3,
+    "open_roles": [
+      {"title": "Business Development Representative", "department": "sales", "location": "remote"},
+      {"title": "Integrations Project Manager", "department": "engineering", "location": "remote"},
+      {"title": "Senior Backend Engineer – Search & Discovery", "department": "engineering", "location": "remote"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": 5.0,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "G2 Leader in Site Search (multiple years 2022–2025)",
+      "G2 Leader in E-Merchandising (multiple years)",
+      "E-Commerce Germany Award 2024",
+      "E-Commerce Berlin Expo 2020 Winner"
+    ],
+    "notable_clients": ["KiK", "Škoda", "Nespresso", "Under Armour", "LEDVANCE", "Notino", "Muziker", "Answear", "11teamsports"],
+    "customer_count": 2000,
+    "partnerships": ["AWS", "Shopify", "WooCommerce", "Magento", "Shopware", "PrestaShop", "OpenCart", "BigCommerce", "Shoptet"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Luigi's Box builds AI-powered e-commerce search and discovery, a vertical where foundation models and cloud providers (AWS Personalize, Google Vertex AI Search, Azure) are increasingly competing. Their domain expertise, behavioral data from 2,000+ e-shops, and usage-based model provide some lock-in, but the core NLP/search capabilities are increasingly commoditized.",
+    "market_risk": "low",
+    "market_risk_rationale": "E-commerce search and product discovery is a large, established market with proven demand and paying customers across multiple continents. Revenue tripled multiple times in succession, validating strong PMF. Serves businesses of all sizes across 30 languages.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No public funding rounds or VC backing found. Company appears bootstrapped/founder-led, growing on revenue. Revenue doubling multiple times is a positive signal, but lack of external funding and relatively small team (130+) could limit scaling capacity against well-funded competitors.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong revenue growth and proven PMF offset the competitive threat from big-tech entrants in AI-powered search. Bootstrapped model is an asset for profitability but a risk for speed-to-scale. Overall a solid vertical SaaS play with medium risk profile."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "company_website_ai_information_page", "company_website_careers", "company_website_about", "company_website_press", "company_website_contact"],
+    "fields_missing": ["funding_total_usd", "funding_rounds", "investors", "revenue_estimate_usd", "glassdoor_review_count", "glassdoor_url", "glassdoor_recommend_pct", "tech_stack"],
+    "needs_review": false,
+    "notes": "HQ is Bratislava, Slovakia; Prague is a secondary office. Company is listed in the Prague/Czech AI catalog due to Czech office presence. Revenue reached 1M EUR milestone; doubled revenue 3 consecutive years through at least 2024. 5-star Glassdoor rating is self-reported on careers page. Founders sourced from /ai-information/ page."
+  }
+}
