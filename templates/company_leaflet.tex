@@ -45,18 +45,14 @@
 
 \begin{document}
 
-% --- Header ---
-\begin{tikzpicture}[remember picture, overlay]
-  \fill[accent] ([yshift=0cm]current page.north west) rectangle ([yshift=-1.8cm]current page.north east);
-\end{tikzpicture}
-
-\vspace{-0.6cm}
-{\color{white}\Large\bfseries VAR_NAME}\hfill{\color{white}\small VAR_CATEGORY}
-
-\vspace{1pt}
-{\color{white!85}\footnotesize VAR_TAGLINE}
-
-\vspace{0.5cm}
+% --- Header (full-width banner) ---
+\noindent\hspace*{-1.2cm}\colorbox{accent}{\parbox{\dimexpr\paperwidth\relax}{\hspace{1.2cm}\parbox{\dimexpr\textwidth\relax}{%
+\vspace{8pt}%
+{\color{white}\fontsize{28}{32}\selectfont\bfseries VAR_NAME\hfill{\small VAR_CATEGORY}}%
+\vspace{4pt}\par%
+{\color{white!85}\footnotesize VAR_TAGLINE}%
+\vspace{8pt}%
+}}}\par\vspace{6pt}
 
 % --- Top row: Overview + Quick Facts ---
 \begin{minipage}[t]{0.62\textwidth}
