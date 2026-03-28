@@ -1,0 +1,117 @@
+{
+  "id": "recombeelab",
+  "name": "RecombeeLab",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Joint industrial research laboratory of Recombee and CTU FIT Prague, focused on recommendation systems and ML",
+    "description_long": "RecombeeLab is the research division of Recombee and a joint research laboratory with the Faculty of Information Technology at the Czech Technical University in Prague (CTU FIT). The lab advances the science of recommender systems, machine learning, and generative AI, publishing peer-reviewed research at top-tier venues (RecSys, NeurIPS, CIKM, UMAP) while translating findings into Recombee's production recommendation-as-a-service platform. In 2025, the lab published 15 papers across 5 conferences (mostly A/A*-ranked) and 6 journals (mostly Q1). RecombeeLab also maintains open-source projects (ELSA, Repsys, beeFormer) and supports PhD students at CTU.",
+    "tagline": "Advancing AI Through Research & Community",
+    "website": "https://www.recombee.com/research",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["recommendation", "ml_ops", "generative_ai", "nlp"],
+    "industries_served": ["e-commerce", "media", "video", "music"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2015,
+    "founders": ["Pavel Kordík", "Tomáš Řehořek", "Ondřej Fiedler", "Gabriela Takáčová", "Antonín Král", "Tomáš Barton"],
+    "origin_story": "RecombeeLab emerged as the research arm of Recombee (founded 2015) through a formal joint laboratory partnership with the Faculty of Information Technology at Czech Technical University in Prague, combining industry-funded research with academic collaboration.",
+    "key_milestones": [
+      {"year": 2015, "event": "Recombee founded in Prague (parent entity)"},
+      {"year": 2025, "event": "Rodrigo Alves became Head of Research; lab published 15 papers at A/A*-ranked venues"},
+      {"year": 2025, "event": "RecSys 2025 conference held in Prague, Recombee team served as general chair, industry chair, and local chairs"},
+      {"year": 2026, "event": "Participating in ACM Web Conference 2026 in Dubai"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Recombee",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Rodrigo Alves", "role": "Head of Research", "source": "company_website"},
+      {"name": "Pavel Kordík", "role": "CEO & Co-Founder (Recombee); principal researcher", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Vojtěch Vančura", "role": "Machine Learning Researcher", "source": "company_website"},
+      {"name": "Petr Kasalický", "role": "Machine Learning Researcher", "source": "company_website"},
+      {"name": "Martin Spišák", "role": "Researcher (inferred from publications)", "source": "company_website"},
+      {"name": "Antoine Ledent", "role": "Researcher (inferred from publications)", "source": "company_website"},
+      {"name": "Dan Bohuněk", "role": "Applied Scientist", "source": "company_website"},
+      {"name": "Jaroslav Hradil", "role": "Applied Scientist", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.recombee.com/about-us",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "pytorch", "recommendation-systems", "sparse-autoencoders", "llms"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "15 papers published in 2025 at A/A*-ranked conferences and Q1 journals",
+      "RecSys 2025 organizers (general chair, industry chair, local chairs)"
+    ],
+    "notable_clients": ["The Telegraph"],
+    "customer_count": null,
+    "partnerships": ["Czech Technical University in Prague (FIT)", "DataLab CTU"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "RecombeeLab is an academic-style industrial research group, not a commercial product. AGI displacement risk does not apply to research groups whose mission is to advance the science.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research group operating under Recombee's umbrella. Market risk assessment does not apply; the lab's continuity depends on Recombee's business health, not market competition directly.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Funded by Recombee (a commercially active company with thousands of clients) and supported by academic partnership with CTU. No independent funding risk to assess.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "As a research division of a commercially active company with stable academic partnerships and active publication output, the lab faces no distinct standalone risk profile that warrants a high/medium/low rating."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "recombee_research_page", "recombee_about_page", "recombee_blog_2025_retrospective"],
+    "fields_missing": ["founded_year_of_lab_specifically", "glassdoor_rating", "open_roles_count", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "RecombeeLab is the named research division of Recombee s.r.o. (Prague), operating as a joint lab with CTU FIT. Founded year reflects Recombee's founding (2015); the formal RecombeeLab branding is more recent. Pavel Kordík is both CEO of Recombee and the principal academic link to CTU. Rodrigo Alves is Head of Research since 2025."
+  }
+}
