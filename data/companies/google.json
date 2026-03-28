@@ -1,0 +1,129 @@
+{
+  "id": "google",
+  "name": "Google",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "Global technology leader with a major Prague engineering hub, building AI-powered products across search, cloud, maps, productivity, and developer tools",
+    "description_long": "Google LLC (subsidiary of Alphabet Inc.) operates one of its largest Central/Eastern European engineering offices in Prague, Czechia. The Prague office — located in Smíchov — hosts software engineers, technical solutions specialists, and cloud professionals working on products including Search, Maps, YouTube, Google Cloud, and AI-native features powered by Gemini. Google is also the parent of Google DeepMind and the creator of foundational AI infrastructure including TensorFlow, Vertex AI, and the Gemini family of large language models.",
+    "tagline": "Organize the world's information and make it universally accessible and useful",
+    "website": "https://www.google.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["generative_ai", "nlp", "cv", "ml_ops", "recommendation", "speech"],
+    "industries_served": ["advertising", "cloud", "productivity", "consumer_internet", "enterprise_software", "healthcare", "autonomous_vehicles"],
+    "company_type": "enterprise",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 1998,
+    "founders": ["Larry Page", "Sergey Brin"],
+    "origin_story": "Founded by two Stanford PhD students in a Menlo Park garage; restructured under parent company Alphabet Inc. in 2015.",
+    "key_milestones": [
+      {"year": 1998, "event": "Founded by Larry Page and Sergey Brin at Stanford"},
+      {"year": 2004, "event": "IPO on NASDAQ (GOOGL/GOOG)"},
+      {"year": 2006, "event": "Opened Prague engineering office in Czech Republic"},
+      {"year": 2014, "event": "Acquired DeepMind"},
+      {"year": 2015, "event": "Restructured under Alphabet Inc. as parent holding company"},
+      {"year": 2023, "event": "Launched Bard (later Gemini) generative AI assistant"},
+      {"year": 2024, "event": "Google DeepMind consolidated; Gemini Ultra and 1.5 Pro released"},
+      {"year": 2025, "event": "Alphabet revenue reaches $402.8B; 190,820 employees globally"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 190820,
+    "employee_source": "wikipedia_alphabet_annual_report_2025",
+    "office_count": 170
+  },
+
+  "offices": [
+    {"city": "Mountain View", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Zurich", "country": "CH", "is_hq": false},
+    {"city": "Warsaw", "country": "PL", "is_hq": false},
+    {"city": "Dublin", "country": "IE", "is_hq": false},
+    {"city": "New York", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "GOOGL",
+    "stock_exchange": "NASDAQ",
+    "parent_company": "Alphabet Inc.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 402836000000,
+    "revenue_source": "Alphabet 2025 Annual 10-K (SEC filing, February 2026)",
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Sundar Pichai", "role": "CEO, Google & Alphabet", "source": "wikipedia"},
+      {"name": "Ruth Porat", "role": "President & CIO, Alphabet", "source": "wikipedia"},
+      {"name": "Anat Ashkenazi", "role": "CFO, Alphabet", "source": "wikipedia"},
+      {"name": "John L. Hennessy", "role": "Chairman, Alphabet", "source": "wikipedia"}
+    ],
+    "notable_people": [
+      {"name": "Demis Hassabis", "role": "CEO, Google DeepMind", "source": "public_knowledge"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://careers.google.com/locations/prague/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Software Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Technical Solutions Engineer", "department": "technical_solutions", "location": "Prague"},
+      {"title": "Cloud Architect", "department": "cloud", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "go", "java", "c++", "kubernetes", "tensorflow", "jax", "bigquery", "gcp"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Google-EI_IE9079.11,17.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Fortune 100 Best Companies to Work For (multiple years)",
+      "TIME100 Most Influential Companies",
+      "Fast Company Most Innovative Companies"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["NVIDIA", "Samsung", "Sony", "Intel", "Qualcomm"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Google is one of the primary builders of foundation AI models (Gemini, Google DeepMind). Its core products — Search, Maps, YouTube, Gmail — are deeply integrated infrastructure that users depend on daily. The company's AI capabilities are a competitive moat rather than a liability.",
+    "market_risk": "low",
+    "market_risk_rationale": "Google holds dominant market positions in search (~90% global share), digital advertising, and is a strong #2 in cloud. While AI-driven search disruption (Perplexity, OpenAI) poses long-term competitive pressure, Google is actively investing in AI-first product transformation.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Alphabet is publicly traded on NASDAQ with $402.8B revenue (2025) and $132.2B net income. Google is self-funding with substantial cash reserves. No funding risk.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Google is among the best-positioned technology companies globally for the AI era. Its deep proprietary AI research (DeepMind, Brain), massive distribution (3B+ users), and infrastructure investments make it a net beneficiary of AI advancement. Prague office is an established, strategic engineering hub."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["about.google", "wikipedia_alphabet", "linkedin", "welcometothejungle", "google_careers"],
+    "fields_missing": ["employees_prague_exact", "open_roles_count", "glassdoor_rating", "glassdoor_review_count"],
+    "needs_review": false,
+    "notes": "Global Alphabet employee count used (190,820 as of Dec 2025). Prague office confirmed at Stroupežnického 3191/17, 150 00 Praha 5-Smíchov (Google's official locations page). Prague office is one of Google's major CEE engineering hubs, established ~2006. Revenue figure is for Alphabet Inc. (2025 10-K). business_model set to 'other' as Google's revenue is primarily advertising-based (not a standard SaaS/subscription model). Glassdoor data not accessible (login wall)."
+  }
+}
