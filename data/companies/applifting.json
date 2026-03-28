@@ -1,0 +1,118 @@
+{
+  "id": "applifting",
+  "name": "Applifting",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Digital product development consultancy building software and AI-powered products",
+    "description_long": "Applifting is a Prague-based digital product studio that designs, builds, and scales software products—from MVPs to complex enterprise systems. Founded in 2014, they operate under a 'teal' self-management culture and offer end-to-end services covering product ideation, UX/UI design, frontend, backend, mobile, QA, cloud/DevOps, and AI enhancement. Notable projects include BankID, Jablotron, FTMO, and Foedus (organ transplant coordination platform for the EU).",
+    "tagline": "Lifting your ideas into digital orbit",
+    "website": "https://applifting.io",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "automation"],
+    "industries_served": ["fintech", "banking", "logistics", "healthcare", "energy", "e-commerce"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2014,
+    "founders": ["Filip Kirschner", "Vratislav (last name not publicly confirmed)"],
+    "origin_story": "Founded in Prague in 2014 by Filip Kirschner and Vratislav as a value-driven software company with a 'teal' self-management philosophy. Started as a small developer shop and grew to 200+ people over 12 years.",
+    "key_milestones": [
+      {"year": 2014, "event": "Founded in Prague"},
+      {"year": 2019, "event": "Opened London office at Canary Wharf"},
+      {"year": 2024, "event": "Celebrated 10th anniversary; launched AI ideation and AI enhancement service offerings"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "London", "country": "GB", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Filip Kirschner", "role": "Co-founder", "source": "company_website"},
+      {"name": "Vratislav", "role": "Co-founder", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://applifting.io/careers",
+    "open_roles_count": 10,
+    "open_roles": [
+      {"title": "iOS Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Software Architect", "department": "engineering", "location": "Prague"},
+      {"title": "Business Developer for UK Market", "department": "sales", "location": "London"},
+      {"title": "Scrum Master", "department": "engineering", "location": "Prague"},
+      {"title": "Python Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Technical Analyst", "department": "engineering", "location": "Prague"},
+      {"title": "Node.JS Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Quality Assurance Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Java/Kotlin Developer", "department": "engineering", "location": "Prague"},
+      {"title": ".NET Developer", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["java", "kotlin", "python", "nodejs", "typescript", "react", "swift", "android", "dotnet", "cloud", "devops", "figma"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["BankID", "Jablotron", "Erste Group", "FTMO", "DHL", "FactSet", "Heureka", "Alpiq", "Foedus", "Deliciously Ella", "Investown"],
+    "customer_count": null,
+    "partnerships": ["Feb Ventures"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Applifting's core value proposition is custom software development consulting. As AI coding assistants and autonomous agents mature, the demand for traditional 'team of developers' engagements is directly at risk—the company itself acknowledges in blog posts that 'AI is speeding up software engineering.' The shift to AI-augmented or AI-autonomous development compresses the labor arbitrage that consulting firms rely on.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Custom software development is a mature, well-established market with consistent demand from enterprises that need digital transformation. However, the industry faces structural pressure from AI tooling reducing headcount needs, and competition from lower-cost offshore consultancies. Applifting mitigates this by offering AI services and maintaining strong client relationships in the Czech and UK markets.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Applifting appears to be bootstrapped with no known external funding rounds. However, 12 years of operation with 200+ employees, 100+ clients, and 300+ products built suggests a self-sustaining revenue base. The unknown factor is margins and runway if the consulting market contracts.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "As a mature 12-year-old bootstrapped software consultancy with a strong client roster and London/Prague presence, Applifting has resilience. However, the structural displacement risk from AI coding tools is real and accelerating—the company is actively adapting by adding AI services, but the core consulting model faces headwinds."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "github"],
+    "fields_missing": ["glassdoor_rating", "funding_total_usd", "revenue_estimate_usd", "founders_full_names"],
+    "needs_review": false,
+    "notes": "Co-founder Vratislav's last name not confirmed from available public sources. Company was listed in CNAIP but no CNAIP profile URL available. GitHub org created December 2013, website says 'Since 2014' and '12 Years on the market' as of 2026."
+  }
+}
