@@ -1,0 +1,128 @@
+{
+  "id": "robotwin",
+  "name": "RoboTwin",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "No-code robot teaching for manufacturing via motion imitation",
+    "description_long": "RoboTwin builds smart robot teaching tools that allow factory workers to teach robots through physical demonstration, without any programming knowledge. Workers demonstrate a task (spray painting, grinding, polishing), RoboTwin records the motion via a 6 DoF tracking device, generates the robot trajectory, and automates the process — in 3 steps and under 1 minute. Products include RoboTwin (spray painting), RoboTeach (general tasks), and RoboTeach for grinding. Technology is patented and integrates with major robot OEMs plug-and-play.",
+    "tagline": "Easy robot teaching – 3 steps & 1 minute to automation",
+    "website": "https://robotwin.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["robotics", "automation"],
+    "industries_served": ["manufacturing", "automotive", "coating"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2021,
+    "founders": ["Ladislav Dvořák", "Megi Mejdrechová", "David Polák"],
+    "origin_story": "Founded in 2021 by three engineers with backgrounds in robotics, automotive and manufacturing. CTO Megi Mejdrechová developed the core technology during robotics research at Czech Technical University in Prague.",
+    "key_milestones": [
+      {"year": 2021, "event": "Founded in Prague"},
+      {"year": 2022, "event": "Supported by Start it @CSOB accelerator"},
+      {"year": 2022, "event": "1st place Best Women Innovator in Manufacturing RIS LEADERS"},
+      {"year": 2023, "event": "Received EIT Manufacturing public funding"},
+      {"year": 2023, "event": "3rd place Entrepreneurship Award at European Robotics Forum"},
+      {"year": 2023, "event": "Exhibited at MSV International Engineering Fair Brno"},
+      {"year": 2024, "event": "Raised €1.25M pre-seed from BD Partners, Y Soft Ventures, EIT Manufacturing and others"},
+      {"year": 2024, "event": "CTO Megi Mejdrechová named in Forbes Czech Republic 30 Under 30"},
+      {"year": 2024, "event": "3rd place Vodafone Nápad roku startup competition"},
+      {"year": 2025, "event": "Won EIC Accelerator – first Czech company in three years to receive EU deep-tech support"},
+      {"year": 2025, "event": "Exhibited at Hannover Messe 2025"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 14,
+    "employee_source": "press_article",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 1440000,
+    "funding_rounds": [
+      {"date": "2024", "type": "Pre-Seed", "amount_usd": 1350000, "lead_investor": "BD Partners"}
+    ],
+    "investors": ["BD Partners", "Y Soft Ventures", "EIT Manufacturing"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ladislav Dvořák", "role": "CEO", "source": "company_website"},
+      {"name": "Megi Mejdrechová", "role": "CTO", "source": "company_website"},
+      {"name": "David Polák", "role": "Sales Director", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Megi Mejdrechová", "note": "Forbes Czech Republic 30 Under 30; developed core motion-imitation technology at Czech Technical University in Prague"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://robotwin.cz/career/",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "Robotics Application Engineer", "department": "engineering", "location": "Prague (Hybrid)"}
+    ],
+    "tech_stack": ["python", "ros", "motion_tracking"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "EIC Accelerator (2025) – first Czech company in 3 years",
+      "Forbes Czech Republic 30 Under 30 – CTO Megi Mejdrechová (2024)",
+      "3rd place Vodafone Nápad roku (2024)",
+      "3rd place Entrepreneurship Award – European Robotics Forum (2023)",
+      "1st place Best Women Innovator – Manufacturing RIS LEADERS (2022)",
+      "3rd place CzechInvest startup Demo Day"
+    ],
+    "notable_clients": ["GALATEK a.s.", "KESAT a.s."],
+    "customer_count": null,
+    "partnerships": ["Czech Technical University Prague (CTU)", "CIIRC – Czech Institute of Informatics Robotics and Cybernetics", "EIT Manufacturing", "ELLIOT (Horizon Europe project)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "RoboTwin's core value is a patented physical hardware device (6 DoF motion tracker) that attaches to spray guns and tools, capturing worker demonstrations to auto-generate robot programs. This hardware-in-the-loop approach and domain-specific integration with industrial robot OEMs cannot be replicated by foundation models; the moat is in the hardware interface, patented trajectory generation algorithms, and real manufacturing domain data.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Manufacturing automation for SMEs is a genuine and growing market, but RoboTwin targets a narrow niche (coating, grinding, polishing) and competes with larger robot OEMs adding their own teaching tools. Early traction with named clients (GALATEK, KESAT) and conference presence shows real PMF, but market scale and speed of broader adoption are uncertain.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Only ~€1.25M raised at pre-seed stage with a team of ~14, making runway limited. However, winning the EIC Accelerator grant (typically up to €2.5M non-dilutive) meaningfully extends the runway and signals strong EU institutional backing. Still early stage with no disclosed revenue.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong patented hardware-software moat and prestigious EIC Accelerator award reduce AGI and funding risks, but the company remains a very early-stage startup with limited disclosed revenue and a narrow market niche in industrial coating and grinding automation."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "tracxn", "vcbacked", "eit_jumpstarter", "press_snippets"],
+    "fields_missing": ["revenue_estimate_usd", "glassdoor_rating", "funding_total_exact_eur"],
+    "needs_review": false,
+    "notes": "Website is robotwin.cz (not robotwin.ai, which is a domain-for-sale parked page). Company also operates under robotwin.eu which redirects to robotwin.cz. IČO: 14091682. Address: Sokolovská 131/86, 186 00 Karlín, Prague. EIC Accelerator funding amount not yet publicly disclosed (separate from the €1.25M pre-seed). Funding total of $1.44M per Tracxn includes the pre-seed €1.25M round."
+  }
+}
