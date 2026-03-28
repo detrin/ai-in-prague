@@ -1,0 +1,115 @@
+{
+  "id": "kpmg-ceska",
+  "name": "KPMG Česká republika",
+  "category": "company",
+  "scraped_at": "2026-03-28T17:50:00Z",
+
+  "overview": {
+    "description": "Big Four professional services firm offering audit, tax, legal, and AI-enabled consulting in the Czech Republic",
+    "description_long": "KPMG Česká republika, s.r.o. is the Czech member firm of KPMG International, one of the Big Four global professional services networks. Founded in 1990, the firm provides audit, tax, legal, M&A advisory, and consulting services to hundreds of companies across the private and public sectors. Its consulting team of 300+ specialists covers technology (including AI and data), security, and business transformation. KPMG Czech Republic is part of the KPMG CEE network spanning 40 offices in 16 countries led by Radek Halíček.",
+    "tagline": "Audit, tax, advisory and legal services",
+    "website": "https://kpmg.com/cz/en",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "data_engineering", "ml_ops"],
+    "industries_served": ["finance", "manufacturing", "public_sector", "retail", "energy"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1990,
+    "founders": ["František Dostálek", "Jan Žůrek"],
+    "origin_story": "Founded in Prague in 1990 as part of KPMG's expansion into Central and Eastern Europe following the fall of communism. In 1991, KPMG conducted the first audits within the Czech Republic's privatisation process.",
+    "key_milestones": [
+      {"year": 1990, "event": "Founded in Prague by František Dostálek and Jan Žůrek"},
+      {"year": 1991, "event": "Conducted first audits in Czech Republic's privatisation process"},
+      {"year": 2015, "event": "900 employees reached; CZK 1.4 billion turnover"},
+      {"year": 2026, "event": "Radek Halíček re-elected head of KPMG CEE, to lead 40 offices in 16 countries until 2030"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 4
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "České Budějovice", "country": "CZ", "is_hq": false},
+    {"city": "Ostrava", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "KPMG International",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Radek Halíček", "role": "Managing Partner", "source": "company_website"},
+      {"name": "Petr Škoda", "role": "Deputy Managing Partner", "source": "company_website"},
+      {"name": "Petr Bučík", "role": "Partner in charge of Advisory", "source": "company_website"},
+      {"name": "Pavel Kliment", "role": "Chief Operating Officer", "source": "company_website"},
+      {"name": "Daniel Szmaragowski", "role": "Partner in charge of Tax and Legal", "source": "company_website"},
+      {"name": "Carolyn Břečťanová", "role": "Partner in charge of Quality and Risk Management", "source": "company_website"},
+      {"name": "Jindřich Vašina", "role": "Partner in charge of Audit", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://kpmg.jobs.cz/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["KPMG International global network"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "KPMG CZ is a professional services firm — AI advisory is one component of broad consulting practice. Some consulting workflows (data analysis, report drafting) face automation risk, but deep regulatory expertise (audit, tax, legal), client relationships, and the firm's role helping enterprises adopt AI provide resilience.",
+    "market_risk": "low",
+    "market_risk_rationale": "As a Big Four member firm with 35+ years in the Czech market and a diversified service portfolio (audit, tax, legal, consulting), KPMG CZ operates in a mature, resilient market with strong demand from both private and public sector clients.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "KPMG Czech Republic is a self-sustaining professional services firm generating revenue directly from client engagements. As part of the global KPMG network ($32B+ annual revenues), there is no meaningful funding or runway risk.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Established Big Four firm with strong brand, diversified revenue streams, 1000+ employees, and deep entrenchment in regulated industries (finance, public sector). Low overall risk despite some medium-term automation pressure on consulting workflows."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["glassdoor_rating", "open_roles_count", "revenue_estimate_usd", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "No CNAIP URL available. Data gathered from kpmg.com/cz/en website. KPMG CZ included in CNAIP catalog as an AI advisory/consulting provider. Consulting team is 300 strong. Google and DuckDuckGo searches were blocked by bot detection; search-based sources not available."
+  }
+}
