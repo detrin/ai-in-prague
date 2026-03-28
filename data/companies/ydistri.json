@@ -1,0 +1,114 @@
+{
+  "id": "ydistri",
+  "name": "YDISTRI",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-driven SaaS that converts unsold retail inventory into revenue through second allocation based on real-time demand",
+    "description_long": "YDISTRI is a B2B SaaS platform that uses probabilistic AI models and sophisticated algorithms to optimize the sales of underperforming stock within retail chains. The platform identifies slow-moving items in specific stores and reallocates them to locations with higher demand, enabling full-price sales and reducing markdowns. YDISTRI is incorporated into the SAP and Microsoft app stores and serves 60+ retail chains globally. The $500B problem of unsold retail inventory is addressed by a 'second allocation' layer that complements existing replenishment systems.",
+    "tagline": "Inventory rebalancing, made profitable.",
+    "website": "https://ydistri.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["recommendation", "automation", "ml_ops"],
+    "industries_served": ["retail", "pharma", "fashion", "grocery"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2020,
+    "founders": ["Roland Dzogan", "Lukáš Eštvanc"],
+    "origin_story": "Co-founded in Prague by Roland Dzogan (CEO, previously at PPF Group and RiverBit) and Lukáš Eštvanc (CTO, previously at Logio and Yieldigo), leveraging deep retail supply chain and forecasting expertise.",
+    "key_milestones": [
+      {"year": 2020, "event": "Founded in Prague, Czech Republic"},
+      {"year": 2024, "event": "Partnership with SAP and Microsoft; incorporated into their app stores"},
+      {"year": 2026, "event": "Exhibited at NRF 2026 in New York; 60+ merchants and partners across 11+ countries"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 4
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Frankfurt", "country": "DE", "is_hq": false},
+    {"city": "Toronto", "country": "CA", "is_hq": false},
+    {"city": "San Diego", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["VSharp VC", "Nation 1"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Roland Dzogan", "role": "CEO & Co-founder", "source": "company_website"},
+      {"name": "Lukáš Eštvanc", "role": "CTO & Co-founder", "source": "company_website"},
+      {"name": "Peter Hanko", "role": "CCO", "source": "company_website"},
+      {"name": "Mario Megela", "role": "Partnership Development Director", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://ydistri.com/career",
+    "open_roles_count": 2,
+    "open_roles": [
+      {"title": "Strategic Business Consultant", "department": "consulting", "location": "Prague"},
+      {"title": "Account Executive (New Business)", "department": "sales", "location": "Prague"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Manor AG"],
+    "customer_count": 60,
+    "partnerships": ["SAP", "Microsoft", "Deloitte", "Accenture", "Schenker"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "YDISTRI's core value is probabilistic demand forecasting and stock redistribution across retail networks — a domain with real operational complexity and integration depth. However, foundation models and general-purpose AI supply chain tools from SAP, Microsoft, and startups could replicate the forecasting layer over time. The SAP/Microsoft partnerships provide distribution but also dependency on these incumbents.",
+    "market_risk": "low",
+    "market_risk_rationale": "Retail inventory optimization is a proven, large-scale problem ($500B in unsold stock globally). YDISTRI has 60+ paying merchant clients across 11+ countries, SAP and Microsoft app store listings, and measurable ROI (90% redistribution sell-through, 30% write-off reduction). Real PMF with enterprise clients validates the market.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Backed by VSharp VC and Nation 1, but no disclosed Series A or significant funding rounds found. With 50+ employees and 4 international offices, burn rate is meaningful. Revenue-generating but runway and margins are unclear for a company at this scale.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong market fit and paying enterprise customers reduce market risk, but medium AGI displacement threat from incumbent platform expansion (SAP, Microsoft native AI) and unclear funding runway keep overall risk at medium. The vertical focus and integration depth provide some moat."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["funding_total_usd", "funding_rounds", "glassdoor", "revenue_estimate_usd", "employees_exact", "tech_stack"],
+    "needs_review": false,
+    "notes": "About page states '50+ employees'; LinkedIn structured data shows 25 employees — used website figure. Two investors identified (VSharp VC and Nation1) from About page investor section. No specific funding rounds or amounts found. Glassdoor blocked. Company co-founded in 2020 based on CTO LinkedIn profile."
+  }
+}
