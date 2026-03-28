@@ -1,0 +1,134 @@
+{
+  "id": "renomia",
+  "name": "RENOMIA",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Leading insurance broker and risk management company in Central and Eastern Europe, adopting AI for workflow automation",
+    "description_long": "RENOMIA is one of the largest insurance brokers in Central and Eastern Europe, providing risk management, insurance placement, claims handling, and employee benefits services. Founded in 1993 as a Czech family business, the company has grown to 2,500+ employees across 13 European countries. RENOMIA is actively integrating AI — hosting LLM-focused hackathons and partnering with Vantel for AI-powered quote comparison workflows.",
+    "tagline": "Risk management, insurance and claims settlement",
+    "website": "https://www.renomia.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "nlp"],
+    "industries_served": ["insurance", "finance", "agriculture", "energy", "construction", "healthcare"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1993,
+    "founders": ["Jiřina Nepalová", "Jiří Nepalový", "Pavel Nepalový"],
+    "origin_story": "Founded on 13 August 1993 as APS HRANICE by Jiřina Nepalová and her sons Jiří and Pavel in the town of Hranice. The company relocated HQ to Brno in 1997 and rebranded to RENOMIA, a.s. in 2003.",
+    "key_milestones": [
+      {"year": 1993, "event": "Founded as APS HRANICE in Hranice, Czech Republic"},
+      {"year": 1995, "event": "Opened branches in Prague and Ostrava"},
+      {"year": 1997, "event": "Relocated HQ to Brno and rebranded to APS RENOMIA"},
+      {"year": 2001, "event": "Expanded to Slovakia and joined WBN global network"},
+      {"year": 2003, "event": "Renamed to RENOMIA, a.s.; premiums under management exceeded CZK 1 billion"},
+      {"year": 2005, "event": "Named Czech market leader by Czech Association of Insurance Brokers"},
+      {"year": 2011, "event": "First Insurance Broker of the Year award; over 500 employees"},
+      {"year": 2015, "event": "RENOMIA GROUP reaches 15 companies and 1,000+ employees in 6 markets"},
+      {"year": 2016, "event": "RENOMIA GROUP revenues exceed CZK 1 billion for the first time"},
+      {"year": 2018, "event": "Managed premiums exceeded CZK 10 billion; operating in 7 European countries"},
+      {"year": 2019, "event": "Arthur J. Gallagher & Co. (NYSE: AJG) acquires minority stake"},
+      {"year": 2023, "event": "RENOMIA GROUP reaches 2,500 employees; managed premiums exceed CZK 21 billion"},
+      {"year": 2024, "event": "Launched joint reinsurance operation with Gallagher Re in Prague; partnership with Vantel for AI-powered workflows"},
+      {"year": 2026, "event": "Entered Estonia via RENOMIA EUROPEAN PARTNERS"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 2500,
+    "employee_source": "company_website",
+    "office_count": 13
+  },
+
+  "offices": [
+    {"city": "Brno", "country": "CZ", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Bratislava", "country": "SK", "is_hq": false},
+    {"city": "Budapest", "country": "HU", "is_hq": false},
+    {"city": "Sofia", "country": "BG", "is_hq": false},
+    {"city": "Belgrade", "country": "RS", "is_hq": false},
+    {"city": "Bucharest", "country": "RO", "is_hq": false},
+    {"city": "Zagreb", "country": "HR", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Arthur J. Gallagher & Co. (minority stake, NYSE: AJG)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Arthur J. Gallagher & Co."],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Alexander Konopka", "role": "CEO", "source": "search_snippet"},
+      {"name": "Jiřina Nepalová", "role": "Founder / Director", "source": "company_website"},
+      {"name": "Martin Klika", "role": "Chief People Officer", "source": "search_snippet"},
+      {"name": "Petr Vacek", "role": "Executive", "source": "search_snippet"},
+      {"name": "Michael Dubský", "role": "Executive", "source": "search_snippet"}
+    ],
+    "notable_people": [
+      {"name": "Jan Hrevus", "role": "Head of Gallagher Re / RENOMIA joint reinsurance operation (Prague)", "source": "search_snippet"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.renomia.com/career",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": 1,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Insurance Broker of the Year (CZ) – multiple times (2011, 2016, 2019-2020)",
+      "Czech Top 100 (8th place in 2023)",
+      "Forbes Top 30 family-owned businesses in Czech Republic (32nd in 2022)",
+      "Employer of the Year"
+    ],
+    "notable_clients": ["NISA AIR s.r.o.", "Czech Ice Hockey Federation", "České Radiokomunikace"],
+    "customer_count": null,
+    "partnerships": ["Arthur J. Gallagher & Co.", "Vantel (AI workflows)", "WBN global network", "Agrarian Chamber of the Czech Republic"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Insurance brokerage is relationship-intensive and regulated, but significant workflow components (quote comparison, document processing, CRM data extraction) are being automated by AI — a trend RENOMIA itself is accelerating via the Vantel partnership and LLM hackathons. Relationship expertise and regulatory knowledge provide meaningful moats.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established, growing market with RENOMIA as the clear market leader in Czech Republic and one of the top brokers in CEE. Manages CZK 21+ billion in premiums, has 30+ years of operating history, and a diversified multi-country presence reducing concentration risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "RENOMIA is a profitable, established enterprise with 2,500+ employees and CZK 1 billion+ in GROUP revenues. The 2019 strategic investment by Arthur J. Gallagher & Co. (NYSE: AJG) further validates financial stability. No startup funding risk is applicable.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Dominant market position in CEE insurance brokerage, diversified geography, strong revenue base, and proactive AI adoption (Vantel, LLM hackathons) position RENOMIA well. The main risk is moderate: AI commoditization of routine brokerage workflows, but the company is already investing to stay ahead."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "search_snippets", "linkedin_snippet"],
+    "fields_missing": ["revenue_estimate_usd", "funding_total_usd", "open_roles_count", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "RENOMIA is not an AI-native company — it is a traditional insurance broker actively adopting AI tools. HQ is in Brno; Prague office at Florentinum (na Florenci 15). Company has minority ownership by Arthur J. Gallagher & Co. (NYSE: AJG). Atmoskop 2024 shows 88% employee satisfaction with colleagues and 87% with managers."
+  }
+}
