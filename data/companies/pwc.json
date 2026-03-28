@@ -1,0 +1,118 @@
+{
+  "id": "pwc",
+  "name": "PwC Czech Republic",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:35:00Z",
+
+  "overview": {
+    "description": "Big 4 professional services firm offering AI, data analytics, audit, tax, consulting, and legal services in the Czech Republic",
+    "description_long": "PwC Czech Republic (PricewaterhouseCoopers Česká republika, s.r.o.) is one of the country's leading professional services firms with over 30 years of market presence. Their AI practice spans Data Analytics & AI (including ML, DataOps, MLOps), AI Governance & Compliance (EU AI Act readiness), Paperless Office (document automation), and AI for insurance/banks. The firm delivers end-to-end support for working with AI across industries from strategy to implementation, bridging AI proof-of-concept to production-grade solutions.",
+    "tagline": "We don't just deliver technology. We deliver results that impact your business.",
+    "website": "https://www.pwc.com/cz/en/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["ml_ops", "data_engineering", "automation", "document_processing"],
+    "industries_served": ["finance", "banking", "insurance", "manufacturing", "public_sector", "energy", "real_estate", "retail"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1991,
+    "founders": [],
+    "origin_story": "PwC entered the Czech market in the early 1990s following the Velvet Revolution. Initially led by British and American expatriate partners, the firm progressively transitioned to Czech leadership — culminating in 2010 when Jiří Moser became the first Czech Country Managing Partner. In 2013, the Prague office relocated to City Green Court in Pankrác.",
+    "key_milestones": [
+      {"year": 1991, "event": "Established in Czech Republic following economic transition"},
+      {"year": 2010, "event": "Jiří Moser becomes first Czech Country Managing Partner"},
+      {"year": 2013, "event": "Prague office relocates to City Green Court, Hvězdova 1734/2c, Praha 4"},
+      {"year": 2024, "event": "Launched Agentic AI advisory services in Czech Republic"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "Ostrava", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "PricewaterhouseCoopers International Limited (PwC network)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš Urbášek", "role": "Lead Partner, Tax and Legal Services (Brno)", "source": "company_website"},
+      {"name": "Michal Stránský", "role": "Lead Partner, Core Assurance (Ostrava)", "source": "company_website"},
+      {"name": "Eva Loulová", "role": "Partner, Accounting Advisory", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Jiří Moser", "note": "First Czech Country Managing Partner (2010)", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://jobs-cee.pwc.com/cz/cz/search-results",
+    "open_roles_count": 93,
+    "open_roles": [
+      {"title": "Cloud Data Architect", "department": "technology_consulting", "location": "Prague"},
+      {"title": "Data Mesh Architect", "department": "technology_consulting", "location": "Prague"},
+      {"title": "Senior Consultant - Technology Consulting", "department": "technology_consulting", "location": "Prague"},
+      {"title": "Senior Consultant - Technology Consulting - Financial Sector", "department": "technology_consulting", "location": "Prague"},
+      {"title": "Test Manager (German Projects)", "department": "technology_consulting", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "cloud", "mlops", "dataops", "azure", "aws"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "PwC's value proposition is built on regulatory trust, professional certifications (audit, tax, legal), and long-term enterprise relationships that AGI cannot replicate. EU AI Act compliance advisory and regulated domain expertise (insurance, banking) require human accountability that commoditized AI cannot provide.",
+    "market_risk": "low",
+    "market_risk_rationale": "PwC is a Big 4 firm with 30+ years in Czech Republic, serving large enterprise and public sector clients. EU AI Act regulation is actively driving new demand for AI governance services, further strengthening their advisory position.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "PwC Czech Republic is part of the global PwC network (370,000 employees, $55.4B global revenue FY2024) and does not rely on external funding rounds. Revenue comes from fee-based professional services.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "As an established Big 4 firm with deep regulatory expertise, certified professionals, and strong enterprise client relationships, PwC Czech Republic faces minimal existential risk. AI augments their services rather than threatening them, and EU AI Act compliance is a new growth opportunity."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "transparency_report_pdf"],
+    "fields_missing": ["employees_exact", "glassdoor_rating", "revenue_estimate_usd", "country_managing_partner_current", "notable_clients"],
+    "needs_review": false,
+    "notes": "PwC Czech Republic is not a startup/scaleup but an enterprise consulting firm included in the catalog for its AI advisory services. Founded year refers to Czech Republic operations (~1991); global PwC was formed through merger in 1998. Current Country Managing Partner name could not be confirmed from website scraping."
+  }
+}
