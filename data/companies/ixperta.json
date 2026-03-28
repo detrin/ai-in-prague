@@ -1,0 +1,136 @@
+{
+  "id": "ixperta",
+  "name": "IXPERTA",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Comprehensive IT services, digital transformation, and technology innovation for enterprise clients",
+    "description_long": "IXPERTA is a Czech IT services and technology company with over 30 years of market experience. They deliver end-to-end digital transformation, cybersecurity, data infrastructure, software development, and IT outsourcing. They also develop proprietary security products (IXTRUST Zero Trust data protection, ENFORCELINK threat detection) and conduct AI/ML R&D projects in transportation and industrial vision, co-financed by Czech and EU grants. Partners of Atlassian, Mendix, Check Point, Veeam, Pure Storage, and Mitel.",
+    "tagline": "Technology and business in perfect synergy",
+    "website": "https://www.ixperta.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "cv", "other"],
+    "industries_served": ["manufacturing", "healthcare", "transportation", "finance", "public_sector", "telecommunications"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1992,
+    "founders": [],
+    "origin_story": "Founded in 1992 as a Czech IT services company. Grew over 30+ years into a full-service technology partner with offices across Czech Republic and Slovakia, serving clients globally.",
+    "key_milestones": [
+      {"year": 1992, "event": "Founded in Czech Republic"},
+      {"year": 2023, "event": "Partnership Excellence Award from Mitel (Lisbon 2023)"},
+      {"year": 2024, "event": "Best Innovation Partner 2024 award from Thermo Fisher Scientific"},
+      {"year": 2024, "event": "Check Point Partner Award 2024 — fastest-growing partner in Slovakia"},
+      {"year": 2025, "event": "Partner of the Year CEE 2025 from Mitel (public sector)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": null,
+    "employee_source": "linkedin",
+    "office_count": 6
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "Ostrava", "country": "CZ", "is_hq": false},
+    {"city": "Mladá Boleslav", "country": "CZ", "is_hq": false},
+    {"city": "Šumperk", "country": "CZ", "is_hq": false},
+    {"city": "Bratislava", "country": "SK", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 44000000,
+    "revenue_source": "company_website (40 mil € annual revenue stated on website)",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš Hájek", "role": "Chairman of the Board", "source": "company_website"},
+      {"name": "Pavel Šipr", "role": "CEO", "source": "company_website"},
+      {"name": "Karel Kolomazník", "role": "CTO", "source": "company_website"},
+      {"name": "Jan Kašpárek", "role": "Director of SW Division", "source": "company_website"},
+      {"name": "Lubomír Starý", "role": "Head of R&D", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.ixperta.com/kariera/",
+    "open_roles_count": 13,
+    "open_roles": [
+      {"title": "AI Native Developer", "department": "engineering", "location": "Brno"},
+      {"title": "SW Delivery Manager", "department": "engineering", "location": "Prague"},
+      {"title": "IT Business Analytik", "department": "engineering", "location": "Mladá Boleslav"},
+      {"title": "Android Developer – automotive", "department": "engineering", "location": "Mladá Boleslav"},
+      {"title": "Atlassian Partner Specialist", "department": "sales", "location": "Prague"},
+      {"title": "Software Developer C#, .NET", "department": "engineering", "location": "Brno"},
+      {"title": ".NET Developer (ECS)", "department": "engineering", "location": "Brno"},
+      {"title": "Mendix Developer Senior", "department": "engineering", "location": "Prague"},
+      {"title": "Systémový tester", "department": "engineering", "location": "Mladá Boleslav"},
+      {"title": "Application Specialist", "department": "engineering", "location": "Šumperk"},
+      {"title": "IT Administrátor L1", "department": "it_ops", "location": "Šumperk"}
+    ],
+    "tech_stack": ["python", "flask", "fastapi", "django", "dotnet", "csharp", "nodejs", "vuejs", "postgresql", "docker", "cicd", "mendix", "atlassian"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": 3.7,
+    "review_count": 15,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Ixperta-EI_IE.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Best Innovation Partner 2024 (Thermo Fisher Scientific)",
+      "TOP 3 Technology Partner (Škoda Auto)",
+      "Partner of the Year CEE 2025 (Mitel — public sector)",
+      "Partnership Excellence Award Lisbon 2023 (Mitel)",
+      "Check Point Partner Award 2024 — fastest-growing partner in Slovakia",
+      "Veeam Partner Awards — fastest-growing partner",
+      "TOP 3 Best Pure Storage EMEA Partners"
+    ],
+    "notable_clients": ["Thermo Fisher Scientific", "Škoda Auto", "KIWI.com", "Dixons Carphone", "Mitel", "Slovak Academy of Sciences", "Dôvera Health Insurance", "Medirex Group"],
+    "customer_count": null,
+    "partnerships": ["Atlassian", "Mendix", "Check Point", "Veeam", "Pure Storage", "Mitel"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "IXPERTA's core business is IT consulting and services, which is partially exposed to AI automation of routine work. However, their long-standing client relationships, deep domain expertise across verticals, certifications, and proprietary products (IXTRUST, ENFORCELINK) provide resilience. AI-augmented development is already part of their workflow (e.g. Claude Code used by AI Native Developer role).",
+    "market_risk": "low",
+    "market_risk_rationale": "Established 30+ year company with 40M€ annual revenue, blue-chip clients (Škoda Auto, Thermo Fisher, Mitel as R&D partner), and a diversified service portfolio across multiple verticals. The Czech/Slovak IT services market is stable and growing.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Bootstrapped profitable company with 40M€+ annual revenue and no apparent VC dependence. 30 years of operations and government/EU grant-backed R&D projects further support financial stability.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "IXPERTA's long track record, diversified revenue base, deep enterprise client relationships, and proprietary product line make it resilient. Medium AGI displacement risk is offset by low market and funding risk, resulting in a low overall risk profile."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin", "glassdoor_snippet"],
+    "fields_missing": ["founders", "funding_total_usd", "glassdoor_url_exact", "glassdoor_recommend_pct"],
+    "needs_review": false,
+    "notes": "IXPERTA is primarily an IT services/consulting company included in the catalog for its AI R&D work (TA CR and EU grant-funded projects in transportation AI, obstacle detection, industrial vision). Not an AI-native company. Founded 1992 per LinkedIn. Revenue stated as 40 mil EUR on English website."
+  }
+}
