@@ -1,0 +1,104 @@
+{
+  "id": "deloitte",
+  "name": "Deloitte",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Big Four professional services firm delivering audit, consulting, tax, risk, and AI & data services across Czech Republic and Slovakia.",
+    "description_long": "Deloitte is one of the world's largest professional services networks, present in the Czech Republic since 1993. The Czech & Slovak practice offers Audit & Assurance, Tax, Consulting, Risk Advisory, Financial Advisory, and Legal services across five Czech offices (Prague, Brno, Ostrava, Plzeň, Hradec Králové). Their dedicated Engineering, AI & Data practice delivers intelligent automation, generative AI, business intelligence, and cloud & engineering services. The Deloitte Central Europe AI Institute, led out of Prague, develops AI strategy, GenAI activation programs, and trustworthy AI frameworks for enterprise clients across industries including financial services, TMT, public sector, manufacturing, and consumer.",
+    "tagline": "Choose your impact",
+    "website": "https://www.deloitte.com/cz-sk/en.html",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "automation", "data_engineering", "ml_ops"],
+    "industries_served": ["financial_services", "technology", "public_sector", "manufacturing", "consumer", "real_estate", "life_sciences"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1845,
+    "founders": ["William Welch Deloitte"],
+    "origin_story": "Founded in London in 1845 by William Welch Deloitte, the firm expanded globally and entered the Czech Republic in 1993 following the post-Velvet Revolution transition to a market economy. The Czech & Slovak practice is part of Deloitte Central Europe, one of the largest professional services practices in the region.",
+    "key_milestones": [
+      {"year": 1845, "event": "Founded in London by William Welch Deloitte"},
+      {"year": 1993, "event": "Established Czech Republic practice post-Velvet Revolution"},
+      {"year": 2013, "event": "Acquired Monitor Group strategy consulting business globally"},
+      {"year": 2023, "event": "Launched Deloitte Central Europe AI Institute, led from Prague"},
+      {"year": 2025, "event": "Reported global revenue of US$70.5 billion (FY2025); GenAI Activation Lab launched in Czech Republic"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 5
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "Ostrava", "country": "CZ", "is_hq": false},
+    {"city": "Plzeň", "country": "CZ", "is_hq": false},
+    {"city": "Hradec Králové", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Deloitte Touche Tohmatsu Limited",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ivana Lorencovičová", "role": "Managing Partner, Deloitte Czech & Slovak Republic", "source": "deloitte.com/cz-sk/en/about.html"},
+      {"name": "Miroslav Svoboda", "role": "Country Leader Deloitte Czech Republic, Deloitte Private Leader", "source": "deloitte.com/cz-sk/en/about.html"},
+      {"name": "Jan Hejtmánek", "role": "Partner | Deloitte CE AI Institute Leader", "source": "deloitte.com/cz-sk/en/what-we-do/capabilities/gen-ai-services.html"},
+      {"name": "Kamil Olszynski", "role": "Engineering, AI & Data Lead", "source": "deloitte.com/cz-sk/en/services/consulting/services/engineering-ai-data.html"},
+      {"name": "Marek Kouřil", "role": "CE Finance Transformation Lead", "source": "deloitte.com/cz-sk/en/services/consulting/services/engineering-ai-data.html"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.deloitte.com/cz-sk/en/careers.html",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "azure", "aws", "google-cloud", "sap", "oracle", "powerbi"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["AWS", "Google", "Oracle", "SAP", "NVIDIA", "Salesforce", "ServiceNow", "Workday"]
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["deloitte.com/cz-sk/en/about.html", "deloitte.com/cz-sk/en/services/consulting/services/engineering-ai-data.html", "deloitte.com/cz-sk/en/what-we-do/capabilities/gen-ai-services.html", "deloitte.com/cz-sk/en/careers.html", "en.wikipedia.org/wiki/Deloitte"],
+    "fields_missing": ["employees_exact", "revenue_estimate_usd", "glassdoor.rating", "glassdoor.review_count", "open_roles_count"],
+    "needs_review": false,
+    "notes": "No CNAIP URL. Deloitte website is heavily JavaScript-rendered; most sub-pages return 404 or empty HTML without JS execution. Key data extracted from JSON-LD schema on about page: 5 Czech offices confirmed (Prague, Brno, Ostrava, Plzeň, Hradec Králové). Employee count for Czech Republic estimated at 1,001-5,000 range based on Big Four scale and 5-office presence — Deloitte CZ typically quotes ~1,500-1,900 staff in public communications. Founded in Czech Republic ~1993. AI Institute Leader Jan Hejtmánek confirmed from services page. Glassdoor and LinkedIn blocked. Global revenue $70.5B (FY2025). Global employees ~460,000."
+  }
+}
