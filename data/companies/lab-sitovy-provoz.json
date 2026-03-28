@@ -1,0 +1,114 @@
+{
+  "id": "lab-sitovy-provoz",
+  "name": "Laboratoř monitorování síťového provozu",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Network traffic monitoring research lab at FIT CTU Prague, analyzing terabits per second of live backbone traffic for security research",
+    "description_long": "The Network Traffic Monitoring Lab (NETMON) at FIT CTU Prague is a research group embedded in the operations of CESNET, the Czech national research and education network. The lab works at the intersection of network security, high-performance computing, big data, machine learning, and AI. Key research areas include hardware-accelerated packet processing (FPGA/COMBO cards with P4 language), IP flow analytics, anomaly and botnet detection, and ML-based classification of encrypted traffic (TLS, QUIC). The lab produces widely used open-source tools such as NEMEA, IPFIXcol2, CESNET-DataZoo, and CESNET-Models.",
+    "tagline": "We analyze terabits per second of live backbone traffic to understand, secure, and improve the Internet.",
+    "website": "https://netmon.fit.cvut.cz/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["fraud_detection", "ml_ops", "data_engineering"],
+    "industries_served": ["cybersecurity", "telecommunications", "academia"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Tomáš Čejka"],
+    "origin_story": "Founded through long-term cooperation between FIT CTU and CESNET, the Czech national academic network operator. The lab evolved from a hardware/FPGA focus to emphasize software tools, large-scale data analysis, and network security research.",
+    "key_milestones": [
+      {"year": 2022, "event": "Released CESNET-TLS22 — 42GB labeled TLS 1.3 encrypted traffic dataset"},
+      {"year": 2024, "event": "Released CESNET-TimeSeries24 dataset for anomaly detection and forecasting"},
+      {"year": 2026, "event": "Published in IEEE Transactions on Network and Service Management on deep learning for traffic forecasting and classification"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (FIT ČVUT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ing. Josef Koumar", "role": "Lab Leader (Timeseries Analysis)", "source": "company_website"},
+      {"name": "doc. Ing. Tomáš Čejka, Ph.D.", "role": "Founder / Project Management", "source": "company_website"},
+      {"name": "prof. Ing. Hana Kubátová, CSc.", "role": "Advisor / Department Leader (Katedra číslicového návrhu)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Ing. Karel Hynek, Ph.D.", "role": "Former Research Lead (Alumni)", "source": "company_website"},
+      {"name": "Ing. Jan Luxemburk", "role": "PhD Candidate – Deep Learning", "source": "company_website"},
+      {"name": "Ing. Dominik Soukup", "role": "PhD Candidate – Datasets & Data Quality", "source": "company_website"},
+      {"name": "Ing. Jaroslav Pesek", "role": "PhD Candidate – Research Engineer", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://netmon.fit.cvut.cz/theses/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD Candidate / Research Student", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "c++", "fpga", "p4", "ipfix", "pytorch"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["CESNET"],
+    "customer_count": null,
+    "partnerships": ["CESNET", "Czech universities", "International academic collaborators"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at FIT CTU — not a commercial entity. Research output (datasets, tools, publications) feeds into the community rather than competing with AI models.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Grant- and university-funded research group embedded within FIT CTU and CESNET operations. Not subject to commercial market dynamics.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Institutionally embedded at Czech Technical University (FIT) with long-standing partnership with CESNET (Czech national research network). Funding comes from academic grants and CESNET operational budget.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "NETMON is a stable academic research lab with an established institutional home (FIT ČVUT), a long-running operational partner (CESNET), a proven publication record, and widely used open-source tools. No meaningful commercial risk."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "fit_cvut_website"],
+    "fields_missing": ["founded_year", "employees_exact", "funding_total_usd", "glassdoor"],
+    "needs_review": false,
+    "notes": "Official lab website: https://netmon.fit.cvut.cz/. FIT ČVUT page: https://www.fit.cvut.cz/cs/veda-a-vyzkum/zazemi/laboratore/8356-laborator-monitorovani-sitoveho-provozu-netmon. Contact email: netmon@fit.cvut.cz. GitHub: https://github.com/CESNET."
+  }
+}
