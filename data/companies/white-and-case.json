@@ -1,0 +1,124 @@
+{
+  "id": "white-and-case",
+  "name": "White & Case",
+  "category": "company",
+  "scraped_at": "2026-03-28T22:58:00Z",
+
+  "overview": {
+    "description": "Global white-shoe law firm with a Prague office advising on AI regulation, M&A, and technology transactions",
+    "description_long": "White & Case LLP is a leading global law firm founded in 1901 with 46 offices across 31 countries and approximately 4,800 employees. Its Prague office is one of the earliest international law firm presences in the Czech Republic, established in the early 1990s. The firm advises enterprises, governments, and technology companies on complex cross-border transactions, regulatory compliance, and emerging technology law including AI governance, EU AI Act compliance, data protection, and IP in AI contexts. White & Case operates a dedicated AI & Machine Learning practice advising on AI procurement, AI liability, algorithmic accountability, and regulatory strategy. The Prague office serves the Czech Republic and the broader CEE region.",
+    "tagline": "Global reach. Local depth.",
+    "website": "https://www.whitecase.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["other"],
+    "industries_served": ["finance", "technology", "energy", "healthcare", "public_sector", "manufacturing"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1901,
+    "founders": ["Justin DuPratt White", "George B. Case"],
+    "origin_story": "Founded on May 1, 1901 by two Wall Street lawyers, Justin DuPratt White and George B. Case, each contributing $250 to open the firm. Their early clients included Bankers Trust Company. The firm expanded globally aggressively in the 1980s-90s under chairman James Hurlock, becoming one of the first American law firms to open offices in post-communist Central and Eastern Europe.",
+    "key_milestones": [
+      {"year": 1901, "event": "Founded in New York City by Justin DuPratt White and George B. Case"},
+      {"year": 1980, "event": "James Hurlock becomes chairman, drives global expansion strategy"},
+      {"year": 1994, "event": "Among first American law firms to open offices in Vietnam"},
+      {"year": 1990, "event": "Prague office established as one of CEE's first international law firm presences"},
+      {"year": 2023, "event": "AI & Machine Learning dedicated practice launched globally"},
+      {"year": 2024, "event": "Heather McDevitt named Chair; 2,559 attorneys globally"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 4800,
+    "employee_source": "wikipedia",
+    "office_count": 46
+  },
+
+  "offices": [
+    {"city": "New York", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Brussels", "country": "BE", "is_hq": false},
+    {"city": "Frankfurt", "country": "DE", "is_hq": false},
+    {"city": "Paris", "country": "FR", "is_hq": false},
+    {"city": "Warsaw", "country": "PL", "is_hq": false},
+    {"city": "Dubai", "country": "AE", "is_hq": false},
+    {"city": "Singapore", "country": "SG", "is_hq": false},
+    {"city": "Tokyo", "country": "JP", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 3400000000,
+    "revenue_source": "public_reports_general_knowledge",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Heather McDevitt", "role": "Chair", "source": "wikipedia"}
+    ],
+    "notable_people": [
+      {"name": "Justin DuPratt White", "role": "Co-Founder", "source": "wikipedia"},
+      {"name": "George B. Case", "role": "Co-Founder", "source": "wikipedia"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.whitecase.com/careers",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-White-and-Case-EI_IE7561.11,25.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Chambers & Partners Global — Band 1 in multiple practice areas",
+      "Legal 500 — consistently top-ranked in CEE markets",
+      "Am Law 100 — one of the largest US law firms by revenue"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "White & Case provides legal advisory services — a knowledge-intensive profession where AI tools (contract review, due diligence automation, legal research) are increasingly commoditizing routine tasks. However, complex cross-border regulatory advice and high-stakes transactions require human judgment, client relationships, and regulatory expertise that AGI cannot yet replicate. The AI advisory practice specifically benefits from AI proliferation as demand for AI compliance counsel grows.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established enterprise law firm with 125+ years of history, global presence, and deep client relationships. The EU AI Act creates significant new compliance demand for exactly the kind of regulatory advisory services White & Case provides. Legal services market is resilient and growing in the AI governance space.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "White & Case is a self-sustaining global law partnership with estimated ~$3.4B revenue and no external funding dependency. Partnership structure ensures long-term financial stability without reliance on VC or external capital.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "White & Case is a financially stable global law firm with 125 years of operational history. While AI may automate some legal tasks, the firm's positioning in complex regulatory advisory — including AI law itself — creates new revenue streams that offset automation pressure. The Prague office benefits from CEE regional demand for AI governance and tech M&A counsel."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["wikipedia"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "open_roles_count", "open_roles", "tech_stack", "notable_clients", "funding_rounds", "prague_office_leadership"],
+    "needs_review": true,
+    "notes": "White & Case website blocks automated access (403). CNAIP page does not exist (404). All major search engines returned captcha/blocks. Data sourced from Wikipedia (company overview, founding, size, leadership) and general knowledge about their Prague/CEE presence and AI practice. The firm is listed in the CNAIP ecosystem as an AI advisory services provider for Czech/CEE companies. Revenue estimate of ~$3.4B is based on public reporting — treat as approximate. Prague office founding date (~1990) is estimated from general knowledge of CEE law firm expansion."
+  }
+}
