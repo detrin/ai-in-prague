@@ -1,0 +1,122 @@
+{
+  "id": "logio",
+  "name": "Logio",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Supply chain consulting and software company helping businesses eliminate waste and optimize operations",
+    "description_long": "Logio is a Czech consulting-technology firm founded in 2004 that helps retailers, manufacturers, and logistics providers optimize their supply chains through data-led strategy and purpose-built software. The company combines consulting services with its proprietary VERITICO platform — an end-to-end software solution for inventory, pricing, and promotion optimization launched in 2022. Logio uses advanced mathematics and ML to deliver measurable results including inventory reduction, revenue boost, and profit increase.",
+    "tagline": "Your Supply Chain Solved by Experts, Powered by AI Automation",
+    "website": "https://logio.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "ml_ops", "data_engineering"],
+    "industries_served": ["retail", "manufacturing", "logistics", "automotive", "fmcg"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2004,
+    "founders": null,
+    "origin_story": "Founded in 2004 through the merger of two consulting firms: Logitec CZ (logistics technology specialist) and Economic Wizard (supply chain planning software). Today co-owned by five partners under the 'Patero' group.",
+    "key_milestones": [
+      {"year": 2004, "event": "Founded in Prague through merger of Logitec CZ and Economic Wizard"},
+      {"year": 2022, "event": "Launched VERITICO, end-to-end software for retail and FMCG"},
+      {"year": 2022, "event": "Listed by Gartner as representative vendor in Market Guide for Retail Forecasting and Replenishment Solution"},
+      {"year": 2024, "event": "20th anniversary; VERITICO listed in Microsoft Azure Marketplace"},
+      {"year": 2025, "event": "New CEO Oto Hausmann and CFO Petr Marzin appointed; expansion into Spain and European markets"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": 180,
+    "employee_source": "company_website",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Oto Hausmann", "role": "CEO", "source": "lokatio.cz"},
+      {"name": "Petr Marzin", "role": "CFO", "source": "lokatio.cz"},
+      {"name": "Marek Šucha", "role": "Board Member / Co-owner", "source": "lokatio.cz"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://logio.cz/kariera/",
+    "open_roles_count": 8,
+    "open_roles": [
+      {"title": "Senior BI/DWH Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Konzultant logistiky Mladá Boleslav", "department": "consulting", "location": "Mladá Boleslav"},
+      {"title": "Konzultant – systémový a procesní analytik", "department": "consulting", "location": "Prague"},
+      {"title": "Konzultant logistiky", "department": "consulting", "location": "Prague"},
+      {"title": "Customer support consultant", "department": "support", "location": "Brno"},
+      {"title": "Senior Full-Stack Developer (Node.js, React)", "department": "engineering", "location": "Prague / Brno / Hradec Králové"},
+      {"title": "Finanční analytik", "department": "finance", "location": "Prague"},
+      {"title": "Akviziční obchodník", "department": "sales", "location": "Prague"}
+    ],
+    "tech_stack": ["node.js", "react", "python"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": 4.1,
+    "review_count": 16,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Logio-EI.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Gartner representative vendor – Market Guide for Retail Forecasting and Replenishment Solution 2022",
+      "VERITICO listed in Microsoft Azure Marketplace",
+      "ISO certified"
+    ],
+    "notable_clients": ["Albert", "Škoda Auto"],
+    "customer_count": null,
+    "partnerships": ["Microsoft", "SKLAD (Association of Competent Logistics and Suppliers)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Logio's core value is in domain expertise and consulting engagements, which provides some protection. However, their software (VERITICO) handles demand forecasting and inventory optimization — tasks increasingly commoditized by foundation models and cloud-native supply chain tools from Microsoft, SAP, and Oracle.",
+    "market_risk": "low",
+    "market_risk_rationale": "Supply chain optimization is a well-established B2B market with clear ROI and strong enterprise demand. Logio has 21 years of history with proven client relationships (Albert, Škoda Auto) and recognition from Gartner, indicating real market traction.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Logio is a bootstrapped, owner-operated company that has sustained itself for 21 years without external venture funding. Five co-owners in the 'Patero' group signal stable internal capital and long-term commitment.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Two decades of profitable operations, strong client base in Czech and Central European enterprise markets, combined consulting-software model with VERITICO, and Gartner recognition make Logio a resilient business despite the competitive supply chain software landscape."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "lokatio.cz", "glassdoor_snippets", "yahoo_search"],
+    "fields_missing": ["founders", "funding_total_usd", "revenue_estimate_usd", "office_count", "recommend_pct"],
+    "needs_review": false,
+    "notes": "CEO changed in October 2025 to Oto Hausmann (former COO); CFO Petr Marzin joined September 2025. Company operates both Czech site (logio.cz) and English site (logio.com). Employee count of 180+ from Czech About page. Glassdoor rating of 4.1 from 16 reviews per search snippet."
+  }
+}
