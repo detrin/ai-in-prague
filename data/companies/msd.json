@@ -1,0 +1,115 @@
+{
+  "id": "msd",
+  "name": "MSD",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:15:00Z",
+
+  "overview": {
+    "description": "Prague Technology Center and IT/data science hub of global pharmaceutical leader Merck Sharp & Dohme",
+    "description_long": "MSD (Merck Sharp & Dohme), the international brand of Merck & Co., Inc., operates a major Technology Center in Prague employing 1,800+ people across IT, data science, finance, and business services. The Prague MSD Technology Center (established 2014) provides global IT capabilities including software engineering, data science (advanced analytics, ML, NLP), research & lab IT, infrastructure, and digital manufacturing. The data science team in Prague applies machine learning, natural language processing, and predictive modeling across drug discovery, manufacturing optimization, vaccines, and health economics. Globally, MSD develops AI models such as KERMT (with NVIDIA) for small-molecule drug lead optimization. MSD Czech Republic holds the Top Employer 2026 certification.",
+    "tagline": "Inventing for life — redefining healthcare with digital innovation",
+    "website": "https://www.msd.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["ml_ops", "data_engineering", "automation", "other"],
+    "industries_served": ["pharma", "healthcare", "biotech", "manufacturing"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1992,
+    "founders": [],
+    "origin_story": "MSD Czech Republic (Czech branch of Merck Sharp & Dohme IDEA) was established on April 29, 1992. The Prague MSD Technology Center was established in 2014, growing into one of the largest IT and data science hubs in the Czech Republic.",
+    "key_milestones": [
+      {"year": 1992, "event": "Czech branch of Merck Sharp & Dohme established in Prague"},
+      {"year": 2014, "event": "Prague MSD Technology Center established, supporting global IT capabilities"},
+      {"year": 2017, "event": "Advanced Logic Planning Support (ALPS) algorithm wins Manufacturing Leadership Award"},
+      {"year": 2024, "event": "Launched recruitment campaign for generative AI roles (ML Engineers, Cloud Engineers)"},
+      {"year": 2025, "event": "MSD Czech Republic receives Top Employer 2025 certification"},
+      {"year": 2026, "event": "MSD Czech Republic receives Top Employer 2026 certification; KERMT AI model (with NVIDIA) launched for drug discovery"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 1800,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true, "address": "Na Valentince 3336/4, 150 00 Prague 5 (Five Building)"},
+    {"city": "Prague", "country": "CZ", "is_hq": false, "address": "Svornosti 3321/2, 150 00 Prague 5 (Riverview Building)"}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "MRK",
+    "stock_exchange": "NYSE",
+    "parent_company": "Merck & Co., Inc.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": null, "role": "Country Manager, MSD Czech Republic", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://jobs.msd.com/gb/en/search-results?qcountry=Czechia",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Software Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "ML Engineer", "department": "data_science", "location": "Prague"},
+      {"title": "Cloud Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Full Stack Developer", "department": "engineering", "location": "Prague"},
+      {"title": "Data Scientist", "department": "data_science", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "r", "tableau", "qlik", "tibco-spotfire", "jira", "confluence", "bitbucket", "jenkins", "aws"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Top Employer Czech Republic 2025", "Top Employer Czech Republic 2026", "2017 Manufacturing Leadership Award (ALPS algorithm)"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["NVIDIA (KERMT AI model for drug discovery)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "MSD Prague's data science and analytics work (dashboards, standard ML models, data pipelines) is increasingly automatable by AI tools. However, domain expertise in pharmaceutical R&D, regulatory requirements, and integration with global pharma workflows provides some insulation. Co-development of proprietary AI models like KERMT with NVIDIA signals investment in staying ahead of commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "This is a captive internal technology and services hub for one of the world's largest pharmaceutical companies (Merck & Co., ~$63B annual revenue). No external market dependency; Prague operations are strategically important for MSD's global IT and R&D delivery.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "MSD Prague is a fully-owned subsidiary capability center of NYSE-listed Merck & Co., Inc. — a $200B+ market cap company. Funding risk is not applicable; operations are supported by parent company resources.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "As an established, large-scale capability center of a Fortune 500 pharmaceutical leader, MSD Prague offers stable employment with long investment horizons. Some automation risk exists for data engineering roles, but domain-specialized AI work in drug discovery and pharma IT is unlikely to be commoditized quickly."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website_msd_cz", "company_website_msd_com", "msd_cz_history_page", "msd_cz_it_page", "msd_cz_data_science_page"],
+    "fields_missing": ["leadership_names", "glassdoor_rating", "open_roles_count", "revenue_estimate_usd"],
+    "needs_review": false,
+    "notes": "MSD refers to Merck Sharp & Dohme — the international brand of Merck & Co., Inc. (US). Prague is MSD's major European Technology Center with 1,800+ employees. The Technology Center was established in 2014. Data science team uses Advanced Analytics (ML/NLP) and Data Management & Visualization. Actively recruiting for generative AI roles as of 2024-2026. KERMT is MSD's open-source AI foundation model for small-molecule drug discovery, developed in collaboration with NVIDIA."
+  }
+}
