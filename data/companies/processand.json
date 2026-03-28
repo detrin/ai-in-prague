@@ -1,0 +1,112 @@
+{
+  "id": "processand",
+  "name": "Processand",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Process Mining implementation consulting and Celonis partner with AI/automation services",
+    "description_long": "Processand (Process& GmbH) is a global consulting and software implementation company specialising in Process Mining, automation, and AI. As one of the leading partners of Celonis SE, Processand helps SMEs and large international corporations convert IT and ERP data into actionable insights. The company also offers its own products such as the Duplicate Invoice Checker, alongside consulting, Celonis training, and AI-driven analytics services.",
+    "tagline": "Process Mining Solutions & Services",
+    "website": "https://www.processand.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "data_engineering", "ml_ops"],
+    "industries_served": ["manufacturing", "finance", "utilities", "transportation", "life_sciences", "telecommunications", "retail"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2017,
+    "founders": ["Thomas Kerschbaumer"],
+    "origin_story": "Founded in Munich as a Process Mining consulting and Celonis implementation partner; expanded to include a Prague office for data science operations.",
+    "key_milestones": [
+      {"year": 2017, "event": "Company active; first known long-term client relationships established"},
+      {"year": 2023, "event": "Prague office established with dedicated Data Science Team Lead"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website_inferred",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Munich", "country": "DE", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Thomas Kerschbaumer", "role": "Founder/CEO", "source": "company_website"},
+      {"name": "Andreas Klötzel", "role": "Co-Managing Director", "source": "company_website_imprint"},
+      {"name": "Nicolas Möller", "role": "Chief Operations Officer", "source": "company_website"},
+      {"name": "Florian Ernst", "role": "Sales Director", "source": "company_website"},
+      {"name": "Valentina Pfattner", "role": "HR Manager", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Alexandra Tyrkich", "role": "Head of Data Science", "source": "company_website"},
+      {"name": "Friederike Falk", "role": "Data Science Team Lead (Prague)", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.processand.com/careers",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["celonis", "python", "sap", "process_mining"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Knorr-Bremse", "Sana Hospitals", "Vibracoustic"],
+    "customer_count": null,
+    "partnerships": ["Celonis SE"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core value is Celonis implementation consulting expertise and proprietary ML algorithms for process mining. AGI could partially automate process analysis, but deep enterprise ERP integration knowledge and change management remain human-intensive. Risk is moderate as AI continues to simplify Celonis onboarding and reduce need for specialist partners.",
+    "market_risk": "low",
+    "market_risk_rationale": "Process Mining is an established and rapidly growing enterprise market — Celonis is valued at ~$13B. Processand has paying enterprise clients (Knorr-Bremse, Sana hospitals) across multiple industries, demonstrating real PMF.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external funding; appears to be a bootstrapped consulting firm. Small team with no disclosed revenue or runway signals. Consulting revenue can be lumpy and dependent on client retention.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Low market risk from established process mining demand offsets bootstrapped funding risk. Medium overall because AGI automation of analytics consulting is a genuine medium-term threat, and the company lacks the proprietary data moat of a pure-play AI product company."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "company_website_imprint", "company_website_careers", "company_website_team"],
+    "fields_missing": ["founded_year_exact", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count"],
+    "needs_review": false,
+    "notes": "Processand is primarily a German company (Munich HQ, Process& GmbH) with a significant Prague data science office. Included in Prague AI catalog due to Czech Republic operations. Founding year estimated from 2017 client testimonial ('accompanies us since 2017'). Employee count inferred from team page showing ~12 named roles across leadership and team leads, plus '16 nations' mention suggesting 20-50 total."
+  }
+}
