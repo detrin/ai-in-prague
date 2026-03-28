@@ -2521,7 +2521,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "error"
+    "status": "done"
   },
   {
     "id": "skylitt",
@@ -2777,7 +2777,7 @@
     "category": "research_group",
     "source": "other",
     "cnaip_url": null,
-    "status": "error"
+    "status": "done"
   },
   {
     "id": "ufal-dialog-systemy",

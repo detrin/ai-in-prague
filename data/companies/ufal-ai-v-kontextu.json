@@ -1,0 +1,123 @@
+{
+  "id": "ufal-ai-v-kontextu",
+  "name": "ÚFAL AI v kontextu",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Multidisciplinary lecture series and AI public education initiative at Charles University Prague",
+    "description_long": "ÚFAL AI v kontextu (AI in Context) is a multidisciplinary working group and public education initiative organized by researchers at ÚFAL (Institute of Formal and Applied Linguistics, Faculty of Mathematics and Physics, Charles University). They run a recurring lecture series 'AI v kontextu' where invited experts present AI from diverse disciplinary perspectives (law, music, medicine, philosophy, art, journalism, etc.), curate an interactive AI exhibit at the Didaktikon center in Prague's Hyb4City, guarantee the 'Elements of AI+' and 'Ethics of AI+' online courses at Charles University, and participate in applied research projects on AI-generated text, poetry, and authorship.",
+    "tagline": "Presenting different perspectives on artificial intelligence through the lens of various disciplines",
+    "website": "https://aivk.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["nlp", "generative_ai", "other"],
+    "industries_served": ["education", "public_sector", "humanities"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2022,
+    "founders": ["Rudolf Rosa", "Tereza Hannemann", "Jindřich Libovický"],
+    "origin_story": "Launched in early 2022 by researchers at ÚFAL MFF UK as a public lecture series to explore AI from diverse disciplinary perspectives, later growing into a broader educational initiative including courses, exhibits, and school workshops.",
+    "key_milestones": [
+      {"year": 2022, "event": "First lecture series launched (Spring 2022, course code NAIL127, Charles University)"},
+      {"year": 2022, "event": "Second semester of lectures launched (Autumn 2022)"},
+      {"year": 2023, "event": "AI exhibit 'AI v kontextu' opened at Didaktikon center, Hyb4City Prague"},
+      {"year": 2023, "event": "Began guaranteeing Elements of AI+ and Ethics of AI+ online courses for Charles University in partnership with prg.ai"},
+      {"year": 2025, "event": "Ongoing lecture series running into Spring 2026 semester"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Charles University (MFF UK)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Rudolf Rosa", "role": "Co-organizer / Researcher (ÚFAL MFF UK)", "source": "company_website"},
+      {"name": "Tereza Hannemann", "role": "Co-organizer (KSVI MFF UK)", "source": "company_website"},
+      {"name": "Jindřich Libovický", "role": "Co-organizer / Researcher (ÚFAL MFF UK)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Nikol Kopáňková", "role": "Domain Expert", "source": "company_website"},
+      {"name": "František Štěch", "role": "Domain Expert (ETF UK)", "source": "company_website"},
+      {"name": "Veronika Macková", "role": "Domain Expert (FSV UK)", "source": "company_website"},
+      {"name": "Dita Malečková", "role": "Domain Expert (FAMU)", "source": "company_website"},
+      {"name": "Petr Kajzar", "role": "Domain Expert (1. LF UK, medicine)", "source": "company_website"},
+      {"name": "Jan Hajič jr.", "role": "Domain Expert (MÚA AV ČR, ÚFAL MFF UK, music AI)", "source": "ufal_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://aivk.cz/index.html",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "nlp"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "prg.ai (Elements of AI+ and Ethics of AI+ online courses)",
+      "Aignos (AI workshops for primary and secondary schools)",
+      "Městská knihovna v Praze (Prague City Library - literary AI competitions)",
+      "Didaktikon / Charles University Educational Center (AI exhibit)",
+      "ETF UK (The Anthropology of Artificial Intelligence project)",
+      "LINDAT/CLARIAH-CZ (LM2023062, funding for speaker honoraria)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Public educational initiative and lecture series at a university — not a commercial product competing in a market. AGI commoditization is not relevant to its core mission of interdisciplinary AI education.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Nonprofit academic initiative embedded within Charles University. Not operating in a commercial market; funded through university structures and Ministry of Education grants (LINDAT/CLARIAH-CZ).",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Operates as a research and public engagement initiative under ÚFAL MFF UK with Ministry of Education grant support (LM2023062 LINDAT/CLARIAH-CZ). Not dependent on commercial revenue or venture funding.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "University-embedded public education initiative with stable academic funding and a growing portfolio of activities (lecture series, online courses, exhibit, school workshops). No commercial risk profile applies."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "ufal_website"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "open_roles_count"],
+    "needs_review": false,
+    "notes": "AI v kontextu is not a company but a multidisciplinary working group / educational initiative at ÚFAL (Institute of Formal and Applied Linguistics), Faculty of Mathematics and Physics, Charles University Prague. Website: aivk.cz. The lecture series started Spring 2022 (course NAIL127) and continues into 2026. Core team: Rudolf Rosa, Tereza Hannemann, Jindřich Libovický. Funded in part by LINDAT/CLARIAH-CZ (LM2023062) grant."
+  }
+}
