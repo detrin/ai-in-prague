@@ -1,0 +1,132 @@
+{
+  "id": "autonomous-robots",
+  "name": "Autonomus Robots and Agents",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Academic research group at Charles University designing intelligent autonomous agents and robots using model-based AI planning and scheduling",
+    "description_long": "The Autonomous Robots and Agents group is led by Prof. Roman Barták at the Department of Theoretical Computer Science and Mathematical Logic, Faculty of Mathematics and Physics, Charles University. The group designs intelligent autonomous agents — including robots — capable of planning, decision-making, and acting in real environments. Their model-based approach has agents learn models of their environment and capabilities, then use those models for task planning and adaptation to unknown situations. Research covers both single-agent behaviour and multi-agent coordination (multi-agent path finding), with applications in robotics, manufacturing, transportation, deep space exploration, and ocean missions. The group has made foundational contributions including the regular/automaton constraint (now used in most constraint solvers), multi-agent path finding algorithms, and hierarchical task network (HTN) plan verification.",
+    "tagline": "Intelligent autonomous agents that plan, decide, and act in real environments",
+    "website": "https://ktiml.mff.cuni.cz/~bartak/",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/autonomus-robots-and-agents"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["robotics", "automation", "other"],
+    "industries_served": ["aerospace", "manufacturing", "transportation", "defense"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 1997,
+    "founders": ["Roman Barták"],
+    "origin_story": "Roman Barták completed his PhD at MFF UK in 1997 and became an assistant professor, establishing this research line in automated planning, constraint satisfaction, and autonomous agents at Charles University's Faculty of Mathematics and Physics. The group has grown through decades of national and EU-funded projects.",
+    "key_milestones": [
+      {"year": 1997, "event": "Roman Barták joins MFF UK as assistant professor, begins research group"},
+      {"year": 2001, "event": "First Czech Science Foundation (CSF) grant — Advanced Planning and Scheduling"},
+      {"year": 2004, "event": "Best Paper Award at CP 2004 for filtering algorithms for unary resource constraints"},
+      {"year": 2012, "event": "FlowOpt scheduling system wins Best System Demonstration Award at ICAPS 2012"},
+      {"year": 2013, "event": "Roman Barták promoted to full professor"},
+      {"year": 2018, "event": "Best Paper Award at IBERAMIA 2018 for multi-agent path finding on real robots"},
+      {"year": 2021, "event": "Roman Barták named EurAI Fellow"},
+      {"year": 2023, "event": "EU Horizon PEER project (101120406) launched — hyper expert collaborative AI assistant"},
+      {"year": 2026, "event": "Roman Barták named AAAI Fellow"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Charles University — Faculty of Mathematics and Physics",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Roman Barták", "role": "Professor / Group PI", "source": "cnaip"}
+    ],
+    "notable_people": [
+      {"name": "Jiří Švancara", "role": "PhD Student / Researcher (multi-agent path finding)", "source": "company_website"},
+      {"name": "Marek Vlk", "role": "PhD Student / Researcher (multi-agent path finding)", "source": "company_website"},
+      {"name": "Simona Ondrčková", "role": "PhD Student (HTN plan verification)", "source": "company_website"},
+      {"name": "Kristýna Pantůčková", "role": "PhD Student (HTN plan recognition)", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://ktiml.mff.cuni.cz/~bartak/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "prolog", "constraint_programming"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "AAAI Fellow (2026)",
+      "The Douglas D. Dankel II Award (2025)",
+      "EurAI Fellow (2021)",
+      "AI Award for promoting Czech Republic in AI World (2019)",
+      "Best Paper Award, CP 2004",
+      "Best System Demonstration Award, ICAPS 2012",
+      "Best Paper Award, IBERAMIA 2018"
+    ],
+    "notable_clients": ["NASA", "ESA", "Entellexi (Ireland)", "Visopt Ltd. (Israel)", "AISA/Median (Czech Republic)"],
+    "customer_count": null,
+    "partnerships": [
+      "Ben-Gurion University (Israel)",
+      "Brooklyn College CUNY (USA)",
+      "University College Cork (Ireland)",
+      "Aalborg University (Denmark)",
+      "Masaryk University (Czech Republic)",
+      "Czech Technical University (Czech Republic)",
+      "Czech Academy of Sciences"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at Charles University — not a commercial entity. Core mission is fundamental research in automated planning and autonomous agents, not a product subject to commoditization.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research group funded by Czech Science Foundation (CSF), MŠMT, and EU Horizon grants. Market risk does not apply to a university research lab.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Embedded within Charles University with a long track record of continuous national and EU grant funding. Currently holds 5 active grants including EU Horizon 2023-2027 (PEER project). University affiliation provides structural stability.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Established academic research group with 25+ years of continuous operation, strong international collaborations, and a PI who is an AAAI and EurAI Fellow. Continuity depends on grant cycles, which appear healthy with multiple active projects through 2027."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["employees_exact", "open_roles_count", "glassdoor_url", "revenue_estimate_usd", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "Input record categorized as 'company' but CNAIP and all evidence confirm this is an academic research group at MFF UK (Charles University). Category updated to 'research_group'. Note: company name in index has a typo — 'Autonomus' instead of 'Autonomous'. CNAIP URL inferred from slug pattern: /cs/entity/autonomus-robots-and-agents. Group leader Roman Barták has 170+ publications, h-index available via Google Scholar (ORCID: 0000-0002-6717-8175)."
+  }
+}
