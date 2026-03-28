@@ -1,0 +1,115 @@
+{
+  "id": "stock-story",
+  "name": "Stock Story",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-driven stock research and investment recommendations for individual investors",
+    "description_long": "StockStory is a financial technology company that combines AI algorithms with Wall Street-caliber analyst expertise to generate stock picks and investment reports for retail investors. The platform applies machine learning to earnings filings and other financial data to produce research reports distributed via Apple News, Yahoo Finance, and Dow Jones. Founded in Prague with a distributed team across Prague, New York, and Delaware.",
+    "tagline": "Stock Picks, Research and Market News",
+    "website": "https://stockstory.org",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2c_saas",
+    "ai_focus": ["ml_ops", "nlp", "other"],
+    "industries_served": ["finance", "investment", "fintech"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2020,
+    "founders": ["Adam Hejl", "Radek Strnad", "Jabin Bastian"],
+    "origin_story": "Founded in 2020 by Adam Hejl (former CPO at Simply Wall St), with co-founders Radek Strnad (CTO) and Jabin Bastian. Prague-based team leveraging AI to provide U.S. stock analysis and recommendations for individual investors.",
+    "key_milestones": [
+      {"year": 2020, "event": "Founded in Prague / Delaware"},
+      {"year": 2021, "event": "Raised $3.2M seed round from Credo Ventures and Talis Capital"},
+      {"year": 2023, "event": "Content distributed via Apple News, Yahoo Finance, and Dow Jones"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 8,
+    "employee_source": "press_article",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "New York", "country": "US", "is_hq": false},
+    {"city": "Middletown", "country": "US", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 3200000,
+    "funding_rounds": [
+      {"date": "2021", "type": "Seed", "amount_usd": 3200000, "lead_investor": "Credo Ventures"}
+    ],
+    "investors": ["Credo Ventures", "Talis Capital"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Adam Hejl", "role": "CEO & Co-Founder", "source": "company_website"},
+      {"name": "Radek Strnad", "role": "CTO & Co-Founder", "source": "company_website"},
+      {"name": "Jabin Bastian", "role": "Engineer & Co-Founder", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Anthony Lee", "role": "Analyst (Wharton, former hedge fund/PE/IB)", "source": "company_website"},
+      {"name": "Weixin Lin", "role": "Analyst (Harvard Business School, $100bn equity fund)", "source": "company_website"},
+      {"name": "Kayode Omotosho", "role": "Analyst (Top 1% stock picker per TipRanks)", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://stockstory.org/careers",
+    "open_roles_count": 0,
+    "open_roles": [],
+    "tech_stack": ["python", "javascript", "react", "aws", "r"],
+    "hiring_signals": "not_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Yahoo Finance", "Apple News", "Dow Jones"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "StockStory's core value proposition — AI-generated stock analysis and recommendations — is directly replicable by foundation models. There is no proprietary dataset or deep technical moat; the combination of analyst opinions + AI text generation can be replicated cheaply with LLM APIs.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Retail investor fintech is a real and growing market, but crowded with established players (Motley Fool, Seeking Alpha, Simply Wall St). StockStory's small team and limited distribution make it hard to compete, though their content syndication via Yahoo Finance and Apple News provides some reach.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Only $3.2M seed raised, team of 8, subscription revenue from retail investors is hard to scale, and no follow-on funding signals found. Very limited runway for a market with significant competition.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Thin AI moat in a crowded retail fintech space, limited funding at seed stage, and a core product easily replicated by foundation models combine for high overall risk. The Prague-based team keeps costs lower but does not change the fundamental competitive dynamics."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "press_article", "himalayas", "theorg"],
+    "fields_missing": ["glassdoor_rating", "revenue_estimate_usd", "funding_round_date_exact"],
+    "needs_review": false,
+    "notes": "Delaware-registered company (Middletown, DE) with Prague engineering team. Website at stockstory.org. Seed round of $3.2M from Credo Ventures and Talis Capital confirmed."
+  }
+}

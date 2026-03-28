@@ -2521,7 +2521,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "skylitt",
@@ -2553,7 +2553,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "spaceknow",
@@ -2561,7 +2561,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "dry_run"
   },
   {
     "id": "spacetrees",
@@ -2577,7 +2577,7 @@
     "category": "research_group",
     "source": "other",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "still-lab",
@@ -2585,7 +2585,7 @@
     "category": "research_group",
     "source": "other",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "stock-story",
@@ -2593,7 +2593,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "done"
   },
   {
     "id": "stratosphere-lab",
@@ -2601,7 +2601,7 @@
     "category": "research_group",
     "source": "other",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "stratox",
@@ -2609,7 +2609,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "strojove-uceni",
@@ -2617,7 +2617,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "structural-bioinfo",
@@ -2625,7 +2625,7 @@
     "category": "research_group",
     "source": "other",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "strv",
@@ -2633,7 +2633,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "subwai",
@@ -2641,7 +2641,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "supernova-io",
@@ -2649,7 +2649,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "sustainly",
@@ -2657,7 +2657,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "swehq",
@@ -2665,7 +2665,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "sympulse",
@@ -2673,7 +2673,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "t-mobile",
@@ -2681,7 +2681,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "talentiqa",
@@ -2689,7 +2689,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "talk2amy",
@@ -2697,7 +2697,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "tekies",
@@ -2705,7 +2705,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "telma-ai",
@@ -2713,7 +2713,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "tipsport",
@@ -2721,7 +2721,7 @@
     "category": "company",
     "source": "other",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "tolion-health",
@@ -2729,7 +2729,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "tomas-kapler",
@@ -2737,7 +2737,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "tovek",
@@ -2745,7 +2745,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "trask",
@@ -2753,7 +2753,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "troja-robotic-lab",
@@ -2761,7 +2761,7 @@
     "category": "research_group",
     "source": "other",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "u12137-machine-vis",
@@ -2769,7 +2769,7 @@
     "category": "research_group",
     "source": "other",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "ufal-ai-v-kontextu",
@@ -2777,7 +2777,7 @@
     "category": "research_group",
     "source": "other",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "ufal-dialog-systemy",
@@ -2785,7 +2785,7 @@
     "category": "research_group",
     "source": "other",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "ufal-multilinguality",
@@ -2793,7 +2793,7 @@
     "category": "research_group",
     "source": "other",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "ufal-text-speech",
@@ -2801,7 +2801,7 @@
     "category": "research_group",
     "source": "other",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "umotional",
@@ -2809,7 +2809,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "upheal",
@@ -2817,7 +2817,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "ustav-vyrob-stroju",
@@ -2825,7 +2825,7 @@
     "category": "research_group",
     "source": "other",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "valeo",
@@ -2833,7 +2833,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "valka-ai",
@@ -2841,7 +2841,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "velka-data-cloud",
@@ -2849,7 +2849,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "veracity-protocol",
@@ -2857,7 +2857,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "vetee-ai",
@@ -2865,7 +2865,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "viable-one",
@@ -2873,7 +2873,7 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "error"
   },
   {
     "id": "videni-vras",
