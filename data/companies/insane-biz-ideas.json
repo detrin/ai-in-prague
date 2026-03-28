@@ -1,0 +1,104 @@
+{
+  "id": "insane-biz-ideas",
+  "name": "Insane Business Ideas",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "Innovation lab and AI consulting firm turning radical ideas into reality",
+    "description_long": "Insane Business Ideas is an innovation laboratory that transforms bold, unconventional ideas into reality, frequently using AI as a co-creator. Founded to push the limits of business, the firm helps corporations unleash their digital potential through radical innovation methods. It is best known for producing the first AI-written theatrical play in the world — 'When a Robot Writes a Play' — performed in Prague, which sparked global discussion about AI creativity. The company provides AI strategy, governance, and digital transformation consulting across industries including healthcare, smart cities, energy, and culture.",
+    "tagline": "Digital sustainability for industry, healthcare, cities and life. Radical tech innovation.",
+    "website": "https://www.inbui.com",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/insane-business-ideas"
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "automation", "other"],
+    "industries_served": ["healthcare", "government", "energy", "culture", "smart_city", "science"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2011,
+    "founders": [],
+    "origin_story": "Founded in Prague to push the boundaries of business through radical, unconventional innovation. Became known globally for producing the first AI-written theatrical play, 'When a Robot Writes a Play', staged in Prague.",
+    "key_milestones": [
+      {"year": 2011, "event": "Founded in Prague (Celetná 19, Prague 1)"},
+      {"year": 2019, "event": "Produced 'When a Robot Writes a Play' — first AI-authored theatrical production in the world, performed in Prague"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 5,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomas Studenik", "role": "Innovator / Founder", "source": "linkedin"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Innovation consulting and AI strategy advisory work can be partially commoditized as AI tools improve, but the firm's value lies in creative facilitation, interdisciplinary methods, and human judgment — which are harder to automate. Their track record in novel AI-art experiments (AI-written play) shows genuine expertise beyond prompt engineering.",
+    "market_risk": "low",
+    "market_risk_rationale": "AI strategy consulting, governance, and digital transformation advisory are in high and growing demand across enterprises and public sector, especially in EU markets with AI Act compliance requirements.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Very small team of ~5 people with no known external funding. Boutique consultancy operating since 2011 — longevity suggests sustainability, but limited scale and no investor backing create fragility if key people leave or demand shifts.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Long operating history since 2011 and a genuinely distinctive brand (first AI-written play) provide credibility and differentiation. However, the micro-scale of the team, absence of known funding, and broad-brush service offering with no clear proprietary product create meaningful execution risk."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "linkedin", "company_website"],
+    "fields_missing": ["founders", "careers_url", "funding_total_usd", "glassdoor", "notable_clients", "awards"],
+    "needs_review": false,
+    "notes": "Very small boutique innovation lab / AI consultancy. Notable for producing 'When a Robot Writes a Play' (first AI-authored theatrical play). Address: Celetná 19, 110 00 Praha 1. Email: info@inbui.com. LinkedIn lists ~5 employees and Tomas Studenik as a key person. Company website (inbui.com) is on Squarespace and not crawlable. Year of the AI play milestone is estimated; CNAIP page did not specify a year."
+  }
+}
