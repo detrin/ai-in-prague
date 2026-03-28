@@ -1,0 +1,124 @@
+{
+  "id": "exe",
+  "name": "exe",
+  "category": "company",
+  "scraped_at": "2026-03-28T16:30:00Z",
+
+  "overview": {
+    "description": "Slovak IT services company with Czech branch offering AI consulting, custom AI development, and Microsoft-based AI solutions",
+    "description_long": "exe is a 35-year-old IT systems integrator with offices in Bratislava and Prague, offering AI strategy consulting, custom AI development, Microsoft Copilot/Azure AI integration, cloud & infrastructure, cybersecurity, virtual training systems, and software localization. They focus on B2B enterprise clients, delivering data analytics, GenAI applications, NLP, computer vision, and MLOps services. Microsoft Country Partner of the Year 2019.",
+    "tagline": "Tomorrow starts today. Let your ideas speak.",
+    "website": "https://www.exe.cz",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/exe"
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "nlp", "automation", "ml_ops"],
+    "industries_served": ["financial_services", "energy", "manufacturing", "logistics", "public_sector", "cybersecurity", "education"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1990,
+    "founders": null,
+    "origin_story": "Founded in 1990 in Slovakia as a software and DTP services company by Slovak entrepreneurs. Became one of the first official Microsoft partners in Czechoslovakia in 1991.",
+    "key_milestones": [
+      {"year": 1990, "event": "Company founded in Slovakia as a software and DTP services firm"},
+      {"year": 1991, "event": "Became one of the first official Microsoft partners in Czechoslovakia"},
+      {"year": 1994, "event": "Opened Czech Republic branch; co-founded Business Software Alliance CS"},
+      {"year": 2001, "event": "Opened branch in Melbourne, Australia"},
+      {"year": 2005, "event": "Achieved Microsoft Gold Certified Partner and ISO 9001:2000 certification"},
+      {"year": 2009, "event": "Developed proprietary process management solution exeCUTE"},
+      {"year": 2019, "event": "Won Microsoft Country Partner of the Year 2019 award in Las Vegas"},
+      {"year": 2020, "event": "Named Microsoft Awards 2019 Finalist"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Bratislava", "country": "SK", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Melbourne", "country": "AU", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.exe.sk/cs/kariera/",
+    "open_roles_count": 6,
+    "open_roles": [
+      {"title": "Account Manager / B2B Sales", "department": "sales", "location": "Bratislava"},
+      {"title": "Junior License Support Specialist", "department": "support", "location": "Bratislava"},
+      {"title": "Junior M365 Consultant / L1 Support", "department": "consulting", "location": "Bratislava"},
+      {"title": "Financial Controller", "department": "finance", "location": "Bratislava"},
+      {"title": "Operations Manager", "department": "operations", "location": "Bratislava"},
+      {"title": "Power BI Developer / Data Analyst", "department": "engineering", "location": "Bratislava"},
+      {"title": "Medior Microsoft 365 Security Consultant", "department": "consulting", "location": "Bratislava"}
+    ],
+    "tech_stack": ["microsoft_azure", "ms_copilot", "ms_copilot_studio", "openai", "power_bi", "ms_fabric", "azure_ai_foundry", "llm", "python"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Microsoft Country Partner of the Year 2019",
+      "Microsoft Awards 2019 Finalist",
+      "Microsoft Industry Awards 2015 Finalist (2 categories)",
+      "MS Industry Awards 2010 – Best Productivity Solution",
+      "EN 15038 certification (first Slovak company)"
+    ],
+    "notable_clients": ["Slovnaft", "Železničná spoločnosť Cargo Slovakia", "Západoslovenská distribučná", "UniCredit Leasing Slovakia"],
+    "customer_count": 1500,
+    "partnerships": ["Microsoft Gold Partner", "ESET Platinum Partner", "Binary Tree", "Safetica"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "exe's core value is Microsoft-centric IT consulting and integration. As AI tools like Copilot become more self-service and easier to deploy without consultants, demand for basic implementation services may commoditize. However, their 35-year enterprise relationships, multi-service portfolio (cloud, cybersecurity, localization), and deep Microsoft partnership provide meaningful stickiness.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established 35-year-old IT services company with 1,500+ enterprise customers across Slovakia, Czech Republic, and beyond. The market for Microsoft-stack IT services and AI integration is growing, not shrinking.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Bootstrapped profitable enterprise with 35 years of operations, 1,500 satisfied customers, and 700 completed projects. No external funding needed; self-sustaining revenue from diversified IT services.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Financially stable and market-proven, but primarily a services reseller/integrator with limited proprietary AI IP. Medium-term risk as GenAI commoditizes integration work, though diversified service lines (localization, cybersecurity, virtual training, cloud) provide resilience."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founders", "leadership", "revenue_estimate_usd", "glassdoor", "employees_exact"],
+    "needs_review": false,
+    "notes": "exe is a Slovak company (exe, a.s., IČO: 17321450, registered in Bratislava) with a Czech branch (odštěpný závod) at Hvězdova 1716/2b, Praha 4. Website exe.cz redirects to exe.sk. Founded 1990. 57 certified specialists noted on homepage (likely a subset of total headcount). Melbourne branch opened 2001 — current status unknown."
+  }
+}
