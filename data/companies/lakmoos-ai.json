@@ -1,0 +1,107 @@
+{
+  "id": "lakmoos-ai",
+  "name": "Lakmoos AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T17:55:00Z",
+
+  "overview": {
+    "description": "AI market research platform using neuro-symbolic AI to simulate survey respondents at scale",
+    "description_long": "Lakmoos AI builds AI panels and autonomous agents for market research, combining proprietary neuro-symbolic AI with behavioral science to simulate how customers think, feel, and behave. Their platform lets enterprises run unlimited surveys overnight at 10x lower cost than traditional panels, with 98%+ accuracy validated against real human data. Used by Volkswagen Group, Skoda, Raiffeisenbank, and Mattoni.",
+    "tagline": "Market research without the slowdown",
+    "website": "https://lakmoos.com",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/lakmoos-ai"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["automation", "other"],
+    "industries_served": ["automotive", "finance", "fmcg", "retail", "energy"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": "Founded by a Czech team blending AI and behavioural science to make market research affordable and instant. HQ in Brno, Czech Republic.",
+    "key_milestones": [
+      {"year": 2024, "event": "Clients ran over 500 surveys and 5,000 interviews in a single year"},
+      {"year": 2025, "event": "AI respondents answering 20M+ questions per week; 50+ enterprise clients; 98% accuracy across 20 benchmarking studies"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 20,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Brno", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Kamila", "role": "CEO", "source": "company_website"},
+      {"name": "Jan", "role": "CTO", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Kamil Polišenský", "role": "Team member", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.startupjobs.cz/startup/lakmoos",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["ESOMAR AI Solution Compliance"],
+    "notable_clients": ["Volkswagen Group", "Skoda X", "Raiffeisenbank", "Mattoni 1873"],
+    "customer_count": 50,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Lakmoos uses proprietary neuro-symbolic AI (not LLM wrappers) validated with 98% accuracy across 20+ benchmarking studies, giving them a data and methodology moat. However, foundation models are rapidly improving at behavioral simulation, and general-purpose AI could challenge the core survey-simulation use case over time.",
+    "market_risk": "low",
+    "market_risk_rationale": "Market research is a large, established ~$87B global industry with clear demand for faster and cheaper insights. Lakmoos has real enterprise clients (Volkswagen, Raiffeisenbank, Skoda) and proven ROI metrics (14% improvement in Raiffeisenbank in-app relevance, 90% cost savings at Skoda).",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external funding found; 20-person team likely bootstrapped or pre-seed. While they appear to have paying enterprise clients (€4k/month subscriptions, €10k pilots), there are no runway signals or investor backing to confirm financial stability.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "A proprietary neuro-symbolic tech stack and validated accuracy give Lakmoos a real moat in the market research AI space, and a growing roster of enterprise clients reduces market risk. However, absence of disclosed funding raises execution risk for a small 20-person team competing in an increasingly crowded synthetic data/AI research market."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "founders", "funding_total_usd", "glassdoor", "open_roles", "tech_stack", "employees_range_exact_leadership_surnames"],
+    "needs_review": false,
+    "notes": "Company is headquartered in Brno (not Prague), but is listed in CNAIP (Czech national AI catalog). CEO first name is Kamila, CTO first name is Jan — surnames not found on public pages. The form placeholder 'Kamil Polišenský' may be a co-founder or team lead."
+  }
+}
