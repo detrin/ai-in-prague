@@ -1,0 +1,118 @@
+{
+  "id": "aignos",
+  "name": "Aignos",
+  "category": "company",
+  "scraped_at": "2026-03-28T23:42:00Z",
+
+  "overview": {
+    "description": "AI literacy education — workshops, lectures, and seminars about artificial intelligence for schools, companies, and the public",
+    "description_long": "Aignos (AI + gnosis, Greek for knowledge) is a Czech nonprofit registered association (z.s.) offering AI education programs for a wide audience — primary and secondary schools, universities, conservatories (ZUŠ), libraries, companies, government offices, and general public events. Their curriculum covers digital literacy, generative AI, critical thinking, and creative use of AI tools. They have gained national media attention, including a memorable project where they created an AI-generated presidential candidate. Finalists at AI Awards 2023, AI Awards 2024, and Gratias Tibi 2023.",
+    "tagline": "Umělá inteligence na dosah ruky (Artificial intelligence within reach)",
+    "website": "https://www.aignos.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["other"],
+    "industries_served": ["education", "government", "events"],
+    "company_type": "nonprofit",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2022,
+    "founders": ["Martin Richter", "Ondřej Hrách"],
+    "origin_story": "Founded in May 2022 in Chomutov by educators Martin Richter and Ondřej Hrách, both of whom serve as lecturers. The name blends 'AI' (artificial intelligence) and 'gnosis' (Greek for knowledge). The organization operates as a registered association (spolek) focused on demystifying AI for Czech society.",
+    "key_milestones": [
+      {"year": 2022, "event": "Founded as Aignos z.s. in Chomutov (IČ: 17142644)"},
+      {"year": 2023, "event": "Finalist at AI Awards 2023 and Gratias Tibi 2023"},
+      {"year": 2023, "event": "Created AI-generated presidential candidate project — featured on Český rozhlas Plus"},
+      {"year": 2024, "event": "Finalist at AI Awards 2024"},
+      {"year": 2025, "event": "Expanded offering to include libraries and government offices"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Chomutov", "country": "CZ", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Martin Richter", "role": "Co-founder, Lecturer", "source": "company_website"},
+      {"name": "Ondřej Hrách", "role": "Co-founder, Lecturer", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Rudolf Rosa", "role": "Technology Guarantor (Ph.D.)", "source": "company_website"},
+      {"name": "Tereza Hannemann", "role": "Methodology Supervisor (Ph.D.)", "source": "company_website"},
+      {"name": "Anna Štádlerová", "role": "Coordinator, Lecturer", "source": "company_website"},
+      {"name": "Tereza Matoulek", "role": "Coordinator", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Finalist AI Awards 2024",
+      "Finalist AI Awards 2023",
+      "Finalist Gratias Tibi 2023"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Aignos is a nonprofit AI education organization. Their mission is to educate people about AI, not to build AI products. Foundation models do not commoditize AI literacy instruction — if anything, growing AI capability increases demand for the type of education Aignos provides.",
+    "market_risk": "medium",
+    "market_risk_rationale": "AI literacy education is in high demand and growing in Czech Republic, but Aignos is a small nonprofit relying on individual workshop engagements. The addressable market is real but fragmented; competition from larger edtech players or government-funded programs could constrain growth.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "As a small nonprofit (z.s.) with no known grants or large sponsors identified, revenue depends on individual workshop bookings from schools and companies. No disclosed funding rounds or institutional backing; financial sustainability is uncertain.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Aignos occupies a meaningful niche in Czech AI education with media recognition and award nominations, but remains a small nonprofit with uncertain financial sustainability. AGI displacement risk is not applicable; the main risks are funding continuity and scaling beyond individual workshop delivery."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ares_registry"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count", "employee_exact"],
+    "needs_review": false,
+    "notes": "Aignos is a registered nonprofit association (z.s.), not a commercial company. IČ: 17142644. Founded 2022-05-24 per ARES registry. Prague office at Hybernská 998/4; registered HQ in Chomutov. No CNAIP page found. No Glassdoor presence found. Team size estimated at ~10 based on staff listed on website."
+  }
+}
