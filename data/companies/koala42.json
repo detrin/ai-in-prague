@@ -1,0 +1,115 @@
+{
+  "id": "koala42",
+  "name": "KOALA42",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Custom software development studio specializing in digitalization of Czech industrial companies",
+    "description_long": "KOALA42 is a Prague- and Zlín-based software studio that builds mobile apps, web apps, AI applications, and ERP/information systems. Founded in 2018 by Jan Jelínek and Filip Molčík, the company focuses on the 'last mile of digitization' — connecting existing systems, extracting data from factory machines, and replacing spreadsheet-based workflows for Czech industrial and manufacturing clients. The name references The Hitchhiker's Guide to the Galaxy. Bootstrapped, profitable, and targeting ~60 million CZK revenue in 2026.",
+    "tagline": "Experti na poslední míli digitalizace vašeho podnikání",
+    "website": "https://koala42.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "cv", "generative_ai"],
+    "industries_served": ["manufacturing", "logistics", "industrial", "transportation"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2018,
+    "founders": ["Jan Jelínek", "Filip Molčík"],
+    "origin_story": "Co-founders Jan Jelínek (sports marketing) and Filip Molčík (ČVUT graduate, ex-Certicon) met through a mutual friend in Prague at a bar called 'Tlustá koala' (Fat Koala), which inspired the company name. Started bootstrapped with a third co-founder who quickly left, with Jelínek driving Taxify nights to pay rent while Molčík worked remotely from Thailand. Pivoted from sports marketing to web/app development to industrial digitalization.",
+    "key_milestones": [
+      {"year": 2018, "event": "Founded in Prague by Jan Jelínek and Filip Molčík"},
+      {"year": 2019, "event": "First employee hires; first major client MyQ (printer management systems)"},
+      {"year": 2020, "event": "COVID accelerated industrial clients' digitalization needs, boosting growth"},
+      {"year": 2022, "event": "Client Stebal Spedition bankruptcy left ~10M CZK in uncollectable receivables"},
+      {"year": 2026, "event": "Targeting 60 million CZK annual revenue; featured in CzechCrunch profile"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 36,
+    "employee_source": "linkedin",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Zlín", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 2700000,
+    "revenue_source": "czechcrunch_article_2026 (targeting 60M CZK ~2.7M USD at ~22 CZK/USD)",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jan Jelínek", "role": "Co-founder & CEO", "source": "czechcrunch"},
+      {"name": "Filip Molčík", "role": "Co-founder", "source": "czechcrunch"},
+      {"name": "Jakub Šnorbert", "role": "Head of Delivery", "source": "linkedin"},
+      {"name": "Lukáš Kuhn", "role": "Business Developer", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Pavel Kučera", "role": "Advisor (ex-CTO, Avast)", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://koala42.com/en/career",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "Medior Tech Product Manager", "department": "product", "location": "Prague"}
+    ],
+    "tech_stack": ["javascript", "typescript", "react", "node.js"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["MyQ", "Petainer", "Toyota Czech Republic", "HP", "Talsec", "Dřevěné konstrukce", "Qapline", "Testuj.to", "NxtCourt", "Supply.do", "FOODSTR", "Nano Energie"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "KOALA42 is primarily a custom software development and AI integration shop that builds applications on top of third-party LLMs (OpenAI, Gemini, Claude). Their core value proposition — connecting existing systems and building bespoke apps — faces increasing pressure from vibe-coding tools, no-code platforms, and AI-assisted development. No proprietary data moat or unique AI technology.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The Czech industrial digitalization market is real and growing, with genuine demand from SMEs and manufacturers. However, KOALA42 competes with many local and international IT agencies and is exposed to project-based revenue volatility (as shown by the Stebal Spedition bad debt event). The niche of 'last mile' integration is defensible but not uniquely differentiated.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Bootstrapped with no external investors, which means full control but limited runway during downturns. They appear profitable and self-sustaining at ~60M CZK revenue target, but any major client loss or market downturn could strain cash flow as experienced during the 2022 receivables crisis.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "As a consulting/dev-shop building on top of third-party AI models with no proprietary technology moat, KOALA42 is vulnerable to commoditization by AI-assisted development tools and no-code platforms. Bootstrapped model limits resilience. While the industrial digitalization niche provides near-term demand, the company's core offering is highly replicable."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin", "czechcrunch"],
+    "fields_missing": ["glassdoor_rating", "funding_total_usd", "customer_count"],
+    "needs_review": false,
+    "notes": "Revenue estimate based on CzechCrunch article (Feb 2026) stating they target 60M CZK in 2026. Employee count from LinkedIn (36 employees visible). Company is bootstrapped. The '42' in the name is a Hitchhiker's Guide to the Galaxy reference."
+  }
+}
