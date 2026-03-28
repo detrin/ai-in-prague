@@ -1,0 +1,111 @@
+{
+  "id": "inovectech",
+  "name": "InovecTech",
+  "category": "company",
+  "scraped_at": "2026-03-28T17:35:00Z",
+
+  "overview": {
+    "description": "AI-powered manufacturing execution system and digital twin solutions for industrial shop floors, using computer vision on the edge",
+    "description_long": "Inovec Technology s.r.o. (InovecTech) builds AI-driven industrial IoT products that digitalize manufacturing operations using camera-based virtual sensors and edge computing. Their flagship products are InOEE (an AI-powered MES and OEE monitoring solution for discrete manufacturing) and InoWare (a digital twin for internal logistics and heavy industrial warehouses). Cameras are installed on machines and in warehouses within hours; proprietary computer vision models run on-device to monitor productivity, detect losses, and feed real-time dashboards. Founded in 2020 by three Cambridge alumni—ex-McKinsey consultant Boris Fačkovec, engineer Pavel Kohout, and data scientist Peter Vanya—the company has grown to over 40 staff across offices in Prague, Košice (Slovakia), and Kraków (Poland). Customers span steel, rolling stock, automotive, defense, construction, and pulp & paper industries. Over 100,000 virtual sensors have been installed and 2 billion hours of sensor data collected across more than 50 manufacturing plants.",
+    "tagline": "Better Manufacturing Execution System thanks to AI",
+    "website": "https://www.inovec.tech",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["cv", "ml_ops", "automation"],
+    "industries_served": ["manufacturing", "steel", "automotive", "defense", "logistics"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2020,
+    "founders": ["Boris Fačkovec", "Pavel Kohout", "Peter Vanya"],
+    "origin_story": "Three Cambridge University alumni (ex-McKinsey consultant Boris Fačkovec, engineer Pavel Kohout from TTP/BTL Medical Technologies, and data scientist Peter Vanya) founded the company in Prague in 2020, identifying an opportunity to replace expensive human consultants on factory floors with AI-powered camera systems.",
+    "key_milestones": [
+      {"year": 2020, "event": "Founded in Prague; first edge AI camera deployments"},
+      {"year": 2022, "event": "Featured in Czech Crunch; >10 deployments in Czech factories; revenue in low hundreds of thousands EUR"},
+      {"year": 2023, "event": "Reached >50 satisfied manufacturing plants; 2 billion hours of sensor data; international expansion to Poland, Slovakia; covered in MSV, Easy Engineering, Denník N"},
+      {"year": 2024, "event": "ATP Journal coverage; continued expansion into defense and heavy industry verticals"},
+      {"year": 2025, "event": "Attended SXSW with Czech delegation; established connections with top US defense companies; first US PoC project"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website_and_linkedin",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Košice", "country": "SK", "is_hq": false},
+    {"city": "Kraków", "country": "PL", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": "Czech Crunch (July 2022): 'lower hundreds of thousands EUR annually, growing 3-5x per year'",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Boris Fačkovec", "role": "CEO & CTO", "source": "company_website"},
+      {"name": "Pavel Kohout", "role": "COO", "source": "company_website"},
+      {"name": "Peter Vanya", "role": "Head of Data", "source": "czechcrunch_article_2022"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.inovec.tech/en/collaboration",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["computer_vision", "edge_computing", "python", "machine_learning"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": 50,
+    "partnerships": ["EIT Manufacturing", "CzechTrade", "CzechInvest", "CIIRC ČVUT", "NATO DIANA"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "InovecTech's moat is in proprietary edge hardware, specialized industrial computer vision models, and deep domain expertise in manufacturing OEE. While general-purpose vision foundation models are improving, the company's value is tied to on-premise installation, industrial robustness (dust, humidity, temperature), and validated real-time OEE analytics—capabilities that commodity models cannot easily replicate. However, the CV-on-edge space is becoming more competitive as hardware costs fall.",
+    "market_risk": "low",
+    "market_risk_rationale": "Manufacturing digitalization and Industry 4.0 is a large, established market with proven demand. InovecTech has 50+ paying manufacturing customers across multiple verticals and geographies, demonstrating real PMF. The market is expanding into defense and heavy industry.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No known external VC funding; the company appears bootstrapped. As of 2022, revenue was in 'lower hundreds of thousands EUR' with strong growth trajectory. The small team and organic growth model limit runway flexibility, but the subscription-based model and growing customer base provide some stability.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "InovecTech has a real product with paying customers in a growing market, but the lack of known external funding and bootstrapped scale-up create execution risk. Their proprietary edge hardware and industrial deployment expertise provide a meaningful moat against AGI commoditization."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czechcrunch", "easyengineering", "linkedin"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count"],
+    "needs_review": false,
+    "notes": "No CNAIP URL provided. Company domain inovectech.com redirects to www.inovec.tech. Peter Vanya is listed as a co-founder in Czech Crunch 2022 article but does not appear in the leadership section of the current website—may have departed. Founded 2020 by 3 Cambridge alumni. Attended SXSW March 2025 with Czech government delegation."
+  }
+}
