@@ -1,0 +1,114 @@
+{
+  "id": "newtonone",
+  "name": "NewtonOne",
+  "category": "company",
+  "scraped_at": "2026-03-28T21:10:00Z",
+
+  "overview": {
+    "description": "360° real-time media monitoring platform by Newton Media",
+    "description_long": "NewtonOne is the flagship SaaS platform of NEWTON Media, a.s. — a Czech media intelligence leader operating for over 30 years. The platform offers real-time monitoring of 150,000 global media sources including online, print, TV, radio, and social media. It features AI-powered text analysis, image recognition, social media analytics, and a Czech media archive dating back to 1996. Newton Media also offers an AI Visibility product that measures how brands are perceived by generative AI systems.",
+    "tagline": "360° monitoring v reálném čase",
+    "website": "https://www.newtonone.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "cv", "automation"],
+    "industries_served": ["media", "pr", "marketing", "finance", "public_sector"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2007,
+    "founders": [],
+    "origin_story": "NEWTON Media, a.s. was incorporated in 2007 but traces its roots to media monitoring operations dating back over 30 years. The company became one of Central Europe's leading media intelligence providers, expanding across 9 CEE countries.",
+    "key_milestones": [
+      {"year": 2007, "event": "NEWTON Media, a.s. incorporated in Prague"},
+      {"year": 1996, "event": "Czech media archive started (continuous coverage)"},
+      {"year": 2024, "event": "New CEO Ing. Petr Herian appointed; company HQ relocated to Lomnického 1705/9, Praha 4"},
+      {"year": 2024, "event": "AI Visibility product launched — measures brand presence in generative AI answers"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 9
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Bratislava", "country": "SK", "is_hq": false},
+    {"city": "Ljubljana", "country": "SI", "is_hq": false},
+    {"city": "Zagreb", "country": "HR", "is_hq": false},
+    {"city": "Belgrade", "country": "RS", "is_hq": false},
+    {"city": "Sarajevo", "country": "BA", "is_hq": false},
+    {"city": "Skopje", "country": "MK", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Newton Group",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ing. Petr Herian", "role": "CEO / Chairman of the Board", "source": "czech_business_registry"}
+    ],
+    "notable_people": [
+      {"name": "Vojtěch Sedláček", "role": "Supervisory Board Member", "source": "czech_business_registry"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.newtonmedia.cz",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["AMEC Awards - Best Media Analysis (multiple times, sole Czech winner)", "Czech Contact Center Award (Newton Analytics)"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["FIBEP (international media intelligence association)", "AMEC (measurement and evaluation association)", "APRA (Czech PR association)", "Google Translate (foreign content translation)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "NewtonOne has a 30-year media archive, 150,000 monitored sources, and native TV/radio transcription in CEE languages — creating a meaningful data moat. However, AI-native search tools (Perplexity, AI Overviews) and foundation models could commoditize basic brand mention monitoring over time. Their differentiation lies in regional coverage, archival depth, and compliance with professional standards (AMEC, FIBEP).",
+    "market_risk": "low",
+    "market_risk_rationale": "Media monitoring and intelligence is an established B2B market with clear ROI for PR, communications, and marketing teams. Newton Media has served this market for 30+ years across 9 CEE countries, indicating durable demand and proven product-market fit.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "NEWTON Media is a self-sustaining enterprise with 30+ years of operations, no known VC dependency, and a diversified customer base across 9 countries. The company is part of Newton Group (which also includes Newton Technologies), suggesting group-level financial stability.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Long-established market leader in CEE media intelligence with a 30-year archive moat, professional association memberships, and multi-country operations. AGI may pressure the product roadmap but the company is actively adapting (AI Visibility product) and serves enterprise clients with compliance requirements that resist cheap alternatives."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_registry"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles", "tech_stack", "notable_clients", "customer_count"],
+    "needs_review": false,
+    "notes": "NewtonOne is the SaaS product brand; the legal entity is NEWTON Media, a.s. (IČO: 28168356). The company claims 30+ years of operation but the current legal entity was incorporated in 2007. Employee count estimated for Czech entity only; entire Newton Group (9 countries) is larger. Glassdoor blocked by anti-bot protection."
+  }
+}
