@@ -1,0 +1,106 @@
+{
+  "id": "oddeleni-cogsys",
+  "name": "Oddělení kognitivních systémů a neurověd (COGSYS)",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Interdisciplinary research group at CIIRC CTU Prague focusing on cognitive systems, neuroscience, and AI applied to human brain functions",
+    "description_long": "COGSYS (Department of Cognitive Systems and Neurosciences) is a research department within CIIRC at Czech Technical University in Prague. The department's program is focused on the integration of knowledge from several scientific disciplines (neuroscience, artificial intelligence, psychology, computer science, mathematics) into interdisciplinary research concerning human brain functions. The unique composition of groups supports interdisciplinary dialog leading to the development of more precise research methods in cognitive and computational neurosciences. The department is divided into three groups: CON (Cognitive Neuroscience, led by Lenka Lhotská), HMA (Analysis of Human Motion), and NAP (Neuroinformatics of normal and pathological hearing function, led by Daniel Šuta).",
+    "tagline": "Interdisciplinary research on cognitive systems and neurosciences",
+    "website": "https://www.ciirc.cvut.cz/en/teams-labs/cogsys/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["ml_ops", "nlp", "other"],
+    "industries_served": ["healthcare", "academia"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2013,
+    "founders": [],
+    "origin_story": "COGSYS is a research department within CIIRC (Czech Institute of Informatics, Robotics and Cybernetics), which was established as part of Czech Technical University in Prague on July 1, 2013.",
+    "key_milestones": [
+      {"year": 2013, "event": "CIIRC established at Czech Technical University in Prague"},
+      {"year": 2013, "event": "COGSYS department formed as part of CIIRC"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (ČVUT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Lenka Vysloužilová", "role": "Head of Department (Vedoucí oddělení)", "source": "company_website"},
+      {"name": "Lenka Lhotská", "role": "Lead, CON (Cognitive Neuroscience) group", "source": "company_website"},
+      {"name": "Daniel Šuta", "role": "Lead, NAP (Neuroinformatics of hearing function) group", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.ciirc.cvut.cz/en/about/vacancies/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "matlab"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Czech Technical University in Prague"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at a public university; foundational neuroscience and cognitive systems research is complementary to rather than in competition with AI development.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Not a commercial entity; funded through academic grants and CTU institutional support. Research relevance is sustained by academic and scientific merit.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Institutional department of Czech Technical University (ČVUT), a public university. Funding comes from institutional budgets and research grants rather than commercial revenue.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "COGSYS is an academic research department within CIIRC at Czech Technical University. As a public institution with stable state funding and institutional support, commercial risk metrics do not apply."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "wikipedia"],
+    "fields_missing": ["employees_exact", "founded_year_cogsys_specifically", "open_roles_count", "glassdoor_rating", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "COGSYS is Department VI within CIIRC (Czech Institute of Informatics, Robotics and Cybernetics) at Czech Technical University in Prague. Address: Jugoslávských partyzánů 1580/3, 160 00 Prague 6, Dejvice. Contact: lenka.vyslouzilova@cvut.cz, +420 224 354 189. CIIRC was established 2013; COGSYS founding year within CIIRC is inferred from 2013."
+  }
+}
