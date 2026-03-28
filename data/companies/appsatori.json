@@ -1,0 +1,116 @@
+{
+  "id": "appsatori",
+  "name": "AppSatori",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "Google Cloud Premier Partner specializing in AI/ML, Google Workspace, and cloud consulting for Czech businesses",
+    "description_long": "AppSatori s.r.o. is a certified Google Cloud Premier Partner and Google for Education Partner based in Prague, with a specialization in Machine Learning. Founded in 2011, the company helps small and medium-sized Czech businesses adopt Google Cloud Platform, Google Workspace, and AI/ML services. Their team of certified ML engineers and cloud architects uses Google Cloud AI/ML tools such as Vertex AI, TensorFlow, and BigQuery to design, build, and deploy solutions. They also offer AI integration via Google APIs (Cloud Vision, Speech-to-Text, NLP), generative AI prototyping with Gemini, and no-code AI tooling. AppSatori has two proprietary products: SignatureSatori (centralized email signature management for Google Workspace) and AuditSatori.",
+    "tagline": "Google Cloud Premier Partner specialized in AI",
+    "website": "https://www.appsatori.eu",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "ml_ops", "nlp", "cv", "speech"],
+    "industries_served": ["smb", "education", "public_sector", "media"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2011,
+    "founders": ["Ivan Kutil", "Petr Jares", "Přemysl Brýl"],
+    "origin_story": "Co-founded in 2010–2011 by Ivan Kutil (CTO, Google Developer Expert since 2013), Petr Jares (CEO), and Přemysl Brýl (CPO) to bring Google Cloud and Workspace technologies to Czech SMEs. The company was formally registered on April 13, 2011.",
+    "key_milestones": [
+      {"year": 2011, "event": "AppSatori s.r.o. formally incorporated in Prague"},
+      {"year": 2013, "event": "Ivan Kutil became a Google Developer Expert (GDE)"},
+      {"year": 2021, "event": "Achieved Google Cloud Premier Partner status"},
+      {"year": 2024, "event": "Acquired Google Cloud Machine Learning specialization badge"},
+      {"year": 2025, "event": "Launched Google AI Ultra for Business offering for content creators"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 16,
+    "employee_source": "rocketreach",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 5500000,
+    "revenue_source": "linkedin_snippet (Ivan Kutil stated ~€5M annual revenue)",
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Petr Jares", "role": "CEO & Co-Owner", "source": "rocketreach"},
+      {"name": "Ivan Kutil", "role": "Co-Founder & CTO", "source": "linkedin"},
+      {"name": "Přemysl Brýl", "role": "Chief Product Officer", "source": "company_website"},
+      {"name": "Václav Veselý", "role": "Head of Strategic Partnerships", "source": "linkedin"}
+    ],
+    "notable_people": [
+      {"name": "Ivan Kutil", "role": "Google Developer Expert (GDE) since 2013, Google Cloud Champion Innovator", "source": "linkedin"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.appsatori.eu/kariera",
+    "open_roles_count": 0,
+    "open_roles": [],
+    "tech_stack": ["google-cloud", "vertex-ai", "tensorflow", "bigquery", "google-workspace", "google-apps-script", "python", "javascript"],
+    "hiring_signals": "not_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Google Cloud Premier Partner – Machine Learning Specialization",
+      "Google for Education Partner",
+      "Google Developer Expert (Ivan Kutil, GDE since 2013)"
+    ],
+    "notable_clients": ["Praha 6 (Prague 6 municipal district)", "Institute of Physics of the Czech Academy of Sciences", "Czech News Center"],
+    "customer_count": null,
+    "partnerships": ["Google Cloud", "Google Workspace"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "AppSatori's core value as a Google Cloud implementation and consulting partner could face pressure as Google makes its AI tools more accessible and self-service. However, their Machine Learning specialization badge, deep Google partnership ecosystem, and 15 years of Czech market relationships provide meaningful moat. Their proprietary products (SignatureSatori, AuditSatori) add some product-layer defensibility.",
+    "market_risk": "low",
+    "market_risk_rationale": "Google Cloud and Google Workspace adoption in Czech SMEs is a real and growing market with demonstrated demand. AppSatori's €5M revenue over 15 years of operation confirms sustainable market fit, and the Google AI partner ecosystem continues to expand.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Bootstrapped company with €5M annual revenue, 15 years of operation, and a small headcount of ~16 employees. No external funding needed; the company is clearly self-sustaining and profitable at current scale.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "AppSatori is a profitable, long-established Czech SME with a defensible niche as a Google Cloud Premier Partner with ML specialization. Its stable revenue, deep Google ecosystem partnerships, and loyal SME client base make it a low overall risk. The main exposure is gradual commoditization of Google Cloud implementation work as the platform becomes easier to use independently."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ares_registry", "linkedin", "rocketreach", "craft.co", "yahoo_search"],
+    "fields_missing": ["glassdoor_rating", "customer_count", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "AppSatori s.r.o. IČO: 24835528. No CNAIP profile found. Website is Wix-based (JS-rendered). Revenue figure (~€5M) sourced from co-founder Ivan Kutil's LinkedIn profile bio. Employees figure (16) from RocketReach/Craft.co. Company also has related entities: AppSatori ZIP s.r.o. (IČO: 19648707, founded 2023) and AppSatori Next s.r.o. (IČO: 21049815, founded 2023), both registered at the same address. Own products: SignatureSatori (email signature management) and AuditSatori."
+  }
+}
