@@ -1,0 +1,105 @@
+{
+  "id": "bighub",
+  "name": "BigHub",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:21:00Z",
+
+  "overview": {
+    "description": "Enterprise AI and data consulting company helping businesses leverage data technologies and AI",
+    "description_long": "BigHub, founded in 2016 in Prague, helps enterprises transform their data into a competitive advantage. They offer AI-ready data preparation, AI strategy consulting, AI workshops, and EU AI Act compliance services. Working as a long-term partner, BigHub approaches data and AI as software — leveraging best practices such as APIs, DataOps, and MLOps. Their clients include major Czech and international enterprises across energy, insurance, retail, and manufacturing.",
+    "tagline": "Helping enterprises leverage AI for a data-driven edge",
+    "website": "https://www.bighub.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["data_engineering", "generative_ai", "ml_ops", "automation"],
+    "industries_served": ["energy", "finance", "insurance", "retail", "manufacturing"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2016,
+    "founders": ["Karel Šimánek", "Tomáš Hubínek"],
+    "origin_story": "Founded in 2016 by Karel Šimánek and Tomáš Hubínek, two friends who saw that corporations were failing to harness AI. Started with clients in Germany and the US through a partnership with GoodData, then expanded in the Czech market.",
+    "key_milestones": [
+      {"year": 2016, "event": "Founded in Prague"},
+      {"year": 2022, "event": "Ranked in Deloitte Fast 50 — fastest growing tech companies in Czech Republic"},
+      {"year": 2024, "event": "Reached near 100M CZK revenue milestone after 8 years (reported by euro.cz)"},
+      {"year": 2025, "event": "Expanded services to include EU AI Act compliance and Generative AI solutions"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Karel Šimánek", "role": "Co-founder", "source": "company_website"},
+      {"name": "Tomáš Hubínek", "role": "Co-founder", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.bighub.ai/careers",
+    "open_roles_count": 3,
+    "open_roles": [
+      {"title": "AI Solutions Analyst", "department": "AI", "location": "Prague"},
+      {"title": "Architect & Data Engineering", "department": "Data", "location": "Prague"},
+      {"title": "Gen AI Developer / AI Architect", "department": "AI", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "azure", "microsoft"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/BigHub-Reviews-E3459516.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Deloitte Fast 50 2022 — Among fastest growing tech companies in Czech Republic",
+      "ISO/IEC 27001:2022 certified",
+      "ISO/IEC 20000-1:2018 certified",
+      "ISO 9001:2015 certified"
+    ],
+    "notable_clients": ["ČEZ", "NN pojistovna", "Datart", "Direct pojistovna"],
+    "customer_count": 60,
+    "partnerships": ["Microsoft"]
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "euro.cz", "cc.cz", "forbes.cz"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "employees_exact"],
+    "needs_review": false,
+    "notes": "Company is likely bootstrapped — no funding rounds found. About page states '75+ experts'. Revenue reportedly near 100M CZK (~$4-5M USD) after 8 years per euro.cz article. VAT ID: CZ05388066, Company ID: 05388066."
+  }
+}

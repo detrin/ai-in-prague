@@ -1,0 +1,110 @@
+{
+  "id": "bottlecap-ai",
+  "name": "BottleCap AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Architecture-first, efficiency-focused foundational LLMs and AI applications",
+    "description_long": "BottleCap AI builds a new generation of large language models with efficiency as a core principle, combining deep research with real product development. Their proprietary CAP1 foundational model powers consumer apps including Pulse (community news aggregator) and AI Scan (LLM auditing tool). Founded by AI researcher Tomas Mikolov (creator of word2vec) and entrepreneur Jaroslav Beck (co-founder of Beat Saber, acquired by Meta), the company positions itself as a European research hub focused on making LLMs radically more efficient.",
+    "tagline": "Making efficiency-first LLM's & Applications",
+    "website": "https://www.bottlecapai.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["generative_ai", "nlp"],
+    "industries_served": ["consumer", "media", "research"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2025,
+    "founders": ["Jaroslav Beck", "Tomas Mikolov"],
+    "origin_story": "Bootstrapped by Jaroslav Beck (co-founder of Beat Games/Beat Saber, acquired by Meta in 2019) and Tomas Mikolov (world-renowned AI researcher, creator of word2vec). The name is a tongue-in-cheek reference to a meme comparing European innovation (bottle caps) to SpaceX rockets, reflecting the founders' ambition to change how AI is developed in Europe.",
+    "key_milestones": [
+      {"year": 2025, "event": "Founded in Prague (~April 2025)"},
+      {"year": 2025, "event": "Built algorithm cutting LLM training costs by up to 50%"},
+      {"year": 2025, "event": "Launched CAP1 foundational model"},
+      {"year": 2025, "event": "Launched Pulse: Community News app on iOS/Android"},
+      {"year": 2026, "event": "Raised $7.5M seed round led by 20VC"},
+      {"year": 2026, "event": "David Pavlik (ex-SpaceX, Netflix) joined as Chief Product Officer"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 17,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 7500000,
+    "funding_rounds": [
+      {"date": "2026-02", "type": "Seed", "amount_usd": 7500000, "lead_investor": "20VC"}
+    ],
+    "investors": ["20VC", "Canva founders", "ElevenLabs founders", "Datadog founders", "Hugging Face founders", "Lovable founders", "Synthesia founders", "Pigment founders", "Supercell founders"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jaroslav Beck", "role": "CEO & Co-founder", "source": "company_website"},
+      {"name": "Tomas Mikolov", "role": "Chief Scientific Officer & Co-founder", "source": "company_website"},
+      {"name": "David Herel", "role": "Senior Scientist & Head of Development", "source": "company_website"},
+      {"name": "David Pavlik", "role": "Chief Product Officer", "source": "linkedin"}
+    ],
+    "notable_people": [
+      {"name": "Tomas Mikolov", "note": "Creator of word2vec; formerly at Google, Facebook, Microsoft Research"},
+      {"name": "Jaroslav Beck", "note": "Co-founder of Beat Games (Beat Saber, 10M+ copies sold, acquired by Meta 2019)"},
+      {"name": "Ondřej Plátek", "role": "LLM Researcher/Engineer", "source": "linkedin"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.bottlecapai.com",
+    "open_roles_count": 3,
+    "open_roles": [
+      {"title": "NLP Researcher", "department": "research", "location": "Prague"},
+      {"title": "Machine Learning Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Product Engineer", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["glassdoor", "revenue_estimate_usd", "tech_stack", "careers_url", "funding_round_date_exact"],
+    "needs_review": false,
+    "notes": "Seed round date estimated as ~Feb 2026 based on LinkedIn post timing (~1 month before scrape date of 2026-03-28). Company founded ~April 2025 (blog post from 13.5.2025 says 'one month ago, we started'). 17 employees visible on LinkedIn as of scrape date."
+  }
+}

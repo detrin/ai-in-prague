@@ -1,0 +1,91 @@
+{
+  "id": "brainz-disruptive",
+  "name": "Brainz Disruptive",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Award-winning creative & tech studio offering brand strategy, AI & digital innovation, web/app development, and content services",
+    "description_long": "Brainz Disruptive (now operating as Brainz Studios) is a Prague-based creative and technology studio founded in 2007. They connect strategy, design and technology to deliver innovative solutions with real impact. Their services span Brand Strategy, Visual Design, AI & Digital Innovation, Web & App Development, Storytelling & Content, and PR & Reputation.",
+    "tagline": "Built on experience, disruptive in thinking",
+    "website": "https://disruptive.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "other"],
+    "industries_served": ["marketing", "media", "technology", "retail"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2007,
+    "founders": [],
+    "origin_story": "Incorporated on March 13, 2007 in Prague as a creative digital studio",
+    "key_milestones": [
+      {"year": 2007, "event": "Founded in Prague as Brainz Disruptive S.R.O."},
+      {"year": 2024, "event": "Rebranded / expanded under Brainz Studios identity at brainzstudios.cz"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "emis",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "emis", "linkedin_snippet", "duckduckgo_snippets"],
+    "fields_missing": ["founders", "leadership", "funding_total_usd", "revenue_estimate_usd", "glassdoor", "careers_url"],
+    "needs_review": true,
+    "notes": "Company operates under both 'Brainz Disruptive' (legal name, LinkedIn) and 'Brainz Studios' (current brand, website brainzstudios.cz / disruptive.cz). EMIS reports 1-5 employees as of 2023. Primarily a creative/digital studio; AI & Digital Innovation is one of several service lines, not the core focus. Listed in Prague AI catalog (CNAIP source in index) but is not AI-native."
+  }
+}

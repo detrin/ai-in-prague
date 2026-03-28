@@ -1,0 +1,90 @@
+{
+  "id": "bohem-ai",
+  "name": "bohem.ai",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:40:00Z",
+
+  "overview": {
+    "description": "Custom machine learning solutions and consulting for businesses",
+    "description_long": "Since 2017, bohem.ai has provided tailored machine learning (ML) solutions designed to empower businesses and drive measurable results. Services cover identifying high-impact ML opportunities, creating custom MLOps strategies, facilitating hardware acquisition, designing and training ML models, and providing deployment and ongoing support. The team brings 15+ years of hands-on ML experience.",
+    "tagline": "Elevate your business with custom machine learning solutions",
+    "website": "https://bohem.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["ml_ops", "automation", "other"],
+    "industries_served": ["energy", "healthcare", "it_services"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2017,
+    "founders": [],
+    "origin_story": "Founded in Prague in March 2017 as a boutique ML consulting firm",
+    "key_milestones": [
+      {"year": 2017, "event": "Founded in Prague (registered 2017-03-30, ICO: 05975905)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["ČEPS", "Tolion Health", "GAPP System"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ares_cz"],
+    "fields_missing": ["founders", "employees_exact", "leadership", "funding", "glassdoor", "tech_stack", "careers_url"],
+    "needs_review": false,
+    "notes": "Small boutique ML consulting firm. Czech business registry (ARES) ICO: 05975905, registered 2017-03-30, address: Strančická 3339/41, Praha 10. Clients identified from homepage logo images: ČEPS (Czech electricity grid operator), Tolion Health, GAPP System. No CNAIP entry found. Website is a single-page WordPress site with no team or careers pages."
+  }
+}

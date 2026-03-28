@@ -1,0 +1,104 @@
+{
+  "id": "cruxo",
+  "name": "CRUXO",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Retail media platform for managing, launching, optimizing, and evaluating ads for retailers and brands",
+    "description_long": "CRUXO is an omnichannel retail media platform that enables retailers and brands to boost revenue and profitability through smart advertising. The platform consolidates campaign management, budget dashboards, smart calendar, digital shelf performance analytics, and contextual targeting into a single self-served tool. It supports on-site banners, sponsored products, brand pages, and in-store formats across multiple markets and currencies. The platform uses data-driven optimization to maximize ad space effectiveness for e-shops and their vendor suppliers.",
+    "tagline": "The only retail media platform tailored to your business needs",
+    "website": "https://cruxo.io",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["recommendation", "automation", "data_engineering"],
+    "industries_served": ["retail", "e-commerce", "advertising"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2022,
+    "founders": ["Michal Trunkát", "Jan Galgonek", "Petr Pavlík", "Matěj Novák"],
+    "origin_story": "Founded in 2022 by retail and e-commerce veterans with 90+ years of combined experience in retail, vendor marketing, and digital media to address the manual, spreadsheet-driven chaos of retail media campaign management.",
+    "key_milestones": [
+      {"year": 2022, "event": "Founded in Prague"},
+      {"year": 2023, "event": "Secured €800K Seed round from Czech Founders VC, Presto Ventures, and ZAKA VC"},
+      {"year": 2024, "event": "Expanded to 6 countries; reached 500 advertisers"},
+      {"year": 2025, "event": "Secured CZK 15 million additional investment from Rockaway Ventures and Czech Founders VC; selected for TECHARENA Stockholm Top 46 startups"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 13,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 881000,
+    "funding_rounds": [
+      {"date": "2023-05", "type": "Seed", "amount_usd": 870000, "lead_investor": "Czech Founders VC"},
+      {"date": "2025-01", "type": "Seed Extension", "amount_usd": null, "lead_investor": "Rockaway Ventures"}
+    ],
+    "investors": ["Czech Founders VC", "Presto Ventures", "ZAKA VC", "Rockaway Ventures"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Michal Trunkát", "role": "Founder & CEO", "source": "company_website"},
+      {"name": "Jan Galgonek", "role": "Managing Partner & Co-Founder", "source": "company_website"},
+      {"name": "Hana Pavlíková", "role": "Chief Customer Officer", "source": "company_website"},
+      {"name": "Jakub Špryngl", "role": "Chief Commercial Officer", "source": "company_website"},
+      {"name": "Jiří Pětvaldský", "role": "Chief Technology Officer", "source": "company_website"},
+      {"name": "Lenka Trunkátová", "role": "Chief of Consultancy", "source": "company_website"},
+      {"name": "Pavel Jančovič", "role": "Chief Product Officer", "source": "rockawayventures.com"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["TECHARENA Stockholm Top 46 Startups (2025)"],
+    "notable_clients": ["Lekarna.cz", "Dr.Max EU", "Astratex EU", "Kotsovolos"],
+    "customer_count": null,
+    "partnerships": ["OMG TransAct"]
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin", "rockawayventures.com", "ain.capital", "itkey.media", "tracxn"],
+    "fields_missing": ["careers_url", "open_roles", "tech_stack", "glassdoor", "revenue_estimate_usd", "funding_total_usd_exact"],
+    "needs_review": false,
+    "notes": "CRUXO is an AdTech/retail media SaaS platform with AI-powered targeting and data-driven campaign optimization. The seed round (May 2023) was ~€800K (~$880K USD). A second investment of CZK 15 million (~$660K) from Rockaway Ventures and Czech Founders VC was announced January 2025. Employee count from LinkedIn (13) likely undercounts the full team. Operations span 6 countries with 500+ advertisers."
+  }
+}

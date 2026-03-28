@@ -1,0 +1,88 @@
+{
+  "id": "cape-solutions",
+  "name": "CAPE Solutions",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered digital tools for industrial process simulation and optimization",
+    "description_long": "CAPE Solutions is a small project focused on the application and development of digital tools for industrial processes and/or research. Founded on more than 15 years of experience in process modeling, developed in collaboration with major chemical companies and research institutions worldwide. Their original focus is polymer reaction engineering, with expertise expanded to energy systems and electrochemistry. They offer chemical/process engineering calculations, model-based design of new processes, and optimization of existing ones using mathematical modeling, neural networks, grey-box models, surrogate models, and digital twins.",
+    "tagline": "Process simulations for your industry",
+    "website": "https://www.capesolutions.net",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/cape-solutions"
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "data_engineering", "ml_ops"],
+    "industries_served": ["chemicals", "energy", "pharma", "research"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": null,
+    "origin_story": "Small project focused on applying digital tools to industrial processes, built on 15+ years of experience in process modeling with major chemical companies and research institutions. Original focus in polymer reaction engineering, expanded to energy systems and electrochemistry.",
+    "key_milestones": []
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "cnaip",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "founders", "leadership", "funding_total_usd", "glassdoor", "tech_stack", "open_roles"],
+    "needs_review": false,
+    "notes": "Small Prague-based consulting/engineering firm applying AI/ML to industrial process simulation. Specializes in polymer reaction engineering, electrochemistry, digital twins, and surrogate models. Address: Tunelářů 294, 156 00 Praha. Email: info@capesolutions.cz. Website is Wix-based (JS-rendered), most content not accessible via static scraping."
+  }
+}

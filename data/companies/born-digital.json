@@ -5,39 +5,37 @@
   "scraped_at": "2026-03-28T12:00:00Z",
 
   "overview": {
-    "description": "AI-powered platform for customer experience automation in contact centers, featuring conversational AI agents, digital personas, and back-office automation",
-    "description_long": "Born Digital is a Prague-based AI company that provides an all-in-one platform for enhancing customer experience through conversational AI. The platform includes AI-powered virtual agents for inbound and outbound voice calls, digital human avatars, email processing, analytics, and full backend automation for contact centers. The company helps enterprises digitally transform their contact center operations. Born Digital was recognized in the Gartner 2025 Market Guide for Digital Humans. The company was acquired by Mews (hospitality management software), and borndigital.ai now redirects to mews.com.",
-    "tagline": "AI Agent Platform - Meet Your AI Workforce",
+    "description": "All-in-one AI agent platform for digital humans, conversational AI, and customer experience automation",
+    "description_long": "Born Digital is a Czech AI company founded in 2019 by contact center experts and AI enthusiasts. It provides an all-in-one platform for building and deploying AI agents and digital humans that automate customer service, sales, and marketing activities via chat, voice, and avatar-based interactions. Its three core products are: AI Agent (conversational), Customer Insight Analytics, and Digital Human. Trusted by 150+ companies across 15 countries.",
+    "tagline": "Born in code, built for business — our digital humans think, decide, and deliver across the globe",
     "website": "https://borndigital.ai",
-    "cnaip_url": null
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/born-digital"
   },
 
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": ["nlp", "speech", "automation", "generative_ai"],
-    "industries_served": ["contact_centers", "customer_service", "telecommunications", "financial_services", "hospitality"],
-    "company_type": "acquired",
+    "ai_focus": ["nlp", "speech", "generative_ai", "automation"],
+    "industries_served": ["finance", "energy", "telecom", "e-commerce", "insurance", "healthcare", "public_sector"],
+    "company_type": "startup",
     "is_ai_native": true
   },
 
   "history": {
     "founded_year": 2019,
-    "founders": ["Zenon Sliwka"],
-    "origin_story": "Founded in 2019 in Prague as a Czech-Slovak AI startup focused on conversational AI and digital transformation of contact centers. The company built AI-powered virtual agents and digital human technology for customer interactions.",
+    "founders": [],
+    "origin_story": "In 2019, customer contact center experts teamed up with artificial intelligence enthusiasts and Born Digital was born, with a mission to provide companies with advanced digital transformation of contact centers.",
     "key_milestones": [
-      {"year": 2019, "event": "Founded in Prague"},
-      {"year": 2021, "event": "J&T Ventures investment in Born Digital"},
-      {"year": 2023, "event": "Secured EUR 2 million in seed funding (December 2023)"},
-      {"year": 2024, "event": "Seed round closed at US$2.2M total (January 2024)"},
-      {"year": 2025, "event": "Recognized in Gartner 2025 Market Guide for Digital Humans"},
-      {"year": 2025, "event": "Acquired by Mews (hospitality management software); borndigital.ai redirects to mews.com"}
+      {"year": 2019, "event": "Founded in Prague by contact center and AI experts"},
+      {"year": 2025, "event": "Recognized by Gartner in the 2025 Market Guide for Digital Humans"},
+      {"year": 2025, "event": "EU-funded project on LLMs for knowledge base processing (NextGenerationEU)"},
+      {"year": 2025, "event": "Expanded to 150+ customers in 15 countries"}
     ]
   },
 
   "size": {
-    "employees_range": "11-50",
-    "employees_exact": null,
-    "employee_source": "linkedin",
+    "employees_range": "51-200",
+    "employees_exact": 70,
+    "employee_source": "company_website",
     "office_count": 1
   },
 
@@ -49,13 +47,10 @@
     "publicly_traded": false,
     "stock_ticker": null,
     "stock_exchange": null,
-    "parent_company": "Mews",
-    "funding_total_usd": 2200000,
-    "funding_rounds": [
-      {"round": "Pre-Seed", "date": "2021", "amount_usd": null, "investors": ["J&T Ventures"]},
-      {"round": "Seed", "date": "2024-01", "amount_usd": 2200000, "investors": []}
-    ],
-    "investors": ["J&T Ventures"],
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
     "revenue_estimate_usd": null,
     "revenue_source": null,
     "business_model": "subscription_saas"
@@ -63,17 +58,30 @@
 
   "team": {
     "leadership": [
-      {"name": "Zenon Sliwka", "role": "Founder / CEO", "source": "linkedin"}
+      {"name": "Tomáš Malovec", "role": "CEO", "source": "company_website"},
+      {"name": "Zenon Sliwka", "role": "CSO", "source": "company_website"},
+      {"name": "David Dudáš", "role": "CTO", "source": "company_website"},
+      {"name": "Dominika Dlasková", "role": "COO", "source": "company_website"},
+      {"name": "Michal Jurčo", "role": "CPO (Conversational AI)", "source": "company_website"},
+      {"name": "Ludvika Moravcova", "role": "Head of Delivery", "source": "company_website"},
+      {"name": "Simona Galková", "role": "Head of Product (Customer Insight Analytics)", "source": "company_website"},
+      {"name": "Kristýna Hrochová", "role": "Head of PR & Marketing", "source": "company_website"}
     ],
     "notable_people": []
   },
 
   "careers": {
-    "careers_url": null,
-    "open_roles_count": null,
-    "open_roles": [],
-    "tech_stack": [],
-    "hiring_signals": "not_hiring"
+    "careers_url": "https://borndigital.ai/careers",
+    "open_roles_count": 5,
+    "open_roles": [
+      {"title": "Product Owner", "department": "product", "location": "Prague"},
+      {"title": "DevOps Engineer (Medior)", "department": "engineering", "location": "Prague"},
+      {"title": "AI Business Consultant", "department": "consulting", "location": "Prague"},
+      {"title": "Integration Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "AI Analytics Consultant", "department": "data", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "javascript", "typescript", "react", "nodejs", "graphql", "llm", "elasticsearch", "postgresql", "mongodb", "fasttext", "scikit-learn"],
+    "hiring_signals": "actively_hiring"
   },
 
   "glassdoor": {
@@ -86,15 +94,15 @@
   "recognition": {
     "awards": ["Gartner 2025 Market Guide for Digital Humans"],
     "notable_clients": [],
-    "customer_count": null,
+    "customer_count": 150,
     "partnerships": []
   },
 
   "metadata": {
-    "data_quality": "medium",
-    "sources_used": ["google_search_snippets", "thesaasnews", "tracxn_snippet", "cbinsights_snippet", "parsers_vc_snippet", "linkedin_snippet", "facebook_snippet"],
-    "fields_missing": ["employees_exact", "glassdoor_rating", "revenue_estimate_usd", "careers_url", "tech_stack", "notable_clients"],
+    "data_quality": "high",
+    "sources_used": ["cnaip", "company_website", "linkedin"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "founders"],
     "needs_review": false,
-    "notes": "borndigital.ai redirects to mews.com as of March 2026, confirming acquisition by Mews (hospitality software). Data primarily gathered from Google search snippets since the company website is no longer accessible. LinkedIn shows 3,700+ followers. Founded in 2019 as Czech-Slovak startup. Total funding of US$2.2M across 2 rounds. J&T Ventures was an early investor. Glassdoor search was blocked by CAPTCHA; no rating data available. Hiring signals set to not_hiring due to acquisition. Revenue search was blocked by rate limiting."
+    "notes": "Founded 2019. 70 employees globally per About page. Clients include luxury patisseries, Dubai security forces, and the world's largest ATM manufacturer. Two EU-funded R&D projects (NextGenerationEU). Address: Eberlova 1483/3, 155 00 Praha."
   }
 }

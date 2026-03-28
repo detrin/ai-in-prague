@@ -1,0 +1,111 @@
+{
+  "id": "comguide",
+  "name": "ComGuide",
+  "category": "company",
+  "scraped_at": "2026-03-28T13:06:00Z",
+
+  "overview": {
+    "description": "AI-powered virtual patient platform for training healthcare professionals in difficult communication",
+    "description_long": "ComGuide creates a global platform where healthcare professionals can practice difficult conversations with virtual patients. The virtual patients respond with realistic emotions and behaviors powered by AI. ComGuide designs training tailored to real-life scenarios for Czech hospitals, medical faculties, and international healthcare institutions. Supported by Erasmus+ and Czech Rise Up grants. Clients include 13 Czech hospitals, 5 medical faculties, and 1,300+ trained healthcare professionals.",
+    "tagline": "We are changing communication in healthcare. We teach healthcare professionals to act in ways that benefit both themselves and their patients.",
+    "website": "https://comguide.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["generative_ai", "nlp", "speech"],
+    "industries_served": ["healthcare", "education"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Jan Hrdlička", "Lucie Hrdličková", "Jiří Wild"],
+    "origin_story": "Founded by Jan Hrdlička (biomedical engineering, AI & biocybernetics, CTU FEL; previously co-founded 3dsense), Lucie Hrdličková (pediatric oncologist, palliative care expert, FN Motol), and Jiří Wild (PhD in biomedical engineering, AI & biocybernetics, CTU FEL; previously co-led 3dsense).",
+    "key_milestones": [
+      {"year": 2021, "event": "Received Erasmus+ grant for VR communication training with minorities (2021-2-CZ01-KA210-VET-000049487)"},
+      {"year": 2023, "event": "Received Erasmus+ VR-TALKS grant for introducing VR into medical school curricula (2023-1-CZ01-KA220-HED-000155071)"},
+      {"year": 2025, "event": "Platform serving 13 Czech hospitals, 5 medical faculties, and 1,300+ trained healthcare professionals"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred_from_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jan Hrdlička", "role": "Founder (Business, Strategy & Finance)", "source": "company_website"},
+      {"name": "Lucie Hrdličková", "role": "Founder (Content & Education Quality)", "source": "company_website"},
+      {"name": "Jiří Wild", "role": "Founder (Technology & Product Development)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Claudia Bausewein", "role": "Advisor / Professor of Palliative Medicine, LMU University Hospital Munich", "source": "company_website"},
+      {"name": "Juliet Jacobsen", "role": "Advisor / Associate Professor, Harvard Medical School", "source": "company_website"},
+      {"name": "Kateřina Rusinová", "role": "Advisor / Associate Professor, Charles University Prague", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Czech Rise Up 3.0 grant recipient",
+      "Erasmus+ grant recipient (2021)",
+      "Erasmus+ VR-TALKS grant recipient (2023)"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "LMU University Hospital Munich",
+      "Hannover Medical School",
+      "University College Cork",
+      "Leiden University",
+      "Charles University Prague",
+      "FN Motol (Motol University Hospital)"
+    ]
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "careers_url", "glassdoor_rating", "open_roles_count"],
+    "needs_review": false,
+    "notes": "ComGuide is a small, grant-funded AI startup focused on healthcare communication training via virtual patients. The website (comguide.cz) is a single-page app in Czech/English/German. Stats from website: 13 Czech hospitals, 5 medical faculties, 1,300+ trained healthcare professionals. Contact: Jan Hrdlička, HRDLICKA@COMGUIDE.CZ, +420 608 653 234. Founding year not confirmed — Erasmus+ grant references from 2021 suggest company existed by then. No CNAIP URL available."
+  }
+}

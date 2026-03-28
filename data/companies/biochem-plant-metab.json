@@ -1,0 +1,94 @@
+{
+  "id": "biochem-plant-metab",
+  "name": "Biochemistry of Plant Specialized Metabolites",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-assisted discovery of bioactive plant specialized metabolites at IOCB Prague",
+    "description_long": "The Tomáš Pluskal Group at IOCB Prague (Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences) combines cutting-edge experimental (mass spectrometry, metabolomics, RNA-seq) and computational (bioinformatics, molecular networking, machine learning) approaches to develop rapid, generally applicable workflows for the discovery and utilization of bioactive molecules derived from plants. The lab's goal is to engineer novel, nature-inspired chemistry using sustainable biosynthetic tools, with applications in drug discovery.",
+    "tagline": "Discovering nature-inspired bioactive molecules with AI and experimental chemistry",
+    "website": "https://www.pluskal-lab.org",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/biochemistry-of-plant-specialized-metabolites"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["other"],
+    "industries_served": ["healthcare", "biotechnology", "pharmaceuticals", "science_and_research"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Tomáš Pluskal"],
+    "origin_story": "Research group at IOCB Prague (Czech Academy of Sciences) led by Tomáš Pluskal, focused on applying machine learning and bioinformatics to the discovery of bioactive plant metabolites for drug development.",
+    "key_milestones": []
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Institute of Organic Chemistry and Biochemistry, Czech Academy of Sciences (AV ČR)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš Pluskal", "role": "Group Leader", "source": "cnaip"}
+    ],
+    "notable_people": [
+      {"name": "Alžběta Kadlecová", "role": "Lab Manager", "source": "company_website"},
+      {"name": "Tito Damiani", "role": "Scientist", "source": "company_website"},
+      {"name": "Alexandre Bouillé", "role": "Postdoctoral Fellow", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.pluskal-lab.org/join/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "bioinformatics", "machine_learning", "mass_spectrometry", "RNA-seq"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "funding_total_usd", "open_roles_count", "open_roles", "glassdoor"],
+    "needs_review": true,
+    "notes": "This is a research group (Tomáš Pluskal Group) at IOCB Prague, part of the Czech Academy of Sciences. The CNAIP entry classifies it under 'company' but it is clearly an academic research lab. CNAIP tags: biochemistry, enzymes, proteins, molecules, mass spectrometry, bioML, protein structure, protein function, biosynthesis. Contact: tomas.pluskal@uochb.cas.cz. Address: Flemingovo náměstí 542/2, 160 00 Praha 6. Group has ~32 members (28+ listed as 'other' on website plus 4 named)."
+  }
+}

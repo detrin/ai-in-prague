@@ -1,0 +1,128 @@
+{
+  "id": "ctr-tech-env-ethics",
+  "name": "Center for Technology and Environmental Ethics",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "First Czech research center exploring ethical challenges at the intersection of technology use and environmental problems, including AI, climate change, and biodiversity",
+    "description_long": "CETE-P (Center for Environmental and Technology Ethics - Prague) is the first research center in the Czech Republic that examines new ethical challenges posed by the intersection of the growing use of technologies and current ecological problems, including climate change, loss of biodiversity, issues in the Anthropocene, and the role of AI. Led by ERA Chair holder Professor Mark Coeckelbergh, one of the most prolific authors in contemporary philosophy of technology and environmental ethics, the center is growing into an international research community. It brings together academics, NGOs, policymakers, and businesses to discuss pressing ethical issues, and facilitates expert ethical opinions in the wider public debate through media, podcasts, and public lectures.",
+    "tagline": "A research center that explores ethical issues concerning environment & technologies",
+    "website": "https://cetep.eu",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/center-for-technology-and-environmental-ethics"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["other"],
+    "industries_served": ["education", "environment", "healthcare", "policy"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2023,
+    "founders": ["Mark Coeckelbergh", "Iwona Janicka"],
+    "origin_story": "Established under the EU Horizon Europe ERA Chair scheme (Grant Agreement No. 101086898, signed October 2022, operational January 2023) at the Institute of Philosophy, Czech Academy of Sciences. Mark Coeckelbergh was brought in as ERA Chair holder to build the first Czech research center focused on AI and environmental ethics.",
+    "key_milestones": [
+      {"year": 2022, "event": "EU Horizon ERA Chair grant signed (Grant Agreement No. 101086898, €2.2M)"},
+      {"year": 2023, "event": "Center officially launched at the Institute of Philosophy, Czech Academy of Sciences"},
+      {"year": 2024, "event": "Published multiple peer-reviewed articles on AI ethics, environmental ethics, and responsible AI"},
+      {"year": 2025, "event": "International visiting scholars program active; launched Zelený drát podcast"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Institute of Philosophy, Czech Academy of Sciences (AV ČR)",
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {
+        "date": "2023-01",
+        "type": "EU Horizon Grant (ERA Chair)",
+        "amount_usd": null,
+        "lead_investor": "European Commission (Horizon Europe)"
+      }
+    ],
+    "investors": ["European Commission (Horizon Europe, Grant No. 101086898, €2,235,990)"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Mark Coeckelbergh", "role": "ERA Chair Holder / PI", "source": "company_website"},
+      {"name": "Iwona Janicka", "role": "Research Team Leader", "source": "company_website"},
+      {"name": "Petr Urban", "role": "Project Coordinator", "source": "company_website"},
+      {"name": "Tomáš Hříbek", "role": "Research Excellence & Networking Leader", "source": "company_website"},
+      {"name": "Juraj Hvorecký", "role": "Communication & Dissemination Leader", "source": "company_website"},
+      {"name": "Julie Černá", "role": "Research Team Recruitment Leader", "source": "company_website"},
+      {"name": "Martin Ritter", "role": "Institutional Changes Leader", "source": "company_website"},
+      {"name": "Marie Kolárová", "role": "Project Manager", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Friderike Spang", "role": "Postdoctoral Researcher", "source": "company_website"},
+      {"name": "John Dorsch", "role": "Postdoctoral Researcher", "source": "company_website"},
+      {"name": "Robin Kopecký", "role": "Postdoctoral Researcher", "source": "company_website"},
+      {"name": "Rosine Kelz", "role": "Postdoctoral Researcher", "source": "company_website"},
+      {"name": "Tuğba Yoldaş", "role": "Postdoctoral Researcher", "source": "company_website"},
+      {"name": "Paula Gürtler", "role": "PhD Level Researcher", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["EU Horizon Europe ERA Chair (Grant No. 101086898, 2023–2027)"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Oxford Institute for Ethics in AI",
+      "Oxford Uehiro Centre for Practical Ethics, University of Oxford",
+      "Edinburgh Futures Institute (EFI), University of Edinburgh",
+      "Ethics + Emerging Science Group (E+ESG), California Polytechnic University",
+      "Institute for Ethics in Artificial Intelligence (IEAI), LMU Munich",
+      "Philosophy of Media and Technology Research Group, Universität Wien",
+      "Kempelen Institute of Intelligent Technologies (KInIT), Bratislava",
+      "Research Group for Ethics in Information Technology (EIT), University of Hamburg",
+      "Edmond and Lily Safra Center for Ethics, Harvard University",
+      "Institute of Computer Science, Czech Academy of Sciences",
+      "Karel Čapek Center for Values in Science and Technology"
+    ]
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["cnaip", "company_website", "cordis_eu"],
+    "fields_missing": ["employees_exact", "revenue_estimate_usd", "funding_total_usd", "glassdoor_rating", "open_roles_count"],
+    "needs_review": false,
+    "notes": "CETE-P is a research center at the Institute of Philosophy, Czech Academy of Sciences — not a commercial company. The index entry has category='company' but this is an academic research group. ERA Chair is an EU-funded excellence chair scheme. Grant active 2023–2027. Funding amount in EUR is €2,235,990. Note: CNAIP URL was not in the index but was found at https://www.cnaip.cz/cs/entity/center-for-technology-and-environmental-ethics. Center's address: Celetná 988/38, Prague 1 (website) / Jilská 1, 110 00 Praha (CNAIP). Contact: cetep@flu.cas.cz."
+  }
+}

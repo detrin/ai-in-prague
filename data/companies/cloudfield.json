@@ -1,0 +1,105 @@
+{
+  "id": "cloudfield",
+  "name": "Cloudfield",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Cloud consulting and AI development firm offering cloud architecture, application development, AI/ML solutions, DevOps, and cloud security",
+    "description_long": "CLOUDFIELD a.s. is a Prague-based cloud and AI consultancy that designs and delivers cloud architecture (Azure, AWS, GCP), custom AI tools (including 'AI BROS' and 'DOC BRO' for document intelligence), ML/LLM integrations, DevOps automation, containerisation (Kubernetes), and cloud security services. The team works embedded with client organisations as long-term engineering partners rather than one-off vendors.",
+    "tagline": "Ovládáme cloudy, inovujeme s AI a vyvíjíme aplikace",
+    "website": "https://cloudfield.io",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["ml_ops", "automation", "generative_ai"],
+    "industries_served": ["logistics", "finance", "energy", "healthcare", "retail", "public_sector"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2019,
+    "founders": null,
+    "origin_story": "Founded in June 2019 in Prague as an a.s. (joint-stock company) focused on cloud consulting and later expanding into AI/ML development",
+    "key_milestones": [
+      {"year": 2019, "event": "Founded in Prague (registered 2019-06-20, IČO 08277982)"},
+      {"year": 2024, "event": "Launched AI BROS product suite and AI Dev Transformation programme for enterprise customers"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 44,
+    "employee_source": "linkedin",
+    "office_count": 5
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "České Budějovice", "country": "CZ", "is_hq": false},
+    {"city": "Hradec Králové", "country": "CZ", "is_hq": false},
+    {"city": "Plzeň", "country": "CZ", "is_hq": false},
+    {"city": "Olomouc", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Lucia Belková", "role": "CEO", "source": "company_website"},
+      {"name": "Valdemar Závadský", "role": "Tech Lead", "source": "company_website"},
+      {"name": "Michal Podroužek", "role": "CDO", "source": "company_website"},
+      {"name": "Pavel Jiruše", "role": "CCO", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://cloudfield.io/career.html",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["azure", "aws", "gcp", "python", "java", "javascript", "kotlin", "rust", "go", "kubernetes", "terraform", "ansible", "postgresql", "mongodb", "jenkins", "power_bi", "openai", "anthropic_claude", "tensorflow"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Microsoft Solutions Partner – Infrastructure",
+      "Microsoft Solutions Partner – Data & AI Azure",
+      "Microsoft Solutions Partner – Digital & App Innovation",
+      "Microsoft Solutions – Security"
+    ],
+    "notable_clients": ["Packeta Group", "O2", "Linet", "Dr. Max", "EP Commodities", "PPL CZ / DHL eCommerce Solutions", "Carl Stahl", "3Key", "Diebold Nixdorf", "Photorobot", "Ředitelství silnic a dálnic"],
+    "customer_count": null,
+    "partnerships": ["Microsoft"]
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ares_gov_cz", "linkedin"],
+    "fields_missing": ["founders", "funding_total_usd", "revenue_estimate_usd", "glassdoor", "open_roles_count"],
+    "needs_review": false,
+    "notes": "Czech a.s. (joint-stock company) registered 2019-06-20. LinkedIn shows ~44 employees (11-50 range). Offices listed on careers page: Praha, České Budějovice, Hradec Králové, Plzeň, Olomouc plus remote. No public funding data found. Primary revenue model is B2B consulting/managed services; AI BROS/DOC BRO appear to be proprietary product offerings alongside consulting."
+  }
+}

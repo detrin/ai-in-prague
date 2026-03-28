@@ -1,0 +1,112 @@
+{
+  "id": "cisco",
+  "name": "Cisco",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Global networking and cybersecurity leader with a major AI/ML research hub in Prague (Cognitive Intelligence team)",
+    "description_long": "Cisco is a global technology leader in networking, cybersecurity, and collaboration. In Prague, Cisco operates its Cognitive Intelligence team — formerly Cognitive Threat Analytics (CTA) — focused on applying machine learning and AI to detect advanced cyber threats, malware, and anomalous network behavior. The Prague team grew out of Cisco's 2013 acquisition of Cognitive Security, a Prague-based AI cybersecurity startup. The Cognitive Intelligence engine is integrated into Cisco's broader security portfolio including Cisco Secure and Umbrella.",
+    "tagline": "The bridge to possible",
+    "website": "https://www.cisco.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["fraud_detection", "ml_ops", "other"],
+    "industries_served": ["cybersecurity", "networking", "enterprise_it", "government", "finance", "telecommunications"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1984,
+    "founders": ["Leonard Bosack", "Sandy Lerner"],
+    "origin_story": "Founded in 1984 in San Jose, California. Prague AI presence traces to the 2013 acquisition of Cognitive Security, a Czech ML-based cybersecurity startup, which became the foundation for Cisco's Cognitive Threat Analytics (later Cognitive Intelligence) team.",
+    "key_milestones": [
+      {"year": 1984, "event": "Cisco founded in San Jose, California"},
+      {"year": 1990, "event": "Cisco listed on NASDAQ (CSCO)"},
+      {"year": 2013, "event": "Acquired Cognitive Security (Prague) — AI-based network threat detection startup"},
+      {"year": 2013, "event": "Partnership with Czech Technical University on cybersecurity research"},
+      {"year": 2015, "event": "Prague team rebranded as Cognitive Threat Analytics (CTA)"},
+      {"year": 2020, "event": "CTA rebranded as Cognitive Intelligence; integrated into Cisco Security portfolio"},
+      {"year": 2025, "event": "Foundation AI team released open-source reasoning model for cybersecurity"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": null,
+    "employee_source": "public_records",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "San Jose", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Amsterdam", "country": "NL", "is_hq": false},
+    {"city": "Singapore", "country": "SG", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "CSCO",
+    "stock_exchange": "NASDAQ",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 53800000000,
+    "revenue_source": "public_annual_report_fy2024",
+    "business_model": "licensing"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Chuck Robbins", "role": "CEO", "source": "company_website"},
+      {"name": "Martin Rehák", "role": "Co-founder of Cognitive Security (acquired); former leader of Prague AI team", "source": "search_snippet"}
+    ],
+    "notable_people": [
+      {"name": "Michal Pěchouček", "role": "Co-founder of Cognitive Security; formerly CTO/AI lead at Prague team", "source": "search_snippet"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://jobs.cisco.com",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "ML Researcher Intern", "department": "research", "location": "Prague"},
+      {"title": "Data Scientist Intern", "department": "engineering", "location": "Prague"},
+      {"title": "Machine Learning Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Product Owner – Cyber Security TD&R", "department": "product", "location": "Prague"},
+      {"title": "Cloud Systems Engineer Intern", "department": "engineering", "location": "Prague"},
+      {"title": "Senior Designer – Universal AI Team", "department": "design", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "machine_learning", "network_analytics", "cloud"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": 4.1,
+    "review_count": 34325,
+    "recommend_pct": 84,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Cisco-Reviews-E1425.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Czech Technical University Prague (cybersecurity research)"]
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "cisco_blogs", "search_snippets", "glassdoor_snippet", "securityinfowatch", "siliconrepublic"],
+    "fields_missing": ["employees_exact", "office_count", "open_roles_count", "notable_clients", "funding_rounds"],
+    "needs_review": false,
+    "notes": "Cisco is a globally publicly traded US enterprise (NASDAQ: CSCO). The Prague entry in the CNAIP AI catalog refers specifically to Cisco's Cognitive Intelligence (AI/ML cybersecurity) team at Charles Square Center, Pujmanové 1753/10a, Prague. This team originated from the 2013 acquisition of Prague-based Cognitive Security. The Czech legal entity is 'CISCO SYSTEMS (Czech Republic) s.r.o.' Employee count shown is for the global company; Prague office likely has several hundred employees. Revenue figure is global FY2024 public revenue."
+  }
+}

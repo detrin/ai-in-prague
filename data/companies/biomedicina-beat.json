@@ -1,0 +1,112 @@
+{
+  "id": "biomedicina-beat",
+  "name": "Biomedicína a asistivní technologie (BEAT)",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Biomedical engineering and assistive technology research group at CIIRC, Czech Technical University in Prague",
+    "description_long": "BEAT (Biomedical Engineering and Assistive Technology) is a research department at the Czech Institute of Informatics, Robotics and Cybernetics (CIIRC) at CTU Prague, led by Prof. Olga Štěpánková. The group focuses on developing tools for collection, processing, and interpretation of complex biomedical data from heterogeneous sources. Research areas include neuroimaging (CT/MRI), Alzheimer's disease and other dementias, personalized medicine, pharmacogenomics microarray chip design, and assistive/digital health technologies. The group contributes to EU-funded projects and collaborates with international academic and clinical partners.",
+    "tagline": "Advancing personalized medicine and assistive technology through AI and biomedical data",
+    "website": "https://beat.ciirc.cvut.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["ml_ops", "other"],
+    "industries_served": ["healthcare", "academia"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2016,
+    "founders": ["Olga Štěpánková"],
+    "origin_story": "Established in 2016 when Prof. Olga Štěpánková moved from the Faculty of Electrical Engineering (FEE) at CTU to CIIRC to head the newly formed BEAT department.",
+    "key_milestones": [
+      {"year": 2016, "event": "BEAT department established at CIIRC CTU under Prof. Olga Štěpánková"},
+      {"year": 2019, "event": "DISTINCT project launched – EU Horizon 2020 dementia research network (€3.998M total, €234K for CIIRC), running 2019–2023"},
+      {"year": 2023, "event": "DISTINCT project concluded"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 6,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (CIIRC)",
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2019-05", "type": "EU Grant", "amount_usd": 276000, "lead_investor": "European Union – Horizon 2020 MSCA-ITN (DISTINCT project #813196)"}
+    ],
+    "investors": ["European Union Horizon 2020"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Olga Štěpánková", "role": "Head of Department / Professor", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Zdeněk Zdráhal", "role": "Researcher", "source": "company_website"},
+      {"name": "Michal Huptych", "role": "Researcher", "source": "company_website"},
+      {"name": "Milan Němý", "role": "Researcher (Ing., Ph.D.)", "source": "company_website"},
+      {"name": "Jaroslav Cibulka", "role": "Researcher", "source": "company_website"},
+      {"name": "Deniz Özdemir", "role": "Researcher", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://beat.ciirc.cvut.cz/open-positions/",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "Student Programmer for Medical Research Project", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "dicom", "nifti", "docker", "postgresql", "mongodb", "slurm"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Karolinska Institut (Sweden)",
+      "German Center for Neurodegenerative Diseases (DZNE)",
+      "University of La Laguna (Spain)",
+      "Motol University Hospital (Czech Republic)",
+      "University of Nottingham (UK)",
+      "University College London (UK)",
+      "VU University Medical Center Amsterdam (Netherlands)"
+    ]
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "beat.ciirc.cvut.cz", "ciirc.cvut.cz"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor", "founded_year_exact", "cnaip_url"],
+    "needs_review": true,
+    "notes": "BEAT is a university research group (part of CIIRC / CTU Prague), not a commercial company, despite being listed with category='company' in the index. No CNAIP URL provided. Team size is approximate based on listed team members. The DISTINCT EU H2020 grant amount of ~$276K USD converted from €234,871 (CIIRC share only; total project was €3.998M). Founded year inferred from Prof. Štěpánková's move to CIIRC in 2016."
+  }
+}
