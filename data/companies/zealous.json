@@ -1,0 +1,104 @@
+{
+  "id": "zealous",
+  "name": "Zealous",
+  "category": "company",
+  "scraped_at": "2026-03-29T10:00:00Z",
+
+  "overview": {
+    "description": "AI content marketing platform that turns recorded audio/video into marketing materials",
+    "description_long": "Zealous is an all-in-one AI content marketing platform for busy creators, communities, and social media marketers. It automatically backs up Twitter Spaces and podcast RSS feeds, generates AI transcripts synced with audience data, repurposes recordings into audiograms and recap videos, and automates publishing to multiple social channels. The platform targets podcasters, Web3 communities, DAOs, and content creators who need to scale marketing without extra work.",
+    "tagline": "All-in-one AI content marketing platform for busy creators",
+    "website": "https://zealous.app",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2c_saas",
+    "ai_focus": ["generative_ai", "nlp", "automation"],
+    "industries_served": ["media", "content_creation", "social_media", "web3"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Petr Bela"],
+    "origin_story": "Founded in Prague by Petr Bela (CTO) to help content creators automate the repurposing of recorded audio/video content into social and marketing assets. Participated in Techstars Boulder accelerator program.",
+    "key_milestones": [
+      {"year": null, "event": "Accepted into Techstars Boulder accelerator program"},
+      {"year": null, "event": "Launched freemium product with plans starting at $10/month"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Techstars"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "freemium"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Petr Bela", "role": "Co-Founder & CTO", "source": "linkedin_snippet"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Techstars Boulder"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Zealous is primarily a thin integration layer around AI transcription and LLM-based content generation — capabilities that are rapidly commoditizing in tools like Descript, Otter.ai, and native LLM wrappers. No proprietary data moat or defensible vertical has been identified; the core workflow (transcribe → generate → publish) is easily replicated by general-purpose AI tools.",
+    "market_risk": "high",
+    "market_risk_rationale": "The platform's primary distribution channel (Twitter/X Spaces) has significantly contracted since Elon Musk's acquisition of Twitter, shrinking the addressable market. Web3/DAO community focus is a narrow and volatile niche. Larger content automation platforms (Headliner, Descript, Opus Clip) are better-funded competitors serving the same creator market.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Only known funding is a Techstars accelerator investment (typically $20K–$120K pre-seed). No Series A or additional institutional funding identified. Very small team with limited runway signals and no disclosed revenue.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Zealous combines a thin AI wrapper with a contracting primary market (Twitter Spaces), minimal known funding, and no identifiable proprietary moat. The product faces significant commoditization pressure from both large platform players and better-funded vertical tools."
+  },
+
+  "metadata": {
+    "data_quality": "low",
+    "sources_used": ["company_website", "linkedin_snippet", "search_snippets"],
+    "fields_missing": ["founded_year", "funding_total_usd", "employees_exact", "careers_url", "glassdoor_rating", "revenue_estimate_usd", "second_founder"],
+    "needs_review": true,
+    "notes": "No CNAIP URL available. Website zealous.ai is for sale (parked domain); actual product is at zealous.app. Petr Bela identified as Co-Founder & CTO via LinkedIn snippet; CEO/other co-founders not confirmed. Techstars Boulder participation confirmed via LinkedIn snippet. No Glassdoor data found (company too small). Founded year not determinable from available sources."
+  }
+}

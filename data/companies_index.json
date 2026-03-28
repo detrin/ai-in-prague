@@ -2994,7 +2994,8 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "dry_run"
+    "website_url": "https://zealous.app",
+    "status": "done"
   },
   {
     "id": "zentiva",
