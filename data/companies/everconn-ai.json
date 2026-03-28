@@ -1,0 +1,105 @@
+{
+  "id": "everconn-ai",
+  "name": "EverConn.AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered communication automation (voice bots, chat bots, email bots) and B2B communication agency",
+    "description_long": "EverConn.AI s.r.o. is a Czech communication and events agency that combines AI automation with traditional PR/marketing services. Their AI products include a Voice-bot capable of handling 6,000 calls per hour in any language (used for debt reminders, lead generation, appointment reminders, upsell campaigns), an Email-bot using NLP to auto-triage and respond to inbound emails, a Chat-bot for customer service, and a Grow-bot for outbound lead management. They also offer event organisation, content creation, PR and media audit services. Clients include Kooperativa (insurance) and T-Mobile for debt collection calling campaigns.",
+    "tagline": "Vaše komunikace. Naše mise (Your communication. Our mission)",
+    "website": "https://everconn.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["speech", "automation", "nlp"],
+    "industries_served": ["insurance", "telco", "real_estate", "e-commerce", "finance"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2020,
+    "founders": ["Patrik Juránek"],
+    "origin_story": "Originally registered as SnowmanCRAFTS s.r.o. in February 2020 in Brno. Rebranded and pivoted to AI-powered communication services as EverConn.AI s.r.o. in June 2022, relocating headquarters to Prague.",
+    "key_milestones": [
+      {"year": 2020, "event": "Founded as SnowmanCRAFTS s.r.o. in Brno"},
+      {"year": 2022, "event": "Rebranded to EverConn.AI s.r.o. and relocated to Prague (Staré Město)"},
+      {"year": 2025, "event": "Active with clients including Kooperativa and T-Mobile"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ing. Patrik Juránek", "role": "jednatel (Managing Director)", "source": "czech_business_register"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Kooperativa", "T-Mobile"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "EverConn.AI primarily resells and integrates commodity AI voice/chat/NLP APIs rather than building proprietary models. As foundation model providers (OpenAI, Google, AWS) continue to commoditize voice, chat and email automation, the differentiation of a small integration-focused agency erodes quickly.",
+    "market_risk": "medium",
+    "market_risk_rationale": "AI voice-bot and automation services is a real and growing market with demonstrated Czech enterprise clients (Kooperativa, T-Mobile). However, it is dominated by larger platforms and the combined communication-agency+AI model creates a fragmented value proposition.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external funding. Small team with no runway signals in public sources. Bootstrapped small agency model with limited ability to scale or weather competitive pressure from well-funded AI automation platforms.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Small bootstrapped startup with no proprietary AI technology, relying on commodity voice/chat AI integration. High likelihood of commoditization by platform providers and no known funding safety net."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_register"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor", "careers_url"],
+    "needs_review": false,
+    "notes": "Company originally registered as SnowmanCRAFTS s.r.o. (IČO: 08900418) in Brno in Feb 2020, rebranded to EverConn.AI s.r.o. in June 2022 with move to Prague. Director: Ing. Patrik Juránek. Address: Rybná 716/24, 110 00 Praha 1 - Staré Město."
+  }
+}
