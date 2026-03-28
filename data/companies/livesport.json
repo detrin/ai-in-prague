@@ -1,0 +1,120 @@
+{
+  "id": "livesport",
+  "name": "Livesport",
+  "category": "company",
+  "scraped_at": "2026-03-28T19:50:00Z",
+
+  "overview": {
+    "description": "Czech sports data platform operating Flashscore, the world's leading live sports scores and statistics product",
+    "description_long": "Livesport s.r.o. is a Prague-based technology company and operator of Flashscore — a global network of websites and apps delivering real-time sports scores, statistics, news and live updates across 35+ sports in 30+ languages. Serving 130 million active users monthly with 100M+ app downloads, Livesport runs a proprietary infrastructure of 600+ servers processing 1M requests/second at 50 Gbit/s. The company is actively integrating ML/NLP capabilities including sports news translation, LLM-powered chat, sports data insights, and personalization.",
+    "tagline": "The Fastest Sports Information",
+    "website": "https://www.livesport.eu",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["nlp", "recommendation", "data_engineering"],
+    "industries_served": ["sports", "media", "entertainment"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2006,
+    "founders": ["Martin Hájek", "Jiří Mareš"],
+    "origin_story": "Founded in Prague in 2006 as Flashscore, a sports live scores website. Grew organically to become the world's leading live sports results platform, rebranding the Czech entity to Livesport in 2022.",
+    "key_milestones": [
+      {"year": 2006, "event": "Launched first Flashscore pages"},
+      {"year": 2019, "event": "Revenue reached 2.5 billion CZK (~$110M USD); hired Petr Čech as global brand ambassador"},
+      {"year": 2020, "event": "Maintained 2.5 billion CZK revenue despite COVID-19 sports suspension"},
+      {"year": 2021, "event": "Exceeded 3 billion page views in a single month; acquired film database Kinobox"},
+      {"year": 2022, "event": "Opened new HQ Aspira Business Centre in Nové Butovice, Prague; rebranded Flashscore.cz to Livesport.cz"},
+      {"year": 2026, "event": "Actively hiring ML/NLP/AI Specialists; 130M active users"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": 275,
+    "employee_source": "tribee_profile",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": 110000000,
+    "revenue_source": "czechcrunch_2021 (2.5B CZK in 2019/2020)",
+    "business_model": "freemium"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Martin Hájek", "role": "Founder & Majority Owner", "source": "czechcrunch, forbes"},
+      {"name": "Jiří Mareš", "role": "Co-founder & Minority Shareholder", "source": "forbes"},
+      {"name": "Patrik Dzurenda", "role": "COO", "source": "czechcrunch_2021"}
+    ],
+    "notable_people": [
+      {"name": "Jan Hortík", "role": "Marketing Director (as of 2019)", "source": "seznamzpravy_2019"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.livesport.eu/en/pridej-se-k-nam",
+    "open_roles_count": 8,
+    "open_roles": [
+      {"title": "ML/NLP/AI Specialist", "department": "engineering", "location": "Prague"},
+      {"title": "Mobile Growth Specialist", "department": "product", "location": "Prague"},
+      {"title": "Web Testing Team Leader", "department": "engineering", "location": "Prague"},
+      {"title": "System Specialist - Virtualization & Automation", "department": "engineering", "location": "Prague"},
+      {"title": "Database Site Reliability Engineer", "department": "engineering", "location": "Prague"},
+      {"title": "Email Product Specialist (Technical Architect)", "department": "product", "location": "Prague"},
+      {"title": "SUMMER INTERNSHIP 2026", "department": "other", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "sql", "bigquery", "kubernetes", "gitlab", "firebase", "kotlin", "javascript", "linux"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Livesport-Reviews-E3021049.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": 130000000,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Livesport's core value lies in its proprietary real-time sports data infrastructure (600+ servers, 1M req/s), 20-year accumulated data and partnerships, and global distribution (130M users). However, secondary AI initiatives like news translation, chat, and personalization are increasingly commoditized by foundation models. The data infrastructure moat is strong but the content and UX layer is exposed.",
+    "market_risk": "low",
+    "market_risk_rationale": "Live sports scores is a proven global market with demonstrated demand. Livesport is the world leader with 130M monthly active users and $110M+ in revenue, entirely self-funded. The sports data market continues to grow alongside sports streaming and betting industries.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Fully bootstrapped and self-funded with ~$110M annual revenue (as of 2020). Built its own HQ worth ~1 billion CZK from internal cash flows. No external investors means no funding cliff risk.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Livesport has a 20-year established market position, world-leading user base, proprietary infrastructure, and strong self-funded financials. While AI commoditization may pressure their content/UX features, their core data distribution moat and brand loyalty provide significant resilience."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "czechcrunch", "forbes", "seznamzpravy", "tribee_profile", "livesport_recruitee"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "funding_rounds"],
+    "needs_review": false,
+    "notes": "Livesport is primarily a sports tech/media company using AI to enhance its products. CNAIP URL not available - not listed on CNAIP as of scraping date. Revenue figure from 2020 CzechCrunch report; likely higher by 2026 given ~12% annual growth trajectory noted in Forbes. Company operates Flashscore globally and Livesport.cz domestically."
+  }
+}
