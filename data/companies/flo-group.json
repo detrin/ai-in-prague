@@ -1,0 +1,105 @@
+{
+  "id": "flo-group",
+  "name": "FLO Group",
+  "category": "company",
+  "scraped_at": "2026-03-28T19:40:00Z",
+
+  "overview": {
+    "description": "Czech digital consulting company specializing in customer experience, Data & AI, brand experience, and digital transformation",
+    "description_long": "FLO is a Czech digital consulting company operating across Europe and Australia. They blend leading technology, human ingenuity, and bold creativity to deliver digital experience solutions. Services span Consulting & Advisory, Brand Experience, Customer Experience, and Data & AI. Certified Databricks and Salesforce partner (Data Cloud, Agentforce). Growth and expansion backed by Rockaway Capital.",
+    "tagline": "Digital Consulting of the Future",
+    "website": "https://www.weareflo.com",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/flo-group"
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "ml_ops", "data_engineering", "automation"],
+    "industries_served": ["finance", "healthcare", "retail", "manufacturing"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2021,
+    "founders": null,
+    "origin_story": "Founded in October 2021 in Prague as FLO Group s.r.o. with backing from Rockaway Capital",
+    "key_milestones": [
+      {"year": 2021, "event": "Founded in Prague (registered 2021-10-28)"},
+      {"year": 2023, "event": "Became certified Databricks partner"},
+      {"year": 2024, "event": "Expanded operations across Europe and Australia"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Rockaway Capital"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Petr Mahdal", "role": "Head of Data & AI", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://hello.weareflo.com/data",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["salesforce", "databricks", "python", "generative_ai"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Databricks", "Salesforce"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "FLO's core offering — AI strategy consulting, digital transformation advisory, and custom AI implementation — is precisely the space where AI tools are rapidly reducing the need for external consultants. No proprietary data moat or domain-specific technology is apparent; value derives primarily from human expertise.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Growing demand for AI consulting services, but highly competitive market dominated by Big 4 firms, system integrators, and numerous boutique AI consultancies. FLO differentiates via Salesforce/Databricks partnerships and cross-industry presence in Europe and Australia.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Backed by Rockaway Capital, one of the largest CEE investment groups, providing financial runway. However, founded in 2021 and still early-stage, with unclear revenue base and no disclosed funding rounds.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "High AGI displacement risk combined with an intensely competitive consulting market places FLO in a challenging position. The company has no clearly differentiated proprietary technology or data moat, and the primary service lines (AI advisory, digital transformation) are most susceptible to commoditization by AI tools."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website", "ares_czech_registry"],
+    "fields_missing": ["employees_exact", "founders", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count"],
+    "needs_review": true,
+    "notes": "Listed as 'research_group' in companies_index.json but is actually a digital consulting company (FLO Group s.r.o., IČO: 11983311). Leadership team details limited; 'Petr' (LinkedIn: /in/mahdal/) identified as Data & AI head from careers page. Employee count estimated; company operates across Europe and Australia but exact office locations not confirmed beyond Prague HQ."
+  }
+}
