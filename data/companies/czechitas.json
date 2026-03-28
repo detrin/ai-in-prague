@@ -1,0 +1,130 @@
+{
+  "id": "czechitas",
+  "name": "Czechitas",
+  "category": "initiative",
+  "scraped_at": "2026-03-28T19:00:00Z",
+
+  "overview": {
+    "description": "Nonprofit organization upskilling women in digital, IT, cybersecurity and AI skills across Czechia",
+    "description_long": "Czechitas (z.ú.) is a Czech nonprofit founded in 2014 that teaches digital and IT skills — including web development, data analysis, AI, and cybersecurity — primarily to women. With 76,400+ course participants and 1,900+ IT courses delivered, it is the largest women-in-tech community in the Czech Republic. Courses run across Prague and Brno in evening and weekend formats, supported by a volunteer community of 1,000+ lecturers, coaches and mentors. The organization also runs corporate upskilling programs for partner companies.",
+    "tagline": "Women at the heart of technological change. Upskilling and Reskilling Women in IT, Cybersecurity and AI.",
+    "website": "https://www.czechitas.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["other"],
+    "industries_served": ["education", "hr_workforce"],
+    "company_type": "nonprofit",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2014,
+    "founders": ["Dita Formánková"],
+    "origin_story": "Founded by Dita Formánková, an IT student at Masaryk University in Brno, who noticed the stark underrepresentation of women in her field. Started as weekend Rails Girls programming workshops in Brno and quickly grew into a nationwide initiative.",
+    "key_milestones": [
+      {"year": 2014, "event": "Founded in Brno as Rails Girls workshops"},
+      {"year": 2015, "event": "Social Impact Award; New Europe 100"},
+      {"year": 2016, "event": "European Citizen Award; Forbes 30 Under 30"},
+      {"year": 2017, "event": "SXSW Community Service Award; European Digital Skills Awards Finalist"},
+      {"year": 2021, "event": "EU Social Economy Awards"},
+      {"year": 2024, "event": "European Digital Skills Awards 2024; first local verification partner in CZ/SK; 10th anniversary and Vision 2030 defined"},
+      {"year": 2025, "event": "Women in Digital Champion 2025"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Dita Formánková", "role": "Founder & Chair of the Board", "source": "company_website"},
+      {"name": "Lucie Mairychová", "role": "CEO", "source": "company_website"},
+      {"name": "Nicol Asfourová", "role": "Head of Operations", "source": "company_website"},
+      {"name": "Michaela Pelikánová", "role": "Head of People & Culture", "source": "company_website"},
+      {"name": "Žaneta Kubová Andělová", "role": "Head of Delivery & Projects", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.czechitas.cz/kariera",
+    "open_roles_count": 2,
+    "open_roles": [
+      {"title": "Program Coordinator for Corporate Education", "department": "programs", "location": "Prague"},
+      {"title": "Product / Business Development for Corporate Education", "department": "business_development", "location": "Prague"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Women in Digital Champion 2025",
+      "First local verification partner in CZ/SK 2024",
+      "European Digital Skills Awards 2024",
+      "Neziskovka roku Finalist 2022",
+      "Equals in Tech Awards 2022",
+      "The EU Social Economy Awards 2021",
+      "SXSW Community Service Award 2017",
+      "European Digital Skills Awards Finalist 2017",
+      "Forbes 30 Under 30 2016",
+      "European Citizen Award 2016",
+      "Social Impact Award 2015",
+      "New Europe 100 2015"
+    ],
+    "notable_clients": ["Kyndryl Foundation", "Accenture", "Cisco", "Google.org", "IBM", "SAP", "ČSOB", "Barclays", "City of Brno"],
+    "customer_count": null,
+    "partnerships": ["Kyndryl Foundation", "Accenture", "Cisco", "Google.org", "IBM", "SAP", "ČSOB", "Barclays"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Czechitas is a mission-driven nonprofit focused on human education and community building. Its core value is a trusted learning environment, human mentorship, and social inclusion — not AI-replaceable services.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "As a nonprofit initiative addressing a societal need (gender gap in tech), Czechitas operates in a grant- and CSR-funded model rather than a competitive commercial market.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Czechitas depends on corporate sponsors (Kyndryl, Accenture, Cisco, Google.org, IBM, SAP, etc.) and grants rather than earned revenue. This creates volatility risk if major sponsors reduce CSR budgets, though its long track record (12 years) and award recognition provide stability.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "As a well-established nonprofit with 12 years of operation, 76,400+ course participants, 22+ awards, and support from major tech companies, Czechitas has a strong community and reputational moat. Funding risk is real but mitigated by diversified donor base and growing demand for tech upskilling."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "Czechitas is a registered nonprofit (z.ú. = zapsaný ústav), IČO 22834958, address: náměstí Bratří Synků 1748/17, Praha 4 - Nusle. Has a sub-organization Nadační fond Czechitas (foundation). Volunteer teaching community of 1,000+ is separate from paid staff. Employee count estimated from organizational size and structure."
+  }
+}
