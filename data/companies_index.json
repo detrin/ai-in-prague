@@ -1034,7 +1034,8 @@
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "pending"
+    "status": "done",
+    "website_url": "https://goodvisionlive.com"
   },
   {
     "id": "gopas",

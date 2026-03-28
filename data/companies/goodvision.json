@@ -1,0 +1,115 @@
+{
+  "id": "goodvision",
+  "name": "GoodVision",
+  "category": "company",
+  "scraped_at": "2026-03-28T17:30:00Z",
+
+  "overview": {
+    "description": "AI-powered traffic analytics platform for smart cities and traffic professionals",
+    "description_long": "GoodVision builds AI-powered tools that extract, analyze, and act on traffic data from video footage or live camera streams. Its two products — GoodVision Video Insights (offline analytics) and GoodVision Live Traffic (real-time monitoring) — help cities, highway operators, and traffic consultants count vehicles, detect incidents, analyze road safety, and automate traffic model calibration. Customers in 20+ countries use the platform for intersection monitoring, parking analytics, road safety studies, and large-scale traffic surveys.",
+    "tagline": "Smarter, Safer Traffic Management with AI-Powered Insights",
+    "website": "https://goodvisionlive.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["cv", "data_engineering", "automation"],
+    "industries_served": ["smart_cities", "transportation", "civil_engineering", "infrastructure"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2017,
+    "founders": ["Daniel Štofan", "Lukáš Hrubý"],
+    "origin_story": "Co-founders Daniel Štofan (product manager in AI) and Lukáš Hrubý (software architect) launched GoodVision on 30 June 2017 to replace manual traffic counting with an automated AI platform. The UK legal entity was incorporated December 2018 as the global HQ.",
+    "key_milestones": [
+      {"year": 2017, "event": "Founded in Prague, Czech Republic"},
+      {"year": 2018, "event": "UK entity GoodVision Ltd incorporated in London; London becomes global business HQ"},
+      {"year": 2019, "event": "Seed round: 26M CZK (~€1M) from Credo Ventures and Neo Ventures"},
+      {"year": 2023, "event": "Series round: 66M CZK (~€2.7M) from Lead Ventures, Credo Ventures, Sofia Angels Ventures"},
+      {"year": 2023, "event": "120 clients globally, 4,500+ active platform users; revenue in low-single-digit millions of EUR"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 26,
+    "employee_source": "company_website",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "London", "country": "GB", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Budapest", "country": "HU", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 4070000,
+    "funding_rounds": [
+      {"date": "2019-08", "type": "Seed", "amount_usd": 1100000, "lead_investor": "Credo Ventures"},
+      {"date": "2023-01", "type": "Series A", "amount_usd": 2970000, "lead_investor": "Lead Ventures"}
+    ],
+    "investors": ["Credo Ventures", "Neo Ventures", "Lead Ventures", "Sofia Angels Ventures"],
+    "revenue_estimate_usd": null,
+    "revenue_source": "Low single-digit millions EUR (CzechCrunch, Jan 2023)",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Daniel Štofan", "role": "Co-founder & CEO", "source": "czechcrunch"},
+      {"name": "Lukáš Hrubý", "role": "Co-founder", "source": "czechcrunch"},
+      {"name": "Zoltan Fekete", "role": "Director", "source": "companies_house"},
+      {"name": "Eric Dumas", "role": "Director", "source": "companies_house"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://goodvisionlive.com/careers/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": 120,
+    "partnerships": ["Hikvision", "Axis Communications"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "GoodVision's CV-based traffic analytics has domain-specific model training and deep workflow integrations for civil engineering, but the core video understanding capability is increasingly commoditized by foundation models (GPT-4V, Gemini Vision). Differentiation lies in specialized traffic classification, calibration automation, and the B2B workflow layer rather than raw AI capability.",
+    "market_risk": "low",
+    "market_risk_rationale": "Traffic data collection is a real and growing market driven by smart-city mandates and infrastructure investment. GoodVision serves 120 paying B2B customers across 20+ countries, demonstrating genuine PMF. The market is niche enough to avoid heavy commoditization from Big Tech.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Total funding of ~€3.7M across two rounds is modest for a global SaaS ambition, and 26 employees suggests limited runway buffer. Revenue in low-single-digit millions EUR (2023) shows real traction but the company remains pre-profitability scale.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "GoodVision has validated product-market fit in a real niche with paying enterprise clients, but limited funding, a small team, and rising commoditization of vision AI keep overall risk at medium. The Prague R&D center and 8-year track record provide stability."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "companies_house_uk", "czechcrunch", "therecursive"],
+    "fields_missing": ["glassdoor_rating", "open_roles", "tech_stack", "revenue_estimate_usd"],
+    "needs_review": false,
+    "notes": "Founders confirmed via CzechCrunch (Daniel Štofan & Lukáš Hrubý). USD funding amounts estimated from CZK at ~0.042 EUR/CZK and ~1.1 USD/EUR. Team size of 26 from careers page FAQ (2023/2024 data). Company website is goodvisionlive.com, not goodvision.video or goodvision.ai."
+  }
+}
