@@ -1,0 +1,113 @@
+{
+  "id": "prumyslova-inform",
+  "name": "Průmyslová informatika",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:30:00Z",
+
+  "overview": {
+    "description": "Research group in combinatorial optimization, embedded systems, and AI at ČVUT/CIIRC Prague",
+    "description_long": "The Industrial Informatics Department (IID) is a well-established research group operating at both the Faculty of Electrical Engineering and the Czech Institute of Informatics, Robotics and Cybernetics (CIIRC) at Czech Technical University in Prague. The group focuses on three core areas: combinatorial optimization (scheduling, planning, operations research), embedded and real-time systems, and artificial intelligence. The group actively collaborates with industry partners and has received multiple industrial awards.",
+    "tagline": "Connecting Science with Industry",
+    "website": "https://iid.ciirc.cvut.cz",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/industrial-informatics-2"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["ml_ops", "automation", "other"],
+    "industries_served": ["manufacturing", "energy", "agriculture", "defense", "robotics"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": "Research department within ČVUT Faculty of Electrical Engineering, later also affiliated with CIIRC when it was established in 2013.",
+    "key_milestones": [
+      {"year": 2013, "event": "CIIRC established at Czech Technical University, IID becomes part of CIIRC"},
+      {"year": 2024, "event": "Active EU-funded research projects including ROBOPROX and ERA VERA"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (ČVUT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Přemysl Šůcha", "role": "Department Head", "source": "company_website"},
+      {"name": "Zdeněk Hanzálek", "role": "Group Head", "source": "company_website"},
+      {"name": "Michal Sojka", "role": "Group Head", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Pavla Svítilová", "role": "Group Administrator", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://iid.ciirc.cvut.cz/careers/",
+    "open_roles_count": 4,
+    "open_roles": [
+      {"title": "Development and design of scheduling system for Robotic Process Automation", "department": "research", "location": "Prague"},
+      {"title": "Hybridization of Constraint Programming for Scheduling Problems", "department": "research", "location": "Prague"},
+      {"title": "Learning-Augmented Combinatorial Optimization Algorithms", "department": "research", "location": "Prague"},
+      {"title": "Solving Large-Scale Scheduling Problems (Postdoc)", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Czech Technical University (ČVUT)", "CIIRC", "Faculty of Electrical Engineering (FEL ČVUT)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group focused on fundamental combinatorial optimization, scheduling algorithms, and embedded systems — this is a research lab producing knowledge and training researchers, not a commercial product.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "As a university-affiliated research group funded by grants and CTU budget, market risk is not applicable. Research continuity depends on grant funding and institutional support.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Institutionally anchored within Czech Technical University and CIIRC, with active EU and national research projects (ROBOPROX, ERA VERA, First Green Industries). Grant-funded research groups of this type typically have stable if constrained funding.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "As an established academic research department at a top Czech technical university, the standard commercial risk framework does not apply. The group's longevity and institutional backing make it a stable research environment."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "employees_exact", "funding_total_usd", "glassdoor"],
+    "needs_review": true,
+    "notes": "This entity is listed as 'company' in companies_index.json but is actually an academic research group (research_lab) at ČVUT/CIIRC. CNAIP slug is 'industrial-informatics-2'. Website redirected from industrialinformatics.fel.cvut.cz to iid.ciirc.cvut.cz."
+  }
+}

@@ -2174,8 +2174,9 @@
     "name": "Průmyslová informatika",
     "category": "company",
     "source": "cnaip",
-    "cnaip_url": null,
-    "status": "pending"
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/industrial-informatics-2",
+    "status": "done",
+    "website_url": "https://iid.ciirc.cvut.cz"
   },
   {
     "id": "pulsar-solutions",
