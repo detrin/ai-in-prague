@@ -1,0 +1,120 @@
+{
+  "id": "sentisquare",
+  "name": "SentiSquare",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "No-Code NLP platform for customer interaction analytics using specialized small language models",
+    "description_long": "SentiSquare is a Czech AI company founded in 2014 as a university spin-off, building a No-Code NLP platform that enables contact centers and enterprises to analyze 100% of customer interactions (calls, emails, SMS, chat) in real time. Their platform uses proprietary specialized small language models (SLMs) trained on customer data, emphasizing low latency, on-premise deployment, and data security. They serve major Czech and Central European companies in telecommunications, banking, insurance, and energy sectors.",
+    "tagline": "AI to evaluate customer interactions",
+    "website": "https://www.sentisquare.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "speech", "automation"],
+    "industries_served": ["telecommunications", "banking", "insurance", "energy", "e-commerce"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2014,
+    "founders": ["Tomáš Brychcín"],
+    "origin_story": "Founded in 2014 as a university spin-off from the University of West Bohemia in Pilsen, focused on applying state-of-the-art NLP methods to business problems.",
+    "key_milestones": [
+      {"year": 2014, "event": "Founded as university spin-off"},
+      {"year": 2015, "event": "Awarded EU Seal of Excellence by the European Commission"},
+      {"year": 2019, "event": "Awarded second EU Seal of Excellence; won Poland Prize 2019"},
+      {"year": 2025, "event": "Won 1st place Czech Contact Center Award (People category) for AI project with A-GIGA"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 18,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Plzeň", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš Brychcín", "role": "CEO", "source": "company_website"},
+      {"name": "Peter Kesch", "role": "Head of Business Development", "source": "company_website"},
+      {"name": "Stanislav Rejthar", "role": "COO", "source": "company_website"},
+      {"name": "Pavel Novotný", "role": "Head of AI Projects", "source": "company_website"},
+      {"name": "Josef Steinberger", "role": "Customer Solutions Manager", "source": "company_website"},
+      {"name": "Ladislav Račák", "role": "Head of Development", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.sentisquare.com/en/career",
+    "open_roles_count": 3,
+    "open_roles": [
+      {"title": "AI Engineer", "department": "engineering", "location": "Plzeň (hybrid)"},
+      {"title": "Senior Sales Specialist", "department": "sales", "location": "Plzeň"},
+      {"title": "Front End Developer", "department": "engineering", "location": "Plzeň"}
+    ],
+    "tech_stack": ["java", "python", "machine_learning", "nlp", "transformers"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "EU Seal of Excellence 2015 (European Commission)",
+      "EU Seal of Excellence 2019 (European Commission)",
+      "Poland Prize 2019",
+      "Czech Contact Center Award 2025 (1st place, People category)"
+    ],
+    "notable_clients": ["T-Mobile", "O2", "Kooperativa", "Raiffeisenbank", "E.ON", "Rohlik.cz", "Kiwi.com", "FTMO", "AAA Auto", "Seznam.cz", "BH Securities", "Srovnejto.cz"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "SentiSquare differentiates by positioning specialized small language models (SLMs) for on-premise, high-volume, low-latency deployment versus general LLMs — a conscious strategic choice. However, their core NLP analytics capabilities (sentiment, topic classification, call analytics) are increasingly available in commercial LLM APIs and cloud platforms (Azure, AWS), putting margin pressure on their differentiation over time.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established paying enterprise customers across regulated Czech/EU industries (telecom, banking, insurance, energy). Contact center interaction analytics is a proven market with recurring revenue. Long client list including T-Mobile, Raiffeisenbank, E.ON, and Rohlik.cz demonstrates real product-market fit.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No known VC funding rounds; company appears bootstrapped or grant-funded (EU Seal of Excellence). While 12 years of operation suggests sustainability, the small team (18 employees) and absence of disclosed funding rounds indicates limited runway for aggressive growth or product investment.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "SentiSquare operates a sustainable, revenue-generating B2B SaaS business with strong Czech enterprise clients, but remains a small player with limited scale and potential commoditization pressure from cloud AI platforms offering contact center analytics as a native service."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "customer_count"],
+    "needs_review": false,
+    "notes": "Company is headquartered in Plzeň (Pilsen), not Prague, though listed in the Prague AI catalog. CEO Tomáš Brychcín holds a Ph.D. from University of West Bohemia. LinkedIn shows 881 followers and 18 listed employees."
+  }
+}
