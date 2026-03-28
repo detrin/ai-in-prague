@@ -1,0 +1,115 @@
+{
+  "id": "csob",
+  "name": "ČSOB",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "One of the largest universal banks in the Czech Republic, using AI for fraud detection, customer service, and process automation",
+    "description_long": "Československá obchodní banka, a.s. (ČSOB) is a universal bank offering a full range of financial services to retail, SME, corporate, and institutional clients. Founded as a state bank in 1964 and privatized in 1999 when KBC Bank NV became its sole shareholder, ČSOB has become one of the largest Czech banks. AI is embedded across the bank's operations: the Kate virtual assistant handles customer interactions via voice and text in ČSOB Smart and CEB Mobile apps; ML models power fraud detection, credit risk assessment, and personalization engines; and RPA streamlines back-office processes including AML compliance. In 2025 ČSOB selected nCino to modernize commercial and SME lending through AI-driven decision-making.",
+    "tagline": "We are here to help",
+    "website": "https://www.csob.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["nlp", "fraud_detection", "automation", "recommendation", "ml_ops"],
+    "industries_served": ["banking", "insurance", "asset_management", "finance"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1964,
+    "founders": [],
+    "origin_story": "Founded in 1964 by the Czechoslovak state as a bank for foreign trade financing. Privatized in 1999 when KBC Bank NV became majority shareholder, and since 2007 the sole shareholder. In 2000 ČSOB acquired Investiční a poštovní banka (IPB). Separated its Slovak operations into an independent entity in 2008.",
+    "key_milestones": [
+      {"year": 1964, "event": "Founded as state bank for foreign trade financing"},
+      {"year": 1999, "event": "Privatized – KBC Bank NV becomes majority shareholder"},
+      {"year": 2000, "event": "Acquired Investiční a poštovní banka (IPB)"},
+      {"year": 2008, "event": "Slovak branch transformed into independent entity (ČSOB Slovakia)"},
+      {"year": 2022, "event": "Aleš Blažek becomes CEO"},
+      {"year": 2024, "event": "Launched Qualified Electronic Signature for mortgage and pledge contracts — first Czech bank to do so"},
+      {"year": 2025, "event": "Selected nCino AI platform to modernize commercial and SME lending"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 8240,
+    "employee_source": "company_website",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "KBC Bank NV (Belgium)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["KBC Bank NV"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Aleš Blažek", "role": "CEO / Chairman of the Board", "source": "company_website"},
+      {"name": "Ján Lučan", "role": "Board Member, Commercial Banking", "source": "company_website"},
+      {"name": "Marek Loula", "role": "Board Member, IT, Data & Transformation", "source": "company_website"},
+      {"name": "Jiří Vévoda", "role": "Board Member, CFO", "source": "company_website"},
+      {"name": "Guy Libot", "role": "Board Member, CRO", "source": "company_website"},
+      {"name": "Martin Jarolím", "role": "Board Member, Retail", "source": "company_website"},
+      {"name": "Karin Van Hoecke", "role": "Board Member, Innovation & Daily Banking", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.csob.cz/v-obraze/kariera",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "rpa", "nCino", "SS&C Blue Prism"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": 121,
+    "recommend_pct": 61,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/CSOB-Reviews-E465860.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": 4291000,
+    "partnerships": ["nCino (commercial lending AI)", "SS&C Blue Prism (intelligent automation)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "ČSOB is a regulated, licensed bank with a 60-year history and 4.3 million clients. Its value proposition is trust, regulatory compliance, and full-stack financial services — not just AI features. AI enhances its products but cannot be replicated by foundation models alone given banking regulation, capital requirements, and customer relationships.",
+    "market_risk": "low",
+    "market_risk_rationale": "Czech banking market is mature, stable, and oligopolistic. ČSOB holds a leading position with 4.3 million clients, CZK 2.3 trillion in assets, and strong profitability (CZK 19.8 bn net profit in 2025). Backed by KBC Group, one of Europe's stronger bank-insurance groups.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "ČSOB is a fully owned subsidiary of KBC Bank NV and is profitable with a Tier 1 Capital Ratio of 20.2%. No funding risk applies to an established, profitable, regulated bank.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "ČSOB is a systemically important financial institution in Czech Republic, profitable, well-capitalized, and backed by a European banking group. AI displacement risk is minimal because banking is regulated and requires licensed entities, not AI wrappers."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "wikipedia", "cash-platform.com", "blueprism.com", "ncino.com", "glassdoor_snippets"],
+    "fields_missing": ["glassdoor_rating", "careers_open_roles_count", "revenue_estimate_usd", "office_count"],
+    "needs_review": false,
+    "notes": "ČSOB is a traditional bank, not a pure AI company. Listed in the Prague AI catalog due to its significant AI deployments: Kate virtual assistant, fraud detection ML, RPA for AML, and nCino AI lending platform. Employee figure is 2025 FTE for the ČSOB Group. Net profit CZK 19.8 bn (~EUR 800m) in 2025. Balance sheet CZK 2,283 bn (~EUR 93bn)."
+  }
+}
