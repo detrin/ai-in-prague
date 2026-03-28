@@ -1,0 +1,112 @@
+{
+  "id": "atollon",
+  "name": "Atollon",
+  "category": "company",
+  "scraped_at": "2026-03-28T10:00:00Z",
+
+  "overview": {
+    "description": "Czech B2B SaaS platform for CRM, sales, project delivery, and business management with AI-driven insights for SMEs",
+    "description_long": "Atollon is a Czech software platform for the management of small and medium-sized enterprises. Its core is a CRM system extended with sales management, lead management, project/order delivery, field service, team email, invoicing, and business intelligence. The platform uses AI-driven insights to help managers make data-driven decisions. Founded under the brand 'Iterity' in 2000 and rebranded to Atollon in 2008 after winning the global 'CRM Idol' award for 'most beautiful CRM in the world' in 2012. Their philosophy is the 'Customer Success Paradigm' — helping their customers' customers succeed.",
+    "tagline": "Transforming your business from information chaos to customer excellence",
+    "website": "https://www.atollon.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["automation", "other"],
+    "industries_served": ["professional_services", "recruitment", "construction", "healthcare", "agriculture", "manufacturing", "marketing"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2000,
+    "founders": ["Jan Šafka"],
+    "origin_story": "Jan (Honza) Šafka started development in 2000 under the 'Iterity' brand, aiming to build a company performance management tool. The first version failed because end users saw no benefit; a redesigned second version succeeded by embedding data collection into everyday workflows. After a Silicon Valley internship in 2012, Šafka embraced the Customer Success Paradigm and relaunched Atollon as a Customer Success Platform.",
+    "key_milestones": [
+      {"year": 2000, "event": "Development started under the 'Iterity' brand"},
+      {"year": 2003, "event": "First industry solution created for recruitment agencies"},
+      {"year": 2006, "event": "Successfully deployed in a Dutch-Czech digital agency"},
+      {"year": 2008, "event": "Rebranded to 'Atollon'"},
+      {"year": 2012, "event": "Won CRM Idol award – 'most beautiful CRM in the world'; Founder did Silicon Valley internship; relaunched as Customer Success Platform"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 10,
+    "employee_source": "linkedin",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Dublin", "country": "IE", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jan Šafka", "role": "Chief Islander / CEO", "source": "company_website"},
+      {"name": "Ondrej Sustr", "role": "Delivery PM", "source": "company_website"},
+      {"name": "Daria Aleksashina", "role": "Marketing PM", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.atollon.com/en/careers",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "Consultant – Business Process & Software Implementation", "department": "consulting", "location": "Prague"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["CRM Idol – Most Beautiful CRM in the World (2012)"],
+    "notable_clients": ["Czech Aviation Training Center (CATC)", "mBlue", "MALCOM", "Český servis oken a dveří"],
+    "customer_count": 120,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Atollon's core product is a CRM/ERP platform for SMBs with basic 'AI-driven insights' layered on top. This functionality is increasingly commoditized by Microsoft Copilot, HubSpot AI, Salesforce Einstein, and AI-native competitors. With only 120 clients and a 10-person team, Atollon has limited proprietary data moat and no specialized AI IP that would be difficult to replicate.",
+    "market_risk": "medium",
+    "market_risk_rationale": "SMB CRM/business management is a real and established market, but dominated by well-funded global players (Salesforce, HubSpot, Microsoft Dynamics, Pipedrive). Atollon's Czech/Slovak niche and 24 years of market presence provide some defensibility through local relationships, but the competitive pressure from global incumbents is intense.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external investment funding; bootstrapped operation with approximately 10 employees over 25 years suggests tight margins and limited runway for product investment. Revenue data is not publicly available and the small team size signals limited financial scale.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "A small bootstrapped CRM vendor competing in a market dominated by well-funded global incumbents and increasingly AI-native tools. The core value proposition lacks proprietary AI moats or significant data advantages. Without scale or differentiation, AGI-powered competitors pose a significant displacement risk over the next 2-5 years."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "tech_stack", "employees_exact_verified"],
+    "needs_review": false,
+    "notes": "LinkedIn shows ~10 employees and the company address as Italská 67, Prague 2. Legal entity 'Atollon Ireland Limited' registered at 174 Walkingstown Road, Dublin 12. Company was originally known as 'Iterity' from 2000-2008. 12,000 registered users and ~120 companies served per homepage (as of 2025). Currently hiring a Business Process & Software Implementation Consultant in Prague per LinkedIn (posted 2025-07-05)."
+  }
+}
