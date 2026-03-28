@@ -1,0 +1,108 @@
+{
+  "id": "ekonometrie",
+  "name": "Ekonometrie",
+  "category": "company",
+  "scraped_at": "2026-03-28T15:57:00Z",
+
+  "overview": {
+    "description": "Academic research group in financial econometrics and machine learning at Czech Academy of Sciences / Charles University",
+    "description_long": "The Econometrics Research Group, led by Prof. Jozef Baruník, brings together researchers exploring the intersection of finance, data, and advanced statistical methods. The group develops mathematical and econometric models for understanding financial markets and risks. Work spans asset pricing, high-frequency data, financial econometrics, machine learning, high-dimensional financial datasets, and frequency domain econometrics (cyclical properties of economic variables). The group contributes both to theoretical advances and practical tools for financial risk analysis and management. Baruník also serves as Director of the Master in Finance and Data Analytics (MFDA) programme at IES Charles University and is a consultant for the Market Intelligence division of the Bank of England.",
+    "tagline": "Econometrics at the intersection of finance, data, and advanced statistical methods",
+    "website": "https://barunik.github.io",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/econometrics"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["ml_ops", "data_engineering", "other"],
+    "industries_served": ["finance", "insurance"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Jozef Baruník"],
+    "origin_story": "Research group at the Department of Econometrics, Institute of Information Theory and Automation (UTIA), Czech Academy of Sciences, jointly affiliated with the Institute of Economic Studies (IES), Charles University Prague.",
+    "key_milestones": [
+      {"year": 2019, "event": "Published quantile coherency method in The Econometrics Journal"},
+      {"year": 2022, "event": "Published asymmetric network connectedness paper in Review of Economics and Statistics"},
+      {"year": 2024, "event": "Baruník promoted to Professor at Charles University"},
+      {"year": 2026, "event": "Deep Learning paper published in Journal of Empirical Finance"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Academy of Sciences / Charles University",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jozef Baruník", "role": "Head of Department of Econometrics / Group Lead", "source": "cnaip"}
+    ],
+    "notable_people": [
+      {"name": "Dana Jeníkovská", "role": "Contact / Administrative", "source": "cnaip"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["julia", "r", "python", "matlab"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Bank of England (Market Intelligence division)"],
+    "customer_count": null,
+    "partnerships": ["ERC (panel reviewer)", "Czech Academy of Sciences", "Charles University Prague"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at CAS/Charles University. Its value lies in producing original theoretical and empirical econometrics research, not in a commercial product that could be commoditized.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Not a commercial entity; operates as a publicly-funded research group under the Czech Academy of Sciences and Charles University.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Funded via institutional grants from CAS and Charles University, plus competitive research grants (e.g., ERC). Not dependent on commercial revenue.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research group embedded within two major Czech research institutions. No commercial exposure and therefore standard business risk categories do not apply."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website", "utia_cas_cz"],
+    "fields_missing": ["founded_year", "employees_exact", "open_roles_count", "funding_total_usd"],
+    "needs_review": true,
+    "notes": "Index lists category as 'company' but CNAIP clearly identifies this as a Výzkumná skupina (Research Group). Contact email is eo@utia.cas.cz. Website barunik.github.io returns 404 on /team; profile info sourced from utia.cas.cz/people/barunik."
+  }
+}
