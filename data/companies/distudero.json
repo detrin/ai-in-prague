@@ -1,0 +1,109 @@
+{
+  "id": "distudero",
+  "name": "diStudero",
+  "category": "company",
+  "scraped_at": "2026-03-28T15:45:00Z",
+
+  "overview": {
+    "description": "AI-powered study app that auto-generates flashcards, quizzes and exam simulations from student materials",
+    "description_long": "diStudero is a Czech B2C SaaS app for students that transforms uploaded PDFs, text, URLs and images into AI-generated study materials — including spaced-repetition flashcards (FSRS algorithm), quizzes, exam simulators, infographics, smart notes and educational games. Over 1,000 students from 19+ Czech universities use the platform. Also offers a Chrome extension. Product of Octoro Technologies s.r.o., incorporated in Prague in 2025.",
+    "tagline": "Appka pro studenty — Vytvoř si kartičky z tvých materiálů za 20 sekund",
+    "website": "https://www.distudero.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2c_saas",
+    "ai_focus": ["generative_ai", "nlp", "recommendation"],
+    "industries_served": ["education"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2025,
+    "founders": ["Ondřej Tomášek"],
+    "origin_story": "Founded in 2025 in Prague as Octoro Technologies s.r.o. (incorporated June 23, 2025). diStudero is their flagship product targeting Czech and Slovak university students with AI study tools.",
+    "key_milestones": [
+      {"year": 2025, "event": "Octoro Technologies s.r.o. incorporated in Prague (June 23, 2025)"},
+      {"year": 2025, "event": "Terms of Service effective November 30, 2025 — product launched to public"},
+      {"year": 2026, "event": "Reached 1,000+ students from 19+ Czech universities"},
+      {"year": 2026, "event": "Update 15 released (March 24, 2026) — AI source search, exam simulator improvements"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Octoro Technologies s.r.o.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ondřej Tomášek", "role": "jednatel (Managing Director)", "source": "terms_of_service"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.distudero.com/info/career",
+    "open_roles_count": 2,
+    "open_roles": [
+      {"title": "Marketing Medior", "department": "marketing", "location": "Prague"},
+      {"title": "Content Creator", "department": "marketing", "location": "Prague"}
+    ],
+    "tech_stack": ["next.js", "typescript"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Core value proposition — generating flashcards, quizzes and summaries from uploaded content — is now natively available in ChatGPT, Claude, Gemini and Notion AI. The FSRS spaced-repetition algorithm and gamification provide modest differentiation, but foundation models are already replicating these features. No proprietary data moat or unique AI technology.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Student productivity tools is a real and large market, but intensely competitive with Anki, Quizlet, Duolingo and AI-native competitors. Czech/Slovak language and university focus provides a regional niche, but limits total addressable market. Early traction with 1,000+ students from 19+ universities is encouraging.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Bootstrapped startup incorporated June 2025 with no known external funding. Support email is a Gmail address (distudero@gmail.com), indicating very early-stage operations. Only 1,000+ students at subscription prices of ~160–249 CZK/month generates minimal revenue for a sustainable business.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Very early-stage bootstrapped startup with high AGI displacement risk (thin LLM wrapper) and high funding risk (no external capital, minimal revenue). The Czech student niche and rapid product iteration (15 updates in under a year) show founder hustle, but the core product is easily replicated by well-funded competitors."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ares_business_registry", "terms_of_service"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "glassdoor_rating", "founded_year_exact_product_launch"],
+    "needs_review": false,
+    "notes": "diStudero is a product/brand of Octoro Technologies s.r.o. (IČ: 23420464). Managing director Ondřej Tomášek identified from ToS. No CNAIP entry found. Company registered Prague 10, Vinohrady (Korunní 2569/108). Pricing: 249 CZK/month, 199 CZK/month quarterly, 159 CZK/month annually (~$7–11/month USD)."
+  }
+}
