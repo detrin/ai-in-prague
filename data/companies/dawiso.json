@@ -1,0 +1,99 @@
+{
+  "id": "dawiso",
+  "name": "Dawiso",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Enterprise data governance and metadata context platform for AI",
+    "description_long": "Dawiso is a metadata context platform that turns scattered enterprise data into AI-ready data products. It provides a data catalog, business glossary, interactive data lineage, and AI governance tools. The platform automatically generates semantic relationships and business definitions, enabling both humans and AI agents to work from the same governed knowledge base. Connects to 40+ data platforms and supports SaaS or on-premises deployment.",
+    "tagline": "Metadata Context Platform for Trustworthy AI",
+    "website": "https://www.dawiso.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["data_engineering", "automation", "other"],
+    "industries_served": ["banking", "insurance", "energy", "manufacturing", "financial_services"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2019,
+    "founders": ["Petr Mikeška", "Michal Ventruba"],
+    "origin_story": "Spun off from UD4D in 2019 after Société Générale's Center of Excellence in Prague needed to govern metadata across dozens of entities and no existing tool fit. CEO Petr Mikeška had spent a decade at Profinit delivering enterprise data projects; co-founder Michal Ventruba spent a decade as Head of BI at Komerční banka (SoGe Group), which won the Gartner BI Excellence Award.",
+    "key_milestones": [
+      {"year": 2019, "event": "Founded in Prague, spun off from UD4D"},
+      {"year": 2019, "event": "First deployment for Société Générale's Center of Excellence in Prague"},
+      {"year": 2026, "event": "Rebuilt workflows as AI-native; launched MCP (Model Context Protocol) integration"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 35,
+    "employee_source": "company_website",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Petr Mikeška", "role": "CEO & Co-Founder", "source": "company_website"},
+      {"name": "Michal Ventruba", "role": "Co-Founder & Board", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.dawiso.com/careers/",
+    "open_roles_count": 2,
+    "open_roles": [
+      {"title": "Data Project Consultant for Large Enterprise Clients", "department": "consulting", "location": "Prague"},
+      {"title": "DevOps Specialist / Engineer - Cloud Infrastructure", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "claude", "cursor", "mcp", "snowflake", "dbt", "databricks", "kafka", "tableau"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Gartner BI Excellence Award (Komerční banka implementation)", "5.0 on Capterra", "Gartner Peer Insights"],
+    "notable_clients": ["Société Générale", "ČEZ", "Kooperativa (VIG Group)", "Nationale-Nederlanden", "Stora Enso"],
+    "customer_count": null,
+    "partnerships": ["20+ implementation partners"]
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor"],
+    "needs_review": false,
+    "notes": "35 employees per company website careers page (LinkedIn says 51-200 but lists 34 followers). Founded by spinning out of UD4D. Empowering 24,000 data users daily per homepage. Prague HQ at River Garden II/III, Rohanske nabrezi 678/25, Prague 8; Dev-Ops center in Brno."
+  }
+}
