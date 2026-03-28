@@ -1,0 +1,126 @@
+{
+  "id": "ataccama",
+  "name": "Ataccama",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Agentic data trust platform for enterprise data quality, observability, governance, lineage, and master data management",
+    "description_long": "Ataccama is an agentic data trust company whose flagship product, Ataccama ONE, unifies data quality, observability, data catalog, data lineage, reference data management, and master data management in a single platform. The ONE AI Agent acts as a digital data steward that identifies issues, generates quality rules, and resolves data problems across the enterprise. Positioned as a 5-time Leader in the Gartner Magic Quadrant for Augmented Data Quality Solutions, Ataccama helps large enterprises create trusted, AI-ready data for analytics, operations, and AI workloads. The company has a strategic partnership with Snowflake and received a strategic investment from Snowflake Ventures in December 2025.",
+    "tagline": "Trust your data, accelerate your AI",
+    "website": "https://www.ataccama.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["data_engineering", "ml_ops", "automation"],
+    "industries_served": ["financial_services", "insurance", "manufacturing", "retail"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2007,
+    "founders": [],
+    "origin_story": "Founded in Prague, Czech Republic in 2007. Originally a Czech data management software company that expanded internationally, relocating its headquarters to Boston, MA while maintaining a significant engineering presence in Prague.",
+    "key_milestones": [
+      {"year": 2007, "event": "Founded in Prague, Czech Republic"},
+      {"year": 2022, "event": "Raised $150M growth investment from General Atlantic (Series B)"},
+      {"year": 2024, "event": "Launched agentic data trust platform with ONE AI Agent"},
+      {"year": 2025, "event": "Received strategic investment from Snowflake Ventures (December 2025)"},
+      {"year": 2026, "event": "Named Leader in 2026 Gartner Magic Quadrant for Augmented Data Quality Solutions for 5th consecutive time"},
+      {"year": 2026, "event": "Named Leader in Forrester Wave: Data Quality Solutions Q1 2026"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "501-1000",
+    "employees_exact": 497,
+    "employee_source": "linkedin",
+    "office_count": 6
+  },
+
+  "offices": [
+    {"city": "Boston", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Toronto", "country": "CA", "is_hq": false},
+    {"city": "Stamford", "country": "US", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Munich", "country": "DE", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 150000000,
+    "funding_rounds": [
+      {"date": "2022-01", "type": "Series B", "amount_usd": 150000000, "lead_investor": "General Atlantic"},
+      {"date": "2025-12", "type": "Strategic", "amount_usd": null, "lead_investor": "Snowflake Ventures"}
+    ],
+    "investors": ["General Atlantic", "Snowflake Ventures"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Mike McKee", "role": "CEO", "source": "company_website"},
+      {"name": "Martin Zahumensky", "role": "CTO", "source": "company_website"},
+      {"name": "Jay Limburn", "role": "Chief Product Officer", "source": "company_website"},
+      {"name": "Scott Lewis", "role": "Chief Customer Officer", "source": "company_website"},
+      {"name": "Andrea Eaton", "role": "Chief Marketing Officer", "source": "company_website"},
+      {"name": "Matt Lane", "role": "Chief Revenue Officer", "source": "company_website"},
+      {"name": "Iva Rotreklova", "role": "SVP of People & Culture", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.ataccama.com/careers",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Ataccama-EI_IE1049779.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Gartner Magic Quadrant Leader for Augmented Data Quality Solutions (5 consecutive years, 2022–2026)",
+      "Gartner Peer Insights rating: 4.5/5.0",
+      "Forrester Wave Leader: Data Quality Solutions Q1 2026"
+    ],
+    "notable_clients": ["T-Mobile", "Fifth Third Bank", "Prudential", "Avon", "Marti Group", "Industrial Alliance"],
+    "customer_count": null,
+    "partnerships": ["Snowflake", "Deloitte", "AWS", "Cognizant", "Atlan", "Adastra"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Ataccama provides deep enterprise data infrastructure — data quality pipelines, governance, lineage, and MDM — that AI models depend on for reliable inputs. Their platform is infrastructure-layer, not an AI application wrapper. Strong enterprise integrations (Snowflake, ERP systems) and multi-year deployment cycles create high switching costs. Their ONE AI Agent positions them as an AI enabler rather than a target for displacement.",
+    "market_risk": "low",
+    "market_risk_rationale": "Data quality and governance is a well-established, growing market accelerated by enterprise AI adoption. Ataccama has been a Gartner Magic Quadrant Leader for 5 consecutive years, a Forrester Wave Leader, and counts T-Mobile, Prudential, and Fifth Third Bank as anchor clients — confirming strong product-market fit in large enterprise.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Raised $150M Series B from General Atlantic in 2022 and received a strategic investment from Snowflake Ventures in December 2025. With ~500 employees and strong enterprise bookings growth (36% QoQ new bookings reported), the company shows strong revenue signals and strategic backing.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Ataccama is a well-funded data infrastructure scaleup with deep enterprise moats, a 5-time Gartner Leader designation, and strategic backing from Snowflake. Their positioning as the trusted data layer for AI makes them an enabler of AGI adoption rather than a displacement target. Low risk across all dimensions."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["founders", "glassdoor_rating", "glassdoor_review_count", "open_roles_count", "tech_stack", "revenue_estimate_usd", "funding_total_usd_snowflake_amount"],
+    "needs_review": false,
+    "notes": "Company HQ is listed as Boston, MA on LinkedIn, but was originally founded in Prague and maintains a significant Prague engineering office (Sokolovska 136f). The $150M Series B from General Atlantic (January 2022) is widely reported but was not directly verified from a live press release during this scraping session (General Atlantic page returned 404). Founders not confirmed — LinkedIn founding date 2007 is used. Glassdoor was blocked (security/captcha wall). Careers page returned 404; hiring_signals set to unknown."
+  }
+}
