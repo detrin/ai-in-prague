@@ -2,176 +2,122 @@
   "id": "recombee",
   "name": "Recombee",
   "category": "company",
-  "scraped_at": "2026-03-28T12:00:00Z",
+  "scraped_at": "2026-03-28T20:33:00Z",
+
   "overview": {
-    "description": "AI-powered recommendation engine and personalized search for websites and apps",
-    "description_long": "Recombee is a B2B SaaS platform delivering AI-powered real-time recommendations and personalized search. It serves 10,000+ sites and apps across video, e-commerce, news/media, music, real estate, job boards, and more. The engine uses advanced machine learning models with a flexible query language (ReQL) and provides RESTful API, SDKs, and no-code widgets for easy integration.",
-    "tagline": "The Next-Gen AI Recommender & Search",
+    "description": "AI-powered recommendation engine and personalized search as a service",
+    "description_long": "Recombee provides a B2B SaaS recommendation platform trusted by global leaders like The Telegraph, DAZN, and Tripadvisor. The API-first engine uses 100+ proprietary ML models to deliver real-time 1:1 content and product recommendations across video platforms, news sites, e-commerce, real estate, and online marketplaces. The platform also offers personalized search and an analytics/insights module. It supports massive scale — over 30,000 recommendations per second — and gives product teams full control via a custom ReQL query language.",
+    "tagline": "AI Personalization & Real-Time Recommendations Beyond Expectations",
     "website": "https://www.recombee.com",
     "cnaip_url": null
   },
+
   "classification": {
     "business_type": "b2b_saas",
-    "ai_focus": [
-      "recommendation",
-      "ml_ops"
-    ],
-    "industries_served": [
-      "media",
-      "e-commerce",
-      "video",
-      "music",
-      "real_estate",
-      "travel",
-      "job_boards",
-      "sports"
-    ],
+    "ai_focus": ["recommendation", "ml_ops", "nlp"],
+    "industries_served": ["media", "video_streaming", "e-commerce", "news", "marketplace", "real_estate", "travel", "music"],
     "company_type": "scaleup",
     "is_ai_native": true
   },
+
   "history": {
     "founded_year": 2015,
     "founders": [
       "Pavel Kordik",
       "Tomas Rehorek",
       "Ondrej Fiedler",
-      "Antonin Kral"
+      "Gabriela Takacova",
+      "Antonin Kral",
+      "Tomas Barton"
     ],
-    "origin_story": "Founded in 2015 in Prague by four co-founders with deep ties to Czech Technical University (CTU) in Prague. Tomas Rehorek specializes in recommendation algorithms and has lectured AI at FIT CTU for 5+ years.",
+    "origin_story": "Founded in 2015 in Prague by six co-founders — several with PhDs from Czech Technical University in Prague — to bring enterprise-grade AI recommendation systems to businesses of all sizes as a scalable SaaS.",
     "key_milestones": [
-      {
-        "year": 2015,
-        "event": "Founded in Prague"
-      },
-      {
-        "year": 2025,
-        "event": "Featured as AIN.ua Startup of the Day"
-      },
-      {
-        "year": 2025,
-        "event": "Strategic partnership announced (The Recursive)"
-      },
-      {
-        "year": 2026,
-        "event": "Listed on Gartner Peer Insights for Personalization Engines"
-      }
+      {"year": 2015, "event": "Founded in Prague, Czech Republic"},
+      {"year": 2025, "event": "Partnership with The Telegraph to power AI-driven personalisation for millions of readers"},
+      {"year": 2025, "event": "Partnership with DAZN for personalized sports streaming recommendations across 200+ markets"},
+      {"year": 2026, "event": "Serving 10,000+ sites and apps with over 30,000 recommendations per second"}
     ]
   },
+
   "size": {
-    "employees_range": "11-50",
-    "employees_exact": 48,
-    "employee_source": "getlatka",
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "linkedin",
     "office_count": 1
   },
+
   "offices": [
-    {
-      "city": "Prague",
-      "country": "CZ",
-      "is_hq": true
-    }
+    {"city": "Prague", "country": "CZ", "is_hq": true}
   ],
+
   "financials": {
     "publicly_traded": false,
     "stock_ticker": null,
     "stock_exchange": null,
     "parent_company": null,
-    "funding_total_usd": 0,
+    "funding_total_usd": null,
     "funding_rounds": [],
     "investors": [],
-    "revenue_estimate_usd": 5300000,
-    "revenue_source": "getlatka",
-    "business_model": "subscription_saas"
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "usage_based"
   },
+
   "team": {
     "leadership": [
-      {
-        "name": "Pavel Kordik",
-        "role": "Co-founder",
-        "source": "tracxn"
-      },
-      {
-        "name": "Tomas Rehorek",
-        "role": "Co-founder",
-        "source": "company_website"
-      },
-      {
-        "name": "Ondrej Fiedler",
-        "role": "Co-founder",
-        "source": "tracxn"
-      },
-      {
-        "name": "Antonin Kral",
-        "role": "Co-founder",
-        "source": "tracxn"
-      }
+      {"name": "Pavel Kordik", "role": "CEO, Co-Founder", "source": "company_website"},
+      {"name": "Tomas Rehorek", "role": "CTO, Co-Founder", "source": "company_website"},
+      {"name": "Ondrej Fiedler", "role": "CPO, Co-Founder", "source": "company_website"},
+      {"name": "Gabriela Takacova", "role": "Head of Business, Co-Founder", "source": "company_website"},
+      {"name": "Antonin Kral", "role": "Data Protection, Co-Founder", "source": "company_website"},
+      {"name": "Tomas Barton", "role": "Head of Infrastructure, Co-Founder", "source": "company_website"},
+      {"name": "Josef Malik", "role": "Head of Machine Learning", "source": "company_website"},
+      {"name": "Rodrigo Alves", "role": "Head of Research", "source": "company_website"}
     ],
-    "notable_people": []
+    "notable_people": [
+      {"name": "Pavel Kordik", "note": "CTU Prague lecturer, 16+ years in predictive modeling and data mining"},
+      {"name": "Tomas Rehorek", "note": "CTU Prague FIT lecturer, specialist in scalable recommendation algorithms"}
+    ]
   },
+
   "careers": {
     "careers_url": null,
     "open_roles_count": null,
     "open_roles": [],
-    "tech_stack": [
-      "javascript",
-      "python",
-      "rest_api"
-    ],
+    "tech_stack": ["python", "java", "javascript", "node.js", "ruby", "php", ".net", "rest_api"],
     "hiring_signals": "unknown"
   },
+
   "glassdoor": {
-    "rating": 5.0,
-    "review_count": 1,
+    "rating": null,
+    "review_count": null,
     "recommend_pct": null,
-    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Recombee-EI_IE3234119.11,19.htm"
+    "glassdoor_url": null
   },
+
   "recognition": {
-    "awards": [
-      "Gartner Peer Insights - Personalization Engines 2026",
-      "AIN.ua Startup of the Day 2025"
-    ],
-    "notable_clients": [
-      "DAZN"
-    ],
-    "customer_count": null,
-    "partnerships": [
-      "Czech Technical University in Prague",
-      "DataLab (FIT CTU)",
-      "Segment",
-      "Infobip",
-      "Kontent.ai",
-      "Axinom",
-      "Umbraco"
-    ]
+    "awards": [],
+    "notable_clients": ["The Telegraph", "DAZN", "Tripadvisor"],
+    "customer_count": 10000,
+    "partnerships": ["Segment", "Infobip", "Kontent.ai", "Axinom", "Umbraco"]
   },
-  "metadata": {
-    "data_quality": "high",
-    "sources_used": [
-      "company_website",
-      "tracxn",
-      "getlatka",
-      "glassdoor",
-      "gartner",
-      "linkedin",
-      "rocketreach",
-      "owler",
-      "ain.ua"
-    ],
-    "fields_missing": [
-      "careers_url",
-      "recommend_pct",
-      "customer_count"
-    ],
-    "needs_review": false,
-    "notes": "Bootstrapped company with $0 external funding. Revenue estimates vary: getlatka reports $5.3M, Owler reports $3M. Trusted by 10,000+ sites and apps per homepage. Academic partner of CTU Prague / DataLab. No dedicated careers page found."
-  },
+
   "risk_assessment": {
     "agi_displacement": "medium",
-    "agi_displacement_rationale": "Mixed signals — some differentiation but unclear long-term moat against foundation model capabilities.",
+    "agi_displacement_rationale": "Recombee has 100+ proprietary ML models and a custom ReQL query language providing some differentiation, but recommendation APIs are increasingly commoditized by cloud providers (AWS Personalize, Google Recommendations AI). Vertical integrations and 10+ years of behavioral data provide some moat, though not as deep as regulated-domain players.",
     "market_risk": "low",
-    "market_risk_rationale": "Established customer base with proven market demand.",
+    "market_risk_rationale": "Personalization and recommendation is a proven, growing market with 10,000+ paying customers across media, video, e-commerce, and marketplace verticals. Enterprise clients like The Telegraph and DAZN signal strong PMF in media/streaming.",
     "funding_risk": "low",
-    "funding_risk_rationale": "Revenue-generating — has path to sustainability regardless of external funding.",
+    "funding_risk_rationale": "Bootstrapped since 2015 with a 51-200 person team and usage-based recurring revenue from 10,000+ customers, suggesting profitable operations without reliance on VC funding. Eleven years of survival without public funding rounds indicates financial sustainability.",
     "overall_risk": "low",
-    "overall_risk_rationale": "Strong position across assessed risk dimensions with clear moats or stability factors."
+    "overall_risk_rationale": "A decade-old, bootstrapped company with a large and diverse customer base, strong academic research backing via CTU Prague, and deep vertical focus in media/streaming. While recommendation commoditization is a medium-term concern, Recombee's scale, proprietary infrastructure, and enterprise contracts provide resilience."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles", "careers_url"],
+    "needs_review": false,
+    "notes": "No public careers page found (/careers and /jobs return 404). No Glassdoor data available via search snippets. No public funding information found — company appears bootstrapped since 2015. Customer count (10,000+) from homepage. Employee count from LinkedIn (51-200, ~47 shown)."
   }
 }
