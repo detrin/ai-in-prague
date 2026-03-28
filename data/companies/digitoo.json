@@ -1,0 +1,98 @@
+{
+  "id": "digitoo",
+  "name": "Digitoo",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered accounting automation platform for SMBs — invoice scanning, approval workflows, and ERP integration",
+    "description_long": "Digitoo is a Prague-based SaaS startup that automates the end-to-end processing of incoming financial documents for small and medium-sized businesses. Its AI reads and extracts data from invoices, routes them through multi-level approval workflows, detects duplicates and fraud, and pushes data directly into 42+ accounting and ERP systems (including ABRA, Helios, K2, Microsoft Business Central). The platform claims 90%+ reading accuracy and processes 79% of invoices without human intervention, saving clients hundreds of hours per year.",
+    "tagline": "Automate your accounting with AI",
+    "website": "https://www.digitoo.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["document_processing", "automation", "fraud_detection"],
+    "industries_served": ["accounting", "finance", "sme"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2019,
+    "founders": [],
+    "origin_story": "Founded in September 2019 by a single female founder from Mohelnice, Czech Republic. Started as an integration partner connecting third-party services to automate incoming document processing, then developed a proprietary AI invoice-reading engine.",
+    "key_milestones": [
+      {"year": 2019, "event": "Founded in Prague as an integration partner for accounting automation"},
+      {"year": 2020, "event": "Raised 400K EUR angel investment from Machine Learning Investment"},
+      {"year": 2021, "event": "Raised 1.3M EUR from Kaya (Enern), Datasentics, and Nation 1; launched proprietary invoice reading engine"},
+      {"year": 2022, "event": "Launched Digitoo app (October 2022); reached 650 users without marketing"},
+      {"year": 2023, "event": "Exceeded 3,000 users; achieved 90%+ reading accuracy; joined SAP.iO Foundry Paris program"},
+      {"year": 2024, "event": "Expanded to 7,500+ companies; launched mobile app; grew to 42+ ERP integrations"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2020", "type": "Angel", "amount_usd": 432000, "lead_investor": "Machine Learning Investment"},
+      {"date": "2021", "type": "Seed", "amount_usd": 1404000, "lead_investor": "Kaya (Enern)"}
+    ],
+    "investors": ["Machine Learning Investment", "Kaya (Enern)", "Datasentics", "Nation 1"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.digitoo.cz/kariera",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["SAP.iO Foundry Paris program (2023)"],
+    "notable_clients": ["Liftago", "Contadoria"],
+    "customer_count": 7500,
+    "partnerships": ["SAP"]
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founders", "leadership", "employees_exact", "funding_total_usd", "glassdoor", "tech_stack", "open_roles"],
+    "needs_review": false,
+    "notes": "Female founder from Mohelnice, CZ — name not found in publicly available sources. Total disclosed investment is 2.5M EUR (400K EUR angel in 2020 + 1.3M EUR seed in 2021 per company website; additional rounds possible per careers page mention of 'tens of millions'). USD amounts converted from EUR at ~1.08. Offices are co-working space in Karlín, Prague."
+  }
+}
