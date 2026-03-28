@@ -1,0 +1,114 @@
+{
+  "id": "acrea",
+  "name": "ACREA",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Data analytics software distribution and consulting for Czech and Slovak markets",
+    "description_long": "ACREA CR (Analytical CREAtivity) is a certified IBM partner and data analytics firm operating since 1995. Originally founded as SPSS CR — the exclusive distributor of IBM SPSS in Czechia and Slovakia — the company rebranded to ACREA CR in 2011. It provides analytics software (IBM SPSS, PS Imago, PS Quaestio), data science consulting, text mining modules for Czech/Slovak language (ACREA Text Mining, ACREA Text Analytics), and training courses. In recent years it has expanded into custom AI applications and AML (anti-money laundering) analytics tooling.",
+    "tagline": "YOUR DATA CREATE YOUR FUTURE",
+    "website": "https://acrea.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["nlp", "ml_ops", "data_engineering"],
+    "industries_served": ["finance", "banking", "healthcare", "education", "government", "manufacturing", "transportation"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1995,
+    "founders": ["Jan Řehák", "Riana Řeháková"],
+    "origin_story": "Founded in 1995 by statistician/sociologist doc. RNDr. Jan Řehák and pedagogue RNDr. Riana Řeháková to fill a gap in statistical software for Czech and Slovak universities and research institutions. Originally operated as SPSS CR, the exclusive CZ/SK distributor of IBM SPSS.",
+    "key_milestones": [
+      {"year": 1995, "event": "Founded as SPSS CR, exclusive SPSS distributor for CZ and SK"},
+      {"year": 2009, "event": "SPSS Inc. acquired by IBM, company becomes IBM SPSS partner"},
+      {"year": 2011, "event": "Renamed from SPSS CR to ACREA CR (Analytical CREAtivity) on 8 August"},
+      {"year": 2011, "event": "ACREA SR established in Bratislava for direct Slovak market service"},
+      {"year": 2015, "event": "Developed ACREA Text Mining and ACREA Text Analytics for Czech/Slovak NLP"},
+      {"year": 2024, "event": "Launched AML Ready, an AI-powered anti-money laundering tool"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 19,
+    "employee_source": "linkedin",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Bratislava", "country": "SK", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Aneta Živná Kavalierová", "role": "Director & Co-owner", "source": "company_website"},
+      {"name": "Jan Řehák", "role": "Jednatel (Managing Director) & Co-founder", "source": "company_website"},
+      {"name": "Riana Řeháková", "role": "Jednatelka (Managing Director) & Co-founder", "source": "company_website"},
+      {"name": "Martin Selinger", "role": "Sales Director", "source": "company_website"},
+      {"name": "Petra Formánková", "role": "Marketing Director & Co-owner", "source": "company_website"},
+      {"name": "Libor Šlik", "role": "IT Director", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "r", "sql", "ibm-spss", "power-bi", "microsoft-sql-server"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["ČSOB", "Volkswagen", "Česká pošta", "Letiště Praha", "Equa Bank", "Fakultní nemocnice v Motole", "Czech Academy of Sciences", "Mendelova univerzita", "Technická univerzita v Liberci"],
+    "customer_count": null,
+    "partnerships": ["IBM", "Predictive Solutions", "Gravic"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "ACREA's core value — distributing IBM SPSS and providing Czech/Slovak language text mining — faces gradual commoditization as general-purpose LLMs improve Czech language support. However, their 30-year client relationships, certified IBM partnership, domain-specific NLP modules, and compliance-oriented projects (AML, banking scoring) provide meaningful lock-in that slows displacement.",
+    "market_risk": "low",
+    "market_risk_rationale": "Data analytics consulting and statistical software reselling serve a well-established, stable market with proven enterprise demand. ACREA's blue-chip client roster (banks, state institutions, hospitals, airports) signals durable, recurring revenue from a loyal customer base built over three decades.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Small bootstrapped company (~19 employees) with no known external funding. Long operational history (since 1995) and diversified revenue (software licensing + consulting + training courses + e-shop) suggest financial sustainability, but lack of funding data and small team size leaves uncertainty about growth runway.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "ACREA is a stable, long-established SME with real enterprise customers and a defensible niche in Czech/Slovak-language data analytics. Overall risk is medium primarily because its IBM SPSS reseller model is exposed to market shifts in statistical software preferences, and LLMs are encroaching on text analytics. The company's breadth of services and 30-year track record mitigate these risks."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count", "careers_url"],
+    "needs_review": false,
+    "notes": "ACREA CR full legal name: ACREA CR, spol. s r.o. IČ: 63076616. Also operates ACREA SR in Slovakia (IČ: 46457071). Specialties include IBM SPSS Statistics, IBM SPSS Modeler, PS Imago Pro, PS Quaestio Pro, Remark Office OMR, and proprietary ACREA Text Mining/Analytics modules for Czech and Slovak language NLP. AML Ready product (amlready.cz) launched for compliance market."
+  }
+}
