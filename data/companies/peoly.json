@@ -1,0 +1,115 @@
+{
+  "id": "peoly",
+  "name": "peoly",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Custom AI/ML software development and edge video analytics solutions for industrial and commercial applications",
+    "description_long": "peoly is a Prague-headquartered software company specialising in Artificial Intelligence and Machine Learning, with a focus on 'AI on the Edge' — deploying real-time video and audio analytics directly on edge devices like IP cameras. Core capabilities include computer vision, real-time object detection, behavioral analysis, pattern recognition, anomaly detection, and predictive analytics. Following a strategic merger with GoodAI Solutions, peoly expanded its AI consulting capabilities for industrial and retail verticals. Partners include NVIDIA Metropolis and Axis Communications.",
+    "tagline": "AI on the Edge",
+    "website": "https://peoly.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["cv", "automation", "ml_ops"],
+    "industries_served": ["manufacturing", "retail", "logistics", "smart_city", "automotive"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2017,
+    "founders": [],
+    "origin_story": "Founded in 2017 in Prague as a software company specialising in AI/ML services. Acquired GoodAI Solutions (incubated by GoodAI, the Prague-based general AI research lab) in a strategic merger, adding AI business consulting capabilities.",
+    "key_milestones": [
+      {"year": 2017, "event": "Founded in Prague, Czech Republic"},
+      {"year": 2022, "event": "Joined NVIDIA Metropolis ecosystem to accelerate visual quality control solutions for manufacturing"},
+      {"year": 2024, "event": "Became Technology Integration Partner of Axis Communications"},
+      {"year": 2024, "event": "Acquired GoodAI Solutions (formerly incubated by GoodAI); GoodAI Solutions renamed to peoly solutions"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 22,
+    "employee_source": "linkedin",
+    "office_count": 4
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "San Francisco", "country": "US", "is_hq": false},
+    {"city": "Vinnytsia", "country": "UA", "is_hq": false},
+    {"city": "Lviv", "country": "UA", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Petr Holy", "role": "CEO", "source": "company_website"},
+      {"name": "Guillermo Alda", "role": "Managing Partner (via GoodAI Solutions merger)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Jaroslav Vrána", "role": "Project Manager", "source": "linkedin"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://peoly.com/careers/",
+    "open_roles_count": 2,
+    "open_roles": [
+      {"title": "Software Developer", "department": "engineering", "location": "Vinnytsia, Ukraine"},
+      {"title": "Full Stack Developer (ML-focused)", "department": "engineering", "location": "Vinnytsia, Ukraine"}
+    ],
+    "tech_stack": ["python", "flask", "fastapi", "nodejs", "react", "docker", "kubernetes", "aws", "google_cloud", "azure", "nvidia_deepstream", "cuda"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["NVIDIA Metropolis member (2022)", "Axis Communications Technology Integration Partner (2024)"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["NVIDIA Metropolis", "Axis Communications"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "peoly's core value is hardware-integrated edge AI — running computer vision directly on IP cameras using NVIDIA DeepStream and Axis camera SDKs. This hardware integration layer and domain-specific customisation (e.g. 0.1mm surface defect detection for automotive) creates meaningful friction against foundation model commoditisation. However, the custom consulting side and NLP/document work from GoodAI Solutions is more exposed to AGI displacement.",
+    "market_risk": "low",
+    "market_risk_rationale": "Edge AI and video analytics is a real, growing market with established demand from manufacturing, retail, and smart city sectors. peoly has demonstrated traction with automotive and retail clients, and strategic partnerships (NVIDIA, Axis) validate their market position.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external funding found; appears to be privately held and bootstrapped with a small team of ~22 employees. The maintenance of R&D centres in Ukraine (Vinnytsia, Lviv) adds operational risk given the geopolitical situation. No runway signals beyond client revenue.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong technical differentiation in hardware-integrated edge AI with credible partnerships (NVIDIA, Axis) partially offsets the high funding risk. Small team size and bootstrapped status are concerns, but the niche focus on edge CV and paying clients in manufacturing and retail provide some stability."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "founders", "customer_count"],
+    "needs_review": false,
+    "notes": "peoly acquired GoodAI Solutions (incubated by Prague's GoodAI research lab) in a strategic merger; GoodAI Solutions renamed to 'peoly solutions'. Two Ukraine R&D offices. Website copyright shows 2017 as founding year. LinkedIn shows ~22 employees in 11-50 bucket."
+  }
+}
