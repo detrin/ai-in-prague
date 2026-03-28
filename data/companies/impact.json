@@ -1,0 +1,129 @@
+{
+  "id": "impact",
+  "name": "Intelligent Machine Perception (IMPACT)",
+  "category": "company",
+  "scraped_at": "2026-03-28T16:38:00Z",
+
+  "overview": {
+    "description": "Research group at CIIRC CTU Prague focused on machine perception, robot learning, and AI for life sciences",
+    "description_long": "IMPACT (Intelligent Machine Perception) is a research group at the Czech Institute of Informatics, Robotics and Cybernetics (CIIRC) of Czech Technical University (CTU) in Prague. Created in 2023 as a continuation of the EU-funded Intelligent Machine Perception project (2017–2023), the group pursues two main research themes: (1) machine perception and robot learning — developing intelligent systems that perceive dynamic environments, interact with them, and learn from those interactions — and (2) AI for protein engineering and drug discovery, including protein dynamics, enzyme characterisation, and molecule discovery from mass spectrometry data. The group publishes regularly at top venues including CVPR, NeurIPS, ICLR, and Nature Biotechnology.",
+    "tagline": "Intelligent systems that perceive, interact with, and learn from dynamic environments",
+    "website": "https://impact.ciirc.cvut.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["cv", "robotics", "ml_ops"],
+    "industries_served": ["healthcare", "robotics", "academia"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2017,
+    "founders": ["Josef Šivic"],
+    "origin_story": "Started in 2017 as the Intelligent Machine Perception project at CIIRC CTU, co-funded by the EU Structural and Investment Funds (Operational Programme Research, Development and Education, CZ.02.1.01/0.0/0.0/15_003/0000468). Reconstituted in 2023 as an independent research group under Josef Šivic's ERC Advanced Grant.",
+    "key_milestones": [
+      {"year": 2017, "event": "Intelligent Machine Perception project launched at CIIRC CTU with EU Structural Funds"},
+      {"year": 2022, "event": "Josef Šivic awarded ERC Advanced Grant 2022 (FRONTIER project) for research on learning in dynamic 3D environments"},
+      {"year": 2023, "event": "IMPACT reconstituted as independent research group at CIIRC CTU"},
+      {"year": 2023, "event": "Work on Open-Vocabulary 3D Occupancy Prediction accepted to NeurIPS 2023"},
+      {"year": 2024, "event": "Paper on generating changes of object states accepted to CVPR 2024; NeurIPS 2024 spotlight for molecule discovery benchmark (top 2% of submissions)"},
+      {"year": 2025, "event": "Papers accepted to ICLR 2025 on protein flexibility engineering and 6D object trajectory extraction; Nature Biotechnology paper on molecular representation learning (DreaMS); Nature Catalysis paper on quantum computing for enzyme discovery"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (CIIRC CTU)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Josef Šivic", "role": "Head of Group / Principal Investigator", "source": "company_website"},
+      {"name": "Vladimír Petrík", "role": "Head of Group (Robotics)", "source": "company_website"},
+      {"name": "Jiří Sedlář", "role": "Head of Group (AI for Life Sciences)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Josef Šivic", "role": "ERC Advanced Grant holder (FRONTIER 2022)", "source": "ciirc_website"},
+      {"name": "Anton Bushuiev", "role": "PhD student — protein-protein interactions (ICLR 2024)", "source": "company_website"},
+      {"name": "Roman Bushuiev", "role": "PhD student — DreaMS molecular representation (Nature Biotechnology 2025)", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://impact.ciirc.cvut.cz/work-with-us/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Postdoctoral Fellow (Computer Vision / ML / Robotics / AI for Life Sciences)", "department": "research", "location": "Prague"},
+      {"title": "PhD Student (Computer Vision / ML / Robotics / AI for Life Sciences)", "department": "research", "location": "Prague"},
+      {"title": "MSc / BSc Research Intern", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "pytorch"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "ERC Advanced Grant 2022 (FRONTIER) — Josef Šivic",
+      "NeurIPS 2024 Spotlight (top 2%) — molecule discovery benchmark",
+      "CLARA Center partner (EU Horizon, neurodegenerative diseases / AI + supercomputing)"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Loschmidt Laboratories, Masaryk University (protein engineering)",
+      "IOCB Prague — Tomas Pluskal (mass spectrometry / metabolomics)",
+      "Inria Paris — Willow and Sierra teams",
+      "CIIRC CTU Applied Algebra & Geometry group (Tomas Pajdla, Torsten Sattler)",
+      "CIIRC CTU Robotics Perception group",
+      "ELISE, euROBIN, ELIAS EU projects"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group pushing the frontier of computer vision, robotics, and AI for life sciences. Not a commercial product — AGI commoditization is not relevant to its mission.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "University research group funded by EU grants and ERC; not subject to commercial market dynamics.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Supported by a prestigious ERC Advanced Grant (2022/2023) and embedded within CIIRC CTU with multiple EU project participations (ELISE, euROBIN, ELIAS, FRONTIER); funding is grant-based and multi-year.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research lab with strong grant funding, high-impact publications at top venues, and institutional affiliation with Czech Technical University. Not a commercially exposed entity."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "ciirc_website", "ecosia_search"],
+    "fields_missing": ["employees_exact", "funding_total_usd", "glassdoor_rating", "open_roles_count"],
+    "needs_review": true,
+    "notes": "Listed as 'company' in companies_index.json but is in fact a university research group at CIIRC CTU. No CNAIP URL available. Category should likely be 'research_group'. ERC Advanced Grant 2022 awarded to PI Josef Šivic for project FRONTIER. Original 2017-2023 project co-funded by EU Structural Funds (CZ.02.1.01/0.0/0.0/15_003/0000468). Alumni have gone on to Meta FAIR Paris, Mistral AI, Inria Paris, Google Research."
+  }
+}
