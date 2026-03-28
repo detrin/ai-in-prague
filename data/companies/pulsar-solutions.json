@@ -1,0 +1,112 @@
+{
+  "id": "pulsar-solutions",
+  "name": "Pulsar Solutions",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered industrial maintenance software for manufacturing and factory operations",
+    "description_long": "Pulsar Solutions builds AI tools for industrial maintenance — including a voice AI assistant, knowledge management platform, AI-guided maintenance revisions, and automated shift summaries. Focused on reducing human error, preserving know-how from experienced workers, and enabling hands-free maintenance guidance. Supports speech-to-text in Slovak, Czech, and German. Targets B2B clients in manufacturing, aviation, defense, and other industrial sectors.",
+    "tagline": "Optimize manufacturing with innovative AI-driven solutions",
+    "website": "https://www.pulsar-solutions.com",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/pulsar-solutions"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["speech", "nlp", "automation", "generative_ai"],
+    "industries_served": ["manufacturing", "aviation", "defense", "chemicals", "energy"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Svetlana Margetová", "Dominik Potočný", "Marcel Ouška"],
+    "origin_story": "Founded in Prague to address industrial maintenance challenges through AI — focusing on knowledge loss from retiring workers, increasing equipment complexity, and human error in manufacturing environments.",
+    "key_milestones": [
+      {"year": 2024, "event": "Presented at Forum údržby (Forum of Maintenance) in Prague"},
+      {"year": 2024, "event": "Exhibited at 6th Bavarian-Czech Entrepreneurs' Day in Deggendorf"},
+      {"year": 2025, "event": "Presented at Forum of Practical Maintenance in Trnava, Slovakia"},
+      {"year": 2025, "event": "Workshop at Brno Industry Week"},
+      {"year": 2025, "event": "Presented at Manufacturing Management 2025 in Zilina, Slovakia"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["T-Mobile (strategic technology partner)", "MVA Academy (innovation partner)"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Svetlana Margetová", "role": "CEO & AI & Sales", "source": "company_website"},
+      {"name": "Dominik Potočný", "role": "COO", "source": "company_website"},
+      {"name": "Marcel Ouška", "role": "CTO", "source": "company_website"},
+      {"name": "Jan Vrátník", "role": "CIO", "source": "company_website"},
+      {"name": "Jan Žitník", "role": "Product Owner & Innovation Manager", "source": "company_website"},
+      {"name": "Ondřej Mařík", "role": "Head of Mobile Development", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["T-Mobile", "MVA Academy"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Core product is a layer on top of LLMs and voice AI for industrial maintenance — general-purpose foundation models with voice capabilities (e.g. GPT-4o, Gemini) could replicate the basic knowledge management and voice assistant features. Industrial specialization (Slovak/Czech/German speech) and domain-specific workflows provide modest differentiation but limited proprietary data moat.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Industrial AI maintenance is a real and growing market (Industry 4.0/5.0), but it is competitive with established players like PTC, Augmentir, and Sight Machine. Pulsar targets a human-centric niche with voice guidance which provides differentiation, but the addressable market in Czech/Slovak manufacturing is limited without significant international expansion.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No disclosed funding rounds and appears to be at pilot/early-customer stage based on the 'Pilot clients' section. With a team of ~6 and no known revenue or investment, runway risk is significant. T-Mobile and MVA Academy partnerships suggest early-stage support but not institutional venture funding.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "Early-stage startup with no disclosed funding, a small team, and a product category susceptible to commoditization by general LLM providers. Industrial niche and multi-language support provide some moat, but the company must secure funding and enterprise customer traction quickly to survive."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor", "careers_url", "open_roles"],
+    "needs_review": false,
+    "notes": "Small early-stage startup. Core team of 6 listed on About page. Backed by T-Mobile as strategic tech partner and MVA Academy as innovation partner. Active in Czech/Slovak/German manufacturing conferences 2024-2025. Address: Thámova 7, 186 00 Praha. Contact: svetlana.margetova@pulsar-solutions.com."
+  }
+}
