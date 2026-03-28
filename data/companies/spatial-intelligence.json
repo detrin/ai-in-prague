@@ -1,0 +1,118 @@
+{
+  "id": "spatial-intelligence",
+  "name": "Spatial Intelligence Group",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "3D computer vision research group at CIIRC CTU Prague focused on visual localization, 3D mapping, and neural scene representations",
+    "description_long": "The Spatial Intelligence Group is a research group at the Czech Institute of Informatics, Robotics and Cybernetics (CIIRC), Czech Technical University in Prague, operating within the ELLIS Unit Prague. The group develops next-generation 3D computer vision algorithms for 3D mapping and visual localization that operate robustly in real-world scenes. Research combines classical geometric principles with modern machine learning — including Structure-from-Motion, SLAM, neural rendering, and implicit scene representations. Applications span autonomous robots, augmented reality, and virtual reality. The group is part of the RICAIP (Research and Innovation Centre on Advanced Industrial Production) initiative, funded by EU Horizon 2020.",
+    "tagline": "Developing next-generation 3D computer vision algorithms for real-world scenes",
+    "website": "https://ellis.ciirc.cvut.cz/spatial-intelligence/",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["cv", "ml_ops", "robotics"],
+    "industries_served": ["robotics", "autonomous vehicles", "augmented reality"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2020,
+    "founders": ["Torsten Sattler"],
+    "origin_story": "Established in 2020 when Torsten Sattler joined CIIRC CTU from Chalmers University of Technology (Sweden) as part of the RICAIP initiative to attract top international computer vision researchers to the Czech Republic.",
+    "key_milestones": [
+      {"year": 2020, "event": "Torsten Sattler joins CIIRC CTU, establishes the Spatial Intelligence Group under the RICAIP / EU Horizon 2020 grant (No. 857306)"},
+      {"year": 2024, "event": "Co-authored paper 'Mip-Splatting: Alias-free 3D Gaussian Splatting' wins CVPR 2024 Best Student Paper Award"},
+      {"year": 2024, "event": "Torsten Sattler named Research.com Computer Science Leader in Czech Republic (2024 and 2025 awards)"},
+      {"year": 2024, "event": "Torsten Sattler serves as proceedings editor for Computer Vision – ECCV 2024"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 5,
+    "employee_source": "group_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (CIIRC)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Torsten Sattler", "role": "Group Lead / Senior Researcher", "source": "group_website"}
+    ],
+    "notable_people": [
+      {"name": "Vojtech Panek", "role": "PhD Student", "source": "group_website"},
+      {"name": "Jonas Kulhanek", "role": "PhD Student", "source": "group_website"},
+      {"name": "Varun Burde", "role": "PhD Student (co-supervised)", "source": "group_website"},
+      {"name": "Maxime Pietrantoni", "role": "PhD Student (co-supervised)", "source": "group_website"},
+      {"name": "Kunal Chelani", "role": "PhD Student (co-supervised, Chalmers University)", "source": "group_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://ellis.ciirc.cvut.cz/4-students/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD Student / Research Intern", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "pytorch", "3d-gaussian-splatting", "structure-from-motion", "slam"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "CVPR 2024 Best Student Paper Award (Mip-Splatting: Alias-free 3D Gaussian Splatting)",
+      "Research.com Computer Science Leader in Czech Republic 2024",
+      "Research.com Computer Science Leader in Czech Republic 2025"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["ELLIS (European Laboratory for Learning and Intelligent Systems)", "RICAIP (Research and Innovation Centre on Advanced Industrial Production)", "Chalmers University of Technology"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group — not a commercial product. Fundamental 3D computer vision research at CIIRC is a contributor to, not a target of, AGI commoditization.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Publicly funded research group with no commercial market exposure. Sustained by EU Horizon 2020 / RICAIP grants and institutional CTU budget.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Grant-funded via RICAIP (EU Horizon 2020, grant No. 857306) and institutionally embedded at CTU / CIIRC. Research group continuity tied to academic institution, not private fundraising.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research group with no commercial risk profile. Strong international recognition (CVPR Best Paper, ELLIS membership) ensures continued funding and recruitment competitiveness."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["group_website", "ricaip.eu", "tsattler.github.io", "ciirc.cvut.cz", "search_snippets"],
+    "fields_missing": ["funding_total_usd", "glassdoor_rating", "open_roles_count", "founded_year_exact"],
+    "needs_review": false,
+    "notes": "Group is part of ELLIS Unit Prague at CIIRC CTU. PI Torsten Sattler has ~18,000 citations. RICAIP funded by EU Horizon 2020 grant No. 857306. Team size of ~5 PhD students is based on website listing as of early 2026."
+  }
+}
