@@ -1,0 +1,106 @@
+{
+  "id": "ai-tomatica",
+  "name": "AI-TOMATICA",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Custom AI & IoT solutions provider combining academic research with practical engineering",
+    "description_long": "AI-TOMATICA s.r.o. is a Prague-based startup building custom AI software and IoT solutions for businesses. Their product portfolio includes SmartTom/EnergoLog (IoT sensors for monitoring energy, water, and gas consumption with offline mode), an AI document assistant (natural language Q&A over documents), and CleverLense AI (intelligent camera systems with real-time crowd demographic analysis). In addition to their own products, they offer bespoke AI & software development services (automation, digitization, custom software) and IoT & robotics services (IoT sensors, mobile robots, cameras and lidars). Founded by two co-founders with academic and industrial backgrounds from ČZU Praha and ČVUT Praha.",
+    "tagline": "Přinášíme technologie zítřka do dnešního světa",
+    "website": "https://www.ai-tomatica.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["nlp", "cv", "automation", "robotics"],
+    "industries_served": ["manufacturing", "energy", "retail", "enterprise"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2024,
+    "founders": ["Ing. Petr Šimek, DiS.", "Ing. Tomáš Rouček, Ph.D."],
+    "origin_story": "Founded in March 2024 in Prague by Petr Šimek (IT manager, UX/frontend specialist, ČZU Praha) and Tomáš Rouček (PhD in AI & Robotics from ČVUT Praha, DARPA SubT participant). The company combines academic research with practical industrial experience to deliver AI and IoT solutions.",
+    "key_milestones": [
+      {"year": 2024, "event": "Founded in Prague (March 1, 2024) as AI-TOMATICA s.r.o."},
+      {"year": 2024, "event": "Launched SmartTom IoT sensor product and AI document assistant"},
+      {"year": 2025, "event": "CleverLense AI camera system in active development"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 4,
+    "employee_source": "linkedin",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ing. Petr Šimek, DiS.", "role": "CEO & Co-Founder", "source": "company_website"},
+      {"name": "Ing. Tomáš Rouček, Ph.D.", "role": "CTO & Co-Founder", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "typescript", "react", "nextjs", "dotnet", "c", "postgresql", "mongodb", "chromadb", "google_cloud", "azure", "docker", "kubernetes"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "AI-TOMATICA has some defensibility through its IoT hardware products (SmartTom/EnergoLog sensors, mobile robotics, camera systems) which AGI cannot easily commoditize. However, their AI document assistant and custom software services are in highly competitive commodity territory where foundation models lower the barrier to entry significantly.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Custom AI & IoT development is a real market with genuine SME demand in Czech Republic, and the IoT energy monitoring niche has growing interest driven by energy regulations. However, the company is micro-scale and unproven, competing against larger Czech IT integrators and international players.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Founded in March 2024 with only 4 employees and no known external funding. The company appears entirely bootstrapped with no venture backing, no disclosed revenue, and very limited runway signals for a company less than 2 years old.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "A very early-stage micro-startup (4 employees, founded 2024) with no known funding and unproven revenue. While the dual AI+IoT/robotics positioning provides some differentiation, the combination of funding risk, small team size, and competitive markets yields high overall risk."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_register_ares", "linkedin"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count", "careers_url", "notable_clients"],
+    "needs_review": false,
+    "notes": "Company registered 2024-03-01, IČO: 21303223, DIČ: CZ21303223. Registered address: Milánská 417, Horní Měcholupy, 10900 Praha 10. LinkedIn: https://www.linkedin.com/company/ai-tomatica (4 employees). No CNAIP entry found. No careers page on website. CTO Tomáš Rouček has Ph.D. from ČVUT Praha with DARPA SubT competition experience. Products include SmartTom (IoT energy/water/gas monitoring), EnergoLog, AI document assistant, and CleverLense AI (camera crowd analytics, in development)."
+  }
+}
