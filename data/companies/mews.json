@@ -1,218 +1,133 @@
 {
   "id": "mews",
   "name": "Mews",
-  "legal_name": "Mews Systems B.V.",
-  "description": "Mews is the operating system for modern hospitality, providing a cloud-native platform that connects property management (PMS), point-of-sale (POS), revenue management (RMS via Atomize), embedded payments, and 1000+ integrations. It powers 15,000+ properties across 85 countries with 132,000+ monthly active hoteliers.",
-  "website": "https://www.mews.com",
-  "founded_year": 2012,
-  "headquarter_city": "Amsterdam",
-  "headquarter_country": "Netherlands",
-  "prague_connection": "Founded in Prague by Richard Valtr while building a hotel there. Core engineering and product teams remain in Prague. The Emblem Prague Hotel was the first Mews customer.",
-  "business_type": "b2b_saas",
-  "company_type": "scaleup",
-  "ai_focus": [
-    "automation",
-    "recommendation",
-    "data_engineering"
-  ],
-  "ai_details": "Uses AI for dynamic pricing and demand forecasting through its Atomize RMS acquisition. Acquired the DataChat team to double down on AI. Revenue management system leverages machine learning to optimize hotel pricing in real time. Platform automates reservation management, check-in/check-out, housekeeping coordination, and payment processing.",
-  "products": [
-    {
-      "name": "Mews PMS",
-      "description": "Cloud-native property management system for hotels, hostels, and extended stays. Handles reservations, guest check-in/out, housekeeping, accounting, and billing."
-    },
-    {
-      "name": "Mews POS",
-      "description": "Point-of-sale system purpose-built for hotel restaurants and F&B operations, fully integrated with the PMS."
-    },
-    {
-      "name": "Atomize RMS",
-      "description": "AI-powered revenue management system providing dynamic pricing, demand forecasting, and portfolio/group pricing optimization."
-    },
-    {
-      "name": "Mews Payments",
-      "description": "Embedded payment processing with tokenization, automated reconciliation, multicurrency support, and terminal management."
-    },
-    {
-      "name": "Mews Marketplace",
-      "description": "Integration marketplace with 1000+ hospitality apps and third-party connections."
-    },
-    {
-      "name": "Mews Booking Engine",
-      "description": "Direct booking engine for hotel websites with guest self-check-in capabilities."
-    }
-  ],
-  "employees_range": "1001-5000",
-  "employees_estimate": 1350,
-  "business_model": "subscription_saas",
-  "target_market": "Hotels, hotel groups and chains, hostels, motels, extended stays, and independent properties worldwide",
-  "funding": {
-    "total_raised_usd": 530000000,
-    "total_raised_note": "Estimated $530M+ total across all rounds",
-    "last_round": "Series D",
-    "last_round_date": "2026-01-22",
-    "valuation_usd": 2500000000,
-    "valuation_note": "$2.5B valuation at Series D (Jan 2026)",
-    "rounds": [
-      {
-        "round": "Seed",
-        "date": "2016-11",
-        "amount_usd": 1700000,
-        "amount_note": "EUR 1.5M from Axivate Capital",
-        "investors": [
-          "Axivate Capital"
-        ]
-      },
-      {
-        "round": "Series B",
-        "date": "2019-08",
-        "amount_usd": 33000000,
-        "investors": [
-          "Battery Ventures",
-          "Notion Capital"
-        ]
-      },
-      {
-        "round": "Series C",
-        "date": "2022-12",
-        "amount_usd": 185000000,
-        "investors": [
-          "Kinnevik",
-          "Goldman Sachs Asset Management"
-        ]
-      },
-      {
-        "round": "Growth",
-        "date": "2024-03",
-        "amount_usd": 110000000,
-        "amount_note": "EUR 101M; led by Kinnevik with participation from existing investors",
-        "investors": [
-          "Kinnevik",
-          "Battery Ventures",
-          "Tiger Global"
-        ]
-      },
-      {
-        "round": "Series D",
-        "date": "2026-01",
-        "amount_usd": 300000000,
-        "amount_note": "EUR 255M; valued at $2.5B",
-        "investors": [
-          "EQT Growth",
-          "Atomico",
-          "HarbourVest Partners",
-          "Kinnevik",
-          "Battery Ventures",
-          "Tiger Global"
-        ]
-      }
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Cloud-based hospitality operating system for hotels powered by AI",
+    "description_long": "Mews is the operating system for modern hotels, unifying property management (PMS), point-of-sale (POS), embedded payments, and AI-powered revenue management (RMS) in a single cloud platform. Founded in Prague in 2012, Mews powers 15,000+ properties in 85+ countries and has reached unicorn status. The platform includes AI features such as Smart Tips (personalisation) and agentic AI for guest experience automation.",
+    "tagline": "The operating system for modern hotels",
+    "website": "https://www.mews.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["automation", "recommendation", "ml_ops"],
+    "industries_served": ["hospitality", "travel"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2012,
+    "founders": ["Richard Valtr"],
+    "origin_story": "Richard Valtr founded Mews in Prague in 2012 with the goal of modernising hotel operations. The Emblem hotel in Prague became their first customer in 2013, and they remain a customer today.",
+    "key_milestones": [
+      {"year": 2012, "event": "Founded in Prague by Richard Valtr"},
+      {"year": 2013, "event": "The Emblem Hotel (Prague) becomes first customer"},
+      {"year": 2016, "event": "First funding round; begins European expansion"},
+      {"year": 2019, "event": "Raises $33M Series B; opens US office; makes first acquisition"},
+      {"year": 2022, "event": "Raises $185M Series C led by Kinnevik and Goldman Sachs; further acquisitions"},
+      {"year": 2024, "event": "Raises $110M Series D led by Kinnevik at $1.2B valuation; achieves unicorn status; named Best PMS by HotelTechReport"},
+      {"year": 2025, "event": "Raises $75M round led by Tiger Global; reaches 12,500 customers"},
+      {"year": 2026, "event": "Raises $300M Series D; named Best PMS, Best POS, Best Places to Work in Hotel Tech by HotelTechReport for 2026"}
     ]
   },
-  "revenue": {
-    "estimated_annual_usd": 210000000,
-    "revenue_note": "Crossed $100M ARR in 2023; over $200M revenue in 2024 (Skift/ZoomInfo); VP Rev Ops job listing references scaling from $200M to $500M+ ARR",
-    "platform_transaction_volume_usd": 19700000000,
-    "platform_transaction_volume_note": "Platform transaction volumes of $19.7B in 2025"
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 1300,
+    "employee_source": "company_website",
+    "office_count": null
   },
-  "key_people": [
-    {
-      "name": "Richard Valtr",
-      "role": "Founder",
-      "note": "Ex-hotelier who founded Mews in 2012 while building a hotel in Prague"
-    },
-    {
-      "name": "Matthijs Welle",
-      "role": "CEO",
-      "note": "Former hotelier; joined shortly after founding"
-    },
-    {
-      "name": "Josef Starychfojtu",
-      "role": "Chief Product and Technical Officer",
-      "note": "Joined Mews as a backend developer and rose to lead product and tech teams"
-    },
-    {
-      "name": "Naomi",
-      "role": "Chief People Officer",
-      "note": "Leads People Team; company repeatedly wins Best Place to Work awards"
-    }
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Amsterdam", "country": "NL", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "New York", "country": "US", "is_hq": false}
   ],
-  "acquisitions": [
-    {
-      "name": "Planet Winner",
-      "note": "First acquisition; part of early expansion"
-    },
-    {
-      "name": "Atomize",
-      "note": "AI-powered revenue management system; now Mews RMS"
-    },
-    {
-      "name": "DataChat team",
-      "note": "Acquired to accelerate AI capabilities"
-    }
-  ],
-  "customers": {
-    "count": 15000,
-    "notable_count_note": "15,000 properties across 85 countries; 132,000+ monthly active hoteliers; 42.3M checked-in reservations in 2025",
-    "examples": [
-      "Leven",
-      "The Neighborhood Hotel",
-      "Airelles",
-      "The Social Hub",
-      "Ligula Hospitality Group",
-      "The Boundary Shoreditch",
-      "Locale Apartments",
-      "Wythe Hotel",
-      "GuestHouse Hotels",
-      "9hotel Collection",
-      "Crane Hotel Group"
-    ]
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2019-08", "type": "Series B", "amount_usd": 33000000, "lead_investor": null},
+      {"date": "2022-12", "type": "Series C", "amount_usd": 185000000, "lead_investor": "Kinnevik, Goldman Sachs"},
+      {"date": "2024-03", "type": "Series D", "amount_usd": 110000000, "lead_investor": "Kinnevik"},
+      {"date": "2025-03", "type": "Strategic", "amount_usd": 75000000, "lead_investor": "Tiger Global"},
+      {"date": "2026-01", "type": "Series D", "amount_usd": 300000000, "lead_investor": null}
+    ],
+    "investors": ["Kinnevik", "Goldman Sachs", "Tiger Global"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
   },
-  "awards": [
-    "Best Property Management System 2024, 2025, 2026 (Hotel Tech Report)",
-    "Best Hotel Restaurant POS System 2026",
-    "Best Revenue Management System 2025, 2026",
-    "Best Housekeeping Software 2026",
-    "Best Places to Work in Hotel Tech 2024, 2025, 2026"
-  ],
+
+  "team": {
+    "leadership": [
+      {"name": "Richard Valtr", "role": "Founder", "source": "company_website"},
+      {"name": "Matt Welle", "role": "CEO", "source": "company_website"},
+      {"name": "Mike Coscetta", "role": "President", "source": "company_website"},
+      {"name": "Pepa Starýchfojtů", "role": "Chief Product and Technical Officer", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.mews.com/en/careers",
+    "open_roles_count": 57,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "actively_hiring"
+  },
+
   "glassdoor": {
-    "rating": 4.0,
-    "review_count": 430,
-    "recommend_to_friend_pct": 73,
-    "work_life_balance": 3.9,
-    "culture_and_values": 4.0,
-    "career_opportunities": 3.9
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
   },
-  "hiring_signals": "actively_hiring",
-  "hiring_notes": "VP Revenue Operations (NYC), multiple engineering and sales roles visible. Job listings reference scaling from $200M to $500M+ ARR, indicating aggressive growth hiring.",
-  "tech_stack_notes": "Cloud-native architecture; Open API; 1000+ marketplace integrations; mobile-first with kiosk check-in (3.2M kiosk check-ins in 2025)",
-  "linkedin_url": "https://www.linkedin.com/company/maboromews/",
-  "crunchbase_url": "https://www.crunchbase.com/organization/mews-systems",
-  "tags": [
-    "hospitality",
-    "hotel-tech",
-    "property-management",
-    "cloud-pms",
-    "payments",
-    "revenue-management",
-    "ai-pricing",
-    "saas-unicorn"
-  ],
-  "data_quality": "high",
-  "data_sources": [
-    "mews.com (homepage, about page)",
-    "Brave Search: funding results (Vestbee, TechFundingNews, TheRecursive, EU-Startups, mews.com/press)",
-    "Brave Search: Glassdoor snippets (glassdoor.com)",
-    "Brave Search: revenue results (Getlatka, Skift, ZoomInfo, SaaStock, Notion Capital)"
-  ],
-  "last_updated": "2026-03-28",
+
+  "recognition": {
+    "awards": [
+      "Best Property Management System – HotelTechAwards 2024",
+      "Best Property Management System – HotelTechAwards 2025",
+      "Best Property Management System – HotelTechAwards 2026",
+      "Best Hotel Restaurant POS Systems – HotelTechAwards 2026",
+      "Best Places to Work in Hotel Tech – HotelTechAwards 2024",
+      "Best Places to Work in Hotel Tech – HotelTechAwards 2025",
+      "Best Places to Work in Hotel Tech – HotelTechAwards 2026",
+      "Hoteliers Choice – HotelTechAwards 2026",
+      "Great Place to Work Certified (Czech Republic)",
+      "Great Place to Work Certified (United Kingdom)"
+    ],
+    "notable_clients": ["The Social Hub", "Airelles", "Leven", "The Boundary Shoreditch", "AMANO Group", "Citybox", "GuestHouse Hotels"],
+    "customer_count": 15000,
+    "partnerships": []
+  },
+
   "risk_assessment": {
     "agi_displacement": "medium",
-    "agi_displacement_rationale": "Mixed signals — some differentiation but unclear long-term moat against foundation model capabilities.",
-    "market_risk": "medium",
-    "market_risk_rationale": "Limited public information on market traction.",
-    "funding_risk": "medium",
-    "funding_risk_rationale": "No public funding information. Sustainability unclear.",
-    "overall_risk": "medium",
-    "overall_risk_rationale": "Mixed risk profile — some protective factors but also significant vulnerabilities."
+    "agi_displacement_rationale": "Mews is a full-stack hospitality operating system with deep workflow integrations (PMS, POS, payments, RMS), not a thin AI wrapper. However, AI-powered revenue management and guest personalisation features could be commoditised by foundation models. Customer lock-in through 1,000+ marketplace integrations and enterprise contracts provides a meaningful moat.",
+    "market_risk": "low",
+    "market_risk_rationale": "The hotel PMS market is large, proven, and growing. Mews has 15,000+ paying properties across 85 countries, holds ~20% European market share, and competes from a strong position against legacy incumbents like Oracle Opera. Unicorn valuation and back-to-back top HotelTechAward wins confirm product-market fit.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Mews has raised over $700M in equity across multiple rounds (including a $300M Series D in early 2026) with top-tier investors (Kinnevik, Goldman Sachs, Tiger Global). 1,300+ employees and 15,000+ customers signal a sustainable revenue base.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Well-funded, market-leading SaaS scaleup with strong customer lock-in, a deep ecosystem of integrations, and a proven enterprise go-to-market. AI displacement risk is mitigated by the breadth of workflow automation beyond pure AI features."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "techcrunch.com"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "tech_stack", "office_count", "open_roles"],
+    "needs_review": false,
+    "notes": "Founded in Prague (confirmed by company website 'Mews was born in Prague'), though some tech press describes it as Amsterdam-founded; both cities appear to be key offices. The $300M round in 2026 is labelled 'Series D' in official press releases, though TechCrunch labelled the 2024 $110M round also as Series D — possible tranche/extension or re-labelling. The $75M round in March 2025 was separate equity from Tiger Global. An additional $100M debt raise occurred in September 2024 per TechCrunch."
   }
 }
