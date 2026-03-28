@@ -1,0 +1,120 @@
+{
+  "id": "valka-ai",
+  "name": "Valka.AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-native entertainment platform building lifelike real-time AI personas for sports and media",
+    "description_long": "ValkaAI is building the engine for next-generation digital humans, developing core AI technology that enables the efficient and scalable creation of lifelike, dynamic and responsive video content. The company creates synthetic video for sports and media using lifelike characters with real agency — including AI commentators that react to in-game action in real time, speak the viewer's language, and adapt to their viewing style. Their three-tiered generative AI process enables on-demand content at scale without typical AI video artefacts like flickering or visual breakdown.",
+    "tagline": "Unfold human essence. Bridge realities. On demand.",
+    "website": "https://valka.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["generative_ai", "cv", "speech"],
+    "industries_served": ["entertainment", "media", "sports", "gaming"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Vlastimil Venclík", "Miloš Lokajíček"],
+    "origin_story": "Founded by Vlastimil Venclík (previously founder of Oddin.gg in esports betting) and Miloš Lokajíček as part of Realms Group. The company set out to fill a gap in AI entertainment by building virtual beings that respond with the spontaneity and natural movement of a human in real time.",
+    "key_milestones": [
+      {"year": 2025, "event": "Featured at ACM SIGGRAPH"},
+      {"year": 2026, "event": "Raised €12M pre-seed funding led by Rockaway Ventures — one of the most significant pre-seed rounds in Eastern Europe"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": null
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Realms Group",
+    "funding_total_usd": 13000000,
+    "funding_rounds": [
+      {"date": "2026-02", "type": "Pre-Seed", "amount_usd": 13000000, "lead_investor": "Rockaway Ventures"}
+    ],
+    "investors": ["Rockaway Ventures", "J&T Ventures", "Tensor Ventures", "BD Partners", "Fond Naše Česko", "Petr Zámečník"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Vlastimil Venclík", "role": "CEO & Co-founder", "source": "company_website"},
+      {"name": "Miloš Lokajíček", "role": "COO & Co-founder", "source": "company_website"},
+      {"name": "Karel Jakoubě", "role": "VP", "source": "company_website"},
+      {"name": "Michal Kubišta", "role": "AI Lead", "source": "company_website"},
+      {"name": "Ondřej Texler", "role": "Principal Research Scientist", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Ondřej Texler", "note": "PhD in computer graphics; co-authored leading SIGGRAPH and CVPR papers on digital humans and real-time video rendering"},
+      {"name": "Michal Kubišta", "note": "Former Head of AI at O2 (CEE's largest telco), 10+ years in data and AI with real-time processing and deep learning expertise"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://valka.ai/careers",
+    "open_roles_count": 6,
+    "open_roles": [
+      {"title": "Engineering Manager", "department": "engineering", "location": "Prague, CZ / Remote"},
+      {"title": "Senior Kotlin Engineer", "department": "engineering", "location": "Prague, CZ / Remote"},
+      {"title": "Python Engineer", "department": "engineering", "location": "Prague, CZ / Remote"},
+      {"title": "LLM Researcher", "department": "research", "location": "Prague, CZ / Remote"},
+      {"title": "Research Scientist (Text-to-Speech)", "department": "research", "location": "Prague, CZ / Remote"},
+      {"title": "Research Engineer (Text-To-Speech)", "department": "research", "location": "Prague, CZ / Remote"}
+    ],
+    "tech_stack": ["python", "kotlin"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "ValkaAI is building proprietary real-time video synthesis for digital humans — a technically hard problem requiring synchronization of voice, motion, cognition, and infrastructure. While foundation models are advancing in video generation, real-time interactive personas with sub-second latency remain a genuine differentiator. Risk is medium because tech giants (OpenAI, Google, Meta) are actively developing similar capabilities.",
+    "market_risk": "medium",
+    "market_risk_rationale": "AI-native entertainment is a real and growing market, especially in esports and sports broadcasting. However, the category is nascent and unproven at commercial scale — ValkaAI explicitly notes 'first commercial implementations' are still ahead. Strong investor validation (€12M pre-seed) and experienced founders reduce but don't eliminate market risk.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "The €12M pre-seed from Rockaway Ventures provides reasonable runway for a research-heavy startup, but the company appears pre-revenue with no disclosed customers. Pre-seed stage and no commercial traction yet warrant medium funding risk.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "ValkaAI has strong technical depth (SIGGRAPH-published research team), meaningful funding, and a differentiated vertical focus in real-time AI entertainment. However, as a pre-revenue pre-seed startup in a nascent market facing well-resourced competition from AI labs, overall risk remains medium."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year", "employees_exact", "office_count", "revenue_estimate_usd", "glassdoor_rating", "customer_count"],
+    "needs_review": false,
+    "notes": "Company is part of Realms Group. International team spanning US, Europe, and UAE with HQ in Prague. €12M pre-seed announced Feb 24, 2026 — described as one of the most significant pre-seed rounds in Eastern Europe. Funding amount converted from €12M at ~1.08 EUR/USD. Founded year not explicitly stated; inferred as 2024-2025 based on SIGGRAPH appearance in Aug 2025."
+  }
+}
