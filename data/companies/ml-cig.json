@@ -1,0 +1,106 @@
+{
+  "id": "ml-cig",
+  "name": "Machine Learning and Computational Intelligence Group (ML-CIG)",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T20:00:00Z",
+
+  "overview": {
+    "description": "Machine learning and AI research group at CTU Faculty of Information Technology in Prague",
+    "description_long": "The ML-CIG (Machine Learning and Computational Intelligence Group) is a research group at Czech Technical University in Prague, Faculty of Information Technology (FIT CTU). Their vision is to create a friendly environment where anyone with passion for research and innovation in the field of machine learning and artificial intelligence is welcome. The group aims to share experience and help others in their work on modern solutions to interesting research problems. Activities are focused on machine learning and data processing, including applied research connecting academia with industry. The group runs the Data Science Laboratory (DataLab) and is active in EU-funded research projects.",
+    "tagline": "Passion for research and innovation in machine learning and AI",
+    "website": "https://fit.cvut.cz/en/science-and-research/facilities/research-groups/8371-machine-learning-and-computational-intelligence-ml-cig",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["ml_ops", "generative_ai", "data_engineering"],
+    "industries_served": ["education", "public_sector", "research"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Pavel Kordík"],
+    "origin_story": "Research group within Czech Technical University in Prague, Faculty of Information Technology, Department of Applied Mathematics",
+    "key_milestones": [
+      {"year": null, "event": "Group established at CTU FIT Prague"},
+      {"year": 2024, "event": "EU project for EUR 6 million for sustainable regional development using AI"},
+      {"year": null, "event": "Explored AGI possibilities in collaboration with GoodAI"},
+      {"year": null, "event": "Contributed to weather prediction and planetary atmosphere modeling research"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (CTU)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Pavel Kordík", "role": "Group Head / Associate Professor", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://fit.cvut.cz/en/faculty/people/5190-doc-ing-pavel-kordik-ph-d/theses",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "machine_learning", "deep_learning"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["GoodAI"],
+    "customer_count": null,
+    "partnerships": ["GoodAI"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group conducting fundamental ML/AI research at CTU FIT. Research groups are producers of AI knowledge rather than consumers; AGI advancement would expand rather than displace their mandate.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "University research group funded by grants and institutional support, not subject to commercial market pressures.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Embedded within Czech Technical University (a state university) with stable institutional funding. Has secured at least one EU grant (EUR 6 million project for sustainable regional development). University research groups have reliable baseline funding through public funding mechanisms.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research group within a well-established technical university. No commercial risk profile applies; risk assessment categories are not applicable to publicly funded university research groups."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year", "employees_exact", "open_roles", "glassdoor"],
+    "needs_review": false,
+    "notes": "ML-CIG is the Machine Learning and Computational Intelligence Group at CTU FIT (Faculty of Information Technology, Czech Technical University in Prague). Head is doc. Ing. Pavel Kordík, Ph.D. (Department of Applied Mathematics). Located at Thákurova 9, Prague 6. Has newsletter at mailchi.mp/b68fb945de8f/cigml. Associated with DataLab (Data Science Laboratory), OpenDataLab, and other FIT labs."
+  }
+}
