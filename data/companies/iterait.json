@@ -1,0 +1,113 @@
+{
+  "id": "iterait",
+  "name": "Iterait",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Computer vision AI solutions for smart cities, retail, healthcare, and transportation",
+    "description_long": "Iterait builds and delivers complex computer vision AI solutions since 2018. Their flagship product City Sense provides AI-powered parking enforcement using edge AI kits mounted on hybrid vehicles with real-time ALPR (Automated License Plate Recognition). Additional products include Vividi (retail analytics), IsletNet (diabetes AI for IKEM hospital), IVF AI, and Hear-o (audio AI). They hold a 4-year contract with Prague to monitor 174,000+ parking spaces.",
+    "tagline": "Transforming scientific work into genuine artificial intelligence solutions",
+    "website": "https://www.iterait.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "product",
+    "ai_focus": ["cv", "automation", "other"],
+    "industries_served": ["smart_cities", "retail", "healthcare", "transportation"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2018,
+    "founders": ["Adam Blažek", "Filip Matzner", "Petr Bělohlávek"],
+    "origin_story": "Founded in Prague in 2018 by three co-founders to transform scientific computer vision research into practical AI solutions for industry.",
+    "key_milestones": [
+      {"year": 2018, "event": "Founded in Prague"},
+      {"year": 2020, "event": "IsletNet won 'Idea of the Year' in international healthcare AI competition"},
+      {"year": 2022, "event": "Signed 4-year contract with City of Prague for parking enforcement using City Sense"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Adam Blažek", "role": "CEO, Co-Founder", "source": "company_website"},
+      {"name": "Filip Matzner", "role": "COO, Co-Founder", "source": "company_website"},
+      {"name": "Petr Bělohlávek", "role": "CTO, Co-Founder", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Julien Seux", "role": "Regional Sales Manager", "source": "company_website"},
+      {"name": "František Prager", "role": "Delivery Manager", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.iterait.com/careers/",
+    "open_roles_count": 2,
+    "open_roles": [
+      {"title": "City Sense Business Development Manager", "department": "sales", "location": "Poland"},
+      {"title": "City Sense Business Development Manager", "department": "sales", "location": "Italy"}
+    ],
+    "tech_stack": ["python", "c++", "deep_learning"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Idea of the Year 2020 (IsletNet — international healthcare AI competition)"],
+    "notable_clients": ["City of Prague"],
+    "customer_count": null,
+    "partnerships": ["IKEM (Institute for Clinical and Experimental Medicine)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Core products (City Sense, IsletNet) are deeply embedded in physical infrastructure and regulated healthcare domains. City Sense requires custom edge AI hardware deployments on vehicles; IsletNet is co-developed with IKEM hospital. Foundation models cannot easily displace these hardware-dependent, compliance-driven deployments.",
+    "market_risk": "medium",
+    "market_risk_rationale": "Smart city parking enforcement and healthcare imaging are real, funded markets, but they are niche and competitive. Revenue appears dependent on winning public sector contracts; international expansion (Poland, Italy) is underway but unproven.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "Small team (~11 people) with no disclosed external funding. However, the 4-year Prague contract provides meaningful revenue stability. Bootstrapped or grant-funded model limits growth capital but reduces dependency on investor cycles.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Iterait has real contracts and hardware-embedded products that resist AGI commoditization, but its small size, bootstrapped status, and reliance on public sector contract wins creates meaningful execution and scaling risk."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "Company website fully accessible. 11 team members listed on about page (small efficient team). VAT: CZ07405821. Main product City Sense has 4-year contract with Prague since Sept 2022. Vividi (vividi.io) is a separate product spinout. No CNAIP URL available. No Glassdoor data found in search snippets."
+  }
+}
