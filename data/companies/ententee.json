@@ -1,0 +1,107 @@
+{
+  "id": "ententee",
+  "name": "ententee",
+  "category": "company",
+  "scraped_at": "2026-03-28T16:15:00Z",
+
+  "overview": {
+    "description": "Custom software engineering and Applied AI partner for enterprise clients in healthcare, automotive, and fintech",
+    "description_long": "ententee is a Prague-based software engineering company founded in 2005 by researchers, engineers, and computer scientists. They offer full-stack software development, Applied AI, Digital Health solutions, and Innovation Advisory services. Key verticals include healthcare (FHIR, HL7, HIE platforms), mobility & logistics, and retail & fintech. Their software reaches 100M+ active users and they have delivered 50+ complex projects for enterprise clients across the US and Europe.",
+    "tagline": "Your Idea. Our Expertise. We Build Smart Software for Complex Challenges.",
+    "website": "https://ententee.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "ml_ops", "other"],
+    "industries_served": ["healthcare", "automotive", "logistics", "retail", "fintech", "education"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2005,
+    "founders": null,
+    "origin_story": "Founded in 2005 by a team of researchers, engineers, and computer scientists",
+    "key_milestones": [
+      {"year": 2005, "event": "Founded in Prague by researchers and engineers"},
+      {"year": 2026, "event": "20+ years in operation with 100M+ active users of delivered software"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "company_website_inferred",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Lenexa (Kansas City)", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://ententee.com/careers",
+    "open_roles_count": 3,
+    "open_roles": [
+      {"title": "Full-stack developer (Python/Java/.NET + React)", "department": "engineering", "location": "Prague"},
+      {"title": "Senior AI Expert", "department": "engineering", "location": "Prague"},
+      {"title": "Technical Product Owner & Delivery Manager (German Speaking)", "department": "product", "location": "Prague"}
+    ],
+    "tech_stack": ["java", "python", ".net", "react"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": 5.0,
+    "review_count": 2,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Ententee-EI_IE.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Oracle Cerner", "Mercedes-Benz", "Lightbeam Health Solutions", "Alstom", "EverHealth", "CompuGroup Medical", "Kansas BlueCross Blueshield", "Daimler", "Care DX", "BNSF", "Roche", "Globus", "Charles University", "ICZ"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Custom software development consulting faces growing AI-assisted coding commoditization (Copilot, Cursor, etc.), but ententee's deep healthcare domain expertise (FHIR, HL7, HIE platforms) and 20+ years of enterprise client relationships provide a partial moat. Domain knowledge and regulatory compliance in healthcare are not easily automated.",
+    "market_risk": "low",
+    "market_risk_rationale": "ententee serves established markets (healthcare IT, automotive, enterprise software) with a proven track record of 50+ delivered projects and major enterprise clients including Oracle Cerner, Daimler, and Roche. The healthcare IT market in the US is large and growing with regulatory complexity that sustains demand for specialist vendors.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "As a 20+ year old bootstrapped consulting firm with long-term contracts from Fortune 500 enterprise clients, ententee has demonstrated sustainable revenue generation. No venture funding means no dilution risk, and the consulting model provides stable cash flow.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Two decades of operation, major enterprise clients in regulated industries, and diversified delivery across multiple verticals provide resilience. AGI disruption risk is partially offset by domain specialization in healthcare where compliance and deep integration expertise remain valuable."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "glassdoor_snippet"],
+    "fields_missing": ["founders", "leadership", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor_url_exact"],
+    "needs_review": false,
+    "notes": "Company self-describes as 'středně velká česká firma' (mid-sized Czech company). Founded 2005. No CNAIP entry. Glassdoor shows 5/5 from only 2 reviews — very small sample. Employee range estimated as 51-200 based on 20+ years of operation and 'mid-sized' self-description. No leadership names available on website."
+  }
+}
