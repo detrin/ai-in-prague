@@ -1,0 +1,109 @@
+{
+  "id": "beherobot",
+  "name": "BeHeroBot",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI assistant for HR and recruitment professionals, built on 20 years of curated HR expertise",
+    "description_long": "BeHeroBot is a Prague-based B2B/B2C SaaS startup offering a specialized AI chatbot for HR and recruitment professionals. The product combines generative AI with 20 years of curated HR and recruitment know-how, Czech labor law (Zákoník práce), GDPR, and the EU AI Act. Unlike general AI tools, all data is stored on EU servers and conversations are end-to-end encrypted, making it compliant for handling sensitive candidate and employee data. It covers the full HR lifecycle: job ads, candidate screening, onboarding, retention, HR strategy, and legal compliance. Available via annual subscription in CORE, ADVANCED, and PRO tiers based on company size.",
+    "tagline": "Váš AI konzultant pro moderní HR (Your AI consultant for modern HR)",
+    "website": "https://www.beherobot.com",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/beherobot"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["generative_ai", "nlp", "automation"],
+    "industries_served": ["hr_recruitment", "consulting"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2024,
+    "founders": ["Pavlína Pavliš", "Petra Svobodová"],
+    "origin_story": "Founded by two Czech HR professionals who identified that generic AI tools (ChatGPT, Gemini) are unsuitable for handling confidential HR and candidate data under GDPR. Petra Svobodová brought 20+ years of HR and recruitment expertise; Pavlína Pavliš contributed 5+ years in IT/AI startups and business mentoring. After 2 years of development with a team of 12 developers, they launched BeHeroBot as a purpose-built, EU-compliant AI for HR professionals.",
+    "key_milestones": [
+      {"year": 2024, "event": "Founded BeHeroBot, s.r.o. in Prague; began 2-year SaaS development"},
+      {"year": 2025, "event": "Product launched publicly; CNAIP registration; founding of Recruitment Association, z.s."},
+      {"year": 2026, "event": "Live Q&A sessions launched; English-language version released"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Pavlína Pavliš", "role": "Co-founder & CEO", "source": "company_website"},
+      {"name": "Petra Svobodová", "role": "Co-founder & CCO (Chief Content Officer)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Petra Svobodová", "role": "President, Recruitment Association z.s.; 20+ years HR & recruitment expertise, helped 10,000+ people find jobs", "source": "company_website"},
+      {"name": "Pavlína Pavliš", "role": "Vice-President & mentor coordinator, Recruitment Association z.s.; business mentor at #HolkyzByznysu", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Recruitment Association, z.s."]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "BeHeroBot's core value is a domain-specific AI chatbot built on curated HR knowledge. While EU data residency and GDPR compliance offer differentiation, foundation models (GPT-4o, Claude, Gemini) are rapidly improving in domain-specific knowledge and are increasingly offering enterprise-grade data isolation (e.g., ChatGPT Enterprise, MS Copilot). BeHeroBot explicitly acknowledges this risk on their FAQ page, noting the product is not worth it if a company already has GPT Enterprise with its own HR knowledge base.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The HR tech and AI-for-HR market is real and growing, but intensely competitive. BeHeroBot targets Czech and EU HR professionals in SMBs, which is a defensible niche given local labor law expertise and GDPR compliance. However, the addressable market in the Czech Republic is small, and scaling across the EU requires significant localization of labor law knowledge per country.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No external funding found; appears bootstrapped by two founders with 12 developers. Subscription pricing (€1,000–€2,000/year per company) is modest, and at early stage with no disclosed customer base or revenue, runway visibility is very low. Small Czech startup with no disclosed investors.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "High AGI displacement risk combined with high funding risk makes BeHeroBot a high-risk entry overall. The company has a real product and a defensible compliance angle, but faces existential pressure from well-funded general AI platforms that are actively improving EU data residency and adding domain-specific knowledge bases. Survival depends on speed of enterprise customer acquisition and whether compliance moat holds."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "cnaip"],
+    "fields_missing": ["founded_year_exact", "employees_exact", "open_roles", "glassdoor_rating", "funding_total_usd", "revenue_estimate_usd", "notable_clients"],
+    "needs_review": false,
+    "notes": "Company address from CNAIP: Příčná 1892/4, 110 00 Praha. Founded year estimated as 2024 based on 'two years of development' claim on website (site footer: © 2026). The '12 IT developers' figure comes from the about page under AI technology stats. Company operates as BeHeroBot, s.r.o. The site is primarily in Czech with an English version at /english/. LinkedIn: https://www.linkedin.com/company/beherobot/"
+  }
+}
