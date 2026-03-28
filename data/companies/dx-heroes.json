@@ -1,0 +1,120 @@
+{
+  "id": "dx-heroes",
+  "name": "DX Heroes",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI consulting, developer experience optimization, and custom software development",
+    "description_long": "DX Heroes helps companies turn technology potential into real profit by improving developer experience, productivity, and engineering effectiveness. They offer AI consulting and training, custom AI-powered application development, and ready-made products for HR, marketing, and data. A 10-person team within the Applifting Group (160+ IT specialists), they work primarily with medium-sized companies to corporations on process optimization, AI adoption, and developer tooling.",
+    "tagline": "We turn technology potential into real profit",
+    "website": "https://dxheroes.io",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "ml_ops", "generative_ai", "other"],
+    "industries_served": ["finance", "fintech", "developer_tools", "enterprise"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2019,
+    "founders": ["Prokop Simek"],
+    "origin_story": "Founded in November 2019 out of frustration with great technologies that brought no real value to businesses. Prokop Simek started the journey in September 2019 with a background in IT from Czech University of Life Sciences Prague.",
+    "key_milestones": [
+      {"year": 2019, "event": "Founded as DX Heroes CZ s.r.o. on November 7, 2019 in Prague"},
+      {"year": 2021, "event": "Prokop Simek registered as sole director"},
+      {"year": 2025, "event": "Applifting Group s.r.o. became 100% owner (replacing DX HEROES LTD, London)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 10,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Applifting Group s.r.o.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Applifting Group s.r.o."],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Prokop Simek", "role": "CEO", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Marina Buconjić", "role": "Software Engineer (12 years experience)", "source": "company_website"},
+      {"name": "David Omrai", "role": "Senior Developer (React.js, TypeScript, Go)", "source": "company_website"},
+      {"name": "Matyáš Křeček", "role": "AI Developer (Python, TypeScript, LLMs)", "source": "company_website"},
+      {"name": "Martin Albert", "role": "Team Member", "source": "company_website"},
+      {"name": "Bára Mrkáčková", "role": "HR & Marketing", "source": "company_website"},
+      {"name": "Jirka Maňák", "role": "Team Member", "source": "company_website"},
+      {"name": "Jakub Vacek", "role": "Team Member", "source": "company_website"},
+      {"name": "Václav Veselý", "role": "Team Member", "source": "company_website"},
+      {"name": "Miloš Halda", "role": "Team Member", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://dxheroes.io/careers",
+    "open_roles_count": 4,
+    "open_roles": [
+      {"title": "AI Consultant", "department": "consulting", "location": "Prague"},
+      {"title": "Project Manager", "department": "management", "location": "Prague"},
+      {"title": "Content Creator (AI focus)", "department": "marketing", "location": "Prague"},
+      {"title": "Technical Analyst", "department": "engineering", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "typescript", "react", "next.js", "go", "node.js", "nestjs", "fastapi", "django", "openai", "claude", "gemini"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-DX-Heroes"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["MassPay", "Tyntec", "ConductorOne", "ButtercMS"],
+    "customer_count": null,
+    "partnerships": ["Applifting Group"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "DX Heroes is primarily a consulting and training firm helping companies adopt AI, with no deep proprietary AI technology. As AI tools become easier to use, the need for implementation consultants may diminish. However, their positioning as developer experience experts and their integration with Applifting Group's broader technical capabilities provide some resilience.",
+    "market_risk": "low",
+    "market_risk_rationale": "AI adoption consulting and developer experience optimization are high-demand markets with years of runway as enterprises struggle to integrate AI effectively. Their NPS of 9.9 and case studies with fintech and developer-tools companies indicate proven demand and real paying customers.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Fully owned by Applifting Group s.r.o. (160+ IT specialists), which provides financial stability and shared resources. As a subsidiary of an established Czech IT group, DX Heroes faces lower existential funding risk than an independent startup.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Parent company backing and strong market demand mitigate near-term risk, but the consulting-heavy model with limited proprietary AI technology creates medium-term displacement risk as AI tools commoditize what consultants currently help implement."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "czech_business_registry", "yahoo_search_snippets"],
+    "fields_missing": ["glassdoor_rating", "funding_total_usd", "revenue_estimate_usd", "founded_exact_date_confirmed"],
+    "needs_review": false,
+    "notes": "DX Heroes CZ s.r.o. IČO: 08675708. Founded November 7, 2019. 100% owned by Applifting Group s.r.o. (IČO: 09538526) since October 2025. Previously had DX HEROES LTD (London) as owner. Team of ~10 people. Previously 'developer experience' focused, now pivoting strongly to AI consulting and training. AI Consultant salary range: 75,000–160,000 CZK/month."
+  }
+}
