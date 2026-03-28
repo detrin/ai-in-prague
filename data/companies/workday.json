@@ -1,0 +1,130 @@
+{
+  "id": "workday",
+  "name": "Workday",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Enterprise AI platform for HR, finance, and workforce management",
+    "description_long": "Workday is a cloud-based enterprise software company providing human capital management (HCM), financial management, and student information systems. Originally founded as a cloud-first ERP alternative to PeopleSoft, Workday now positions itself as the 'Enterprise AI Platform for Managing HR and Finance', with AI embedded throughout for workforce planning, skills matching, financial forecasting, and process automation. It serves large and mid-sized enterprises across industries worldwide. The Prague office originated from the 2018 acquisition of Stories.bi, a Prague-based augmented analytics startup.",
+    "tagline": "The Enterprise AI Platform for Managing HR and Finance",
+    "website": "https://www.workday.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["ml_ops", "automation", "nlp", "data_engineering"],
+    "industries_served": ["finance", "healthcare", "education", "retail", "technology", "manufacturing", "government"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2005,
+    "founders": ["Dave Duffield", "Aneel Bhusri"],
+    "origin_story": "Founded in March 2005 by Dave Duffield (founder of PeopleSoft) and Aneel Bhusri (Greylock Partners) as a cloud-first alternative to legacy ERP systems. IPO'd on NASDAQ in 2012, raising $637M in one of the largest US tech IPOs since Facebook.",
+    "key_milestones": [
+      {"year": 2005, "event": "Founded in Pleasanton, California"},
+      {"year": 2012, "event": "IPO on NASDAQ (WDAY), raising $637M"},
+      {"year": 2016, "event": "Launched cloud-based student information system"},
+      {"year": 2018, "event": "Acquired Stories.bi (Prague, Czech Republic) — augmented analytics, establishing Prague office"},
+      {"year": 2018, "event": "Acquired Adaptive Insights for business planning ($1.55B)"},
+      {"year": 2021, "event": "Acquired VNDLY for $510M (external workforce management)"},
+      {"year": 2022, "event": "Aneel Bhusri becomes chairman after Dave Duffield resignation"},
+      {"year": 2023, "event": "Carl Eschenbach joins as co-CEO"},
+      {"year": 2025, "event": "Revenue reaches $8.45B; rebranded as 'Enterprise AI Platform'"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "5000+",
+    "employees_exact": 20400,
+    "employee_source": "wikipedia_2025",
+    "office_count": 30
+  },
+
+  "offices": [
+    {"city": "Pleasanton", "country": "US", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Dublin", "country": "IE", "is_hq": false},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Amsterdam", "country": "NL", "is_hq": false},
+    {"city": "New York", "country": "US", "is_hq": false},
+    {"city": "Chicago", "country": "US", "is_hq": false},
+    {"city": "Atlanta", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": true,
+    "stock_ticker": "WDAY",
+    "stock_exchange": "NASDAQ",
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Greylock Partners", "New Enterprise Associates", "public shareholders"],
+    "revenue_estimate_usd": 9552000000,
+    "revenue_source": "stockanalysis.com — FY2026 (fiscal year ending Jan 31, 2026)",
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Aneel Bhusri", "role": "Chairman & CEO", "source": "wikipedia"},
+      {"name": "Carl Eschenbach", "role": "Co-CEO", "source": "wikipedia"},
+      {"name": "Dave Duffield", "role": "Co-Founder (retired from board 2022)", "source": "wikipedia"}
+    ],
+    "notable_people": [
+      {"name": "Filip Doušek", "role": "Founder of Stories.bi (acquired 2018), Prague office lead", "source": "wikipedia"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.workday.com/en-us/company/careers/overview.html",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["java", "scala", "python", "react", "aws", "gcp", "machine_learning"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-Workday-EI_IE11634.11,18.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Fortune 100 Best Companies to Work For (multiple years)",
+      "Fortune #5 Best Companies to Work For 2020",
+      "Gartner Magic Quadrant Leader — Cloud HCM Suites",
+      "Gartner Magic Quadrant Leader — Cloud ERP for Service-Centric Enterprises",
+      "Forbes Global 2000",
+      "Nasdaq-100 component",
+      "S&P 500 component"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Accenture", "Deloitte", "IBM", "KPMG", "PwC"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Workday's core value is workflow automation and data consolidation for HR and finance within deeply integrated enterprise environments — not a thin AI wrapper. However, AI agents and foundation models increasingly encroach on workforce planning, document processing, and financial forecasting that Workday charges for. Deep ERP integrations, compliance certifications, and switching costs provide meaningful but not impenetrable moats.",
+    "market_risk": "low",
+    "market_risk_rationale": "Workday is a dominant, profitable market leader in cloud HCM/ERP with $9.55B revenue (FY2026) and 20,000+ employees. The enterprise HR and financial management market is large, mature, and growing. Competitive pressure from SAP, Oracle, and Microsoft exists but Workday has established itself as a preferred cloud-native alternative.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Publicly traded on NASDAQ (WDAY), S&P 500 and Nasdaq-100 component, with $9.55B annual revenue and positive operating income. No funding risk.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Workday is a large, profitable, publicly traded enterprise software giant with deep integration moats, a loyal enterprise customer base, and growing AI capabilities. The Prague office (from the Stories.bi acquisition) contributes to R&D. Overall risk is low despite medium-term AI displacement pressure."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["wikipedia", "company_website", "stockanalysis.com"],
+    "fields_missing": ["open_roles_count", "open_roles", "glassdoor_rating", "glassdoor_review_count", "notable_clients", "customer_count"],
+    "needs_review": false,
+    "notes": "Prague presence established via acquisition of Stories.bi (augmented analytics startup) in July 2018. Workday website is heavily JavaScript-rendered; most structured data sourced from Wikipedia and stockanalysis.com. Revenue figure is FY2026 (fiscal year ending January 31, 2026) = $9.552B. Employee count is FY2025 per Wikipedia (20,400 as of Jan 31, 2025)."
+  }
+}
