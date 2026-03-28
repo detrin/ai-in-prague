@@ -1,0 +1,110 @@
+{
+  "id": "meandair",
+  "name": "Meandair",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered weather nowcasting for aviation and renewable energy markets",
+    "description_long": "Meandair builds the Meandair Nowcasting Weather Engine, which delivers accurate near-real-time weather forecasts for the coming minutes and hours. The engine combines satellite imagery, ground-based radar networks, airborne sensor data, and numerical weather prediction using proprietary machine learning algorithms. Data products cover clouds, precipitation, thunderstorms, wind and icing conditions at all flight levels, refreshed globally every 10 minutes with a 48-hour forecast horizon. Customers access data via industry-standard APIs for integration into aviation, renewable energy, transportation, and agricultural decision-making systems.",
+    "tagline": "Weather nowcasting: Accurate and up-to-date weather situation now, in the coming minutes and hours",
+    "website": "https://www.meandair.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["cv", "data_engineering", "other"],
+    "industries_served": ["aviation", "energy", "agriculture", "logistics"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2018,
+    "founders": ["Dr. Peter Novák", "Dr. Antonín Komenda"],
+    "origin_story": "Dr. Peter Novák and Dr. Antonín Komenda (both with Czech backgrounds) met in 2009, collaborating on research in robotics, AI, and algorithms for collision avoidance of autonomous aircraft — many projects funded by the U.S. Army and U.S. Air Force. Their work on multi-robot coordination inspired them to apply advanced algorithms and AI to weather nowcasting for aviation. Meandair was formally founded in 2018 as a deep-tech startup and is an alumnus of the ESA Business Incubation Centre Noordwijk, The Netherlands.",
+    "key_milestones": [
+      {"year": 2009, "event": "Founders begin collaborating on robotics and AI for autonomous aircraft collision avoidance"},
+      {"year": 2018, "event": "Meandair BV formally founded in Delft, Netherlands as deep-tech startup"},
+      {"year": 2018, "event": "Entered ESA Business Incubation Centre Noordwijk"},
+      {"year": 2025, "event": "SITA (global aviation communications leader) enters license agreement for Nowcasting data"},
+      {"year": 2025, "event": "TruWeather Solutions partnership for UAS/eVTOL/AAM market"},
+      {"year": 2025, "event": "Brunel Solar Team Nuna 13 wins Bridgestone World Solar Challenge 2025 using Meandair data"},
+      {"year": 2025, "event": "Global coverage expanded to Africa, Asia and Oceania at 1x1 km resolution"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Delft", "country": "NL", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["ESA Space Solutions (grant/incubation)"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Dr. Peter Novák", "role": "Co-founder", "source": "company_website"},
+      {"name": "Dr. Antonín Komenda", "role": "Co-founder", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["machine_learning", "satellite_data_processing", "apis"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["ESA BIC Noordwijk alumnus"],
+    "notable_clients": ["SITA", "TruWeather Solutions", "Brunel Solar Team", "Vandebron", "Nieuwe Stroom"],
+    "customer_count": null,
+    "partnerships": ["ESA (European Space Agency)", "Science & Technology R&D Satellite Observations", "KNMI", "TNO", "Thales", "Ubotica Technologies"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Weather nowcasting requires real-time ingestion and fusion of satellite imagery, radar, and sensor data streams — a deeply scientific and infrastructure-intensive capability that foundation models cannot easily replicate. Meandair's proprietary ML algorithms for time-critical meteorological prediction represent a specialized domain moat built over many years of R&D with ESA.",
+    "market_risk": "low",
+    "market_risk_rationale": "Aviation weather data is a well-established, regulated, and safety-critical market with real enterprise demand. The SITA license agreement and growing renewable energy forecasting market signal genuine PMF. The company is actively expanding globally (Africa, Asia, Oceania) and winning new verticals (UAS/eVTOL).",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No known VC funding rounds; the company appears to be bootstrapped or grant-funded (ESA incubation). However, enterprise customers like SITA suggest recurring revenue. The small team and lack of disclosed funding make runway and scale-up trajectory uncertain.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong proprietary tech moat and real enterprise demand in safety-critical aviation market keep risk moderate rather than high. Funding uncertainty and small team size are the main risk factors. Dutch HQ (not Prague) may indicate limited overlap with Czech AI ecosystem despite Czech founders."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "open_roles_count", "glassdoor_rating", "careers_url"],
+    "needs_review": true,
+    "notes": "IMPORTANT: Meandair BV is headquartered in Delft, Netherlands (not Prague or Czech Republic). The founders Dr. Peter Novák and Dr. Antonín Komenda have Czech names and background, which likely explains the CNAIP/Prague AI catalog listing. No CNAIP profile URL was available. No Glassdoor data found. No public funding rounds found beyond ESA incubation support. Employee count is estimated based on startup stage and activity level."
+  }
+}
