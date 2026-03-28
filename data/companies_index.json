@@ -2214,8 +2214,9 @@
     "name": "Quido",
     "category": "company",
     "source": "cnaip",
-    "cnaip_url": null,
-    "status": "pending"
+    "cnaip_url": "https://www.cnaip.cz/en/entity/quido",
+    "status": "done",
+    "website_url": "https://getquido.com"
   },
   {
     "id": "racemake",
