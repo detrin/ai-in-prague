@@ -1,0 +1,103 @@
+{
+  "id": "skylitt",
+  "name": "SkyLitt",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:55:00Z",
+
+  "overview": {
+    "description": "Autonomous AI agents for business process automation and transformation",
+    "description_long": "SkyLitt (also known as SkyLitt Agentsy) builds autonomous AI agents that function as AI-powered teammates within organizations. Their agents think, learn, collaborate, and act independently to optimize processes across customer care, marketing, media & entertainment, sales, and finance. They offer both custom AI implementation services and a ready-made SaaS product (Lina, an AI translation/localization agent). Focus is on practical, measurable AI rather than theoretical automation.",
+    "tagline": "Meet Your AI-Powered Teammates",
+    "website": "https://skylitt.co",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/skylitt"
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "automation", "nlp"],
+    "industries_served": ["media", "marketing", "customer_service", "sales", "finance"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2024,
+    "founders": [],
+    "origin_story": "Founded in Prague in 2024, focused on making autonomous AI agents practical and accessible for businesses of all sizes.",
+    "key_milestones": [
+      {"year": 2024, "event": "Founded in Prague; launched website and initial AI agent offerings"},
+      {"year": 2024, "event": "Listed on CNAIP (Czech National AI Platform)"},
+      {"year": 2024, "event": "Launched Lina — AI translation/localization SaaS agent"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://skylitt.co/pages/Careers.html",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "SkyLitt operates primarily as an AI agent implementation consultancy with a thin SaaS layer (Lina). Their core value proposition — wrapping LLMs into autonomous agents for customer care, marketing, and sales — is highly replicable as foundation model providers (OpenAI, Anthropic, Google) ship native agentic tooling. No proprietary models or unique data moat is apparent.",
+    "market_risk": "medium",
+    "market_risk_rationale": "AI agents for business automation is a real and growing market with validated demand, but it is intensely competitive with well-funded incumbents (Salesforce, HubSpot, Microsoft Copilot). SkyLitt's focus on mid-market and SME clients in CEE may provide a regional niche, but no clear differentiation beyond implementation services is evident.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No known external funding, very small team (estimated 1-10), and the company appears to be bootstrapped in its earliest stage (founded 2024). Without revenue proof or funding runway, survival risk is significant.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "SkyLitt is a very early-stage bootstrapped AI agent consultancy with no apparent proprietary tech moat, no disclosed funding, and a highly commoditized value proposition. The combination of high AGI displacement risk, nascent market position, and lack of funding creates elevated overall risk."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founders", "employees_exact", "funding_total_usd", "leadership", "glassdoor"],
+    "needs_review": false,
+    "notes": "Very early-stage Prague startup (est. 2024). Legal entity name on CNAIP is 'SkyLitt Agentsy'. Operates at Velvarská 1699/29, 160 00 Praha. Has two main offerings: (1) custom AI agent implementation services and (2) Lina, a per-seat AI translation/localization SaaS agent. Website is simple static HTML, suggesting micro-team. No leadership or founder names publicly disclosed."
+  }
+}
