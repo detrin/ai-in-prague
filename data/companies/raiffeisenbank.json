@@ -1,0 +1,127 @@
+{
+  "id": "raiffeisenbank",
+  "name": "Raiffeisenbank",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:30:00Z",
+
+  "overview": {
+    "description": "Major Czech bank using AI/ML across risk, data analytics, and digital banking",
+    "description_long": "Raiffeisenbank a.s. is the 5th largest bank in the Czech Republic with CZK 300 billion in total assets. Operating since 1993 as a Czech subsidiary of Austrian Raiffeisen Bank International (RBI), it serves nearly 2 million clients via 119 branches and digital channels. The bank self-describes as a 'tech company inside a bank', running an AI stack including OpenAI, Azure Cognitive Services, and Databricks across its 220+ IT staff who manage 4.9 petabytes of data. AI applications include RAIA (voice/chat assistant), credit scoring, fraud detection, and customer experience personalisation.",
+    "tagline": "Může mi banka usnadnit život? Samozřejmě. (Can a bank make my life easier? Of course.)",
+    "website": "https://www.rb.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["ml_ops", "fraud_detection", "automation", "data_engineering", "nlp"],
+    "industries_served": ["banking", "finance", "insurance", "investment"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1993,
+    "founders": [],
+    "origin_story": "Czech subsidiary of Austrian Raiffeisen Group, operating in the Czech banking market since 1993. One of the five systemically important banks regulated by the Czech National Bank.",
+    "key_milestones": [
+      {"year": 1993, "event": "Raiffeisenbank enters Czech market"},
+      {"year": 2015, "event": "Igor Vida becomes CEO, bank accelerates digital transformation"},
+      {"year": 2018, "event": "Vladimír Matouš joins board as CIO; tech expansion begins"},
+      {"year": 2023, "event": "Bank serves 1.96 million clients with 3,600+ employees"},
+      {"year": 2026, "event": "Wins Finparáda.cz 2026 awards: 1st place personal accounts and savings accounts; Euromoney Best International Private Bank CZ"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1001-5000",
+    "employees_exact": 3600,
+    "employee_source": "company_website",
+    "office_count": 119
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Teplice", "country": "CZ", "is_hq": false},
+    {"city": "Olomouc", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Raiffeisen Bank International AG",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["Raiffeisen Bank International AG (75%)", "Raiffeisenlandesbank Oberösterreich (25%)"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Igor Vida", "role": "CEO & Chairman of the Board", "source": "company_website"},
+      {"name": "František Ježek", "role": "Board Member – Corporate Banking", "source": "company_website"},
+      {"name": "Sabine Abfalter", "role": "CFO & Board Member", "source": "company_website"},
+      {"name": "Vladimír Matouš", "role": "CIO & Board Member", "source": "company_website"},
+      {"name": "Vladimír Kreidl", "role": "Board Member – Personal Banking", "source": "company_website"},
+      {"name": "Martin Stotter", "role": "CRO & Board Member", "source": "company_website"},
+      {"name": "Tomáš Jelínek", "role": "Board Member – Markets & Investment Banking", "source": "company_website"},
+      {"name": "Miloš Matula", "role": "Board Member – Operations", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://rb.jobs.cz/",
+    "open_roles_count": 69,
+    "open_roles": [
+      {"title": "Portfolio Process and Data Architect", "department": "data", "location": "Praha - Nusle"},
+      {"title": "Senior Backend Developer (Java)", "department": "engineering", "location": "Praha - Nusle"},
+      {"title": "DevOps Engineer (Azure & AKS)", "department": "devops", "location": "Praha - Nusle"},
+      {"title": "DevSecOps Architect", "department": "engineering", "location": "Praha - Nusle"},
+      {"title": "People & Culture Digital Enthusiast", "department": "hr", "location": "Praha - Nusle"},
+      {"title": "Market Research Specialist", "department": "analytics", "location": "Praha - Nusle"}
+    ],
+    "tech_stack": ["python", "java", "nodejs", "dotnet", "csharp", "openai", "azure-cognitive-services", "databricks", "snowflake", "hadoop", "postgresql", "mongodb", "oracle-db", "azure", "aws", "openshift", "kubernetes", "docker", "kafka", "apache-pulsar", "ataccama-one"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Finparáda.cz 2026 – 1st place: Personal accounts with mobile app",
+      "Finparáda.cz 2026 – 1st place: Savings accounts",
+      "Euromoney Private Banking Awards 2026 – Best International Private Bank (Czech Republic)"
+    ],
+    "notable_clients": [],
+    "customer_count": 1960000,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Raiffeisenbank is a regulated bank with a Czech banking licence, complex compliance requirements, and deep customer relationships. Its core value lies in financial infrastructure, credit decisions, and regulatory compliance rather than a thin AI layer. Foundation models cannot replicate a banking licence or CNB-regulated risk models.",
+    "market_risk": "low",
+    "market_risk_rationale": "Banking is a stable, regulated market. Raiffeisenbank is the 5th largest bank in CZ with CZK 300 billion in assets and ~2 million clients. While competition from neobanks and fintechs is real, systemic banks benefit from regulatory moats and established customer trust.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Raiffeisenbank is a subsidiary of Raiffeisen Bank International AG (Vienna, publicly traded on Vienna Stock Exchange). Funding risk is not applicable as the bank is backed by a major European banking group and self-funded through deposits and operations.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Established, regulated bank with 30+ years of Czech market presence, strong parent backing from RBI, and 2 million customers. AI adoption is internal and enhances existing services rather than being the core product. Low risk overall."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "rb.jobs.cz", "atmoskop.cz", "linkedin"],
+    "fields_missing": ["glassdoor_rating", "glassdoor_review_count", "funding_total_usd", "revenue_estimate_usd", "founded_year_exact"],
+    "needs_review": false,
+    "notes": "Raiffeisenbank is a traditional bank (not AI-native), included in Prague AI catalog as a major employer of AI/data science talent in Prague. Uses OpenAI, Azure Cognitive Services, and Databricks. Has RAIA (AI voice/chat banking assistant). Employee satisfaction measured via Atmoskop.cz (Czech equivalent of Glassdoor): 79% employer satisfaction from 564 reviews. Founded in Czech Republic 1993; parent RBI is publicly traded in Vienna (RBI.VI)."
+  }
+}
