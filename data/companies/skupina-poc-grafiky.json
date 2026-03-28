@@ -1,0 +1,119 @@
+{
+  "id": "skupina-poc-grafiky",
+  "name": "Skupina počítačové grafiky",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:55:00Z",
+
+  "overview": {
+    "description": "Computer Graphics Group (CGG) at Czech Technical University in Prague — research in rendering, VR/AR, and visual computing",
+    "description_long": "Skupina počítačové grafiky (Computer Graphics Group, CGG) is a research group within the Department of Computer Graphics and Interaction (DCGI) at the Faculty of Electrical Engineering (FEL), Czech Technical University (ČVUT) in Prague. The group, led by prof. Jiří Žára, conducts research in realistic image synthesis (real-time and production rendering), analysis of complex 3D scenes, simulation and rendering of natural phenomena, and virtual and augmented reality. The group is embedded within a broader department that also includes the HCI Center and Institut Intermédií.",
+    "tagline": "Realistic image synthesis, 3D scene analysis, and virtual reality research",
+    "website": "https://dcgi.fel.cvut.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["cv", "other"],
+    "industries_served": ["education", "cultural_heritage", "aviation"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": "Research group within DCGI (Department of Computer Graphics and Interaction) at FEL ČVUT Prague. Publications trace back to at least the early 2000s under prof. Jiří Žára.",
+    "key_milestones": [
+      {"year": 2004, "event": "Published research on virtual reality and cultural heritage"},
+      {"year": 2008, "event": "Published influential work on dual quaternion skinning at ACM SIGGRAPH"},
+      {"year": 2014, "event": "Research on Výzkumné centrum informatiky (RCI — Research Centre of Informatics) initiated"},
+      {"year": 2018, "event": "Distinctive Approaches to Computer Graphics Education published in CGF"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (ČVUT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jiří Žára", "role": "Head of Department / CGG Lead (prof. Ing. Jiří Žára CSc.)", "source": "company_website"},
+      {"name": "Jiří Bittner", "role": "Professor, Research Deputy for CG", "source": "company_website"},
+      {"name": "Vlastimil Havran", "role": "Professor, HW Lab Head", "source": "company_website"},
+      {"name": "Daniel Sýkora", "role": "Professor", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Ladislav Kavan", "role": "Former PhD student; pioneered dual quaternion skinning (now at University of Utah)", "source": "company_website"},
+      {"name": "Jaroslav Křivánek", "role": "Former researcher; known for irradiance caching work", "source": "company_website"},
+      {"name": "Daniel Sýkora", "role": "Professor; known for cartoon colorization and stylization research", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://dcgi.fel.cvut.cz/people",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD student (Postgraduate)", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["opengl", "vulkan", "python", "c++"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Výzkumné centrum informatiky (RCI — Research Centre of Informatics)",
+      "V3C — Visual Computing Competence Center",
+      "EU ARiSE project (augmented reality in schools)"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "University research group — not a commercial product. Academic output is inherently complementary to, not displaced by, foundation AI models.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Publicly funded university research group within ČVUT; not exposed to commercial market risk. Funding comes from Czech and EU research grants.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Part of Czech Technical University (one of the oldest technical universities in Central Europe); sustained by state university funding and research grants rather than venture capital.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "University research group within an established public technical university. Standard academic continuity risks (grant renewal, faculty retention) apply but are not equivalent to commercial risk."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year", "glassdoor", "funding_total_usd", "open_roles_count", "cnaip_url"],
+    "needs_review": false,
+    "notes": "Skupina počítačové grafiky (Computer Graphics Group / CGG) is a research group within DCGI at FEL ČVUT Prague, not a standalone commercial company. The input record category is listed as 'company' but this entity is a university research lab. No CNAIP URL was available. Website: https://dcgi.fel.cvut.cz. Address: Karlovo náměstí 13, Praha 2, KN:E-320."
+  }
+}
