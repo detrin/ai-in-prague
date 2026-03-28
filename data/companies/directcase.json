@@ -1,0 +1,107 @@
+{
+  "id": "directcase",
+  "name": "DirectCase",
+  "category": "company",
+  "scraped_at": "2026-03-28T16:45:00Z",
+
+  "overview": {
+    "description": "AI-powered legal research for Czech and EU law with verified citations",
+    "description_long": "DirectCase is an AI legal research assistant that searches 1.4 million sources of Czech and European law — including Czech court judgments, EU regulations, ECHR and CJEU rulings — and returns answers with full, verifiable citations. Designed for lawyers and judges, it explicitly prohibits hallucination by grounding every response in its closed legal database. Previously known as Lawly.",
+    "tagline": "Právní rešerše s ověřenými citacemi",
+    "website": "https://www.directcase.ai",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/directcase"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "document_processing", "generative_ai"],
+    "industries_served": ["legal", "public_sector"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2023,
+    "founders": ["Pavol Trávnik", "Radovan Oprendek"],
+    "origin_story": "Pavol Trávnik, a lawyer and AI engineer, repeatedly encountered the pain of hours-long manual case law research during litigation. He built DirectCase (originally 'Lawly') to let machines do the searching so lawyers can focus on expert judgment. Radovan Oprendek joined as co-founder and CEO to lead product and go-to-market.",
+    "key_milestones": [
+      {"year": 2023, "event": "Product started under Determinant s.r.o. (founded May 16, 2023)"},
+      {"year": 2025, "event": "Rebranded from Lawly to DirectCase"},
+      {"year": 2025, "event": "CendAI pilot at Prague High Court — 12 judges and court assistants tested DirectCase, finding 50-minute time savings per research session"},
+      {"year": 2026, "event": "DirectCase s.r.o. incorporated as dedicated legal entity (January 8, 2026)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred_from_company_registry",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "freemium"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Radovan Oprendek", "role": "CEO & Co-founder", "source": "company_website"},
+      {"name": "Pavol Trávnik", "role": "CTO & Co-founder", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Vrchní soud v Praze (Prague High Court)"],
+    "customer_count": null,
+    "partnerships": ["CendAI (Centrum pro digitalizaci a umělou inteligenci v justici)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "DirectCase maintains a curated, closed Czech legal database of 1.4 million sources with a proprietary citation-verification layer — this is harder for general-purpose LLMs to replicate out of the box. However, larger legal tech platforms or well-funded competitors could build similar RAG pipelines over the same public Czech judicial databases.",
+    "market_risk": "low",
+    "market_risk_rationale": "The legal research market in Czech Republic is a clear, proven pain point with paying professional customers. CendAI validation at the Prague High Court confirms real demand. Traditional legal databases (Beck Online, ASPI) are incumbents but lack AI-native search, leaving room for disruption.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "No external funding identified — the company appears bootstrapped with two co-founders and a small team. The legal entity was only formally incorporated in January 2026, and there is no visible runway or investor backing to weather a competitive threat or slow growth period.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong product validation (CendAI pilot, active users including judges) and a domain-specific database moat partially offset the high funding risk. The company is very early stage but operates in a well-defined, regulated vertical with sticky professional users who value verified citations over generic AI."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "cnaip", "czech_business_registry_ares", "kurzy_cz"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "open_roles_count", "glassdoor_rating", "careers_url"],
+    "needs_review": false,
+    "notes": "Company originally operated under 'Determinant s.r.o.' (ICO 19345861, founded May 2023). New legal entity 'DirectCase s.r.o.' (ICO 24337269) incorporated January 2026 with both co-founders as equal 50% shareholders. Product was previously called 'Lawly' before rebranding to DirectCase. Radovan Oprendek's email is radovan.oprendek@directcase.ai. The company address on CNAIP (Holečkova 836/69, Praha 5) belongs to Determinant s.r.o.; the new entity is at Zenklova 2530/23, Praha 8."
+  }
+}

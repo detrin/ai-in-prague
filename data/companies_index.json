@@ -760,8 +760,9 @@
     "name": "DirectCase",
     "category": "company",
     "source": "cnaip",
-    "cnaip_url": null,
-    "status": "pending"
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/directcase",
+    "status": "done",
+    "website_url": "https://www.directcase.ai"
   },
   {
     "id": "distudero",
