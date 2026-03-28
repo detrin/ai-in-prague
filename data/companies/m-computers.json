@@ -1,0 +1,107 @@
+{
+  "id": "m-computers",
+  "name": "M Computers",
+  "category": "company",
+  "scraped_at": "2026-03-28T17:55:00Z",
+
+  "overview": {
+    "description": "Czech IT infrastructure vendor specializing in HPC supercomputers, AI computing systems, and NVIDIA enterprise GPU solutions",
+    "description_long": "M Computers s.r.o. is a Czech technology company with over 20 years of history, operating since 2002 (with roots to 1996). They specialize in the design and delivery of complete IT infrastructure, HPC supercomputers, and AI computing systems. As the first company in the CEE region to achieve NVIDIA ELITE Partner status, they represent NVIDIA in the Czech enterprise market for GPU accelerators and AI systems. They operate AIServer.eu (a GPU server configurator portal) and Lenovoshop.cz (Lenovo product portal), and hold Lenovo Expert & Platinum partner status. Additional technology partnerships include Intel, AMD, HPE, VAST Data, Veeam, and ExaGrid. Services span hardware supply, AI system integration, IT infrastructure management, AI strategy consulting, MLOps platform deployment, and professional AI training.",
+    "tagline": "Your guide to the world of IT",
+    "website": "https://mcomputers.cz",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/m-computers"
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["ml_ops", "other"],
+    "industries_served": ["defense", "education", "government", "ict", "manufacturing", "science_research"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2002,
+    "founders": null,
+    "origin_story": "Founded in 2002 by current owners who had been working in IT since 1996. Grew from a general IT reseller to a specialist in HPC and AI computing infrastructure, ultimately becoming the first NVIDIA ELITE Partner in the CEE region.",
+    "key_milestones": [
+      {"year": 1996, "event": "Current owners began operating in IT"},
+      {"year": 2002, "event": "M Computers s.r.o. officially incorporated on February 5, 2002"},
+      {"year": 2022, "event": "Celebrated 20 years in business"},
+      {"year": 2023, "event": "Achieved NVIDIA ELITE Partner status — first in CEE region"},
+      {"year": 2026, "event": "Established first AI Factory in CEE region; attended NVIDIA GTC 2026 and visited NVIDIA HQ"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "estimated",
+    "office_count": 3
+  },
+
+  "offices": [
+    {"city": "Brno", "country": "CZ", "is_hq": true},
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "Zlín", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://mcomputers.cz/o-nas/nas-pribeh/kariera/",
+    "open_roles_count": 0,
+    "open_roles": [],
+    "tech_stack": ["nvidia", "cuda", "hpc", "gpu"],
+    "hiring_signals": "not_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["NVIDIA ELITE Partner — first in CEE region", "Lenovo Expert & Platinum Partner"],
+    "notable_clients": null,
+    "customer_count": null,
+    "partnerships": ["NVIDIA", "Lenovo", "Intel", "AMD", "HPE", "VAST Data", "Veeam", "ExaGrid"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "M Computers is a hardware vendor and systems integrator — their core value is in physical GPU servers, HPC clusters, and certified enterprise installations. Foundation models cannot replace the physical infrastructure layer; in fact, AI adoption increases demand for their products.",
+    "market_risk": "low",
+    "market_risk_rationale": "The AI and HPC infrastructure market is in a sustained growth phase driven by enterprise AI adoption. As the first NVIDIA ELITE Partner in CEE, M Computers occupies a privileged position in a high-demand market with strong secular tailwinds.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "The company has been self-sustaining since 2002 (24+ years), is bootstrapped with no external investors, has multiple premium vendor partnerships, and generates hardware sales revenue across three Czech offices. Strong operational resilience.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Established 24-year-old hardware infrastructure company with premier NVIDIA and Lenovo partnerships, no funding dependency, and growing market tailwinds from AI hardware demand across the CEE region."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website", "ares_registry"],
+    "fields_missing": ["founders", "leadership", "employees_exact", "revenue_estimate_usd", "glassdoor_rating"],
+    "needs_review": false,
+    "notes": "Primary HQ is Brno, not Prague — listed in CNAIP Czech AI catalog with Prague branch. Founded 2002-02-05 per ARES registry (IČ: 26042029). Employee count and revenue use JS animated counters on website (not scraped). Operates portals AIServer.eu and Lenovoshop.cz. No current open job postings as of March 2026."
+  }
+}
