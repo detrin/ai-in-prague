@@ -1,0 +1,124 @@
+{
+  "id": "aic-optimalizace",
+  "name": "AIC Optimalizace",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Mathematical optimization research group at the Artificial Intelligence Center, Czech Technical University in Prague",
+    "description_long": "AIC Optimalizace is the Optimization research cluster within the Artificial Intelligence Center (AIC) at the Faculty of Electrical Engineering, Czech Technical University in Prague (CTU). The group focuses on mathematical optimization at the intersection of mathematics, computer science, and electrical engineering. Core research areas include non-convex polynomial optimization (commutative and non-commutative), time-varying optimization, and applications in power systems, AI fairness, quantum optimization, and control theory. The group has published in top venues including AAAI, JAIR, IEEE Transactions on Automatic Control, Automatica, SIAM Journal on Optimization, and Nature Reviews Physics.",
+    "tagline": "Finding optimal solutions for AI tasks",
+    "website": "https://www.aic.fel.cvut.cz/research-areas/optimization",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["ml_ops", "other"],
+    "industries_served": ["energy", "finance", "public_sector"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2001,
+    "founders": ["Michal Pěchouček"],
+    "origin_story": "The Artificial Intelligence Center (AIC) was founded in 2001 by Michal Pěchouček at the Faculty of Electrical Engineering, Czech Technical University in Prague. The Optimization research cluster is one of seven research areas within AIC.",
+    "key_milestones": [
+      {"year": 2001, "event": "AIC founded at CTU Prague by Michal Pěchouček"},
+      {"year": 2019, "event": "Optimization papers published at AAAI 2019 and AAAI 2020 on time-varying optimization"},
+      {"year": 2022, "event": "AutoFair Horizon Europe project funded (€3.8M total, €600K to CTU), led by Jakub Mareček"},
+      {"year": 2023, "event": "CoDiet Horizon Europe project started; TENORS Marie Skłodowska-Curie Doctoral Network launched"},
+      {"year": 2024, "event": "Co-authored review paper in Nature Reviews Physics on quantum optimization; AAAI 2024 paper on non-smooth non-convex optimization"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (CTU) – Faculty of Electrical Engineering",
+    "funding_total_usd": null,
+    "funding_rounds": [
+      {"date": "2022-10", "type": "Horizon Europe Grant", "amount_usd": null, "lead_investor": "European Commission (HORIZON-CL4-2021, Project ID: 101070568); CTU receives ~€600K of €3.8M total"},
+      {"date": "2024-03", "type": "Marie Skłodowska-Curie Doctoral Network", "amount_usd": null, "lead_investor": "European Commission (TENORS project – tensor modeling, geometry and optimization)"},
+      {"date": "2023-08", "type": "Horizon Europe Grant", "amount_usd": null, "lead_investor": "European Commission (CoDiet project)"}
+    ],
+    "investors": ["European Commission (Horizon Europe)", "Marie Skłodowska-Curie Actions"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jakub Mareček", "role": "Head of Optimization Group / Tenured Faculty Member", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Jana Lepšová", "role": "Senior Researcher", "source": "company_website"},
+      {"name": "Gilles Bareilles", "role": "Senior Researcher", "source": "company_website"},
+      {"name": "Aleš Wodecki", "role": "Senior Researcher", "source": "company_website"},
+      {"name": "Johannes Aspman", "role": "Senior Researcher", "source": "company_website"},
+      {"name": "Georgios Korpas", "role": "Senior Research Fellow and Lecturer", "source": "company_website"},
+      {"name": "Pavel Rytíř", "role": "Assistant Professor", "source": "company_website"},
+      {"name": "Michal Pěchouček", "role": "Director and Co-founder of AIC", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.aic.fel.cvut.cz/careers",
+    "open_roles_count": 1,
+    "open_roles": [
+      {"title": "PhD Student – Near real time optimization of non-linear problems with discrete decision variables", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "matlab"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "CSRankings.org: AIC ranked #6 in Europe in AI & Computer Vision",
+      "AutoFair selected as only Czech-coordinated project in HUMAN-01 call (Horizon Europe)"
+    ],
+    "notable_clients": ["CEZ (largest utility in Central and Eastern Europe)", "IBM Research", "Workable", "Date.io"],
+    "customer_count": null,
+    "partnerships": ["Imperial College London", "Technion – Israel Institute of Technology", "National and Capodistrian University of Athens", "IBM Research"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at CTU Prague; not a commercial product. The group advances foundational optimization theory and publishes in top venues — this work underpins AI systems rather than competing with them.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Not a market participant. The group competes for academic grants and research influence, not commercial customers.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Funded by EU Horizon Europe grants (AutoFair, CoDiet) and Marie Skłodowska-Curie Actions (TENORS), plus CTU institutional support. Grant-based funding is standard for academic research labs.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research lab embedded within a top-ranked European AI center (CTU AIC, #6 in Europe per CSRankings). Risk categories are not applicable for a publicly-funded university research group."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year_optimization_group", "employees_exact", "glassdoor_rating", "funding_total_usd"],
+    "needs_review": false,
+    "notes": "AIC Optimalizace is the Optimization research cluster within the broader Artificial Intelligence Center (AIC) at CTU Prague Faculty of Electrical Engineering. The AIC overall has 70+ researchers across 7 research areas; the Optimization group has ~20 members based on the team listing. Founded year (2001) refers to the founding of the AIC as a whole; the Optimization group's specific start date is unknown. Head is Jakub Mareček (Tenured Faculty Member), who leads AutoFair and is active in quantum optimization research."
+  }
+}
