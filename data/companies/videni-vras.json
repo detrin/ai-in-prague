@@ -1,0 +1,123 @@
+{
+  "id": "videni-vras",
+  "name": "Vidění pro roboty a autonomní systémy (VRAS)",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Vision for Robotics and Autonomous Systems – research group at Czech Technical University in Prague focused on machine learning for robot perception",
+    "description_long": "VRAS (Vision for Robotics and Autonomous Systems) is a research group at the Department of Cybernetics, Faculty of Electrical Engineering, Czech Technical University (CTU) in Prague. The group researches algorithms that map RGB, depth, LiDAR, and thermal data onto robot behavior. They work with outdoor tracked robots, humanoid robots, and autonomous vehicles. The group is part of the Center for Machine Perception (CMP) and the Center for Robotics and Autonomous Systems (CRAS). They are known for their DARPA SubTerranean Challenge results (3rd overall, 1st among self-funded teams) and for developing the tactical robot Helhest.",
+    "tagline": "Machine learning for robot perception",
+    "website": "https://cyber.felk.cvut.cz/vras",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["cv", "robotics", "ml_ops"],
+    "industries_served": ["robotics", "automotive", "defense", "search_and_rescue"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2016,
+    "founders": ["Tomáš Svoboda"],
+    "origin_story": "Split from the group of prof. Hlaváč at the Department of Cybernetics, CTU Prague, in September 2016. Grew from the Center for Machine Perception tradition of computer vision research into a full robotics and autonomous systems group.",
+    "key_milestones": [
+      {"year": 2016, "event": "Group established at CTU Department of Cybernetics (split from prof. Hlaváč's group)"},
+      {"year": 2019, "event": "DARPA SubTerranean Challenge Tunnel Circuit – 3rd overall, 1st among self-funded teams"},
+      {"year": 2020, "event": "DARPA SubTerranean Challenge Urban Circuit – ranked among top teams"},
+      {"year": 2021, "event": "DARPA SubTerranean Challenge Virtual Final – 2nd overall"},
+      {"year": 2023, "event": "ROBOPROX (EU Horizon) and Kolibriq projects launched"},
+      {"year": 2025, "event": "Helhest tactical robot covered by Czech Television; Werner von Siemens Award for Best Doctoral Thesis in Industry 4.0 (Jakub Rozlivek)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 35,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (CTU / ČVUT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": ["European Commission (Horizon Europe)", "Czech Science Foundation (GAČR)", "Technology Agency of the Czech Republic (TAČR)", "Lockheed Martin (industrial collaboration)"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš Svoboda", "role": "Full Professor & Group Head (also Vice-Rector for Strategy, CTU)", "source": "company_website"},
+      {"name": "Matěj Hoffmann", "role": "Associate Professor", "source": "company_website"},
+      {"name": "Radim Šára", "role": "Associate Professor", "source": "company_website"},
+      {"name": "Karel Zimmermann", "role": "Associate Professor (principal investigator, GAČR project)", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Martin Pecka", "role": "Researcher", "source": "company_website"},
+      {"name": "Jakub Rozlivek", "role": "PhD graduate – Werner von Siemens Award winner 2025", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://cyber.felk.cvut.cz/research/groups-teams/vras/",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD Student – Physics-Based Machine Learning", "department": "research", "location": "Prague"},
+      {"title": "PostDoc – Physics-Based Machine Learning (Neural Symbolic Architectures)", "department": "research", "location": "Prague"},
+      {"title": "PhD / PostDoc – XSCAVE (EU Horizon) – Perception-to-Action for Excavation Machines", "department": "research", "location": "Prague"},
+      {"title": "PhD / PostDoc – Kolibriq – Neuro-symbolic Deep Learning for Autonomous Aircraft", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "ros", "pytorch", "lidar", "rgb-d", "uav", "legged-robots"],
+    "hiring_signals": "actively_hiring"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "DARPA SubTerranean Challenge 2019 Tunnel Circuit – 3rd overall, 1st among self-funded teams",
+      "DARPA SubTerranean Challenge 2021 Virtual Final – 2nd overall",
+      "Werner von Siemens Award 2025 – Best Doctoral Thesis in Industry 4.0 (Jakub Rozlivek)"
+    ],
+    "notable_clients": ["Lockheed Martin"],
+    "customer_count": null,
+    "partnerships": ["Center for Machine Perception (CMP)", "Center for Robotics and Autonomous Systems (CRAS)", "Fly4Future (drone racing)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group at CTU; not a commercial product. Research on robot perception, neuro-symbolic AI, and hardware-integrated robotics operates in domains where foundation models are not direct competitors.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research group funded by competitive EU Horizon and GAČR grants, not dependent on commercial markets. Track record of winning major grants (ROBOPROX, XSCAVE, Kolibriq) demonstrates strong proposal credibility.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-funded through multiple overlapping multi-year grants: EU Horizon ROBOPROX (2023–2028), XSCAVE, and Kolibriq, plus long-term industrial collaboration with Lockheed Martin and GAČR. Embedded within CTU institutional structure provides stable baseline.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Established research group (since 2016) with world-class recognition (DARPA SubT top finisher), active EU Horizon funding portfolio, and strong leadership (Svoboda also serves as CTU Vice-Rector). Risk to continuity is low."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "github", "cyber.felk.cvut.cz"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "open_roles_count", "cnaip_url"],
+    "needs_review": true,
+    "notes": "Listed as category='company' in index but is actually an academic research group at CTU Prague. No CNAIP URL available. Tomáš Svoboda is both group head and CTU Vice-Rector for Strategy. The group has a commercial spinoff Helhest.com focused on autonomous heavy terrain robots."
+  }
+}
