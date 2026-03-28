@@ -1,0 +1,102 @@
+{
+  "id": "lawrence-ai",
+  "name": "Lawrence AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T17:50:00Z",
+
+  "overview": {
+    "description": "AI legal assistant for Czech legal professionals with case law database of 400k+ decisions",
+    "description_long": "Lawrence AI (operated by C&P Blockchain solutions s.r.o.) is a Czech legaltech startup offering a virtual AI legal assistant for lawyers, law students, and in-house legal teams. The platform provides access to 30,000+ regulations and 400,000+ Czech court decisions (Constitutional Court, Supreme Court, Supreme Administrative Court) with autonomous AI-driven case law research, document summarization, contract wording, and submission preparation.",
+    "tagline": "AI pro ty, co pracují s právem (AI for those who work with law)",
+    "website": "https://lawrenceai.cz",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/lawrence-ai"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "generative_ai", "document_processing", "automation"],
+    "industries_served": ["legal", "government", "public_services"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": "Czech legaltech company built to automate legal research and document work for legal professionals using AI agents and NLP over Czech case law and regulatory databases.",
+    "key_milestones": [
+      {"year": 2025, "event": "Accepted into Technologická inkubace program"},
+      {"year": 2025, "event": "Joined Microsoft for Startups and Start It @ČSOB accelerator"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "C&P Blockchain solutions s.r.o.",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["Start It @ČSOB", "Microsoft for Startups", "Česká asociace umělé inteligence", "Technologická inkubace"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Lawrence AI is essentially a RAG-based AI assistant over publicly available Czech court decisions and legislation. Foundation models with retrieval capabilities (e.g. GPT-4 with legal databases) can replicate the core functionality. The Czech case law database is sourced from public government portals, offering limited proprietary data moat.",
+    "market_risk": "low",
+    "market_risk_rationale": "Legal AI for Czech legal professionals is a real and growing niche with clear demand — lawyers, law firms, and in-house teams are actively adopting AI tools. The Czech-language focus creates natural localization advantage and barriers for non-local competitors.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Early-stage startup with no known venture funding, relying on incubation programs (Technologická inkubace, Microsoft for Startups, ČSOB accelerator). Subscription pricing is low (99–2,390 CZK/month) suggesting limited near-term revenue scale.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "The combination of a thin technical moat (publicly available data, replicable AI functionality), early-stage funding uncertainty, and intense competition from better-resourced AI legal tools globally makes this a high-risk investment. Survival depends on rapid customer acquisition and product differentiation in the Czech legal market."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "founders", "leadership", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor"],
+    "needs_review": false,
+    "notes": "Legal entity is C&P Blockchain solutions s.r.o. trading as Lawrence AI. LinkedIn page is at linkedin.com/company/cpbsolutions. Company is very early-stage with no public funding information. Copyright on website shows 2025."
+  }
+}

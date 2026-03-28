@@ -1308,8 +1308,9 @@
     "name": "Lawrence AI",
     "category": "company",
     "source": "cnaip",
-    "cnaip_url": null,
-    "status": "pending"
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/lawrence-ai",
+    "status": "done",
+    "website_url": "https://lawrenceai.cz"
   },
   {
     "id": "leadspicker",
