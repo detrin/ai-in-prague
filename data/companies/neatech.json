@@ -1,0 +1,106 @@
+{
+  "id": "neatech",
+  "name": "Neatech",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Custom AI solutions and smart system integrations for medium and large enterprises",
+    "description_long": "Neatech, founded in 2009 in Prague, builds custom AI agents and products for B2B clients that automate repetitive processes, enable intelligent search over company data, and integrate securely into existing enterprise systems (SAP, CRM, ERP). Known for on-premise deployments where client data never leaves their infrastructure, serving regulated and security-sensitive environments. Offers a portfolio of own products including SPARKLD (AI lead generation), NeatData (enterprise search), voice data entry tools, and Servantes (publishing platform).",
+    "tagline": "Custom AI solutions and smart systems that save time and money.",
+    "website": "https://neatech.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["automation", "generative_ai", "data_engineering", "nlp"],
+    "industries_served": ["enterprise", "finance", "manufacturing", "cybersecurity", "publishing", "hospitality"],
+    "company_type": "startup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2009,
+    "founders": ["Václav Soukup"],
+    "origin_story": "Founded in 2009 in Prague as a custom software and process digitization firm; pivoted to focus on AI agents and automation as generative AI became viable for enterprise use.",
+    "key_milestones": [
+      {"year": 2009, "event": "Founded in Prague as a custom software development company"},
+      {"year": 2024, "event": "Joined Czech National AI Platform (CNAIP) and Czech Association of Artificial Intelligence (ČAUI)"},
+      {"year": 2025, "event": "Expanded AI product portfolio with SPARKLD, NeatData, and voice data entry tools"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "linkedin",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Šumperk", "country": "CZ", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Václav Soukup", "role": "Founder & CEO", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "ai_agents", "sap", "crm"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Unilever", "Hiraguard (Alpsec)", "Hotel.cz", "Optimatic"],
+    "customer_count": null,
+    "partnerships": ["CNAIP", "Czech Association of Artificial Intelligence (ČAUI)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "high",
+    "agi_displacement_rationale": "Neatech's core business is custom AI integration and consulting—building AI agents and workflows on top of third-party models. As foundation models improve and low-code AI tools commoditize agent building, the differentiation of bespoke integrations shrinks. Their on-premise deployment expertise and SAP/ERP knowledge provide some moat but is insufficient to counter rapid commoditization.",
+    "market_risk": "low",
+    "market_risk_rationale": "Enterprise AI automation and process digitization is a large, growing, real market with proven demand. Neatech has paying enterprise clients (Unilever) reporting 50–70% productivity gains, validating product-market fit.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No external funding identified; appears bootstrapped. However, having operated since 2009 suggests revenue-positive consulting operations. Small team of 11-50 makes burn rate manageable, but lack of capital limits growth velocity.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Neatech is a profitable, long-standing consulting firm with real enterprise clients, but its core value proposition of custom AI integration is at high risk of commoditization as AI tooling matures. Medium overall reflects the tension between established cashflows and structural long-term displacement risk."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "linkedin"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor_rating", "employees_exact"],
+    "needs_review": false,
+    "notes": "No CNAIP URL in index. No public careers page found. LinkedIn shows 4 visible employees but lists company size as 11-50. Founded 2009 as custom software firm, now focused on AI agents and automation. Second office in Šumperk (~180km from Prague HQ)."
+  }
+}
