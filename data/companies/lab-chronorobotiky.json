@@ -1,0 +1,126 @@
+{
+  "id": "lab-chronorobotiky",
+  "name": "Laboratoř chronorobotiky",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Research lab at CTU Prague developing methods for long-term autonomous robot deployment through temporal modeling",
+    "description_long": "Chronorobotics Laboratory is part of the Department of Computer Science in the Faculty of Electrical Engineering at the Czech Technical University in Prague. The lab develops methods enabling long-term deployment of autonomous robots in natural environments, focusing on how robots can understand and model temporal dynamics of their surroundings. Research areas include lifelong robot navigation, temporal environment modeling, swarm robotics, and bio-inspired systems. Notable projects include EU FET RoboRoyale (micro-robots in honeybee colonies), SENSORBEES (EU Pathfinder), RoboProx, and participation in the DARPA Subterranean Challenge and Mohammed bin Zayed Robotics Challenge 2020.",
+    "tagline": "Achieving long-term autonomy through understanding of time",
+    "website": "https://chronorobotics.fel.cvut.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["robotics", "ml_ops"],
+    "industries_served": ["robotics", "agriculture", "defense", "environmental_monitoring"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": ["Tomáš Krajník"],
+    "origin_story": "Research group at CTU Prague's Faculty of Electrical Engineering led by Tomáš Krajník, focusing on temporal aspects of robot autonomy. Active at least since the EU FP7 STRANDS project.",
+    "key_milestones": [
+      {"year": 2019, "event": "DARPA Subterranean Challenge Tunnel Circuit participation"},
+      {"year": 2020, "event": "Overall Winner of the Mohammed bin Zayed Robotics Challenge"},
+      {"year": 2020, "event": "DARPA Subterranean Challenge Urban Circuit"},
+      {"year": 2022, "event": "ACM Best IT Thesis Award – IT SPY 2022"},
+      {"year": 2024, "event": "Research paper featured on Science Robotics cover"},
+      {"year": 2024, "event": "ACM Best IT Thesis Award – IT SPY 2024"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": 14,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomáš Krajník", "role": "Principal Investigator / Lab Head", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Tomáš Rouček", "role": "Researcher", "source": "company_website"},
+      {"name": "Filip Majer", "role": "Researcher", "source": "company_website"},
+      {"name": "George Broughton", "role": "Researcher", "source": "company_website"},
+      {"name": "Tomáš Vintr", "role": "Researcher", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://chronorobotics.fel.cvut.cz/collaboration",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "PhD Student – Visual Navigation for Robots", "department": "research", "location": "Prague"},
+      {"title": "PhD Student – Lifelong Visual SLAM in Beehive", "department": "research", "location": "Prague"},
+      {"title": "PhD Student – Computer Vision for Bee Detection", "department": "research", "location": "Prague"},
+      {"title": "PhD Student – Adaptive Mapping for Mobile Robots", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["python", "ros", "c++"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "Overall Winner – Mohammed bin Zayed Robotics Challenge 2020",
+      "DARPA Subterranean Challenge Tunnel Circuit 2019",
+      "DARPA Subterranean Challenge Urban Circuit 2020",
+      "Science Robotics Cover – 2024",
+      "ACM Best IT Thesis Award – IT SPY 2024",
+      "ACM Best IT Thesis Award – IT SPY 2022",
+      "IROS Best Application Paper Nominee"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["ENSTA Paris", "Sant'Anna School of Advanced Studies", "University of Technology of Belfort-Montbéliard", "Middle East Technical University", "University of Durham", "University of Graz"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research lab at CTU Prague. Research output (methods, open-source tools, publications) is not directly commoditizable by foundation models; the lab advances the scientific frontier in robotics and temporal autonomy.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "University research group funded through EU grants (Pathfinder, FET, FP7) and national grants (GAČR). Not operating in a commercial market.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Institutionally backed by CTU Prague and supported by multiple EU and national research grants (EU Pathfinder SENSORBEES, EU FET RoboRoyale, RoboProx, DARPA SubT, GAČR STRoLL). Funding risk is managed at the university level.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "Academic research group with a strong track record of competitive wins (MBZIRC 2020), high-impact publications (Science Robotics), and ongoing EU-funded projects. Risk categories are not applicable to a university lab context."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year", "funding_total_usd", "glassdoor_rating", "employees_exact_verified"],
+    "needs_review": false,
+    "notes": "Lab website last updated January 2025 per Webflow metadata. PI email: tomas.krajnik@fel.cvut.cz. Also affiliated with AI Center FEE CTU (aic.fel.cvut.cz). Employee count estimated from listed team members (14 visible on website)."
+  }
+}
