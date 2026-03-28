@@ -1,0 +1,123 @@
+{
+  "id": "resistant-ai",
+  "name": "Resistant AI",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered document fraud detection and financial crime prevention for financial services",
+    "description_long": "Resistant AI builds AI and machine learning security software that protects financial services firms from document fraud, money laundering, and financial crime. Products include Resistant Documents (detects fake, tampered, or AI-generated PDFs and images in <20 seconds across 500+ document types) and Resistant Transactions (AML and APP fraud detection for transaction monitoring). Founded by the team behind Cognitive Security, which was sold to Cisco in 2013, Resistant AI has 120+ ML patents and has analyzed over 170 million documents. Used by 8,000+ fraud and compliance analysts worldwide.",
+    "tagline": "Check any document, from any country, for fraud",
+    "website": "https://resistant.ai",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["fraud_detection", "document_processing", "ml_ops"],
+    "industries_served": ["fintech", "banking", "insurance", "lending", "real_estate"],
+    "company_type": "scaleup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2019,
+    "founders": ["Martin Rehak"],
+    "origin_story": "Founded in Prague in January 2019 by 9 PhD founders led by Martin Rehak, whose previous AI security startup Cognitive Security was acquired by Cisco in 2013 and became the foundation for Cisco's threat detection platform. Resistant AI applies adversarial ML techniques to the problem of document fraud and financial crime.",
+    "key_milestones": [
+      {"year": 2013, "event": "Founders' previous startup Cognitive Security sold to Cisco"},
+      {"year": 2019, "event": "Resistant AI founded in Prague"},
+      {"year": 2020, "event": "Seed round of $2.75M led by Index Ventures and Credo Ventures"},
+      {"year": 2021, "event": "Series A of $16.6M led by GV (formerly Google Ventures)"},
+      {"year": 2022, "event": "ARR grew 6x YoY, customer base doubled, won ACAMS Digital Crime Fighter of the Year twice"},
+      {"year": 2023, "event": "Series A extended to $27.6M with $11M from Notion Capital; 80+ team members across Prague, London, Brussels, New York"},
+      {"year": 2024, "event": "5-year anniversary and brand refresh; named in AI FinTech 100 for third year running"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": 136,
+    "employee_source": "linkedin",
+    "office_count": 5
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": false},
+    {"city": "New York", "country": "US", "is_hq": true},
+    {"city": "London", "country": "GB", "is_hq": false},
+    {"city": "Brussels", "country": "BE", "is_hq": false},
+    {"city": "San Antonio", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": 30350000,
+    "funding_rounds": [
+      {"date": "2020", "type": "Seed", "amount_usd": 2750000, "lead_investor": "Index Ventures, Credo Ventures"},
+      {"date": "2021-10", "type": "Series A", "amount_usd": 16600000, "lead_investor": "GV (formerly Google Ventures)"},
+      {"date": "2023-06", "type": "Series A Extension", "amount_usd": 11000000, "lead_investor": "Notion Capital"}
+    ],
+    "investors": ["GV (formerly Google Ventures)", "Index Ventures", "Credo Ventures", "Seedcamp", "Notion Capital"],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Martin Rehak", "role": "CEO & Founder", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://resistant.ai/career/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "machine_learning", "api"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "ACAMS Digital Crime Fighter of the Year (2022)",
+      "ACAMS Digital Crime Fighter of the Year (2023)",
+      "The Europas Awards",
+      "AI FinTech 100 (2021, 2022, 2023)",
+      "SOC 2 Type 2 Certification"
+    ],
+    "notable_clients": ["Payoneer", "Habito", "Dun & Bradstreet", "Planet42", "ComplyAdvantage", "Close Brothers", "Finom", "Verto", "LYNK Capital"],
+    "customer_count": null,
+    "partnerships": ["Instabase", "ComplyAdvantage", "Experian", "Certa", "Sikoia", "Lucinity", "Google Cloud Marketplace"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Resistant AI has a deep proprietary moat: 120+ ML patents, 500+ document fraud detectors trained on 170M+ real-world documents, and adversarial ML expertise from 9 PhD founders. Detecting AI-generated document fraud requires continuous retraining against evolving criminal tools—a feedback loop that foundation models cannot easily replicate without the same adversarial training data.",
+    "market_risk": "low",
+    "market_risk_rationale": "Document fraud detection is a regulated, growing market with clear regulatory demand (KYC/KYB compliance). Resistant AI has proven PMF with enterprise clients across lending, banking, and fintech. ARR grew 6x in 2022 and the customer base doubled, indicating strong and sustainable demand.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Well-funded with $30M+ from top-tier VCs (GV, Index Ventures, Notion Capital). Strong ARR growth signals (6x YoY in 2022) and a large enterprise customer base suggest the company is on a path to sustainability.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Deep technical moat (120+ patents, adversarial ML), proven enterprise adoption (8,000+ analysts), strong VC backing from GV and Index Ventures, and a regulatory compliance tailwind make Resistant AI a resilient bet in the financial crime prevention space."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["company_website", "linkedin", "company_press_releases"],
+    "fields_missing": ["glassdoor_rating", "open_roles_count", "revenue_estimate_usd", "exact_seed_date"],
+    "needs_review": false,
+    "notes": "Prague is the founding city and a major engineering hub; LinkedIn lists New York as primary HQ. 9 PhD founders but only Martin Rehak is publicly named as CEO. Total funding of ~$30.35M is the sum of the $2.75M seed and the $27.6M Series A total (including the $11M extension). The ARR 6x growth figure is from June 2023 press release referencing 2022 performance."
+  }
+}
