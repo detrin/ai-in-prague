@@ -1,0 +1,118 @@
+{
+  "id": "mediaboard",
+  "name": "Mediaboard",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:00:00Z",
+
+  "overview": {
+    "description": "Media intelligence platform for PR and communications professionals",
+    "description_long": "Mediaboard is a leading media intelligence platform that helps PR and communications professionals monitor online, traditional, and social media. The platform provides media monitoring, social listening, media analytics, newsroom management, media contact database (Medialist), email distribution, and MAIA – an AI assistant for automated media summaries and analysis. Trusted by 2000+ brands, Mediaboard operates across Central Europe with offices in Czech Republic, Poland, Slovakia, Slovenia, and Croatia.",
+    "tagline": "The ultimate PR tool for Media Intelligence",
+    "website": "https://mediaboard.com",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/mediaboard"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["nlp", "automation", "data_engineering"],
+    "industries_served": ["pr_communications", "marketing", "media", "government"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2015,
+    "founders": ["Tomas Berger", "Michal Danilak"],
+    "origin_story": "Founded in 2015 in Prague by Tomas Berger and Michal Danilak with a shared vision to build innovative tools that make PR more efficient.",
+    "key_milestones": [
+      {"year": 2015, "event": "Founded in Prague by Tomas Berger and Michal Danilak"},
+      {"year": 2024, "event": "Ranked 21st fastest growing tech company in Central Europe by Deloitte Technology Fast 50"},
+      {"year": 2024, "event": "Joined FIBEP – world media intelligence association (130+ members in 60+ countries)"},
+      {"year": 2026, "event": "Launched MAIA AI Assistant and Mediaboard Insights"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 5
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Warsaw", "country": "PL", "is_hq": false},
+    {"city": "Bratislava", "country": "SK", "is_hq": false},
+    {"city": "Ljubljana", "country": "SI", "is_hq": false},
+    {"city": "Zagreb", "country": "HR", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Tomas Berger", "role": "CEO, Co-Founder", "source": "company_website"},
+      {"name": "Michal Danilak", "role": "CTO, Co-Founder", "source": "company_website"},
+      {"name": "Milos Mysicka", "role": "COO, Mediaboard Group", "source": "company_website"},
+      {"name": "Marcin Szczupak", "role": "CEO, Mediaboard Poland", "source": "company_website"},
+      {"name": "Lubomir Simasek", "role": "CEO, Mediaboard Slovakia", "source": "company_website"},
+      {"name": "Tomaz Berkopec", "role": "CEO, Mediaboard Slovenia", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://mediaboard.com/career/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Reviews/Mediaboard-Reviews-E10080124.htm"
+  },
+
+  "recognition": {
+    "awards": [
+      "Deloitte Technology Fast 50 – 21st fastest growing tech company in Central Europe",
+      "#1 PR tool in Czech Republic"
+    ],
+    "notable_clients": [],
+    "customer_count": 2000,
+    "partnerships": ["FIBEP (World Media Intelligence Association)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core value is proprietary media data aggregation and monitoring infrastructure spanning online, print, and social media across 5 Central European markets – hard to replicate. However, the AI summarization and analysis features (MAIA) are susceptible to commoditization by general LLMs. The data moat and regional media coverage provide partial protection.",
+    "market_risk": "low",
+    "market_risk_rationale": "Established and mature PR/media intelligence market with 2000+ paying brand customers. Mediaboard has been growing consistently since 2015 and operates at significant regional scale, indicating strong product-market fit and sticky customer relationships.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No external funding rounds identified – likely bootstrapped. However, 11 years in operation with 100+ employees and 5 offices suggests solid organic revenue. Deloitte Fast 50 recognition confirms significant revenue growth. Bootstrapped status reduces dilution risk but limits capital for rapid expansion.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "Strong regional market position and customer base offset the medium risk of AI feature commoditization. The company's long operational history and self-funded growth indicate financial stability. Main risk is that AI-native competitors or general-purpose LLMs could erode the MAIA AI value proposition over time."
+  },
+
+  "metadata": {
+    "data_quality": "high",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "open_roles_count", "glassdoor_rating", "employees_exact"],
+    "needs_review": false,
+    "notes": "Company founded in 2015 as Mediaboard Group with HQ in Prague. Has grown to 5 offices across Central Europe. 100+ employees per company website. MAIA is their AI assistant product for media summaries. Glassdoor URL found (E10080124) but rating inaccessible due to login wall. No external funding identified – likely bootstrapped. Website address: Nádražní 762/32, 150 00 Praha."
+  }
+}
