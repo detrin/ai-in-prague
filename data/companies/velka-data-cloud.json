@@ -1,0 +1,106 @@
+{
+  "id": "velka-data-cloud",
+  "name": "Velká data a cloud computing",
+  "category": "company",
+  "scraped_at": "2026-03-28T22:35:00Z",
+
+  "overview": {
+    "description": "BDC Group research unit at ČVUT CIIRC specializing in cloud computing and conversational AI",
+    "description_long": "The BDC (Big Data and Cloud Computing) Group at ČVUT's Czech Institute of Informatics, Robotics and Cybernetics (CIIRC) specializes in Cloud Computing with a strong emphasis on advancing conversational AI research. Research areas include Machine Learning (ML), Natural Language Processing (NLP), Natural Language Generation (NLG), Dialog Management, and Automatic Speech Recognition (ASR). The group collaborates closely with industry partners to develop personalized virtual voice assistants tailored to sectors like automotive and healthcare. Notable projects include Alquist (conversational AI system) and Promethist. The group also actively supports the e-Club student incubator, fostering connections between students and industry.",
+    "tagline": "Cloud Computing and Conversational AI Research",
+    "website": "https://www.ciirc.cvut.cz/cs/teams-labs/intsys/bdc-velka-data-a-cloud-computing/",
+    "cnaip_url": "https://www.cnaip.cz/en/entity/big-data-and-cloud-computing"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["nlp", "speech", "generative_ai", "ml_ops"],
+    "industries_served": ["automotive", "healthcare", "science_research"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": "Research group within the INTSYS (Intelligent Systems) department of ČVUT CIIRC (Czech Institute of Informatics, Robotics and Cybernetics), Czech Technical University in Prague.",
+    "key_milestones": []
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "cnaip",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (ČVUT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Jan Šedivý", "role": "Group Head / PI", "source": "cnaip"}
+    ],
+    "notable_people": [
+      {"name": "Jakub Konrád", "role": "PhD student", "source": "company_website"},
+      {"name": "Petr Lorenc", "role": "PhD student", "source": "company_website"},
+      {"name": "Jan Pichl", "role": "PhD student", "source": "company_website"},
+      {"name": "Ondřej Kobza", "role": "PhD student", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.ciirc.cvut.cz/en/about/open-positions/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["python", "nlp", "llm", "rag", "asr"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["e-Club student incubator"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "University research group conducting basic, applied and experimental AI research; not a commercial product competing in the market.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Academic research group at ČVUT CIIRC, funded through institutional grants and university budget; not subject to commercial market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Part of ČVUT CIIRC, a well-established Czech university research institute; funding is institutional and grant-based, not venture or revenue dependent.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "As a university research group under ČVUT CIIRC, commercial risk categories are not applicable. The group has stable academic funding and institutional backing."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "employees_exact", "open_roles_count", "glassdoor"],
+    "needs_review": true,
+    "notes": "Categorized as 'company' in the index but is clearly a university research group (BDC = Big Data and Cloud Computing) within ČVUT CIIRC's INTSYS department. Group head Jan Šedivý's ORCID: 0000-0003-0626-2303. Projects: Alquist (conversational AI), Promethist. Research areas: ML, NLP, NLG, Dialog Management, ASR, LLM fine-tuning, RAG, synthetic data generation."
+  }
+}
