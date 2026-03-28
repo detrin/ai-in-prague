@@ -1,0 +1,106 @@
+{
+  "id": "wopee-io",
+  "name": "Wopee.io",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI testing agents for automated web app test creation and self-healing regression coverage",
+    "description_long": "Wopee.io (wopee labs s.r.o.) builds AI-powered autonomous testing agents that explore web applications, generate end-to-end Playwright tests, and self-heal when UI changes. Founded in Prague in 2023, the platform eliminates manual test writing by using frontier LLMs (OpenAI, Azure AI, Google Cloud, Anthropic) to identify critical user paths, auto-generate test suites, and maintain them continuously. Products include AI Testing Agents, Visual Regression Testing, and a Playwright AI Bot. Integrates with GitHub Actions, Jenkins, GitLab, Bitbucket, Cypress, Robot Framework, and WebdriverIO. Offers both cloud-hosted and on-premise deployment.",
+    "tagline": "Test better. Ship faster.",
+    "website": "https://wopee.io",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["automation", "generative_ai"],
+    "industries_served": ["software_development", "fintech", "igaming", "sports_tech", "e-commerce"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2023,
+    "founders": ["Marcel Veselka"],
+    "origin_story": "Born from decades of hands-on experience in software testing and test automation. Founded in February 2023 in Prague with the mission to eliminate testing as a bottleneck in engineering teams.",
+    "key_milestones": [
+      {"year": 2023, "event": "wopee labs s.r.o. incorporated in Prague (Feb 1, 2023)"},
+      {"year": 2025, "event": "Launched AI Testing Agents product with LLM-powered autonomous test generation"},
+      {"year": 2025, "event": "Signed customers including Livesport, Multitude, and SYNOT TECH"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Marcel Veselka", "role": "CEO", "source": "company_website"},
+      {"name": "Jan Beránek", "role": "CXO", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": ["playwright", "python", "typescript", "github_actions", "openai", "azure_ai", "graphql", "cypress", "robot_framework"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Livesport", "Multitude", "SYNOT TECH"],
+    "customer_count": null,
+    "partnerships": ["Microsoft Azure AI", "OpenAI", "Google Cloud", "Anthropic"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "Core product leverages frontier LLMs (OpenAI, Azure, Anthropic) for test generation, meaning the underlying AI is commoditized. Value-add lies in Playwright workflow orchestration, CI/CD integration, self-healing logic, and the test management platform — but as LLMs get better at coding and testing natively, standalone tools like this face pressure from Copilot and similar IDE-embedded AI.",
+    "market_risk": "medium",
+    "market_risk_rationale": "QA automation is a real, growing market, but intensely competitive. Microsoft (Playwright), Google, and well-funded startups like Mabl, Testim, and Reflect.run all play here. Wopee.io differentiates on AI-native autonomy and no-code ease, but as a tiny startup it faces resource constraints competing against better-funded peers.",
+    "funding_risk": "high",
+    "funding_risk_rationale": "Founded February 2023, very small team (2 named leaders), no known external funding or investment rounds discovered. Likely bootstrapped or pre-seed, with no public runway signals. High risk of undercapitalization given competitive landscape.",
+    "overall_risk": "high",
+    "overall_risk_rationale": "While Wopee.io has a real product with paying enterprise customers (Livesport, Multitude, SYNOT TECH) and a clear AI-native value proposition, the combination of no known funding, tiny team, highly competitive market, and commoditizing AI-for-testing trend creates high risk for job seekers evaluating stability and longevity."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "czech_business_registry_ares", "github"],
+    "fields_missing": ["funding_total_usd", "employees_exact", "glassdoor_rating", "open_roles_count", "careers_url", "founded_year_exact"],
+    "needs_review": false,
+    "notes": "Reg. No. 17997224, incorporated 2023-02-01. Address: Pujmanové 883/23, Praha 4 140 00. GitHub: github.com/wopee-io (21 repos). LinkedIn: linkedin.com/company/wopee. No CNAIP entry found. No external funding sources found — likely bootstrapped."
+  }
+}
