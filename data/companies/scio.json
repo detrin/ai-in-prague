@@ -1,0 +1,115 @@
+{
+  "id": "scio",
+  "name": "Scio",
+  "category": "company",
+  "scraped_at": "2026-03-28T20:50:00Z",
+
+  "overview": {
+    "description": "Czech edtech company pioneering AI-powered educational tools and assessments",
+    "description_long": "Scio has been innovating in Czech education since 1995. They run the Národní srovnávací zkoušky (NSZ) — national standardized entrance exams used by 30,000+ university applicants annually — and have expanded into AI-driven products including ScioBot (an AI lesson-preparation generator used by 90,000+ teachers across 4,000+ schools), ScioLink (an online exam platform with AI-based proctoring), and the 'Učím s AI' initiative promoting AI use in classrooms. They also operate a network of 25+ innovative ScioŠkoly schools across the Czech Republic.",
+    "tagline": "Vzděláváme pro budoucnost (We educate for the future)",
+    "website": "https://www.scio.cz",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/scio"
+  },
+
+  "classification": {
+    "business_type": "b2b_saas",
+    "ai_focus": ["generative_ai", "automation", "ml_ops"],
+    "industries_served": ["education"],
+    "company_type": "enterprise",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1995,
+    "founders": ["Ondřej Šteffl"],
+    "origin_story": "Founded by Ondřej Šteffl in 1995 with the idea of creating independent, fair standardized university entrance exams. Grew from 2 people to hundreds of employees over 30 years, expanding into schools, testing tools, and AI-powered edtech products.",
+    "key_milestones": [
+      {"year": 1995, "event": "Founded in Prague by Ondřej Šteffl"},
+      {"year": 2000, "event": "Launched Národní srovnávací zkoušky (NSZ) for university admissions"},
+      {"year": 2014, "event": "Founded first ScioŠkola innovative school"},
+      {"year": 2023, "event": "Launched ScioBot AI lesson-preparation generator for teachers"},
+      {"year": 2024, "event": "Won AI Awards 2024 — 1st place in 'AI in Education' category"},
+      {"year": 2026, "event": "Won Atmoskop Zaměstnavatel roku 2026 in medium-sized companies category"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "subscription_saas"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ondřej Šteffl", "role": "Founder", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.scio.cz/prace-u-nas",
+    "open_roles_count": 14,
+    "open_roles": [
+      {"title": "Průvodce ve ScioŠkole Praha Jarov", "department": "education", "location": "Prague"},
+      {"title": "Asistent/asistentka pedagoga", "department": "education", "location": "Prague"},
+      {"title": "Vedení nejstarší ScioŠkoly Brno Herspice", "department": "management", "location": "Brno"}
+    ],
+    "tech_stack": [],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [
+      "AI Awards 2024 — 1st place in AI in Education",
+      "Atmoskop Zaměstnavatel roku 2026 (medium-sized companies)"
+    ],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["MKP", "SKIP"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "ScioBot is effectively an AI lesson-plan generator, a use-case that foundation models can replicate easily. However, Scio's 30-year brand trust in Czech education, 90,000+ teacher user base, and integration with their testing ecosystem create meaningful lock-in that buys time.",
+    "market_risk": "low",
+    "market_risk_rationale": "Scio holds a dominant position in Czech university entrance exams (NSZ) used by 30,000+ students annually — a regulated, recurring market. The broader edtech AI market is growing, and ScioBot's adoption (4,000+ schools) demonstrates proven product-market fit.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "Bootstrapped 30-year-old company with diversified, recurring revenue streams (exam fees, school tuition, SaaS subscriptions). No VC funding required; business appears self-sustaining.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong incumbent position in Czech education with diversified revenue across testing, schools, and AI SaaS products. AGI displacement risk to ScioBot is real but manageable given the company's brand, scale, and ability to iterate; core exam business is not AI-displaceable."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "cnaip", "atmoskop"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "glassdoor_rating", "tech_stack", "current_ceo"],
+    "needs_review": false,
+    "notes": "Company website uses Czech language. 'Stovky zaměstnanců' = hundreds of employees, mapped to 201-500. Scio also operates ScioŠkoly school network across Czech Republic (Prague, Brno and other cities). ScioBot usage stats from sciobot.cz: 90,000+ active teachers, 400,000+ generated lesson plans, 4,000+ registered schools."
+  }
+}
