@@ -1,0 +1,117 @@
+{
+  "id": "strv",
+  "name": "STRV",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Digital product development company offering software design, engineering, and AI/ML services",
+    "description_long": "STRV is a software design and engineering team founded in Prague in 2004. They design, build, and scale web and mobile products using emerging technologies including AI and data science. Services span product management, UX/UI design, mobile app development (iOS and Android), web development, custom AI/ML solutions, data engineering, and cloud solutions. Clients have raised over $12 billion in funding and include ClassDojo, Barnes & Noble, Minted, Barry's, Autodesk, and The Athletic. STRV operates 5 offices across Prague, Brno, Los Angeles, San Francisco, and New York.",
+    "tagline": "Digital Product Development",
+    "website": "https://www.strv.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "consulting",
+    "ai_focus": ["generative_ai", "ml_ops", "data_engineering", "automation"],
+    "industries_served": ["technology", "fitness", "media", "e-commerce", "education", "healthcare"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2004,
+    "founders": ["Lubo Smid"],
+    "origin_story": "Founded in 2004 in Prague by four individuals (initials D, M, L, P) who set out to build a leading tech company of smart people. Lubo Smid (L) serves as CEO. Incorporated as STRV, inc. in the US.",
+    "key_milestones": [
+      {"year": 2004, "event": "Founded in Prague, Czech Republic"},
+      {"year": 2018, "event": "Prague office featured on Officelovin"},
+      {"year": 2024, "event": "Team represents 22 nationalities with 200+ people"},
+      {"year": 2025, "event": "Named Clutch Global Leader, Top 1% of B2B companies"},
+      {"year": 2025, "event": "Deloitte Fast 500 EMEA recognition"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "201-500",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 5
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true},
+    {"city": "Brno", "country": "CZ", "is_hq": false},
+    {"city": "Los Angeles", "country": "US", "is_hq": false},
+    {"city": "San Francisco", "country": "US", "is_hq": false},
+    {"city": "New York", "country": "US", "is_hq": false}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "consulting_services"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Lubo Smid", "role": "CEO", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://www.strv.com/careers",
+    "open_roles_count": 7,
+    "open_roles": [
+      {"title": "Engineering role (x2)", "department": "engineering", "location": "Prague"},
+      {"title": "People Operations role (x2)", "department": "hr", "location": "Prague"},
+      {"title": "CEO Office role", "department": "leadership", "location": "Prague"},
+      {"title": "Finance role", "department": "finance", "location": "Prague"},
+      {"title": "Design role", "department": "design", "location": "Prague"}
+    ],
+    "tech_stack": ["ios", "android", "react", "nodejs", "python", "aws", "typescript"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": 4.9,
+    "review_count": null,
+    "recommend_pct": 99,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["Deloitte Fast 500 EMEA", "Clutch Global Leader - Top 1% of B2B Companies"],
+    "notable_clients": ["ClassDojo", "Barnes & Noble", "Minted", "Barry's", "MedMen", "Autodesk", "The Athletic"],
+    "customer_count": null,
+    "partnerships": []
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "STRV is a consulting/services firm offering custom software development including AI/ML — they sell expertise and execution rather than a proprietary product. While AI tools can automate some development tasks, STRV's value lies in design thinking, project management, and domain expertise. They also actively offer AI/ML services, positioning themselves as AI-enabled rather than displaced.",
+    "market_risk": "low",
+    "market_risk_rationale": "Digital product development is a large, proven market with consistent demand. STRV has operated since 2004 with 200+ people, Clutch Global Leader status, and clients who have collectively raised $12B in funding — indicating strong PMF and sustained market demand.",
+    "funding_risk": "low",
+    "funding_risk_rationale": "STRV appears bootstrapped (no funding rounds identified), having been profitable and self-sustaining since 2004. With 200+ employees and 20+ years in business, financial risk is low.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "STRV's two-decade track record, 200+ person team, blue-chip client roster, and pivot toward AI/ML services position it well. Main risk is moderate AI displacement of software development labor, but this is offset by strong brand reputation and shift toward higher-value AI consulting."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "employees_exact", "glassdoor_url", "glassdoor_review_count", "founders_full_names"],
+    "needs_review": false,
+    "notes": "Founders known only by initials D+M+L+P from website. Lubo Smid confirmed as CEO. No funding rounds identified — company appears bootstrapped. Glassdoor rating (4.9) and recommend pct (99%) sourced from company website; review count not available without direct Glassdoor access."
+  }
+}
