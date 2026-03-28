@@ -1,0 +1,110 @@
+{
+  "id": "automotive-rd-lab",
+  "name": "Automotive R&D 4.0 LAB",
+  "category": "research_group",
+  "scraped_at": "2026-03-28T19:15:00Z",
+
+  "overview": {
+    "description": "Joint research lab of CTU Prague and ŠKODA AUTO focused on automotive HMI, vehicle simulators, and AI-assisted driving systems",
+    "description_long": "The Automotive R&D 4.0 Laboratory is a joint workplace of the Czech Technical University (CIIRC) and Technical Development of ŠKODA AUTO a.s. The lab focuses on research and pre-development of systems and functions for the automotive industry, in particular advanced vehicle simulators. Research topics include automotive concept development, HMI testing and assessment, development of interactive vehicle simulators, simulator testing, and development of methodologies for optimization of driver assistance systems. The team carries out commercial and R&D projects for ŠKODA AUTO, including user acceptance testing of innovative in-vehicle features, design of novel user interface elements, and technology transfer in vehicle simulator development.",
+    "tagline": "Applied automotive research at the intersection of CTU and ŠKODA AUTO",
+    "website": "https://www.ciirc.cvut.cz/teams-labs/intsys/its-inteligentni-systemy-v-doprave/",
+    "cnaip_url": "https://www.cnaip.cz/cs/entity/automotive-rd-4-0-lab"
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["automation", "other"],
+    "industries_served": ["automotive", "electronics", "education"],
+    "company_type": "research_lab",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": "Established as a joint workplace of Czech Technical University (CIIRC / Faculty of Transportation Sciences) and ŠKODA AUTO Technical Development to bridge academic research and automotive industry R&D.",
+    "key_milestones": []
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 10,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Czech Technical University in Prague (CIIRC)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Petr Bouchner", "role": "Head of Team", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Jan Novotný", "role": "Researcher / Contact", "source": "cnaip"},
+      {"name": "Jaroslav Machan", "role": "Researcher", "source": "company_website"},
+      {"name": "Stanislav Novotný", "role": "Researcher", "source": "company_website"},
+      {"name": "Josef Mík", "role": "Researcher", "source": "company_website"},
+      {"name": "David Lehet", "role": "Researcher / PhD student", "source": "company_website"},
+      {"name": "Alina Mashko", "role": "Researcher", "source": "company_website"},
+      {"name": "Ondřej Paprčka", "role": "Researcher / PhD student", "source": "company_website"},
+      {"name": "Přemysl Toman", "role": "Researcher / PhD student", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://www.ciirc.cvut.cz/en/about/open-positions/",
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["ŠKODA AUTO a.s."],
+    "customer_count": null,
+    "partnerships": ["ŠKODA AUTO a.s. Technical Development", "Faculty of Transportation Sciences (FD ČVUT)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group embedded in CTU/CIIRC; not a commercial product company susceptible to AGI commoditization.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research lab funded through university budget and industry partnership with ŠKODA AUTO; not exposed to traditional market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Sustained by dual institutional backing—Czech Technical University (CIIRC) and ŠKODA AUTO Technical Development—providing stable research funding.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "University research lab with a strong industry anchor in ŠKODA AUTO. Risk categories do not apply in the same way as for commercial entities."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["cnaip", "company_website"],
+    "fields_missing": ["founded_year", "funding_total_usd", "open_roles_count", "glassdoor"],
+    "needs_review": false,
+    "notes": "Lab is part of the ITS (Intelligent Transportation Systems) group within INTSYS department at CIIRC CTU Prague. 10 permanent employees (5 at CIIRC, 5 at FD), including 7 PhD students. Primary industry partner is ŠKODA AUTO a.s. Address: Jugoslávských partyzánů 1580, 160 00 Praha. Contact: jan.novotny@cvut.cz"
+  }
+}

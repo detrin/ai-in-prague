@@ -1,9 +1,25 @@
 [
   {
+    "id": "2n-telekomunikace",
+    "name": "2N TELEKOMUNIKACE",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "dry_run"
+  },
+  {
     "id": "2t-consulting",
     "name": "2T Consulting",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "dry_run"
+  },
+  {
+    "id": "accenture",
+    "name": "Accenture",
+    "category": "company",
+    "source": "other",
     "cnaip_url": null,
     "status": "dry_run"
   },
@@ -24,6 +40,14 @@
     "status": "dry_run"
   },
   {
+    "id": "adaptive-data-mgmt",
+    "name": "Adaptive Data Management Research Group",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "dry_run"
+  },
+  {
     "id": "adastra",
     "name": "Adastra",
     "category": "company",
@@ -40,10 +64,42 @@
     "status": "dry_run"
   },
   {
+    "id": "advokatni-asoc-ai",
+    "name": "Advokátní asociace pro AI",
+    "category": "initiative",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "dry_run"
+  },
+  {
     "id": "agentfly-tech",
     "name": "AgentFly Technologies",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "dry_run"
+  },
+  {
+    "id": "ai-detem",
+    "name": "AI dětem",
+    "category": "initiative",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "dry_run"
+  },
+  {
+    "id": "ai-inst-transform",
+    "name": "AI Institutional Transformation Research Group",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "dry_run"
+  },
+  {
+    "id": "ai-institute",
+    "name": "AI Institute",
+    "category": "research_group",
+    "source": "other",
     "cnaip_url": null,
     "status": "dry_run"
   },
@@ -60,6 +116,30 @@
     "name": "AI-TOMATICA",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "dry_run"
+  },
+  {
+    "id": "aic-optimalizace",
+    "name": "AIC Optimalizace",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "dry_run"
+  },
+  {
+    "id": "aic-strojove-uceni",
+    "name": "AIC Strojové učení",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "dry_run"
+  },
+  {
+    "id": "aic-teorie-her",
+    "name": "AIC Teorie her",
+    "category": "research_group",
+    "source": "other",
     "cnaip_url": null,
     "status": "dry_run"
   },
@@ -120,12 +200,28 @@
     "status": "dry_run"
   },
   {
+    "id": "alignment-complex",
+    "name": "Alignment of Complex Systems Research Group",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "alphaai",
     "name": "AlphaAI",
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
     "status": "dry_run"
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
   },
   {
     "id": "analysis-biomed-data",
@@ -168,6 +264,14 @@
     "status": "dry_run"
   },
   {
+    "id": "apple",
+    "name": "Apple",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "applifting",
     "name": "Applifting",
     "category": "company",
@@ -184,6 +288,14 @@
     "status": "dry_run"
   },
   {
+    "id": "arbo-technologies",
+    "name": "ARBO Technologies",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "aricoma",
     "name": "Aricoma",
     "category": "company",
@@ -198,6 +310,14 @@
     "source": "cnaip",
     "cnaip_url": null,
     "status": "dry_run"
+  },
+  {
+    "id": "atlas-group",
+    "name": "ATLAS GROUP",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
   },
   {
     "id": "atollon",
@@ -224,12 +344,28 @@
     "status": "dry_run"
   },
   {
+    "id": "automotive-rd-lab",
+    "name": "Automotive R&D 4.0 LAB",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "done"
+  },
+  {
     "id": "autonomous-robots",
     "name": "Autonomus Robots and Agents",
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
     "status": "dry_run"
+  },
+  {
+    "id": "avvoka",
+    "name": "Avvoka",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
   },
   {
     "id": "aws",
@@ -248,12 +384,28 @@
     "status": "dry_run"
   },
   {
+    "id": "barclays",
+    "name": "Barclays",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "beey-ai",
     "name": "Beey AI",
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
     "status": "dry_run"
+  },
+  {
+    "id": "behavio-labs",
+    "name": "Behavio Labs",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
   },
   {
     "id": "beherobot",
@@ -427,12 +579,52 @@
     "status": "done"
   },
   {
-    "id": "ctr-tech-env-ethics",
-    "name": "Center for Technology and Environmental Ethics",
+    "id": "centrum-karla-capka",
+    "name": "Centrum Karla Čapka",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "ceska-asoc-ai",
+    "name": "Česká asociace umělé inteligence",
+    "category": "initiative",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "ceska-sporitelna",
+    "name": "Česká spořitelna",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "ceske-radiokom",
+    "name": "České Radiokomunikace",
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
-    "status": "done"
+    "status": "pending"
+  },
+  {
+    "id": "cetin",
+    "name": "CETIN",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "cez-trading",
+    "name": "ČEZ Trading",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
   },
   {
     "id": "cisco",
@@ -467,6 +659,22 @@
     "status": "done"
   },
   {
+    "id": "cloudtalk",
+    "name": "CloudTalk",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "cnaip",
+    "name": "Česká národní AI platforma",
+    "category": "initiative",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "colours-of-data",
     "name": "Colours of Data",
     "category": "company",
@@ -481,6 +689,14 @@
     "source": "cnaip",
     "cnaip_url": null,
     "status": "done"
+  },
+  {
+    "id": "comp-psychometrics",
+    "name": "Computational Psychometrics Group",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
   },
   {
     "id": "complexity",
@@ -515,12 +731,36 @@
     "status": "done"
   },
   {
+    "id": "csob",
+    "name": "ČSOB",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "ctr-tech-env-ethics",
+    "name": "Center for Technology and Environmental Ethics",
+    "category": "company",
+    "source": "cnaip",
+    "cnaip_url": null,
+    "status": "done"
+  },
+  {
     "id": "cue-ai",
     "name": "Cue AI",
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
     "status": "done"
+  },
+  {
+    "id": "custom-ink",
+    "name": "Custom Ink",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
   },
   {
     "id": "cyber-global",
@@ -537,6 +777,14 @@
     "source": "cnaip",
     "cnaip_url": null,
     "status": "done"
+  },
+  {
+    "id": "czechitas",
+    "name": "Czechitas",
+    "category": "initiative",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
   },
   {
     "id": "data-mind",
@@ -724,6 +972,14 @@
     "status": "done"
   },
   {
+    "id": "digitalnihr",
+    "name": "DigitálníHR",
+    "category": "company",
+    "source": "cnaip",
+    "cnaip_url": null,
+    "status": "done"
+  },
+  {
     "id": "digiteq-automotive",
     "name": "Digiteq Automotive",
     "category": "company",
@@ -734,14 +990,6 @@
   {
     "id": "digitoo",
     "name": "Digitoo",
-    "category": "company",
-    "source": "cnaip",
-    "cnaip_url": null,
-    "status": "done"
-  },
-  {
-    "id": "digitalnihr",
-    "name": "DigitálníHR",
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
@@ -763,6 +1011,14 @@
     "cnaip_url": "https://www.cnaip.cz/cs/entity/directcase",
     "status": "done",
     "website_url": "https://www.directcase.ai"
+  },
+  {
+    "id": "diribet",
+    "name": "Diribet",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
   },
   {
     "id": "distudero",
@@ -885,6 +1141,14 @@
     "status": "done"
   },
   {
+    "id": "eset",
+    "name": "ESET",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "everconn-ai",
     "name": "EverConn.AI",
     "category": "company",
@@ -917,6 +1181,14 @@
     "status": "done"
   },
   {
+    "id": "filevine",
+    "name": "Filevine",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "filuta-ai",
     "name": "Filuta AI",
     "category": "company",
@@ -939,6 +1211,22 @@
     "source": "cnaip",
     "cnaip_url": null,
     "status": "done"
+  },
+  {
+    "id": "fla-robotics",
+    "name": "FLÁ Robotics",
+    "category": "company",
+    "source": "cnaip",
+    "cnaip_url": null,
+    "status": "done"
+  },
+  {
+    "id": "flo-group",
+    "name": "FLO Group",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
   },
   {
     "id": "flowmon-networks",
@@ -965,16 +1253,24 @@
     "status": "done"
   },
   {
-    "id": "fla-robotics",
-    "name": "FLÁ Robotics",
+    "id": "forloop-ai",
+    "name": "Forloop.ai",
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
     "status": "done"
   },
   {
-    "id": "forloop-ai",
-    "name": "Forloop.ai",
+    "id": "futugen",
+    "name": "FutuGen",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "g2oat",
+    "name": "Grafy hry optimalizace algoritmy teoretická informatika (G²OAT)",
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
@@ -987,6 +1283,14 @@
     "source": "cnaip",
     "cnaip_url": null,
     "status": "done"
+  },
+  {
+    "id": "gen-digital",
+    "name": "Gen Digital",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
   },
   {
     "id": "geneea-analytics",
@@ -1038,6 +1342,14 @@
     "website_url": "https://goodvisionlive.com"
   },
   {
+    "id": "google",
+    "name": "Google",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "gopas",
     "name": "GOPAS",
     "category": "company",
@@ -1045,14 +1357,6 @@
     "cnaip_url": null,
     "status": "done",
     "website_url": "https://www.gopas.cz"
-  },
-  {
-    "id": "g2oat",
-    "name": "Grafy hry optimalizace algoritmy teoretická informatika (G²OAT)",
-    "category": "company",
-    "source": "cnaip",
-    "cnaip_url": null,
-    "status": "done"
   },
   {
     "id": "grove-tech-ai",
@@ -1120,8 +1424,24 @@
     "status": "done"
   },
   {
+    "id": "ida",
+    "name": "Intelligent Data Analysis (IDA)",
+    "category": "company",
+    "source": "cnaip",
+    "cnaip_url": null,
+    "status": "done"
+  },
+  {
     "id": "imagemetry",
     "name": "ImageMetry",
+    "category": "company",
+    "source": "cnaip",
+    "cnaip_url": null,
+    "status": "done"
+  },
+  {
+    "id": "impact",
+    "name": "Intelligent Machine Perception (IMPACT)",
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
@@ -1160,14 +1480,6 @@
     "status": "done"
   },
   {
-    "id": "inteligentni-mobilni",
-    "name": "Inteligentní a mobilní robotika",
-    "category": "company",
-    "source": "cnaip",
-    "cnaip_url": null,
-    "status": "done"
-  },
-  {
     "id": "inteligentni-isi",
     "name": "Inteligentní systémy pro průmysl (ISI)",
     "category": "company",
@@ -1176,16 +1488,8 @@
     "status": "done"
   },
   {
-    "id": "ida",
-    "name": "Intelligent Data Analysis (IDA)",
-    "category": "company",
-    "source": "cnaip",
-    "cnaip_url": null,
-    "status": "done"
-  },
-  {
-    "id": "impact",
-    "name": "Intelligent Machine Perception (IMPACT)",
+    "id": "inteligentni-mobilni",
+    "name": "Inteligentní a mobilní robotika",
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
@@ -1198,6 +1502,14 @@
     "source": "cnaip",
     "cnaip_url": null,
     "status": "done"
+  },
+  {
+    "id": "isee-ai",
+    "name": "ISEE AI",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
   },
   {
     "id": "iterait",
@@ -1224,12 +1536,28 @@
     "status": "done"
   },
   {
+    "id": "katedra-siret",
+    "name": "Katedra softwarového inženýrství (SIRET)",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "keboola",
     "name": "Keboola",
     "category": "company",
     "source": "cnaip",
     "cnaip_url": null,
     "status": "done"
+  },
+  {
+    "id": "kentino",
+    "name": "KENTINO s.r.o.",
+    "category": "company",
+    "source": "startupjobs",
+    "cnaip_url": null,
+    "status": "pending"
   },
   {
     "id": "kiwi-com",
@@ -1264,6 +1592,22 @@
     "status": "done"
   },
   {
+    "id": "kooperativa",
+    "name": "Kooperativa",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "kosik-cz",
+    "name": "Košík.cz",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "kpmg-ceska",
     "name": "KPMG Česká republika",
     "category": "company",
@@ -1296,6 +1640,30 @@
     "status": "done"
   },
   {
+    "id": "lab-chronorobotiky",
+    "name": "Laboratoř chronorobotiky",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "lab-limess",
+    "name": "Laboratoř LIMESS",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "lab-sitovy-provoz",
+    "name": "Laboratoř monitorování síťového provozu",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "lakmoos-ai",
     "name": "Lakmoos AI",
     "category": "company",
@@ -1319,6 +1687,14 @@
     "source": "cnaip",
     "cnaip_url": null,
     "status": "done"
+  },
+  {
+    "id": "livesport",
+    "name": "Livesport",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
   },
   {
     "id": "logics",
@@ -1417,6 +1793,14 @@
     "status": "pending"
   },
   {
+    "id": "mendeor-institute",
+    "name": "Mendeor Institute",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "meta-exponential",
     "name": "Meta Exponential",
     "category": "company",
@@ -1429,6 +1813,14 @@
     "name": "Mews",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "category": "company",
+    "source": "other",
     "cnaip_url": null,
     "status": "pending"
   },
@@ -1457,10 +1849,34 @@
     "status": "pending"
   },
   {
+    "id": "ml-cig",
+    "name": "Machine Learning and Computational Intelligence Group (ML-CIG)",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "moje-srdce",
     "name": "Moje srdce",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "msd",
+    "name": "MSD",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "muzeum-prahy",
+    "name": "Muzeum Prahy",
+    "category": "initiative",
+    "source": "other",
     "cnaip_url": null,
     "status": "pending"
   },
@@ -1497,6 +1913,14 @@
     "status": "pending"
   },
   {
+    "id": "neurona-lab",
+    "name": "Neurona Lab",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "neuronsw",
     "name": "NeuronSW",
     "category": "company",
@@ -1505,10 +1929,26 @@
     "status": "pending"
   },
   {
+    "id": "newton-media",
+    "name": "Newton Media",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "newtonone",
     "name": "NewtonOne",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "nn",
+    "name": "NN",
+    "category": "company",
+    "source": "other",
     "cnaip_url": null,
     "status": "pending"
   },
@@ -1533,6 +1973,46 @@
     "name": "NUM solution",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "o2",
+    "name": "O2",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "oaks-lab",
+    "name": "OAK'S LAB",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "oddeleni-cogsys",
+    "name": "Oddělení kognitivních systémů a neurověd (COGSYS)",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "oddeleni-prumysl",
+    "name": "Oddělení průmyslové výroby a automatizace",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "oddeleni-umele-int",
+    "name": "Oddělení umělé inteligence",
+    "category": "research_group",
+    "source": "other",
     "cnaip_url": null,
     "status": "pending"
   },
@@ -1649,6 +2129,14 @@
     "status": "pending"
   },
   {
+    "id": "processand",
+    "name": "Processand",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "product-fruits",
     "name": "Product Fruits",
     "category": "company",
@@ -1729,10 +2217,34 @@
     "status": "pending"
   },
   {
+    "id": "racemake",
+    "name": "RACEMAKE",
+    "category": "company",
+    "source": "startupjobs",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "raiffeisenbank",
+    "name": "Raiffeisenbank",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "rapidsos",
     "name": "RapidSOS",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "ravenpack",
+    "name": "RavenPack",
+    "category": "company",
+    "source": "other",
     "cnaip_url": null,
     "status": "pending"
   },
@@ -1745,10 +2257,26 @@
     "status": "pending"
   },
   {
+    "id": "raynet",
+    "name": "Raynet",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "recombee",
     "name": "Recombee",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "recombeelab",
+    "name": "RecombeeLab",
+    "category": "research_group",
+    "source": "other",
     "cnaip_url": null,
     "status": "pending"
   },
@@ -1765,6 +2293,14 @@
     "name": "Rekenber",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "renomia",
+    "name": "RENOMIA",
+    "category": "company",
+    "source": "other",
     "cnaip_url": null,
     "status": "pending"
   },
@@ -1801,6 +2337,14 @@
     "status": "pending"
   },
   {
+    "id": "roboagelab",
+    "name": "Laboratoř robotických agentů (RoboAgeLab)",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "robopipe",
     "name": "Robopipe",
     "category": "company",
@@ -1813,6 +2357,14 @@
     "name": "ROBOSALES.AI",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "robotic-perception",
+    "name": "Robotic Perception Group",
+    "category": "research_group",
+    "source": "other",
     "cnaip_url": null,
     "status": "pending"
   },
@@ -1853,6 +2405,14 @@
     "name": "SAP",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "sbc-performance",
+    "name": "SBC Performance",
+    "category": "company",
+    "source": "other",
     "cnaip_url": null,
     "status": "pending"
   },
@@ -1909,6 +2469,22 @@
     "name": "Siesta AI",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "similarweb",
+    "name": "SimilarWeb",
+    "category": "company",
+    "source": "manual",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "skoda-auto",
+    "name": "ŠKODA AUTO",
+    "category": "company",
+    "source": "other",
     "cnaip_url": null,
     "status": "pending"
   },
@@ -1993,10 +2569,34 @@
     "status": "pending"
   },
   {
+    "id": "spatial-intelligence",
+    "name": "Spatial Intelligence Group",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "still-lab",
+    "name": "System Testing IntelLigent Lab (STILL)",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "stock-story",
     "name": "Stock Story",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "stratosphere-lab",
+    "name": "Stratosphere Laboratory",
+    "category": "research_group",
+    "source": "other",
     "cnaip_url": null,
     "status": "pending"
   },
@@ -2013,6 +2613,14 @@
     "name": "Strojové učení",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "structural-bioinfo",
+    "name": "Structural Bioinformatics Group",
+    "category": "research_group",
+    "source": "other",
     "cnaip_url": null,
     "status": "pending"
   },
@@ -2105,6 +2713,14 @@
     "status": "pending"
   },
   {
+    "id": "tipsport",
+    "name": "Tipsport",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "tolion-health",
     "name": "TOLION Health",
     "category": "company",
@@ -2137,6 +2753,54 @@
     "status": "pending"
   },
   {
+    "id": "troja-robotic-lab",
+    "name": "Troja Robotic Lab",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "u12137-machine-vis",
+    "name": "U12137 Machine Vision Lab",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "ufal-ai-v-kontextu",
+    "name": "ÚFAL AI v kontextu",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "ufal-dialog-systemy",
+    "name": "ÚFAL Skupina dialogových systémů",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "ufal-multilinguality",
+    "name": "UFAL Multilinguality Group",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "ufal-text-speech",
+    "name": "UFAL Text and Speech Translation Group",
+    "category": "research_group",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "umotional",
     "name": "Umotional",
     "category": "company",
@@ -2149,6 +2813,14 @@
     "name": "Upheal",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "ustav-vyrob-stroju",
+    "name": "Ústav výrobních strojů a zařízení",
+    "category": "research_group",
+    "source": "other",
     "cnaip_url": null,
     "status": "pending"
   },
@@ -2217,10 +2889,26 @@
     "status": "pending"
   },
   {
+    "id": "vodafone",
+    "name": "Vodafone",
+    "category": "company",
+    "source": "other",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
     "id": "vyslovuj-cz",
     "name": "Vyslovuj.cz",
     "category": "company",
     "source": "cnaip",
+    "cnaip_url": null,
+    "status": "pending"
+  },
+  {
+    "id": "waypoint-ai",
+    "name": "Waypoint AI",
+    "category": "company",
+    "source": "manual",
     "cnaip_url": null,
     "status": "pending"
   },
@@ -2305,286 +2993,6 @@
     "status": "pending"
   },
   {
-    "id": "zoe-ai",
-    "name": "Zoe AI",
-    "category": "company",
-    "source": "cnaip",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "ceske-radiokom",
-    "name": "České Radiokomunikace",
-    "category": "company",
-    "source": "cnaip",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "2n-telekomunikace",
-    "name": "2N TELEKOMUNIKACE",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "arbo-technologies",
-    "name": "ARBO Technologies",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "accenture",
-    "name": "Accenture",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "amazon",
-    "name": "Amazon",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "apple",
-    "name": "Apple",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "avvoka",
-    "name": "Avvoka",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "barclays",
-    "name": "Barclays",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "cetin",
-    "name": "CETIN",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "cloudtalk",
-    "name": "CloudTalk",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "custom-ink",
-    "name": "Custom Ink",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "diribet",
-    "name": "Diribet",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "eset",
-    "name": "ESET",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "filevine",
-    "name": "Filevine",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "futugen",
-    "name": "FutuGen",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "gen-digital",
-    "name": "Gen Digital",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "google",
-    "name": "Google",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "isee-ai",
-    "name": "ISEE AI",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "kooperativa",
-    "name": "Kooperativa",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "kosik-cz",
-    "name": "Košík.cz",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "livesport",
-    "name": "Livesport",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "msd",
-    "name": "MSD",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "microsoft",
-    "name": "Microsoft",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "nn",
-    "name": "NN",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "newton-media",
-    "name": "Newton Media",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "o2",
-    "name": "O2",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "processand",
-    "name": "Processand",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "renomia",
-    "name": "RENOMIA",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "raiffeisenbank",
-    "name": "Raiffeisenbank",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "ravenpack",
-    "name": "RavenPack",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "raynet",
-    "name": "Raynet",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "sbc-performance",
-    "name": "SBC Performance",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "tipsport",
-    "name": "Tipsport",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "vodafone",
-    "name": "Vodafone",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
     "id": "zentiva",
     "name": "Zentiva",
     "category": "company",
@@ -2593,386 +3001,10 @@
     "status": "pending"
   },
   {
-    "id": "cez-trading",
-    "name": "ČEZ Trading",
+    "id": "zoe-ai",
+    "name": "Zoe AI",
     "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "csob",
-    "name": "ČSOB",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "ceska-sporitelna",
-    "name": "Česká spořitelna",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "skoda-auto",
-    "name": "ŠKODA AUTO",
-    "category": "company",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "adaptive-data-mgmt",
-    "name": "Adaptive Data Management Research Group",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "ai-institute",
-    "name": "AI Institute",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "ai-inst-transform",
-    "name": "AI Institutional Transformation Research Group",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "aic-optimalizace",
-    "name": "AIC Optimalizace",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "aic-strojove-uceni",
-    "name": "AIC Strojové učení",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "aic-teorie-her",
-    "name": "AIC Teorie her",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "alignment-complex",
-    "name": "Alignment of Complex Systems Research Group",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "atlas-group",
-    "name": "ATLAS GROUP",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "automotive-rd-lab",
-    "name": "Automotive R&D 4.0 LAB",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "behavio-labs",
-    "name": "Behavio Labs",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "centrum-karla-capka",
-    "name": "Centrum Karla Čapka",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "comp-psychometrics",
-    "name": "Computational Psychometrics Group",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "flo-group",
-    "name": "FLO Group",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "katedra-siret",
-    "name": "Katedra softwarového inženýrství (SIRET)",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "lab-chronorobotiky",
-    "name": "Laboratoř chronorobotiky",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "lab-limess",
-    "name": "Laboratoř LIMESS",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "lab-sitovy-provoz",
-    "name": "Laboratoř monitorování síťového provozu",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "roboagelab",
-    "name": "Laboratoř robotických agentů (RoboAgeLab)",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "ml-cig",
-    "name": "Machine Learning and Computational Intelligence Group (ML-CIG)",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "mendeor-institute",
-    "name": "Mendeor Institute",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "neurona-lab",
-    "name": "Neurona Lab",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "oaks-lab",
-    "name": "OAK'S LAB",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "oddeleni-cogsys",
-    "name": "Oddělení kognitivních systémů a neurověd (COGSYS)",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "oddeleni-prumysl",
-    "name": "Oddělení průmyslové výroby a automatizace",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "oddeleni-umele-int",
-    "name": "Oddělení umělé inteligence",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "recombeelab",
-    "name": "RecombeeLab",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "robotic-perception",
-    "name": "Robotic Perception Group",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "spatial-intelligence",
-    "name": "Spatial Intelligence Group",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "stratosphere-lab",
-    "name": "Stratosphere Laboratory",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "structural-bioinfo",
-    "name": "Structural Bioinformatics Group",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "still-lab",
-    "name": "System Testing IntelLigent Lab (STILL)",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "troja-robotic-lab",
-    "name": "Troja Robotic Lab",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "u12137-machine-vis",
-    "name": "U12137 Machine Vision Lab",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "ufal-multilinguality",
-    "name": "UFAL Multilinguality Group",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "ufal-text-speech",
-    "name": "UFAL Text and Speech Translation Group",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "ufal-ai-v-kontextu",
-    "name": "ÚFAL AI v kontextu",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "ufal-dialog-systemy",
-    "name": "ÚFAL Skupina dialogových systémů",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "ustav-vyrob-stroju",
-    "name": "Ústav výrobních strojů a zařízení",
-    "category": "research_group",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "advokatni-asoc-ai",
-    "name": "Advokátní asociace pro AI",
-    "category": "initiative",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "ai-detem",
-    "name": "AI dětem",
-    "category": "initiative",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "czechitas",
-    "name": "Czechitas",
-    "category": "initiative",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "muzeum-prahy",
-    "name": "Muzeum Prahy",
-    "category": "initiative",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "ceska-asoc-ai",
-    "name": "Česká asociace umělé inteligence",
-    "category": "initiative",
-    "source": "other",
-    "cnaip_url": null,
-    "status": "pending"
-  },
-  {
-    "id": "cnaip",
-    "name": "Česká národní AI platforma",
-    "category": "initiative",
-    "source": "other",
+    "source": "cnaip",
     "cnaip_url": null,
     "status": "pending"
   }
