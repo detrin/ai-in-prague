@@ -1,0 +1,120 @@
+{
+  "id": "g2oat",
+  "name": "Grafy hry optimalizace algoritmy teoretická informatika (G²OAT)",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Theoretical computer science research group at FIT ČVUT focusing on discrete optimization, graph algorithms, and computational social choice",
+    "description_long": "G²OAT (Graphs, Games, Optimization, Algorithms, and Theoretical Computer Science) is a research group in the Department of Theoretical Computer Science at the Faculty of Information Technology, Czech Technical University in Prague (FIT ČVUT). The group focuses on research in discrete optimization, specifically computational and combinatorial problems arising in graph theory, game mechanisms, cooperative and non-cooperative games, and computational social choice theory. Members design exact polynomial, parameterized, moderately exponential and approximation algorithms, and present lower bounds for time complexity using classical and parameterized complexity theory, graph theory, and integer linear programming.",
+    "tagline": "Discrete optimization through graphs, games, and algorithms",
+    "website": "https://ggoat.fit.cvut.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "research",
+    "ai_focus": ["other"],
+    "industries_served": ["science_and_research", "academia"],
+    "company_type": "research_lab",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 2017,
+    "founders": ["Ondřej Suchý"],
+    "origin_story": "Research group within the Department of Theoretical Computer Science at FIT ČVUT Prague. The earliest documented project (Tight Parameterized Results for Directed Connectivity Problems, Czech Science Foundation) ran from 2017–2019, indicating the group was established around that time.",
+    "key_milestones": [
+      {"year": 2017, "event": "First Czech Science Foundation standard project (parameterized graph algorithms)"},
+      {"year": 2020, "event": "Joined the EU-funded Research Center for Informatics (RCI) at ČVUT"},
+      {"year": 2022, "event": "Czech Science Foundation project: New Frontiers in Computational Social Choice (Dušan Knop, PI)"},
+      {"year": 2023, "event": "Czech Science Foundation Junior Star grant: Extremal and Probabilistic Combinatorics (Jan Volec, PI)"},
+      {"year": 2024, "event": "EU MSCA Postdoc project Algacom awarded (Tomáš Jakl, PI)"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": "Faculty of Information Technology, Czech Technical University in Prague (ČVUT FIT)",
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Ondřej Suchý", "role": "Head of Group", "source": "company_website"}
+    ],
+    "notable_people": [
+      {"name": "Dušan Knop", "role": "Researcher (FPT algorithms, social choice, game theory)", "source": "company_website"},
+      {"name": "Tomáš Valla", "role": "Researcher (combinatorics, algorithmic game theory)", "source": "company_website"},
+      {"name": "Jan Volec", "role": "Researcher (extremal and probabilistic combinatorics)", "source": "company_website"},
+      {"name": "Michal Opler", "role": "Researcher (parameterized complexity, graph theory)", "source": "company_website"},
+      {"name": "Maria Saumell", "role": "Researcher (computational geometry, combinatorics)", "source": "company_website"},
+      {"name": "Tomáš Jakl", "role": "Researcher (game comonads, modal logics)", "source": "company_website"}
+    ]
+  },
+
+  "careers": {
+    "careers_url": "https://ggoat.fit.cvut.cz/members.html",
+    "open_roles_count": null,
+    "open_roles": [
+      {"title": "Postdoctoral Researcher", "department": "research", "location": "Prague"}
+    ],
+    "tech_stack": ["algorithms", "integer_linear_programming", "combinatorics", "complexity_theory"],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": [
+      "Czech Science Foundation (GAČR)",
+      "EU Horizon Europe / MSCA",
+      "Research Center for Informatics (RCI) at ČVUT"
+    ]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "Academic research group — not a commercial entity and not subject to AGI displacement risk.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "Research group funded by grants (Czech Science Foundation, EU MSCA) — not exposed to commercial market risk.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "Grant-funded academic group within ČVUT FIT; funding comes from Czech Science Foundation and EU programs, not venture capital.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "All risk categories not applicable — G²OAT is a publicly funded academic research group within a leading Czech technical university."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "search_snippets"],
+    "fields_missing": ["founded_year_exact", "employees_exact", "open_roles_count", "glassdoor"],
+    "needs_review": false,
+    "notes": "G²OAT is indexed as 'company' in the catalog but is an academic research group within FIT ČVUT (Czech Technical University in Prague), Department of Theoretical Computer Science. No CNAIP URL was available. Focus is on theoretical CS / discrete optimization — not applied AI/ML in the commercial sense, though research touches on algorithm design relevant to AI (game theory, social choice, combinatorics). Group address: Thákurova 7, 160 00 Prague 6. Contact: ondrej.suchy@fit.cvut.cz. Website uses domain ggoat (not g2oat) — note spelling difference. Founded year estimated as 2017 based on first documented GAČR project."
+  }
+}
