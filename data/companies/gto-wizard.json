@@ -1,0 +1,110 @@
+{
+  "id": "gto-wizard",
+  "name": "GTO Wizard",
+  "category": "company",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "AI-powered poker training platform offering GTO solver, strategy trainer, and hand history analysis",
+    "description_long": "GTO Wizard (legal entity: amagama s.r.o.) is the world's leading poker education platform, built around an AI-powered Game Theory Optimal solver. The platform hosts over 10 million pre-solved poker scenarios and enables players to study any spot from preflop to river, practice with an interactive trainer, analyze hand histories, and compete via PokerArena. GTO Wizard also provides game integrity services to online poker networks, using AI to detect and prevent cheating. The company operates fully remote with a global team headquartered in Prague.",
+    "tagline": "The #1 App for Poker Players",
+    "website": "https://gtowizard.com",
+    "cnaip_url": "https://cnaip.cz/en/entity/gto-wizard"
+  },
+
+  "classification": {
+    "business_type": "b2c_saas",
+    "ai_focus": ["ml_ops", "recommendation", "other"],
+    "industries_served": ["gaming", "entertainment", "education"],
+    "company_type": "startup",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": 2020,
+    "founders": ["Matt Chmelo"],
+    "origin_story": "Founded in 2020 by Matt Chmelo, frustrated by unintuitive and inaccessible poker study tools. Became the #1 used poker study tool within the first year.",
+    "key_milestones": [
+      {"year": 2020, "event": "Founded in Prague as amagama s.r.o."},
+      {"year": 2021, "event": "Became #1 used poker study tool"},
+      {"year": 2022, "event": "Expanded global presence, partnered with prestigious poker events including WSOP"},
+      {"year": 2023, "event": "Launched GTO Wizard AI (custom real-time AI solver); became official strategy partner of PokerGO and the PGT"},
+      {"year": 2024, "event": "Opened GTO Wizard Lounge in Japan; expanded integrity partnerships with poker operators"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "51-200",
+    "employees_exact": null,
+    "employee_source": "himalayas_profile",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "freemium"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Matt Chmelo", "role": "Founder & CEO", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": "https://gtowizard.com/careers",
+    "open_roles_count": 2,
+    "open_roles": [
+      {"title": "Machine Learning Researcher", "department": "engineering", "location": "remote"},
+      {"title": "Paid Campaigns Manager", "department": "marketing", "location": "remote"}
+    ],
+    "tech_stack": ["python", "reinforcement_learning", "game_theory", "ai_solvers"],
+    "hiring_signals": "few_roles"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": "https://www.glassdoor.com/Overview/Working-at-GTO-Wizard-EI_IE10338650.11,21.htm"
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["PokerGO", "PGT (Poker Goes Tour)", "World Series of Poker (WSOP)"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "medium",
+    "agi_displacement_rationale": "GTO Wizard's core value is a proprietary high-performance GTO solver with 10M+ pre-solved scenarios and a training ecosystem, providing some moat. However, game-theory solvers are technically well-understood and advanced AI/LLM systems could commoditize poker strategy advice, though real-time interactive training and integrity checking provide differentiation.",
+    "market_risk": "medium",
+    "market_risk_rationale": "The poker training market is a niche vertical with a passionate but relatively small addressable audience of serious poker players. GTO Wizard dominates this niche as the #1 tool, but growth is constrained by the overall poker player population and competition from established tools like PioSolver.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "No known external funding rounds — appears to be bootstrapped or self-funded. The company has paying subscribers across multiple tiers (Free, Starter $39/mo, Premium, Elite, Ultra) and appears revenue-generating, but without disclosed financials the runway and sustainability are uncertain.",
+    "overall_risk": "medium",
+    "overall_risk_rationale": "GTO Wizard is a profitable-seeming bootstrapped SaaS in a niche but loyal market. The risk is moderate: strong brand and product moat within poker, but limited market size and potential AI commoditization of game-theory analysis over the long term."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "cnaip", "himalayas", "brave_search"],
+    "fields_missing": ["funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "employees_exact"],
+    "needs_review": false,
+    "notes": "Founded year discrepancy: CNAIP says 2021, company careers page and Himalayas say 2020 — using 2020 as per primary sources. LinkedIn shows 11-50 employees while Himalayas shows 51-200; used 51-200 (Himalayas) as likely more up-to-date. No known external funding found. Fully remote company with HQ address at Kaprova 42/14, 110 00 Praha."
+  }
+}
