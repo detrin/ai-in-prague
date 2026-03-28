@@ -1,0 +1,108 @@
+{
+  "id": "cnaip",
+  "name": "Česká národní AI platforma",
+  "category": "initiative",
+  "scraped_at": "2026-03-28T12:00:00Z",
+
+  "overview": {
+    "description": "Czech National AI Platform — a joint initiative connecting the Czech AI ecosystem",
+    "description_long": "CNAIP (Česká Národní AI Platforma) was established as a joint initiative of public, private, and academic sectors in Czechia. Its mission is to build and grow the Czech AI ecosystem by connecting everyone working with artificial intelligence in the country. CNAIP promotes AI integration into practice, advocates for sensible AI legislation, maintains a map of 454+ Czech AI entities, publishes AI case studies, organises the Days of AI festival (Dny AI — the largest AI festival in Czechia) and presents the AI Awards — the only professional AI award in the Czech Republic.",
+    "tagline": "We are powering AI collaboration in Czechia",
+    "website": "https://www.cnaip.cz",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "other",
+    "ai_focus": ["other"],
+    "industries_served": ["cross-sector"],
+    "company_type": "nonprofit",
+    "is_ai_native": true
+  },
+
+  "history": {
+    "founded_year": null,
+    "founders": [],
+    "origin_story": "Established as a joint initiative of public, private, and academic sectors in Czechia to build and grow the Czech AI ecosystem.",
+    "key_milestones": [
+      {"year": null, "event": "Founded as cross-sector Czech AI coordination platform"},
+      {"year": 2025, "event": "AI Awards 2025 held — the only professional AI award in Czechia"},
+      {"year": 2026, "event": "454 entities mapped on Czech AI map, 72 case studies published"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "1-10",
+    "employees_exact": 7,
+    "employee_source": "company_website",
+    "office_count": 1
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Lenka Kučerová", "role": "Team member (prg.ai)", "source": "company_website"},
+      {"name": "Anna Hroudová", "role": "Team member (SPČR / Confederation of Industry)", "source": "company_website"},
+      {"name": "Jan Bárta", "role": "Team member (Brno AI)", "source": "company_website"},
+      {"name": "Zdeněk Havel", "role": "Team member (CzechInvest)", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": ["AI Awards 2025 organiser"],
+    "notable_clients": [],
+    "customer_count": null,
+    "partnerships": ["prg.ai", "Svaz průmyslu a dopravy ČR", "Brno AI", "CzechInvest"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "not_applicable",
+    "agi_displacement_rationale": "CNAIP is a nonprofit coordination initiative and ecosystem platform, not a commercial AI product or service. AGI displacement risk does not apply.",
+    "market_risk": "not_applicable",
+    "market_risk_rationale": "As an industry coordination platform rather than a market participant, conventional market risk assessment does not apply.",
+    "funding_risk": "not_applicable",
+    "funding_risk_rationale": "CNAIP is a joint public-private-academic initiative with founding members including CzechInvest (state agency) and the Confederation of Industry of the CR. It is not a venture-backed company subject to runway risk.",
+    "overall_risk": "not_applicable",
+    "overall_risk_rationale": "CNAIP is a nonprofit coordination initiative backed by major national institutions. Risk framework for commercial companies does not apply."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website"],
+    "fields_missing": ["founded_year", "funding_total_usd", "revenue_estimate_usd", "glassdoor_rating", "careers_url"],
+    "needs_review": false,
+    "notes": "CNAIP is an industry coordination initiative / nonprofit, not a commercial company. Founding year not stated on website. Team has 7 members (4 named + 3 omitted in snapshot). Founding members include prg.ai, Confederation of Industry (SPČR), Brno AI, CzechInvest, and 3 others not visible in snapshot. Key initiatives: Dny AI (Days of AI festival) and AI Awards. Maintains a map of 454+ Czech AI entities."
+  }
+}
