@@ -22,6 +22,7 @@
   }
   #search:focus { outline: none; border-color: #4fa3e0; }
   #node-count { color: #555; font-size: 12px; margin-left: auto; }
+  #edge-cap-warn { color: #d97706; font-size: 11px; display: none; }
 
   #left-panel {
     position: fixed; top: 48px; left: 0; width: 220px; bottom: 0;
@@ -125,13 +126,14 @@
   <h1>Prague AI Graph</h1>
   <input id="search" type="text" placeholder="Search companies...">
   <span id="node-count"></span>
+  <span id="edge-cap-warn">⚠ edge limit reached — raise min-weight or disable AI focus</span>
 </div>
 
 <!-- Left filter panel -->
 <div id="left-panel">
   <div class="filter-group">
     <div class="filter-label">Edge types</div>
-    <label class="edge-toggle"><input type="checkbox" id="toggle-ai_focus" checked>
+    <label class="edge-toggle"><input type="checkbox" id="toggle-ai_focus">
       <span class="color-dot" style="background:#4fa3e0"></span>AI focus</label>
     <label class="edge-toggle"><input type="checkbox" id="toggle-investor" checked>
       <span class="color-dot" style="background:#f5a623"></span>Investors</label>
@@ -142,8 +144,8 @@
   </div>
 
   <div class="filter-group">
-    <div class="filter-label">Min shared tags <span id="min-weight-val">2</span></div>
-    <input type="range" id="min-weight" class="filter-range" min="1" max="5" value="2">
+    <div class="filter-label">Min shared tags <span id="min-weight-val">3</span></div>
+    <input type="range" id="min-weight" class="filter-range" min="1" max="5" value="3">
     <div class="range-row"><span>1</span><span>3</span><span>5</span></div>
   </div>
 
@@ -265,6 +267,8 @@ function initGraph() {
 
   const W = canvas.offsetWidth, H = canvas.offsetHeight;
   simulation = d3.forceSimulation()
+    .alphaDecay(0.03)
+    .alphaMin(0.005)
     .force('link', d3.forceLink().id(d => d.id).distance(60).strength(d => 0.1 + d.weight * 0.05))
     .force('charge', d3.forceManyBody().strength(-120))
     .force('center', d3.forceCenter(W / 2, H / 2))
@@ -440,7 +444,6 @@ function deselect() {
   linkSel.classed('dimmed', false);
   document.getElementById('canvas-area').classList.remove('panel-open');
   document.getElementById('right-panel').classList.remove('open');
-  simulation.alpha(0.3).restart();
 }
 
 document.getElementById('panel-close').addEventListener('click', deselect);
@@ -638,13 +641,27 @@ function applyFilters() {
 
   const activeNodeIds = new Set(activeNodes.map(n => n.id));
 
-  activeEdges = allEdges.filter(e => {
+  const MAX_EDGES = 2000;
+  let filteredEdges = allEdges.filter(e => {
     if (!activeTypes.includes(e.type)) return false;
     if (!activeNodeIds.has(e.source.id || e.source)) return false;
     if (!activeNodeIds.has(e.target.id || e.target)) return false;
     if (e.type !== 'investor' && e.type !== 'partnership' && e.weight < minWeight) return false;
     return true;
   });
+
+  // Sort by priority (partnership > investor > ai_focus/industry, then weight desc)
+  const typePriority = { partnership: 0, investor: 1, ai_focus: 2, industry: 3 };
+  if (filteredEdges.length > MAX_EDGES) {
+    filteredEdges.sort((a, b) =>
+      (typePriority[a.type] - typePriority[b.type]) || (b.weight - a.weight)
+    );
+    filteredEdges = filteredEdges.slice(0, MAX_EDGES);
+  }
+  activeEdges = filteredEdges;
+
+  const capWarn = document.getElementById('edge-cap-warn');
+  if (capWarn) capWarn.style.display = activeEdges.length === MAX_EDGES ? 'inline' : 'none';
 
   // Re-color nodes if needed
   if (nodeSel) nodeSel.select('circle').attr('fill', d => nodeColor(d));
