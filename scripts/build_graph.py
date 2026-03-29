@@ -170,3 +170,26 @@ def extract_edges(nodes: list[dict]) -> list[dict]:
                 )
 
     return edges
+
+
+def main() -> None:
+    """Entry point: read all companies, write docs/graph-data.json."""
+    print("Loading companies...")
+    companies = load_companies()
+    print(f"  {len(companies)} companies loaded")
+
+    nodes = extract_nodes(companies)
+    edges = extract_edges(nodes)
+
+    # Stats
+    by_type: dict[str, int] = {}
+    for e in edges:
+        by_type[e["type"]] = by_type.get(e["type"], 0) + 1
+    print(f"  {len(nodes)} nodes, {len(edges)} edges")
+    for t, count in sorted(by_type.items()):
+        print(f"    {t}: {count}")
+
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with OUTPUT.open("w") as f:
+        json.dump({"nodes": nodes, "edges": edges}, f, ensure_ascii=False)
+    print(f"Written: {OUTPUT}")
