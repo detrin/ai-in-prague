@@ -392,10 +392,10 @@ function showTooltip(event, d) {
   const tip = document.getElementById('tooltip');
   tip.style.display = 'block';
   tip.innerHTML = `
-    <h4>${d.name}</h4>
-    ${d.tagline ? `<div class="tip-sub">${d.tagline}</div>` : ''}
-    <div class="tip-tags">${(d.ai_focus||[]).map(f => `<span class="tip-tag">${f}</span>`).join('')}</div>
-    <div class="tip-meta">${d.company_type || ''} · risk: ${d.overall_risk || 'N/A'}</div>
+    <h4>${esc(d.name)}</h4>
+    ${d.tagline ? `<div class="tip-sub">${esc(d.tagline)}</div>` : ''}
+    <div class="tip-tags">${(d.ai_focus||[]).map(f => `<span class="tip-tag">${esc(f)}</span>`).join('')}</div>
+    <div class="tip-meta">${esc(d.company_type || '')} · risk: ${esc(d.overall_risk || 'N/A')}</div>
   `;
   moveTooltip(event);
 }
