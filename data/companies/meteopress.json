@@ -1,0 +1,112 @@
+{
+  "id": "meteopress",
+  "name": "Meteopress",
+  "category": "company",
+  "scraped_at": "2026-03-29T12:00:00Z",
+
+  "overview": {
+    "description": "Weather radar hardware and AI-powered meteorological software",
+    "description_long": "Meteopress (Meteopress spol. s.r.o.) is a Prague-based weather technology company founded in 1992. They build C-band solid state weather radars and AI-driven meteorological software, operating 74 radar projects across all continents protecting 262 million people. Their AIREN (AI Radar Enhancing & Nowcasting) product suite uses machine learning for severe weather detection, precipitation quantification, and short-term NWP forecasts. They also run meteopress.cz, a consumer weather platform for Czech and Slovak users. EU-funded projects include a revolutionary C-band solid state radar combined with an AI nowcasting ensembling system.",
+    "tagline": "We spot storms before they spot you",
+    "website": "https://www.meteopress.com",
+    "cnaip_url": null
+  },
+
+  "classification": {
+    "business_type": "enterprise_vendor",
+    "ai_focus": ["ml_ops", "other"],
+    "industries_served": ["meteorology", "aviation", "government", "defense", "climate"],
+    "company_type": "scaleup",
+    "is_ai_native": false
+  },
+
+  "history": {
+    "founded_year": 1992,
+    "founders": [],
+    "origin_story": "Founded in 1992 in Prague as a meteorological services company. Pivoted to radar hardware manufacturing around 2010 and launched their AI nowcasting AIREN platform in 2019.",
+    "key_milestones": [
+      {"year": 1992, "event": "Meteopress established"},
+      {"year": 2010, "event": "Radar project started"},
+      {"year": 2015, "event": "Meteosense — largest radar network in Europe (Croatia, Hungary, Austria, ...)"},
+      {"year": 2018, "event": "ZAMG/GeoSphere 5-radar project in Austria"},
+      {"year": 2019, "event": "AIREN — AI Radar Enhancing & Nowcasting launched"},
+      {"year": 2022, "event": "Brisbane Airport C-band solid state radar installed"},
+      {"year": 2023, "event": "MASEC mobile self-erecting containerized C-band radar unveiled, presented at ML Prague 2023"},
+      {"year": 2024, "event": "Radar deployed on every continent, Tonga solar-powered radar project"},
+      {"year": 2025, "event": "MeteoRover prototype, Meteo France test of C-band solid state radar"}
+    ]
+  },
+
+  "size": {
+    "employees_range": "11-50",
+    "employees_exact": null,
+    "employee_source": "inferred",
+    "office_count": 2
+  },
+
+  "offices": [
+    {"city": "Prague", "country": "CZ", "is_hq": true, "address": "V Holešovičkách 97/3, 182 00 Praha 8"},
+    {"city": "Chabařovice", "country": "CZ", "is_hq": false, "address": "Marie Kršňákové 175, 403 17 Chabařovice (TONARA)"}
+  ],
+
+  "financials": {
+    "publicly_traded": false,
+    "stock_ticker": null,
+    "stock_exchange": null,
+    "parent_company": null,
+    "funding_total_usd": null,
+    "funding_rounds": [],
+    "investors": [],
+    "revenue_estimate_usd": null,
+    "revenue_source": null,
+    "business_model": "other"
+  },
+
+  "team": {
+    "leadership": [
+      {"name": "Michal Najman", "role": "CEO", "source": "company_website"}
+    ],
+    "notable_people": []
+  },
+
+  "careers": {
+    "careers_url": null,
+    "open_roles_count": null,
+    "open_roles": [],
+    "tech_stack": [],
+    "hiring_signals": "unknown"
+  },
+
+  "glassdoor": {
+    "rating": null,
+    "review_count": null,
+    "recommend_pct": null,
+    "glassdoor_url": null
+  },
+
+  "recognition": {
+    "awards": [],
+    "notable_clients": ["Meteo France", "GeoSphere Austria", "Somar Meteorologia (Brazil)", "Kingdom of Tonga"],
+    "customer_count": null,
+    "partnerships": ["PRIMET"]
+  },
+
+  "risk_assessment": {
+    "agi_displacement": "low",
+    "agi_displacement_rationale": "Meteopress builds physical radar hardware and domain-specific meteorological AI software trained on proprietary radar data. Their value proposition is deeply embedded in hardware engineering, certified meteorological data pipelines, and long-term government/aviation contracts. Foundation models cannot replicate C-band solid state radar manufacturing or AIREN's specialized nowcasting models.",
+    "market_risk": "low",
+    "market_risk_rationale": "Weather radar infrastructure is critical national and aviation infrastructure with growing demand due to climate change. 74 global projects, deployments on every continent, and clients including national meteorological agencies indicate real, established demand. Not a hype-driven market.",
+    "funding_risk": "medium",
+    "funding_risk_rationale": "A 30+ year old bootstrapped Czech company with a hardware business model and EU project grants. Stable but likely operates at SME scale with project-based revenue rather than recurring SaaS — creating lumpy cash flow. No known VC backing or disclosed revenue.",
+    "overall_risk": "low",
+    "overall_risk_rationale": "Strong hardware moat, specialist AI software tied to proprietary radar data, 30+ years of operational history, and global client base across government/aviation sectors. Climate change tailwinds drive sustained demand for weather radar infrastructure."
+  },
+
+  "metadata": {
+    "data_quality": "medium",
+    "sources_used": ["company_website", "company_website_cz"],
+    "fields_missing": ["founders", "employees_exact", "funding_total_usd", "revenue_estimate_usd", "glassdoor"],
+    "needs_review": false,
+    "notes": "IČ: 47125381. Consumer site: meteopress.cz. Business/B2B site: meteopress.com. EU OP PIK grants for AI nowcasting and export expansion."
+  }
+}

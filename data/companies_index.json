@@ -1793,6 +1793,15 @@
     "status": "done"
   },
   {
+    "id": "meteopress",
+    "name": "Meteopress",
+    "category": "company",
+    "source": "manual",
+    "cnaip_url": null,
+    "website_url": "https://www.meteopress.com",
+    "status": "done"
+  },
+  {
     "id": "mendeor-institute",
     "name": "Mendeor Institute",
     "category": "research_group",
