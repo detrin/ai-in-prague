@@ -463,10 +463,19 @@ function openPanel(node, edges) {
   document.getElementById('panel-body').innerHTML = buildPanelHTML(node, connections);
 }
 
-function fmt(v) { return v != null ? String(v) : '—'; }
+function esc(s) {
+  if (s == null) return '';
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+function safeUrl(u) {
+  if (!u) return null;
+  const s = String(u);
+  return (s.startsWith('http://') || s.startsWith('https://')) ? s : null;
+}
+function fmt(v) { return v != null ? esc(String(v)) : '—'; }
 function fmtUSD(v) { if (!v) return '—'; return v >= 1e9 ? `$${(v/1e9).toFixed(1)}B` : v >= 1e6 ? `$${(v/1e6).toFixed(1)}M` : `$${v.toLocaleString()}`; }
-function riskBadge(r) { return `<span class="risk-badge ${r||'not_applicable'}">${(r||'N/A').toUpperCase().replace('_',' ')}</span>`; }
-function tags(arr, cls='') { return (arr||[]).map(t => `<span class="tag ${cls}">${t}</span>`).join(''); }
+function riskBadge(r) { return `<span class="risk-badge ${esc(r||'not_applicable')}">${esc((r||'N/A').toUpperCase().replace('_',' '))}</span>`; }
+function tags(arr, cls='') { return (arr||[]).map(t => `<span class="tag ${cls}">${esc(t)}</span>`).join(''); }
 
 function buildPanelHTML(n, connections) {
   const hq = (n.offices||[]).find(o => o.is_hq) || n.offices[0] || {};
@@ -476,14 +485,14 @@ function buildPanelHTML(n, connections) {
 
   // Overview
   if (n.description_long) {
-    html += `<div class="panel-section"><h3>Overview</h3><p>${n.description_long}</p></div><hr class="panel-divider">`;
+    html += `<div class="panel-section"><h3>Overview</h3><p>${esc(n.description_long)}</p></div><hr class="panel-divider">`;
   }
 
   // Classification
   html += `<div class="panel-section"><h3>Classification</h3>
     <div class="tag-row" style="margin-bottom:6px">${tags(n.ai_focus)}</div>
     <table class="kv-table">
-      <tr><td>Industries</td><td>${(n.industries_served||[]).join(' · ') || '—'}</td></tr>
+      <tr><td>Industries</td><td>${(n.industries_served||[]).map(esc).join(' · ') || '—'}</td></tr>
       <tr><td>Type</td><td>${fmt(n.business_type)} · ${fmt(n.company_type)}</td></tr>
       <tr><td>AI Native</td><td>${n.is_ai_native ? '✓ Yes' : 'No'}</td></tr>
     </table>
@@ -498,8 +507,8 @@ function buildPanelHTML(n, connections) {
       <tr><td>Other offices</td><td>${otherOffices}</td></tr>
       <tr><td>Model</td><td>${fmt(n.business_model)}</td></tr>
       <tr><td>Public</td><td>${n.publicly_traded ? '✓ Yes' : 'No'}</td></tr>
-      ${n.stock_ticker ? `<tr><td>Ticker</td><td>${n.stock_ticker}</td></tr>` : ''}
-      ${n.parent_company ? `<tr><td>Parent</td><td>${n.parent_company}</td></tr>` : ''}
+      ${n.stock_ticker ? `<tr><td>Ticker</td><td>${esc(n.stock_ticker)}</td></tr>` : ''}
+      ${n.parent_company ? `<tr><td>Parent</td><td>${esc(n.parent_company)}</td></tr>` : ''}
     </table>
   </div><hr class="panel-divider">`;
 
@@ -507,16 +516,16 @@ function buildPanelHTML(n, connections) {
   let fundingRows = '';
   for (const r of (n.funding_rounds||[])) {
     fundingRows += `<tr>
-      <td>${r.date||'—'}</td>
-      <td>${r.type||'—'}</td>
+      <td>${esc(r.date)||'—'}</td>
+      <td>${esc(r.type)||'—'}</td>
       <td>${r.amount_usd ? fmtUSD(r.amount_usd) : '—'}</td>
-      <td style="color:#888">${r.lead_investor||''}</td>
+      <td style="color:#888">${esc(r.lead_investor)||''}</td>
     </tr>`;
   }
   html += `<div class="panel-section"><h3>Financials</h3>
     <table class="kv-table" style="margin-bottom:6px">
       <tr><td>Total raised</td><td>${fmtUSD(n.funding_total_usd)}</td></tr>
-      <tr><td>Investors</td><td>${(n.investors||[]).join(', ') || '—'}</td></tr>
+      <tr><td>Investors</td><td>${(n.investors||[]).map(esc).join(', ') || '—'}</td></tr>
     </table>
     ${fundingRows ? `<table style="width:100%;font-size:11px;border-collapse:collapse;color:#888">
       <tr style="color:#555;font-size:10px"><td>Date</td><td>Type</td><td>Amount</td><td>Lead</td></tr>
@@ -525,16 +534,16 @@ function buildPanelHTML(n, connections) {
   </div><hr class="panel-divider">`;
 
   // History
-  const milestones = (n.key_milestones||[]).map(m => `<li>${m.year}: ${m.event}</li>`).join('');
+  const milestones = (n.key_milestones||[]).map(m => `<li>${esc(m.year)}: ${esc(m.event)}</li>`).join('');
   html += `<div class="panel-section"><h3>History &amp; Founders</h3>
-    ${n.founders?.length ? `<p style="margin-bottom:4px">${n.founders.join(', ')}</p>` : ''}
-    ${n.origin_story ? `<p style="margin-bottom:6px">${n.origin_story}</p>` : ''}
+    ${n.founders?.length ? `<p style="margin-bottom:4px">${n.founders.map(esc).join(', ')}</p>` : ''}
+    ${n.origin_story ? `<p style="margin-bottom:6px">${esc(n.origin_story)}</p>` : ''}
     ${milestones ? `<ul style="margin-left:14px;font-size:11px;color:#888">${milestones}</ul>` : ''}
   </div><hr class="panel-divider">`;
 
   // Leadership
-  const leaders = (n.leadership||[]).map(l => `<tr><td>${l.name}</td><td style="color:#888">${l.role}</td></tr>`).join('');
-  const notable = (n.notable_people||[]).map(l => `<tr><td>${l.name}</td><td style="color:#888">${l.role}</td></tr>`).join('');
+  const leaders = (n.leadership||[]).map(l => `<tr><td>${esc(l.name)}</td><td style="color:#888">${esc(l.role)}</td></tr>`).join('');
+  const notable = (n.notable_people||[]).map(l => `<tr><td>${esc(l.name)}</td><td style="color:#888">${esc(l.role)}</td></tr>`).join('');
   if (leaders || notable) {
     html += `<div class="panel-section"><h3>Leadership</h3>
       <table class="kv-table">${leaders}${notable}</table>
@@ -542,12 +551,12 @@ function buildPanelHTML(n, connections) {
   }
 
   // Careers
-  const rolesList = (n.open_roles||[]).slice(0, 8).map(r => `<li>${r.title}</li>`).join('');
+  const rolesList = (n.open_roles||[]).slice(0, 8).map(r => `<li>${esc(r.title)}</li>`).join('');
   html += `<div class="panel-section"><h3>Careers</h3>
     <table class="kv-table" style="margin-bottom:6px">
       <tr><td>Hiring</td><td>${fmt(n.hiring_signals)}</td></tr>
       <tr><td>Open roles</td><td>${fmt(n.open_roles_count)}</td></tr>
-      ${n.careers_url ? `<tr><td>URL</td><td><a href="${n.careers_url}" target="_blank" style="color:#4fa3e0">${n.careers_url}</a></td></tr>` : ''}
+      ${safeUrl(n.careers_url) ? `<tr><td>URL</td><td><a href="${esc(safeUrl(n.careers_url))}" target="_blank" style="color:#4fa3e0">${esc(n.careers_url)}</a></td></tr>` : ''}
     </table>
     <div class="tag-row" style="margin-bottom:${rolesList ? '6px' : '0'}">${tags(n.tech_stack, 'green')}</div>
     ${rolesList ? `<ul style="margin-left:14px;font-size:11px;color:#888">${rolesList}</ul>` : ''}
@@ -560,29 +569,29 @@ function buildPanelHTML(n, connections) {
         ${n.glassdoor_rating != null ? `<tr><td>Rating</td><td>${n.glassdoor_rating} ★</td></tr>` : ''}
         ${n.glassdoor_reviews != null ? `<tr><td>Reviews</td><td>${n.glassdoor_reviews}</td></tr>` : ''}
         ${n.glassdoor_recommend != null ? `<tr><td>Recommend</td><td>${n.glassdoor_recommend}%</td></tr>` : ''}
-        ${n.glassdoor_url ? `<tr><td>URL</td><td><a href="${n.glassdoor_url}" target="_blank" style="color:#4fa3e0">glassdoor.com</a></td></tr>` : ''}
+        ${safeUrl(n.glassdoor_url) ? `<tr><td>URL</td><td><a href="${esc(safeUrl(n.glassdoor_url))}" target="_blank" style="color:#4fa3e0">glassdoor.com</a></td></tr>` : ''}
       </table>
     </div><hr class="panel-divider">`;
   }
 
   // Recognition
-  const awards = (n.awards||[]).map(a => `<li>${a}</li>`).join('');
+  const awards = (n.awards||[]).map(a => `<li>${esc(a)}</li>`).join('');
   html += `<div class="panel-section"><h3>Recognition</h3>
     ${awards ? `<ul style="margin-left:14px;font-size:11px;color:#888;margin-bottom:6px">${awards}</ul>` : ''}
     <table class="kv-table">
       ${n.customer_count ? `<tr><td>Customers</td><td>${n.customer_count.toLocaleString()}</td></tr>` : ''}
-      ${n.notable_clients?.length ? `<tr><td>Clients</td><td>${n.notable_clients.join(', ')}</td></tr>` : ''}
-      ${n.partnerships?.length ? `<tr><td>Partners</td><td>${n.partnerships.join(', ')}</td></tr>` : ''}
+      ${n.notable_clients?.length ? `<tr><td>Clients</td><td>${n.notable_clients.map(esc).join(', ')}</td></tr>` : ''}
+      ${n.partnerships?.length ? `<tr><td>Partners</td><td>${n.partnerships.map(esc).join(', ')}</td></tr>` : ''}
     </table>
   </div><hr class="panel-divider">`;
 
   // Risk Assessment
   html += `<div class="panel-section"><h3>Risk Assessment</h3>
-    <div class="risk-row">${riskBadge(n.agi_displacement)}<span class="risk-rationale"><strong>AGI:</strong> ${n.agi_displacement_rationale||'—'}</span></div>
-    <div class="risk-row">${riskBadge(n.market_risk)}<span class="risk-rationale"><strong>Market:</strong> ${n.market_risk_rationale||'—'}</span></div>
-    <div class="risk-row">${riskBadge(n.funding_risk)}<span class="risk-rationale"><strong>Funding:</strong> ${n.funding_risk_rationale||'—'}</span></div>
+    <div class="risk-row">${riskBadge(n.agi_displacement)}<span class="risk-rationale"><strong>AGI:</strong> ${esc(n.agi_displacement_rationale)||'—'}</span></div>
+    <div class="risk-row">${riskBadge(n.market_risk)}<span class="risk-rationale"><strong>Market:</strong> ${esc(n.market_risk_rationale)||'—'}</span></div>
+    <div class="risk-row">${riskBadge(n.funding_risk)}<span class="risk-rationale"><strong>Funding:</strong> ${esc(n.funding_risk_rationale)||'—'}</span></div>
     <hr class="panel-divider" style="margin:4px 0">
-    <div class="risk-row">${riskBadge(n.overall_risk)}<span class="risk-rationale"><strong>Overall:</strong> ${n.overall_risk_rationale||'—'}</span></div>
+    <div class="risk-row">${riskBadge(n.overall_risk)}<span class="risk-rationale"><strong>Overall:</strong> ${esc(n.overall_risk_rationale)||'—'}</span></div>
   </div><hr class="panel-divider">`;
 
   // Graph Connections
@@ -596,7 +605,7 @@ function buildPanelHTML(n, connections) {
     for (const [type, names] of Object.entries(byType)) {
       connHTML += names.map(name =>
         `<div style="font-size:12px;color:#ccc;margin-bottom:2px">
-          <span class="conn-dot" style="background:${EDGE_COLORS[type]}"></span>${name}
+          <span class="conn-dot" style="background:${EDGE_COLORS[type]}"></span>${esc(name)}
           <span style="color:#555;font-size:10px">${type}</span>
         </div>`
       ).join('');
@@ -606,8 +615,8 @@ function buildPanelHTML(n, connections) {
 
   // Footer
   html += `<div class="panel-footer">
-    ${n.website ? `<a href="${n.website}" target="_blank">↗ ${n.website.replace(/^https?:\/\//, '')}</a>` : '<span></span>'}
-    <span>${n.data_quality || ''} · ${(n.scraped_at||'').slice(0,10)}</span>
+    ${safeUrl(n.website) ? `<a href="${esc(safeUrl(n.website))}" target="_blank">↗ ${esc(n.website.replace(/^https?:\/\//, ''))}</a>` : '<span></span>'}
+    <span>${esc(n.data_quality) || ''} · ${esc((n.scraped_at||'').slice(0,10))}</span>
   </div>`;
 
   return html;
@@ -645,6 +654,7 @@ function applyFilters() {
 
 // ── Search ────────────────────────────────────────────────────────────────────
 document.getElementById('search').addEventListener('input', function() {
+  if (!nodeSel) return;  // data not loaded yet
   const q = this.value.trim().toLowerCase();
   if (!q) {
     nodeSel.classed('dimmed', false).classed('highlighted', false);
