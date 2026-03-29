@@ -115,4 +115,58 @@ def extract_nodes(companies: list[dict]) -> list[dict]:
 
 
 def extract_edges(nodes: list[dict]) -> list[dict]:
-    raise NotImplementedError
+    """Extract edges between nodes based on shared attributes."""
+    edges = []
+
+    for i, a in enumerate(nodes):
+        for b in nodes[i + 1 :]:
+            # Shared AI focus
+            shared_focus = set(a["ai_focus"]) & set(b["ai_focus"])
+            if shared_focus:
+                edges.append(
+                    {
+                        "source": a["id"],
+                        "target": b["id"],
+                        "type": "ai_focus",
+                        "weight": len(shared_focus),
+                    }
+                )
+
+            # Shared investors
+            shared_inv = set(a["investors"]) & set(b["investors"])
+            if shared_inv:
+                edges.append(
+                    {
+                        "source": a["id"],
+                        "target": b["id"],
+                        "type": "investor",
+                        "weight": len(shared_inv),
+                    }
+                )
+
+            # Shared industries
+            shared_ind = set(a["industries_served"]) & set(b["industries_served"])
+            if shared_ind:
+                edges.append(
+                    {
+                        "source": a["id"],
+                        "target": b["id"],
+                        "type": "industry",
+                        "weight": len(shared_ind),
+                    }
+                )
+
+            # Explicit partnerships (case-insensitive name match)
+            a_partners = {p.lower() for p in a["partnerships"]}
+            b_partners = {p.lower() for p in b["partnerships"]}
+            if b["name"].lower() in a_partners or a["name"].lower() in b_partners:
+                edges.append(
+                    {
+                        "source": a["id"],
+                        "target": b["id"],
+                        "type": "partnership",
+                        "weight": 1,
+                    }
+                )
+
+    return edges

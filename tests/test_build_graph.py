@@ -1,4 +1,4 @@
-from scripts.build_graph import extract_nodes
+from scripts.build_graph import extract_nodes, extract_edges
 
 COMPANY_A = {
     "id": "alpha",
@@ -251,3 +251,93 @@ def test_extract_nodes_all_detail_fields_present():
         "notes",
     ]:
         assert field in node, f"Missing field: {field}"
+
+
+# --- Edge extraction tests ---
+
+
+def test_extract_edges_shared_ai_focus():
+    # alpha has [nlp, automation], beta has [nlp, cv] → 1 shared: nlp
+    nodes = extract_nodes([COMPANY_A, COMPANY_B])
+    edges = extract_edges(nodes)
+    ai_edges = [
+        e
+        for e in edges
+        if e["type"] == "ai_focus" and {e["source"], e["target"]} == {"alpha", "beta"}
+    ]
+    assert len(ai_edges) == 1
+    assert ai_edges[0]["weight"] == 1
+
+
+def test_extract_edges_shared_investor():
+    # both have Credo Ventures
+    nodes = extract_nodes([COMPANY_A, COMPANY_B])
+    edges = extract_edges(nodes)
+    inv_edges = [
+        e
+        for e in edges
+        if e["type"] == "investor" and {e["source"], e["target"]} == {"alpha", "beta"}
+    ]
+    assert len(inv_edges) == 1
+    assert inv_edges[0]["weight"] == 1
+
+
+def test_extract_edges_shared_industry():
+    # alpha has [finance, healthcare], beta has [healthcare, education] → 1 shared: healthcare
+    nodes = extract_nodes([COMPANY_A, COMPANY_B])
+    edges = extract_edges(nodes)
+    ind_edges = [
+        e
+        for e in edges
+        if e["type"] == "industry" and {e["source"], e["target"]} == {"alpha", "beta"}
+    ]
+    assert len(ind_edges) == 1
+    assert ind_edges[0]["weight"] == 1
+
+
+def test_extract_edges_partnership():
+    # beta.partnerships = ["Alpha Corp"] which matches COMPANY_A.name
+    nodes = extract_nodes([COMPANY_A, COMPANY_B])
+    edges = extract_edges(nodes)
+    part_edges = [
+        e
+        for e in edges
+        if e["type"] == "partnership"
+        and {e["source"], e["target"]} == {"alpha", "beta"}
+    ]
+    assert len(part_edges) == 1
+    assert part_edges[0]["weight"] == 1
+
+
+def test_extract_edges_no_self_loops():
+    nodes = extract_nodes([COMPANY_A])
+    edges = extract_edges(nodes)
+    assert all(e["source"] != e["target"] for e in edges)
+
+
+def test_extract_edges_no_duplicates():
+    nodes = extract_nodes([COMPANY_A, COMPANY_B])
+    edges = extract_edges(nodes)
+    # Each (source, target, type) pair should appear at most once
+    seen = set()
+    for e in edges:
+        key = (min(e["source"], e["target"]), max(e["source"], e["target"]), e["type"])
+        assert key not in seen, f"Duplicate edge: {key}"
+        seen.add(key)
+
+
+def test_extract_edges_weight_reflects_overlap():
+    # Make company_c with 2 shared ai_focus with company_a
+    company_c = {
+        **COMPANY_A,
+        "id": "gamma",
+        "name": "Gamma",
+        "classification": {
+            **COMPANY_A["classification"],
+            "ai_focus": ["nlp", "automation", "cv"],
+        },
+    }
+    nodes = extract_nodes([COMPANY_A, company_c])
+    edges = extract_edges(nodes)
+    ai_edges = [e for e in edges if e["type"] == "ai_focus"]
+    assert ai_edges[0]["weight"] == 2  # both nlp and automation shared
